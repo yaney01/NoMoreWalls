@@ -14,9 +14,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 0,12,13|🇺🇸|US|美国|@wxgqlfx|26
+  name: '0,12|github.com/freefq - 美国CloudFla... #8'
   network: ws
-  port: 80
+  port: '80'
   server: cname.volcengine.eu.org
   tls: false
   type: vmess
@@ -27,7 +27,7 @@ proxies:
     path: /centos/7.9.2009/isos/x86_64/CentOS-7-x86_64-Minimal-2009.iso
 - alterId: 0
   cipher: auto
-  name: '0,6,7|🇺🇸_US_美国->🇺🇦_UA_乌克兰 #5'
+  name: '0,7|🇺🇸_US_美国->🇺🇦_UA_乌克兰 #4'
   network: ws
   port: 80
   server: glasco.fx-trader.shop
@@ -54,7 +54,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '2,3,4,6,7,11,17|🇺🇸 _US_美国->🇺🇦_UA_乌克兰 #2'
+  name: '2,3,4,6,7,11,12,17|🇺🇸 _US_美国->🇺🇦_UA_乌克兰 #2'
   network: ws
   port: '80'
   server: 104.17.2.183
@@ -66,42 +66,3 @@ proxies:
     headers:
       Host: v3ra3do.wakeuptimerap.shop
     path: /
-- alterId: 0
-  cipher: auto
-  name: 6|🇺🇸_US_美国->🇩🇪_DE_德国
-  network: ws
-  port: 2083
-  server: 2bbiozh7wbc.servecounterstrike.com
-  tls: true
-  type: vmess
-  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
-  ws-opts:
-    headers:
-      Host: PAneljadid.mookoMEilz.homes
-    path: /snsk
-- alterId: 0
-  cipher: auto
-  name: 6|🇺🇸_US_美国->🇬🇧_GB_英国
-  network: ws
-  port: 80
-  server: web.parspack.com
-  tls: false
-  type: vmess
-  uuid: 7fc27c1c-5052-4d6b-8099-1a8c04f1cd7b
-  ws-opts:
-    headers:
-      Host: PArspAcK51.eSMAILkOrEA.sHoP
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '6|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
-  network: ws
-  port: 2083
-  server: 104.19.154.92
-  tls: true
-  type: vmess
-  uuid: 9e9b80f1-5555-4f7d-a209-d23b9d9dc047
-  ws-opts:
-    headers:
-      Host: PAneljadid.mookoMEilz.homes
-    path: /snsk
