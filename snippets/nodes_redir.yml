@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4|🇺🇸_US_美国->🇭🇰_HK_香港 #1'
+  name: '0,2,3,4,17|🇭🇰 _US_美国->🇭🇰_HK_香港 #2'
   network: ws
-  port: 2086
+  port: '2086'
   server: go.wumaojichang.com
   tls: false
   type: vmess
@@ -14,9 +14,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4|🇺🇸_US_美国->🇫🇷_FR_法国 #1'
+  name: '0,2,3,4,17|🇺🇸 _US_美国->🇫🇷_FR_法国 #2'
   network: ws
-  port: 2086
+  port: '2086'
   server: fr.wumaojichang.com
   tls: false
   type: vmess
@@ -55,7 +55,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 6,7,11,12,17|🇺🇸 _US_美国->🇺🇦_UA_乌克兰
+  name: '6,7,11,12|github.com/freefq - 美国CloudFla... #4'
   network: ws
   port: '80'
   server: 104.17.2.183
