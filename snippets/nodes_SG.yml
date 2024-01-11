@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fa82a3a4-1d39-4922-800e-45e47d7ddf91
+  uuid: bbd542bb-a0e4-44f3-8540-e206eab39521
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fa82a3a4-1d39-4922-800e-45e47d7ddf91
+  uuid: bbd542bb-a0e4-44f3-8540-e206eab39521
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fa82a3a4-1d39-4922-800e-45e47d7ddf91
+  uuid: bbd542bb-a0e4-44f3-8540-e206eab39521
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬 Singapore 3
@@ -44,19 +44,6 @@ proxies:
     path: shopvpn4g.vn
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.6.1...
-  network: ws
-  port: 3258
-  server: 146.190.6.145
-  tls: false
-  type: vmess
-  uuid: dea87af2-8de2-4f72-948c-27f34d98b207
-  ws-opts:
-    headers:
-      Host: m.twitter.com
-    path: /diniru
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -64,7 +51,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d76336ea-817c-48b5-8444-f2863a738ada
+  uuid: 6114c13c-a00f-4b42-abfc-215905a0335f
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -74,7 +61,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d76336ea-817c-48b5-8444-f2863a738ada
+  uuid: 6114c13c-a00f-4b42-abfc-215905a0335f
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -84,7 +71,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d76336ea-817c-48b5-8444-f2863a738ada
+  uuid: 6114c13c-a00f-4b42-abfc-215905a0335f
 - cipher: chacha20-ietf-poly1305
   name: 15|🇸🇬 新加坡|@ripaojiedian
   password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491
