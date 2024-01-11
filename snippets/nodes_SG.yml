@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0d81a3c1-dfaf-45f4-bdf9-e7783eb57f59
+  uuid: fa82a3a4-1d39-4922-800e-45e47d7ddf91
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0d81a3c1-dfaf-45f4-bdf9-e7783eb57f59
+  uuid: fa82a3a4-1d39-4922-800e-45e47d7ddf91
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,20 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0d81a3c1-dfaf-45f4-bdf9-e7783eb57f59
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.6.1...
-  network: ws
-  port: 3258
-  server: 146.190.6.145
-  tls: false
-  type: vmess
-  uuid: dea87af2-8de2-4f72-948c-27f34d98b207
-  ws-opts:
-    headers:
-      Host: m.twitter.com
-    path: /diniru
+  uuid: fa82a3a4-1d39-4922-800e-45e47d7ddf91
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬 Singapore 3
@@ -57,6 +44,19 @@ proxies:
     path: shopvpn4g.vn
 - alterId: 0
   cipher: auto
+  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.6.1...
+  network: ws
+  port: 3258
+  server: 146.190.6.145
+  tls: false
+  type: vmess
+  uuid: dea87af2-8de2-4f72-948c-27f34d98b207
+  ws-opts:
+    headers:
+      Host: m.twitter.com
+    path: /diniru
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -64,7 +64,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 88ccacd2-744a-4572-9880-18ccf51f93e8
+  uuid: d76336ea-817c-48b5-8444-f2863a738ada
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -74,7 +74,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 88ccacd2-744a-4572-9880-18ccf51f93e8
+  uuid: d76336ea-817c-48b5-8444-f2863a738ada
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -84,7 +84,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 88ccacd2-744a-4572-9880-18ccf51f93e8
+  uuid: d76336ea-817c-48b5-8444-f2863a738ada
 - cipher: chacha20-ietf-poly1305
   name: 15|🇸🇬 新加坡|@ripaojiedian
   password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491
