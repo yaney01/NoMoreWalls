@@ -23,19 +23,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
-- alterId: 0
-  cipher: auto
-  name: 13|香港1
-  network: ws
-  port: '2086'
-  server: hk.wumaojichang.com
-  tls: false
-  type: vmess
-  uuid: 05744c0c-7e93-4336-b126-2a52e2f013ef
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
 - cipher: aes-128-gcm
   name: 15|🇭🇰 香港KT|@ripaojiedian
   password: a-wym4ovY4Yw
@@ -59,22 +46,4 @@ proxies:
     mode: http
   port: 80
   server: 8.217.217.138
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: 432fe02f-b649-4bdc-91d8-f91ae87002f7
-  port: 50530
-  server: zhejiang.wandacloud.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 893562d2-2e36-4c87-aebc-3ca3fc78de3e
-  port: 19511
-  server: nc.cn2.go002.xyz
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: MZ7ldA
-  port: 56005
-  server: ef30833c.t1v0e4l6w3-fb-hk05.6pzfwf.com
   type: ss
