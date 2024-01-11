@@ -1,6 +1,30 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|【ccbaohe.com】 永久免费机场节点|深港隧道|流媒...
+  network: ws
+  port: '80'
+  server: 95.164.84.131
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c62693b0-547f-4028-8f46-544cc8d46a01
+  ws-opts:
+    headers:
+      Host: 95.164.84.131
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇭🇰 HK-34.92.50.99:...
+  network: tcp
+  port: '26389'
+  server: 34.92.50.99
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3415f6ed-0880-43bb-85aa-d6c064cc968c
+- alterId: 0
+  cipher: auto
   name: 13|香港1
   network: ws
   port: '2086'
@@ -54,23 +78,3 @@ proxies:
   port: 56005
   server: ef30833c.t1v0e4l6w3-fb-hk05.6pzfwf.com
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港A|@ripaojiedian
-  network: tcp
-  port: '54965'
-  server: 183.233.187.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 16|香港B|@ripaojiedian
-  network: tcp
-  port: '53300'
-  server: 112.28.208.15
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
