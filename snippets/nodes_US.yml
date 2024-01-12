@@ -133,7 +133,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '7,11,12,13|美国 #1'
+  name: 7,11,12|github.com/freefq - 乌克兰  12
   network: ws
   port: '80'
   server: 94.131.10.135
@@ -218,7 +218,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12,13|🔒 VM-WS-TLS 🏴‍☠️ NA-162.159.13...
+  name: 12|github.com/freefq - 美国CloudFla...
   network: ws
   port: '443'
   server: 162.159.136.232
@@ -243,30 +243,6 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 13|美国
-  network: ws
-  port: '2086'
-  server: mehdi20.mehdimoghaddam.fun
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6d695795-2fd7-42ae-91ab-0eff97edec92
-  ws-opts:
-    headers:
-      Host: ''
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-15.204.245.1...
-  network: tcp
-  port: '51574'
-  server: 15.204.245.168
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c0393889-0a0f-47d6-ba43-fe38a7f23d92
-- alterId: 0
-  cipher: auto
   name: 13|US_youtube@资源分享师_182
   network: ws
   port: 8443
@@ -278,30 +254,27 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 13| 🇺🇸 美国 US01
+  name: 13|🇺🇸|US|美国|@wxgqlfx|13
   network: ws
-  port: '80'
-  server: us01.xpoti.online
+  port: 80
+  server: us-west-anycast.lnaspiring.com
   tls: false
   type: vmess
-  uuid: 7fbba873-7223-43e8-9a31-ef9bb443aa82
+  uuid: 07daf48b-1cca-4a96-98f5-2607a7d67e40
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: uspz.edge.233.tw
+    path: /geg/44?ed=2048
 - alterId: 0
   cipher: auto
-  name: 13|🇺🇸 美国 US03
-  network: ws
-  port: '80'
-  server: us03.xpoti.online
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.247....
+  network: tcp
+  port: '42598'
+  server: 129.146.247.135
+  servername: ''
   tls: false
   type: vmess
-  uuid: 7fbba873-7223-43e8-9a31-ef9bb443aa82
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 1773b226-0bdb-43c5-87d8-270d26211dda
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
@@ -314,24 +287,15 @@ proxies:
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-104.237.128....
-  network: tcp
-  port: '14432'
-  server: 104.237.128.72
-  servername: ''
-  tls: false
+  name: 13|US_youtube@资源分享师_121
+  network: ws
+  port: 2087
+  server: mehdi13.mehdimoghaddam.fun
+  tls: true
   type: vmess
-  uuid: 4c09b776-6f83-4bf2-f7f7-4e286dbbb6da
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.247....
-  network: tcp
-  port: '42598'
-  server: 129.146.247.135
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1773b226-0bdb-43c5-87d8-270d26211dda
+  uuid: 3541227e-6e66-4909-9cd0-3a27d348c55e
+  ws-opts:
+    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: 13|US_youtube@资源分享师_193
@@ -345,16 +309,40 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 13|🇺🇸 美国 US04
+  name: 13|🇺🇸_US_美国_节点白嫖_32
   network: ws
-  port: '80'
-  server: us04.xpoti.online
+  port: 2086
+  server: mehdi20.mehdimoghaddam.fun
   tls: false
   type: vmess
-  uuid: 7fbba873-7223-43e8-9a31-ef9bb443aa82
+  uuid: 6d695795-2fd7-42ae-91ab-0eff97edec92
+  ws-opts:
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸|US|美国|@wxgqlfx|48
+  network: ws
+  port: 80
+  server: 94.131.10.135
+  tls: false
+  type: vmess
+  uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
   ws-opts:
     headers:
-      Host: ''
+      Host: 94.131.10.135
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸|US|美国|@wxgqlfx|53
+  network: ws
+  port: 54642
+  server: 146.190.111.121
+  tls: false
+  type: vmess
+  uuid: 97e9c42a-69fe-44ef-917c-80d941d1114a
+  ws-opts:
+    headers:
+      Host: www.xbox.com
     path: /
 - alterId: 0
   cipher: auto
@@ -370,6 +358,59 @@ proxies:
     headers:
       Host: ''
     path: ''
+- alterId: 0
+  cipher: auto
+  name: 13,15,16|日本2|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: ae16d5a4-9a22-4177-8884-77aa3b309d30
+  ws-opts:
+    headers:
+      Host: wtywwcrzjp5.yofnhkfc.xyz
+    path: /video/9TfVEyku
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-TLS 🇺🇸 US-104.224.52.1...
+  network: ws
+  port: '38632'
+  server: 104.224.52.104
+  servername: testray1.zanylee.uk
+  tls: true
+  type: vmess
+  uuid: 4bd467aa-ae27-43cc-b1fa-6666d54b0666
+  ws-opts:
+    headers:
+      Host: testray1.zanylee.uk
+    path: /4jPzm2QK/
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-15.204.245.1...
+  network: tcp
+  port: '51574'
+  server: 15.204.245.168
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0393889-0a0f-47d6-ba43-fe38a7f23d92
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇺🇸 US-107.182.189.2...
+  network: ws
+  port: '55187'
+  server: 107.182.189.201
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 26670a76-5fe2-4738-a84b-1229905e0354
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|美国【TG：@ccbaohe】定时更新节点订阅
@@ -397,20 +438,6 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇺🇸 US-107.182.189.2...
-  network: ws
-  port: '55187'
-  server: 107.182.189.201
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 26670a76-5fe2-4738-a84b-1229905e0354
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】美国 04 | 1x US
   network: tcp
   port: '31501'
@@ -418,7 +445,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2e36213a-62de-4fb4-960b-2f53efd4319e
+  uuid: c087ee74-46ee-4cfb-b03b-3e597acf777a
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -428,7 +455,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2e36213a-62de-4fb4-960b-2f53efd4319e
+  uuid: c087ee74-46ee-4cfb-b03b-3e597acf777a
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -438,7 +465,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2e36213a-62de-4fb4-960b-2f53efd4319e
+  uuid: c087ee74-46ee-4cfb-b03b-3e597acf777a
 - alterId: 0
   cipher: auto
   name: 15,16|美国|@ripaojiedian
