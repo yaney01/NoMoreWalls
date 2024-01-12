@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6,11,12|github.com/freefq - 美国CloudFla... #3'
+  name: 0,2,3,4,6,11|美国CloudFlare节点 1
   network: ws
   port: 80
   server: 172.67.217.144
@@ -109,7 +109,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7,11,12,17|🇺🇸 _US_美国 #9'
+  name: '7,11,17|🇺🇸 _US_美国 #9'
   network: ws
   port: '8880'
   server: 104.21.32.215
@@ -133,7 +133,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 7,11,12|github.com/freefq - 乌克兰  5
+  name: 7,11,12|github.com/freefq - 乌克兰  8
   network: ws
   port: '80'
   server: 94.131.10.135
@@ -169,7 +169,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f2b1652d-5c81-40e0-bdf8-7840f5c13af7
+  uuid: 60d281e2-263a-4717-ab71-06cc9cf9171f
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -179,7 +179,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f2b1652d-5c81-40e0-bdf8-7840f5c13af7
+  uuid: 60d281e2-263a-4717-ab71-06cc9cf9171f
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -189,7 +189,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f2b1652d-5c81-40e0-bdf8-7840f5c13af7
+  uuid: 60d281e2-263a-4717-ab71-06cc9cf9171f
 - alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
@@ -218,44 +218,32 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12,13|🇺🇸|US|美国|@wxgqlfx|13
+  name: '12,13|🇭🇰香港02⚡️ #1'
   network: ws
-  port: 80
-  server: us-west-anycast.lnaspiring.com
-  tls: false
+  port: '8443'
+  server: 34.150.33.254
+  servername: hk-hy.changding.tech
+  tls: true
   type: vmess
-  uuid: 07daf48b-1cca-4a96-98f5-2607a7d67e40
+  uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e
   ws-opts:
     headers:
-      Host: uspz.edge.233.tw
-    path: /geg/44?ed=2048
+      Host: hk-hy.changding.tech
+    path: /changding-tls1?ed=2048
 - alterId: 0
-  cipher: auto
-  name: '12|github.com/freefq - 美国CloudFla... #1'
+  cipher: chacha20-poly1305
+  name: 12,13|🔒 VM-WS-NA 🇺🇸 US-172.67.147.18...
   network: ws
-  port: '8880'
-  server: 104.21.73.14
+  port: '80'
+  server: 172.67.147.180
   servername: ''
   tls: false
   type: vmess
-  uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
+  uuid: d1658d47-66da-477f-a3ca-f977b116f889
   ws-opts:
     headers:
-      Host: yaghoob55freenodes.repaco69437403.workers.dev
-    path: /adenc35.fixedlfoat.top/linkws
-- alterId: 0
-  cipher: auto
-  name: 12,13|🇺🇸|US|美国|@wxgqlfx|53
-  network: ws
-  port: 54642
-  server: 146.190.111.121
-  tls: false
-  type: vmess
-  uuid: 97e9c42a-69fe-44ef-917c-80d941d1114a
-  ws-opts:
-    headers:
-      Host: www.xbox.com
-    path: /
+      Host: cdn.wolfuptime.cfd
+    path: /hpiJVnzaxfryzC6xXa
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-TLS 🇺🇸 US-172.67.170.1...
@@ -272,6 +260,19 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
+  name: 13|🇺🇸|US|美国|@wxgqlfx|13
+  network: ws
+  port: 80
+  server: us-west-anycast.lnaspiring.com
+  tls: false
+  type: vmess
+  uuid: 07daf48b-1cca-4a96-98f5-2607a7d67e40
+  ws-opts:
+    headers:
+      Host: uspz.edge.233.tw
+    path: /geg/44?ed=2048
+- alterId: 0
+  cipher: auto
   name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
   network: tcp
   port: '52408'
@@ -281,19 +282,18 @@ proxies:
   type: vmess
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
 - alterId: 0
-  cipher: chacha20-poly1305
-  name: 13|🔒 VM-WS-NA 🇺🇸 US-172.67.147.18...
+  cipher: auto
+  name: 13|🇺🇸|US|美国|@wxgqlfx|53
   network: ws
-  port: '80'
-  server: 172.67.147.180
-  servername: ''
+  port: 54642
+  server: 146.190.111.121
   tls: false
   type: vmess
-  uuid: d1658d47-66da-477f-a3ca-f977b116f889
+  uuid: 97e9c42a-69fe-44ef-917c-80d941d1114a
   ws-opts:
     headers:
-      Host: cdn.wolfuptime.cfd
-    path: /hpiJVnzaxfryzC6xXa
+      Host: www.xbox.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇺🇸 US-68.183.159.19...
@@ -341,7 +341,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 30caa4b9-b327-47a0-be9b-047bb2450517
+  uuid: f25a501a-5eaf-40e8-b2d5-bec885d509e2
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -351,7 +351,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 30caa4b9-b327-47a0-be9b-047bb2450517
+  uuid: f25a501a-5eaf-40e8-b2d5-bec885d509e2
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -361,7 +361,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 30caa4b9-b327-47a0-be9b-047bb2450517
+  uuid: f25a501a-5eaf-40e8-b2d5-bec885d509e2
 - alterId: 0
   cipher: auto
   name: 15,16|美国|@ripaojiedian
