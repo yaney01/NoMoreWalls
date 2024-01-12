@@ -82,7 +82,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7|🇺🇸_US_美国 #11'
+  name: '7,12|github.com/freefq - 美国CloudFla... #2'
   network: ws
   port: 80
   server: yhnsb3.shabijichang.com
@@ -142,7 +142,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 299a0397-75c5-4915-a102-ebbd28f36d9c
+  uuid: 3fa9f0ba-3a08-4bb3-ab64-2257f09adc20
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -152,7 +152,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 299a0397-75c5-4915-a102-ebbd28f36d9c
+  uuid: 3fa9f0ba-3a08-4bb3-ab64-2257f09adc20
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -162,7 +162,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 299a0397-75c5-4915-a102-ebbd28f36d9c
+  uuid: 3fa9f0ba-3a08-4bb3-ab64-2257f09adc20
 - alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
@@ -192,9 +192,9 @@ proxies:
     path: /geg/45?ed=2048
 - alterId: 0
   cipher: auto
-  name: 11|美国CloudFlare节点 7
+  name: 11,12|github.com/freefq - 美国CloudFla...
   network: ws
-  port: '80'
+  port: 80
   server: 172.67.217.144
   tls: false
   type: vmess
@@ -216,14 +216,17 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 13|🇺🇸|US|美国|@wxgqlfx|25
+  name: 13|美国
   network: ws
-  port: 8080
-  server: mehdi5.mehdimoghaddam.fun
+  port: '2086'
+  server: mehdi20.mehdimoghaddam.fun
+  servername: ''
   tls: false
   type: vmess
-  uuid: 69ec0fdb-b959-43d0-9004-45e310147b5a
+  uuid: 6d695795-2fd7-42ae-91ab-0eff97edec92
   ws-opts:
+    headers:
+      Host: ''
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
@@ -237,6 +240,73 @@ proxies:
   uuid: c0393889-0a0f-47d6-ba43-fe38a7f23d92
 - alterId: 0
   cipher: auto
+  name: 13|US_youtube@资源分享师_182
+  network: ws
+  port: 8443
+  server: mehdi13.mehdimoghaddam.fun
+  tls: true
+  type: vmess
+  uuid: b6d9ffc3-ca2d-444c-b39a-d0bfebc81292
+  ws-opts:
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 13| 🇺🇸 美国 US01
+  network: ws
+  port: '80'
+  server: us01.xpoti.online
+  tls: false
+  type: vmess
+  uuid: 7fbba873-7223-43e8-9a31-ef9bb443aa82
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸 美国 US03
+  network: ws
+  port: '80'
+  server: us03.xpoti.online
+  tls: false
+  type: vmess
+  uuid: 7fbba873-7223-43e8-9a31-ef9bb443aa82
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
+  network: tcp
+  port: '52408'
+  server: 129.146.46.181
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-104.237.128....
+  network: tcp
+  port: '14432'
+  server: 104.237.128.72
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c09b776-6f83-4bf2-f7f7-4e286dbbb6da
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.247....
+  network: tcp
+  port: '42598'
+  server: 129.146.247.135
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1773b226-0bdb-43c5-87d8-270d26211dda
+- alterId: 0
+  cipher: auto
   name: 13|US_youtube@资源分享师_193
   network: ws
   port: 2096
@@ -248,18 +318,31 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 13|美国 - Minkler - Alibaba.com LLC...
+  name: 13|🇺🇸 美国 US04
   network: ws
-  port: 80
-  server: 47.254.30.243
-  servername: 47.254.30.243
+  port: '80'
+  server: us04.xpoti.online
   tls: false
   type: vmess
-  uuid: 468cde3d-26b5-4007-a20a-1cd19f46d5d6
+  uuid: 7fbba873-7223-43e8-9a31-ef9bb443aa82
   ws-opts:
     headers:
       Host: ''
-    path: /KXwHGCrIVG4NYiB2
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇺🇸 US-132.145.132.2...
+  network: ws
+  port: 37121
+  server: 132.145.132.227
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 93845b50-26f6-4203-f5ad-4d231d4e8f45
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
 - alterId: 0
   cipher: auto
   name: 13|美国【TG：@ccbaohe】定时更新节点订阅
@@ -287,50 +370,18 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 13|US_youtube@资源分享师_182
+  name: 13|🔒 VM-WS-NA 🇺🇸 US-107.182.189.2...
   network: ws
-  port: 8443
-  server: mehdi13.mehdimoghaddam.fun
-  tls: true
-  type: vmess
-  uuid: b6d9ffc3-ca2d-444c-b39a-d0bfebc81292
-  ws-opts:
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.247....
-  network: tcp
-  port: '42598'
-  server: 129.146.247.135
+  port: '55187'
+  server: 107.182.189.201
   servername: ''
   tls: false
   type: vmess
-  uuid: 1773b226-0bdb-43c5-87d8-270d26211dda
-- alterId: 0
-  cipher: auto
-  name: 13|🇺🇸_US_美国_节点白嫖_32
-  network: ws
-  port: 2086
-  server: mehdi20.mehdimoghaddam.fun
-  tls: false
-  type: vmess
-  uuid: 6d695795-2fd7-42ae-91ab-0eff97edec92
-  ws-opts:
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇺🇸 US-68.183.159.19...
-  network: ws
-  port: '2092'
-  server: 68.183.159.199
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 038e2714-5cbf-4812-fcfb-8726665c63b6
+  uuid: 26670a76-5fe2-4738-a84b-1229905e0354
   ws-opts:
     headers:
-      Host: Telegram-Channel.hkaa0_shop.66688888.xyz
-    path: /telegram:@hkaa0
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 04 | 1x US
@@ -340,7 +391,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6a2a7d20-fb1a-4c28-b93a-54734e6a3116
+  uuid: b88d8063-5fdd-4c8d-b100-e453e3ee63ae
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -350,7 +401,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6a2a7d20-fb1a-4c28-b93a-54734e6a3116
+  uuid: b88d8063-5fdd-4c8d-b100-e453e3ee63ae
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -360,7 +411,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6a2a7d20-fb1a-4c28-b93a-54734e6a3116
+  uuid: b88d8063-5fdd-4c8d-b100-e453e3ee63ae
 - alterId: 0
   cipher: auto
   name: 18|JCBB_ 美国01【vip1】
