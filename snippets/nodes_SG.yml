@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3b01bcc2-0540-4c3d-8866-bd92a000e35b
+  uuid: 1fc986f7-216e-4b73-b8fb-f22996bca41a
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3b01bcc2-0540-4c3d-8866-bd92a000e35b
+  uuid: 1fc986f7-216e-4b73-b8fb-f22996bca41a
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3b01bcc2-0540-4c3d-8866-bd92a000e35b
+  uuid: 1fc986f7-216e-4b73-b8fb-f22996bca41a
 - alterId: 0
   cipher: auto
   name: 13|新加坡 - 新加坡 - DigitalOcean, LLC ...
@@ -45,6 +45,34 @@ proxies:
     path: /123123
 - alterId: 0
   cipher: auto
+  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.100...
+  network: ws
+  port: '51727'
+  server: 146.190.100.185
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7cfe06b4-8130-4b30-9338-9de63be9a04f
+  ws-opts:
+    headers:
+      Host: www.facebook.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-139.180.133.2...
+  network: ws
+  port: '54661'
+  server: 139.180.133.28
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a926b9e9-196c-4e0d-a94f-a4b02f9d8253
+  ws-opts:
+    headers:
+      Host: m.zoom.us
+    path: /boonzer
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -52,7 +80,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ab72faf2-6bc8-49fb-8792-992b0c328950
+  uuid: 2e4c9058-6d0a-474a-b3a4-b2f777cf4615
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -62,7 +90,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ab72faf2-6bc8-49fb-8792-992b0c328950
+  uuid: 2e4c9058-6d0a-474a-b3a4-b2f777cf4615
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -72,7 +100,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ab72faf2-6bc8-49fb-8792-992b0c328950
+  uuid: 2e4c9058-6d0a-474a-b3a4-b2f777cf4615
 - cipher: chacha20-ietf-poly1305
   name: 15|🇸🇬 新加坡2|@ripaojiedian
   password: 7f821ff8-2ef2-4433-b810-f0ce77fd5491
