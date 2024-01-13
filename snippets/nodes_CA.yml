@@ -8,10 +8,10 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1e1696da-882e-4131-ad85-83d078359b04
+  uuid: 867034da-9219-4b5f-8268-31a4b42d939b
 - alterId: 64
   cipher: auto
-  name: 12,13|美国 - 洛杉矶 - Multacom Corporatio...
+  name: 12,13|🇨🇦_CA_加拿大
   network: ws
   port: 443
   server: 142.171.237.214
@@ -35,32 +35,6 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦加拿大5丨电报群@bp520
-  network: ws
-  port: '80'
-  server: 162.159.200.5
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      Host: ca3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦加拿大6丨电报群@bp520
-  network: ws
-  port: '80'
-  server: 162.159.200.6
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      Host: ca3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -68,4 +42,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e7979b90-383a-4a79-a627-6eee0f99dc6c
+  uuid: 66729a86-2408-4c7b-b383-2ac9f196c0a7
