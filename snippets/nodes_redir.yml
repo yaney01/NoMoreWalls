@@ -1,56 +1,30 @@
 proxies:
 - alterId: 0
-  cipher: auto
-  name: '0,2,3,4,6,17|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #5'
+  cipher: aes-128-gcm
+  name: '0,7,13|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
   network: ws
-  port: '80'
-  server: 162.159.200.3
-  tls: false
+  port: 443
+  server: tgju.org
+  tls: true
   type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  uuid: 562ae412-d7b5-4f1e-dd0d-82e073193b21
   ws-opts:
     headers:
-      Host: ca3.889611.com
-    path: /
+      Host: cdn.pokerad.fun
+    path: /fa
 - alterId: 0
   cipher: auto
-  name: '0,2,3,4,6,17|🇺🇸 _US_美国->🇺🇦_UA_乌克兰 #2'
+  name: 0,7|🇸🇨_SC_塞舌尔->🇭🇰_HK_香港
   network: ws
-  port: '80'
-  server: 104.17.2.183
-  tls: false
+  port: 56120
+  server: 156.251.226.142
+  tls: true
   type: vmess
-  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
+  uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e
   ws-opts:
     headers:
-      Host: v3ra3do.wakeuptimerap.shop
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,2,3,4,6,7,11,17|🇹🇷 _LY_利比亚->🇹🇷_TR_土耳其 #2'
-  network: ws
-  port: '80'
-  server: 197.215.140.234
-  tls: false
-  type: vmess
-  uuid: b82493e3-07b4-4cf2-b585-965575cfeb32
-  ws-opts:
-    headers:
-      Host: softiri.serveirc.com
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: '0,2,3,4,6,17|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #4'
-  network: ws
-  port: '80'
-  server: 162.159.200.4
-  tls: false
-  type: vmess
-  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
-  ws-opts:
-    headers:
-      Host: ca3.889611.com
-    path: /
+      Host: hk-300.changding.tech
+    path: /changding-tls1?ed=2048
 - alterId: 0
   cipher: auto
   name: 1|_US_->_CA__1
@@ -120,34 +94,47 @@ proxies:
       host: ca3.889611.com
     path: /
 - alterId: 0
-  cipher: aes-128-gcm
-  name: '7,13|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
+  cipher: auto
+  name: '2,3,4,6,17|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #3'
   network: ws
-  port: 443
-  server: tgju.org
-  tls: true
+  port: '80'
+  server: 162.159.200.3
+  tls: false
   type: vmess
-  uuid: 562ae412-d7b5-4f1e-dd0d-82e073193b21
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
   ws-opts:
     headers:
-      Host: cdn.pokerad.fun
-    path: /fa
+      Host: ca3.889611.com
+    path: /
 - alterId: 0
   cipher: auto
-  name: 7|🇸🇨_SC_塞舌尔->🇭🇰_HK_香港
+  name: '2,3,4,6,17|🇺🇸 _US_美国->🇺🇦_UA_乌克兰 #1'
   network: ws
-  port: 56120
-  server: 156.251.226.142
-  tls: true
+  port: '80'
+  server: 104.17.2.183
+  tls: false
   type: vmess
-  uuid: a3dfbdd6-7e01-4735-9973-e3dd056c129e
+  uuid: f256a3ae-0f85-4a1d-d0cd-2d0b4b73f4f1
   ws-opts:
     headers:
-      Host: hk-300.changding.tech
-    path: /changding-tls1?ed=2048
+      Host: v3ra3do.wakeuptimerap.shop
+    path: /
 - alterId: 0
   cipher: auto
-  name: 7,12|github.com/freefq - 伊拉克  16
+  name: '2,3,4,6,17|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #2'
+  network: ws
+  port: '80'
+  server: 162.159.200.4
+  tls: false
+  type: vmess
+  uuid: b2d821b2-f727-4e67-898d-1a29bf41ee0d
+  ws-opts:
+    headers:
+      Host: ca3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,11,12|github.com/freefq - 伊拉克  16
   network: ws
   port: 443
   server: 130.193.166.2
