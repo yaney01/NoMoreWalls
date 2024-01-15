@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,11,13,17|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #3'
+  name: '0,3,4,6,7,11,17|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #3'
   network: ws
   port: '80'
   server: 104.21.79.143
@@ -94,11 +94,10 @@ proxies:
     path: ae8e857abf1d?ed=2048
 - alterId: 0
   cipher: auto
-  name: 3,13|🇺🇸|US|美国|@wxgqlfx|32
+  name: 3|🇺🇸 _US_美国->🇩🇪_DE_德国
   network: ws
   port: '8080'
   server: 104.17.30.111
-  servername: ''
   tls: false
   type: vmess
   uuid: d72227c8-3ce1-4f24-a9fb-36fcd918f96f
@@ -108,7 +107,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,11,12,13|🇺🇸|US|美国|@wxgqlfx|34
+  name: 3,11,12|github.com/freefq - 美国CloudFla...
   network: ws
   port: '8080'
   server: hamrahaval.asan3a.shop
