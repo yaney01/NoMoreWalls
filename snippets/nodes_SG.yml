@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 79dba585-679d-4075-b5c2-3874424bda11
+  uuid: f6a0a386-06c3-4d67-aa50-73f8282b8ff6
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 79dba585-679d-4075-b5c2-3874424bda11
+  uuid: f6a0a386-06c3-4d67-aa50-73f8282b8ff6
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 79dba585-679d-4075-b5c2-3874424bda11
+  uuid: f6a0a386-06c3-4d67-aa50-73f8282b8ff6
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
@@ -38,7 +38,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a92ba626-261d-4f8c-862d-4817f219dd0b
+  uuid: 120c79be-b5ef-4ef8-818f-ca87f1dd0861
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -48,7 +48,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a92ba626-261d-4f8c-862d-4817f219dd0b
+  uuid: 120c79be-b5ef-4ef8-818f-ca87f1dd0861
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -58,22 +58,37 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a92ba626-261d-4f8c-862d-4817f219dd0b
+  uuid: 120c79be-b5ef-4ef8-818f-ca87f1dd0861
+- alterId: 0
+  cipher: auto
+  name: 15,16|新加坡|@ripaojiedian
+  network: ws
+  port: '40000'
+  server: ml1.333210.xyz
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 892e4ff3-f8bb-42ac-9bd5-e103f235fc78
+  ws-opts:
+    headers:
+      Host: down.dingtalk.com
+    path: /
 - cipher: chacha20-ietf-poly1305
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: 451a39bb-fc9c-4ef7-b0ef-19de25d9279a
-  port: 26601
-  server: service.ouluyun9803.com
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: c0c85654-646c-48f8-9141-ba9b70d0c928
+  port: 27250
+  server: gtm.ktmwan.com
   type: ss
 - cipher: aes-256-cfb
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.180.158.34
+  server: 54.64.183.76
   type: ss
 - cipher: aes-256-cfb
   name: 15|🇸🇬 狮城特殊2|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.125.218.115
+  server: 43.207.80.128
   type: ss
