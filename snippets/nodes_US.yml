@@ -55,7 +55,7 @@ proxies:
     path: /video/Z7qdcrAGRw
 - alterId: 0
   cipher: auto
-  name: '7,11,12|github.com/freefq - 美国CloudFla... #3'
+  name: '7,11,12|github.com/freefq - 美国CloudFla... #2'
   network: ws
   port: '80'
   server: glaSco.fx-trAder.shop
@@ -90,7 +90,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 616eee58-63ac-4bb9-b2ba-6b5ad71a7c04
+  uuid: b7505b1f-a28f-4465-b6c3-56d0a57f6740
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -100,7 +100,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 616eee58-63ac-4bb9-b2ba-6b5ad71a7c04
+  uuid: b7505b1f-a28f-4465-b6c3-56d0a57f6740
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -110,10 +110,10 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 616eee58-63ac-4bb9-b2ba-6b5ad71a7c04
+  uuid: b7505b1f-a28f-4465-b6c3-56d0a57f6740
 - alterId: 0
   cipher: auto
-  name: '11,12,13|美国(yudou66.com 玉豆免费节点) #7'
+  name: '11,13|美国(yudou66.com 玉豆免费节点) #7'
   network: ws
   port: '8080'
   server: world11.freedomisnear.fun
@@ -127,7 +127,7 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: '11,12,13|美国(yudou66.com 玉豆免费节点) #4'
+  name: '11,13|美国(yudou66.com 玉豆免费节点) #4'
   network: ws
   port: '8880'
   server: world14.freedomisnear.fun
@@ -154,7 +154,7 @@ proxies:
     path: /video/P7EExoE2
 - alterId: 0
   cipher: auto
-  name: '11,12,13|美国(yudou66.com 玉豆免费节点) #11'
+  name: '11,13|美国(yudou66.com 玉豆免费节点) #11'
   network: ws
   port: '2086'
   server: world10.star-one.cfd
@@ -168,7 +168,7 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: '11,12,13|美国(yudou66.com 玉豆免费节点) #13'
+  name: '11,13|美国(yudou66.com 玉豆免费节点) #13'
   network: ws
   port: '2086'
   server: world3.freedomisnear.fun
@@ -182,7 +182,7 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: '11,12,13|美国(yudou66.com 玉豆免费节点) #3'
+  name: '11,13|美国(yudou66.com 玉豆免费节点) #3'
   network: ws
   port: '2095'
   server: world7.freedomisnear.fun
@@ -196,7 +196,7 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: '11,12,13|美国(yudou66.com 玉豆免费节点) #1'
+  name: '11,13|美国(yudou66.com 玉豆免费节点) #1'
   network: ws
   port: '2082'
   server: world6.freedomisnear.fun
@@ -210,7 +210,7 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 11,12,15,16|美国|@ripaojiedian
+  name: 11,15,16|美国|@ripaojiedian
   network: ws
   port: '80'
   server: 104.17.25.1
@@ -225,7 +225,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11,12,13|美国(yudou66.com 玉豆免费节点) #12'
+  name: '11,13|美国(yudou66.com 玉豆免费节点) #12'
   network: ws
   port: '2086'
   server: world13.freedomisnear.fun
@@ -233,6 +233,34 @@ proxies:
   tls: false
   type: vmess
   uuid: 9ace23db-8b75-4b9a-881b-d6d93163cbec
+  ws-opts:
+    headers:
+      Host: ''
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: '12,13|美国(yudou66.com 玉豆免费节点) #15'
+  network: ws
+  port: '2095'
+  server: world12.freedomisnear.fun
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d9ea8cee-678b-4703-bab5-cdf2c423b72d
+  ws-opts:
+    headers:
+      Host: ''
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: '12,13|美国(yudou66.com 玉豆免费节点) #14'
+  network: ws
+  port: '2095'
+  server: world17.freedomisnear.fun
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: eebad79d-5eca-47bf-bfa9-f8f3e2143eb3
   ws-opts:
     headers:
       Host: ''
@@ -394,34 +422,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '13|美国(yudou66.com 玉豆免费节点) #14'
-  network: ws
-  port: '2095'
-  server: world17.freedomisnear.fun
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: eebad79d-5eca-47bf-bfa9-f8f3e2143eb3
-  ws-opts:
-    headers:
-      Host: ''
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: '13|美国(yudou66.com 玉豆免费节点) #15'
-  network: ws
-  port: '2095'
-  server: world12.freedomisnear.fun
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d9ea8cee-678b-4703-bab5-cdf2c423b72d
-  ws-opts:
-    headers:
-      Host: ''
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
   name: '13|美国(yudou66.com 玉豆免费节点) #16'
   network: ws
   port: '8080'
@@ -443,7 +443,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c2b4601d-0217-4fb0-aa06-2ee6bd7b43d2
+  uuid: c60c8d4e-6508-4456-b815-3bb7a84f7214
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -453,7 +453,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c2b4601d-0217-4fb0-aa06-2ee6bd7b43d2
+  uuid: c60c8d4e-6508-4456-b815-3bb7a84f7214
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -463,7 +463,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c2b4601d-0217-4fb0-aa06-2ee6bd7b43d2
+  uuid: c60c8d4e-6508-4456-b815-3bb7a84f7214
 - alterId: 0
   cipher: auto
   name: 15,16|美国2|@ripaojiedian
@@ -502,7 +502,7 @@ proxies:
   server: gdct001.theyydsnode.top
   tls: false
   type: vmess
-  uuid: 68091c2c-bd4d-4469-be2d-145c31a3a36d
+  uuid: 16bd1350-2516-49b9-b3c9-eb3865959775
   ws-opts:
     headers:
       Host: ''
@@ -515,7 +515,7 @@ proxies:
   server: shcm002.theyydsnode.top
   tls: false
   type: vmess
-  uuid: 68091c2c-bd4d-4469-be2d-145c31a3a36d
+  uuid: 16bd1350-2516-49b9-b3c9-eb3865959775
   ws-opts:
     headers:
       Host: ''
@@ -528,7 +528,7 @@ proxies:
   server: gdct003.theyydsnode.top
   tls: false
   type: vmess
-  uuid: 68091c2c-bd4d-4469-be2d-145c31a3a36d
+  uuid: 16bd1350-2516-49b9-b3c9-eb3865959775
   ws-opts:
     headers:
       Host: ''
@@ -541,7 +541,7 @@ proxies:
   server: shcm002.theyydsnode.top
   tls: false
   type: vmess
-  uuid: 68091c2c-bd4d-4469-be2d-145c31a3a36d
+  uuid: 16bd1350-2516-49b9-b3c9-eb3865959775
   ws-opts:
     headers:
       Host: ''
@@ -554,7 +554,7 @@ proxies:
   server: gdct001.theyydsnode.top
   tls: false
   type: vmess
-  uuid: 68091c2c-bd4d-4469-be2d-145c31a3a36d
+  uuid: 16bd1350-2516-49b9-b3c9-eb3865959775
   ws-opts:
     headers:
       Host: ''
@@ -567,7 +567,7 @@ proxies:
   server: gdct003.theyydsnode.top
   tls: false
   type: vmess
-  uuid: 68091c2c-bd4d-4469-be2d-145c31a3a36d
+  uuid: 16bd1350-2516-49b9-b3c9-eb3865959775
   ws-opts:
     headers:
       Host: ''
