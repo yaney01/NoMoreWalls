@@ -166,7 +166,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,6,7,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #3'
+  name: '3,4,6,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #3'
   network: ws
   port: '8080'
   server: hamrahaval.asan3a.shop
@@ -177,3 +177,29 @@ proxies:
     headers:
       Host: asan3.azad2.tech
     path: /
+- alterId: 0
+  cipher: auto
+  name: 7|🇵🇸_PS_巴勒斯坦->🇹🇷_TR_土耳其
+  network: ws
+  port: 80
+  server: 82.213.5.50
+  tls: false
+  type: vmess
+  uuid: f21bcdb6-5dc6-4c4b-9a34-3b185f6747c4
+  ws-opts:
+    headers:
+      Host: tabyan205.serveftp.com
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: '7,13|🇸🇨_SC_塞舌尔->🇭🇰_HK_香港 #1'
+  network: ws
+  port: 1111
+  server: 156.251.226.106
+  tls: false
+  type: vmess
+  uuid: 64424354-f4ff-42a0-8884-8f52f2bb7235
+  ws-opts:
+    headers:
+      Host: hk-300.changding.tech
+    path: /changding-tls0?ed=2048
