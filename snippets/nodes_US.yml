@@ -26,12 +26,14 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 8|🇺🇸 United States 01 @nodpai
+  name: '8,9|🇺🇸 United States 01 @nodpai #1'
   network: ws
-  port: '8080'
+  port: 8080
   server: hytron.io
+  skip-cert-verify: true
   tls: false
   type: vmess
+  udp: true
   uuid: 9c4a3ad3-4f1d-4138-e7ee-8bb5325b411d
   ws-opts:
     headers:
@@ -46,7 +48,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 44b4c9f6-f3f4-494b-bf82-778158b4cd78
+  uuid: 3a6ca22f-1af7-41d2-8459-0e5f34dec22d
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -56,7 +58,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 44b4c9f6-f3f4-494b-bf82-778158b4cd78
+  uuid: 3a6ca22f-1af7-41d2-8459-0e5f34dec22d
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -66,20 +68,76 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 44b4c9f6-f3f4-494b-bf82-778158b4cd78
+  uuid: 3a6ca22f-1af7-41d2-8459-0e5f34dec22d
 - alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
   network: ws
-  port: 8880
-  server: 104.21.73.14
+  port: 80
+  server: cc3.shabijichang.com
   tls: false
   type: vmess
-  uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
+  uuid: 5c8c6ca5-cf2c-4a13-a6ff-0281b60779a3
   ws-opts:
     headers:
-      Host: yaghoob55freenodes.repaco69437403.workers.dev
-    path: /adenc35.fixedlfoat.top/linkws
+      Host: cc3.shabijichang.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #1'
+  network: ws
+  port: '8880'
+  server: 19.namesilo123.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c92caa39-eda5-4c57-bafd-df3501854f24
+  ws-opts:
+    headers:
+      Host: tw.sanfen003.top
+    path: /grdhhgrdhhhhhhj?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 11,12|github.com/freefq - 美国CloudFla...
+  network: ws
+  port: 80
+  server: cfcdn3.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: dab86579-d197-431b-8e72-3d8a75968040
+  ws-opts:
+    headers:
+      Host: oA5FSz9Tjp1.yofnhkfc.xyz
+    path: /video/P7EExoE2
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #3'
+  network: ws
+  port: '443'
+  server: 08dfde51-8c5d-4160-8732-0745507cfd5b.cloudflare-gateway.com
+  servername: m23ikahjvdrdcvhMMMsa.erenyeager.cloudns.biz
+  tls: true
+  type: vmess
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  ws-opts:
+    headers:
+      Host: mikasa.erenyeager.cloudns.biz
+    path: /glweidf.sbs/linkws
+- alterId: 0
+  cipher: auto
+  name: 11,12,13,15,16|日本2|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f
+  ws-opts:
+    headers:
+      Host: wtywwcrzjp5.yofnhkfc.xyz
+    path: /video/9TfVEyku
 - alterId: 0
   cipher: auto
   name: '11,12|github.com/freefq - 美国CloudFla... #2'
@@ -96,19 +154,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,12|github.com/freefq - 美国CloudFla...
-  network: ws
-  port: 80
-  server: cfcdn3.sanfencdn9.com
-  tls: false
-  type: vmess
-  uuid: dab86579-d197-431b-8e72-3d8a75968040
-  ws-opts:
-    headers:
-      Host: oA5FSz9Tjp1.yofnhkfc.xyz
-    path: /video/P7EExoE2
-- alterId: 0
-  cipher: auto
   name: 11,12,15,16|美国|@ripaojiedian
   network: ws
   port: '80'
@@ -122,21 +167,6 @@ proxies:
     headers:
       Host: vvv2vayo2.everythingisreve.shop
     path: /
-- alterId: 0
-  cipher: auto
-  name: 12,13,15,16|日本2|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 27c7e182-88bf-4fc6-bbdd-83453061f47f
-  ws-opts:
-    headers:
-      Host: wtywwcrzjp5.yofnhkfc.xyz
-    path: /video/9TfVEyku
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇺🇸 US-38.75.137.27...
@@ -211,7 +241,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 42f11125-a081-48b9-9810-79ac4f038fc8
+  uuid: 40cb1934-6551-40b8-831a-3b262ad03bd0
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -221,7 +251,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 42f11125-a081-48b9-9810-79ac4f038fc8
+  uuid: 40cb1934-6551-40b8-831a-3b262ad03bd0
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -231,7 +261,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 42f11125-a081-48b9-9810-79ac4f038fc8
+  uuid: 40cb1934-6551-40b8-831a-3b262ad03bd0
 - alterId: 0
   cipher: auto
   name: 18|JCBB_ 美国01【vip1】
@@ -240,7 +270,7 @@ proxies:
   server: gdct001.theyydsnode.top
   tls: false
   type: vmess
-  uuid: 10ca0f30-2716-4e04-9a46-2dd837386cce
+  uuid: de7826a0-fb66-4de7-8111-62c209674543
   ws-opts:
     headers:
       Host: ''
@@ -253,7 +283,7 @@ proxies:
   server: shcm002.theyydsnode.top
   tls: false
   type: vmess
-  uuid: 10ca0f30-2716-4e04-9a46-2dd837386cce
+  uuid: de7826a0-fb66-4de7-8111-62c209674543
   ws-opts:
     headers:
       Host: ''
@@ -266,7 +296,7 @@ proxies:
   server: gdct003.theyydsnode.top
   tls: false
   type: vmess
-  uuid: 10ca0f30-2716-4e04-9a46-2dd837386cce
+  uuid: de7826a0-fb66-4de7-8111-62c209674543
   ws-opts:
     headers:
       Host: ''
@@ -279,7 +309,7 @@ proxies:
   server: shcm002.theyydsnode.top
   tls: false
   type: vmess
-  uuid: 10ca0f30-2716-4e04-9a46-2dd837386cce
+  uuid: de7826a0-fb66-4de7-8111-62c209674543
   ws-opts:
     headers:
       Host: ''
@@ -292,7 +322,7 @@ proxies:
   server: gdct001.theyydsnode.top
   tls: false
   type: vmess
-  uuid: 10ca0f30-2716-4e04-9a46-2dd837386cce
+  uuid: de7826a0-fb66-4de7-8111-62c209674543
   ws-opts:
     headers:
       Host: ''
@@ -305,7 +335,7 @@ proxies:
   server: gdct003.theyydsnode.top
   tls: false
   type: vmess
-  uuid: 10ca0f30-2716-4e04-9a46-2dd837386cce
+  uuid: de7826a0-fb66-4de7-8111-62c209674543
   ws-opts:
     headers:
       Host: ''
