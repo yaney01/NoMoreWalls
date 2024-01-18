@@ -48,7 +48,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0a2cbf83-24ad-46e2-8197-2fc2d9636ae8
+  uuid: a826cca8-98bb-4b3f-ae85-e36f16f93bc8
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -58,7 +58,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0a2cbf83-24ad-46e2-8197-2fc2d9636ae8
+  uuid: a826cca8-98bb-4b3f-ae85-e36f16f93bc8
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -68,10 +68,10 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0a2cbf83-24ad-46e2-8197-2fc2d9636ae8
+  uuid: a826cca8-98bb-4b3f-ae85-e36f16f93bc8
 - alterId: 0
   cipher: auto
-  name: 11|美国 CloudFlare节点
+  name: '11,12|github.com/freefq - 美国CloudFla... #1'
   network: ws
   port: 80
   server: cc3.shabijichang.com
@@ -200,7 +200,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b795bdda-13e7-448e-afb6-5b9fda9779eb
+  uuid: 3627b12b-c4eb-43c4-8c37-da6e3e44a773
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -210,7 +210,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b795bdda-13e7-448e-afb6-5b9fda9779eb
+  uuid: 3627b12b-c4eb-43c4-8c37-da6e3e44a773
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -220,7 +220,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b795bdda-13e7-448e-afb6-5b9fda9779eb
+  uuid: 3627b12b-c4eb-43c4-8c37-da6e3e44a773
 - alterId: 0
   cipher: auto
   name: 18|JCBB_ 美国01【vip1】
@@ -229,7 +229,7 @@ proxies:
   server: gdct001.theyydsnode.top
   tls: false
   type: vmess
-  uuid: c6359430-11be-4acc-90b2-5a8166c0383a
+  uuid: c8e6a387-8308-468e-8bc9-bf32ffbffc0c
   ws-opts:
     headers:
       Host: ''
@@ -242,7 +242,7 @@ proxies:
   server: shcm002.theyydsnode.top
   tls: false
   type: vmess
-  uuid: c6359430-11be-4acc-90b2-5a8166c0383a
+  uuid: c8e6a387-8308-468e-8bc9-bf32ffbffc0c
   ws-opts:
     headers:
       Host: ''
@@ -255,7 +255,7 @@ proxies:
   server: gdct003.theyydsnode.top
   tls: false
   type: vmess
-  uuid: c6359430-11be-4acc-90b2-5a8166c0383a
+  uuid: c8e6a387-8308-468e-8bc9-bf32ffbffc0c
   ws-opts:
     headers:
       Host: ''
@@ -268,7 +268,7 @@ proxies:
   server: shcm002.theyydsnode.top
   tls: false
   type: vmess
-  uuid: c6359430-11be-4acc-90b2-5a8166c0383a
+  uuid: c8e6a387-8308-468e-8bc9-bf32ffbffc0c
   ws-opts:
     headers:
       Host: ''
@@ -281,7 +281,7 @@ proxies:
   server: gdct001.theyydsnode.top
   tls: false
   type: vmess
-  uuid: c6359430-11be-4acc-90b2-5a8166c0383a
+  uuid: c8e6a387-8308-468e-8bc9-bf32ffbffc0c
   ws-opts:
     headers:
       Host: ''
@@ -294,7 +294,7 @@ proxies:
   server: gdct003.theyydsnode.top
   tls: false
   type: vmess
-  uuid: c6359430-11be-4acc-90b2-5a8166c0383a
+  uuid: c8e6a387-8308-468e-8bc9-bf32ffbffc0c
   ws-opts:
     headers:
       Host: ''
