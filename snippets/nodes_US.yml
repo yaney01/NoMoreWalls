@@ -36,7 +36,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0dd4f744-c607-4b86-a2ac-b65b642ec8e2
+  uuid: d3695032-a0f5-422f-a0dc-0b27aeae581f
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -46,7 +46,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0dd4f744-c607-4b86-a2ac-b65b642ec8e2
+  uuid: d3695032-a0f5-422f-a0dc-0b27aeae581f
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -56,7 +56,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0dd4f744-c607-4b86-a2ac-b65b642ec8e2
+  uuid: d3695032-a0f5-422f-a0dc-0b27aeae581f
 - alterId: 0
   cipher: auto
   name: 11,12,15,16|美国|@ripaojiedian
@@ -165,7 +165,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1b407c7b-99f9-4b6c-a31c-adf8981091c8
+  uuid: 2d14d43d-c623-4d67-8ca3-ee49124cb5bd
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -175,7 +175,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1b407c7b-99f9-4b6c-a31c-adf8981091c8
+  uuid: 2d14d43d-c623-4d67-8ca3-ee49124cb5bd
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -185,7 +185,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1b407c7b-99f9-4b6c-a31c-adf8981091c8
+  uuid: 2d14d43d-c623-4d67-8ca3-ee49124cb5bd
 - alterId: 0
   cipher: auto
   name: 15,16|美国2|@ripaojiedian
@@ -201,3 +201,81 @@ proxies:
     headers:
       Host: us4Bb5oSgJA.fzbqfrse.xyz
     path: /video/CuTy87zAzV/
+- alterId: 0
+  cipher: auto
+  name: 18|JCBB_ 美国01【vip1】
+  network: ws
+  port: '48560'
+  server: gdct001.theyydsnode.top
+  tls: false
+  type: vmess
+  uuid: 3ff90cbd-b8ea-4917-8596-d5854688152a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 18|JCBB_ 美国02_1【vip1】
+  network: ws
+  port: '48560'
+  server: shcm002.theyydsnode.top
+  tls: false
+  type: vmess
+  uuid: 3ff90cbd-b8ea-4917-8596-d5854688152a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 18|JCBB_ 美国02【vip1】
+  network: ws
+  port: '48560'
+  server: gdct003.theyydsnode.top
+  tls: false
+  type: vmess
+  uuid: 3ff90cbd-b8ea-4917-8596-d5854688152a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 18|JCBB_ 美国 03【vip1】
+  network: ws
+  port: '10658'
+  server: shcm002.theyydsnode.top
+  tls: false
+  type: vmess
+  uuid: 3ff90cbd-b8ea-4917-8596-d5854688152a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 18|JCBB_ 美国 04_1【vip1】
+  network: ws
+  port: '10658'
+  server: gdct001.theyydsnode.top
+  tls: false
+  type: vmess
+  uuid: 3ff90cbd-b8ea-4917-8596-d5854688152a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 18|JCBB_ 美国 04【vip1】
+  network: ws
+  port: '10658'
+  server: gdct003.theyydsnode.top
+  tls: false
+  type: vmess
+  uuid: 3ff90cbd-b8ea-4917-8596-d5854688152a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
