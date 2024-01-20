@@ -53,7 +53,7 @@ proxies:
     path: /video/CuTy87zAzV/
 - alterId: 0
   cipher: auto
-  name: '3,4,6,7,11,12,15,16,17|🇺🇸 _US_美国 #4'
+  name: '3,4,6,7,11,15,16,17|🇺🇸 _US_美国 #4'
   network: ws
   port: '80'
   server: glaSco.fx-trAder.shop
@@ -103,7 +103,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 49453602-2cfc-4a90-8951-46f90a61aaa4
+  uuid: 6bfc9cf4-16cc-47fb-948c-a1f8cb601217
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -113,7 +113,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 49453602-2cfc-4a90-8951-46f90a61aaa4
+  uuid: 6bfc9cf4-16cc-47fb-948c-a1f8cb601217
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -123,7 +123,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 49453602-2cfc-4a90-8951-46f90a61aaa4
+  uuid: 6bfc9cf4-16cc-47fb-948c-a1f8cb601217
 - alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
@@ -140,7 +140,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '11,12|github.com/freefq - 美国CloudFla... #1'
+  name: 11,12|github.com/freefq - 美国CloudFla...
   network: ws
   port: '2082'
   server: s1c.v2.v001sss.xyz
@@ -154,7 +154,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,12,15,16|新加坡3|@ripaojiedian
+  name: 11,15,16|新加坡3|@ripaojiedian
   network: ws
   port: '80'
   server: 104.17.25.1
@@ -166,34 +166,6 @@ proxies:
   ws-opts:
     headers:
       Host: sgvpn.catnipballs.gay
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 12|github.com/freefq - 美国CloudFla...
-  network: ws
-  port: '80'
-  server: 104.18.202.232
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b2c3b2d3-c21c-4a33-b55c-db589d485487
-  ws-opts:
-    headers:
-      Host: worker-falling-leaf-df34.dtdacxjh.workers.dev
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: '12,13,16|韩国2|@ripaojiedian #1'
-  network: ws
-  port: '34755'
-  server: krse11.ip8.shop
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7741626f-9c38-4a89-dfb2-fd95299c65ed
-  ws-opts:
-    headers:
-      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -237,7 +209,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f325fb07-a214-4f6c-8a6f-4b4f31daf9d3
+  uuid: a8d333a7-1429-498e-96fb-b0d66ef15a04
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -247,7 +219,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f325fb07-a214-4f6c-8a6f-4b4f31daf9d3
+  uuid: a8d333a7-1429-498e-96fb-b0d66ef15a04
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -257,7 +229,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f325fb07-a214-4f6c-8a6f-4b4f31daf9d3
+  uuid: a8d333a7-1429-498e-96fb-b0d66ef15a04
 - alterId: 0
   cipher: auto
   name: 15,16|美国3|@ripaojiedian
