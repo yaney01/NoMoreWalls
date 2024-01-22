@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,13|台湾【TG：@ccbaohe】定时更新节点订阅 3
+  name: 11,12,13|台湾【TG：@ccbaohe】定时更新节点订阅 3
   network: tcp
   port: 4443
   server: nb24.ntbq.dynu.net
@@ -20,18 +20,22 @@ proxies:
   type: vmess
   uuid: c24b520b-e0c6-4bb0-b951-dd87cc07a518
 - alterId: 0
-  cipher: aes-128-gcm
-  name: 12,13|台湾-166.2KB/s
-  network: tcp
-  port: 6122
-  server: c12.twtc.dynu.net
+  cipher: auto
+  name: 12,13|越南【TG：@ccbaohe】定时更新节点订阅 4
+  network: ws
+  port: '80'
+  server: 3SAO.5GTOCDOCAO.COM
   servername: ''
   tls: false
   type: vmess
-  uuid: 2358c269-178a-43c0-a208-c6cc52d398f9
+  uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
+  ws-opts:
+    headers:
+      Host: lienquan.garena.vn
+    path: /5gtocdocao.com
 - alterId: 0
   cipher: auto
-  name: 12,13|台湾【TG：@ccbaohe】定时更新节点订阅 2 2
+  name: 13|台湾【TG：@ccbaohe】定时更新节点订阅 2 2
   network: tcp
   port: 2024
   server: b23.ntbq.dynu.net
@@ -39,6 +43,15 @@ proxies:
   tls: false
   type: vmess
   uuid: ef3841cf-2556-4d9c-ac8d-c0e5e978ab86
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 13|台湾-166.2KB/s
+  network: tcp
+  port: 6122
+  server: c12.twtc.dynu.net
+  tls: false
+  type: vmess
+  uuid: 2358c269-178a-43c0-a208-c6cc52d398f9
 - cipher: aes-128-gcm
   name: 15|🇹🇼 台湾KT|@ripaojiedian
   password: oiwym4ovI4Yb
