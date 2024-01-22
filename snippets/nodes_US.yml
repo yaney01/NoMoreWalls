@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,1,3,4,6,7,17|🇺🇸 _US_美国 #10'
+  name: '0,1,3,4,6,7,13,17|🇺🇸 _US_美国 #10'
   network: ws
   port: '80'
   server: 94.131.117.159
@@ -15,7 +15,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '0,3,4,7,17|🇺🇸 _US_美国 #9'
+  name: '0,3,4,7,13,17|🇺🇸 _US_美国 #9'
   network: ws
   port: '80'
   server: 94.131.13.110
@@ -183,7 +183,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4f60fc0e-3105-4f77-a0db-c44e1c992654
+  uuid: d1a3dfe0-5cb2-4252-8277-73cc875434e0
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -193,7 +193,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4f60fc0e-3105-4f77-a0db-c44e1c992654
+  uuid: d1a3dfe0-5cb2-4252-8277-73cc875434e0
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -203,7 +203,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4f60fc0e-3105-4f77-a0db-c44e1c992654
+  uuid: d1a3dfe0-5cb2-4252-8277-73cc875434e0
 - alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
@@ -248,7 +248,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '12,13,15,16|日本|@ripaojiedian #1'
+  name: 12,15,16|日本|@ripaojiedian
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
@@ -263,7 +263,7 @@ proxies:
     path: /video/ibCT6z55
 - alterId: 0
   cipher: auto
-  name: 12,13,15,16|韩国2|@ripaojiedian
+  name: '12,13,15,16|韩国2|@ripaojiedian #1'
   network: ws
   port: '80'
   server: 104.17.25.1
@@ -291,46 +291,43 @@ proxies:
     path: /search
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NONE 🇺🇸 US-35.87.209....
-  network: tcp
-  port: '13489'
-  server: 35.87.209.22
-  tls: false
-  type: vmess
-  uuid: 61761e55-dff5-4f94-f75f-b0a4718bba98
-- alterId: 0
-  cipher: auto
-  name: 13|🇺🇸|US|美国|@wxgqlfx|19
+  name: 13|US_youtube@资源分享师_107
   network: ws
-  port: 8080
-  server: cf.openxai.link
-  tls: false
+  port: 443
+  server: 92.223.118.14
+  tls: true
   type: vmess
-  uuid: c18beb85-c67b-46ed-b8cc-4cbfeae5f194
+  uuid: 604499ec-89af-45f2-b63b-e3eddc8f6386
   ws-opts:
     headers:
-      Host: eu1.openxai.link
-    path: /?ed=2048
+      Host: saman.zapto.org
+    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
-  network: tcp
-  port: '52408'
-  server: 129.146.46.181
-  servername: ''
+  name: 13|US_youtube@资源分享师_60
+  network: ws
+  port: 80
+  server: cf.178820225.xyz
   tls: false
   type: vmess
-  uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
+  uuid: 8fa261c0-ae8d-4aee-8f8b-1604b6f78f4a
+  ws-opts:
+    headers:
+      Host: dev6.178820225.xyz
+    path: /thdgfdfdfg
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-104.237.128....
-  network: tcp
-  port: '14432'
-  server: 104.237.128.72
-  servername: ''
+  name: 13|🇺🇸|US|美国|@wxgqlfx|33
+  network: ws
+  port: 2082
+  server: dl3s.doushimeng.com
   tls: false
   type: vmess
-  uuid: 4c09b776-6f83-4bf2-f7f7-4e286dbbb6da
+  uuid: ca74571a-ec85-4076-8427-f4233830f240
+  ws-opts:
+    headers:
+      Host: cf-de10.doushimeng.com
+    path: /asdas
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.133....
@@ -343,18 +340,87 @@ proxies:
   uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b
 - alterId: 0
   cipher: auto
-  name: 13|🇺🇸|US|美国|@wxgqlfx|35
+  name: 13|🇺🇸|US|美国|@wxgqlfx|24
   network: ws
-  port: '443'
-  server: 185.101.136.9
-  servername: skuone.serveminecraft.net
-  tls: true
+  port: 80
+  server: lt1-vmess.sshmax.xyz
+  tls: false
   type: vmess
-  uuid: 4abdf58e-0516-468d-9571-fe25cb4897ef
+  uuid: d3e40d59-b53c-4f4e-8867-bb598be864d2
   ws-opts:
     headers:
-      Host: skuone.serveminecraft.net
+      Host: lt1-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇺🇸 US-132.145.132.2...
+  network: ws
+  port: 37121
+  server: 132.145.132.227
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 93845b50-26f6-4203-f5ad-4d231d4e8f45
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
+  name: 13|US_youtube@资源分享师_98
+  network: ws
+  port: 443
+  server: 92.223.118.14
+  tls: true
+  type: vmess
+  uuid: 695ae833-9d90-4598-b431-c4cd214106c0
+  ws-opts:
+    headers:
+      Host: tasnim.onthewifi.com
     path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.247....
+  network: tcp
+  port: '42598'
+  server: 129.146.247.135
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1773b226-0bdb-43c5-87d8-270d26211dda
+- alterId: 0
+  cipher: auto
+  name: 13|US_youtube@资源分享师_118
+  network: ws
+  port: 443
+  server: 92.223.118.14
+  tls: true
+  type: vmess
+  uuid: 8a72e0a0-4767-4bd2-b329-72906762eff8
+  ws-opts:
+    headers:
+      Host: kosar.serveminecraft.net
+    path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-104.237.128....
+  network: tcp
+  port: '14432'
+  server: 104.237.128.72
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c09b776-6f83-4bf2-f7f7-4e286dbbb6da
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
+  network: tcp
+  port: '52408'
+  server: 129.146.46.181
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 04 | 1x US
@@ -364,7 +430,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 130d0951-ae21-4cba-8a47-148b30a3d274
+  uuid: 506f6506-e3b3-427b-8df8-2cfa7a63daf7
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -374,7 +440,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 130d0951-ae21-4cba-8a47-148b30a3d274
+  uuid: 506f6506-e3b3-427b-8df8-2cfa7a63daf7
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -384,7 +450,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 130d0951-ae21-4cba-8a47-148b30a3d274
+  uuid: 506f6506-e3b3-427b-8df8-2cfa7a63daf7
 - cipher: aes-256-cfb
   name: 15|🇺🇸 美国|@ripaojiedian
   password: amazonskr05
