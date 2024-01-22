@@ -5,6 +5,7 @@ proxies:
   network: ws
   port: '80'
   server: 94.131.117.159
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
@@ -105,7 +106,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1d4907f6-2341-4dfe-b2ff-8c1196ff4b18
+  uuid: edc143f3-92a5-4079-a5a3-325c7d227fb2
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -115,7 +116,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1d4907f6-2341-4dfe-b2ff-8c1196ff4b18
+  uuid: edc143f3-92a5-4079-a5a3-325c7d227fb2
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -125,10 +126,10 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1d4907f6-2341-4dfe-b2ff-8c1196ff4b18
+  uuid: edc143f3-92a5-4079-a5a3-325c7d227fb2
 - alterId: 0
   cipher: auto
-  name: 11,15,16|日本|@ripaojiedian
+  name: 11,13,15,16|日本|@ripaojiedian
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
@@ -172,7 +173,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,13|US_youtube@资源分享师_66
+  name: 11|美国CloudFlare公司CDN节点 6
   network: ws
   port: 80
   server: cf.178820225.xyz
@@ -214,26 +215,6 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
-  network: tcp
-  port: '52408'
-  server: 129.146.46.181
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-104.237.128....
-  network: tcp
-  port: '14432'
-  server: 104.237.128.72
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4c09b776-6f83-4bf2-f7f7-4e286dbbb6da
-- alterId: 0
-  cipher: auto
   name: 13|US美国(mibei77.com 米贝节点分享)
   network: ws
   port: '443'
@@ -248,6 +229,16 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
+  name: 13|🔒 VM-TCP-NONE 🇺🇸 US-5.78.98.7:...
+  network: tcp
+  port: '8081'
+  server: 5.78.98.7
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 23195705-4a99-4002-b7e7-4b58501ec716
+- alterId: 0
+  cipher: auto
   name: 13|US_youtube@资源分享师_118
   network: ws
   port: 443
@@ -260,41 +251,57 @@ proxies:
       Host: kosar.serveminecraft.net
     path: /@forwardv2ray
 - alterId: 0
+  cipher: aes-128-gcm
+  name: 13|美国-2.72MB/s
+  network: ws
+  port: 43121
+  server: 129.146.113.254
+  tls: false
+  type: vmess
+  uuid: d53b39e2-925e-45b6-9389-46b9fa95878b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
   cipher: auto
-  name: 13|US_youtube@资源分享师_16
+  name: 13|🇺🇸|US|美国|@wxgqlfx|31
+  network: ws
+  port: '2023'
+  server: 146.190.103.39
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8e82b259-dcf8-466c-acd1-02616af34386
+  ws-opts:
+    headers:
+      Host: imo.im
+    path: /FREE-not_for_sale
+- alterId: 0
+  cipher: auto
+  name: 13,15,16|韩国2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 104.17.25.1
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 83c19463-f966-4adb-a7d8-b127825ffab2
+  ws-opts:
+    headers:
+      Host: kr.catnipballs.gay
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|US_youtube@资源分享师_37
   network: ws
   port: 443
-  server: 92.223.118.14
+  server: d1bcx1j4gcqy6l.cloudfront.net
   tls: true
   type: vmess
-  uuid: a4d92be0-5c64-4fbe-a3cb-1177f8753b52
+  uuid: cea88d38-5d60-45b7-a76e-f673d23b7c97
   ws-opts:
-    headers:
-      Host: sahar4.sytes.net
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.247....
-  network: tcp
-  port: '42598'
-  server: 129.146.247.135
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1773b226-0bdb-43c5-87d8-270d26211dda
-- alterId: 0
-  cipher: auto
-  name: 13|美国【TG：@ccbaohe】定时更新节点订阅
-  network: ws
-  port: '8880'
-  server: food.zhaal.ir
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      Host: food.zhaal.ir
     path: /
 - alterId: 0
   cipher: auto
@@ -308,6 +315,27 @@ proxies:
   uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b
 - alterId: 0
   cipher: auto
+  name: 13|US_youtube@资源分享师_35
+  network: ws
+  port: 443
+  server: d23yh1ausf9qwq.cloudfront.net
+  tls: true
+  type: vmess
+  uuid: cea88d38-5d60-45b7-a76e-f673d23b7c97
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-104.237.128....
+  network: tcp
+  port: '14432'
+  server: 104.237.128.72
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c09b776-6f83-4bf2-f7f7-4e286dbbb6da
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】美国 04 | 1x US
   network: tcp
   port: '31501'
@@ -315,7 +343,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 131253c0-0a77-422c-8425-74548db1a67a
+  uuid: 2d33fe3c-5106-4229-8b74-f441dc744755
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -325,7 +353,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 131253c0-0a77-422c-8425-74548db1a67a
+  uuid: 2d33fe3c-5106-4229-8b74-f441dc744755
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -335,7 +363,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 131253c0-0a77-422c-8425-74548db1a67a
+  uuid: 2d33fe3c-5106-4229-8b74-f441dc744755
 - cipher: aes-256-cfb
   name: 15|🇺🇸 美国|@ripaojiedian
   password: amazonskr05
@@ -350,7 +378,7 @@ proxies:
   server: gdct001.theyydsnode.top
   tls: false
   type: vmess
-  uuid: f65bfcbb-1021-48a5-8395-f06c92777b25
+  uuid: daf29c2e-b795-4e0d-a39b-700e499f37ef
   ws-opts:
     headers:
       Host: ''
@@ -363,7 +391,7 @@ proxies:
   server: shcm002.theyydsnode.top
   tls: false
   type: vmess
-  uuid: f65bfcbb-1021-48a5-8395-f06c92777b25
+  uuid: daf29c2e-b795-4e0d-a39b-700e499f37ef
   ws-opts:
     headers:
       Host: ''
@@ -376,7 +404,7 @@ proxies:
   server: gdct003.theyydsnode.top
   tls: false
   type: vmess
-  uuid: f65bfcbb-1021-48a5-8395-f06c92777b25
+  uuid: daf29c2e-b795-4e0d-a39b-700e499f37ef
   ws-opts:
     headers:
       Host: ''
