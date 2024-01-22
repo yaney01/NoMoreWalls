@@ -105,7 +105,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 59baee76-bc7e-4a65-8752-0fc6c172bb09
+  uuid: c1ce7920-c7f3-488a-a013-4989e26909f6
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -115,7 +115,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 59baee76-bc7e-4a65-8752-0fc6c172bb09
+  uuid: c1ce7920-c7f3-488a-a013-4989e26909f6
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -125,20 +125,22 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 59baee76-bc7e-4a65-8752-0fc6c172bb09
+  uuid: c1ce7920-c7f3-488a-a013-4989e26909f6
 - alterId: 0
   cipher: auto
-  name: 11|美国 CloudFlare节点
+  name: 11,15,16|日本|@ripaojiedian
   network: ws
-  port: '8080'
-  server: cf.openxai.link
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
+  uuid: d0a3e08a-d26f-45bd-ba3c-6387f9182633
   ws-opts:
     headers:
-      Host: eu2.openxai.link
-    path: /?ed=2048
+      Host: agzbjszujp4.yofnhkfc.xyz
+    path: /video/ibCT6z55
 - alterId: 0
   cipher: auto
   name: '11,12|github.com/freefq - 美国CloudFla... #2'
@@ -170,21 +172,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|美国CloudFlare节点 8
-  network: ws
-  port: '8080'
-  server: cf.openxai.link
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
-  ws-opts:
-    headers:
-      Host: eu3.openxai.link
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 12,13|US_youtube@资源分享师_66
+  name: 11,12,13|US_youtube@资源分享师_66
   network: ws
   port: 80
   server: cf.178820225.xyz
@@ -195,6 +183,21 @@ proxies:
     headers:
       Host: ams.178820225.xyz
     path: /h5e65fd
+- alterId: 0
+  cipher: auto
+  name: 11,15,16|新加坡|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: d0a3e08a-d26f-45bd-ba3c-6387f9182633
+  ws-opts:
+    headers:
+      Host: 7nAi74jJsg1.yofnhkfc.xyz
+    path: /video/c9efxRCi
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
@@ -298,7 +301,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: abd666fa-e6b3-44de-9361-316e4a12a0c8
+  uuid: 4362e340-1667-451a-85e6-2d5f34826450
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -308,7 +311,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: abd666fa-e6b3-44de-9361-316e4a12a0c8
+  uuid: 4362e340-1667-451a-85e6-2d5f34826450
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -318,7 +321,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: abd666fa-e6b3-44de-9361-316e4a12a0c8
+  uuid: 4362e340-1667-451a-85e6-2d5f34826450
 - cipher: aes-256-cfb
   name: 15|🇺🇸 美国|@ripaojiedian
   password: amazonskr05
