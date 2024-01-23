@@ -8,7 +8,33 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 956df493-ede5-4885-a281-b2dacc9ebf33
+  uuid: fd7b4bd0-d52b-4673-b045-c5c4acf2ae74
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦加拿大3丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.200.3
+  tls: false
+  type: vmess
+  uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
+  ws-opts:
+    headers:
+      Host: ca3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦加拿大5丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.200.5
+  tls: false
+  type: vmess
+  uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662
+  ws-opts:
+    headers:
+      Host: ca3.889611.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
@@ -18,4 +44,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7aa442ed-d2e3-4b65-a1bd-346646460fea
+  uuid: 8211f6ce-862f-4ab3-8469-c9ac76dee63a
