@@ -116,7 +116,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,11,17|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #1'
+  name: '3,4,6,11,17|🇺🇸 _US_美国->🇨🇦_CA_加拿大 #1'
   network: ws
   port: '80'
   server: 162.159.200.3
@@ -129,7 +129,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '4,7|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦 #3'
+  name: '4,6,7|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦 #5'
   network: ws
   port: 80
   server: 162.159.200.7
@@ -142,7 +142,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '4,7,11|美国 CloudFlare节点 #2'
+  name: '4,6,7,11|美国 CloudFlare节点 #2'
   network: ws
   port: 80
   server: 104.18.15.150
@@ -155,7 +155,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '4,7|🇺🇸_US_美国->🇹🇷_TR_土耳其 #1'
+  name: '4,6,7|🇺🇸_US_美国->🇹🇷_TR_土耳其 #2'
   network: ws
   port: 80
   server: 104.18.15.149
@@ -168,7 +168,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '4,7|🇺🇸_US_美国->🇨🇦_CA_加拿大 #2'
+  name: '4,6,7|🇺🇸_US_美国->🇨🇦_CA_加拿大 #4'
   network: ws
   port: 80
   server: 162.159.200.5
@@ -181,10 +181,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '6,7|🇺🇸_US_美国->🇫🇷_FR_法国 #1'
+  name: '7,12|github.com/freefq - 美国CloudFla... #1'
   network: ws
-  port: 2082
+  port: '2082'
   server: s1c.v2.v001sss.xyz
+  servername: ''
   tls: false
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
