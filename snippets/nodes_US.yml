@@ -65,7 +65,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7,11,12,13|🇺🇸_US_美国 #11'
+  name: '7,11,13|🇺🇸_US_美国 #11'
   network: ws
   port: 80
   server: 94.131.13.110
@@ -126,7 +126,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a82c81ba-e665-4a82-a6e2-136df4cc78a1
+  uuid: b9a73593-5b14-4cec-992b-84526da053c4
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -136,7 +136,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a82c81ba-e665-4a82-a6e2-136df4cc78a1
+  uuid: b9a73593-5b14-4cec-992b-84526da053c4
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -146,7 +146,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a82c81ba-e665-4a82-a6e2-136df4cc78a1
+  uuid: b9a73593-5b14-4cec-992b-84526da053c4
 - alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
@@ -202,6 +202,62 @@ proxies:
   ws-opts:
     headers:
       Host: sgvpn.catnipballs.gay
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12,13|美国【TG：@ccbaohe】定时更新节点订阅 20
+  network: ws
+  port: 80
+  server: 172.67.217.144
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
+  ws-opts:
+    headers:
+      Host: lv1.xv2ray.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12,13|长期更新节点@mftizi
+  network: ws
+  port: '8880'
+  server: 21.namesilo123.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 40e71b6a-00cf-437d-8232-4e83e6437286
+  ws-opts:
+    headers:
+      Host: uspp.sanfen002.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12,13|🔒 VM-WS-NA 🏴‍☠️ NA-104.31.16.1...
+  network: ws
+  port: '8080'
+  server: 104.31.16.104
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3a6752b4-8353-4172-85b1-32202116714d
+  ws-opts:
+    headers:
+      Host: asan3.azad1.tech
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12,13|美国【TG：@ccbaohe】定时更新节点订阅 3
+  network: ws
+  port: 8080
+  server: www.crispyrainbow.biz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.crispyrainbow.biz
     path: /
 - alterId: 0
   cipher: auto
@@ -321,20 +377,6 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 13|美国【TG：@ccbaohe】定时更新节点订阅 3
-  network: ws
-  port: 8080
-  server: www.crispyrainbow.biz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.crispyrainbow.biz
-    path: /
-- alterId: 0
-  cipher: auto
   name: 13|美国【TG：@ccbaohe】定时更新节点订阅 4
   network: ws
   port: 8080
@@ -349,20 +391,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|美国【TG：@ccbaohe】定时更新节点订阅 20
-  network: ws
-  port: 80
-  server: 172.67.217.144
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
-  ws-opts:
-    headers:
-      Host: lv1.xv2ray.net
-    path: /
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】美国 04 | 1x US
   network: tcp
   port: '31501'
@@ -370,7 +398,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 578cdba0-6f23-4f5b-9033-740074df8901
+  uuid: 7aaccb6e-d029-4e26-89d6-5b38615e69aa
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -380,7 +408,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 578cdba0-6f23-4f5b-9033-740074df8901
+  uuid: 7aaccb6e-d029-4e26-89d6-5b38615e69aa
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -390,7 +418,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 578cdba0-6f23-4f5b-9033-740074df8901
+  uuid: 7aaccb6e-d029-4e26-89d6-5b38615e69aa
 - cipher: chacha20-ietf-poly1305
   name: 15|🇺🇸 美国2|@ripaojiedian
   password: cfa17a0d-5e7d-4871-976e-f116e0818123
