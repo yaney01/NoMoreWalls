@@ -1,24 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,16|台湾|@ripaojiedian
+  name: 11,16|台湾3|@ripaojiedian
   network: tcp
-  port: '6122'
-  server: 36.232.158.210
+  port: '2024'
+  server: 118.167.76.233
   servername: ''
   tls: false
   type: vmess
   uuid: 6b2e0602-bc1a-4ec3-88da-4238a6955ddd
-- alterId: 0
-  cipher: auto
-  name: 11|台湾省中华电信(HiNet)数据中心 14
-  network: tcp
-  port: 2024
-  server: b23.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ef3841cf-2556-4d9c-ac8d-c0e5e978ab86
 - alterId: 0
   cipher: auto
   name: 13,16|台湾2|@ripaojiedian
@@ -31,10 +21,10 @@ proxies:
   uuid: a209ff8c-d691-496c-8c1f-32d2e995b603
 - alterId: 0
   cipher: auto
-  name: 16|台湾3|@ripaojiedian
+  name: 16|台湾|@ripaojiedian
   network: tcp
-  port: '2024'
-  server: 118.167.76.233
+  port: '6122'
+  server: 36.232.158.210
   servername: ''
   tls: false
   type: vmess
