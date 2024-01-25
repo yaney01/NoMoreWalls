@@ -8,7 +8,16 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3864b4ea-c9b0-4a73-b651-795449ceadad
+  uuid: 54ab13dc-71dc-43f0-b6fa-375e6552ed82
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇨🇦 CA-178.128.237....
+  network: tcp
+  port: '3389'
+  server: 178.128.237.6
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
@@ -21,15 +30,6 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇨🇦 CA-178.128.237....
-  network: tcp
-  port: '3389'
-  server: 178.128.237.6
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -37,4 +37,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c0c45fe2-0372-4f40-a58b-5a84f900b44c
+  uuid: 9e13a415-4750-482d-8e8f-fc4a56b3a124
