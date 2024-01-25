@@ -110,7 +110,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,1,3,4,6,7,11,12,17|🇺🇸 _US_美国 #18'
+  name: '0,1,3,4,6,7,11,17|🇺🇸 _US_美国 #18'
   network: ws
   port: '80'
   server: 158.101.7.8
@@ -253,7 +253,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4a124b37-5aed-4924-88a9-2e89a5584ce3
+  uuid: daeff744-70d8-4175-9212-2404f83229c5
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -263,7 +263,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4a124b37-5aed-4924-88a9-2e89a5584ce3
+  uuid: daeff744-70d8-4175-9212-2404f83229c5
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -273,7 +273,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4a124b37-5aed-4924-88a9-2e89a5584ce3
+  uuid: daeff744-70d8-4175-9212-2404f83229c5
 - alterId: 0
   cipher: auto
   name: '11,12,13,15,16|新加坡3|@ripaojiedian #1'
@@ -291,7 +291,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,12,13|〖电报：@ccbaohe】免费节点定时更新 4
+  name: 11,13|〖电报：@ccbaohe】免费节点定时更新 4
   network: ws
   port: 2052
   server: biezaicuoguoxyz.qiliqili.store
@@ -305,7 +305,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,12,13|US_youtube@资源分享师_33
+  name: 11,13|US_youtube@资源分享师_33
   network: ws
   port: 80
   server: usyx1.jidexufei.top
@@ -318,7 +318,7 @@ proxies:
     path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
-  name: '11,12,13,15,16|香港4|@ripaojiedian #1'
+  name: '11,13,15,16|香港4|@ripaojiedian #1'
   network: ws
   port: '80'
   server: 104.156.85.242
@@ -331,6 +331,21 @@ proxies:
     headers:
       Host: zhejiang2024.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 12,13,15,16|日本|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 2b48622d-307c-40cf-88ca-954f83f3a9dd
+  ws-opts:
+    headers:
+      Host: kvjqqknzjp6.yofnhkfc.xyz
+    path: /video/Zo98PYfE
 - alterId: 0
   cipher: aes-128-gcm
   name: 13|美国-2.09MB/s
@@ -438,7 +453,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d48ffdd8-603f-4a49-8ade-98a48478b1bc
+  uuid: 45ad8ed3-9a37-4842-8994-47c3dacc781b
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -448,7 +463,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d48ffdd8-603f-4a49-8ade-98a48478b1bc
+  uuid: 45ad8ed3-9a37-4842-8994-47c3dacc781b
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -458,7 +473,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d48ffdd8-603f-4a49-8ade-98a48478b1bc
+  uuid: 45ad8ed3-9a37-4842-8994-47c3dacc781b
 - cipher: chacha20-ietf-poly1305
   name: 15|🇺🇸 美国2|@ripaojiedian
   password: cfa17a0d-5e7d-4871-976e-f116e0818123
