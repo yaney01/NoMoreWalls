@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,11,12,13,17|🇺🇸 _US_美国 #23'
+  name: '0,3,4,6,7,11,13,17|🇺🇸 _US_美国 #23'
   network: ws
   port: '80'
   server: pt2-vmess.sshmax.xyz
@@ -83,7 +83,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,1,3,4,6,7,11,12,13,17|🇺🇸 _US_美国 #22'
+  name: '0,1,3,4,6,7,11,13,17|🇺🇸 _US_美国 #22'
   network: ws
   port: '80'
   server: 94.131.10.135
@@ -112,7 +112,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,1,3,4,6,7,17|🇺🇸 _US_美国 #18'
+  name: '0,1,3,4,6,7,12,17|🇺🇸 _US_美国 #18'
   network: ws
   port: '80'
   server: 158.101.7.8
@@ -257,7 +257,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6fd0acbe-b705-41c8-b758-7f2a7ba693ba
+  uuid: 48c1ee2b-67bb-4eb5-ba91-c52075b2e65c
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -267,7 +267,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6fd0acbe-b705-41c8-b758-7f2a7ba693ba
+  uuid: 48c1ee2b-67bb-4eb5-ba91-c52075b2e65c
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -277,7 +277,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6fd0acbe-b705-41c8-b758-7f2a7ba693ba
+  uuid: 48c1ee2b-67bb-4eb5-ba91-c52075b2e65c
 - alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
@@ -293,7 +293,7 @@ proxies:
     path: /adenc35.fixedlfoat.top/linkws
 - alterId: 0
   cipher: auto
-  name: 11,12,13,15,16|新加坡|@ripaojiedian
+  name: 11,13,15,16|新加坡|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn2.sanfencdn9.com
@@ -349,7 +349,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11,12|github.com/freefq - 美国CloudFla... #6'
+  name: 11|美国CloudFlare节点 18
   network: ws
   port: 80
   server: yhnsb3.shabijichang.com
@@ -377,6 +377,33 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 12,13|〖电报：@ccbaohe】免费节点定时更新 4
+  network: ws
+  port: 2052
+  server: biezaicuoguoxyz.qiliqili.store
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 20fb7fae-1ef0-4663-a175-f5add2d0198e
+  ws-opts:
+    headers:
+      Host: cuoguose.qiliqili.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12,13|US_youtube@资源分享师_33
+  network: ws
+  port: 80
+  server: usyx1.jidexufei.top
+  tls: false
+  type: vmess
+  uuid: a5bd1650-1afc-4f11-bbfd-2b4abbc35c9e
+  ws-opts:
+    headers:
+      Host: nishiyigedashabiuss2.com
+    path: /cctv13/hd.m3u8
+- alterId: 0
+  cipher: auto
   name: '12,13,15,16|香港4|@ripaojiedian #1'
   network: ws
   port: '80'
@@ -390,20 +417,6 @@ proxies:
     headers:
       Host: zhejiang2024.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 12|github.com/freefq - 美国纽约市Digit...
-  network: ws
-  port: '80'
-  server: 207.154.217.22
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1d6c331c-a7d1-40a0-b609-1dd418f4b170
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess
 - alterId: 0
   cipher: aes-128-gcm
   name: 13|美国-2.09MB/s
@@ -511,7 +524,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ba461e2a-51b7-40d2-a4ae-2814cffb3eff
+  uuid: 36d214fe-7d61-4888-9d6e-4ed02cc6eb21
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -521,7 +534,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ba461e2a-51b7-40d2-a4ae-2814cffb3eff
+  uuid: 36d214fe-7d61-4888-9d6e-4ed02cc6eb21
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -531,7 +544,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ba461e2a-51b7-40d2-a4ae-2814cffb3eff
+  uuid: 36d214fe-7d61-4888-9d6e-4ed02cc6eb21
 - cipher: chacha20-ietf-poly1305
   name: 15|🇺🇸 美国2|@ripaojiedian
   password: cfa17a0d-5e7d-4871-976e-f116e0818123

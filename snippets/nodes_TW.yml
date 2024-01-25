@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,13|TW_speednode_0065
+  name: 11,12,13|TW_speednode_0065
   network: tcp
   port: 6122
   server: 36.232.158.210
@@ -51,16 +51,6 @@ proxies:
   uuid: c64adf03-3bfe-47e0-b38b-870a9f8032e8
 - alterId: 0
   cipher: auto
-  name: '12|github.com/freefq - 台湾省中华电信(Hi... #5'
-  network: tcp
-  port: 4443
-  server: nb24.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b6fdc502-3ae5-47a7-9fa4-3fa7febb76c4
-- alterId: 0
-  cipher: auto
   name: 12|github.com/freefq - 台湾省晟崴科技股份有...
   network: ws
   port: '80'
@@ -73,12 +63,3 @@ proxies:
     headers:
       Host: lienquan.garena.vn
     path: /5gtocdocao.com
-- alterId: 0
-  cipher: auto
-  name: '12|github.com/freefq - 台湾省中华电信(Hi... #7'
-  network: tcp
-  port: 12002
-  server: 118.167.72.107
-  tls: false
-  type: vmess
-  uuid: 4403b75a-24ca-4d06-af15-6e157a0a7361
