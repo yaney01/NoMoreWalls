@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 54ab13dc-71dc-43f0-b6fa-375e6552ed82
+  uuid: f8a5fddc-9aed-40f1-b975-3392fac878cd
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 54ab13dc-71dc-43f0-b6fa-375e6552ed82
+  uuid: f8a5fddc-9aed-40f1-b975-3392fac878cd
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 54ab13dc-71dc-43f0-b6fa-375e6552ed82
+  uuid: f8a5fddc-9aed-40f1-b975-3392fac878cd
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇸🇬 SG-13.215.161.65...
@@ -45,6 +45,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-128.199.128.2...
+  network: ws
+  port: '42338'
+  server: 128.199.128.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 13e5d814-834b-473a-a87a-15459987f181
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -52,7 +66,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9e13a415-4750-482d-8e8f-fc4a56b3a124
+  uuid: dcda7811-c501-4b6a-b6fd-05262df9031c
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -62,7 +76,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9e13a415-4750-482d-8e8f-fc4a56b3a124
+  uuid: dcda7811-c501-4b6a-b6fd-05262df9031c
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -72,7 +86,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9e13a415-4750-482d-8e8f-fc4a56b3a124
+  uuid: dcda7811-c501-4b6a-b6fd-05262df9031c
 - alterId: 0
   cipher: auto
   name: 15,16|新加坡2|@ripaojiedian
