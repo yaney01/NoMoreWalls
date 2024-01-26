@@ -1,16 +1,42 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,11,12,13,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
+  name: 0|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦
   network: ws
-  port: '8080'
-  server: 104.31.16.104
+  port: '80'
+  server: 162.159.200.7
   tls: false
   type: vmess
-  uuid: 3a6752b4-8353-4172-85b1-32202116714d
+  uuid: 4899b015-5823-486d-bfe6-06c3239260f5
   ws-opts:
     headers:
-      Host: asan3.azad1.tech
+      Host: er3.visaapp.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '0|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦 #1'
+  network: ws
+  port: '80'
+  server: 104.18.15.148
+  tls: false
+  type: vmess
+  uuid: 4899b015-5823-486d-bfe6-06c3239260f5
+  ws-opts:
+    headers:
+      Host: er3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '0|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦 #2'
+  network: ws
+  port: '80'
+  server: 104.18.15.149
+  tls: false
+  type: vmess
+  uuid: 4899b015-5823-486d-bfe6-06c3239260f5
+  ws-opts:
+    headers:
+      Host: er3.889611.com
     path: /
 - alterId: 0
   cipher: auto
@@ -25,6 +51,41 @@ proxies:
     headers:
       Host: soft8989.redirectme.net
     path: /@forwardv2ray
+- alterId: 0
+  cipher: auto
+  name: '0|🇺🇸 _US_美国->🇷🇺_RU_俄罗斯联邦 #3'
+  network: ws
+  port: '80'
+  server: 162.159.200.6
+  tls: false
+  type: vmess
+  uuid: 4899b015-5823-486d-bfe6-06c3239260f5
+  ws-opts:
+    headers:
+      Host: er3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0|🇵🇰 _CN_中国->🇵🇰_PK_巴基斯坦
+  network: tcp
+  port: '33311'
+  server: 36.212.152.13
+  tls: false
+  type: vmess
+  uuid: 83a348a5-c711-4b43-a365-c4ecb94c005c
+- alterId: 0
+  cipher: auto
+  name: 0|🇭🇰 _ES_西班牙->🇭🇰_HK_香港
+  network: ws
+  port: '8002'
+  server: 185.214.103.249
+  tls: false
+  type: vmess
+  uuid: e096b14e-b746-3dda-bc95-a435b4b2aceb
+  ws-opts:
+    headers:
+      Host: cache-hk-1.cn-db.top
+    path: /db00
 - name: 1|_CN_->_AT_
   network: tcp
   password: 3e5d1046-5807-4b79-8397-31a006f546d1
@@ -73,7 +134,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_FR_
+  name: 1,11|美国 CloudFlare节点
   network: ws
   port: 2082
   server: s1c.v2.v001sss.xyz
@@ -83,11 +144,11 @@ proxies:
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
   ws-opts:
     headers:
-      host: s1c.v2.v001sss.xyz
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 3,12,13,15,16|罗马尼亚|@ripaojiedian
+  name: 3,11,12,13,15,16|罗马尼亚|@ripaojiedian
   network: ws
   port: '80'
   server: 104.17.25.1
@@ -102,7 +163,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 4,6,7,12,17|🇺🇸 _US_美国->🇫🇷_FR_法国
+  name: 4,6,7,11,12,17|🇺🇸 _US_美国->🇫🇷_FR_法国
   network: ws
   port: '2082'
   server: s1c.v2.v001sss.xyz
