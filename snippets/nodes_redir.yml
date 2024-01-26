@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,11,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #2'
+  name: '0,3,4,6,7,11,12,13,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #1'
   network: ws
   port: '8080'
   server: 104.31.16.104
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,12,17|🇹🇷 _IQ_伊拉克->🇹🇷_TR_土耳其 #2'
+  name: '0,3,4,6,7,17|🇹🇷 _IQ_伊拉克->🇹🇷_TR_土耳其 #2'
   network: ws
   port: '443'
   server: 130.193.166.2
@@ -87,7 +87,22 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,6,7,12,17|🇺🇸 _US_美国->🇫🇷_FR_法国 #1'
+  name: 3,12,13,15,16|罗马尼亚|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 104.17.25.1
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 4e23bd4f-cc11-4ade-fbc1-fcaf245662bf
+  ws-opts:
+    headers:
+      Host: lmnyvpn.catnipballs.gay
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 4,6,7,12,17|🇺🇸 _US_美国->🇫🇷_FR_法国
   network: ws
   port: '2082'
   server: s1c.v2.v001sss.xyz

@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 32548efc-23c3-4011-a4bf-954a0302cefb
+  uuid: 20bd25bf-46ba-4e14-9625-b44f875c6ba8
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 32548efc-23c3-4011-a4bf-954a0302cefb
+  uuid: 20bd25bf-46ba-4e14-9625-b44f875c6ba8
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 32548efc-23c3-4011-a4bf-954a0302cefb
+  uuid: 20bd25bf-46ba-4e14-9625-b44f875c6ba8
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇸🇬 SG-45.76.144.158...
@@ -79,7 +79,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b9cd0d36-6642-4a1f-822b-5e30213560b3
+  uuid: cb1c7664-73e9-4a31-ab79-e9879ca745f4
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -89,7 +89,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b9cd0d36-6642-4a1f-822b-5e30213560b3
+  uuid: cb1c7664-73e9-4a31-ab79-e9879ca745f4
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -99,7 +99,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b9cd0d36-6642-4a1f-822b-5e30213560b3
+  uuid: cb1c7664-73e9-4a31-ab79-e9879ca745f4
 - alterId: 0
   cipher: auto
   name: 15,16|新加坡2|@ripaojiedian
@@ -115,30 +115,15 @@ proxies:
     headers:
       Host: sgvpn.catnipballs.gay
     path: /
-- alterId: 0
-  cipher: auto
-  name: 15,16|新加坡|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 2b48622d-307c-40cf-88ca-954f83f3a9dd
-  ws-opts:
-    headers:
-      Host: jpafzyhfsg3.yofnhkfc.xyz
-    path: /video/u4eCZTxW
 - cipher: aes-256-cfb
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.195.171.91
+  server: 52.221.203.229
   type: ss
 - cipher: aes-256-cfb
   name: 15|🇸🇬 狮城特殊2|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.250.240.198
+  server: 18.179.13.191
   type: ss
