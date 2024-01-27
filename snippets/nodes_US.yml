@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,11,12,17|🇺🇸 _US_美国 #14'
+  name: '0,3,4,6,7,11,17|🇺🇸 _US_美国 #14'
   network: ws
   port: '80'
   server: 172.67.217.144
@@ -124,7 +124,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,4,6,7,11,12|github.com/freefq - 乌克兰  10
+  name: 1,4,6,7,11,12|github.com/freefq - 乌克兰  20
   network: ws
   port: 80
   server: be1-vmess.sshmax.xyz
@@ -211,7 +211,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a9497ac2-9645-4d64-b35e-a1cfff1ee573
+  uuid: f643498d-6e12-4d6a-8cf8-359ab8a48336
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -221,7 +221,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a9497ac2-9645-4d64-b35e-a1cfff1ee573
+  uuid: f643498d-6e12-4d6a-8cf8-359ab8a48336
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -231,7 +231,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a9497ac2-9645-4d64-b35e-a1cfff1ee573
+  uuid: f643498d-6e12-4d6a-8cf8-359ab8a48336
 - alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
@@ -248,7 +248,7 @@ proxies:
     path: /eisasqa
 - alterId: 0
   cipher: auto
-  name: '11,12|github.com/freefq - 美国CloudFla... #7'
+  name: '11,12|github.com/freefq - 美国CloudFla... #4'
   network: ws
   port: '80'
   server: 104.17.25.1
@@ -261,7 +261,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11,12|github.com/freefq - 美国CloudFla... #8'
+  name: '11,12|github.com/freefq - 美国CloudFla... #5'
   network: ws
   port: '2082'
   server: s1c.v2.v001sss.xyz
@@ -317,7 +317,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12,13|🇺🇸|US|美国|@wxgqlfx|28
+  name: 13|⚡️@DeamNet_🔻 🇺🇸United States 2...
+  network: tcp
+  port: 22324
+  server: 38.75.137.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸|US|美国|@wxgqlfx|28
   network: ws
   port: 80
   server: ap-northeast-anycast.lnaspiring.com
@@ -328,16 +338,6 @@ proxies:
     headers:
       Host: jpli.edge.233.tw
     path: /geg/45?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|⚡️@DeamNet_🔻 🇺🇸United States 2...
-  network: tcp
-  port: 22324
-  server: 38.75.137.27
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇺🇸 US-172.67.203.16...
@@ -449,20 +449,6 @@ proxies:
   type: vmess
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
 - alterId: 0
-  cipher: auto
-  name: 13|🇺🇸_US_美国_8
-  network: ws
-  port: 80
-  server: 94.131.10.135
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 099b5b7a-9d71-43cd-80e3-b8fbe1cc2695
-  ws-opts:
-    headers:
-      Host: ''
-    path: /vmess
-- alterId: 0
   cipher: aes-128-gcm
   name: 13|美国-2.09MB/s
   network: ws
@@ -539,7 +525,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e49aa922-3d7c-410c-8a86-93535622c91e
+  uuid: dd869b17-2613-4c98-b8f7-b38ebb706358
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -549,7 +535,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e49aa922-3d7c-410c-8a86-93535622c91e
+  uuid: dd869b17-2613-4c98-b8f7-b38ebb706358
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -559,7 +545,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e49aa922-3d7c-410c-8a86-93535622c91e
+  uuid: dd869b17-2613-4c98-b8f7-b38ebb706358
 - alterId: 0
   cipher: auto
   name: 15,16|美国2|@ripaojiedian
