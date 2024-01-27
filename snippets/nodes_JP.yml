@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7c92a093-df36-4d6a-bc0a-7918146181b2
+  uuid: a9497ac2-9645-4d64-b35e-a1cfff1ee573
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7c92a093-df36-4d6a-bc0a-7918146181b2
+  uuid: a9497ac2-9645-4d64-b35e-a1cfff1ee573
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,7 +28,21 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7c92a093-df36-4d6a-bc0a-7918146181b2
+  uuid: a9497ac2-9645-4d64-b35e-a1cfff1ee573
+- alterId: 0
+  cipher: auto
+  name: 13|⚡️@DeamNet_🔻 🇯🇵Japan 3
+  network: ws
+  port: 12345
+  server: 152.69.197.74
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
+  ws-opts:
+    headers:
+      Host: ''
+    path: /bb
 - alterId: 0
   cipher: auto
   name: 13|⚡️@DeamNet_🔻 🇯🇵Japan
@@ -48,7 +62,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: eedf9b11-47ff-46b9-b587-da605b7f7954
+  uuid: e49aa922-3d7c-410c-8a86-93535622c91e
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -58,7 +72,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: eedf9b11-47ff-46b9-b587-da605b7f7954
+  uuid: e49aa922-3d7c-410c-8a86-93535622c91e
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -68,7 +82,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: eedf9b11-47ff-46b9-b587-da605b7f7954
+  uuid: e49aa922-3d7c-410c-8a86-93535622c91e
 - cipher: chacha20-ietf
   name: 15,16|5pel5pysfEByaXBhb2ppZWRpYW4
   obfs: plain
