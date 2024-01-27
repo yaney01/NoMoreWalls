@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 198be3b1-f900-407f-a7a5-f878dc160cb9
+  uuid: 24a8a786-8a2d-464b-85da-237c99d3dba9
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 198be3b1-f900-407f-a7a5-f878dc160cb9
+  uuid: 24a8a786-8a2d-464b-85da-237c99d3dba9
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,31 +28,17 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 198be3b1-f900-407f-a7a5-f878dc160cb9
-- alterId: 0
+  uuid: 24a8a786-8a2d-464b-85da-237c99d3dba9
+- alterId: 64
   cipher: auto
-  name: 13|⚡️@DeamNet_🔻 🇯🇵Japan 3
-  network: ws
-  port: 12345
-  server: 152.69.197.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    headers:
-      Host: ''
-    path: /bb
-- alterId: 0
-  cipher: auto
-  name: 13|⚡️@DeamNet_🔻 🇯🇵Japan
+  name: 13|⚡️@DeamNet 🇯🇵Japan
   network: tcp
-  port: 20081
-  server: 138.2.44.211
+  port: 24445
+  server: 140.83.63.38
   servername: ''
   tls: false
   type: vmess
-  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
@@ -62,7 +48,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8a394713-7861-4979-8fc1-e3cc6478a320
+  uuid: 6c9e57b5-7d32-4c7a-ae31-880165b33680
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -72,7 +58,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8a394713-7861-4979-8fc1-e3cc6478a320
+  uuid: 6c9e57b5-7d32-4c7a-ae31-880165b33680
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -82,7 +68,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8a394713-7861-4979-8fc1-e3cc6478a320
+  uuid: 6c9e57b5-7d32-4c7a-ae31-880165b33680
 - cipher: chacha20-ietf
   name: 15,16|5pel5pysfEByaXBhb2ppZWRpYW4
   obfs: plain

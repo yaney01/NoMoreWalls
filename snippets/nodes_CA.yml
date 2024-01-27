@@ -8,7 +8,21 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 198be3b1-f900-407f-a7a5-f878dc160cb9
+  uuid: 24a8a786-8a2d-464b-85da-237c99d3dba9
+- alterId: 0
+  cipher: auto
+  name: 13|@DeamNet_🇨🇦Canada 2
+  network: ws
+  port: 443
+  server: ming2.kiwireich.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+  ws-opts:
+    headers:
+      Host: ming2.kiwireich.com
+    path: /ray
 - alterId: 0
   cipher: auto
   name: 13|⚡️@DeamNet 🇨🇦Canada 11
@@ -25,18 +39,44 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 13|⚡️@DeamNet 🇨🇦Canada 13
+  name: 13|🇨🇦加拿大3丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.200.3
+  tls: false
+  type: vmess
+  uuid: 2bc07c42-4420-4b94-b029-f5f83a20602a
+  ws-opts:
+    headers:
+      Host: ca3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦加拿大5丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.200.5
+  tls: false
+  type: vmess
+  uuid: 2bc07c42-4420-4b94-b029-f5f83a20602a
+  ws-opts:
+    headers:
+      Host: ca3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|⚡️@DeamNet 🇨🇦Canada 7
   network: ws
   port: 8880
-  server: usd.yj2022.gq
+  server: pla.yj2022.gq
   servername: ''
   tls: false
   type: vmess
   uuid: 4b5e4565-322f-4223-a891-78a84f189726
   ws-opts:
     headers:
-      Host: usd.yj2022.gq
-    path: /XSjeg73o6ZdsheahCb5JG
+      Host: pla.yj2022.gq
+    path: /r8ykwif5rffiqJeJ49zLQtAUESmka7PbhWz3wiHs8cSeiRyZL
 - alterId: 0
   cipher: auto
   name: 13|⚡️@DeamNet_🔻 🇨🇦Canada 13
@@ -63,6 +103,19 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
+  name: 13|🇨🇦加拿大6丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.200.6
+  tls: false
+  type: vmess
+  uuid: 2bc07c42-4420-4b94-b029-f5f83a20602a
+  ws-opts:
+    headers:
+      Host: ca3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -70,4 +123,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8a394713-7861-4979-8fc1-e3cc6478a320
+  uuid: 6c9e57b5-7d32-4c7a-ae31-880165b33680
