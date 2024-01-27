@@ -124,7 +124,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,4,6,7,11,12|github.com/freefq - 乌克兰  20
+  name: 1,4,6,7,11,12|github.com/freefq - 乌克兰  6
   network: ws
   port: 80
   server: be1-vmess.sshmax.xyz
@@ -211,7 +211,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a280e065-06b5-472c-bb28-b9aceaab7511
+  uuid: 198be3b1-f900-407f-a7a5-f878dc160cb9
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -221,7 +221,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a280e065-06b5-472c-bb28-b9aceaab7511
+  uuid: 198be3b1-f900-407f-a7a5-f878dc160cb9
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -231,7 +231,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a280e065-06b5-472c-bb28-b9aceaab7511
+  uuid: 198be3b1-f900-407f-a7a5-f878dc160cb9
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #2'
@@ -247,7 +247,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,12,13|🇺🇸|US|美国|@wxgqlfx|70
+  name: 11,13|🇺🇸|US|美国|@wxgqlfx|70
   network: ws
   port: 2052
   server: 104.18.202.232
@@ -287,7 +287,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11,12|github.com/freefq - 美国CloudFla... #5'
+  name: '11,12|github.com/freefq - 美国CloudFla... #6'
   network: ws
   port: '2082'
   server: s1c.v2.v001sss.xyz
@@ -314,6 +314,21 @@ proxies:
     headers:
       Host: lmnyvpn.catnipballs.gay
     path: /
+- alterId: 0
+  cipher: auto
+  name: 12,15,16|日本2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5a1bd666-441a-4446-9b4b-3538f6209d31
+  ws-opts:
+    headers:
+      Host: agzbjszujp4.yofnhkfc.xyz
+    path: /video/ibCT6z55
 - alterId: 0
   cipher: auto
   name: 13|⚡️@DeamNet_🔻 🇺🇸United States 2...
@@ -524,7 +539,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: db679a1a-bea4-454f-8b94-02473f9bb460
+  uuid: 8a394713-7861-4979-8fc1-e3cc6478a320
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -534,7 +549,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: db679a1a-bea4-454f-8b94-02473f9bb460
+  uuid: 8a394713-7861-4979-8fc1-e3cc6478a320
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -544,7 +559,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: db679a1a-bea4-454f-8b94-02473f9bb460
+  uuid: 8a394713-7861-4979-8fc1-e3cc6478a320
 - alterId: 0
   cipher: auto
   name: 15,16|美国2|@ripaojiedian
