@@ -1,42 +1,29 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|台湾省晟崴科技股份有限公司 10
-  network: ws
-  port: '80'
-  server: 103.118.29.229
-  tls: false
-  type: vmess
-  uuid: eb9e8a52-0fec-4a10-8d16-af3b32874933
-  ws-opts:
-    headers:
-      Host: lienquan.garena.vn
-    path: /5gtocdocao.com
-- alterId: 0
-  cipher: auto
-  name: 11|台湾省中华电信(HiNet)数据中心 2
+  name: 11|台湾省 中华电信(HiNet)数据中心
   network: tcp
-  port: '6122'
+  port: 6122
   server: 125.224.144.24
   tls: false
   type: vmess
-  uuid: e27ab70e-7444-470c-a0fc-e49ec09ac02d
+  uuid: d20b031e-a477-45f1-8bfc-4cbea413a44e
 - alterId: 0
   cipher: auto
-  name: 11|台湾省中华电信(HiNet)数据中心 3
+  name: 11,16|台湾3|@ripaojiedian
   network: tcp
-  port: 2024
-  server: b23.ntbq.dynu.net
+  port: '6122'
+  server: c12.twtc.dynu.net
   servername: ''
   tls: false
   type: vmess
-  uuid: abbc98b1-b53f-45e4-9d01-54a010ead719
+  uuid: 27c6999b-58aa-48b4-b065-786d2badc074
 - alterId: 0
   cipher: auto
-  name: 11,16|台湾|@ripaojiedian
+  name: 11|台湾省新竹市 中华电信
   network: tcp
-  port: '4443'
-  server: 118.167.77.5
+  port: '2024'
+  server: 114.37.139.157
   servername: ''
   tls: false
   type: vmess
@@ -83,11 +70,11 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 16|台湾3|@ripaojiedian
+  name: 16|台湾|@ripaojiedian
   network: tcp
-  port: '6122'
-  server: c12.twtc.dynu.net
+  port: '4443'
+  server: 118.167.77.5
   servername: ''
   tls: false
   type: vmess
-  uuid: 27c6999b-58aa-48b4-b065-786d2badc074
+  uuid: d20b031e-a477-45f1-8bfc-4cbea413a44e
