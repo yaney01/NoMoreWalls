@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,4,6,7|🇺🇸_US_美国->🇮🇷_IR_伊朗 #5'
+  name: '0,4,6,7,13|🇺🇸_US_美国->🇮🇷_IR_伊朗 #6'
   network: ws
   port: 8080
   server: www.darkroom.lol
@@ -46,7 +46,7 @@ proxies:
   uuid: 1d8963ab-0cd8-4091-93ca-4c6a7dbcd1f2
 - alterId: 0
   cipher: auto
-  name: '0,4,6,7,11,13|🇺🇸_US_美国->🇮🇷_IR_伊朗 #6'
+  name: 0,4,6,7,11,13|美国【TG：@ccbaohe】定时更新节点订阅 2
   network: ws
   port: 8080
   server: www.crispyrainbow.biz
@@ -87,18 +87,17 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1,13|🇺🇸_US_美国->🇮🇷_IR_伊朗_1
+  name: 1|_US_->_IR__1
   network: ws
   port: 8080
   server: www.darkroom.lol
-  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      Host: ''
+      host: www.darkroom.lol
     path: /
 - alterId: 0
   cipher: auto
