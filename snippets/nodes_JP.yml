@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5d4aca79-6d47-4372-9454-3dad8d8f488b
+  uuid: ede0fab9-b8f3-4a92-a64d-5889944431ef
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5d4aca79-6d47-4372-9454-3dad8d8f488b
+  uuid: ede0fab9-b8f3-4a92-a64d-5889944431ef
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,17 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5d4aca79-6d47-4372-9454-3dad8d8f488b
-- alterId: 0
-  cipher: auto
-  name: 13|⚡️@DeamNet_🔻 🇯🇵Japan
-  network: tcp
-  port: 20081
-  server: 138.2.44.211
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+  uuid: ede0fab9-b8f3-4a92-a64d-5889944431ef
 - alterId: 0
   cipher: auto
   name: '13,16|日本1|@ripaojiedian #1'
@@ -49,16 +39,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 5d3a1ace-4288-4442-98f2-50ff8795797a
-- alterId: 64
-  cipher: auto
-  name: 13|⚡️@DeamNet_🔻 🇯🇵Japan 4
-  network: tcp
-  port: 24445
-  server: 140.83.63.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇯🇵 JP-183.181.36.19...
@@ -75,6 +55,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 13|⚡️@DeamNet_🔻 🇯🇵Japan
+  network: tcp
+  port: 20081
+  server: 138.2.44.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
   network: tcp
   port: '31116'
@@ -82,7 +72,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4ebd131a-a20d-43b9-a5ce-1d373a94bf1b
+  uuid: cb658bbe-dcab-4f32-8348-dc9375763f1b
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -92,7 +82,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4ebd131a-a20d-43b9-a5ce-1d373a94bf1b
+  uuid: cb658bbe-dcab-4f32-8348-dc9375763f1b
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -102,7 +92,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4ebd131a-a20d-43b9-a5ce-1d373a94bf1b
+  uuid: cb658bbe-dcab-4f32-8348-dc9375763f1b
 - cipher: aes-128-gcm
   name: 15|🇯🇵 日本KT|@ripaojiedian
   password: g12sQi#ss#&1
