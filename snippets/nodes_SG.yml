@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c45a9a79-ee64-4a73-9916-425fbe8f1d50
+  uuid: 06d0c300-2ec9-47f3-8be1-d8f69f152967
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c45a9a79-ee64-4a73-9916-425fbe8f1d50
+  uuid: 06d0c300-2ec9-47f3-8be1-d8f69f152967
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,21 +28,21 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c45a9a79-ee64-4a73-9916-425fbe8f1d50
+  uuid: 06d0c300-2ec9-47f3-8be1-d8f69f152967
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇸🇬 SG-206.238.236.3...
+  name: 13|VGA-SG(73T)
   network: ws
-  port: '2052'
-  server: 206.238.236.36
-  servername: mysan2.jaquay22.workers.dev
+  port: 49498
+  server: 20.212.162.170
+  servername: ''
   tls: false
   type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  uuid: b0fa0c43-8406-4b9f-dea6-8dc372be0e9b
   ws-opts:
     headers:
-      Host: mysan2.jaquay22.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
+      Host: www.taobao.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇸🇬 SG-128.199.128.2...
@@ -59,6 +59,42 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 13|【直连】狮城 - 1 - A Group
+  network: tcp
+  port: '38755'
+  server: 00000000000000000000000000000000000000000000000000000000000025.agroup-node-for-bigairport.sbs
+  tls: false
+  type: vmess
+  uuid: 843764ed-637a-4085-856e-72c507df3447
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-139.180.186...
+  network: ws
+  port: 28305
+  server: 139.180.186.6
+  tls: false
+  type: vmess
+  uuid: 07c0cf18-ac8d-43e1-980b-8c5f3d928bfa
+  ws-opts:
+    headers:
+      Host: m.instagram.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-206.238.236.3...
+  network: ws
+  port: '2052'
+  server: 206.238.236.36
+  servername: mysan2.jaquay22.workers.dev
+  tls: false
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -66,7 +102,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 67451537-45c4-435b-b672-474d4bc99f3d
+  uuid: 81521ebb-45eb-49e8-bbd6-52b0470050b0
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -76,7 +112,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 67451537-45c4-435b-b672-474d4bc99f3d
+  uuid: 81521ebb-45eb-49e8-bbd6-52b0470050b0
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -86,14 +122,13 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 67451537-45c4-435b-b672-474d4bc99f3d
+  uuid: 81521ebb-45eb-49e8-bbd6-52b0470050b0
 - alterId: 0
   cipher: auto
-  name: 15,16|新加坡3|@ripaojiedian
+  name: 15|🇸🇬 新加坡3|@ripaojiedian
   network: ws
-  port: '80'
+  port: 80
   server: 104.17.25.3
-  servername: ''
   skip-cert-verify: false
   tls: false
   type: vmess
