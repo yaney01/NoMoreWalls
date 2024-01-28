@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 06d0c300-2ec9-47f3-8be1-d8f69f152967
+  uuid: 9a56da2f-dc19-4673-b913-3f82d98cad6b
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 06d0c300-2ec9-47f3-8be1-d8f69f152967
+  uuid: 9a56da2f-dc19-4673-b913-3f82d98cad6b
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 06d0c300-2ec9-47f3-8be1-d8f69f152967
+  uuid: 9a56da2f-dc19-4673-b913-3f82d98cad6b
 - alterId: 0
   cipher: auto
   name: 13|🇯🇵日本6丨电报群@bp520
@@ -85,7 +85,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 81521ebb-45eb-49e8-bbd6-52b0470050b0
+  uuid: e3136749-28b8-4e57-95c4-d142c047f54d
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -95,7 +95,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 81521ebb-45eb-49e8-bbd6-52b0470050b0
+  uuid: e3136749-28b8-4e57-95c4-d142c047f54d
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -105,17 +105,27 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 81521ebb-45eb-49e8-bbd6-52b0470050b0
-- cipher: chacha20-ietf
-  name: 15|🇯🇵 日本|@ripaojiedian
-  obfs: plain
-  obfs-param: ''
-  password: MAYING
-  port: 1332
-  protocol: auth_aes128_md5
-  protocol-param: 27984:mFV84e
-  server: ijmazhr5972b.nodelist.club
-  type: ssr
+  uuid: e3136749-28b8-4e57-95c4-d142c047f54d
+- cipher: aes-128-gcm
+  name: 15|🇯🇵 日本KT|@ripaojiedian
+  password: g12sQi#ss#&1
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: ''
+    mode: websocket
+    mux: true
+    path: ''
+    skip-cert-verify: true
+    tls: false
+  port: 10016
+  server: 61.224.76.138
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: 100222a9-95bf-48f1-8e85-73336bf5fabc
+  port: 26668
+  server: service.ouluyun9803.com
+  type: ss
 - cipher: aes-256-cfb
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05

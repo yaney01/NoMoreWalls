@@ -41,7 +41,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,6,11,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #3'
+  name: '0,4,6,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #3'
   network: ws
   port: '8080'
   server: 104.31.16.104
@@ -77,7 +77,7 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: '0,4,6,7,13,17|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #2'
+  name: '0,4,6,7,11,13,17|🇺🇸 _US_美国->🇮🇷_IR_伊朗 #2'
   network: ws
   port: '8080'
   server: www.darkroom.lol

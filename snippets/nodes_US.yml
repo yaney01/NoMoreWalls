@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,4,6,7,11,13,15,16,17|🇺🇸 _US_美国 #9'
+  name: '0,4,6,7,13,15,16,17|🇺🇸 _US_美国 #9'
   network: ws
   port: '8080'
   server: www.crispyrainbow.online
@@ -94,7 +94,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,7|🇺🇸_US_美国 #17'
+  name: 0,7,11|北美地区 v2rayfree.eu.org
   network: tcp
   port: 8080
   server: 23.137.248.47
@@ -226,7 +226,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 06d0c300-2ec9-47f3-8be1-d8f69f152967
+  uuid: 9a56da2f-dc19-4673-b913-3f82d98cad6b
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -236,7 +236,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 06d0c300-2ec9-47f3-8be1-d8f69f152967
+  uuid: 9a56da2f-dc19-4673-b913-3f82d98cad6b
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -246,33 +246,78 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 06d0c300-2ec9-47f3-8be1-d8f69f152967
+  uuid: 9a56da2f-dc19-4673-b913-3f82d98cad6b
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #2'
+  name: 11|美国 CloudFlare节点
   network: ws
-  port: '2082'
-  server: s1c.v2.v001sss.xyz
+  port: '8080'
+  server: 172.67.212.171
+  servername: ''
   tls: false
   type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  uuid: 7b6ddff4-8f18-4e27-de82-a33cfeebfa01
   ws-opts:
     headers:
-      Host: s1c.v2.v001sss.xyz
+      Host: eu5.openxai.link
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 11,13|🇨🇦加拿大5丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.200.5
+  tls: false
+  type: vmess
+  uuid: 2bc07c42-4420-4b94-b029-f5f83a20602a
+  ws-opts:
+    headers:
+      Host: ca3.889611.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|美国CloudFlare公司CDN节点 14
+  name: 11,15,16|美国4|@ripaojiedian
   network: ws
-  port: 2052
-  server: 104.18.202.232
+  port: '80'
+  server: 172.64.229.5
+  servername: ''
+  skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 33316b88-907c-4562-ac4e-75aecbc0d8a0
+  uuid: 333c917d-7a3f-419e-a88a-36a420f0d791
   ws-opts:
     headers:
-      Host: etc.tellss.ir
-    path: /
+      Host: jpli.edge.233.tw
+    path: /geg/45?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 11|美国 v2rayfree.eu.org
+  network: ws
+  port: '443'
+  server: cold-dawn-9246.fly.dev
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  ws-opts:
+    headers:
+      Host: cold-dawn-9246.fly.dev
+    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
+- alterId: 0
+  cipher: auto
+  name: '11,12,13,15,16|日本2|@ripaojiedian #1'
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 5a1bd666-441a-4446-9b4b-3538f6209d31
+  ws-opts:
+    headers:
+      Host: agzbjszujp4.yofnhkfc.xyz
+    path: /video/ibCT6z55
 - alterId: 0
   cipher: auto
   name: 11,12,13|关注电报https://t.me/mftizi
@@ -289,64 +334,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11,12|github.com/freefq - 美国CloudFla... #7'
-  network: ws
-  port: '80'
-  server: 104.17.25.1
-  tls: false
-  type: vmess
-  uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
-  ws-opts:
-    headers:
-      Host: sgvpn.catnipballs.gay
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|美国CloudFlare节点 19
-  network: ws
-  port: '2082'
-  server: s1c.v2.v001sss.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,15,16|罗马尼亚|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 104.17.25.1
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 4e23bd4f-cc11-4ade-fbc1-fcaf245662bf
-  ws-opts:
-    headers:
-      Host: lmnyvpn.catnipballs.gay
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '12,13,15,16|日本2|@ripaojiedian #1'
-  network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 5a1bd666-441a-4446-9b4b-3538f6209d31
-  ws-opts:
-    headers:
-      Host: agzbjszujp4.yofnhkfc.xyz
-    path: /video/ibCT6z55
-- alterId: 0
-  cipher: auto
-  name: 12,13|🇨🇦加拿大3丨电报群@bp520
+  name: 11,12,13|🇨🇦加拿大3丨电报群@bp520
   network: ws
   port: '80'
   server: 162.159.200.3
@@ -359,7 +347,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12,13,15,16|德国|@ripaojiedian
+  name: 11,12,13,15,16|德国|@ripaojiedian
   network: ws
   port: '80'
   server: 104.17.25.1
@@ -374,7 +362,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 12,13|♉e@oneclickvpnkeys
+  name: 11,12,13|♉e@oneclickvpnkeys
   network: ws
   port: '2052'
   server: cfcdn2.sanfencdn9.com
@@ -386,6 +374,19 @@ proxies:
     headers:
       Host: 7nAi74jJsg1.yofnhkfc.xyz
     path: /video/c9efxRCi
+- alterId: 0
+  cipher: auto
+  name: '11,12|github.com/freefq - 美国CloudFla... #7'
+  network: ws
+  port: '80'
+  server: 104.17.25.1
+  tls: false
+  type: vmess
+  uuid: d6664518-c8e1-42cf-f2c1-d33dcc01a8a6
+  ws-opts:
+    headers:
+      Host: sgvpn.catnipballs.gay
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸|US|美国|@wxgqlfx|33
@@ -684,7 +685,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 81521ebb-45eb-49e8-bbd6-52b0470050b0
+  uuid: e3136749-28b8-4e57-95c4-d142c047f54d
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -694,7 +695,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 81521ebb-45eb-49e8-bbd6-52b0470050b0
+  uuid: e3136749-28b8-4e57-95c4-d142c047f54d
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -704,18 +705,4 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 81521ebb-45eb-49e8-bbd6-52b0470050b0
-- alterId: 0
-  cipher: auto
-  name: 16|美国4|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 172.64.229.5
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 333c917d-7a3f-419e-a88a-36a420f0d791
-  ws-opts:
-    headers:
-      Host: jpli.edge.233.tw
-    path: /geg/45?ed=2048
+  uuid: e3136749-28b8-4e57-95c4-d142c047f54d
