@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 39acaa2b-b581-41ac-b51c-4d461ecc921d
+  uuid: a8f745a0-eab0-482c-b6a0-48e762656f2d
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 39acaa2b-b581-41ac-b51c-4d461ecc921d
+  uuid: a8f745a0-eab0-482c-b6a0-48e762656f2d
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 39acaa2b-b581-41ac-b51c-4d461ecc921d
+  uuid: a8f745a0-eab0-482c-b6a0-48e762656f2d
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬|SG|新加坡|@wxgqlfx|26
@@ -80,7 +80,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6f617cf8-81ae-493e-b73d-4c0a6f4fea5a
+  uuid: 19eb8813-904a-4138-a229-aadf3d024366
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -90,7 +90,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6f617cf8-81ae-493e-b73d-4c0a6f4fea5a
+  uuid: 19eb8813-904a-4138-a229-aadf3d024366
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -100,13 +100,21 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6f617cf8-81ae-493e-b73d-4c0a6f4fea5a
+  uuid: 19eb8813-904a-4138-a229-aadf3d024366
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: 2f5a7217-f8c1-4d0f-98df-e11f9ff902e2
-  port: 20009
+  password: 62566655-72cf-4c31-b66d-2b3acb7425a7
+  port: 26602
   server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡3|@ripaojiedian
+  password: y9VURyNzJWNRYEGQ
+  port: 9008
+  server: 103.172.116.79
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -114,7 +122,7 @@ proxies:
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.201.64.47
+  server: 43.203.119.237
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -122,6 +130,6 @@ proxies:
   name: 15|🇸🇬 狮城特殊2|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.43.22.188
+  server: 43.201.100.232
   tfo: false
   type: ss
