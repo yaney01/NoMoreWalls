@@ -256,7 +256,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b997da72-de0a-4a2c-a66f-c8f57325a615
+  uuid: 92fcb2ff-7973-4fc0-982a-31794efd34f1
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -266,7 +266,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b997da72-de0a-4a2c-a66f-c8f57325a615
+  uuid: 92fcb2ff-7973-4fc0-982a-31794efd34f1
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -276,7 +276,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b997da72-de0a-4a2c-a66f-c8f57325a615
+  uuid: 92fcb2ff-7973-4fc0-982a-31794efd34f1
 - alterId: 0
   cipher: auto
   name: '11|美国 CloudFlare节点 #2'
@@ -336,7 +336,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,12|github.com/freefq - 美国CloudFla...
+  name: '11,12|github.com/freefq - 美国CloudFla... #4'
   network: ws
   port: 80
   server: 104.17.25.2
@@ -349,7 +349,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,12|github.com/freefq - 美国  20
+  name: 11|美国  16
   network: tcp
   port: '443'
   server: turkmenistan.ednovas.org
@@ -359,57 +359,31 @@ proxies:
   uuid: e4c9dc48-f9dc-4d9b-9318-a3933d113736
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 12,15,16|日本3|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 8a4450df-74cc-4a57-a404-4b9558390043
-  ws-opts:
-    headers:
-      Host: kvjqqknzjp6.yofnhkfc.xyz
-    path: /video/Zo98PYfE
-- alterId: 0
-  cipher: auto
-  name: '12|github.com/freefq - 美国CloudFla... #4'
-  network: ws
-  port: '80'
-  server: 104.17.25.1
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aa8edc9c-978a-4f09-906f-a2668751e935
-  ws-opts:
-    headers:
-      Host: usnatvpn.catnipballs.gay
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '12|github.com/freefq - 美国CloudFla... #5'
+  name: '12|github.com/freefq - 美国CloudFla... #1'
   network: ws
   port: 8880
-  server: 172.67.185.26
+  server: 104.21.12.86
   tls: false
   type: vmess
-  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  uuid: ae3e6ab7-144a-4ecc-981d-603ea73bc8af
   ws-opts:
     headers:
-      Host: fra.yj2022.gq
-    path: /9sTFt5L554kPVWmuJ2k8baS4bEY83PZ66xb4twoBBtsiMPK2b
+      Host: 8db7766f-d893-430e-96fb-ccd20e681145.tg.hkaa0.66688888.xyz
+    path: /Telegram:@hkaa0
 - alterId: 0
   cipher: auto
-  name: 12|github.com/freefq - 美国加利福尼亚州洛杉...
-  network: tcp
-  port: 20624
-  server: 156.251.190.252
-  tls: false
+  name: 12,13|美国【TG：@ccbaohe】定时更新节点订阅 20
+  network: ws
+  port: '443'
+  server: 104.21.56.185
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 4323758f-d0fd-466e-f500-0d9515bcd1cb
+  uuid: 38535031-ccc3-4a94-bd54-c68806486406
+  ws-opts:
+    headers:
+      Host: ie1-vmess.greenssh.xyz
+    path: /vmess
 - alterId: 0
   cipher: auto
   name: 13|🇺🇸|US|美国|@wxgqlfx|161
@@ -477,20 +451,6 @@ proxies:
     path: /vVNUJOgb/
 - alterId: 0
   cipher: auto
-  name: 13|美国【TG：@ccbaohe】定时更新节点订阅 20
-  network: ws
-  port: '443'
-  server: 104.21.56.185
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 38535031-ccc3-4a94-bd54-c68806486406
-  ws-opts:
-    headers:
-      Host: ie1-vmess.greenssh.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
   name: 13|🇺🇸|US|美国|@wxgqlfx|160
   network: ws
   port: '80'
@@ -512,7 +472,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b6e3714c-3d20-49e2-907f-48966688debc
+  uuid: f197cf5b-e8f0-460c-9b79-7220b3899f69
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -522,7 +482,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b6e3714c-3d20-49e2-907f-48966688debc
+  uuid: f197cf5b-e8f0-460c-9b79-7220b3899f69
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -532,4 +492,4 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b6e3714c-3d20-49e2-907f-48966688debc
+  uuid: f197cf5b-e8f0-460c-9b79-7220b3899f69
