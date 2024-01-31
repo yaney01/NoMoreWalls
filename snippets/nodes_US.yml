@@ -1,24 +1,33 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '0,3,4,6,13,15,16,17|🇺🇸 _US_美国 #28'
+  name: '0,3,4,6,11,13,17|🇺🇸 _US_美国 #23'
   network: ws
   port: '8080'
-  server: www.crispyrainbow.online
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
+  server: 172.67.212.114
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      Host: www.crispyrainbow.online
+      Host: www.crispyrainbow.biz
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,13,17|🇺🇸 _US_美国 #30'
+  name: '0,3,4,6,13,17|🇺🇸 _US_美国 #21'
+  network: ws
+  port: '8080'
+  server: 104.21.83.10
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.coldstone.club
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '0,3,4,6,13,17|🇺🇸 _US_美国 #26'
   network: ws
   port: '8080'
   server: 104.21.23.176
@@ -31,31 +40,8 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,1,3,4,6,7,17|🇺🇸 _US_美国 #32'
-  network: http
-  port: '13489'
-  server: 35.87.209.22
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 61761e55-dff5-4f94-f75f-b0a4718bba98
-- alterId: 0
-  cipher: auto
-  name: '0,7|🇺🇸_US_美国 #24'
-  network: ws
-  port: 80
-  server: 104.18.154.42
-  tls: false
-  type: vmess
-  uuid: df19a2b5-cb11-4347-ad8c-4afe58a872a5
-  ws-opts:
-    headers:
-      Host: us3.visaapp.top
-    path: /
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
-  name: '0,3,4,6,13,15,16,17|🇺🇸 _US_美国 #26'
+  name: '0,3,4,6,13,15,16,17|🇺🇸 _US_美国 #22'
   network: ws
   port: '8080'
   server: www.coldstone.club
@@ -71,20 +57,30 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,13,17|🇺🇸 _US_美国 #33'
+  name: '0,3,7|🇺🇸_US_美国 #24'
   network: ws
-  port: '80'
-  server: be1-vmess.sshmax.xyz
+  port: 80
+  server: 104.18.154.42
   tls: false
   type: vmess
-  uuid: 38df59ec-30e2-45e9-86c7-5a58667e6994
+  uuid: df19a2b5-cb11-4347-ad8c-4afe58a872a5
   ws-opts:
     headers:
-      Host: be1-vmess.sshmax.xyz
-    path: /vmess
+      Host: us3.visaapp.top
+    path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,13,17|🇺🇸 _US_美国 #29'
+  name: '0,1,3,4,6,7,17|🇺🇸 _US_美国 #28'
+  network: http
+  port: '13489'
+  server: 35.87.209.22
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 61761e55-dff5-4f94-f75f-b0a4718bba98
+- alterId: 0
+  cipher: auto
+  name: '0,3,4,6,13,17|🇺🇸 _US_美国 #25'
   network: ws
   port: '8080'
   server: www.blueberrywindow.online
@@ -97,20 +93,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,13,17|🇺🇸 _US_美国 #25'
-  network: ws
-  port: '8080'
-  server: 104.21.83.10
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.coldstone.club
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,3,4,6,11,13,17|🇺🇸 _US_美国 #31'
+  name: '0,3,4,6,13,17|🇺🇸 _US_美国 #27'
   network: ws
   port: '8080'
   server: 172.67.166.190
@@ -123,16 +106,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,13,17|🇺🇸 _US_美国 #27'
+  client-fingerprint: chrome
+  name: '0,3,4,6,13,15,16,17|🇺🇸 _US_美国 #24'
   network: ws
   port: '8080'
-  server: 172.67.212.114
+  server: www.crispyrainbow.online
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      Host: www.crispyrainbow.biz
+      Host: www.crispyrainbow.online
     path: /
 - alterId: 0
   cipher: auto
@@ -249,7 +236,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_US__9
+  name: '1,11|美国 CloudFlare节点 #4'
   network: ws
   port: 8080
   server: www.blueberrywindow.online
@@ -258,22 +245,21 @@ proxies:
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
-    headers:
-      host: www.blueberrywindow.online
     path: /
 - alterId: 0
   cipher: auto
-  name: 1|_US__10
+  name: 1,11|美国 CloudFlare节点
   network: ws
-  port: 8080
+  port: '8080'
   server: www.coldstone.club
+  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      host: www.coldstone.club
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -291,20 +277,7 @@ proxies:
     path: /video/qYZue4zaWS
 - alterId: 0
   cipher: auto
-  name: '3,4,6,17|🇺🇸 _US_美国 #22'
-  network: ws
-  port: '2095'
-  server: 104.19.234.82
-  tls: false
-  type: vmess
-  uuid: 657140e4-fb53-4404-80b7-fcbac652671f
-  ws-opts:
-    headers:
-      Host: us82pRzxDMb.fzbqfrse.xyz
-    path: /video/qYZue4zaWS
-- alterId: 0
-  cipher: auto
-  name: '3,4,6,17|🇺🇸 _US_美国 #23'
+  name: '4,6,17|🇺🇸 _US_美国 #19'
   network: ws
   port: '2052'
   server: cfcdn1.yuzhoucloud003.xyz
@@ -317,11 +290,36 @@ proxies:
     path: /video/LpPP8QNC
 - alterId: 0
   cipher: auto
-  name: '3,4,6,11,17|🇺🇸 _US_美国 #24'
+  name: '4,6,13,17|🇺🇸 _US_美国 #29'
+  network: ws
+  port: '80'
+  server: be1-vmess.sshmax.xyz
+  tls: false
+  type: vmess
+  uuid: 38df59ec-30e2-45e9-86c7-5a58667e6994
+  ws-opts:
+    headers:
+      Host: be1-vmess.sshmax.xyz
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '4,6,17|🇺🇸 _US_美国 #20'
   network: ws
   port: '2095'
   server: cfcdn1.sanfencdn9.com
-  servername: ''
+  tls: false
+  type: vmess
+  uuid: 657140e4-fb53-4404-80b7-fcbac652671f
+  ws-opts:
+    headers:
+      Host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
+- alterId: 0
+  cipher: auto
+  name: '4,6,17|🇺🇸 _US_美国 #18'
+  network: ws
+  port: '2095'
+  server: 104.19.234.82
   tls: false
   type: vmess
   uuid: 657140e4-fb53-4404-80b7-fcbac652671f
@@ -353,7 +351,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e29c7293-5fce-4d4d-a1d7-9c848fc907ff
+  uuid: ba565769-0995-4f56-b48f-62253a6bf33f
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -363,7 +361,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e29c7293-5fce-4d4d-a1d7-9c848fc907ff
+  uuid: ba565769-0995-4f56-b48f-62253a6bf33f
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -373,76 +371,48 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e29c7293-5fce-4d4d-a1d7-9c848fc907ff
+  uuid: ba565769-0995-4f56-b48f-62253a6bf33f
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #2'
+  name: 11,13|🔒 VM-WS-NA 🏴‍☠️ NA-104.18.202....
   network: ws
-  port: '80'
-  server: 172.66.44.95
+  port: '2082'
+  server: 104.18.202.250
   servername: ''
   tls: false
   type: vmess
-  uuid: 4eff3792-6078-4ad1-aa31-7772830c78ac
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: cghyxmvhjp3.zvhdeaof.xyz
-    path: /video/fz2DANLn
+      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+    path: /nina.bond/linkvws
 - alterId: 0
   cipher: auto
-  name: 11|美国CloudFlare节点 4
-  network: ws
-  port: '80'
-  server: 172.64.229.1
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 16764b38-4ab4-4063-86bb-392c680a0482
-  ws-opts:
-    headers:
-      Host: jpli.edge.233.tw
-    path: /geg/45?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #4'
+  name: 11,13|🇪🇸 Spain
   network: ws
   port: '2052'
-  server: 108.162.194.165
-  servername: ''
+  server: dl4.fanqiecloud.top
   tls: false
   type: vmess
-  uuid: 4eff3792-6078-4ad1-aa31-7772830c78ac
+  uuid: 4f10f797-cdf0-41fc-a5bd-a2179165b594
   ws-opts:
     headers:
-      Host: dwlwfykrjp1.zvhdeaof.xyz
-    path: /video/NgeVbib3
+      Host: cf-sby.fanqiecloud.top
+    path: /sssddd
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #5'
+  name: 11,12|github.com/freefq - 美国CloudFla...
   network: ws
   port: '80'
-  server: 172.64.229.5
+  server: 172.64.229.3
   servername: ''
   tls: false
   type: vmess
-  uuid: 16764b38-4ab4-4063-86bb-392c680a0482
+  uuid: 4c391e67-94ac-4a4f-9b37-6c95112ccad2
   ws-opts:
     headers:
       Host: jpli.edge.233.tw
     path: /geg/45?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 11|美国CloudFlare公司CDN节点 12
-  network: ws
-  port: 2052
-  server: cfcdn2.sanfencdn9.com
-  tls: false
-  type: vmess
-  uuid: 657140e4-fb53-4404-80b7-fcbac652671f
-  ws-opts:
-    headers:
-      Host: yvhnbevxhk1.yofnhkfc.xyz
-    path: /video/34kKXbLM
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -475,35 +445,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|美国CloudFlare公司CDN节点 28
-  network: ws
-  port: '80'
-  server: 108.162.194.165
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4eff3792-6078-4ad1-aa31-7772830c78ac
-  ws-opts:
-    headers:
-      Host: cghyxmvhjp3.zvhdeaof.xyz
-    path: /video/fz2DANLn
-- alterId: 0
-  cipher: auto
-  name: 12|github.com/freefq - 美国CloudFla...
-  network: ws
-  port: '80'
-  server: 172.64.229.3
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4c391e67-94ac-4a4f-9b37-6c95112ccad2
-  ws-opts:
-    headers:
-      Host: jpli.edge.233.tw
-    path: /geg/45?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 12|github.com/freefq - 美国  16
+  name: 11,12|github.com/freefq - 美国  16
   network: tcp
   port: '443'
   server: turkmenistan.ednovas.org
@@ -663,17 +605,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|🇺🇸|US|美国|@wxgqlfx|40
-  network: ws
-  port: 2095
-  server: 94.131.8.32
-  tls: false
-  type: vmess
-  uuid: 57e37a74-badc-4b71-87c7-5b9e20879b58
-  ws-opts:
-    path: /vmess
-- alterId: 0
-  cipher: auto
   name: 13|🇺🇸|US|美国|@wxgqlfx|30
   network: ws
   port: 8880
@@ -705,7 +636,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 409f400e-e948-4eae-83fc-699c12b7cd48
+  uuid: 41c91514-3712-4680-b09f-b23d228d0cdb
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -715,7 +646,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 409f400e-e948-4eae-83fc-699c12b7cd48
+  uuid: 41c91514-3712-4680-b09f-b23d228d0cdb
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -725,4 +656,4 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 409f400e-e948-4eae-83fc-699c12b7cd48
+  uuid: 41c91514-3712-4680-b09f-b23d228d0cdb
