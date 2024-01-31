@@ -259,7 +259,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ee0706a6-d94f-4d25-bf19-881c156391b4
+  uuid: 9d58a8c9-0da5-4788-8f88-d90f47602fe8
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -269,7 +269,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ee0706a6-d94f-4d25-bf19-881c156391b4
+  uuid: 9d58a8c9-0da5-4788-8f88-d90f47602fe8
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -279,10 +279,10 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ee0706a6-d94f-4d25-bf19-881c156391b4
+  uuid: 9d58a8c9-0da5-4788-8f88-d90f47602fe8
 - alterId: 0
   cipher: auto
-  name: '11,12|github.com/freefq - 美国CloudFla... #2'
+  name: '11,12|github.com/freefq - 美国CloudFla... #4'
   network: ws
   port: 80
   server: 104.17.25.2
@@ -354,21 +354,17 @@ proxies:
     path: /Telegram:@hkaa0
 - alterId: 0
   cipher: auto
-  name: 13|🇺🇸｜US｜美国｜@wxgqlfx｜116
-  network: ws
-  port: '80'
-  server: 104.20.231.30
+  name: 12|github.com/freefq - 美国加利福尼亚州洛杉...
+  network: tcp
+  port: '8081'
+  server: 38.147.165.244
   servername: ''
   tls: false
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /
+  uuid: 757e9b90-7ea0-445d-f95f-ed3cec661b58
 - alterId: 0
   cipher: auto
-  name: 13|美国【TG：@ccbaohe】定时更新节点订阅
+  name: 12,13|美国【TG：@ccbaohe】定时更新节点订阅
   network: ws
   port: 80
   server: 104.17.25.1
@@ -379,6 +375,20 @@ proxies:
   ws-opts:
     headers:
       Host: usnatvpn.catnipballs.gay
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12,13|🇺🇸｜US｜美国｜@wxgqlfx｜116
+  network: ws
+  port: '80'
+  server: 104.20.231.30
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: my1.tooters.ir
     path: /
 - alterId: 0
   cipher: auto
@@ -487,7 +497,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: be9e2304-507e-4c44-a2c6-01608213c27a
+  uuid: a6685169-c5d7-4d65-b45e-afc09b08e03e
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -497,7 +507,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: be9e2304-507e-4c44-a2c6-01608213c27a
+  uuid: a6685169-c5d7-4d65-b45e-afc09b08e03e
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -507,4 +517,4 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: be9e2304-507e-4c44-a2c6-01608213c27a
+  uuid: a6685169-c5d7-4d65-b45e-afc09b08e03e
