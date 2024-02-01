@@ -28,17 +28,30 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 42b4f576-6d0e-45b3-96b7-67ada2365ec3
+  uuid: 6e9fe188-527b-4abf-92d9-cd17e7499b7d
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
+  name: '13|Channel id: @ShadowProxy66🇨🇦'
+  network: ws
+  port: '80'
+  server: 104.21.24.72
   servername: ''
   tls: false
   type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  uuid: 5120d7e0-5ba9-4164-b61b-0f8fefabab34
+  ws-opts:
+    headers:
+      Host: no1.xv2ray.net
+    path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇨🇦 CA-167.99.179.2...
+  network: tcp
+  port: '3389'
+  server: 167.99.179.27
+  tls: false
+  type: vmess
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
@@ -48,4 +61,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8fb69817-e808-494c-bf71-a274baa0465d
+  uuid: dd8218ed-82bb-473b-bc57-cd54d334a080
