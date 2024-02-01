@@ -5,6 +5,7 @@ proxies:
   network: ws
   port: '80'
   server: 162.159.200.5
+  servername: ''
   tls: false
   type: vmess
   uuid: 3a333291-9bd1-46c5-b9a9-370b5a3d1bd9
@@ -18,7 +19,6 @@ proxies:
   network: ws
   port: '8080'
   server: www.crispyrainbow.biz
-  servername: ''
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -67,7 +67,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,1,3,4,6,7,11,12,13,17|🇺🇸 _US_美国->🇵🇳_PN_皮特凯恩 #5'
+  name: '0,1,3,4,6,7,11,12,17|🇺🇸 _US_美国->🇵🇳_PN_皮特凯恩 #5'
   network: tcp
   port: '443'
   server: 173.249.197.176
@@ -82,7 +82,6 @@ proxies:
   network: ws
   port: '8080'
   server: www.darkroom.lol
-  servername: ''
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
@@ -141,7 +140,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,1,3,4,6,7,11,13,17|🇺🇸 _US_美国->🇵🇳_PN_皮特凯恩 #4'
+  name: '0,1,3,4,6,7,11,17|🇺🇸 _US_美国->🇵🇳_PN_皮特凯恩 #4'
   network: tcp
   port: '443'
   server: pitcairn.ednovas.org

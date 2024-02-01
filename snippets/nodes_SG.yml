@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 123b0d89-a469-4a7d-937a-d6218a9fe4b1
+  uuid: 55516df0-f21e-4250-a948-01f1e89f139e
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 123b0d89-a469-4a7d-937a-d6218a9fe4b1
+  uuid: 55516df0-f21e-4250-a948-01f1e89f139e
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,21 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 123b0d89-a469-4a7d-937a-d6218a9fe4b1
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇸🇬 SG-45.76.144.158...
-  network: ws
-  port: '30899'
-  server: 45.76.144.158
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4a503125-b6bd-427a-87d0-55d41308d977
-  ws-opts:
-    headers:
-      Host: m.zoom.us
-    path: /
+  uuid: 55516df0-f21e-4250-a948-01f1e89f139e
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.80....
@@ -58,23 +44,6 @@ proxies:
     path: /MOBITEL
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 13,15,16|新加坡2|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 58ecb66f-8b55-4b2a-97c9-7b87e189d2f7
-  ws-opts:
-    headers:
-      Host: jpafzyhfsg3.yofnhkfc.xyz
-    path: /video/u4eCZTxW
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -82,7 +51,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: df25a71a-7735-4957-baec-f3e5c64b0534
+  uuid: 5c65e185-4e21-4241-9e08-8160be6194c5
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -92,7 +61,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: df25a71a-7735-4957-baec-f3e5c64b0534
+  uuid: 5c65e185-4e21-4241-9e08-8160be6194c5
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -102,7 +71,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: df25a71a-7735-4957-baec-f3e5c64b0534
+  uuid: 5c65e185-4e21-4241-9e08-8160be6194c5
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
