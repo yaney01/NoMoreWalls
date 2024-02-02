@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b57b01fc-421a-4953-b772-ad82c6ca3f4a
+  uuid: 8cb15839-7199-4ae4-9e46-be5f454e079e
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b57b01fc-421a-4953-b772-ad82c6ca3f4a
+  uuid: 8cb15839-7199-4ae4-9e46-be5f454e079e
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,21 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b57b01fc-421a-4953-b772-ad82c6ca3f4a
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇸🇬 SG-206.238.236.3...
-  network: ws
-  port: '2086'
-  server: 206.238.236.36
-  servername: mysan2.jaquay22.workers.dev
-  tls: false
-  type: vmess
-  uuid: 45f63e92-f782-4cac-84b8-e61cb5a5bfd0
-  ws-opts:
-    headers:
-      Host: mysan2.jaquay22.workers.dev
-    path: /adenc35.fixedlfoat.top/linkws
+  uuid: 8cb15839-7199-4ae4-9e46-be5f454e079e
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
@@ -52,7 +38,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b9596605-93f4-408f-8c45-9089c87ff0f0
+  uuid: 7a0533b6-8a32-4a01-9a54-08c593f14c97
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -62,7 +48,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b9596605-93f4-408f-8c45-9089c87ff0f0
+  uuid: 7a0533b6-8a32-4a01-9a54-08c593f14c97
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -72,7 +58,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b9596605-93f4-408f-8c45-9089c87ff0f0
+  uuid: 7a0533b6-8a32-4a01-9a54-08c593f14c97
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
