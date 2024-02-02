@@ -95,7 +95,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,11,12,17|🇺🇸 _US_美国 #35'
+  name: '0,3,11,17|🇺🇸 _US_美国 #35'
   network: ws
   port: '443'
   server: cold-dawn-9246.fly.dev
@@ -139,7 +139,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,11,13,17|🇺🇸 _US_美国 #38'
+  name: '0,3,4,6,11,12,13,17|🇺🇸 _US_美国 #38'
   network: ws
   port: '8880'
   server: server21.beheshtbaneh.com
@@ -153,7 +153,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,11,12,17|🇺🇸 _US_美国 #39'
+  name: '0,3,4,6,7,11,17|🇺🇸 _US_美国 #39'
   network: ws
   port: '8880'
   server: 104.21.82.183
@@ -434,7 +434,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 250d207c-206b-42d1-9ff4-97b80078efb0
+  uuid: b57b01fc-421a-4953-b772-ad82c6ca3f4a
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -444,7 +444,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 250d207c-206b-42d1-9ff4-97b80078efb0
+  uuid: b57b01fc-421a-4953-b772-ad82c6ca3f4a
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -454,7 +454,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 250d207c-206b-42d1-9ff4-97b80078efb0
+  uuid: b57b01fc-421a-4953-b772-ad82c6ca3f4a
 - alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
@@ -498,7 +498,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,12,13|🇺🇸|US|美国|@wxgqlfx|123
+  name: 11,13|🇺🇸|US|美国|@wxgqlfx|123
   network: ws
   port: '8080'
   server: 104.17.123.55
@@ -539,7 +539,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,12,13|🇺🇸|US|美国|@wxgqlfx|122
+  name: 11,13|🇺🇸|US|美国|@wxgqlfx|122
   network: ws
   port: '80'
   server: www.speedtest.net
@@ -701,7 +701,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 34eea60f-c3b6-4da9-b627-650aead16489
+  uuid: b9596605-93f4-408f-8c45-9089c87ff0f0
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -711,7 +711,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 34eea60f-c3b6-4da9-b627-650aead16489
+  uuid: b9596605-93f4-408f-8c45-9089c87ff0f0
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -721,4 +721,4 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 34eea60f-c3b6-4da9-b627-650aead16489
+  uuid: b9596605-93f4-408f-8c45-9089c87ff0f0
