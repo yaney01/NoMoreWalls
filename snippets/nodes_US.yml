@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,11,13,17|🇺🇸 _US_美国 #62'
+  name: '0,3,4,6,11,12,13,17|🇺🇸 _US_美国 #62'
   network: ws
   port: '80'
   server: 104.20.231.30
@@ -144,7 +144,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,11,12,13,17|🇺🇸 _US_美国 #68'
+  name: '0,3,4,6,7,11,13,17|🇺🇸 _US_美国 #68'
   network: ws
   port: '8880'
   server: server3.beheshtbaneh.com
@@ -694,7 +694,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 595eabbd-753d-42cf-8673-ae9ae9172436
+  uuid: fe04b066-2e14-4fd3-ab4d-8737e945ff98
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -704,7 +704,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 595eabbd-753d-42cf-8673-ae9ae9172436
+  uuid: fe04b066-2e14-4fd3-ab4d-8737e945ff98
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -714,7 +714,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 595eabbd-753d-42cf-8673-ae9ae9172436
+  uuid: fe04b066-2e14-4fd3-ab4d-8737e945ff98
 - alterId: 0
   cipher: auto
   name: 11,13|🇺🇸·美国·{TG：@ccbaohe}定时更新节点订阅·90
@@ -806,7 +806,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11,12|github.com/freefq - 美国CloudFla... #9'
+  name: '11|美国 CloudFlare节点 #11'
   network: ws
   port: '8080'
   server: 162.159.137.28
@@ -834,7 +834,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #13'
+  name: '11,12|github.com/freefq - 美国CloudFla... #10'
   network: ws
   port: '8880'
   server: server4.beheshtbaneh.com
@@ -877,7 +877,7 @@ proxies:
     path: /video/VDXcaM7r
 - alterId: 0
   cipher: auto
-  name: 11,12,13|Twitter苏小柠|深港隧道|流媒体解锁_253
+  name: 11,13|Twitter苏小柠|深港隧道|流媒体解锁_253
   network: ws
   port: '8880'
   server: server32.beheshtbaneh.com
@@ -903,6 +903,33 @@ proxies:
     headers:
       Host: zheshiscp.com
     path: /77848824
+- alterId: 0
+  cipher: auto
+  name: 12,13|【电报：@ccbaohe|免费机场节点 🇺🇸 美国 - 芝加...
+  network: ws
+  port: '80'
+  server: 104.17.25.1
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aa8edc9c-978a-4f09-906f-a2668751e935
+  ws-opts:
+    headers:
+      Host: usnatvpn.catnipballs.gay
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 12,13|🇺🇸|US|美国|@wxgqlfx|13
+  network: ws
+  port: 80
+  server: 104.17.25.1
+  tls: false
+  type: vmess
+  uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
+  ws-opts:
+    headers:
+      Host: kr1.ljyyds.top
+    path: /
 - alterId: 0
   cipher: auto
   name: '12,13|美国 #3'
@@ -998,20 +1025,6 @@ proxies:
   uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
 - alterId: 0
   cipher: auto
-  name: 13|【电报：@ccbaohe|免费机场节点 🇺🇸 美国 - 芝加...
-  network: ws
-  port: '80'
-  server: 104.17.25.1
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aa8edc9c-978a-4f09-906f-a2668751e935
-  ws-opts:
-    headers:
-      Host: usnatvpn.catnipballs.gay
-    path: /
-- alterId: 0
-  cipher: auto
   name: 13|美国【TG：@ccbaohe】定时更新节点订阅 13
   network: ws
   port: 80
@@ -1092,19 +1105,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|🇺🇸|US|美国|@wxgqlfx|13
-  network: ws
-  port: 80
-  server: 104.17.25.1
-  tls: false
-  type: vmess
-  uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
-  ws-opts:
-    headers:
-      Host: kr1.ljyyds.top
-    path: /
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】美国 04 | 1x US
   network: tcp
   port: '31501'
@@ -1112,7 +1112,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: af38d02d-914f-4c49-8154-b4b0122bcc2c
+  uuid: 7187b692-7106-4aa7-b9a8-932462d3c410
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -1122,7 +1122,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: af38d02d-914f-4c49-8154-b4b0122bcc2c
+  uuid: 7187b692-7106-4aa7-b9a8-932462d3c410
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -1132,7 +1132,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: af38d02d-914f-4c49-8154-b4b0122bcc2c
+  uuid: 7187b692-7106-4aa7-b9a8-932462d3c410
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇺🇸 美国1|@ripaojiedian
