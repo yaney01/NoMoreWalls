@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7eaf8215-7fb1-4142-9ffa-ae960b412938
+  uuid: 3c8e636b-748f-4937-9ac0-765f39937a6a
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7eaf8215-7fb1-4142-9ffa-ae960b412938
+  uuid: 3c8e636b-748f-4937-9ac0-765f39937a6a
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,49 +28,11 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7eaf8215-7fb1-4142-9ffa-ae960b412938
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 04 | 1x SG
-  network: tcp
-  port: '31201'
-  server: 1c7s2g04.m1k2s.xyz
-  servername: sg04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 97314d16-4bac-4a33-8518-7f118838d3f5
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 05 | 1x SG
-  network: tcp
-  port: '31206'
-  server: 1c7s2g05.m1k2s.xyz
-  servername: sg05.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 97314d16-4bac-4a33-8518-7f118838d3f5
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】新加坡 06 | 1x SG
-  network: tcp
-  port: '31211'
-  server: 1c7s2g06.m1k2s.xyz
-  servername: sg06.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: 97314d16-4bac-4a33-8518-7f118838d3f5
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡1|@ripaojiedian
-  password: f665c5d0-77c0-4196-bc8d-f0450e9c665b
-  port: 20009
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
+  uuid: 3c8e636b-748f-4937-9ac0-765f39937a6a
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|新加坡2|@ripaojiedian
+  name: '13,15,16|新加坡2|@ripaojiedian #1'
   network: ws
   port: '2052'
   server: cfcdn2.sanfencdn9.com
@@ -84,6 +46,58 @@ proxies:
     headers:
       Host: 7nAi74jJsg1.yofnhkfc.xyz
     path: /video/c9efxRCi
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-45.76.186.33:...
+  network: ws
+  port: '46850'
+  server: 45.76.186.33
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8beec910-578b-4d07-be4d-69e893f94f97
+  ws-opts:
+    headers:
+      Host: m.instagram.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 04 | 1x SG
+  network: tcp
+  port: '31201'
+  server: 1c7s2g04.m1k2s.xyz
+  servername: sg04.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: a3e837ff-01af-4bde-aeeb-603d4f22efa5
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 05 | 1x SG
+  network: tcp
+  port: '31206'
+  server: 1c7s2g05.m1k2s.xyz
+  servername: sg05.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: a3e837ff-01af-4bde-aeeb-603d4f22efa5
+- alterId: 0
+  cipher: auto
+  name: 14|【BGP】新加坡 06 | 1x SG
+  network: tcp
+  port: '31211'
+  server: 1c7s2g06.m1k2s.xyz
+  servername: sg06.lovemc.xyz
+  tls: true
+  type: vmess
+  uuid: a3e837ff-01af-4bde-aeeb-603d4f22efa5
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡1|@ripaojiedian
+  password: f665c5d0-77c0-4196-bc8d-f0450e9c665b
+  port: 20009
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
