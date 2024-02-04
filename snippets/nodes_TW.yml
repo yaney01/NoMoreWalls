@@ -1,27 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|台湾省中华电信(HiNet)数据中心 1
-  network: tcp
-  port: 12002
-  server: nb22.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 12c3ce3a-f05c-4e0c-9eec-00a4f70affd4
-- alterId: 0
-  cipher: auto
-  name: 11|台湾省新竹市中华电信 19
-  network: tcp
-  port: 2024
-  server: b23.ntbq.dynu.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 12c3ce3a-f05c-4e0c-9eec-00a4f70affd4
-- alterId: 0
-  cipher: auto
-  name: 12|github.com/freefq - 台湾省晟崴科技股份有...
+  name: 11,12|github.com/freefq - 台湾省晟崴科技股份有...
   network: ws
   port: '80'
   server: 103.118.29.208
