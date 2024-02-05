@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,12,17|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #2'
+  name: '0,3,4,6,7,17|🇺🇸 _US_美国->🇳🇱_NL_荷兰 #2'
   network: ws
   port: '2095'
   server: 172.67.185.208
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,12,17|🇭🇰 _ES_西班牙->🇭🇰_HK_香港 #2'
+  name: '0,3,4,6,7,17|🇭🇰 _ES_西班牙->🇭🇰_HK_香港 #2'
   network: ws
   port: '8002'
   server: 185.214.103.249
@@ -31,6 +31,7 @@ proxies:
   network: ws
   port: '2083'
   server: 104.18.202.232
+  servername: joooin.golestan-vpn.link
   tls: true
   type: vmess
   uuid: 0d3f0cf6-e010-4138-8133-140c07e5eafb
