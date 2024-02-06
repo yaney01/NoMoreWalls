@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 12,13|[宇航员] 香港 80免流 04
+  name: 11,12,13|[宇航员] 香港 80免流 04
   network: ws
   port: '80'
   server: hke9016a-9c15-ce43.xn--jsrz0o258a.online
@@ -88,10 +88,11 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
+  name: 15,16|香港4|@ripaojiedian
   network: ws
-  port: 80
+  port: '80'
   server: 154.12.87.218
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -119,6 +120,26 @@ proxies:
   skip-cert-verify: false
   sni: 421421.xyz
   tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 16|香港A
+  network: tcp
+  port: '54002'
+  server: 183.237.20.149
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 16|香港B
+  network: tcp
+  port: '54137'
+  server: 112.28.208.18
+  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
