@@ -47,27 +47,27 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1a3fb233-0b6d-4082-8716-e5a25ace431a
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 045
-  network: ws
-  port: 8080
-  server: 172.67.75.172
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7e315854-9066-4775-fee9-a54b34148ab0
-  ws-opts:
-    headers:
-      Host: cokdcnodkcnokdcnwod.dsdsdsd-weweD.cwdcdwwwwddcwdcwdcw-d-d-s-a-dcf.who-the-fuc.tk
-    path: /
+  uuid: d66fa0b4-ff77-44cd-bac6-045cc0264c21
 - alterId: 0
   cipher: auto
   name: 13|加拿大 055
   network: ws
   port: 443
   server: 104.26.9.202
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: vip2323.cfd
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 053
+  network: ws
+  port: 443
+  server: 104.26.8.202
   servername: ''
   tls: true
   type: vmess
@@ -90,48 +90,6 @@ proxies:
     headers:
       Host: mianfei-jp-0001.bpjc.site
     path: /?ed
-- alterId: 0
-  cipher: auto
-  name: '13|Channel id: @ShadowProxy66 🇨🇦 #1'
-  network: ws
-  port: '80'
-  server: 172.67.187.109
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2e87cebc-977b-4fec-b079-b1ddc55b19c8
-  ws-opts:
-    headers:
-      Host: ee1.xv2ray.net
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 053
-  network: ws
-  port: 443
-  server: 104.26.8.202
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: vip2323.cfd
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 030
-  network: ws
-  port: 443
-  server: government.se
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 4b53b3f4-3fb0-42ec-aa73-b4efdf075dbc
-  ws-opts:
-    headers:
-      Host: main.pooljim.tk
-    path: /vmess?ed=2048
 - alterId: 0
   cipher: auto
   name: 13|加拿大 052
@@ -169,4 +127,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6f480484-ace2-49af-b6e3-8689d4799fee
+  uuid: 5d2133ff-cf39-4130-8f8a-5f329a6f3477
