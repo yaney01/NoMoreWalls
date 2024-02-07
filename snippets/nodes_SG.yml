@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5f98a094-1b36-4a1b-bfef-4ba77800c300
+  uuid: 030ca6f0-a890-4190-9df9-5a516f3dd429
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5f98a094-1b36-4a1b-bfef-4ba77800c300
+  uuid: 030ca6f0-a890-4190-9df9-5a516f3dd429
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,21 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5f98a094-1b36-4a1b-bfef-4ba77800c300
+  uuid: 030ca6f0-a890-4190-9df9-5a516f3dd429
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-206.238.236.3...
+  network: ws
+  port: '2052'
+  server: 206.238.236.36
+  servername: mysan2.jaquay22.workers.dev
+  tls: false
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
@@ -38,7 +52,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f08e9808-e4a1-4ac4-9b32-85a962fdfaea
+  uuid: cf77b7f6-5110-4a5c-9244-ad1fbfa15d26
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -48,7 +62,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f08e9808-e4a1-4ac4-9b32-85a962fdfaea
+  uuid: cf77b7f6-5110-4a5c-9244-ad1fbfa15d26
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -58,7 +72,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f08e9808-e4a1-4ac4-9b32-85a962fdfaea
+  uuid: cf77b7f6-5110-4a5c-9244-ad1fbfa15d26
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡2|@ripaojiedian

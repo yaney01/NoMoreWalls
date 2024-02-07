@@ -1,17 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '13|[宇航员] 台湾 80免流 01 #1'
+  name: 13|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
   network: ws
-  port: '80'
-  server: twa877-4e18-b158-bc88c4bb2e2d.xn--jsrz0o258a.online
+  port: '31945'
+  server: 103.159.206.35
+  servername: ''
   tls: false
   type: vmess
-  uuid: 1cb8d9f0-639c-4a8d-83c1-d5361179d18f
+  uuid: e2e511b0-7def-4e1b-d238-6cb5391b2e3f
   ws-opts:
     headers:
-      Host: bilibili.com
-    path: /?ed=2048
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 13,16|台湾3|@ripaojiedian
@@ -22,6 +23,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 08ee510e-68e6-4a71-8d3a-1c576ffa3cac
+- alterId: 0
+  cipher: auto
+  name: 13|[宇航员] 台湾 80免流 02
+  network: ws
+  port: '80'
+  server: twa877-4e18-b158-bc88c4bb2e2d.xn--jsrz0o258a.online
+  tls: false
+  type: vmess
+  uuid: 1cb8d9f0-639c-4a8d-83c1-d5361179d18f
+  ws-opts:
+    headers:
+      Host: bilibili.com
+    path: /?ed=2048
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇹🇼 台湾|@ripaojiedian
