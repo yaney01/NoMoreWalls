@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2c7f1501-7c99-4b98-b57e-11d144be67a1
+  uuid: 28184528-fbe5-4f70-951c-5446a3aed99b
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2c7f1501-7c99-4b98-b57e-11d144be67a1
+  uuid: 28184528-fbe5-4f70-951c-5446a3aed99b
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,26 +28,14 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2c7f1501-7c99-4b98-b57e-11d144be67a1
+  uuid: 28184528-fbe5-4f70-951c-5446a3aed99b
 - alterId: 0
   cipher: auto
-  name: 13|🇸🇬新加坡SG1-动态IP-x1
+  name: 13|新加坡 007
   network: ws
-  port: '80'
+  port: 80
   server: s9.956256.xyz
-  tls: false
-  type: vmess
-  uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
-  ws-opts:
-    headers:
-      Host: caonimashabiwanyi5.daxiongda.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🇸🇬新加坡SG2-动态IP-x1
-  network: ws
-  port: '80'
-  server: s10.956256.xyz
+  servername: ''
   tls: false
   type: vmess
   uuid: 1b5857d5-a7b8-445b-bcc8-f34745e75929
@@ -64,7 +52,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a3d1a0bb-1f7e-4f52-8e2c-fc1e16eea344
+  uuid: a6342078-b5db-4495-b1e1-916ad7fd38bd
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -74,7 +62,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a3d1a0bb-1f7e-4f52-8e2c-fc1e16eea344
+  uuid: a6342078-b5db-4495-b1e1-916ad7fd38bd
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -84,7 +72,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a3d1a0bb-1f7e-4f52-8e2c-fc1e16eea344
+  uuid: a6342078-b5db-4495-b1e1-916ad7fd38bd
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡2|@ripaojiedian
