@@ -1,83 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,13,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #12'
-  network: ws
-  port: '80'
-  server: 104.24.208.37
+  name: 0,7|🇨🇳_CN_中国->🇮🇳_IN_印度
+  network: tcp
+  port: 30128
+  server: 183.232.170.22
   tls: false
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,3,4,6,13,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #13'
-  network: ws
-  port: '80'
-  server: for-irancell.outline-vpn.cloud
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,3,4,6,11,17|🇺🇸 _US_美国->🇹🇷_TR_土耳其 #2'
-  network: ws
-  port: '8080'
-  server: ip.sb
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7e315854-9066-4775-fee9-a54b34148ab0
-  ws-opts:
-    headers:
-      Host: cokdcnodkcnokdcnwod.dsdsdsd-weweD.cwdcdwwwwddcwdcwdcw-d-d-s-a-dcf.who-the-fuc.tk
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,3,4,6,7,13,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #14'
-  network: ws
-  port: '80'
-  server: 104.20.231.30
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,3,4,6,7,13,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #11'
-  network: ws
-  port: '80'
-  server: 104.22.51.162
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,3,4,6,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #10'
-  network: ws
-  port: '80'
-  server: www.greendam.site
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /?ed=2048
+  uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a
 - name: 1|_CA_->_DE_
   network: ws
   password: 8c4c1021-3352-4c76-b4b6-26c38a137f92
@@ -190,10 +120,27 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 7|🇨🇳_CN_中国->🇮🇳_IN_印度
-  network: tcp
-  port: 30128
-  server: 183.232.170.22
+  name: '3,4,6,17|🇺🇸 _US_美国->🇩🇪_DE_德国 #5'
+  network: ws
+  port: '80'
+  server: www.greendam.site
   tls: false
   type: vmess
-  uuid: 9f41898b-e80d-418d-9ea8-5c51a914722a
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: my1.tooters.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '3,4,6,17|🇺🇸 _US_美国->🇹🇷_TR_土耳其 #1'
+  network: ws
+  port: '8080'
+  server: ip.sb
+  tls: false
+  type: vmess
+  uuid: 7e315854-9066-4775-fee9-a54b34148ab0
+  ws-opts:
+    headers:
+      Host: cokdcnodkcnokdcnwod.dsdsdsd-weweD.cwdcdwwwwddcwdcwdcw-d-d-s-a-dcf.who-the-fuc.tk
+    path: /

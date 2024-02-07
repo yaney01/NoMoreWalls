@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 030ca6f0-a890-4190-9df9-5a516f3dd429
+  uuid: 1aab2382-6b09-4602-95e6-1bf891ca78c6
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 030ca6f0-a890-4190-9df9-5a516f3dd429
+  uuid: 1aab2382-6b09-4602-95e6-1bf891ca78c6
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 030ca6f0-a890-4190-9df9-5a516f3dd429
+  uuid: 1aab2382-6b09-4602-95e6-1bf891ca78c6
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇸🇬 SG-206.238.236.3...
@@ -52,7 +52,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cf77b7f6-5110-4a5c-9244-ad1fbfa15d26
+  uuid: ba9c6484-6849-4991-88eb-fef2a857e4b0
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -62,7 +62,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cf77b7f6-5110-4a5c-9244-ad1fbfa15d26
+  uuid: ba9c6484-6849-4991-88eb-fef2a857e4b0
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -72,7 +72,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cf77b7f6-5110-4a5c-9244-ad1fbfa15d26
+  uuid: ba9c6484-6849-4991-88eb-fef2a857e4b0
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡2|@ripaojiedian
@@ -81,12 +81,37 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|新加坡3|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 172.105.117.129
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: f686f0c9-e69c-412c-bc5d-cb296705a2c4
+  ws-opts:
+    headers:
+      Host: www.tesla.com
+    path: /
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: FAdUvMJUq5vDgKEq
+  port: 9006
+  server: 103.172.116.79
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.95.21.57
+  server: 18.179.200.219
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -94,6 +119,6 @@ proxies:
   name: 15|🇸🇬 狮城特殊2|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.179.218.224
+  server: 54.248.68.169
   tfo: false
   type: ss
