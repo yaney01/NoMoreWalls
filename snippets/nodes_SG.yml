@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3cf0d314-1556-40ce-8830-9b760fd2e6bd
+  uuid: 467ea80c-6242-4685-bb8d-3ba1662e6d55
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3cf0d314-1556-40ce-8830-9b760fd2e6bd
+  uuid: 467ea80c-6242-4685-bb8d-3ba1662e6d55
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 3cf0d314-1556-40ce-8830-9b760fd2e6bd
+  uuid: 467ea80c-6242-4685-bb8d-3ba1662e6d55
 - alterId: 0
   cipher: auto
   name: 13|新加坡 006
@@ -45,20 +45,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 008
-  network: ws
-  port: 27249
-  server: 146.190.99.160
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 58a7e71e-05a7-4406-b8d5-8d69bc4d009c
-  ws-opts:
-    headers:
-      Host: 146.190.99.160
-    path: /MOBITEL
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -66,7 +52,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f0ea188a-8ead-484b-9fd6-b9ee77816458
+  uuid: b867acf8-1491-45c6-a87d-112f3561b665
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -76,7 +62,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f0ea188a-8ead-484b-9fd6-b9ee77816458
+  uuid: b867acf8-1491-45c6-a87d-112f3561b665
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -86,7 +72,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f0ea188a-8ead-484b-9fd6-b9ee77816458
+  uuid: b867acf8-1491-45c6-a87d-112f3561b665
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
