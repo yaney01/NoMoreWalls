@@ -118,7 +118,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,7,11,13,17|🇺🇸_US_美国 #85'
+  name: '0,3,4,7,13,17|🇺🇸_US_美国 #85'
   network: ws
   port: 8880
   server: server33.beheshtbaneh.com
@@ -131,10 +131,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,6,7,13,17|🇺🇸_US_美国 #94'
+  name: '0,3,6,7,11,13,17|🇺🇸_US_美国 #94'
   network: ws
   port: 80
   server: 104.20.231.30
+  servername: ''
   tls: false
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -158,10 +159,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,13|VPN招代理电报联系@xiaoying229 #2'
+  name: '0,11,13|VPN招代理电报联系@xiaoying229 #2'
   network: ws
   port: '8880'
   server: server20.beheshtbaneh.com
+  servername: ''
   tls: false
   type: vmess
   uuid: 7ee41eb4-0594-4e2d-92a7-5dd3ee513692
@@ -510,7 +512,7 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: '3,6,13,17|🇺🇸_US_美国 #89'
+  name: '3,6,11,13,17|🇺🇸_US_美国 #89'
   network: ws
   port: 8880
   server: server2.beheshtbaneh.com
@@ -536,7 +538,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,11,17|🇺🇸_US_美国 #101'
+  name: '3,17|🇺🇸_US_美国 #101'
   network: ws
   port: 3331
   server: ffbf920.u2.gladns.com
@@ -751,7 +753,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6eaa272c-bbad-4493-a9ca-f8e751067b90
+  uuid: ad7e2178-862e-4b8e-9aeb-db3ac67fe077
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -761,7 +763,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6eaa272c-bbad-4493-a9ca-f8e751067b90
+  uuid: ad7e2178-862e-4b8e-9aeb-db3ac67fe077
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -771,10 +773,10 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6eaa272c-bbad-4493-a9ca-f8e751067b90
+  uuid: ad7e2178-862e-4b8e-9aeb-db3ac67fe077
 - alterId: 0
   cipher: auto
-  name: 11|美国 CloudFlare节点
+  name: '11|美国 CloudFlare节点 #2'
   network: ws
   port: '8080'
   server: 104.17.123.55
@@ -786,20 +788,6 @@ proxies:
     headers:
       Host: pq.kmoljklj.top
     path: /qZTtpya?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #1'
-  network: ws
-  port: '8080'
-  server: cf.openxai.link
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
-  ws-opts:
-    headers:
-      Host: eu3.openxai.link
-    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: '11,12,13|VPN招代理电报联系@xiaoying229 #3'
@@ -1006,7 +994,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3bb8a8f5-a0d0-43ad-b3ba-30c0e1cfef2e
+  uuid: e2353e8f-8d70-4e36-85ad-ff586095ad3b
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -1016,7 +1004,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3bb8a8f5-a0d0-43ad-b3ba-30c0e1cfef2e
+  uuid: e2353e8f-8d70-4e36-85ad-ff586095ad3b
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -1026,7 +1014,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3bb8a8f5-a0d0-43ad-b3ba-30c0e1cfef2e
+  uuid: e2353e8f-8d70-4e36-85ad-ff586095ad3b
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇺🇸 美国1|@ripaojiedian
