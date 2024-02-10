@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4f4dca45-8710-458d-92fd-03e580ab1537
+  uuid: 6504081e-50fb-460c-a741-96385e88d939
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4f4dca45-8710-458d-92fd-03e580ab1537
+  uuid: 6504081e-50fb-460c-a741-96385e88d939
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,21 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4f4dca45-8710-458d-92fd-03e580ab1537
-- alterId: 0
-  cipher: auto
-  name: 13|SG_speednode_0114
-  network: ws
-  port: 80
-  server: 172.105.117.129
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f686f0c9-e69c-412c-bc5d-cb296705a2c4
-  ws-opts:
-    headers:
-      Host: www.tesla.com
-    path: /
+  uuid: 6504081e-50fb-460c-a741-96385e88d939
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.105...
@@ -66,7 +52,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1e3e0c3a-dd81-45e6-8325-2aeb68921104
+  uuid: 384f1222-9f9d-427e-a2a9-9b639e9ea3d7
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -76,7 +62,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1e3e0c3a-dd81-45e6-8325-2aeb68921104
+  uuid: 384f1222-9f9d-427e-a2a9-9b639e9ea3d7
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -86,7 +72,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1e3e0c3a-dd81-45e6-8325-2aeb68921104
+  uuid: 384f1222-9f9d-427e-a2a9-9b639e9ea3d7
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
