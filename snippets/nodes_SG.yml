@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7effaec5-9c87-4088-b61b-3691312f055f
+  uuid: 4f4dca45-8710-458d-92fd-03e580ab1537
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7effaec5-9c87-4088-b61b-3691312f055f
+  uuid: 4f4dca45-8710-458d-92fd-03e580ab1537
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,21 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7effaec5-9c87-4088-b61b-3691312f055f
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.105...
-  network: ws
-  port: '42513'
-  server: 146.190.105.70
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d78e91ae-ea30-484f-8a5a-7d27b2b2014a
-  ws-opts:
-    headers:
-      Host: m.zoom.us
-    path: /
+  uuid: 4f4dca45-8710-458d-92fd-03e580ab1537
 - alterId: 0
   cipher: auto
   name: 13|SG_speednode_0114
@@ -59,6 +45,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.105...
+  network: ws
+  port: '42513'
+  server: 146.190.105.70
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d78e91ae-ea30-484f-8a5a-7d27b2b2014a
+  ws-opts:
+    headers:
+      Host: m.zoom.us
+    path: /
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -66,7 +66,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ca9a4f85-6d51-472a-be6e-01abeaffcccb
+  uuid: 1e3e0c3a-dd81-45e6-8325-2aeb68921104
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -76,7 +76,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ca9a4f85-6d51-472a-be6e-01abeaffcccb
+  uuid: 1e3e0c3a-dd81-45e6-8325-2aeb68921104
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -86,7 +86,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ca9a4f85-6d51-472a-be6e-01abeaffcccb
+  uuid: 1e3e0c3a-dd81-45e6-8325-2aeb68921104
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
