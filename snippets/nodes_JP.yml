@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 80b77818-a7ed-46b2-8c99-5297bcd1880c
+  uuid: 7effaec5-9c87-4088-b61b-3691312f055f
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 80b77818-a7ed-46b2-8c99-5297bcd1880c
+  uuid: 7effaec5-9c87-4088-b61b-3691312f055f
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,12 +28,22 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 80b77818-a7ed-46b2-8c99-5297bcd1880c
+  uuid: 7effaec5-9c87-4088-b61b-3691312f055f
 - alterId: 0
   cipher: auto
-  name: 13|日本 001
+  name: 13|JP_482
   network: tcp
-  port: 37368
+  port: 24445
+  server: 140.83.63.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-150.107.200....
+  network: tcp
+  port: '37368'
   server: 150.107.200.184
   servername: ''
   tls: false
@@ -51,16 +61,6 @@ proxies:
   uuid: e961894f-8e90-472f-98d3-09402e4be453
 - alterId: 0
   cipher: auto
-  name: 13|JP_482
-  network: tcp
-  port: 24445
-  server: 140.83.63.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
   network: tcp
   port: '31116'
@@ -68,7 +68,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 08cf9528-2dd7-4caf-873f-0919c2f1bc5b
+  uuid: ca9a4f85-6d51-472a-be6e-01abeaffcccb
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -78,7 +78,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 08cf9528-2dd7-4caf-873f-0919c2f1bc5b
+  uuid: ca9a4f85-6d51-472a-be6e-01abeaffcccb
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -88,7 +88,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 08cf9528-2dd7-4caf-873f-0919c2f1bc5b
+  uuid: ca9a4f85-6d51-472a-be6e-01abeaffcccb
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 15|🇯🇵 日本5|@ripaojiedian
