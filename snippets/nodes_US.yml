@@ -210,11 +210,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,6,11,13,17|🇺🇸_US_美国 #70'
+  name: '3,4,6,13,17|🇺🇸_US_美国 #70'
   network: ws
   port: 80
   server: 172.67.217.144
-  servername: ''
   tls: false
   type: vmess
   uuid: 85674552-ce41-44d9-bb2a-50f76450b3d8
@@ -509,7 +508,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4adbff95-ccdf-448e-bffc-522f77ce96d9
+  uuid: 0d2617b8-4f8c-46c1-b1ac-8e31c7fc9520
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -519,7 +518,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4adbff95-ccdf-448e-bffc-522f77ce96d9
+  uuid: 0d2617b8-4f8c-46c1-b1ac-8e31c7fc9520
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -529,41 +528,24 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4adbff95-ccdf-448e-bffc-522f77ce96d9
+  uuid: 0d2617b8-4f8c-46c1-b1ac-8e31c7fc9520
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|日本3|@ripaojiedian
+  name: 11|美国 CloudFlare节点
   network: ws
   port: '80'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 851278d6-8c0b-4147-8939-89cface46627
-  ws-opts:
-    headers:
-      Host: GWYp69Yujp2.yofnhkfc.xyz
-    path: /video/VDXcaM7r
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #5'
-  network: ws
-  port: '80'
-  server: 104.19.244.142
+  server: 104.24.208.37
   servername: ''
   tls: false
   type: vmess
-  uuid: 851278d6-8c0b-4147-8939-89cface46627
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   ws-opts:
     headers:
-      Host: GWYp69Yujp2.yofnhkfc.xyz
-    path: /video/VDXcaM7r
+      Host: my1.tooters.ir
+    path: /
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #6'
+  name: '11|美国 CloudFlare节点 #1'
   network: ws
   port: '80'
   server: www.greendam.site
@@ -574,6 +556,34 @@ proxies:
   ws-opts:
     headers:
       Host: my1.tooters.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,13|🇺🇸 美国CloudFlare公司CDN节点 5
+  network: ws
+  port: '80'
+  server: 104.17.25.1
+  servername: kr1.ljyyds.top
+  tls: false
+  type: vmess
+  uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
+  ws-opts:
+    headers:
+      Host: kr1.ljyyds.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #3'
+  network: ws
+  port: '8880'
+  server: server26.beheshtbaneh.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -624,20 +634,6 @@ proxies:
   ws-opts:
     headers:
       Host: nnew-----join.outline-vpn.cloud
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🇺🇸 美国CloudFlare公司CDN节点 5
-  network: ws
-  port: '80'
-  server: 104.17.25.1
-  servername: kr1.ljyyds.top
-  tls: false
-  type: vmess
-  uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
-  ws-opts:
-    headers:
-      Host: kr1.ljyyds.top
     path: /
 - alterId: 0
   cipher: auto
@@ -828,7 +824,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9ab2158b-e1ca-43a7-b54d-49739f8898eb
+  uuid: 3d4cb6cf-813a-47b7-895d-f670a9619a78
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -838,7 +834,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9ab2158b-e1ca-43a7-b54d-49739f8898eb
+  uuid: 3d4cb6cf-813a-47b7-895d-f670a9619a78
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -848,7 +844,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9ab2158b-e1ca-43a7-b54d-49739f8898eb
+  uuid: 3d4cb6cf-813a-47b7-895d-f670a9619a78
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
