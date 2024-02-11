@@ -45,3 +45,81 @@ proxies:
   tls: true
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 7|🇺🇸_US_美国->🇩🇪_DE_德国
+  network: ws
+  port: 80
+  server: 104.24.208.37
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: my1.tooters.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '7|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
+  network: ws
+  port: 80
+  server: www.greendam.site
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: my1.tooters.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7|🇨🇳_CN_中国->🇺🇸_US_美国
+  network: ws
+  port: 27102
+  server: rl1.269999.xyz
+  tls: true
+  type: vmess
+  uuid: 460d53e3-3fa4-456a-83d1-d75d17d87c65
+  ws-opts:
+    headers:
+      Host: rl1.269999.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '7|🇺🇸_US_美国->🇩🇪_DE_德国 #2'
+  network: ws
+  port: 80
+  server: for-irancell.outline-vpn.cloud
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: my1.tooters.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '7|🇺🇸_US_美国->🇩🇪_DE_德国 #3'
+  network: ws
+  port: 80
+  server: 104.22.51.162
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: my1.tooters.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7|🇳🇱_NL_荷兰->🇩🇪_DE_德国
+  network: ws
+  port: 80
+  server: mci--join.outline-vpn.cloud
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt5.ir
+    path: /?ed=2048
