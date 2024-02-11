@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7cdd7006-d605-402e-a7c2-cf77cbd85d97
+  uuid: 83b93c4c-5ab3-40d2-b057-822a4756bb13
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7cdd7006-d605-402e-a7c2-cf77cbd85d97
+  uuid: 83b93c4c-5ab3-40d2-b057-822a4756bb13
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,19 +28,19 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7cdd7006-d605-402e-a7c2-cf77cbd85d97
+  uuid: 83b93c4c-5ab3-40d2-b057-822a4756bb13
 - alterId: 0
   cipher: auto
-  name: 13|🇸🇬新加坡3丨电报群@bp520
+  name: 13|SG_youtube@资源分享师_294
   network: ws
-  port: '80'
-  server: 162.159.200.3
+  port: 80
+  server: sg03.hajimihajimihajimi.online
   tls: false
   type: vmess
-  uuid: b5a75d3a-cd95-4b04-9cd6-b1ef4d9b763c
+  uuid: f9d04a5f-9cda-4184-bb5d-f69f1909eff9
   ws-opts:
     headers:
-      Host: sg3.889611.com
+      Host: sg03.hajimihajimihajimi.online
     path: /
 - alterId: 0
   cipher: auto
@@ -51,7 +51,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 35ced440-c5a5-497e-a6b8-ab92ca8969a5
+  uuid: 70f41984-507f-4be3-b9ff-75967aa6a8b1
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -61,7 +61,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 35ced440-c5a5-497e-a6b8-ab92ca8969a5
+  uuid: 70f41984-507f-4be3-b9ff-75967aa6a8b1
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -71,7 +71,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 35ced440-c5a5-497e-a6b8-ab92ca8969a5
+  uuid: 70f41984-507f-4be3-b9ff-75967aa6a8b1
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
