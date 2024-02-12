@@ -96,7 +96,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1,4,7|🇺🇸_US_美国 #49'
+  name: '1,3,4,7,17|🇺🇸_US_美国 #81'
   network: http
   port: 3389
   server: 5.161.220.92
@@ -276,59 +276,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,6,7,13,17|🇺🇸_US_美国 #70'
-  network: ws
-  port: 8080
-  server: 104.21.31.244
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.nahck.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '3,4,6,13,17|🇺🇸_US_美国 #71'
-  network: ws
-  port: 8080
-  server: www.nahck.site
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.nahck.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '3,4,6,7,13,17|🇺🇸_US_美国 #72'
-  network: ws
-  port: 8080
-  server: 104.21.23.176
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.crispyrainbow.biz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '3,17|🇺🇸_US_美国 #73'
-  network: ws
-  port: 2086
-  server: cfcdn1.sanfencdn9.com
-  tls: false
-  type: vmess
-  uuid: 851278d6-8c0b-4147-8939-89cface46627
-  ws-opts:
-    headers:
-      Host: us77SmSk86j.fzbqfrse.xyz
-    path: /video/Z7qdcrAGRw
-- alterId: 0
-  cipher: auto
-  name: '3,4,6,7,17|🇺🇸_US_美国 #74'
+  name: '3,4,6,7,17|🇺🇸_US_美国 #70'
   network: ws
   port: 8080
   server: 172.67.212.114
@@ -341,7 +289,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,7,17|🇺🇸_US_美国 #75'
+  name: '3,4,7,17|🇺🇸_US_美国 #71'
   network: ws
   port: 8080
   server: 172.67.166.190
@@ -354,21 +302,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,11,17|🇺🇸_US_美国 #76'
+  name: '3,4,6,7,13,17|🇺🇸_US_美国 #72'
   network: ws
-  port: 80
-  server: 104.20.231.30
-  servername: ''
+  port: 8080
+  server: 104.21.31.244
   tls: false
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      Host: my1.tooters.ir
+      Host: www.nahck.site
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,7,11,12,17|🇺🇸_US_美国 #77'
+  name: '3,4,7,11,12,17|🇺🇸_US_美国 #73'
   network: ws
   port: 8880
   server: server32.beheshtbaneh.com
@@ -382,7 +329,47 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,6,17|🇺🇸_US_美国 #78'
+  name: '3,7,13,17|🇺🇸_US_美国 #74'
+  network: ws
+  port: 8880
+  server: zula.ir
+  tls: false
+  type: vmess
+  uuid: 2a346c57-5ff4-4e4b-a4d1-f3d008cbe09e
+  ws-opts:
+    headers:
+      Host: server28.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '3,4,11,17|🇺🇸_US_美国 #75'
+  network: ws
+  port: 80
+  server: 104.20.231.30
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: my1.tooters.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '3,4,6,13,17|🇺🇸_US_美国 #76'
+  network: ws
+  port: 8080
+  server: 172.67.180.248
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.nahck.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '3,4,6,17|🇺🇸_US_美国 #77'
   network: ws
   port: 8080
   server: 104.21.89.252
@@ -395,60 +382,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,6,17|🇺🇸_US_美国 #79'
+  name: '3,4,6,13,17|🇺🇸_US_美国 #78'
   network: ws
   port: 8080
-  server: www.crispyrainbow.biz
+  server: www.nahck.site
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      Host: www.crispyrainbow.biz
+      Host: www.nahck.site
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,7,17|🇺🇸_US_美国 #80'
-  network: ws
-  port: 8880
-  server: server28.beheshtbaneh.com
-  tls: false
-  type: vmess
-  uuid: 2a346c57-5ff4-4e4b-a4d1-f3d008cbe09e
-  ws-opts:
-    headers:
-      Host: server28.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '3,13,17|🇺🇸_US_美国 #81'
-  network: ws
-  port: 8880
-  server: server33.beheshtbaneh.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0873fffc-414f-4140-a155-672129fd9a1d
-  ws-opts:
-    headers:
-      Host: server33.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '3,17|🇺🇸_US_美国 #82'
-  network: ws
-  port: 2086
-  server: 104.16.57.82
-  tls: false
-  type: vmess
-  uuid: 851278d6-8c0b-4147-8939-89cface46627
-  ws-opts:
-    headers:
-      Host: us77SmSk86j.fzbqfrse.xyz
-    path: /video/Z7qdcrAGRw
-- alterId: 0
-  cipher: auto
-  name: '3,4,6,17|🇺🇸_US_美国 #83'
+  name: '3,4,6,17|🇺🇸_US_美国 #79'
   network: ws
   port: 8080
   server: www.crispyrainbow.online
@@ -461,16 +408,56 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,6,13,17|🇺🇸_US_美国 #84'
+  name: '3,4,6,17|🇺🇸_US_美国 #80'
   network: ws
   port: 8080
-  server: 172.67.180.248
+  server: www.crispyrainbow.biz
   tls: false
   type: vmess
   uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      Host: www.nahck.site
+      Host: www.crispyrainbow.biz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '3,4,6,7,13,17|🇺🇸_US_美国 #82'
+  network: ws
+  port: 8080
+  server: 104.21.23.176
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.crispyrainbow.biz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '3,6,7,11,12,13,17|🇺🇸_US_美国 #83'
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '3,4,7,17|🇺🇸_US_美国 #84'
+  network: ws
+  port: 8880
+  server: server28.beheshtbaneh.com
+  tls: false
+  type: vmess
+  uuid: 2a346c57-5ff4-4e4b-a4d1-f3d008cbe09e
+  ws-opts:
+    headers:
+      Host: server28.beheshtbaneh.com
     path: /
 - alterId: 0
   cipher: auto
@@ -488,21 +475,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,6,7,11,12,13,17|🇺🇸_US_美国 #86'
-  network: ws
-  port: 8880
-  server: 104.21.82.183
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
-  ws-opts:
-    headers:
-      Host: server26.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '4,6,7,11,13|🇺🇸_US_美国 #68'
+  name: '3,4,6,7,11,13,17|🇺🇸_US_美国 #86'
   network: ws
   port: 80
   server: 172.67.217.144
@@ -621,19 +594,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7,13|🇺🇸_US_美国 #69'
-  network: ws
-  port: 8880
-  server: zula.ir
-  tls: false
-  type: vmess
-  uuid: 2a346c57-5ff4-4e4b-a4d1-f3d008cbe09e
-  ws-opts:
-    headers:
-      Host: server28.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 10|🇺🇸美国04
   network: tcp
   port: '36501'
@@ -641,7 +601,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e4c01b3d-58a7-42f0-ab58-b2193e6bba3c
+  uuid: 6545a19c-276d-480d-9040-995beb99004d
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -651,7 +611,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e4c01b3d-58a7-42f0-ab58-b2193e6bba3c
+  uuid: 6545a19c-276d-480d-9040-995beb99004d
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -661,7 +621,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e4c01b3d-58a7-42f0-ab58-b2193e6bba3c
+  uuid: 6545a19c-276d-480d-9040-995beb99004d
 - alterId: 0
   cipher: auto
   name: 11,12|github.com/freefq - 美国CloudFla...
@@ -813,6 +773,20 @@ proxies:
     headers:
       Host: pq.kmoljklj.top
     path: /qZTtpya?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '13|US美国(mibei77.com 米贝节点分享) #2'
+  network: ws
+  port: '8880'
+  server: server33.beheshtbaneh.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0873fffc-414f-4140-a155-672129fd9a1d
+  ws-opts:
+    headers:
+      Host: server33.beheshtbaneh.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|美国 091
@@ -1110,7 +1084,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0e34f936-2023-459a-ad84-7f692cedb93d
+  uuid: d5385c74-87eb-44cc-8a3b-e19bb379cd35
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -1120,7 +1094,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0e34f936-2023-459a-ad84-7f692cedb93d
+  uuid: d5385c74-87eb-44cc-8a3b-e19bb379cd35
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -1130,7 +1104,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0e34f936-2023-459a-ad84-7f692cedb93d
+  uuid: d5385c74-87eb-44cc-8a3b-e19bb379cd35
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
