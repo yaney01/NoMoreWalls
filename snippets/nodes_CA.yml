@@ -35,7 +35,21 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 75192602-93cf-4361-8143-d1037b81e0f2
+  uuid: e4c01b3d-58a7-42f0-ab58-b2193e6bba3c
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 062
+  network: ws
+  port: 8880
+  server: 104.27.48.18
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
+  ws-opts:
+    headers:
+      Host: nla.yj2022.gq
+    path: /doxwPZje9wMMZi4m9xY8GkU5zT3Hs4kRDL4W3nistSRmDw3x2
 - alterId: 0
   cipher: auto
   name: 13|加拿大 069
@@ -451,4 +465,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c1d95ad6-e7a9-4f90-9c15-a031345ce011
+  uuid: 0e34f936-2023-459a-ad84-7f692cedb93d
