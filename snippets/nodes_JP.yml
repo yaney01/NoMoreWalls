@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 021b81f8-fbcc-4252-8aaa-521fe17bc26d
+  uuid: 75192602-93cf-4361-8143-d1037b81e0f2
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 021b81f8-fbcc-4252-8aaa-521fe17bc26d
+  uuid: 75192602-93cf-4361-8143-d1037b81e0f2
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,19 +28,19 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 021b81f8-fbcc-4252-8aaa-521fe17bc26d
+  uuid: 75192602-93cf-4361-8143-d1037b81e0f2
 - alterId: 0
   cipher: auto
-  name: 13|JP_youtube@资源分享师_223
+  name: 13|JP_youtube@资源分享师_96
   network: ws
   port: 80
-  server: jp04.36routes.online
+  server: jp01.hajimihajimihajimi.online
   tls: false
   type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
+  uuid: f9d04a5f-9cda-4184-bb5d-f69f1909eff9
   ws-opts:
     headers:
-      Host: jp04.36routes.online
+      Host: jp01.hajimihajimihajimi.online
     path: /
 - alterId: 0
   cipher: auto
@@ -54,19 +54,31 @@ proxies:
   uuid: e961894f-8e90-472f-98d3-09402e4be453
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-152.69.197.6...
+  name: 13|日本 001
   network: tcp
-  port: '1069'
-  server: 152.69.197.60
+  port: 37368
+  server: 150.107.200.184
+  servername: ''
   tls: false
   type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+  uuid: 7b72983c-84a3-46ba-9b6d-d4c55c73db8c
 - alterId: 0
   cipher: auto
-  name: 13|JP_youtube@资源分享师_204
+  name: 13|JP_482
+  network: tcp
+  port: 24445
+  server: 140.83.63.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
+- alterId: 0
+  cipher: auto
+  name: 13|日本 010
   network: ws
   port: 41752
   server: jp-tokyo.xn--jvr80dc3xeqn.com
+  servername: ''
   tls: false
   type: vmess
   uuid: 9a0fc9bd-0267-4986-b7c2-6b0cb12947b8
@@ -76,29 +88,6 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 13|JP_youtube@资源分享师_76
-  network: ws
-  port: 80
-  server: jp04.hajimihajimihajimi.online
-  tls: false
-  type: vmess
-  uuid: f9d04a5f-9cda-4184-bb5d-f69f1909eff9
-  ws-opts:
-    headers:
-      Host: jp04.hajimihajimihajimi.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-150.107.200....
-  network: tcp
-  port: '37368'
-  server: 150.107.200.184
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7b72983c-84a3-46ba-9b6d-d4c55c73db8c
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
   network: tcp
   port: '31116'
@@ -106,7 +95,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: fd313c9b-34fd-4956-9de0-a5f2b3d5c065
+  uuid: c1d95ad6-e7a9-4f90-9c15-a031345ce011
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -116,7 +105,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: fd313c9b-34fd-4956-9de0-a5f2b3d5c065
+  uuid: c1d95ad6-e7a9-4f90-9c15-a031345ce011
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -126,7 +115,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: fd313c9b-34fd-4956-9de0-a5f2b3d5c065
+  uuid: c1d95ad6-e7a9-4f90-9c15-a031345ce011
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 15|🇯🇵 日本5|@ripaojiedian
@@ -146,23 +135,6 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|日本3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 851278d6-8c0b-4147-8939-89cface46627
-  ws-opts:
-    headers:
-      Host: GWYp69Yujp2.yofnhkfc.xyz
-    path: /video/VDXcaM7r
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -176,6 +148,6 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.203.201.216
+  server: 54.254.162.181
   tfo: false
   type: ss
