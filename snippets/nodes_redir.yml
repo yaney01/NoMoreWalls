@@ -148,7 +148,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,6,17|🇺🇸_US_美国->🇩🇪_DE_德国 #17'
+  name: '3,4,6,11,17|🇺🇸_US_美国->🇩🇪_DE_德国 #17'
   network: ws
   port: 80
   server: 104.24.208.37
@@ -174,7 +174,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,6,11,13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #19'
+  name: '3,4,6,13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #19'
   network: ws
   port: 80
   server: for-irancell.outline-vpn.cloud
@@ -188,7 +188,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,6,7,13,17|🇳🇱_NL_荷兰->🇩🇪_DE_德国 #11'
+  name: '3,4,6,7,11,13,17|🇳🇱_NL_荷兰->🇩🇪_DE_德国 #11'
   network: ws
   port: 80
   server: 188.114.96.11
@@ -229,9 +229,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '4,6,7|🇳🇱_NL_荷兰->🇩🇪_DE_德国 #9'
+  name: '4,6,7,11|巴西圣保罗 CloudFlare节点 #1'
   network: ws
-  port: 80
+  port: '80'
   server: 188.114.96.113
   tls: false
   type: vmess
@@ -242,7 +242,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '4,7,13|🇺🇸_US_美国->🇩🇪_DE_德国 #15'
+  name: '4,7,11,13|🇺🇸_US_美国->🇩🇪_DE_德国 #15'
   network: ws
   port: 80
   server: 104.21.69.44

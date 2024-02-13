@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0eaae36a-c83e-44dd-b9ad-beed2fc793a4
+  uuid: aef20bfb-2997-4089-8d5d-e337a431963e
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0eaae36a-c83e-44dd-b9ad-beed2fc793a4
+  uuid: aef20bfb-2997-4089-8d5d-e337a431963e
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0eaae36a-c83e-44dd-b9ad-beed2fc793a4
+  uuid: aef20bfb-2997-4089-8d5d-e337a431963e
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
@@ -59,6 +59,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
+- alterId: 0
+  cipher: auto
+  name: 13|日本 007
+  network: ws
+  port: 80
+  server: jp04.36routes.online
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
+  ws-opts:
+    headers:
+      Host: jp04.36routes.online
+    path: /
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 04  | 1x JP

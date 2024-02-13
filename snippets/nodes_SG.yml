@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0eaae36a-c83e-44dd-b9ad-beed2fc793a4
+  uuid: aef20bfb-2997-4089-8d5d-e337a431963e
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0eaae36a-c83e-44dd-b9ad-beed2fc793a4
+  uuid: aef20bfb-2997-4089-8d5d-e337a431963e
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,21 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0eaae36a-c83e-44dd-b9ad-beed2fc793a4
-- alterId: 0
-  cipher: auto
-  name: 11|新加坡 Digital Ocean数据中心
-  network: ws
-  port: '80'
-  server: sg03.hajimihajimihajimi.online
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f9d04a5f-9cda-4184-bb5d-f69f1909eff9
-  ws-opts:
-    headers:
-      Host: sg03.hajimihajimihajimi.online
-    path: /
+  uuid: aef20bfb-2997-4089-8d5d-e337a431963e
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
