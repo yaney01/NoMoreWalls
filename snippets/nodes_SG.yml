@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7b2c9851-5b74-4198-9de2-d37e4d70a49d
+  uuid: 350aca9e-c98c-4cf1-b198-d38589434980
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7b2c9851-5b74-4198-9de2-d37e4d70a49d
+  uuid: 350aca9e-c98c-4cf1-b198-d38589434980
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,24 +28,10 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7b2c9851-5b74-4198-9de2-d37e4d70a49d
+  uuid: 350aca9e-c98c-4cf1-b198-d38589434980
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.105...
-  network: ws
-  port: '23836'
-  server: 146.190.105.70
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a4aec8b2-3206-4adb-f274-9d5252d84b8e
-  ws-opts:
-    headers:
-      Host: imo.im
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.105... #1'
   network: ws
   port: '28960'
   server: 146.190.105.70
@@ -56,6 +42,31 @@ proxies:
   ws-opts:
     headers:
       Host: android.googleapis.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-54.151.197....
+  network: ws
+  port: 26089
+  server: 54.151.197.168
+  tls: false
+  type: vmess
+  uuid: 8ddba308-a726-4204-a999-a73de3c8dc60
+  ws-opts:
+    path: /ow
+- alterId: 0
+  cipher: auto
+  name: '13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.105... #1'
+  network: ws
+  port: '23836'
+  server: 146.190.105.70
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a4aec8b2-3206-4adb-f274-9d5252d84b8e
+  ws-opts:
+    headers:
+      Host: imo.im
     path: /
 - alterId: 0
   cipher: auto

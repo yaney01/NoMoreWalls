@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7b2c9851-5b74-4198-9de2-d37e4d70a49d
+  uuid: 350aca9e-c98c-4cf1-b198-d38589434980
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7b2c9851-5b74-4198-9de2-d37e4d70a49d
+  uuid: 350aca9e-c98c-4cf1-b198-d38589434980
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,17 +28,31 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7b2c9851-5b74-4198-9de2-d37e4d70a49d
+  uuid: 350aca9e-c98c-4cf1-b198-d38589434980
 - alterId: 0
   cipher: auto
-  name: 13|JP_482
-  network: tcp
-  port: 24445
-  server: 140.83.63.38
+  name: 13|日本(yudou66.com 玉豆免费节点)
+  network: ws
+  port: '41752'
+  server: jp-tokyo.xn--jvr80dc3xeqn.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 94c5ef37-4d82-49f9-c624-f01259374a17
+  uuid: db5ff3a0-6a1c-41fd-b353-908a5ff9b4f7
+  ws-opts:
+    headers:
+      Host: jp-tokyo.xn--jvr80dc3xeqn.com
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
+  network: tcp
+  port: '14935'
+  server: 167.179.111.237
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e961894f-8e90-472f-98d3-09402e4be453
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇯🇵 JP-150.107.200....
