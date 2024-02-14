@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 96d03401-fc95-4394-97f5-113125a16b69
+  uuid: ef00f871-b778-473f-be7f-e6b82893d878
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 96d03401-fc95-4394-97f5-113125a16b69
+  uuid: ef00f871-b778-473f-be7f-e6b82893d878
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 96d03401-fc95-4394-97f5-113125a16b69
+  uuid: ef00f871-b778-473f-be7f-e6b82893d878
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇯🇵 JP-152.69.197.6...
@@ -40,14 +40,42 @@ proxies:
   uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-150.107.200....
-  network: tcp
-  port: '37368'
-  server: 150.107.200.184
+  name: 13|日本【TG：@ccbaohe】定时更新节点订阅
+  network: ws
+  port: 41752
+  server: jp-tokyo.xn--jvr80dc3xeqn.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 7b72983c-84a3-46ba-9b6d-d4c55c73db8c
+  uuid: 9a0fc9bd-0267-4986-b7c2-6b0cb12947b8
+  ws-opts:
+    headers:
+      Host: jp-tokyo.xn--jvr80dc3xeqn.com
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
+  network: tcp
+  port: '14935'
+  server: 167.179.111.237
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e961894f-8e90-472f-98d3-09402e4be453
+- alterId: 0
+  cipher: auto
+  name: 13|【电报：@ccbaohe|免费机场节点 🇯🇵 日本 - 东京...
+  network: ws
+  port: '41752'
+  server: 131.186.62.202
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9a0fc9bd-0267-4986-b7c2-6b0cb12947b8
+  ws-opts:
+    headers:
+      Host: 131.186.62.202
+    path: /
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
@@ -94,6 +122,22 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  network: ws
+  port: 443
+  server: free.ctass.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 351071bd-ae0d-4be2-ea9c-f2820f43d46e
+  ws-opts:
+    headers:
+      Host: free.ctass.top
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
