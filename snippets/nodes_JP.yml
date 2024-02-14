@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 350aca9e-c98c-4cf1-b198-d38589434980
+  uuid: f9cba38f-8bef-4f0e-8b3f-b4ef496ce7c4
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 350aca9e-c98c-4cf1-b198-d38589434980
+  uuid: f9cba38f-8bef-4f0e-8b3f-b4ef496ce7c4
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 350aca9e-c98c-4cf1-b198-d38589434980
+  uuid: f9cba38f-8bef-4f0e-8b3f-b4ef496ce7c4
 - alterId: 0
   cipher: auto
   name: 13|日本(yudou66.com 玉豆免费节点)
@@ -110,17 +110,6 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本1|@ripaojiedian
-  obfs: plain
-  obfs-param: 69666175910.microsoft.com
-  password: bxsnucrgk6hfish
-  port: 1052
-  protocol: auth_aes128_sha1
-  protocol-param: 175910:AcKdLc
-  server: yd-02.paofunlink.com
-  type: ssr
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
@@ -134,7 +123,7 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.115.15.234
+  server: 57.181.39.76
   tfo: false
   type: ss
 - alterId: 0

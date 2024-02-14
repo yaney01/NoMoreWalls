@@ -3,7 +3,7 @@ proxies:
   network: tcp
   password: telegram-id-directvpn
   port: 22222
-  server: 3.98.190.49
+  server: 3.97.100.116
   skip-cert-verify: true
   sni: trojan.miwan.co.uk
   type: trojan
@@ -17,7 +17,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 350aca9e-c98c-4cf1-b198-d38589434980
+  uuid: f9cba38f-8bef-4f0e-8b3f-b4ef496ce7c4
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -241,3 +241,20 @@ proxies:
   tls: true
   type: vmess
   uuid: c296f1bd-63bd-4dbf-a957-2aae5afb11e4
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|加拿大
+  network: ws
+  port: '8080'
+  server: 162.159.136.253
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ade73e62-7554-40a8-9314-195a372bae28
+  ws-opts:
+    headers:
+      Host: xentain.kmoljklj.top
+    path: /7bFcoRZS?ed=2048
