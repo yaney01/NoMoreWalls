@@ -460,7 +460,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '7,11,13|🇺🇸_US_美国 #41'
+  name: '7,13|🇺🇸_US_美国 #41'
   network: ws
   port: 2086
   server: 94.131.10.135
@@ -491,7 +491,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 35b1a2df-fb6f-4b32-a076-90b802110132
+  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -501,7 +501,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 35b1a2df-fb6f-4b32-a076-90b802110132
+  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -511,50 +511,21 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 35b1a2df-fb6f-4b32-a076-90b802110132
+  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #1'
-  network: ws
-  port: '80'
-  server: yhnsb3.shabijichang.com
-  tls: false
-  type: vmess
-  uuid: c458695d-6908-45c3-9512-e0c46418454c
-  ws-opts:
-    headers:
-      Host: yhnsb3.shabijichang.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|台湾3|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: c752a139-42cd-48db-a4d5-ff9b5df86808
-  ws-opts:
-    headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #4'
+  name: 11,13|US_youtube@资源分享师_82
   network: ws
   port: 80
-  server: 104.22.51.162
+  server: ip.sb
+  servername: ''
   tls: false
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
   ws-opts:
     headers:
-      Host: my1.tooters.ir
-    path: /?ed=2048
+      Host: kr1.ljyyds.top
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,12|github.com/freefq - 美国CloudFla...
@@ -568,6 +539,33 @@ proxies:
     headers:
       Host: www.darkroom.lol
     path: /
+- alterId: 0
+  cipher: auto
+  name: 11|美国 Fastly全球Anycast节点
+  network: ws
+  port: '80'
+  server: fastly.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
+  ws-opts:
+    headers:
+      Host: nmsl.kp
+    path: /aries?ed=2048
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #3'
+  network: ws
+  port: '8080'
+  server: 172.67.171.177
+  tls: false
+  type: vmess
+  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+  ws-opts:
+    headers:
+      Host: eu3.openxai.link
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: '11,12|github.com/freefq - 美国CloudFla... #1'
@@ -702,19 +700,6 @@ proxies:
     headers:
       Host: ''
     path: /urnxewzvh.site:443/kwhmvws
-- alterId: 0
-  cipher: auto
-  name: 13|US_youtube@资源分享师_82
-  network: ws
-  port: 80
-  server: ip.sb
-  tls: false
-  type: vmess
-  uuid: 113a74cc-f13b-48ec-bbb2-2bbab77a2f35
-  ws-opts:
-    headers:
-      Host: kr1.ljyyds.top
-    path: /
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
