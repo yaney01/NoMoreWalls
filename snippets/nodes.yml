@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,11,13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #27'
+  name: '0,4,6,7,11,13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #27'
   network: ws
   port: 80
   server: 104.21.69.44
@@ -15,7 +15,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,13,17|🇺🇸_US_美国 #48'
+  name: '0,4,6,13,17|🇺🇸_US_美国 #29'
   network: ws
   port: 8080
   server: 172.67.180.248
@@ -41,7 +41,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,6,7,13|🇺🇸_US_美国->🇩🇪_DE_德国 #20'
+  name: '0,3,4,6,7,13|🇺🇸_US_美国->🇩🇪_DE_德国 #20'
   network: ws
   port: 80
   server: 104.16.77.74
@@ -111,7 +111,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,13,17|🇺🇸_US_美国 #55'
+  name: '0,3,4,6,13,17|🇺🇸_US_美国 #36'
   network: ws
   port: 8080
   server: 104.21.31.244
@@ -124,7 +124,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,1,3,4,6,7,17|🇺🇸_US_美国 #49'
+  name: '0,1,3,4,6,7,17|🇺🇸_US_美国 #30'
   network: http
   port: 3389
   server: 5.161.220.92
@@ -134,7 +134,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '0,4,6,7|🇺🇸_US_美国->🇯🇵_JP_日本 #2'
+  name: '0,3,4,6,7|🇺🇸_US_美国->🇯🇵_JP_日本 #2'
   network: ws
   port: 8080
   server: 104.17.123.55
@@ -160,7 +160,7 @@ proxies:
     path: /QuCOYu3CLHTbK2Z5DnDtIYiuDZo
 - alterId: 0
   cipher: auto
-  name: '0,4,6,13|🇺🇸_US_美国->🇩🇪_DE_德国 #19'
+  name: '0,3,4,6,13|🇺🇸_US_美国->🇩🇪_DE_德国 #19'
   network: ws
   port: 80
   server: 104.24.208.37
@@ -187,7 +187,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,6,13|US美国(mibei77.com 米贝节点分享) #2'
+  name: '0,3,4,6,13|US美国(mibei77.com 米贝节点分享) #2'
   network: ws
   port: '8080'
   server: www.nahck.site
@@ -201,7 +201,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,6,7|🇺🇸_US_美国 #36'
+  name: '0,4,6,7|🇺🇸_US_美国 #17'
   network: ws
   port: 2052
   server: 104.16.221.144
@@ -437,7 +437,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '1,3,17|🇬🇧_GB_英国 #1'
+  name: 1,17|🇬🇧_GB_英国
   network: ws
   port: 63503
   server: au-melbourne-oracle-abfdf2.ip1.shop
@@ -591,215 +591,41 @@ proxies:
     headers:
       host: tw1bQiWSE4x.fzbqfrse.xyz
     path: /video/GQ2qE5Us9g
-- alterId: 64
-  cipher: auto
-  name: '3,17|🇫🇷_FR_法国->🇩🇪_DE_德国 #1'
-  network: ws
-  port: 30000
-  server: 51.77.92.134
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.88109376.xyz
-    path: /path/070410072720
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国 #45'
+  name: 3|🇺🇸_US_美国
   network: ws
   port: 8880
-  server: 104.25.213.195
+  server: 104.21.1.28
   tls: false
   type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  uuid: 4b5e4565-322f-4223-a891-78a84f189726
   ws-opts:
     headers:
-      Host: server31.beheshtbaneh.com
-    path: /
+      Host: us-ccs.yuji2022.eu.org
+    path: /XSjeg73o6ZdsheahCb5JG
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国 #46'
+  name: '3,7,17|🇳🇱_NL_荷兰->🇩🇪_DE_德国 #10'
   network: ws
-  port: 8880
-  server: 104.24.35.185
+  port: 80
+  server: 188.114.96.113
   tls: false
   type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   ws-opts:
     headers:
-      Host: server31.beheshtbaneh.com
-    path: /
+      Host: a.prapt5.ir
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国 #47'
-  network: ws
-  port: 8880
-  server: 162.159.24.22
+  name: '3,7|🇩🇪_DE_德国 #2'
+  network: http
+  port: 3389
+  server: 116.203.116.244
   tls: false
   type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '3,17|🇺🇸_US_美国 #50'
-  network: ws
-  port: 8880
-  server: 198.41.198.161
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: '3,17|🇺🇸_US_美国 #51'
-  network: ws
-  port: 443
-  server: 67.21.82.44
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.70806662.xyz
-    path: /path/070410072720
-- alterId: 0
-  cipher: auto
-  name: '3,11,12,17|🇺🇸_US_美国 #52'
-  network: ws
-  port: 8880
-  server: server32.beheshtbaneh.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
-  ws-opts:
-    headers:
-      Host: server32.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '3,17|🇺🇸_US_美国 #53'
-  network: ws
-  port: 8880
-  server: 104.18.205.114
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '3,17|🇺🇸_US_美国 #54'
-  network: ws
-  port: 8880
-  server: 108.162.195.32
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: '3,17|🇩🇪_DE_德国 #4'
-  network: ws
-  port: 36000
-  server: 5.199.136.38
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.67782237.xyz
-    path: /path/070410072720
-- alterId: 0
-  cipher: auto
-  name: '3,17|🇨🇷_CR_哥斯达黎加 #1'
-  network: ws
-  port: 8880
-  server: 190.93.245.76
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '3,17|🇺🇸_US_美国 #56'
-  network: ws
-  port: 8880
-  server: 141.101.114.181
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '3,17|🇺🇸_US_美国 #57'
-  network: ws
-  port: 8880
-  server: 104.22.2.28
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '3,17|🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国 #2'
-  network: ws
-  port: 8880
-  server: 190.93.245.72
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: '3,17|🇺🇸_US_美国 #58'
-  network: ws
-  port: 30000
-  server: 64.32.20.19
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.37321292.xyz
-    path: /path/070410072720
-- alterId: 0
-  cipher: auto
-  name: '3,17|🇺🇸_US_美国 #59'
-  network: ws
-  port: 8880
-  server: 104.21.82.183
-  tls: false
-  type: vmess
-  uuid: 0873fffc-414f-4140-a155-672129fd9a1d
-  ws-opts:
-    headers:
-      Host: server33.beheshtbaneh.com
-    path: /
+  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
   name: '3,7,13,17|🇳🇱_NL_荷兰->🇩🇪_DE_德国 #9'
@@ -816,198 +642,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '3,17|🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国 #3'
-  network: ws
-  port: 8880
-  server: 190.93.247.114
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: '3,17|🇺🇸_US_美国 #60'
-  network: ws
-  port: 443
-  server: 45.58.174.10
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.41981855.xyz
-    path: /path/070410072720
-- alterId: 0
-  cipher: auto
-  name: '3,17|🇺🇸_US_美国 #61'
-  network: ws
-  port: 8880
-  server: 173.245.58.134
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '3,17|🇺🇸_US_美国 #62'
-  network: ws
-  port: 8880
-  server: server33.beheshtbaneh.com
-  tls: false
-  type: vmess
-  uuid: 0873fffc-414f-4140-a155-672129fd9a1d
-  ws-opts:
-    headers:
-      Host: server33.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '3,17|🇺🇸_US_美国->🇩🇪_DE_德国 #26'
-  network: ws
-  port: 80
-  server: www.greendam.site
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: my1.tooters.ir
-    path: /
-- alterId: 64
-  cipher: auto
-  name: '3,17|🇩🇪_DE_德国 #5'
-  network: ws
-  port: 30000
-  server: 85.114.138.125
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.63316889.xyz
-    path: /path/070410072720
-- alterId: 64
-  cipher: auto
-  name: '3,17|🇬🇧_GB_英国->🇩🇪_DE_德国 #1'
-  network: ws
-  port: 31000
-  server: 51.89.68.94
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.12938243.xyz
-    path: /path/060231310424
-- alterId: 0
-  cipher: auto
-  name: '3,7,17|🇳🇱_NL_荷兰->🇩🇪_DE_德国 #10'
-  network: ws
-  port: 80
-  server: 188.114.96.113
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt5.ir
-    path: /?ed=2048
-- alterId: 64
-  cipher: auto
-  name: '3,17|🇺🇸_US_美国 #63'
-  network: ws
-  port: 30000
-  server: 107.167.11.101
-  tls: true
-  type: vmess
-  uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307
-  ws-opts:
-    headers:
-      Host: www.67423054.xyz
-    path: /path/070410072720
-- alterId: 0
-  cipher: auto
-  name: '3,17|🇺🇸_US_美国 #64'
-  network: ws
-  port: 8880
-  server: 141.101.115.232
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: '3,17|🇺🇸_US_美国 #65'
-  network: ws
-  port: 443
-  server: 107.149.197.169
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.70607319.xyz
-    path: /path/070410072720
-- alterId: 64
-  cipher: auto
-  name: '3,17|🇺🇸_US_美国 #66'
-  network: ws
-  port: 443
-  server: 107.167.21.150
-  tls: true
-  type: vmess
-  uuid: fabb30e8-3a2c-4149-9651-2758f7712481
-  ws-opts:
-    headers:
-      Host: www.58528190.xyz
-    path: /path/070410072720
-- alterId: 64
-  cipher: auto
-  name: '3,17|🇺🇸_US_美国 #67'
-  network: ws
-  port: 443
-  server: 67.21.73.220
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.62719364.xyz
-    path: /path/060231310424
-- alterId: 0
-  cipher: auto
-  name: '3,17|🇺🇸_US_美国 #68'
-  network: ws
-  port: 8880
-  server: 172.67.121.189
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '7|🇩🇪_DE_德国 #2'
-  network: http
-  port: 3389
-  server: 116.203.116.244
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: '7|🇩🇪_DE_德国 #3'
+  name: '3,7|🇩🇪_DE_德国 #3'
   network: http
   port: 3389
   server: 5.75.190.50
@@ -1016,7 +651,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '7,13|🇺🇸_US_美国 #42'
+  name: '7,13|🇺🇸_US_美国 #23'
   network: ws
   port: 8080
   server: 94.131.10.135
@@ -1027,7 +662,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '7,13|🇺🇸_US_美国 #41'
+  name: '7,13|🇺🇸_US_美国 #22'
   network: ws
   port: 2086
   server: 94.131.10.135
@@ -1038,7 +673,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '7|🇺🇸_US_美国 #40'
+  name: '7|🇺🇸_US_美国 #21'
   network: ws
   port: 80
   server: zula.ir
@@ -1058,7 +693,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -1068,7 +703,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -1078,7 +713,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡04
@@ -1088,7 +723,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -1098,7 +733,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -1108,7 +743,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国04
@@ -1118,7 +753,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -1128,7 +763,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -1138,7 +773,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇷🇺俄罗斯04
@@ -1148,7 +783,7 @@ proxies:
   servername: ru04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇲🇾马来西亚04
@@ -1158,7 +793,7 @@ proxies:
   servername: my04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇹🇭泰国04
@@ -1168,7 +803,7 @@ proxies:
   servername: th04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇵🇭菲律宾04
@@ -1178,7 +813,7 @@ proxies:
   servername: ph04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇰🇷韩国04
@@ -1188,7 +823,7 @@ proxies:
   servername: kr04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇮🇳印度04
@@ -1198,7 +833,7 @@ proxies:
   servername: in04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇧🇷巴西04
@@ -1208,7 +843,7 @@ proxies:
   servername: br04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇻🇳越南04
@@ -1218,7 +853,7 @@ proxies:
   servername: vn04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇭🇺匈牙利04
@@ -1228,7 +863,7 @@ proxies:
   servername: hu04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇦🇷阿根廷04
@@ -1238,7 +873,7 @@ proxies:
   servername: ar04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇹🇷土耳其04
@@ -1248,7 +883,7 @@ proxies:
   servername: tr04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇺🇦乌克兰04
@@ -1258,7 +893,7 @@ proxies:
   servername: ua04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇦🇺澳大利亚04
@@ -1268,7 +903,7 @@ proxies:
   servername: au04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇬🇧英国04
@@ -1278,7 +913,7 @@ proxies:
   servername: uk04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇩🇪德国04
@@ -1288,7 +923,7 @@ proxies:
   servername: de04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇵🇹葡萄牙04
@@ -1298,7 +933,7 @@ proxies:
   servername: pt04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇨🇦加拿大04
@@ -1308,7 +943,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 10|🇪🇸西班牙04
@@ -1318,7 +953,7 @@ proxies:
   servername: es04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 512a86d3-8cc9-422c-a7e0-82e960e4d132
+  uuid: 56036241-ffa6-4bcd-9b25-c33802d6f7eb
 - alterId: 0
   cipher: auto
   name: 11,13|US_youtube@资源分享师_82
@@ -1400,6 +1035,20 @@ proxies:
     headers:
       Host: ''
     path: /vmess
+- alterId: 0
+  cipher: auto
+  name: '11,12,17|🇺🇸_US_美国 #33'
+  network: ws
+  port: 8880
+  server: server32.beheshtbaneh.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9
+  ws-opts:
+    headers:
+      Host: server32.beheshtbaneh.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,12|github.com/freefq - 印度  2
@@ -3248,3 +2897,367 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 64
+  cipher: auto
+  name: 17|🇫🇷_FR_法国->🇩🇪_DE_德国
+  network: ws
+  port: 30000
+  server: 51.77.92.134
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.88109376.xyz
+    path: /path/070410072720
+- alterId: 0
+  cipher: auto
+  name: '17|🇺🇸_US_美国 #26'
+  network: ws
+  port: 8880
+  server: 104.25.213.195
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '17|🇺🇸_US_美国 #27'
+  network: ws
+  port: 8880
+  server: 104.24.35.185
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '17|🇺🇸_US_美国 #28'
+  network: ws
+  port: 8880
+  server: 162.159.24.22
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '17|🇺🇸_US_美国 #31'
+  network: ws
+  port: 8880
+  server: 198.41.198.161
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 64
+  cipher: auto
+  name: '17|🇺🇸_US_美国 #32'
+  network: ws
+  port: 443
+  server: 67.21.82.44
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.70806662.xyz
+    path: /path/070410072720
+- alterId: 0
+  cipher: auto
+  name: '17|🇺🇸_US_美国 #34'
+  network: ws
+  port: 8880
+  server: 104.18.205.114
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '17|🇺🇸_US_美国 #35'
+  network: ws
+  port: 8880
+  server: 108.162.195.32
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 64
+  cipher: auto
+  name: '17|🇩🇪_DE_德国 #4'
+  network: ws
+  port: 36000
+  server: 5.199.136.38
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.67782237.xyz
+    path: /path/070410072720
+- alterId: 0
+  cipher: auto
+  name: 17|🇨🇷_CR_哥斯达黎加
+  network: ws
+  port: 8880
+  server: 190.93.245.76
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '17|🇺🇸_US_美国 #37'
+  network: ws
+  port: 8880
+  server: 141.101.114.181
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '17|🇺🇸_US_美国 #38'
+  network: ws
+  port: 8880
+  server: 104.22.2.28
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 17|🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国
+  network: ws
+  port: 8880
+  server: 190.93.245.72
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 64
+  cipher: auto
+  name: '17|🇺🇸_US_美国 #39'
+  network: ws
+  port: 30000
+  server: 64.32.20.19
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.37321292.xyz
+    path: /path/070410072720
+- alterId: 0
+  cipher: auto
+  name: '17|🇺🇸_US_美国 #40'
+  network: ws
+  port: 8880
+  server: 104.21.82.183
+  tls: false
+  type: vmess
+  uuid: 0873fffc-414f-4140-a155-672129fd9a1d
+  ws-opts:
+    headers:
+      Host: server33.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '17|🇨🇷_CR_哥斯达黎加->🇺🇸_US_美国 #1'
+  network: ws
+  port: 8880
+  server: 190.93.247.114
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 64
+  cipher: auto
+  name: '17|🇺🇸_US_美国 #41'
+  network: ws
+  port: 443
+  server: 45.58.174.10
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.41981855.xyz
+    path: /path/070410072720
+- alterId: 0
+  cipher: auto
+  name: '17|🇺🇸_US_美国 #42'
+  network: ws
+  port: 8880
+  server: 173.245.58.134
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '17|🇺🇸_US_美国 #43'
+  network: ws
+  port: 8880
+  server: server33.beheshtbaneh.com
+  tls: false
+  type: vmess
+  uuid: 0873fffc-414f-4140-a155-672129fd9a1d
+  ws-opts:
+    headers:
+      Host: server33.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '17|🇺🇸_US_美国->🇩🇪_DE_德国 #26'
+  network: ws
+  port: 80
+  server: www.greendam.site
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: my1.tooters.ir
+    path: /
+- alterId: 64
+  cipher: auto
+  name: '17|🇩🇪_DE_德国 #5'
+  network: ws
+  port: 30000
+  server: 85.114.138.125
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.63316889.xyz
+    path: /path/070410072720
+- alterId: 64
+  cipher: auto
+  name: 17|🇬🇧_GB_英国->🇩🇪_DE_德国
+  network: ws
+  port: 31000
+  server: 51.89.68.94
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.12938243.xyz
+    path: /path/060231310424
+- alterId: 64
+  cipher: auto
+  name: '17|🇺🇸_US_美国 #44'
+  network: ws
+  port: 30000
+  server: 107.167.11.101
+  tls: true
+  type: vmess
+  uuid: 4a138e19-0595-4d51-83c6-fd276cf7d307
+  ws-opts:
+    headers:
+      Host: www.67423054.xyz
+    path: /path/070410072720
+- alterId: 0
+  cipher: auto
+  name: '17|🇺🇸_US_美国 #45'
+  network: ws
+  port: 8880
+  server: 141.101.115.232
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
+- alterId: 64
+  cipher: auto
+  name: '17|🇺🇸_US_美国 #46'
+  network: ws
+  port: 443
+  server: 107.149.197.169
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.70607319.xyz
+    path: /path/070410072720
+- alterId: 64
+  cipher: auto
+  name: '17|🇺🇸_US_美国 #47'
+  network: ws
+  port: 443
+  server: 107.167.21.150
+  tls: true
+  type: vmess
+  uuid: fabb30e8-3a2c-4149-9651-2758f7712481
+  ws-opts:
+    headers:
+      Host: www.58528190.xyz
+    path: /path/070410072720
+- alterId: 64
+  cipher: auto
+  name: '17|🇺🇸_US_美国 #48'
+  network: ws
+  port: 443
+  server: 67.21.73.220
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.62719364.xyz
+    path: /path/060231310424
+- alterId: 0
+  cipher: auto
+  name: '17|🇺🇸_US_美国 #49'
+  network: ws
+  port: 8880
+  server: 172.67.121.189
+  tls: false
+  type: vmess
+  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+  ws-opts:
+    headers:
+      Host: server31.beheshtbaneh.com
+    path: /
