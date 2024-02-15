@@ -56,10 +56,11 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
+  name: 15,16|香港2|@ripaojiedian
   network: ws
-  port: 19979
+  port: '19979'
   server: 101.89.154.94
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -83,9 +84,9 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港A
+  name: 15,16|香港A
   network: ws
-  port: 443
+  port: '443'
   server: 27.124.6.148
   servername: www.37327255.xyz
   skip-cert-verify: false
@@ -99,7 +100,7 @@ proxies:
     path: /path/340323081726
 - alterId: 0
   cipher: auto
-  name: 16|香港2|@ripaojiedian
+  name: 16|香港3|@ripaojiedian
   network: tcp
   port: '3389'
   server: 185.244.208.61
@@ -107,3 +108,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
+- alterId: 64
+  cipher: auto
+  name: 16|香港B
+  network: tcp
+  port: '54137'
+  server: 183.236.51.41
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
