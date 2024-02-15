@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d9f0a2f5-8bf9-4ed5-b27d-358e7315be75
+  uuid: accc8d5a-d2d9-4655-991c-defc4b51a589
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d9f0a2f5-8bf9-4ed5-b27d-358e7315be75
+  uuid: accc8d5a-d2d9-4655-991c-defc4b51a589
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,10 +28,24 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d9f0a2f5-8bf9-4ed5-b27d-358e7315be75
+  uuid: accc8d5a-d2d9-4655-991c-defc4b51a589
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.105...
+  network: ws
+  port: '11000'
+  server: 146.190.105.70
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aa817016-4e72-4450-ac10-5b07067ce00c
+  ws-opts:
+    headers:
+      Host: android.googleapis.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.105... #1'
   network: ws
   port: '29001'
   server: 146.190.105.70

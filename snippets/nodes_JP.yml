@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d9f0a2f5-8bf9-4ed5-b27d-358e7315be75
+  uuid: accc8d5a-d2d9-4655-991c-defc4b51a589
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d9f0a2f5-8bf9-4ed5-b27d-358e7315be75
+  uuid: accc8d5a-d2d9-4655-991c-defc4b51a589
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,7 +28,31 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d9f0a2f5-8bf9-4ed5-b27d-358e7315be75
+  uuid: accc8d5a-d2d9-4655-991c-defc4b51a589
+- alterId: 0
+  cipher: auto
+  name: 13|日本
+  network: ws
+  port: '80'
+  server: 141.147.178.135
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
+  ws-opts:
+    headers:
+      Host: kr03.36routes.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
+  network: tcp
+  port: '14935'
+  server: 167.179.111.237
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e961894f-8e90-472f-98d3-09402e4be453
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇯🇵 JP-183.181.36.19...
@@ -45,16 +69,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
-  network: tcp
-  port: '14935'
-  server: 167.179.111.237
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e961894f-8e90-472f-98d3-09402e4be453
-- alterId: 0
-  cipher: auto
   name: '13|日本 #1'
   network: ws
   port: '80'
@@ -66,6 +80,34 @@ proxies:
   ws-opts:
     headers:
       Host: my1.tooters.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '13|日本 #2'
+  network: ws
+  port: '80'
+  server: 150.230.201.63
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
+  ws-opts:
+    headers:
+      Host: kr03.36routes.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '13|日本 #3'
+  network: ws
+  port: '80'
+  server: 47.91.31.231
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
+  ws-opts:
+    headers:
+      Host: kr03.36routes.online
     path: /
 - alterId: 0
   cipher: auto
