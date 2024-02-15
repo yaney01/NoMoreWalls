@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,4,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #47'
+  name: '0,4,6,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #60'
   network: ws
   port: 80
   server: 150.230.201.63
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #38'
+  name: '0,4,6,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #62'
   network: ws
   port: 80
   server: 47.74.11.219
@@ -27,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #50'
+  name: '0,4,6,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #59'
   network: ws
   port: 80
   server: 47.245.26.167
@@ -40,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,11|美国 CloudFlare节点 #3'
+  name: '0,4,6,11|美国 CloudFlare节点 #3'
   network: ws
   port: 80
   server: 162.159.200.5
@@ -53,7 +53,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,7|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦 #5'
+  name: '0,4,6,7|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦 #8'
   network: ws
   port: 80
   server: 104.18.15.150
@@ -66,7 +66,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #36'
+  name: '0,4,6,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #57'
   network: ws
   port: 80
   server: 150.230.197.156
@@ -79,7 +79,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #41'
+  name: '0,4,6,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #64'
   network: ws
   port: 80
   server: 131.186.63.127
@@ -92,10 +92,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,7,11,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #39'
+  name: '0,4,6,7,11,13|日本 #4'
   network: ws
-  port: 80
+  port: '80'
   server: 47.91.19.249
+  servername: ''
   tls: false
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -105,7 +106,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,7,11,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #35'
+  name: '0,4,6,7,11,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #50'
   network: ws
   port: 80
   server: 47.74.40.13
@@ -119,7 +120,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #44'
+  name: '0,4,6,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #56'
   network: ws
   port: 80
   server: 43.153.181.217
@@ -132,10 +133,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #26'
+  name: '0,3,4,6,13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #28'
   network: ws
   port: 80
   server: 104.22.51.162
+  servername: ''
   tls: false
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -145,7 +147,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #42'
+  name: '0,4,6,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #51'
   network: ws
   port: 80
   server: 47.245.7.212
@@ -158,9 +160,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,11,13|美国【TG：@ccbaohe】定时更新节点订阅 #1'
+  name: '0,4,6,11,13|🇺🇸_US_美国->🇩🇪_DE_德国 #20'
   network: ws
-  port: '80'
+  port: 80
   server: 198.41.202.5
   servername: ''
   tls: false
@@ -173,7 +175,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0,4,7,13,15,16|日本3|@ripaojiedian
+  name: 0,4,6,7,13,15,16|日本3|@ripaojiedian
   network: ws
   port: '80'
   server: 8.209.242.25
@@ -189,7 +191,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #23'
+  name: '0,3,4,6,13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #25'
   network: ws
   port: 80
   server: for-irancell.outline-vpn.cloud
@@ -202,7 +204,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #49'
+  name: '0,4,6,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #52'
   network: ws
   port: 80
   server: 138.2.6.15
@@ -215,7 +217,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #43'
+  name: '0,4,6,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #55'
   network: ws
   port: 80
   server: 47.91.31.231
@@ -228,7 +230,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,11,13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #24'
+  name: '0,3,4,6,11,13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #26'
   network: ws
   port: 80
   server: 104.16.77.74
@@ -241,7 +243,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '0,4,7|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦 #3'
+  name: '0,4,6,7|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦 #6'
   network: ws
   port: 80
   server: 162.159.200.6
@@ -254,7 +256,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,7|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦 #4'
+  name: '0,4,6,7|🇺🇸_US_美国->🇷🇺_RU_俄罗斯联邦 #7'
   network: ws
   port: 80
   server: 162.159.200.7
@@ -267,7 +269,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #48'
+  name: '0,4,6,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #54'
   network: ws
   port: 80
   server: 141.147.181.148
@@ -280,7 +282,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,11,13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #25'
+  name: '0,3,4,6,11,13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #27'
   network: ws
   port: 80
   server: 104.24.208.37
@@ -293,7 +295,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,7|🇺🇸_US_美国->🇨🇦_CA_加拿大 #3'
+  name: '0,4,6,7|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
   network: ws
   port: 80
   server: 162.159.200.3
@@ -306,7 +308,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,7,11,13,17|🇳🇱_NL_荷兰->🇩🇪_DE_德国 #13'
+  name: '0,3,4,6,7,11,13,17|🇳🇱_NL_荷兰->🇩🇪_DE_德国 #15'
   network: ws
   port: 80
   server: 188.114.96.113
@@ -319,7 +321,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '0,4,6,13|🇺🇸_US_美国->🇩🇪_DE_德国 #19'
+  name: '0,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #17'
   network: ws
   port: 80
   server: 104.21.69.44
@@ -332,7 +334,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,11,13,17|🇳🇱_NL_荷兰->🇩🇪_DE_德国 #14'
+  name: '0,3,4,6,7,11,13,17|🇳🇱_NL_荷兰->🇩🇪_DE_德国 #16'
   network: ws
   port: 80
   server: mci--join.outline-vpn.cloud
@@ -345,7 +347,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '0,4,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #37'
+  name: '0,4,6,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #63'
   network: ws
   port: 80
   server: 47.245.54.58
@@ -358,7 +360,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #22'
+  name: '0,3,4,6,13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #24'
   network: ws
   port: 80
   server: 104.20.231.30
@@ -371,7 +373,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #45'
+  name: '0,4,6,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #66'
   network: ws
   port: 80
   server: 47.245.40.161
@@ -384,7 +386,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #51'
+  name: '0,4,6,7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #58'
   network: ws
   port: 80
   server: 47.245.58.250
@@ -397,7 +399,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,4|🇺🇸_US_美国->🇨🇦_CA_加拿大 #2'
+  name: '0,4,6|🇺🇸_US_美国->🇨🇦_CA_加拿大 #5'
   network: ws
   port: 80
   server: 104.18.15.148
@@ -410,7 +412,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,7,11,13,17|🇳🇱_NL_荷兰->🇩🇪_DE_德国 #15'
+  name: '0,3,4,6,7,11,13,17|🇳🇱_NL_荷兰->🇩🇪_DE_德国 #17'
   network: ws
   port: 80
   server: 188.114.96.11
@@ -893,21 +895,8 @@ proxies:
       host: a.prapt5.ir
     path: /?ed=2048
 - alterId: 0
-  cipher: chacha20-poly1305
-  name: 6|🇺🇸_US_美国->🇫🇮_FI_芬兰
-  network: ws
-  port: 2052
-  server: 104.18.131.101
-  tls: false
-  type: vmess
-  uuid: c9f3615c-2e5c-462c-a9cc-f772b3084a24
-  ws-opts:
-    headers:
-      Host: cdn4.iran-mehr14.ir
-    path: /QuCOYu3CLHTbK2Z5DnDtIYiuDZo
-- alterId: 0
   cipher: auto
-  name: '7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #40'
+  name: '7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #65'
   network: ws
   port: 80
   server: 155.248.186.182
@@ -920,7 +909,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #34'
+  name: '7,13|🇯🇵_JP_日本->🇩🇪_DE_德国 #53'
   network: ws
   port: 80
   server: 150.230.205.56
