@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e0a43719-1dda-4a65-a0d9-f50988ef6f0b
+  uuid: 8a2597bd-3b14-4301-88f1-b1027b8bd7e4
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e0a43719-1dda-4a65-a0d9-f50988ef6f0b
+  uuid: 8a2597bd-3b14-4301-88f1-b1027b8bd7e4
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,7 +28,35 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: e0a43719-1dda-4a65-a0d9-f50988ef6f0b
+  uuid: 8a2597bd-3b14-4301-88f1-b1027b8bd7e4
+- alterId: 0
+  cipher: auto
+  name: '11,13|日本 #1'
+  network: ws
+  port: '80'
+  server: 141.147.178.135
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
+  ws-opts:
+    headers:
+      Host: kr03.36routes.online
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|日本东京 Oracle云计算数据中心
+  network: ws
+  port: '80'
+  server: 158.101.146.160
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ac2deae9-e7de-4056-be59-eaeea6deeb24
+  ws-opts:
+    headers:
+      Host: kr01.travisdependable.online
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|日本
@@ -56,20 +84,6 @@ proxies:
   ws-opts:
     headers:
       Host: jp04.36routes.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|日本 #1'
-  network: ws
-  port: '80'
-  server: 141.147.178.135
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  ws-opts:
-    headers:
-      Host: kr03.36routes.online
     path: /
 - alterId: 0
   cipher: auto
