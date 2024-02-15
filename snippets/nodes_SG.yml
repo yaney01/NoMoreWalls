@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bb1eba-e2dd-4c08-a106-10df0d2471a3
+  uuid: 5d5c28f3-c244-4ea5-878b-d199510e7aa0
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bb1eba-e2dd-4c08-a106-10df0d2471a3
+  uuid: 5d5c28f3-c244-4ea5-878b-d199510e7aa0
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bb1eba-e2dd-4c08-a106-10df0d2471a3
+  uuid: 5d5c28f3-c244-4ea5-878b-d199510e7aa0
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.105...
@@ -42,20 +42,6 @@ proxies:
   ws-opts:
     headers:
       Host: m.instagram.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡
-  network: ws
-  port: '80'
-  server: 8.219.124.227
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  ws-opts:
-    headers:
-      Host: kr03.36routes.online
     path: /
 - alterId: 0
   cipher: auto
@@ -73,48 +59,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '13|新加坡 #1'
-  network: ws
-  port: '80'
-  server: 8.219.199.220
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac2deae9-e7de-4056-be59-eaeea6deeb24
-  ws-opts:
-    headers:
-      Host: kr01.travisdependable.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|新加坡 #2'
-  network: ws
-  port: '80'
-  server: 8.222.159.252
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac2deae9-e7de-4056-be59-eaeea6deeb24
-  ws-opts:
-    headers:
-      Host: kr01.travisdependable.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|新加坡 #3'
-  network: ws
-  port: '80'
-  server: 8.219.220.88
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  ws-opts:
-    headers:
-      Host: kr03.36routes.online
-    path: /
-- alterId: 0
-  cipher: auto
   name: 13|🔒 VM-WS-NA 🇸🇬 SG-146.190.108.2...
   network: ws
   port: '47134'
@@ -127,62 +71,6 @@ proxies:
     headers:
       Host: Imo.im
     path: /ONHIT
-- alterId: 0
-  cipher: auto
-  name: '13|新加坡 #4'
-  network: ws
-  port: '80'
-  server: 8.222.215.228
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  ws-opts:
-    headers:
-      Host: kr03.36routes.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|新加坡 #5'
-  network: ws
-  port: '80'
-  server: 8.222.249.190
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  ws-opts:
-    headers:
-      Host: kr03.36routes.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|新加坡 #6'
-  network: ws
-  port: '80'
-  server: 8.222.150.197
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  ws-opts:
-    headers:
-      Host: kr03.36routes.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|新加坡 #7'
-  network: ws
-  port: '80'
-  server: 8.222.202.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  ws-opts:
-    headers:
-      Host: kr03.36routes.online
-    path: /
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG

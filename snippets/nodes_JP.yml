@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bb1eba-e2dd-4c08-a106-10df0d2471a3
+  uuid: 5d5c28f3-c244-4ea5-878b-d199510e7aa0
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bb1eba-e2dd-4c08-a106-10df0d2471a3
+  uuid: 5d5c28f3-c244-4ea5-878b-d199510e7aa0
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,10 +28,10 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a2bb1eba-e2dd-4c08-a106-10df0d2471a3
+  uuid: 5d5c28f3-c244-4ea5-878b-d199510e7aa0
 - alterId: 0
   cipher: auto
-  name: '11,13|日本 #1'
+  name: 11|日本东京 Oracle Cloud
   network: ws
   port: '80'
   server: 141.147.178.135
@@ -59,7 +59,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|日本
+  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-152.69.197.6...
+  network: tcp
+  port: '1069'
+  server: 152.69.197.60
+  tls: false
+  type: vmess
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+- alterId: 0
+  cipher: auto
+  name: '13|日本 #1'
   network: ws
   port: '80'
   server: 155.248.176.28
@@ -73,160 +82,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|JP-64.176.45.34-1006
-  network: ws
-  port: 80
-  server: jp04.36routes.online
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  ws-opts:
-    headers:
-      Host: jp04.36routes.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|日本 #2'
-  network: ws
-  port: '80'
-  server: 47.245.26.167
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac2deae9-e7de-4056-be59-eaeea6deeb24
-  ws-opts:
-    headers:
-      Host: kr01.travisdependable.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|日本 #3'
-  network: ws
-  port: '80'
-  server: 155.248.176.28
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac2deae9-e7de-4056-be59-eaeea6deeb24
-  ws-opts:
-    headers:
-      Host: kr01.travisdependable.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|日本 #4'
-  network: ws
-  port: '80'
-  server: 131.186.63.127
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  ws-opts:
-    headers:
-      Host: kr03.36routes.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|日本 #5'
-  network: ws
-  port: '80'
-  server: 47.245.7.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  ws-opts:
-    headers:
-      Host: kr03.36routes.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|日本 #6'
-  network: ws
-  port: '80'
-  server: 150.230.201.63
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  ws-opts:
-    headers:
-      Host: kr03.36routes.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|日本 #7'
-  network: ws
-  port: '80'
-  server: 47.91.31.231
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  ws-opts:
-    headers:
-      Host: kr03.36routes.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|日本 #8'
-  network: ws
-  port: '80'
-  server: 47.245.58.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac2deae9-e7de-4056-be59-eaeea6deeb24
-  ws-opts:
-    headers:
-      Host: kr01.travisdependable.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|日本 #9'
-  network: ws
-  port: '80'
-  server: 138.2.6.15
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  ws-opts:
-    headers:
-      Host: kr03.36routes.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|日本 #10'
-  network: ws
-  port: '80'
-  server: 47.91.19.249
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac2deae9-e7de-4056-be59-eaeea6deeb24
-  ws-opts:
-    headers:
-      Host: kr01.travisdependable.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|日本 #11'
-  network: ws
-  port: '80'
-  server: 141.147.181.148
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  ws-opts:
-    headers:
-      Host: kr03.36routes.online
-    path: /
-- alterId: 0
-  cipher: auto
   name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
   network: tcp
   port: '14935'
@@ -235,34 +90,6 @@ proxies:
   tls: false
   type: vmess
   uuid: e961894f-8e90-472f-98d3-09402e4be453
-- alterId: 0
-  cipher: auto
-  name: '13|日本 #12'
-  network: ws
-  port: '80'
-  server: 155.248.186.182
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  ws-opts:
-    headers:
-      Host: kr03.36routes.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|日本 #13'
-  network: ws
-  port: '80'
-  server: 47.74.11.219
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac2deae9-e7de-4056-be59-eaeea6deeb24
-  ws-opts:
-    headers:
-      Host: kr01.travisdependable.online
-    path: /
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
