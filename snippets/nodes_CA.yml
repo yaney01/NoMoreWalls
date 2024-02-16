@@ -1,16 +1,7 @@
 proxies:
-- name: 1|_CA_
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 15.223.142.94
-  skip-cert-verify: true
-  sni: trojan.miwan.co.uk
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
-  name: '7,13|🇨🇦_CA_加拿大 #1'
+  name: '0,3,4,7,13|🇨🇦_CA_加拿大 #3'
   network: ws
   port: 80
   server: tg-dns68.shift.cloudns.org
@@ -23,6 +14,29 @@ proxies:
     path: /TG@dns68
 - alterId: 0
   cipher: auto
+  name: 1|_CA__1
+  network: ws
+  port: 80
+  server: tg-dns68.shift.cloudns.org
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 54133fe6-4578-48bc-ffb0-183ad760bd85
+  ws-opts:
+    headers:
+      host: tg-dns68.shift.cloudns.org
+    path: /TG@dns68
+- name: 1|_CA__2
+  network: tcp
+  password: telegram-id-directvpn
+  port: 22222
+  server: 15.157.8.36
+  skip-cert-verify: true
+  sni: trojan.miwan.co.uk
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
   name: 10|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -30,7 +44,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f68ac888-013d-4406-90aa-93758a7c23ec
+  uuid: 9b71aa63-a4d6-4db2-83a0-6bfbe7117837
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇨🇦 CA-159.203.6.14...

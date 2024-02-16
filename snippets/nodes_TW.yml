@@ -53,10 +53,11 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇹🇼 台湾|@ripaojiedian
+  name: 15,16|台湾|@ripaojiedian
   network: ws
-  port: 2052
+  port: '2052'
   server: cfcdn1.sanfencdn9.com
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -66,3 +67,13 @@ proxies:
     headers:
       Host: tw1bQiWSE4x.fzbqfrse.xyz
     path: /video/GQ2qE5Us9g
+- alterId: 0
+  cipher: auto
+  name: '16|台北|@ripaojiedian #1'
+  network: tcp
+  port: '15109'
+  server: shdx.pmxu.link
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 88b3fe23-06ef-3ac4-a6e2-65380ed8c034

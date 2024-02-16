@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f68ac888-013d-4406-90aa-93758a7c23ec
+  uuid: 9b71aa63-a4d6-4db2-83a0-6bfbe7117837
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f68ac888-013d-4406-90aa-93758a7c23ec
+  uuid: 9b71aa63-a4d6-4db2-83a0-6bfbe7117837
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,35 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f68ac888-013d-4406-90aa-93758a7c23ec
-- alterId: 0
-  cipher: auto
-  name: 11|日本东京 Oracle Cloud
-  network: ws
-  port: '80'
-  server: 141.147.178.135
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  ws-opts:
-    headers:
-      Host: kr03.36routes.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|日本东京 Oracle云计算数据中心
-  network: ws
-  port: '80'
-  server: 158.101.146.160
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ac2deae9-e7de-4056-be59-eaeea6deeb24
-  ws-opts:
-    headers:
-      Host: kr01.travisdependable.online
-    path: /
+  uuid: 9b71aa63-a4d6-4db2-83a0-6bfbe7117837
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇯🇵 JP-152.69.197.6...
@@ -212,17 +184,3 @@ proxies:
   server: 3.0.180.111
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|日本4|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 104.233.161.235
-  servername: www.18049067.xyz
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.18049067.xyz
-    path: /path/340323081726
