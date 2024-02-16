@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 95afc9b8-e05c-4e14-8473-e7380915aaa5
+  uuid: 2c62a97f-6cab-4aee-a95a-02d44c70f282
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 95afc9b8-e05c-4e14-8473-e7380915aaa5
+  uuid: 2c62a97f-6cab-4aee-a95a-02d44c70f282
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,49 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 95afc9b8-e05c-4e14-8473-e7380915aaa5
-- alterId: 0
-  cipher: auto
-  name: 13|Relay_🇸🇬 SG-🇸🇬SG_843
-  network: ws
-  port: 80
-  server: sg01.36routes.online
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  ws-opts:
-    headers:
-      Host: sg01.36routes.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡【TG：@ccbaohe】定时更新节点订阅
-  network: ws
-  port: 80
-  server: sg03.36routes.online
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8cc73c7-a72f-4f85-aa53-975277f3292c
-  ws-opts:
-    headers:
-      Host: sg03.36routes.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.105...
-  network: ws
-  port: '11000'
-  server: 146.190.105.70
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aa817016-4e72-4450-ac10-5b07067ce00c
-  ws-opts:
-    headers:
-      Host: android.googleapis.com
-    path: /
+  uuid: 2c62a97f-6cab-4aee-a95a-02d44c70f282
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
