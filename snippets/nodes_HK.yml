@@ -1,31 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 13|BGP|香港03-Netflix|Disney+|HBO
-  network: tcp
-  port: 33255
-  server: wuhan.sy-isp.com
-  tls: false
-  type: vmess
-  uuid: c24aad53-1133-3363-b29d-4bf6cbcce86c
-- alterId: 0
-  cipher: auto
-  name: 13|BGP|香港02-Neflix|Disney+|HBO
-  network: tcp
-  port: 33254
-  server: wuhan.sy-isp.com
-  tls: false
-  type: vmess
-  uuid: c24aad53-1133-3363-b29d-4bf6cbcce86c
-- alterId: 0
-  cipher: auto
-  name: 13|BGP|香港01-Neflix|Disney+|HBO
-  network: tcp
-  port: 33253
-  server: wuhan.sy-isp.com
-  tls: false
-  type: vmess
-  uuid: c24aad53-1133-3363-b29d-4bf6cbcce86c
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -66,6 +39,23 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|香港2|@ripaojiedian
+  network: ws
+  port: '19979'
+  server: 101.89.154.94
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 941f470e-34e8-3bb0-9b1e-b2c0b4fdb212
+  ws-opts:
+    headers:
+      Host: cache-hk-2.cn-db.top
+    path: /db00
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
