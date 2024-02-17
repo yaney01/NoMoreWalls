@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9cb4f45e-05f6-429b-9920-dfa76848e117
+  uuid: 1cdc1587-07a8-4c3a-9763-ec35f72d1ace
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9cb4f45e-05f6-429b-9920-dfa76848e117
+  uuid: 1cdc1587-07a8-4c3a-9763-ec35f72d1ace
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9cb4f45e-05f6-429b-9920-dfa76848e117
+  uuid: 1cdc1587-07a8-4c3a-9763-ec35f72d1ace
 - alterId: 0
   cipher: auto
   name: 13|日本
@@ -89,19 +89,28 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
-  password: 5c7fdc82-f68c-4f4d-aeea-d693c86d3b5e
-  port: 21700
-  server: zf.quanstring.top
+  name: 15,16|日本3|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 3566ed4a-5103-4f3c-917d-a6e6e1315062
+  ws-opts:
+    headers:
+      Host: GWYp69Yujp2.yofnhkfc.xyz
+    path: /video/VDXcaM7r
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.0.180.111
+  server: 54.169.247.207
   tfo: false
   type: ss
