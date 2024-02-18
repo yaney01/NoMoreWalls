@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4382bc90-c0c0-43ca-9472-28945c04b31b
+  uuid: 2060a1ed-ad5d-4185-85b9-4c6b35817c3a
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4382bc90-c0c0-43ca-9472-28945c04b31b
+  uuid: 2060a1ed-ad5d-4185-85b9-4c6b35817c3a
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4382bc90-c0c0-43ca-9472-28945c04b31b
+  uuid: 2060a1ed-ad5d-4185-85b9-4c6b35817c3a
 - alterId: 0
   cipher: auto
   name: 11|日本东京 Oracle Cloud
@@ -45,9 +45,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11|日本东京 Oracle Cloud #1'
+  name: 11,13|日本 023
   network: ws
-  port: '80'
+  port: 80
   server: 138.2.6.15
   servername: ''
   tls: false
@@ -59,16 +59,16 @@ proxies:
     path: /
 - alterId: 1
   cipher: auto
-  name: 13|🇯🇵 [V2]日本IIJ-2 Premier
+  name: 13|🇯🇵 [V2]日本Ntt2 Premier/NF
   network: ws
-  port: 8443
-  server: iij.ddddns.xyz
+  port: 80
+  server: ntt3.ddddns.xyz
   tls: false
   type: vmess
   uuid: 21bb35ea-4e67-38c1-8d01-67fb2d64aa12
   ws-opts:
     headers:
-      Host: ablenet.cdn.e-v.vip
+      Host: ntt3.cdn.yihoney.com
     path: /download
 - alterId: 0
   cipher: auto
@@ -79,7 +79,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b062c341-04f5-490d-b4d2-f647df9e4594
+  uuid: 9b7e3d63-015d-43bf-88e3-0f4f9eaeef62
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -89,7 +89,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b062c341-04f5-490d-b4d2-f647df9e4594
+  uuid: 9b7e3d63-015d-43bf-88e3-0f4f9eaeef62
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -99,7 +99,15 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b062c341-04f5-490d-b4d2-f647df9e4594
+  uuid: 9b7e3d63-015d-43bf-88e3-0f4f9eaeef62
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本1|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 154.47.20.240
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -138,6 +146,6 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.169.247.207
+  server: 13.231.224.133
   tfo: false
   type: ss
