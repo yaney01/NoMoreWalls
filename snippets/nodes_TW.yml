@@ -1,23 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 7,16|台湾|@ripaojiedian
+  name: 13|⚡️@DeamNet 🇹🇼Taiwan 3
   network: tcp
-  port: '5681'
-  server: 118.167.66.25
+  port: 12002
+  server: nb22.ntbq.dynu.net
   servername: ''
   tls: false
   type: vmess
-  uuid: de9558f3-d11b-410e-ab27-26956dde256d
+  uuid: bbbf3acb-bfaa-4545-9d2c-dcac332b71ac
 - alterId: 0
   cipher: auto
-  name: '7|🇹🇼_TW_台湾 #1'
+  name: 13|21|TW-板桥2-3(TCP) - 麻雀加速器 Sparr...
   network: tcp
-  port: 3278
-  server: 118.167.81.140
+  port: 5681
+  server: b23.ntbq.dynu.net
+  servername: ''
   tls: false
   type: vmess
-  uuid: de9558f3-d11b-410e-ab27-26956dde256d
+  uuid: 814879ae-a670-4423-be9d-f4cbf4923ada
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇹🇼 台湾2|@ripaojiedian
@@ -26,3 +27,13 @@ proxies:
   server: service.ouluyun9803.com
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|台湾|@ripaojiedian
+  network: tcp
+  port: '5681'
+  server: 118.167.66.25
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: de9558f3-d11b-410e-ab27-26956dde256d
