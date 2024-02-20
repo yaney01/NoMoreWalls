@@ -1,6 +1,26 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 1,4|🇹🇼_TW_台湾
+  network: tcp
+  port: 3278
+  server: 118.167.69.188
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 49fd0bd0-cb02-4545-97f3-28e74acfc3b4
+- alterId: 0
+  cipher: auto
+  name: 11|台湾省南投县 中华电信
+  network: tcp
+  port: '14431'
+  server: 36.232.170.53
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 49fd0bd0-cb02-4545-97f3-28e74acfc3b4
+- alterId: 0
+  cipher: auto
   name: 13|⚡️@DeamNet 🇹🇼Taiwan 3
   network: tcp
   port: 12002
@@ -19,21 +39,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 814879ae-a670-4423-be9d-f4cbf4923ada
-- cipher: chacha20-ietf-poly1305
+- cipher: rc4-md5
   client-fingerprint: chrome
-  name: 15|🇹🇼 台湾2|@ripaojiedian
-  password: 2770a662-61db-40ed-a17c-783e521084ce
-  port: 20005
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|台湾|@ripaojiedian
-  network: tcp
-  port: '5681'
-  server: 118.167.66.25
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: de9558f3-d11b-410e-ab27-26956dde256d
+  name: 15|🇹🇼 台湾R|@ripaojiedian
+  obfs: tls1.2_ticket_auth
+  obfs-param: 8443f83013.www.gov.hk
+  password: di15PV
+  port: 6502
+  protocol: auth_aes128_md5
+  protocol-param: 83013:lrh5bO
+  server: mysql.accessconnect.cc
+  type: ssr
