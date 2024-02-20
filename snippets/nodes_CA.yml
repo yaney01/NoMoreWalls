@@ -8,7 +8,20 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 4c98fb65-351c-4aea-847f-cbd76af417f1
+  uuid: f1b36c07-0fbd-44c8-b2f5-8f71f355ce7f
+- alterId: 64
+  cipher: auto
+  name: 11|加拿大 Bell
+  network: ws
+  port: 443
+  server: 142.171.107.109
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.37477768.xyz
+    path: /path/271624282113
 - alterId: 0
   cipher: auto
   name: 13|加拿大 124
@@ -738,6 +751,20 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
+  name: 13|加拿大 071
+  network: ws
+  port: 80
+  server: 104.21.239.75
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt5.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
   name: 13|加拿大 183
   network: ws
   port: 80
@@ -829,4 +856,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8cf8f900-37ee-402d-b78e-74f3c5b6890d
+  uuid: 505f0a42-d204-4fe6-b201-a613a065a066
