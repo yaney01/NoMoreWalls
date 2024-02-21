@@ -8,20 +8,21 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: bbd0d649-a22e-4d20-ab49-446a2185521b
-- alterId: 64
+  uuid: 8af1920d-fb38-4a9b-b12a-b5dd03003a74
+- alterId: 0
   cipher: auto
-  name: 11|加拿大 Bell
+  name: 13|加拿大 011
   network: ws
-  port: 443
-  server: 142.171.107.109
-  tls: true
+  port: 2052
+  server: 104.21.30.249
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 284d74d8-4775-4144-bd7b-e27f310c99e5
   ws-opts:
     headers:
-      Host: www.37477768.xyz
-    path: /path/271624282113
+      Host: 237f1c11e3e9e373.Tiderace.gately.info
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
@@ -136,4 +137,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4feb676b-4d23-4e23-bdbf-15777b82a26c
+  uuid: c0661b74-5cfe-4dbd-9585-c24c02bdbe78

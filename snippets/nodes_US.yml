@@ -1,17 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,6,7,17|🇺🇸_US_美国 #15'
+  name: '0,7,13|🇺🇸_US_美国 #14'
   network: ws
   port: 8080
-  server: 104.17.123.55
+  server: www.velvetmountain.shop
   tls: false
   type: vmess
-  uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      Host: pq.kmoljklj.top
-    path: /qZTtpya?ed=2048
+      Host: www.velvetmountain.shop
+    path: /
 - alterId: 0
   cipher: auto
   name: 1|_US_
@@ -28,6 +28,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '3,6,7,11,17|🇺🇸_US_美国 #15'
+  network: ws
+  port: 8080
+  server: 104.17.123.55
+  tls: false
+  type: vmess
+  uuid: 1d47288a-699d-45ca-b4f0-4e5b36940e6f
+  ws-opts:
+    headers:
+      Host: pq.kmoljklj.top
+    path: /qZTtpya?ed=2048
+- alterId: 0
+  cipher: auto
   name: '4|🇺🇸_US_美国 #1'
   network: ws
   port: 80
@@ -41,7 +54,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 6,7,13|⏳4@oneclickvpnkeys
+  name: 6,7,11,13|⏳4@oneclickvpnkeys
   network: ws
   port: '8080'
   server: www.ywnouvbale.biz
@@ -94,11 +107,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 7,11,13|比利时 002
+  client-fingerprint: chrome
+  name: 7,13,15,16|德国|@ripaojiedian
   network: ws
-  port: 2052
+  port: '2052'
   server: be3-vmess.sshmax.xyz
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 81e08848-0baa-4712-9e9b-301b77d0627b
@@ -108,10 +124,11 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '7|🇺🇸_US_美国 #9'
+  name: 7,11|北美地区 v2rayfree.eu.org
   network: tcp
-  port: 8080
+  port: '8080'
   server: 23.137.248.47
+  servername: ''
   tls: false
   type: vmess
   uuid: c65dd227-86bb-5854-bdf7-54c9c16acdb2
@@ -130,19 +147,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '7,13|🇺🇸_US_美国 #14'
-  network: ws
-  port: 8080
-  server: www.velvetmountain.shop
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.velvetmountain.shop
-    path: /
-- alterId: 0
-  cipher: auto
   name: 10|🇺🇸美国04
   network: tcp
   port: '36501'
@@ -150,7 +154,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: bbd0d649-a22e-4d20-ab49-446a2185521b
+  uuid: 8af1920d-fb38-4a9b-b12a-b5dd03003a74
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -160,7 +164,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: bbd0d649-a22e-4d20-ab49-446a2185521b
+  uuid: 8af1920d-fb38-4a9b-b12a-b5dd03003a74
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -170,100 +174,49 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: bbd0d649-a22e-4d20-ab49-446a2185521b
-- alterId: 0
-  cipher: auto
-  name: 11,13|🇺🇸美国光速4
-  network: ws
-  port: '80'
-  server: 104.18.15.150
-  tls: false
-  type: vmess
-  uuid: 71476bd3-1655-4028-8dd0-254c8a0b7d65
-  ws-opts:
-    headers:
-      Host: us3.889611.com
-    path: /
+  uuid: 8af1920d-fb38-4a9b-b12a-b5dd03003a74
 - alterId: 64
   cipher: auto
   name: 11|美国 加利福尼亚州圣何塞PEG TECH
   network: ws
-  port: 37000
-  server: 142.4.96.50
+  port: '36000'
+  server: 142.4.97.71
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: www.72594139.xyz
+      Host: www.31033708.xyz
     path: /path/271624282113
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #2'
+  client-fingerprint: chrome
+  name: 11,15,16|日本3|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9a557d02-12ff-4da8-8669-1824cfdefe1f
+  ws-opts:
+    headers:
+      Host: GWYp69Yujp2.yofnhkfc.xyz
+    path: /video/VDXcaM7r
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #4'
   network: ws
   port: 80
-  server: 104.21.227.19
+  server: 104.21.225.115
   tls: false
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   ws-opts:
     headers:
       Host: a.prapt5.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #3'
-  network: ws
-  port: '8080'
-  server: www.velvetmountain.shop
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 11|美国 v2rayfree.eu.org
-  network: ws
-  port: 37000
-  server: 137.175.11.58
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.20234339.xyz
-    path: /path/271624282113
-- alterId: 0
-  cipher: auto
-  name: 11,13|加拿大 011
-  network: ws
-  port: 2052
-  server: 104.21.30.249
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 284d74d8-4775-4144-bd7b-e27f310c99e5
-  ws-opts:
-    headers:
-      Host: 237f1c11e3e9e373.Tiderace.gately.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,13|🇺🇸|US|美国|@wxgqlfx|635
-  network: ws
-  port: '2082'
-  server: s1c.v2.v001sss.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -332,6 +285,20 @@ proxies:
   ws-opts:
     headers:
       Host: server32.beheshtbaneh.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸|US|美国|@wxgqlfx|635
+  network: ws
+  port: '2082'
+  server: s1c.v2.v001sss.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
     path: /
 - alterId: 0
   cipher: auto
@@ -437,6 +404,19 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 13|🇺🇸美国光速4
+  network: ws
+  port: '80'
+  server: 104.18.15.150
+  tls: false
+  type: vmess
+  uuid: 71476bd3-1655-4028-8dd0-254c8a0b7d65
+  ws-opts:
+    headers:
+      Host: us3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】美国 04 | 1x US
   network: tcp
   port: '31501'
@@ -444,7 +424,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4feb676b-4d23-4e23-bdbf-15777b82a26c
+  uuid: c0661b74-5cfe-4dbd-9585-c24c02bdbe78
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -454,7 +434,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4feb676b-4d23-4e23-bdbf-15777b82a26c
+  uuid: c0661b74-5cfe-4dbd-9585-c24c02bdbe78
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -464,7 +444,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4feb676b-4d23-4e23-bdbf-15777b82a26c
+  uuid: c0661b74-5cfe-4dbd-9585-c24c02bdbe78
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -499,3 +479,45 @@ proxies:
     headers:
       Host: www.velvetmountain.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|美国1|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cloudflare.cfgo.cc
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff
+  ws-opts:
+    headers:
+      Host: wap.hostmjj.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇺🇸 美国3|@ripaojiedian
+  password: cfa17a0d-5e7d-4871-976e-f116e0818123
+  port: 20003
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|美国4|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: 198.41.204.209
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3069ecb6-dd75-4e24-a30d-ec55747d83a1
+  ws-opts:
+    headers:
+      Host: nest-emily-healing-h.trycloudflare.com
+    path: 3069ecb6-dd75-4e24-a30d-ec55747d83a1-vm
