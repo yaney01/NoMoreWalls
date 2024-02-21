@@ -1,14 +1,23 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '1,4,6|🇹🇼_TW_台湾 #1'
+  name: 6|🇹🇼_TW_台湾
   network: tcp
   port: 3278
   server: 118.167.69.188
-  skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 49fd0bd0-cb02-4545-97f3-28e74acfc3b4
+- alterId: 0
+  cipher: auto
+  name: 13|TW-台中1-2(TCP) - 麻雀加速器 Sparrow〖...
+  network: tcp
+  port: '14431'
+  server: c12.twtc.dynu.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 927d3649-6f6d-4111-a726-5fb16d5401bf
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇹🇼 台湾R|@ripaojiedian
