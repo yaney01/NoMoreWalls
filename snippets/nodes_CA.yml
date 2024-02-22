@@ -8,7 +8,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1efad3df-06a1-411f-8f73-3deb84c1df7d
+  uuid: e24a2bf1-1e0d-4398-88c2-17cc4918e491
 - alterId: 0
   cipher: auto
   name: 13|加拿大 323
@@ -63,10 +63,10 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai_8
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 204
+  name: '13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #226'
   network: ws
   port: 80
-  server: 104.21.225.183
+  server: 104.21.237.85
   servername: ''
   tls: false
   type: vmess
@@ -74,7 +74,7 @@ proxies:
   ws-opts:
     headers:
       Host: a.prapt5.ir
-    path: /
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 13|加拿大 026
@@ -342,6 +342,20 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
+  name: '13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #215'
+  network: ws
+  port: 80
+  server: 104.21.225.187
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
   name: 13|加拿大 094
   network: ws
   port: 80
@@ -461,4 +475,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 485a34b1-6e21-48a0-b887-c6ca6f293826
+  uuid: 472929e8-b70f-4391-b196-cc500703ead6
