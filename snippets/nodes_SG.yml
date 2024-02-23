@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ddf62ede-f076-456b-b91b-32b104346650
+  uuid: fa88c2ea-328c-40dd-919e-1bf550fc5975
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ddf62ede-f076-456b-b91b-32b104346650
+  uuid: fa88c2ea-328c-40dd-919e-1bf550fc5975
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,21 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ddf62ede-f076-456b-b91b-32b104346650
+  uuid: fa88c2ea-328c-40dd-919e-1bf550fc5975
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-146.190.99.16...
+  network: ws
+  port: '21023'
+  server: 146.190.99.160
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a1a4df73-536b-4e90-b346-f51956969a2a
+  ws-opts:
+    headers:
+      Host: m.instagram.com
+    path: /MOBITEL
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
@@ -38,7 +52,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6d0d8d38-03fd-4281-ada2-99aaf0566802
+  uuid: cb61428b-891b-4b58-9419-7a96d68ed3e0
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -48,7 +62,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6d0d8d38-03fd-4281-ada2-99aaf0566802
+  uuid: cb61428b-891b-4b58-9419-7a96d68ed3e0
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -58,7 +72,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6d0d8d38-03fd-4281-ada2-99aaf0566802
+  uuid: cb61428b-891b-4b58-9419-7a96d68ed3e0
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
