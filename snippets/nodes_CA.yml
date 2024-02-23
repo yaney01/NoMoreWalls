@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 7|🇨🇦_CA_加拿大
+  network: ws
+  port: 8080
+  server: 23.227.38.220
+  tls: false
+  type: vmess
+  uuid: e6b124d8-7a82-463d-b360-a3a3a19f7dc2
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: e6b124d8-7a82-463d-b360-a3a3a19f7dc2-vm
+- alterId: 0
+  cipher: auto
   name: 10|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -8,7 +21,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6304db94-edbf-4260-9307-7144b9a77efd
+  uuid: 82d5b126-fae4-46b1-956d-14fcba0343ad
 - alterId: 0
   cipher: auto
   name: 13|加拿大 019
@@ -140,4 +153,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d40bc8df-c64f-446f-962c-6e5f29ef347a
+  uuid: 86e427b2-4460-4a72-8fd5-aca83ac198c8
