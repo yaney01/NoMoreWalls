@@ -31,20 +31,6 @@ proxies:
   uuid: 21df831f-bd48-4f60-8f6c-80b54babba51
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇸🇬 SG-146.190.99.16...
-  network: ws
-  port: '21023'
-  server: 146.190.99.160
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a1a4df73-536b-4e90-b346-f51956969a2a
-  ws-opts:
-    headers:
-      Host: m.instagram.com
-    path: /MOBITEL
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -52,7 +38,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c57ff589-7fbd-4672-80c1-1a6b201dcf48
+  uuid: b8bc575e-bf5c-4348-97bf-d80294f5ce11
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -62,7 +48,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c57ff589-7fbd-4672-80c1-1a6b201dcf48
+  uuid: b8bc575e-bf5c-4348-97bf-d80294f5ce11
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -72,7 +58,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c57ff589-7fbd-4672-80c1-1a6b201dcf48
+  uuid: b8bc575e-bf5c-4348-97bf-d80294f5ce11
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
