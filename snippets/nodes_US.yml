@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,7|🇺🇸_US_美国 #11'
+  name: '0,3,4,7,17|🇺🇸_US_美国 #23'
   network: ws
   port: 8080
   server: 141.101.121.9
@@ -14,7 +14,7 @@ proxies:
     path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
 - alterId: 0
   cipher: auto
-  name: '0,7|🇺🇸_US_美国 #20'
+  name: '0,3,4,7,17|🇺🇸_US_美国 #22'
   network: ws
   port: 2082
   server: 104.18.202.250
@@ -30,32 +30,32 @@ proxies:
   name: 1|_US__1
   network: ws
   port: 8080
-  server: www.velvetmountain.xyz
+  server: 141.101.121.9
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: d26363ff-8810-4591-8b77-d2f45e2b9f41
   ws-opts:
     headers:
-      host: www.velvetmountain.xyz
-    path: /
+      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+    path: d26363ff-8810-4591-8b77-d2f45e2b9f41-vm
 - alterId: 0
   cipher: auto
   name: 1|_US__2
   network: ws
-  port: 8080
-  server: www.velvetmountain.shop
+  port: 2082
+  server: 104.18.202.250
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      host: www.velvetmountain.shop
-    path: /
+      host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
+    path: /nina.bond/linkvws
 - alterId: 0
   cipher: auto
-  name: '3,4,6,7,17|🇺🇸_US_美国 #22'
+  name: '6,7|🇺🇸_US_美国 #8'
   network: ws
   port: 8080
   server: www.velvetmountain.xyz
@@ -68,7 +68,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,4,6,17|🇺🇸_US_美国 #23'
+  name: '6|🇺🇸_US_美国 #5'
   network: ws
   port: 8080
   server: www.velvetmountain.shop
@@ -249,7 +249,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8aaef40d-9edf-460c-9ca8-96afa96d230a
+  uuid: c457bb78-9519-46b7-96bc-c55724b76b97
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -259,7 +259,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8aaef40d-9edf-460c-9ca8-96afa96d230a
+  uuid: c457bb78-9519-46b7-96bc-c55724b76b97
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -269,7 +269,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8aaef40d-9edf-460c-9ca8-96afa96d230a
+  uuid: c457bb78-9519-46b7-96bc-c55724b76b97
 - alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
@@ -3331,7 +3331,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cc074e72-2247-433a-8474-4a32d98895a4
+  uuid: df124544-8bb0-45ad-ae4d-d94355270f56
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -3341,7 +3341,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cc074e72-2247-433a-8474-4a32d98895a4
+  uuid: df124544-8bb0-45ad-ae4d-d94355270f56
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -3351,7 +3351,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cc074e72-2247-433a-8474-4a32d98895a4
+  uuid: df124544-8bb0-45ad-ae4d-d94355270f56
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
