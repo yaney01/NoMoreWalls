@@ -44,6 +44,23 @@ proxies:
   tls: false
   type: trojan
   uuid: 927d3649-6f6d-4111-a726-5fb16d5401bf
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|香港2|@ripaojiedian
+  network: ws
+  port: '16620'
+  server: m.cnmjcn.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c99074bd-bacd-48b5-9561-da069c481602
+  ws-opts:
+    headers:
+      Host: fe5be62428b65a2ce7a22d9997b4c9d0.mobgslb.tbcache.com
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港3|@ripaojiedian
