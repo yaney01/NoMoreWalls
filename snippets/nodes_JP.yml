@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b7b0702f-807c-4091-95bf-138b22787dc5
+  uuid: bd1186e2-cdb1-4c07-a981-209fb261358e
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b7b0702f-807c-4091-95bf-138b22787dc5
+  uuid: bd1186e2-cdb1-4c07-a981-209fb261358e
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,7 +28,20 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b7b0702f-807c-4091-95bf-138b22787dc5
+  uuid: bd1186e2-cdb1-4c07-a981-209fb261358e
+- alterId: 0
+  cipher: auto
+  name: 13|🇯🇵|JP|日本|@wxgqlfx|350
+  network: ws
+  port: 80
+  server: 150.230.197.156
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: my1.tooters.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
@@ -38,7 +51,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 25ba6201-edf4-4d4e-a914-bfb61e09f6c7
+  uuid: 31d61d73-896a-4026-a1ae-384fcec2f621
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -48,7 +61,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 25ba6201-edf4-4d4e-a914-bfb61e09f6c7
+  uuid: 31d61d73-896a-4026-a1ae-384fcec2f621
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -58,7 +71,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 25ba6201-edf4-4d4e-a914-bfb61e09f6c7
+  uuid: 31d61d73-896a-4026-a1ae-384fcec2f621
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
