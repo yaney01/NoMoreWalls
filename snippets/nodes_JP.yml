@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 59eab2a9-cce6-4e45-aca8-7aa39f5fdc2c
+  uuid: 44e58875-6ef7-40b7-8c5e-ee65f0240cd0
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 59eab2a9-cce6-4e45-aca8-7aa39f5fdc2c
+  uuid: 44e58875-6ef7-40b7-8c5e-ee65f0240cd0
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 59eab2a9-cce6-4e45-aca8-7aa39f5fdc2c
+  uuid: 44e58875-6ef7-40b7-8c5e-ee65f0240cd0
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
@@ -38,7 +38,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 762babc1-a747-42f8-b4df-1cf848b8017a
+  uuid: 57c15cc0-2774-49d9-a179-fee57be4bd4f
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -48,7 +48,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 762babc1-a747-42f8-b4df-1cf848b8017a
+  uuid: 57c15cc0-2774-49d9-a179-fee57be4bd4f
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -58,7 +58,24 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 762babc1-a747-42f8-b4df-1cf848b8017a
+  uuid: 57c15cc0-2774-49d9-a179-fee57be4bd4f
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|日本2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9c4723d9-29e7-4502-a021-7c79355cb7e1
+  ws-opts:
+    headers:
+      Host: agzbjszujp4.yofnhkfc.xyz
+    path: /video/ibCT6z55
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
