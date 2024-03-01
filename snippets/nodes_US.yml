@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,17|🇺🇸_US_美国 #46'
+  name: '0,3,4,6,17|🇺🇸_US_美国 #44'
   network: ws
   port: 80
   server: 172.67.217.144
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,11,13,17|🇺🇸_US_美国 #42'
+  name: '0,3,4,6,11,13,17|🇺🇸_US_美国 #40'
   network: ws
   port: 8080
   server: 104.21.54.252
@@ -29,7 +29,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: '0,3,4,6,7,15,17|🇺🇸_US_美国 #43'
+  name: '0,3,4,6,15,17|🇺🇸_US_美国 #41'
   network: ws
   port: 8080
   server: www.brightocean.lol
@@ -44,7 +44,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,13,17|🇺🇸_US_美国 #41'
+  name: '0,3,4,6,13,17|🇺🇸_US_美国 #39'
   network: ws
   port: 8080
   server: www.ywnouvbale.biz
@@ -58,7 +58,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,17|🇺🇸_US_美国 #40'
+  name: '0,3,4,6,17|🇺🇸_US_美国 #38'
   network: ws
   port: 8880
   server: cfcdn1.sanfencdn9.com
@@ -71,7 +71,7 @@ proxies:
     path: /video/bYdJ7Vc2We
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,17|🇺🇸_US_美国 #38'
+  name: '0,3,4,6,17|🇺🇸_US_美国 #36'
   network: ws
   port: 80
   server: 172.64.141.3
@@ -84,14 +84,10 @@ proxies:
     path: /xn--mes53ddysu0o3gl
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '0,3,4,6,7,15,16,17|🇺🇸_US_美国 #39'
+  name: '0,3,4,6,17|🇺🇸_US_美国 #37'
   network: ws
   port: 8080
   server: 162.159.130.208
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 53329cdb-8a9e-4ab9-8391-d3e628140c76
@@ -101,7 +97,7 @@ proxies:
     path: 53329cdb-8a9e-4ab9-8391-d3e628140c76-vm
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,17|🇺🇸_US_美国 #45'
+  name: '0,3,4,6,17|🇺🇸_US_美国 #43'
   network: ws
   port: 8080
   server: 172.67.136.12
@@ -114,7 +110,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,13,17|🇺🇸_US_美国 #44'
+  name: '0,3,4,6,13,17|🇺🇸_US_美国 #42'
   network: ws
   port: 8080
   server: www.velvetmountain.shop
@@ -288,6 +284,59 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: '7|🇺🇸_US_美国 #27'
+  network: ws
+  port: 2086
+  server: cfcdn1.sanfencdn9.com
+  tls: false
+  type: vmess
+  uuid: 9c4723d9-29e7-4502-a021-7c79355cb7e1
+  ws-opts:
+    headers:
+      Host: us77SmSk86j.fzbqfrse.xyz
+    path: /video/Z7qdcrAGRw
+- alterId: 0
+  cipher: auto
+  name: '7,11|美国 CloudFlare节点 #8'
+  network: ws
+  port: '2086'
+  server: 104.16.35.48
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c4723d9-29e7-4502-a021-7c79355cb7e1
+  ws-opts:
+    headers:
+      Host: us77SmSk86j.fzbqfrse.xyz
+    path: /video/Z7qdcrAGRw
+- alterId: 0
+  cipher: auto
+  name: '7|🇺🇸_US_美国 #29'
+  network: ws
+  port: 2086
+  server: 104.19.91.152
+  tls: false
+  type: vmess
+  uuid: 9c4723d9-29e7-4502-a021-7c79355cb7e1
+  ws-opts:
+    headers:
+      Host: us77SmSk86j.fzbqfrse.xyz
+    path: /video/Z7qdcrAGRw
+- alterId: 0
+  cipher: auto
+  name: '7|🇺🇸_US_美国 #30'
+  network: ws
+  port: 2095
+  server: 172.64.150.65
+  tls: false
+  type: vmess
+  uuid: bdede9d3-68c4-4bb1-8ad1-9a8eb07ff76f
+  ws-opts:
+    headers:
+      Host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
+- alterId: 0
+  cipher: auto
   name: 10|🇺🇸美国04
   network: tcp
   port: '36501'
@@ -295,7 +344,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d5a92bec-39b1-4ac0-b9e5-dbe7d718cebf
+  uuid: daf4b698-bbb1-4bad-b85e-19524efefe75
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -305,7 +354,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d5a92bec-39b1-4ac0-b9e5-dbe7d718cebf
+  uuid: daf4b698-bbb1-4bad-b85e-19524efefe75
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -315,10 +364,10 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d5a92bec-39b1-4ac0-b9e5-dbe7d718cebf
+  uuid: daf4b698-bbb1-4bad-b85e-19524efefe75
 - alterId: 0
   cipher: auto
-  name: '11,13|🇺🇸_US_美国->🇩🇪_DE_德国 #111'
+  name: '11,13|🇺🇸_US_美国->🇩🇪_DE_德国 #110'
   network: ws
   port: 80
   server: 104.21.224.2
@@ -400,20 +449,6 @@ proxies:
     headers:
       Host: my1.tooters.ir
     path: /
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #8'
-  network: ws
-  port: '2086'
-  server: 104.16.35.48
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9c4723d9-29e7-4502-a021-7c79355cb7e1
-  ws-opts:
-    headers:
-      Host: us77SmSk86j.fzbqfrse.xyz
-    path: /video/Z7qdcrAGRw
 - alterId: 0
   cipher: auto
   name: 11,12|github.com/freefq - 美国CloudFla...
@@ -889,7 +924,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai08
 - alterId: 0
   cipher: auto
-  name: '13|🇺🇸_US_美国 #34'
+  name: '13|🇺🇸_US_美国 #32'
   network: ws
   port: 80
   server: 104.21.239.77
@@ -1300,7 +1335,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: '13|🇺🇸_US_美国 #35'
+  name: '13|🇺🇸_US_美国 #33'
   network: ws
   port: 80
   server: 104.21.225.67
@@ -1569,7 +1604,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳 @WangCai_8
 - alterId: 0
   cipher: auto
-  name: '13|🇺🇸_US_美国 #36'
+  name: '13|🇺🇸_US_美国 #34'
   network: ws
   port: 80
   server: 172.67.254.150
@@ -2782,7 +2817,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 41d778a0-c646-499c-ae3a-d67a6989f2c8
+  uuid: 75343949-2d22-4a5d-8da9-05df256dcbb5
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -2792,7 +2827,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 41d778a0-c646-499c-ae3a-d67a6989f2c8
+  uuid: 75343949-2d22-4a5d-8da9-05df256dcbb5
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -2802,21 +2837,46 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 41d778a0-c646-499c-ae3a-d67a6989f2c8
+  uuid: 75343949-2d22-4a5d-8da9-05df256dcbb5
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇺🇸 美国|@ripaojiedian
+  password: cfa17a0d-5e7d-4871-976e-f116e0818123
+  port: 26669
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|美国|@ripaojiedian
+  name: 15,16|美国1|@ripaojiedian
   network: ws
-  port: '2086'
-  server: cfcdn1.sanfencdn9.com
+  port: '80'
+  server: lxcus.inekokkk.top
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 9c4723d9-29e7-4502-a021-7c79355cb7e1
+  uuid: 105cdff6-14d6-4f31-df69-d2d58c003c8b
   ws-opts:
     headers:
-      Host: us77SmSk86j.fzbqfrse.xyz
-    path: /video/Z7qdcrAGRw
+      Host: lxcus.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|美国2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 104.21.226.254
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt5.ir
+    path: /?ed=2048
