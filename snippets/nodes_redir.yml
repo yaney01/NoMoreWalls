@@ -28,11 +28,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,11,13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #82'
+  name: '0,3,4,6,7,13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #82'
   network: ws
   port: 80
   server: 104.21.69.44
-  servername: ''
   tls: false
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -68,7 +67,7 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,11,13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #85'
+  name: '0,3,4,6,13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #85'
   network: ws
   port: 80
   server: 104.20.231.30
