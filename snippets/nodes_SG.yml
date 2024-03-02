@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 90d1897d-ff4d-4be6-b6cb-b71af471d0d4
+  uuid: 6f968fdd-e264-4c7d-afa3-82f9545d77ae
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 90d1897d-ff4d-4be6-b6cb-b71af471d0d4
+  uuid: 6f968fdd-e264-4c7d-afa3-82f9545d77ae
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 90d1897d-ff4d-4be6-b6cb-b71af471d0d4
+  uuid: 6f968fdd-e264-4c7d-afa3-82f9545d77ae
 - alterId: 0
   cipher: auto
   name: 13|10M  新加坡
@@ -41,18 +41,18 @@ proxies:
   uuid: 1e1a3389-8ef6-411d-dc3c-17bee9fd19e7
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇸🇬 SG-146.190.97.16...
+  name: 13|新加坡 Amazon数据中心
   network: ws
-  port: '11255'
-  server: 146.190.97.161
+  port: '443'
+  server: hkcft01.xqc.best
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: 52c01d30-468e-4c06-c46e-1dd6782129c6
+  uuid: 10625ba4-c22a-4255-9ab3-894a896b8bde
   ws-opts:
     headers:
-      Host: imo.im
-    path: /
+      Host: d21rv6uz6osjkz.cloudfront.net
+    path: /stream
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
@@ -62,7 +62,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4e6ee1d8-f89d-4001-8f1f-ed54eb715f23
+  uuid: 3d4bb196-250e-4780-8430-c798932b1249
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -72,7 +72,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4e6ee1d8-f89d-4001-8f1f-ed54eb715f23
+  uuid: 3d4bb196-250e-4780-8430-c798932b1249
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -82,7 +82,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4e6ee1d8-f89d-4001-8f1f-ed54eb715f23
+  uuid: 3d4bb196-250e-4780-8430-c798932b1249
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡2|@ripaojiedian
