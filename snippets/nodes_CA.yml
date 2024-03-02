@@ -8,158 +8,17 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9461cc5d-8648-49d6-992c-75adc82b2abc
+  uuid: a929fec0-2bf1-48fd-8f91-2cf0675f68c5
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦|CA|加拿大|@wxgqlfx|31
-  network: ws
-  port: 8080
-  server: 23.227.39.12
-  tls: false
-  type: vmess
-  uuid: 4679e4ed-dec7-4dfe-b3dd-c0f13592a0c4
-  ws-opts:
-    headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 4679e4ed-dec7-4dfe-b3dd-c0f13592a0c4-vm
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 022
-  network: ws
-  port: 80
-  server: 104.21.226.128
+  name: 13|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
   servername: ''
   tls: false
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 023
-  network: ws
-  port: 80
-  server: 104.21.226.78
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|Channel id: @ShadowProxy66 🇨🇦'
-  network: ws
-  port: '443'
-  server: 172.67.168.34
-  servername: marien.motorcycles
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: marien.motorcycles
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦 加拿大 027
-  network: ws
-  port: '80'
-  server: 104.21.226.136
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦 加拿大 021
-  network: ws
-  port: '80'
-  server: 172.67.241.39
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt5.ir
-    path: /?ed=2048&Telegram🇨🇳
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大【TG：@ccbaohe】定时更新节点订阅 2
-  network: ws
-  port: 8080
-  server: 23.227.39.45
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 52899235-7faa-4f6f-b463-972cd7cfce04
-  ws-opts:
-    headers:
-      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
-    path: 52899235-7faa-4f6f-b463-972cd7cfce04-vm
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦加拿大4丨电报群@bp520
-  network: ws
-  port: '80'
-  server: 162.159.200.4
-  tls: false
-  type: vmess
-  uuid: 1ab87e92-660a-4fd7-b0ef-ee34675f1e17
-  ws-opts:
-    headers:
-      Host: ca3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦|CA|加拿大|@wxgqlfx|91
-  network: ws
-  port: 8080
-  server: 23.227.38.22
-  tls: false
-  type: vmess
-  uuid: eb6b425d-0a43-4f4b-998f-e83d1b7e0997
-  ws-opts:
-    headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: eb6b425d-0a43-4f4b-998f-e83d1b7e0997-vm
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 13,15,16|美国1|@ripaojiedian
-  network: ws
-  port: '80'
-  server: lxcus.inekokkk.top
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 105cdff6-14d6-4f31-df69-d2d58c003c8b
-  ws-opts:
-    headers:
-      Host: lxcus.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦加拿大5丨电报群@bp520
-  network: ws
-  port: '80'
-  server: 162.159.200.5
-  tls: false
-  type: vmess
-  uuid: 1ab87e92-660a-4fd7-b0ef-ee34675f1e17
-  ws-opts:
-    headers:
-      Host: ca3.889611.com
-    path: /
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 13|加拿大 036
@@ -176,23 +35,10 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦|CA|加拿大|@wxgqlfx|54
-  network: ws
-  port: 8080
-  server: 23.227.39.23
-  tls: false
-  type: vmess
-  uuid: e380bde6-f120-4b80-bdae-ea68b1b64504
-  ws-opts:
-    headers:
-      Host: configured-creek-relating-theater.trycloudflare.com
-    path: e380bde6-f120-4b80-bdae-ea68b1b64504-vm
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 028
+  name: 13|加拿大 023
   network: ws
   port: 80
-  server: 104.21.226.61
+  server: 104.21.226.78
   servername: ''
   tls: false
   type: vmess
@@ -203,18 +49,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|加拿大【TG：@ccbaohe】定时更新节点订阅
+  name: 13|加拿大 027
   network: ws
-  port: 8080
-  server: 23.227.39.24
+  port: 80
+  server: 104.21.226.136
   servername: ''
   tls: false
   type: vmess
-  uuid: eb6b425d-0a43-4f4b-998f-e83d1b7e0997
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   ws-opts:
     headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: eb6b425d-0a43-4f4b-998f-e83d1b7e0997-vm
+      Host: a.prapt5.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|加拿大 025
@@ -229,34 +75,6 @@ proxies:
     headers:
       Host: a.prapt5.ir
     path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 018
-  network: ws
-  port: 8080
-  server: 172.67.66.46
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
-  ws-opts:
-    headers:
-      Host: eu2.openxai.link
-    path: /?ed=2048
-- alterId: 1
-  cipher: auto
-  name: '13|Channel id: @ShadowProxy66 🇨🇦 #1'
-  network: ws
-  port: '443'
-  server: 172.67.179.37
-  servername: octavi.cfd
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: octavi.cfd
-    path: linkvws
 - alterId: 0
   cipher: auto
   name: 13|加拿大 024
@@ -287,10 +105,186 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦加拿大S丨电报群@bp520
+  name: 13|🇨🇦 加拿大 028
   network: ws
   port: '80'
-  server: 104.18.154.42
+  server: 104.21.226.61
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 026
+  network: ws
+  port: 80
+  server: 104.21.226.122
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 005
+  network: ws
+  port: '8080'
+  server: www.ywnouvbale.biz
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.ywnouvbale.biz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 022
+  network: ws
+  port: 80
+  server: 104.21.226.128
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦加拿大4丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.200.4
+  tls: false
+  type: vmess
+  uuid: 1ab87e92-660a-4fd7-b0ef-ee34675f1e17
+  ws-opts:
+    headers:
+      Host: ca3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 021
+  network: ws
+  port: 80
+  server: 172.67.241.39
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt5.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大【TG：@ccbaohe】定时更新节点订阅
+  network: ws
+  port: '8080'
+  server: 23.227.38.44
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 52899235-7faa-4f6f-b463-972cd7cfce04
+  ws-opts:
+    headers:
+      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
+    path: 52899235-7faa-4f6f-b463-972cd7cfce04-vm
+- alterId: 1
+  cipher: auto
+  name: '13|Channel id: @ShadowProxy66 🇨🇦'
+  network: ws
+  port: '443'
+  server: 172.67.131.150
+  servername: oliv.beauty
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: oliv.beauty
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦加拿大6丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.200.6
+  tls: false
+  type: vmess
+  uuid: 1ab87e92-660a-4fd7-b0ef-ee34675f1e17
+  ws-opts:
+    headers:
+      Host: ca3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇨🇦 CA-23.26.239.147...
+  network: ws
+  port: '46768'
+  server: 23.26.239.147
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1362cc37-0917-4e40-dce4-c689609d9e82
+  ws-opts:
+    headers:
+      Host: 23.26.239.147
+    path: /
+- alterId: 1
+  cipher: auto
+  name: '13|Channel id: @ShadowProxy66 🇨🇦 #1'
+  network: ws
+  port: '443'
+  server: 172.67.179.37
+  servername: octavi.cfd
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: octavi.cfd
+    path: linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦加拿大2丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 104.18.15.148
+  tls: false
+  type: vmess
+  uuid: 1ab87e92-660a-4fd7-b0ef-ee34675f1e17
+  ws-opts:
+    headers:
+      Host: ca3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 041
+  network: ws
+  port: '80'
+  server: 104.21.226.251
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt5.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦加拿大5丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.200.5
   tls: false
   type: vmess
   uuid: 1ab87e92-660a-4fd7-b0ef-ee34675f1e17
@@ -311,68 +305,6 @@ proxies:
     headers:
       Host: ca3.visaapp.top
     path: /
-- alterId: 1
-  cipher: auto
-  name: '13|Channel id: @ShadowProxy66 🇨🇦 #2'
-  network: ws
-  port: '443'
-  server: 172.67.131.150
-  servername: oliv.beauty
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: oliv.beauty
-    path: linkvws
-- alterId: 0
-  cipher: auto
-  name: '13|Channel id: @ShadowProxy66 🇨🇦 #3'
-  network: tcp
-  port: '3389'
-  server: 142.93.144.99
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大【TG：@ccbaohe】定时更新节点订阅 4
-  network: ws
-  port: 8080
-  server: 23.227.38.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4679e4ed-dec7-4dfe-b3dd-c0f13592a0c4
-  ws-opts:
-    headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 4679e4ed-dec7-4dfe-b3dd-c0f13592a0c4-vm
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 026
-  network: ws
-  port: 80
-  server: 104.21.226.122
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt5.ir
-    path: /
 - alterId: 0
   cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
@@ -382,4 +314,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b8201bf4-665c-45a4-a6cf-bcf828724033
+  uuid: cd156f44-fc96-46c7-9cee-e7596207dddf
