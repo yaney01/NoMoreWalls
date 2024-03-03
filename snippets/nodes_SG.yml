@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a23d2825-73f1-4cac-a629-2c8be66180f9
+  uuid: 320de50e-b603-42a0-9401-49577d0f53b6
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a23d2825-73f1-4cac-a629-2c8be66180f9
+  uuid: 320de50e-b603-42a0-9401-49577d0f53b6
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a23d2825-73f1-4cac-a629-2c8be66180f9
+  uuid: 320de50e-b603-42a0-9401-49577d0f53b6
 - alterId: 0
   cipher: auto
   name: 13|10M  新加坡
@@ -41,20 +41,6 @@ proxies:
   uuid: 1e1a3389-8ef6-411d-dc3c-17bee9fd19e7
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 Amazon数据中心
-  network: ws
-  port: '443'
-  server: hkcft01.xqc.best
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 10625ba4-c22a-4255-9ab3-894a896b8bde
-  ws-opts:
-    headers:
-      Host: d21rv6uz6osjkz.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -62,7 +48,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1fcdeb35-1f7f-4835-9d15-cb63b1a6b904
+  uuid: 68f19e0b-bb04-45a1-a73e-d5630c87cfe5
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -72,7 +58,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1fcdeb35-1f7f-4835-9d15-cb63b1a6b904
+  uuid: 68f19e0b-bb04-45a1-a73e-d5630c87cfe5
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -82,7 +68,24 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1fcdeb35-1f7f-4835-9d15-cb63b1a6b904
+  uuid: 68f19e0b-bb04-45a1-a73e-d5630c87cfe5
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|新加坡|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 17c82b45-dff0-47bb-9e0c-07ef07f67005
+  ws-opts:
+    headers:
+      Host: rpmlybgzsg2.yofnhkfc.xyz
+    path: /video/3YKfzGw4
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡2|@ripaojiedian
@@ -96,6 +99,6 @@ proxies:
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 47.129.47.132
+  server: 52.79.137.45
   tfo: false
   type: ss

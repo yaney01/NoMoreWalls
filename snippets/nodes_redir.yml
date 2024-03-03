@@ -14,14 +14,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 0,15,16|美国5|@ripaojiedian
+  name: '0,7|🇺🇸_US_美国 #1'
   network: ws
-  port: '8080'
+  port: 8080
   server: fbi.gov
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: d137d31c-5e9d-4cb2-8f7b-b171fc63e2aa
@@ -44,7 +40,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,17|🇦🇪_AE_阿联酋->🇬🇧_GB_英国 #4'
+  name: '0,3,4,6,7,13,17|🇦🇪_AE_阿联酋->🇬🇧_GB_英国 #4'
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -134,4 +130,83 @@ proxies:
   ws-opts:
     headers:
       host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 7,11|美国 CloudFlare节点
+  network: ws
+  port: 8080
+  server: yh1.freeh1.xyz
+  tls: false
+  type: vmess
+  uuid: 5818310a-92ee-40cd-8303-0dc1396aadda
+  ws-opts:
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+    path: 5818310a-92ee-40cd-8303-0dc1396aadda-vm
+- alterId: 0
+  cipher: auto
+  name: 7|🇨🇦_CA_加拿大->🇺🇸_US_美国
+  network: ws
+  port: 8080
+  server: 23.227.39.45
+  tls: false
+  type: vmess
+  uuid: 52899235-7faa-4f6f-b463-972cd7cfce04
+  ws-opts:
+    headers:
+      Host: widescreen-instruction-breakdown-postage.trycloudflare.com
+    path: 52899235-7faa-4f6f-b463-972cd7cfce04-vm
+- alterId: 0
+  cipher: auto
+  name: '7|🇨🇦_CA_加拿大->🇺🇸_US_美国 #1'
+  network: ws
+  port: 8080
+  server: 23.227.39.23
+  tls: false
+  type: vmess
+  uuid: e380bde6-f120-4b80-bdae-ea68b1b64504
+  ws-opts:
+    headers:
+      Host: configured-creek-relating-theater.trycloudflare.com
+    path: e380bde6-f120-4b80-bdae-ea68b1b64504-vm
+- alterId: 0
+  cipher: auto
+  name: '7|🇨🇦_CA_加拿大->🇺🇸_US_美国 #2'
+  network: ws
+  port: 8080
+  server: 23.227.38.11
+  tls: false
+  type: vmess
+  uuid: e380bde6-f120-4b80-bdae-ea68b1b64504
+  ws-opts:
+    headers:
+      Host: configured-creek-relating-theater.trycloudflare.com
+    path: e380bde6-f120-4b80-bdae-ea68b1b64504-vm
+- alterId: 0
+  cipher: auto
+  name: '7|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
+  network: ws
+  port: 8080
+  server: 104.16.149.244
+  tls: false
+  type: vmess
+  uuid: d137d31c-5e9d-4cb2-8f7b-b171fc63e2aa
+  ws-opts:
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+    path: d137d31c-5e9d-4cb2-8f7b-b171fc63e2aa-vm
+- alterId: 0
+  cipher: auto
+  name: 13|🇫🇷_FR_法国->🇬🇧_GB_英国
+  network: ws
+  port: 8880
+  server: 57.128.173.202
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: ''
     path: /
