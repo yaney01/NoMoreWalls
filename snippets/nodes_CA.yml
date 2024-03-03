@@ -8,7 +8,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 320de50e-b603-42a0-9401-49577d0f53b6
+  uuid: 8daabcd1-ab4d-4cb7-8d8f-baed0b97bf70
 - alterId: 0
   cipher: auto
   name: 13|加拿大 024
@@ -78,20 +78,6 @@ proxies:
     headers:
       Host: eu3.openxai.link
     path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 042
-  network: ws
-  port: 8080
-  server: 104.21.46.66
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.ywnouvbale.biz
-    path: /
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
@@ -347,4 +333,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 68f19e0b-bb04-45a1-a73e-d5630c87cfe5
+  uuid: 8b1d2a18-cba4-4465-87e2-32e10cc04598
