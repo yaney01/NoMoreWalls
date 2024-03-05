@@ -8,7 +8,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d30135ac-f35b-4ce9-96ea-bf08b1e41570
+  uuid: e4ea8bc4-6314-4642-9352-47b8ab6e67bf
 - alterId: 0
   cipher: auto
   name: 13|🇨🇦 加拿大 073
@@ -22,6 +22,19 @@ proxies:
     headers:
       Host: de2.xv2ray.net
     path: /vmess
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 023
+  network: ws
+  port: '80'
+  server: 104.21.226.78
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt5.ir
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|🇨🇦|CA|加拿大|@wxgqlfx|17
@@ -237,4 +250,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3e9c3cbc-cf56-4364-be3c-518757ea2e26
+  uuid: 1f8ae733-038c-49b5-9091-b5b52b292561
