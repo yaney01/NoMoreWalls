@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,4,7|🇺🇸_US_美国 #7'
+  name: '0,3,4,7,17|🇺🇸_US_美国 #8'
   network: ws
   port: 8080
   server: yh2.dtku41.xyz
@@ -28,7 +28,7 @@ proxies:
     path: 80b48bc6-1faa-41f5-91f8-0bce015a8bea-vm
 - alterId: 0
   cipher: auto
-  name: '6,17|🇺🇸_US_美国 #12'
+  name: '6|🇺🇸_US_美国 #2'
   network: ws
   port: 443
   server: cold-dawn-9246.fly.dev
@@ -39,7 +39,7 @@ proxies:
     path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
 - alterId: 0
   cipher: auto
-  name: '6,17|🇺🇸_US_美国 #10'
+  name: '6|🇺🇸_US_美国 #3'
   network: ws
   port: 19344
   server: 165.1.79.252
@@ -52,7 +52,7 @@ proxies:
     path: /ac9dd407
 - alterId: 0
   cipher: auto
-  name: '6,17|🇺🇸_US_美国 #8'
+  name: '6|🇺🇸_US_美国 #4'
   network: ws
   port: 8880
   server: cfcdn1.sanfencdn9.com
@@ -65,7 +65,7 @@ proxies:
     path: /video/bYdJ7Vc2We
 - alterId: 0
   cipher: auto
-  name: '6,17|🇺🇸_US_美国 #9'
+  name: '6|🇺🇸_US_美国 #5'
   network: ws
   port: 8880
   server: 104.18.36.174
@@ -78,7 +78,7 @@ proxies:
     path: /video/bYdJ7Vc2We
 - alterId: 0
   cipher: auto
-  name: '6,13,17|🇺🇸_US_美国 #11'
+  name: 6,13|加拿大 061
   network: ws
   port: 80
   server: 104.20.30.205
@@ -99,7 +99,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a771cb18-e82e-42b9-be00-127725431892
+  uuid: e5a72f2e-cf7e-42be-8e39-399da3b17248
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -109,7 +109,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a771cb18-e82e-42b9-be00-127725431892
+  uuid: e5a72f2e-cf7e-42be-8e39-399da3b17248
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -119,7 +119,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a771cb18-e82e-42b9-be00-127725431892
+  uuid: e5a72f2e-cf7e-42be-8e39-399da3b17248
 - alterId: 0
   cipher: auto
   name: 11,13|加拿大 023
@@ -612,7 +612,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5156dc0e-668b-426a-8f4f-15bd84b7efb2
+  uuid: 19cd3ea4-8c18-4698-ad71-42ab2200dc76
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -622,7 +622,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5156dc0e-668b-426a-8f4f-15bd84b7efb2
+  uuid: 19cd3ea4-8c18-4698-ad71-42ab2200dc76
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -632,7 +632,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5156dc0e-668b-426a-8f4f-15bd84b7efb2
+  uuid: 19cd3ea4-8c18-4698-ad71-42ab2200dc76
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
