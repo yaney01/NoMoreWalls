@@ -8,34 +8,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a4c33a0b-6712-4a3e-bfb0-9500c90d45bd
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦 加拿大 025
-  network: ws
-  port: '80'
-  server: 104.21.226.100
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 009
-  network: ws
-  port: 2052
-  server: onea.flha.ru
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
+  uuid: c4991ab1-a8a2-45e7-b287-223134af6ecc
 - alterId: 0
   cipher: auto
   name: 13|🇨🇦 加拿大 041
@@ -48,57 +21,6 @@ proxies:
   ws-opts:
     headers:
       Host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦 加拿大 024
-  network: ws
-  port: '80'
-  server: 104.21.226.43
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt5.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇨🇦 CA-142.93.144.9...
-  network: tcp
-  port: '3389'
-  server: 142.93.144.99
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 007
-  network: ws
-  port: 8080
-  server: 172.67.66.46
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c
-  ws-opts:
-    headers:
-      Host: eu2.openxai.link
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 006
-  network: ws
-  port: 8080
-  server: 104.21.54.252
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.velvetmountain.shop
     path: /
 - alterId: 0
   cipher: auto
@@ -115,45 +37,68 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦 加拿大 021
+  name: 13|加拿大 011
   network: ws
-  port: '80'
-  server: 172.67.241.39
-  tls: false
+  port: 443
+  server: 104.20.39.186
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
   ws-opts:
     headers:
-      Host: a.prapt5.ir
-    path: /?ed=2048&Telegram🇨🇳
+      Host: vmess.taxar71054.workers.dev
+    path: /ivideos.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 001
+  name: 13|🇨🇦 加拿大 014
   network: ws
-  port: 2082
-  server: 104.18.202.250
-  servername: ''
-  tls: false
+  port: '443'
+  server: 104.16.216.241
+  tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-    path: /nina.bond/linkvws
+      Host: nelly.homes
+    path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 010
+  name: 13|加拿大【TG：@ccbaohe】定时更新节点订阅
+  network: tcp
+  port: 443
+  server: 216.128.184.239
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0e0f8e06-3ae6-4889-9bf8-6d744b57369f
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 006
   network: ws
-  port: 2052
-  server: 172.67.214.33
+  port: 8080
+  server: 104.21.54.252
   servername: ''
   tls: false
   type: vmess
-  uuid: 89d8ef31-ade9-4aca-8fbc-1edbba6cda16
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      Host: onea.flha.ru
+      Host: www.velvetmountain.shop
     path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 016
+  network: ws
+  port: '443'
+  server: 104.16.217.241
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: nelly.homes
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
@@ -163,4 +108,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a96203c6-920c-4a2f-a253-b7726f07c650
+  uuid: 4baea7f9-5b6f-45ca-ba6b-861c4c8543de
