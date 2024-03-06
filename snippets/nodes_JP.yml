@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 49bfb340-819a-4c96-8806-807864d69ebe
+  uuid: 40a72be9-8aa7-41fb-b1a6-1ce800e700d4
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 49bfb340-819a-4c96-8806-807864d69ebe
+  uuid: 40a72be9-8aa7-41fb-b1a6-1ce800e700d4
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,7 +28,27 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 49bfb340-819a-4c96-8806-807864d69ebe
+  uuid: 40a72be9-8aa7-41fb-b1a6-1ce800e700d4
+- alterId: 0
+  cipher: auto
+  name: 11|日本 东京Choopa数据中心
+  network: tcp
+  port: 443
+  server: 202.182.109.96
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0e0f8e06-3ae6-4889-9bf8-6d744b57369f
+- alterId: 0
+  cipher: auto
+  name: 11,13|日本 004
+  network: tcp
+  port: 443
+  server: 45.32.44.202
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 0e0f8e06-3ae6-4889-9bf8-6d744b57369f
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
@@ -41,16 +61,6 @@ proxies:
   uuid: e961894f-8e90-472f-98d3-09402e4be453
 - alterId: 0
   cipher: auto
-  name: 13|日本 004
-  network: tcp
-  port: 443
-  server: 45.32.44.202
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 0e0f8e06-3ae6-4889-9bf8-6d744b57369f
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
   network: tcp
   port: '31116'
@@ -58,7 +68,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bb065a68-6785-4276-88f9-26f7906e30a8
+  uuid: c6a5dd95-a8c1-4ba8-b94a-6ade224bf373
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -68,7 +78,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bb065a68-6785-4276-88f9-26f7906e30a8
+  uuid: c6a5dd95-a8c1-4ba8-b94a-6ade224bf373
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -78,7 +88,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bb065a68-6785-4276-88f9-26f7906e30a8
+  uuid: c6a5dd95-a8c1-4ba8-b94a-6ade224bf373
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
