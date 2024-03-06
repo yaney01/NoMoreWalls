@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f904ece9-eefc-455c-8074-9388f3bc4a0d
+  uuid: 5294b1b1-bb16-43fb-ab6b-1374e9a257ea
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f904ece9-eefc-455c-8074-9388f3bc4a0d
+  uuid: 5294b1b1-bb16-43fb-ab6b-1374e9a257ea
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,23 +28,23 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f904ece9-eefc-455c-8074-9388f3bc4a0d
+  uuid: 5294b1b1-bb16-43fb-ab6b-1374e9a257ea
 - alterId: 0
   cipher: auto
-  name: 13|日本【TG：@ccbaohe】定时更新节点订阅 9
+  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
+  network: tcp
+  port: '14935'
+  server: 167.179.111.237
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e961894f-8e90-472f-98d3-09402e4be453
+- alterId: 0
+  cipher: auto
+  name: 13|日本 004
   network: tcp
   port: 443
   server: 45.32.44.202
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 0e0f8e06-3ae6-4889-9bf8-6d744b57369f
-- alterId: 0
-  cipher: auto
-  name: 13|日本【TG：@ccbaohe】定时更新节点订阅 8
-  network: tcp
-  port: 443
-  server: 202.182.109.96
   servername: ''
   tls: true
   type: vmess
@@ -58,7 +58,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2ec02c18-f57f-4e02-9c63-53a9ba2cc95d
+  uuid: a723b1ae-3ac7-478e-84ca-d5a1bc984b4e
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -68,7 +68,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2ec02c18-f57f-4e02-9c63-53a9ba2cc95d
+  uuid: a723b1ae-3ac7-478e-84ca-d5a1bc984b4e
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -78,7 +78,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2ec02c18-f57f-4e02-9c63-53a9ba2cc95d
+  uuid: a723b1ae-3ac7-478e-84ca-d5a1bc984b4e
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian

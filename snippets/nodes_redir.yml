@@ -66,7 +66,7 @@ proxies:
     path: e9d23b60-6e44-45a2-b24f-c8521c04c310-vm
 - alterId: 0
   cipher: auto
-  name: '0,4,6|🇺🇸_US_美国->🇩🇪_DE_德国 #2'
+  name: 0,4,6,13|关注电报https://t.me/aifenxiang202...
   network: ws
   port: 8080
   server: de-01.cloudlion.me
@@ -92,11 +92,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,13,17|🇨🇦_CA_加拿大->🇺🇸_US_美国 #19'
+  name: '0,3,4,6,7,17|🇨🇦_CA_加拿大->🇺🇸_US_美国 #19'
   network: ws
   port: 8080
   server: 23.227.38.11
-  servername: ''
   tls: false
   type: vmess
   uuid: 4a5ae806-ee72-473a-83b2-531808f454d5

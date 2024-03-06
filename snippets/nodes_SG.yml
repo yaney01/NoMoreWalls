@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f904ece9-eefc-455c-8074-9388f3bc4a0d
+  uuid: 5294b1b1-bb16-43fb-ab6b-1374e9a257ea
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f904ece9-eefc-455c-8074-9388f3bc4a0d
+  uuid: 5294b1b1-bb16-43fb-ab6b-1374e9a257ea
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,24 +28,10 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f904ece9-eefc-455c-8074-9388f3bc4a0d
+  uuid: 5294b1b1-bb16-43fb-ab6b-1374e9a257ea
 - alterId: 0
   cipher: auto
-  name: 13|🇸🇬|SG|新加坡|@wxgqlfx|21
-  network: ws
-  port: '80'
-  server: sg03.beautifulprimavera.online
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 064c67c0-ba22-4d94-96e8-be43245fd29b
-  ws-opts:
-    headers:
-      Host: sg03.beautifulprimavera.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡【TG：@ccbaohe】定时更新节点订阅 10
+  name: 13|新加坡 001
   network: tcp
   port: 443
   server: 66.42.55.85
@@ -62,7 +48,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2ec02c18-f57f-4e02-9c63-53a9ba2cc95d
+  uuid: a723b1ae-3ac7-478e-84ca-d5a1bc984b4e
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -72,7 +58,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2ec02c18-f57f-4e02-9c63-53a9ba2cc95d
+  uuid: a723b1ae-3ac7-478e-84ca-d5a1bc984b4e
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -82,7 +68,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2ec02c18-f57f-4e02-9c63-53a9ba2cc95d
+  uuid: a723b1ae-3ac7-478e-84ca-d5a1bc984b4e
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡2|@ripaojiedian
