@@ -14,14 +14,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: '0,3,4,6,7,15,16,17|🇺🇸_US_美国 #9'
+  name: '0,3,4,6,7,17|🇺🇸_US_美国 #9'
   network: ws
   port: 8080
   server: 162.159.130.208
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 33eb512b-8f3a-459b-b823-3cccb6e82049
@@ -93,7 +89,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 40a72be9-8aa7-41fb-b1a6-1ce800e700d4
+  uuid: a03b76bc-6e22-4d0b-91c9-8b4cad4e0033
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -103,7 +99,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 40a72be9-8aa7-41fb-b1a6-1ce800e700d4
+  uuid: a03b76bc-6e22-4d0b-91c9-8b4cad4e0033
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -113,7 +109,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 40a72be9-8aa7-41fb-b1a6-1ce800e700d4
+  uuid: a03b76bc-6e22-4d0b-91c9-8b4cad4e0033
 - alterId: 64
   cipher: auto
   name: 11|美国加利福尼亚州洛杉矶 PetaExpress
@@ -478,7 +474,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c6a5dd95-a8c1-4ba8-b94a-6ade224bf373
+  uuid: 0b923a93-9dc2-4a24-9c77-4b7e1aadd081
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -488,7 +484,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c6a5dd95-a8c1-4ba8-b94a-6ade224bf373
+  uuid: 0b923a93-9dc2-4a24-9c77-4b7e1aadd081
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -498,48 +494,4 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c6a5dd95-a8c1-4ba8-b94a-6ade224bf373
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: '15,16|美国2|@ripaojiedian #1'
-  network: ws
-  port: '80'
-  server: 16.namesilo123.top
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 6f7b474f-5d88-49f2-82a1-fb5abf3ec621
-  ws-opts:
-    headers:
-      Host: 10gus.sanfen002.top
-    path: /?ed
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|美国3|@ripaojiedian
-  network: ws
-  port: '2086'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5bfd0956-dfa6-4c63-a8a8-adbf6f9e8366
-  ws-opts:
-    headers:
-      Host: us77SmSk86j.fzbqfrse.xyz
-    path: /video/Z7qdcrAGRw
-- alterId: 0
-  cipher: auto
-  name: 16|美国|@ripaojiedian
-  network: tcp
-  port: '47104'
-  server: 8.222.187.115
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a6c4321a-83fb-490b-ecae-2a6340c55d9d
+  uuid: 0b923a93-9dc2-4a24-9c77-4b7e1aadd081
