@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 71fea5db-ed8e-4a55-91d2-0128af871cc6
+  uuid: 507952b0-9a0b-44c7-833d-ad3606539ef0
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 71fea5db-ed8e-4a55-91d2-0128af871cc6
+  uuid: 507952b0-9a0b-44c7-833d-ad3606539ef0
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,27 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 71fea5db-ed8e-4a55-91d2-0128af871cc6
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡 001
-  network: tcp
-  port: 443
-  server: 66.42.55.85
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 0e0f8e06-3ae6-4889-9bf8-6d744b57369f
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡【TG：@ccbaohe】定时更新节点订阅 9
-  network: tcp
-  port: 443
-  server: 45.77.42.160
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 0e0f8e06-3ae6-4889-9bf8-6d744b57369f
+  uuid: 507952b0-9a0b-44c7-833d-ad3606539ef0
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
@@ -58,7 +38,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f81053bc-9738-43ad-85d0-b715634e39a3
+  uuid: ad269f09-a368-45ff-96a7-4118dd96769f
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -68,7 +48,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f81053bc-9738-43ad-85d0-b715634e39a3
+  uuid: ad269f09-a368-45ff-96a7-4118dd96769f
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -78,7 +58,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f81053bc-9738-43ad-85d0-b715634e39a3
+  uuid: ad269f09-a368-45ff-96a7-4118dd96769f
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡2|@ripaojiedian
@@ -87,23 +67,6 @@ proxies:
   server: ddns.olucloud.subapi.cc
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|新加坡3|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5bfd0956-dfa6-4c63-a8a8-adbf6f9e8366
-  ws-opts:
-    headers:
-      Host: 7nAi74jJsg1.yofnhkfc.xyz
-    path: /video/c9efxRCi
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
