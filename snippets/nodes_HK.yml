@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 13|[vmess]🇭🇰 HK | 香港 LB
-  network: ws
-  port: '443'
-  server: hkcft01.xqc.best
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: d51c0c55-1393-4826-ad5c-727c26fbfa38
-  ws-opts:
-    headers:
-      Host: d26d41lxntyhp6.cloudfront.net
-    path: /stream
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
