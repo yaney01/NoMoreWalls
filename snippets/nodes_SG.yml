@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9c7c37cf-6f51-4cbd-8917-27a0a042fe5e
+  uuid: d227abc4-dd8e-4228-9c9a-bd61cfed75c3
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9c7c37cf-6f51-4cbd-8917-27a0a042fe5e
+  uuid: d227abc4-dd8e-4228-9c9a-bd61cfed75c3
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9c7c37cf-6f51-4cbd-8917-27a0a042fe5e
+  uuid: d227abc4-dd8e-4228-9c9a-bd61cfed75c3
 - alterId: 0
   cipher: auto
   name: 13|新加坡 001
@@ -58,7 +58,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 416eab00-96a6-480d-9190-b43c334d3fdb
+  uuid: e3da5895-71cf-4d03-92e9-0dbb9bfd26c1
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -68,7 +68,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 416eab00-96a6-480d-9190-b43c334d3fdb
+  uuid: e3da5895-71cf-4d03-92e9-0dbb9bfd26c1
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -78,7 +78,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 416eab00-96a6-480d-9190-b43c334d3fdb
+  uuid: e3da5895-71cf-4d03-92e9-0dbb9bfd26c1
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡2|@ripaojiedian
@@ -87,19 +87,28 @@ proxies:
   server: ddns.olucloud.subapi.cc
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡1|@ripaojiedian
-  password: 41f96983-1ab9-4634-a916-98ef1b557cb4
-  port: 35791
-  server: lsgy.lanxingyun.cn
+  name: 15,16|新加坡3|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 5bfd0956-dfa6-4c63-a8a8-adbf6f9e8366
+  ws-opts:
+    headers:
+      Host: 7nAi74jJsg1.yofnhkfc.xyz
+    path: /video/c9efxRCi
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 34.220.129.196
+  server: 18.179.45.200
   tfo: false
   type: ss
