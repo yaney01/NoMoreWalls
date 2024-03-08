@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2f78cef6-df47-4014-9259-1015f9da4df4
+  uuid: bc70d862-47ca-4280-800d-247a0e9e06af
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2f78cef6-df47-4014-9259-1015f9da4df4
+  uuid: bc70d862-47ca-4280-800d-247a0e9e06af
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2f78cef6-df47-4014-9259-1015f9da4df4
+  uuid: bc70d862-47ca-4280-800d-247a0e9e06af
 - alterId: 2
   cipher: auto
   name: '13|日本1-v2ray #1'
@@ -76,7 +76,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e146fc82-13f7-4617-b758-e64bb5ce4c3d
+  uuid: d0b53101-1221-4097-8f12-9d9303a2172d
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -86,7 +86,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e146fc82-13f7-4617-b758-e64bb5ce4c3d
+  uuid: d0b53101-1221-4097-8f12-9d9303a2172d
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -96,7 +96,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e146fc82-13f7-4617-b758-e64bb5ce4c3d
+  uuid: d0b53101-1221-4097-8f12-9d9303a2172d
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -105,35 +105,6 @@ proxies:
   server: jp01.jjjjjj.icu
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
-  password: cfa17a0d-5e7d-4871-976e-f116e0818123
-  port: 50005
-  server: ddns.olucloud.subapi.cc
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 54.150.241.170
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 15|🇯🇵 日本4|@ripaojiedian
-  network: ws
-  password: mikuu404
-  port: 23331
-  server: 52.194.205.71
-  skip-cert-verify: false
-  sni: bing.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: bing.com
-    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
