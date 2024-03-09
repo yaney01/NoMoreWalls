@@ -78,7 +78,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1b4b923c-f07d-41db-b575-ce42bcac53f5
+  uuid: 5101ed5e-5296-464c-81e5-98bf100817bc
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -88,7 +88,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1b4b923c-f07d-41db-b575-ce42bcac53f5
+  uuid: 5101ed5e-5296-464c-81e5-98bf100817bc
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -98,7 +98,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1b4b923c-f07d-41db-b575-ce42bcac53f5
+  uuid: 5101ed5e-5296-464c-81e5-98bf100817bc
 - alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
@@ -838,12 +838,41 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- alterId: 64
+  cipher: auto
+  name: 13|美国 065
+  network: ws
+  port: 38100
+  server: 38.14.107.236
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.23179753.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 13|美国 051
+  network: ws
+  port: 37000
+  server: 38.14.120.229
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.65825524.xyz
+    path: /path/153428133302
 - alterId: 0
   cipher: auto
-  name: 13|🇺🇸 美国 050
+  name: 13|美国 050
   network: ws
-  port: '2053'
+  port: 2053
   server: 47.76.80.72
+  servername: cfhk.393930.xyz
   tls: true
   type: vmess
   uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
@@ -853,31 +882,31 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '13|Channel id: @ShadowProxy66 🇺🇸'
+  name: 13|🇺🇸 美国 045
   network: ws
-  port: '443'
-  server: 172.67.158.126
-  servername: nelly.homes
-  tls: true
+  port: '80'
+  server: 151.101.193.57
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
   ws-opts:
     headers:
-      Host: nelly.homes
-    path: /linkvws
-- alterId: 64
+      Host: nmsl.kp
+    path: /aries?ed=2048
+- alterId: 0
   cipher: auto
-  name: 13|🇺🇸 美国 032
+  name: 13|🔒 VM-WS-TLS 🇺🇸 US-172.67.198.1...
   network: ws
-  port: '38100'
-  server: 38.14.107.234
+  port: '8443'
+  server: 172.67.198.13
+  servername: by.funhub.cc
   tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: b33155f0-7429-4f1c-97c4-a9ba24a3b1cf
   ws-opts:
     headers:
-      Host: www.23179753.xyz
-    path: /path/153428133302
+      Host: by.funhub.cc
+    path: /by
 - alterId: 64
   cipher: auto
   name: 13|🔒 VM-WS-TLS 🇺🇸 US-38.14.107.23...
@@ -894,59 +923,28 @@ proxies:
     path: /path/153428133302
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-TLS 🇺🇸 US-172.67.198.1...
+  name: '13|Channel id: @ShadowProxy66 🇺🇸'
   network: ws
-  port: '8443'
-  server: 172.67.198.13
-  servername: by.funhub.cc
+  port: '443'
+  server: 172.67.158.126
+  servername: nelly.homes
   tls: true
   type: vmess
-  uuid: b33155f0-7429-4f1c-97c4-a9ba24a3b1cf
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: by.funhub.cc
-    path: /by
+      Host: nelly.homes
+    path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '13|美国 CloudFlare节点 #48'
-  network: ws
-  port: '8080'
-  server: 104.21.54.252
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-51.81.210.17...
+  network: tcp
+  port: '12350'
+  server: 51.81.210.176
   servername: ''
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.velvetmountain.shop
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 13|🇺🇸 美国 065
-  network: ws
-  port: '38100'
-  server: 38.14.107.236
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.23179753.xyz
-    path: /path/153428133302
-- alterId: 0
-  cipher: auto
-  name: 13|美国(1) 6
-  network: ws
-  port: 8080
-  server: www.ywnouvbale.biz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.ywnouvbale.biz
-    path: /
+  uuid: fe7ad68e-6770-49b3-b0a8-40e694125662
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇺🇸 US-38.75.137.27...
@@ -959,28 +957,17 @@ proxies:
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 13|美国(1) 2
+  name: 13|🇺🇸 美国 CloudFlare节点
   network: ws
-  port: 8080
-  server: www.velvetmountain.shop
-  servername: ''
+  port: '80'
+  server: us65.netfilx.live
   tls: false
   type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  uuid: 60f12435-bb55-4da2-cb7d-4fea34ecfa37
   ws-opts:
     headers:
-      Host: www.velvetmountain.shop
+      Host: us65.netfilx.live
     path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-51.81.210.17...
-  network: tcp
-  port: '12350'
-  server: 51.81.210.176
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fe7ad68e-6770-49b3-b0a8-40e694125662
 - alterId: 1
   cipher: auto
   name: '13|Channel id: @ShadowProxy66 🇺🇸 #1'
@@ -997,10 +984,11 @@ proxies:
     path: linkvws
 - alterId: 0
   cipher: auto
-  name: 13|🇺🇸 美国 013
+  name: 13|美国 013
   network: ws
-  port: '443'
+  port: 443
   server: 172.67.196.110
+  servername: ''
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -1008,33 +996,34 @@ proxies:
     headers:
       Host: kellie.makeup
     path: /linkvws
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 13|🇺🇸 美国 CloudFlare节点
+  name: 13|美国 032
   network: ws
-  port: '8080'
-  server: 104.21.46.66
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.ywnouvbale.biz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-TLS 🇺🇸 US-172.67.166.3...
-  network: ws
-  port: 443
-  server: 172.67.166.31
-  servername: inna.cfd
+  port: 38100
+  server: 38.14.107.234
+  servername: ''
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
     headers:
-      Host: inna.cfd
-    path: /linkvws
+      Host: www.23179753.xyz
+    path: /path/153428133302
+- alterId: 64
+  cipher: auto
+  name: 13|美国 038
+  network: ws
+  port: 37000
+  server: 38.14.120.227
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.65825524.xyz
+    path: /path/153428133302
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 04 | 1x US
@@ -1044,7 +1033,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3bb81fd2-5e59-4775-b9a6-3c58cc215ab6
+  uuid: 2190b18d-edb0-4507-93b1-a7210ecd9c07
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -1054,7 +1043,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3bb81fd2-5e59-4775-b9a6-3c58cc215ab6
+  uuid: 2190b18d-edb0-4507-93b1-a7210ecd9c07
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -1064,7 +1053,20 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3bb81fd2-5e59-4775-b9a6-3c58cc215ab6
+  uuid: 2190b18d-edb0-4507-93b1-a7210ecd9c07
+- client-fingerprint: chrome
+  name: 15|🇺🇸 美国|@ripaojiedian
+  network: ws
+  password: mikuu404
+  port: 23331
+  server: 136.175.176.25
+  skip-cert-verify: false
+  sni: bing.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: bing.com
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1082,3 +1084,37 @@ proxies:
     headers:
       Host: a.prapt4.ir
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|美国3|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6ad77d6b-7a45-4ed3-b65d-1c3ec0226603
+  ws-opts:
+    headers:
+      Host: us1cPZiz8nb.fzbqfrse.xyz
+    path: /video/6VBhAkCtV4/
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|美国4|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 104.21.226.13
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
