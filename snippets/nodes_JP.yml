@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f2e58c7f-bfec-4508-8c01-a5406db6626c
+  uuid: 6a367617-aa44-4b59-9592-d2f1ee34e375
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f2e58c7f-bfec-4508-8c01-a5406db6626c
+  uuid: 6a367617-aa44-4b59-9592-d2f1ee34e375
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,7 +28,17 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f2e58c7f-bfec-4508-8c01-a5406db6626c
+  uuid: 6a367617-aa44-4b59-9592-d2f1ee34e375
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
+  network: tcp
+  port: '14935'
+  server: 167.179.111.237
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e961894f-8e90-472f-98d3-09402e4be453
 - alterId: 64
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇯🇵 JP-138.2.44.211...
@@ -41,16 +51,6 @@ proxies:
   uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
-  network: tcp
-  port: '14935'
-  server: 167.179.111.237
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e961894f-8e90-472f-98d3-09402e4be453
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
   network: tcp
   port: '31116'
@@ -58,7 +58,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e9610e7a-e945-4959-87a6-caf3a92ff38a
+  uuid: 352ad220-e74e-457c-8eb7-a779bdb1ada5
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -68,7 +68,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e9610e7a-e945-4959-87a6-caf3a92ff38a
+  uuid: 352ad220-e74e-457c-8eb7-a779bdb1ada5
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -78,7 +78,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e9610e7a-e945-4959-87a6-caf3a92ff38a
+  uuid: 352ad220-e74e-457c-8eb7-a779bdb1ada5
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
