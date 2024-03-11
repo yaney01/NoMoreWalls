@@ -1,61 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,17|🇺🇸_US_美国->🇩🇪_DE_德国 #7'
-  network: ws
-  port: 8080
-  server: 172.67.169.158
-  tls: false
-  type: vmess
-  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
-  ws-opts:
-    headers:
-      Host: fr-01.cloudlion.me
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,3,4,6,7,11,13,17|🇦🇪_AE_阿联酋->🇬🇧_GB_英国 #5'
-  network: ws
-  port: 8880
-  server: 94.140.0.110
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
-  ws-opts:
-    headers:
-      Host: food.zhaal.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,3,4,6,7,17|🇺🇸_US_美国->🇫🇷_FR_法国 #4'
-  network: ws
-  port: 2082
-  server: 172.67.130.140
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '0,3,4,6,7,13,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #4'
-  network: ws
-  port: 8080
-  server: yh2.freeh1.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
-  ws-opts:
-    headers:
-      Host: pcs-referenced-camera-concerns.trycloudflare.com
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
-- alterId: 0
-  cipher: auto
-  name: '0,3,4,6,7,13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #8'
+  name: '0,3,4,6,7,13,17|🇺🇸_US_美国->🇩🇪_DE_德国 #7'
   network: ws
   port: 8080
   server: de-01.cloudlion.me
@@ -66,6 +12,88 @@ proxies:
     headers:
       Host: de-01.cloudlion.me
     path: /
+- alterId: 0
+  cipher: auto
+  name: '0,3,4,6,7,13,17|🇦🇪_AE_阿联酋->🇬🇧_GB_英国 #5'
+  network: ws
+  port: 8880
+  server: 94.140.0.110
+  tls: false
+  type: vmess
+  uuid: 0d1bf26a-ce97-4707-a270-7f4d2ae37334
+  ws-opts:
+    headers:
+      Host: food.zhaal.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 0,3|🇨🇦_CA_加拿大->🇺🇸_US_美国
+  network: ws
+  port: 8080
+  server: 23.227.38.22
+  tls: false
+  type: vmess
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- alterId: 0
+  cipher: auto
+  name: '0,3,13|美国 CloudFlare节点 #21'
+  network: ws
+  port: 8080
+  server: fbi.gov
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  ws-opts:
+    headers:
+      Host: bibliographic-sword-sequence-advertisers.trycloudflare.com
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+- alterId: 0
+  cipher: auto
+  name: '0,3,13|美国【TG：@ccbaohe】定时更新节点订阅 #5'
+  network: ws
+  port: '8080'
+  server: yh3.freeh1.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
+  ws-opts:
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+- alterId: 0
+  cipher: auto
+  name: '0,3,13|美国【TG：@ccbaohe】定时更新节点订阅 #1'
+  network: ws
+  port: '8080'
+  server: yh1.freeh1.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
+  ws-opts:
+    headers:
+      Host: larger-marketing-amounts-skin.trycloudflare.com
+    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+- alterId: 0
+  cipher: auto
+  name: '0,3,13|美国 CloudFlare节点 #23'
+  network: ws
+  port: '8080'
+  server: 162.159.1.33
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
   name: 1|_US_->_DE__1
@@ -159,3 +187,30 @@ proxies:
     headers:
       host: de-01.cloudlion.me
     path: /
+- alterId: 0
+  cipher: auto
+  name: '4,6,17|🇺🇸_US_美国->🇩🇪_DE_德国 #6'
+  network: ws
+  port: 8080
+  server: 172.67.169.158
+  tls: false
+  type: vmess
+  uuid: 70666776-4e9f-4350-b3f0-afaff6a70db0
+  ws-opts:
+    headers:
+      Host: fr-01.cloudlion.me
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '4,6,7,13,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7'
+  network: ws
+  port: 8080
+  server: yh2.freeh1.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
+  ws-opts:
+    headers:
+      Host: pcs-referenced-camera-concerns.trycloudflare.com
+    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
