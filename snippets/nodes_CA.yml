@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 0,3|🇨🇦_CA_加拿大
+  name: '0,3,4,7,17|🇨🇦_CA_加拿大 #3'
   network: ws
   port: 8080
   server: 23.227.38.23
@@ -14,6 +14,20 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
+  name: 1|_CA_
+  network: ws
+  port: 8080
+  server: 23.227.38.23
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  ws-opts:
+    headers:
+      host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+- alterId: 0
+  cipher: auto
   name: 10|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -21,7 +35,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1ab0289b-e80b-408f-92f0-ccba2ec312a4
+  uuid: ac01a882-3c58-409c-96f1-0e18080193dd
 - alterId: 0
   cipher: auto
   name: 13|🇨🇦 加拿大 022
@@ -294,4 +308,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 14c31436-4523-4a52-aef8-afde308f8408
+  uuid: ba8447d3-131c-495d-9d30-a9138c892ea5
