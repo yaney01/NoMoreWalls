@@ -1,18 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 13|香港 001
-  network: ws
-  port: 4431
-  server: 152.32.190.239
-  servername: cfhk.393930.xyz
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -57,13 +43,12 @@ proxies:
   type: vmess
   uuid: e80442e2-4577-4b33-8d9b-798d816974bd
 - alterId: 0
-  cipher: chacha20-poly1305
+  cipher: auto
   client-fingerprint: chrome
-  name: 15,16|香港2|@ripaojiedian
+  name: 15|🇭🇰 香港2|@ripaojiedian
   network: ws
-  port: '58080'
+  port: 58080
   server: 223.113.130.55
-  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -91,6 +76,20 @@ proxies:
   tls: false
   type: vmess
   uuid: e80442e2-4577-4b33-8d9b-798d816974bd
+- alterId: 0
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: ws
+  port: '16627'
+  server: vip.basicnode.host
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2ab54438-8af9-3711-bf1a-676fcc144586
+  ws-opts:
+    headers:
+      Host: 193.25.215.160
+    path: /niuniu
 - alterId: 0
   cipher: auto
   name: 16|香港3|@ripaojiedian
