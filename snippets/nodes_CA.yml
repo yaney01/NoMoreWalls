@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,1,3,4,6,7,17|🇨🇦_CA_加拿大 #4'
+  name: '0,1,3,4,6,7,17|🇨🇦_CA_加拿大 #6'
   network: http
   port: 3389
   server: 134.122.41.160
@@ -11,6 +11,33 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
+  name: '0,3,4|🇨🇦_CA_加拿大 #3'
+  network: ws
+  port: 8080
+  server: 23.227.39.24
+  tls: false
+  type: vmess
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- alterId: 0
+  cipher: auto
+  name: 1|_CA__2
+  network: ws
+  port: 8080
+  server: 23.227.39.24
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  ws-opts:
+    headers:
+      host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- alterId: 0
+  cipher: auto
   name: 10|🇨🇦加拿大04
   network: tcp
   port: '36701'
@@ -18,7 +45,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 000986dd-d0ff-412f-8a82-ddfc678081cc
+  uuid: 0f75fb20-bdc0-4043-b6f0-9de826983222
 - alterId: 0
   cipher: auto
   name: 13|🇨🇦 加拿大 027
@@ -230,19 +257,6 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦 加拿大 034
-  network: ws
-  port: '80'
-  server: 104.21.221.7
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: 13|加拿大 014
   network: ws
   port: 443
@@ -257,38 +271,10 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 026
-  network: ws
-  port: 80
-  server: 104.21.221.252
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: 13|加拿大 044
   network: ws
   port: 80
   server: 104.21.221.185
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 033
-  network: ws
-  port: 80
-  server: 104.21.221.16
   servername: ''
   tls: false
   type: vmess
@@ -347,4 +333,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 853d66a9-57e8-40d2-8f52-57d5a64686c6
+  uuid: 58456027-133f-4cd2-b9c2-4ecfeb5a6e31

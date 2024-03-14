@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 000986dd-d0ff-412f-8a82-ddfc678081cc
+  uuid: 0f75fb20-bdc0-4043-b6f0-9de826983222
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 000986dd-d0ff-412f-8a82-ddfc678081cc
+  uuid: 0f75fb20-bdc0-4043-b6f0-9de826983222
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 000986dd-d0ff-412f-8a82-ddfc678081cc
+  uuid: 0f75fb20-bdc0-4043-b6f0-9de826983222
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
@@ -38,7 +38,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 853d66a9-57e8-40d2-8f52-57d5a64686c6
+  uuid: 58456027-133f-4cd2-b9c2-4ecfeb5a6e31
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -48,7 +48,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 853d66a9-57e8-40d2-8f52-57d5a64686c6
+  uuid: 58456027-133f-4cd2-b9c2-4ecfeb5a6e31
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -58,32 +58,20 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 853d66a9-57e8-40d2-8f52-57d5a64686c6
+  uuid: 58456027-133f-4cd2-b9c2-4ecfeb5a6e31
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: fade2b35-7872-442e-a54e-6ccf9b970476
+  port: 44209
+  server: sg003.sfrae.net
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.79.151.56
+  server: 54.180.143.252
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|新加坡|@ripaojiedian
-  network: tcp
-  port: '50015'
-  server: 50015.baidu-cdn.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e80442e2-4577-4b33-8d9b-798d816974bd
-- alterId: 0
-  cipher: auto
-  name: 16|新加坡3|@ripaojiedian
-  network: tcp
-  port: '50014'
-  server: 50014.baidu-cdn.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e80442e2-4577-4b33-8d9b-798d816974bd
