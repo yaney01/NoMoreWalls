@@ -11,17 +11,17 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,17|🇨🇦_CA_加拿大 #9'
+  name: '0,3,7|🇨🇦_CA_加拿大 #7'
   network: ws
   port: 8080
-  server: 23.227.39.24
+  server: 23.227.38.23
   tls: false
   type: vmess
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
   ws-opts:
     headers:
-      Host: per-essex-patterns-bowling.trycloudflare.com
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+      Host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
   name: 1|_CA__2
@@ -38,17 +38,17 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '7|🇨🇦_CA_加拿大 #7'
+  name: '4,6,11,17|🇨🇦_CA_加拿大 #9'
   network: ws
   port: 8080
-  server: 23.227.38.23
+  server: 23.227.39.24
   tls: false
   type: vmess
-  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
   ws-opts:
     headers:
-      Host: uh-lawyers-instruments-kernel.trycloudflare.com
-    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
   name: 10|🇨🇦加拿大04
@@ -58,27 +58,13 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d346ed59-5d99-4b78-a9db-2b19686030f7
+  uuid: 1f0045ee-2f95-407f-b7b9-6b8515a96117
 - alterId: 0
   cipher: auto
   name: 13|加拿大 035
   network: ws
   port: 80
   server: 104.21.221.133
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 025
-  network: ws
-  port: 80
-  server: 104.21.221.207
   servername: ''
   tls: false
   type: vmess
@@ -102,10 +88,38 @@ proxies:
     path: /fws
 - alterId: 0
   cipher: auto
+  name: 13|加拿大 005
+  network: ws
+  port: 8080
+  server: 104.21.54.252
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+  ws-opts:
+    headers:
+      Host: www.velvetmountain.shop
+    path: /
+- alterId: 0
+  cipher: auto
   name: 13|加拿大 038
   network: ws
   port: 80
   server: 104.21.221.169
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 029
+  network: ws
+  port: 80
+  server: 104.21.221.247
   servername: ''
   tls: false
   type: vmess
@@ -296,6 +310,19 @@ proxies:
     path: /fws
 - alterId: 0
   cipher: auto
+  name: 13|🇨🇦 加拿大 039
+  network: ws
+  port: '80'
+  server: 104.21.221.137
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
   name: 13|加拿大 027
   network: ws
   port: 80
@@ -366,10 +393,10 @@ proxies:
     path: /D26xvdqUdCpvvPTz4R
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 037
+  name: 13|加拿大 032
   network: ws
   port: 80
-  server: 104.21.221.219
+  server: 104.21.221.200
   servername: ''
   tls: false
   type: vmess
@@ -422,20 +449,6 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 033
-  network: ws
-  port: 80
-  server: 104.21.221.16
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  ws-opts:
-    headers:
-      Host: a.prapt1.ir
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -443,4 +456,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bfc4b6e9-3132-467b-a394-c0dfe0641c7e
+  uuid: 3fcb3c45-1667-42f9-8ac5-fa0cc34d6cf7
