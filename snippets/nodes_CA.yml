@@ -11,7 +11,7 @@ proxies:
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
 - alterId: 0
   cipher: auto
-  name: '0,3,7|🇨🇦_CA_加拿大 #7'
+  name: '0,3,4,7,17|🇨🇦_CA_加拿大 #9'
   network: ws
   port: 8080
   server: 23.227.38.23
@@ -27,18 +27,18 @@ proxies:
   name: 1|_CA__2
   network: ws
   port: 8080
-  server: 23.227.39.24
+  server: 23.227.38.23
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
   ws-opts:
     headers:
-      host: per-essex-patterns-bowling.trycloudflare.com
-    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+      host: uh-lawyers-instruments-kernel.trycloudflare.com
+    path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: '4,6,11,17|🇨🇦_CA_加拿大 #9'
+  name: 6,11|美国 CloudFlare公司CDN节点(shopify)
   network: ws
   port: 8080
   server: 23.227.39.24
@@ -58,7 +58,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1f0045ee-2f95-407f-b7b9-6b8515a96117
+  uuid: 9844f62d-0592-4467-b7c9-1d6df8339abf
 - alterId: 0
   cipher: auto
   name: 13|加拿大 035
@@ -456,4 +456,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3fcb3c45-1667-42f9-8ac5-fa0cc34d6cf7
+  uuid: 4b589ec8-11a4-47a6-aea4-96fd2550c6b7
