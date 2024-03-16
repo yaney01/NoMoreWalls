@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d306f7de-d034-4d63-a1d4-4723c0db53e3
+  uuid: bed8386d-00b2-454e-85fd-ac7682da9eca
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d306f7de-d034-4d63-a1d4-4723c0db53e3
+  uuid: bed8386d-00b2-454e-85fd-ac7682da9eca
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: d306f7de-d034-4d63-a1d4-4723c0db53e3
+  uuid: bed8386d-00b2-454e-85fd-ac7682da9eca
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
@@ -38,7 +38,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c08a6826-cacc-45ea-ad66-173c75760f34
+  uuid: c2dec49a-a1ed-4c60-aaf4-c7ad5446405a
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -48,7 +48,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c08a6826-cacc-45ea-ad66-173c75760f34
+  uuid: c2dec49a-a1ed-4c60-aaf4-c7ad5446405a
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -58,21 +58,13 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c08a6826-cacc-45ea-ad66-173c75760f34
+  uuid: c2dec49a-a1ed-4c60-aaf4-c7ad5446405a
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
   password: 66f9f4e5-a88d-40b2-a1ae-6b750b71a8bb
   port: 30207
   server: jp01.jjjjjj.icu
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本1|@ripaojiedian
-  password: 6f932057-ffd9-4426-8ca7-f0654babf84f
-  port: 50005
-  server: ddns.olucloud.subapi.cc
   tfo: false
   type: ss
 - alterId: 0
@@ -92,11 +84,19 @@ proxies:
     headers:
       Host: data-jp-v1.usabooks.com.cn
     path: /debian
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: 6f932057-ffd9-4426-8ca7-f0654babf84f
+  port: 50005
+  server: ddns.olucloud.subapi.cc
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.213.29.217
+  server: 18.136.102.74
   tfo: false
   type: ss
