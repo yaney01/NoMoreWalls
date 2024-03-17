@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '0,7|🇺🇸_US_美国 #20'
+  name: '0,4,7|🇺🇸_US_美国 #18'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -57,70 +57,19 @@ proxies:
   cipher: auto
   name: 1|_US__1
   network: ws
-  port: 2082
-  server: 104.18.202.250
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      host: erfannewfreenodes.vdmmswyzmzigonvnjk443.workers.dev
-    path: /nina.bond/linkvws
-- name: 1|_US__2
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 3.17.106.39
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 1|_US__3
-  network: ws
   port: 8080
-  server: 162.159.130.208
+  server: yh3.freeh1.xyz
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45
+  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
   ws-opts:
     headers:
-      host: widescreen-instruction-breakdown-postage.trycloudflare.com
-    path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
+      host: larger-marketing-amounts-skin.trycloudflare.com
+    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  name: 1|_US__4
-  network: ws
-  port: 8080
-  server: 162.159.137.249
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  ws-opts:
-    headers:
-      host: nest-emily-healing-h.trycloudflare.com
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-- alterId: 0
-  cipher: auto
-  name: 1|_US__5
-  network: ws
-  port: 2095
-  server: 104.26.4.57
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
-  ws-opts:
-    headers:
-      host: ssrsub.v03.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 1|_US__6
+  name: 1|_US__2
   network: ws
   port: 2095
   server: russia.com
@@ -134,7 +83,21 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '3,4,6,17|🇺🇸_US_美国 #23'
+  name: 1|_US__3
+  network: ws
+  port: 2095
+  server: 104.26.4.57
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
+  ws-opts:
+    headers:
+      host: ssrsub.v03.ssrsub.com
+    path: /api/v3/download.getFile
+- alterId: 0
+  cipher: auto
+  name: '3,6,17|🇺🇸_US_美国 #21'
   network: ws
   port: 2082
   server: 104.18.202.250
@@ -147,7 +110,7 @@ proxies:
     path: /nina.bond/linkvws
 - alterId: 0
   cipher: auto
-  name: '3,4,6,7,17|🇺🇸_US_美国 #24'
+  name: '3,6,7,17|🇺🇸_US_美国 #22'
   network: ws
   port: 8080
   server: 162.159.130.208
@@ -160,7 +123,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '3,4,6,7,11,17|🇺🇸_US_美国 #25'
+  name: '3,6,7,11,17|🇺🇸_US_美国 #23'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -173,7 +136,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: '3,4,6,7,17|🇺🇸_US_美国 #26'
+  name: '3,4,6,7,17|🇺🇸_US_美国 #24'
   network: ws
   port: 2095
   server: 104.26.4.57
@@ -186,7 +149,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '3,4,6,7,17|🇺🇸_US_美国 #27'
+  name: '3,4,6,7,17|🇺🇸_US_美国 #25'
   network: ws
   port: 2095
   server: russia.com
@@ -212,7 +175,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '7|🇺🇸_US_美国 #21'
+  name: '7|🇺🇸_US_美国 #19'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -225,7 +188,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '7|🇺🇸_US_美国 #22'
+  name: '7|🇺🇸_US_美国 #20'
   network: ws
   port: 8080
   server: 162.159.134.23
@@ -245,7 +208,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 635c281d-02ab-4dcb-a110-584592da4b5b
+  uuid: 5b8199ad-63d1-41aa-b4b9-9e8e1633f8ad
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -255,7 +218,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 635c281d-02ab-4dcb-a110-584592da4b5b
+  uuid: 5b8199ad-63d1-41aa-b4b9-9e8e1633f8ad
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -265,7 +228,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 635c281d-02ab-4dcb-a110-584592da4b5b
+  uuid: 5b8199ad-63d1-41aa-b4b9-9e8e1633f8ad
 - alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
@@ -3124,7 +3087,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9596788f-c3c5-4862-b146-e2ffd5a31355
+  uuid: 539bf286-d0f8-4b46-8ca2-d7020dddd08a
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -3134,7 +3097,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9596788f-c3c5-4862-b146-e2ffd5a31355
+  uuid: 539bf286-d0f8-4b46-8ca2-d7020dddd08a
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -3144,4 +3107,4 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9596788f-c3c5-4862-b146-e2ffd5a31355
+  uuid: 539bf286-d0f8-4b46-8ca2-d7020dddd08a
