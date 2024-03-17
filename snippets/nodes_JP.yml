@@ -31,6 +31,20 @@ proxies:
   uuid: bed8386d-00b2-454e-85fd-ac7682da9eca
 - alterId: 0
   cipher: auto
+  name: 11|日本 东京Fastly节点
+  network: ws
+  port: '80'
+  server: fastly.alipay.ovh
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 66ccb11f-75a7-4282-8a60-31fed447401d
+  ws-opts:
+    headers:
+      Host: nmsl.kp
+    path: /aries?ed=2048
+- alterId: 0
+  cipher: auto
   name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
   network: tcp
   port: '14935'
@@ -48,7 +62,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d17ebd6f-30f5-475e-9d78-73d7c60bc979
+  uuid: c15ac06e-b198-4d63-86cb-f5a9b95f170e
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -58,7 +72,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d17ebd6f-30f5-475e-9d78-73d7c60bc979
+  uuid: c15ac06e-b198-4d63-86cb-f5a9b95f170e
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -68,7 +82,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d17ebd6f-30f5-475e-9d78-73d7c60bc979
+  uuid: c15ac06e-b198-4d63-86cb-f5a9b95f170e
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian

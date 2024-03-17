@@ -14,7 +14,7 @@ proxies:
     path: /nina.bond/linkvws
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,7,11,17|🇦🇪_AE_阿联酋->🇬🇧_GB_英国 #4'
+  name: '0,3,4,6,7,17|🇦🇪_AE_阿联酋->🇬🇧_GB_英国 #4'
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -27,7 +27,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '0,3,4,6,11,17|🇨🇦_CA_加拿大->🇺🇸_US_美国 #3'
+  name: '0,3,4,6,17|🇨🇦_CA_加拿大->🇺🇸_US_美国 #3'
   network: ws
   port: 8080
   server: 23.227.38.22
@@ -146,7 +146,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '7|🇺🇸_US_美国->🇨🇦_CA_加拿大 #1'
+  name: '7,11|美国 CloudFlare节点 #5'
   network: ws
   port: 8080
   server: yh1.freeh1.xyz
