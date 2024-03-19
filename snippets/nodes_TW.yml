@@ -7,3 +7,43 @@ proxies:
   server: 2a54a289.g5i2h5u6j3-fb-tw01.6pzfwf.com
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇹🇼 台湾2|@ripaojiedian
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3f09c198-da80-44ce-a72b-40bc600b2321
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
+- alterId: 0
+  cipher: auto
+  name: 16|台湾1|@ripaojiedian
+  network: tcp
+  port: '29299'
+  server: xdtw.cokecloud.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a5059bcb-b3fa-4179-b847-9eb170483810
+- alterId: 0
+  cipher: auto
+  name: 16|台湾2|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 35.201.203.106
+  servername: cfhk.393930.xyz
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /

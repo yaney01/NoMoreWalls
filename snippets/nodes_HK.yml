@@ -34,11 +34,10 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|香港|@ripaojiedian
+  name: 15|🇭🇰 香港|@ripaojiedian
   network: ws
-  port: '21033'
+  port: 21033
   server: hk.lianjianode.cc
-  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -51,9 +50,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|香港2|@ripaojiedian
+  name: 15|🇭🇰 香港2|@ripaojiedian
   network: ws
-  port: '443'
+  port: 443
   server: hkcft01.xqc.best
   servername: drplky41bs67j.cloudfront.net
   skip-cert-verify: false
@@ -92,3 +91,27 @@ proxies:
   protocol-param: 22997:JeHHT2
   server: vip3.niuniupremium.xyz
   type: ssr
+- alterId: 0
+  cipher: auto
+  name: 16|香港|@ripaojiedian
+  network: ws
+  port: '36161'
+  server: 149.129.111.134
+  servername: cfhk.393930.xyz
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '43605'
+  server: 38.147.189.98
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: be5fcd57-6776-405b-af34-003e54dbfaba
