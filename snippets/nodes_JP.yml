@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 85d0552a-0687-4c09-b046-d010a49e265a
+  uuid: f8fa2b40-0154-48c8-9dfc-fb23537b2624
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 85d0552a-0687-4c09-b046-d010a49e265a
+  uuid: f8fa2b40-0154-48c8-9dfc-fb23537b2624
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,43 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 85d0552a-0687-4c09-b046-d010a49e265a
-- alterId: 0
-  cipher: auto
-  name: 13|🇯🇵日本 01
-  network: ws
-  port: '2086'
-  server: linode.appleid.bf
-  tls: false
-  type: vmess
-  uuid: f31a2d3a-0b16-41dd-9231-0434253d8823
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /CAT
-- alterId: 64
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-138.2.44.211...
-  network: tcp
-  port: '20081'
-  server: 138.2.44.211
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
-- alterId: 0
-  cipher: auto
-  name: 13|🇯🇵日本 02
-  network: ws
-  port: '2086'
-  server: cf.335570.xyz
-  tls: false
-  type: vmess
-  uuid: f31a2d3a-0b16-41dd-9231-0434253d8823
-  ws-opts:
-    headers:
-      Host: linode.appleid.bf
-    path: /CAT
+  uuid: f8fa2b40-0154-48c8-9dfc-fb23537b2624
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
@@ -74,7 +38,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d8089ea7-32e8-473a-8b7d-90e9215add2e
+  uuid: da14b42c-fbd3-40e6-ab3c-3d348d6f9523
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -84,7 +48,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d8089ea7-32e8-473a-8b7d-90e9215add2e
+  uuid: da14b42c-fbd3-40e6-ab3c-3d348d6f9523
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -94,7 +58,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: d8089ea7-32e8-473a-8b7d-90e9215add2e
+  uuid: da14b42c-fbd3-40e6-ab3c-3d348d6f9523
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
