@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cb1f4a41-8d9a-4f85-a6c8-12f178a3a051
+  uuid: 9949cef4-3b7c-4453-9967-91ffb3b37163
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cb1f4a41-8d9a-4f85-a6c8-12f178a3a051
+  uuid: 9949cef4-3b7c-4453-9967-91ffb3b37163
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cb1f4a41-8d9a-4f85-a6c8-12f178a3a051
+  uuid: 9949cef4-3b7c-4453-9967-91ffb3b37163
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬新加坡 01
@@ -80,7 +80,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8c77b3a6-2d57-4b58-8ee9-90e62fd2666f
+  uuid: 8407790b-a9ee-4f36-adbd-92a85fdd886d
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -90,7 +90,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8c77b3a6-2d57-4b58-8ee9-90e62fd2666f
+  uuid: 8407790b-a9ee-4f36-adbd-92a85fdd886d
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -100,39 +100,39 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8c77b3a6-2d57-4b58-8ee9-90e62fd2666f
+  uuid: 8407790b-a9ee-4f36-adbd-92a85fdd886d
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: 6f932057-ffd9-4426-8ca7-f0654babf84f
+  password: 5b551c75-c002-46bf-8261-9b86f57aad37
+  port: 27250
+  server: gtm1.ktmwan.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: 66e030b0-e51c-11ee-b858-086e190000d9
   port: 20009
-  server: ddns.olucloud.subapi.cc
+  server: sg1.mhw7e2.online
   tfo: false
   type: ss
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡3|@ripaojiedian
   obfs: tls1.2_ticket_auth
-  obfs-param: 5db9910182.microsoft.com
+  obfs-param: ac3669890.microsoft.com
   password: Fhbe0z
-  port: 11422
+  port: 11846
   protocol: auth_aes128_sha1
-  protocol-param: 10182:Ed7u0G
-  server: vip3.niuniupremium.xyz
+  protocol-param: 9890:cqtnFi
+  server: 183.240.220.84
   type: ssr
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  password: 6f932057-ffd9-4426-8ca7-f0654babf84f
-  port: 50001
-  server: ddns.olucloud.subapi.cc
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.169.201.145
+  server: 57.181.36.85
   tfo: false
   type: ss

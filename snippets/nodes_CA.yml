@@ -67,7 +67,7 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: '6|🇨🇦_CA_加拿大 #1'
+  name: '6,11|美国 CloudFlare公司CDN节点(shopify) #1'
   network: ws
   port: 8080
   server: 23.227.39.24
@@ -93,10 +93,11 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: '6,7|🇨🇦_CA_加拿大->🇺🇸_US_美国 #1'
+  name: '6,7,11|美国 CloudFlare公司CDN节点(shopify) #2'
   network: ws
-  port: 8080
+  port: '8080'
   server: 23.227.38.23
+  servername: ''
   tls: false
   type: vmess
   uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
@@ -113,7 +114,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cb1f4a41-8d9a-4f85-a6c8-12f178a3a051
+  uuid: 9949cef4-3b7c-4453-9967-91ffb3b37163
 - alterId: 0
   cipher: auto
   name: 13|加拿大 037
@@ -254,6 +255,19 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
+  name: 13|🇨🇦 加拿大 081
+  network: ws
+  port: '80'
+  server: 104.21.224.81
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -261,4 +275,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8c77b3a6-2d57-4b58-8ee9-90e62fd2666f
+  uuid: 8407790b-a9ee-4f36-adbd-92a85fdd886d

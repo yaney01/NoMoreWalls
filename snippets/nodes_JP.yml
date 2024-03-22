@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cb1f4a41-8d9a-4f85-a6c8-12f178a3a051
+  uuid: 9949cef4-3b7c-4453-9967-91ffb3b37163
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cb1f4a41-8d9a-4f85-a6c8-12f178a3a051
+  uuid: 9949cef4-3b7c-4453-9967-91ffb3b37163
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: cb1f4a41-8d9a-4f85-a6c8-12f178a3a051
+  uuid: 9949cef4-3b7c-4453-9967-91ffb3b37163
 - alterId: 0
   cipher: auto
   name: 13|-0466-JP【ccbaohe.com〗 永久免费节点机场
@@ -90,7 +90,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8c77b3a6-2d57-4b58-8ee9-90e62fd2666f
+  uuid: 8407790b-a9ee-4f36-adbd-92a85fdd886d
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -100,7 +100,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8c77b3a6-2d57-4b58-8ee9-90e62fd2666f
+  uuid: 8407790b-a9ee-4f36-adbd-92a85fdd886d
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -110,21 +110,24 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8c77b3a6-2d57-4b58-8ee9-90e62fd2666f
-- cipher: chacha20-ietf-poly1305
+  uuid: 8407790b-a9ee-4f36-adbd-92a85fdd886d
+- cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: 1172b614-b9d0-447e-a8a9-5f1db0c5affc
-  port: 45131
-  server: gz.quanstring.top
-  tfo: false
-  type: ss
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  obfs: tls1.2_ticket_auth
+  obfs-param: ac3669890.microsoft.com
+  password: Fhbe0z
+  port: 11424
+  protocol: auth_aes128_sha1
+  protocol-param: 9890:cqtnFi
+  server: 183.240.220.87
+  type: ssr
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本4|@ripaojiedian
   password: 66e030b0-e51c-11ee-b858-086e190000d9
-  port: 20014
-  server: jp2.mhw7e2.online
+  port: 20013
+  server: jp1.mhw7e2.online
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -132,6 +135,6 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 34.219.76.253
+  server: 3.34.200.94
   tfo: false
   type: ss
