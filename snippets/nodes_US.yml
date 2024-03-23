@@ -153,7 +153,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '3,6,7,11,13,17|🇺🇸_US_美国 #31'
+  name: '3,6,7,11,17|🇺🇸_US_美国 #29'
   network: ws
   port: 8080
   server: fbi.gov
@@ -166,7 +166,7 @@ proxies:
     path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
 - alterId: 0
   cipher: auto
-  name: '3,6,7,17|🇺🇸_US_美国 #32'
+  name: '3,6,7,17|🇺🇸_US_美国 #30'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -179,7 +179,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  name: '3,6,17|🇺🇸_US_美国 #33'
+  name: '3,6,17|🇺🇸_US_美国 #31'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -192,7 +192,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '3,6,11,17|🇺🇸_US_美国 #34'
+  name: '3,6,11,17|🇺🇸_US_美国 #32'
   network: ws
   port: 8080
   server: 162.159.130.208
@@ -205,7 +205,7 @@ proxies:
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
 - alterId: 0
   cipher: auto
-  name: '3,6,17|🇺🇸_US_美国 #35'
+  name: '3,6,17|🇺🇸_US_美国 #33'
   network: ws
   port: 2095
   server: russia.com
@@ -218,7 +218,7 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国 #36'
+  name: '3,17|🇺🇸_US_美国 #34'
   network: ws
   port: 2095
   server: 104.26.4.57
@@ -271,7 +271,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 6,13,15,16|美国|@ripaojiedian
+  name: 6,15,16|美国|@ripaojiedian
   network: ws
   port: '2086'
   server: cfcdn1.sanfencdn9.com
@@ -326,9 +326,9 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '7,11,13|🇺🇸_US_美国 #30'
+  name: '7,11|美国 CloudFlare节点 #14'
   network: ws
-  port: 80
+  port: '80'
   server: 172.67.116.48
   servername: ''
   tls: false
@@ -399,7 +399,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 78a66779-47d1-4f0c-bab4-03346a462dfb
+  uuid: 3f88098e-1502-4881-bed0-cd0c986e5032
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -409,7 +409,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 78a66779-47d1-4f0c-bab4-03346a462dfb
+  uuid: 3f88098e-1502-4881-bed0-cd0c986e5032
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -419,7 +419,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 78a66779-47d1-4f0c-bab4-03346a462dfb
+  uuid: 3f88098e-1502-4881-bed0-cd0c986e5032
 - alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
@@ -566,7 +566,7 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: 11,13|加拿大 026
+  name: 11,13|🇺🇸 美国 CloudFlare节点 28
   network: ws
   port: 2086
   server: mizban.arzonhost.ir
@@ -767,6 +767,135 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 13|云飞美国招募1
+  network: tcp
+  port: 31579
+  server: 156.236.76.198
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fa02a429-c6b4-4951-dd38-512bb077182d
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸 美国 CloudFlare节点
+  network: ws
+  port: '2086'
+  server: us01.appleid.bf
+  tls: false
+  type: vmess
+  uuid: cdccacb4-8335-4824-8d60-005a755f798a
+  ws-opts:
+    headers:
+      Host: us01.appleid.bf
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.247....
+  network: tcp
+  port: '42598'
+  server: 129.146.247.135
+  tls: false
+  type: vmess
+  uuid: 1773b226-0bdb-43c5-87d8-270d26211dda
+- alterId: 0
+  cipher: auto
+  name: 13|美国20240312
+  network: tcp
+  port: 443
+  server: www.welsons.top
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: f40babbd-ac91-4fca-f14f-3233a36a9659
+- alterId: 0
+  cipher: auto
+  name: 13|自-美国5
+  network: tcp
+  port: 40583
+  server: 205.234.252.215
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9c4bb4a0-2bd0-40ff-d0dd-24749a20c1bf
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-135.148.62.1...
+  network: tcp
+  port: '22673'
+  server: 135.148.62.165
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c9ded6a-626a-48fe-a7eb-6f0bee8a9a36
+- alterId: 0
+  cipher: auto
+  name: 13|US-314
+  network: tcp
+  port: 32924
+  server: 154.29.157.175
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 19337e62-730f-4b9f-c1b0-110b66d727bb
+- alterId: 0
+  cipher: auto
+  name: 13|美国19
+  network: tcp
+  port: 18258
+  server: 23.224.33.104
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a45b14c6-613c-459d-f76a-3340d56b597a
+- alterId: 0
+  cipher: auto
+  name: 13|USTR
+  network: tcp
+  port: 33388
+  server: ustr.bagsmart.cc
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 1b6ae74a-20cd-4027-bd4c-89ec6578a75c
+- alterId: 0
+  cipher: auto
+  name: 13|自-美国3
+  network: tcp
+  port: 48859
+  server: 172.252.72.140
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 08673fea-ef78-4a5f-9e43-658d32b64276
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-TLS 🇺🇸 US-172.67.171.1...
+  network: ws
+  port: '2083'
+  server: 172.67.171.175
+  servername: nine.b4a-devs.org
+  tls: true
+  type: vmess
+  uuid: 1016cbc0-03c2-4e11-b590-296b01f269ac
+  ws-opts:
+    headers:
+      Host: nine.b4a-devs.org
+    path: /nws
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸美国 01
+  network: ws
+  port: '2086'
+  server: cf.iepl.live
+  tls: false
+  type: vmess
+  uuid: cdccacb4-8335-4824-8d60-005a755f798a
+  ws-opts:
+    headers:
+      Host: us01.appleid.bf
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
   name: 13|🔒 VM-WS-NA 🇺🇸 US-205.185.125.2...
   network: ws
   port: '11451'
@@ -794,209 +923,48 @@ proxies:
     path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
 - alterId: 0
   cipher: auto
-  name: '13|🇺🇸_US_美国 #29'
-  network: ws
-  port: 80
-  server: 172.67.49.214
-  tls: false
-  type: vmess
-  uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff
-  ws-opts:
-    headers:
-      Host: wap.hostmjj.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🇺🇸|US|美国|@wxgqlfx|14
-  network: ws
-  port: 80
-  server: 104.21.69.44
-  tls: false
-  type: vmess
-  uuid: 9d7d97c2-d7a5-41c9-a33c-370caed71287
-  ws-opts:
-    headers:
-      Host: pt1-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 13,15,16|台湾|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a564b1ec-2d51-418a-ba01-e9ab22736afc
-  ws-opts:
-    headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-135.148.62.1...
+  name: 13|US-jq1
   network: tcp
-  port: '22673'
-  server: 135.148.62.165
+  port: 14276
+  server: 154.44.0.112
   servername: ''
   tls: false
   type: vmess
-  uuid: 4c9ded6a-626a-48fe-a7eb-6f0bee8a9a36
+  uuid: 8d69f684-1d9c-4325-8f17-d86562add1e7
 - alterId: 0
   cipher: auto
-  name: 13|🇺🇲 United States 217
-  network: ws
-  port: '2086'
-  server: 172.67.229.36
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 58fe1542-5290-40ad-815a-77707a81afe5
-  ws-opts:
-    headers:
-      Host: ca6.tehme100.fun
-    path: /IOebhLMhl1CTbFHbL95myfRX2
-- alterId: 0
-  cipher: auto
-  name: 13|🇺🇸美国 01
-  network: ws
-  port: '2086'
-  server: cf.iepl.live
-  tls: false
-  type: vmess
-  uuid: cdccacb4-8335-4824-8d60-005a755f798a
-  ws-opts:
-    headers:
-      Host: us01.appleid.bf
-    path: /ws?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-TLS 🇺🇸 US-172.67.204.8...
-  network: ws
-  port: '2096'
-  server: 172.67.204.84
-  servername: eu4.nlist.eu.org
-  tls: true
-  type: vmess
-  uuid: 98b879fc-ed38-4537-f02f-e88e4892d48c
-  ws-opts:
-    headers:
-      Host: eu4.nlist.eu.org
-    path: /liu
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.247....
-  network: tcp
-  port: '42598'
-  server: 129.146.247.135
-  tls: false
-  type: vmess
-  uuid: 1773b226-0bdb-43c5-87d8-270d26211dda
-- alterId: 0
-  cipher: auto
-  name: 13|🇺🇸|US|美国|@wxgqlfx|42
-  network: ws
-  port: 8080
-  server: 172.64.68.208
-  tls: false
-  type: vmess
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
-  ws-opts:
-    headers:
-      Host: eu3.openxai.link
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-162.251.62.1...
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-38.75.137.27...
   network: tcp
   port: '22324'
-  server: 162.251.62.115
+  server: 38.75.137.27
   servername: ''
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.46.1...
+  name: 13|云飞美国招募2
   network: tcp
-  port: '52408'
-  server: 129.146.46.181
+  port: 15246
+  server: 198.105.126.236
   servername: ''
   tls: false
   type: vmess
-  uuid: a797ff7b-8161-40a6-d577-1b2c213b3885
+  uuid: 197125d1-5bce-49f2-df4b-a1d63a7a0be1
 - alterId: 0
   cipher: auto
-  name: '13|Channel id: @ShadowProxy66 🇺🇸'
+  name: 13|美国3
   network: ws
-  port: '2096'
-  server: zula.ir
-  servername: eu4.nlist.eu.org
-  tls: true
-  type: vmess
-  uuid: 98b879fc-ed38-4537-f02f-e88e4892d48c
-  ws-opts:
-    headers:
-      Host: eu4.nlist.eu.org
-    path: /liu
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-TLS 🇺🇸 US-172.67.136.2...
-  network: ws
-  port: '2087'
-  server: 172.67.136.244
-  servername: backend.app-browser.org
-  tls: true
-  type: vmess
-  uuid: 520a5f45-d354-42f4-a658-18dbc3754645
-  ws-opts:
-    headers:
-      Host: backend.app-browser.org
-    path: /fws
-- alterId: 0
-  cipher: auto
-  name: 13|🇺🇸美国 02
-  network: ws
-  port: '2086'
-  server: us01.appleid.bf
-  tls: false
-  type: vmess
-  uuid: cdccacb4-8335-4824-8d60-005a755f798a
-  ws-opts:
-    headers:
-      Host: us01.appleid.bf
-    path: /ws?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|🇺🇸|US|美国|@wxgqlfx|46
-  network: ws
-  port: '8080'
-  server: cf.openxai.link
+  port: 10087
+  server: 205.234.201.97
   servername: ''
   tls: false
   type: vmess
-  uuid: 477af724-de79-40dc-80ef-bf3bca0be3ce
+  uuid: 1cce2a35-0fad-46a1-bc80-1d8985bfbfc5
   ws-opts:
     headers:
-      Host: eu3.openxai.link
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-TLS 🇺🇸 US-172.67.131.1...
-  network: ws
-  port: '2087'
-  server: 172.67.131.186
-  servername: api.cdn-tgju.org
-  tls: true
-  type: vmess
-  uuid: 13fc87d3-43c6-4cc1-9ab9-523d9707a113
-  ws-opts:
-    headers:
-      Host: api.cdn-tgju.org
-    path: /ows
+      Host: ''
+    path: /gost
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 04 | 1x US
@@ -1006,7 +974,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bad39d10-1526-4e6a-85df-c0b115250248
+  uuid: e384a120-6588-4092-8c44-8586360b91ce
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -1016,7 +984,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bad39d10-1526-4e6a-85df-c0b115250248
+  uuid: e384a120-6588-4092-8c44-8586360b91ce
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -1026,4 +994,4 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bad39d10-1526-4e6a-85df-c0b115250248
+  uuid: e384a120-6588-4092-8c44-8586360b91ce
