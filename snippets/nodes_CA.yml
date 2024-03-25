@@ -43,7 +43,7 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: '1,3,6,7,17|🇨🇦_CA_加拿大 #7'
+  name: '1,3,6,7,17|🇨🇦_CA_加拿大 #8'
   network: http
   port: 3389
   server: 134.122.41.160
@@ -80,7 +80,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '6|🇨🇦_CA_加拿大 #3'
+  name: '6,13|🇨🇦_CA_加拿大 #7'
   network: ws
   port: 8080
   server: 108.181.23.161
@@ -93,10 +93,11 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: '6,7,11|美国 CloudFlare公司CDN节点(shopify) #2'
+  name: '6,7,11,13|美国(yudou66.com 玉豆免费节点) #2'
   network: ws
-  port: 8080
+  port: '8080'
   server: 23.227.38.23
+  servername: ''
   tls: false
   type: vmess
   uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
@@ -113,13 +114,154 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fb7abf08-295e-4f35-abda-a110aebbf324
+  uuid: 2ea533df-74ac-4b9b-bee3-abd5b9068173
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦 加拿大 116
+  name: 13|加拿大 093
   network: ws
-  port: '80'
-  server: 104.21.224.101
+  port: 80
+  server: 104.21.237.136
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d31c39e0-e614-11ee-b333-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: hDIgP.cnbete.life
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 111
+  network: ws
+  port: 80
+  server: 104.21.237.134
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d31c39e0-e614-11ee-b333-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: hDIgP.cnbete.life
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 070
+  network: ws
+  port: 2087
+  server: 104.21.10.205
+  servername: api.cdn-tgju.org
+  tls: true
+  type: vmess
+  uuid: 13fc87d3-43c6-4cc1-9ab9-523d9707a113
+  ws-opts:
+    headers:
+      Host: api.cdn-tgju.org
+    path: /ows
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 129
+  network: ws
+  port: 80
+  server: 104.21.237.226
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d31c39e0-e614-11ee-b333-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: hDIgP.cnbete.life
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 135
+  network: ws
+  port: 80
+  server: 104.21.237.150
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d31c39e0-e614-11ee-b333-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: hDIgP.cnbete.life
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 080
+  network: ws
+  port: 80
+  server: 104.21.237.111
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d31c39e0-e614-11ee-b333-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: hDIgP.cnbete.life
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 139
+  network: ws
+  port: 80
+  server: 104.21.237.160
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d31c39e0-e614-11ee-b333-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: hDIgP.cnbete.life
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 133
+  network: ws
+  port: 80
+  server: 104.21.237.39
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d31c39e0-e614-11ee-b333-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: hDIgP.cnbete.life
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 109
+  network: ws
+  port: 80
+  server: 104.21.224.2
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 140
+  network: ws
+  port: 80
+  server: 104.21.237.189
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d31c39e0-e614-11ee-b333-205c6d5f5d78
+  ws-opts:
+    headers:
+      Host: hDIgP.cnbete.life
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 083
+  network: ws
+  port: 80
+  server: 104.21.224.186
+  servername: ''
   tls: false
   type: vmess
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
@@ -129,10 +271,11 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦 加拿大 114
+  name: 13|加拿大 138
   network: ws
-  port: '80'
-  server: 104.21.237.184
+  port: 80
+  server: 104.21.237.36
+  servername: ''
   tls: false
   type: vmess
   uuid: d31c39e0-e614-11ee-b333-205c6d5f5d78
@@ -142,36 +285,25 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦 加拿大 080
+  name: 13|加拿大 012
   network: ws
-  port: '80'
-  server: 104.21.237.111
+  port: 80
+  server: 104.21.224.1
+  servername: ''
   tls: false
   type: vmess
-  uuid: d31c39e0-e614-11ee-b333-205c6d5f5d78
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   ws-opts:
     headers:
-      Host: hDIgP.cnbete.life
-    path: /?ed=2048
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦 加拿大 079
+  name: 13|加拿大 121
   network: ws
-  port: '80'
-  server: 104.21.237.32
-  tls: false
-  type: vmess
-  uuid: d31c39e0-e614-11ee-b333-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: hDIgP.cnbete.life
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦 加拿大 121
-  network: ws
-  port: '2053'
+  port: 2053
   server: 104.21.80.53
+  servername: ''
   tls: true
   type: vmess
   uuid: 3ce0722e-1e03-4b05-9875-d7592b6c9f1c
@@ -181,49 +313,24 @@ proxies:
     path: /qin20
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦 加拿大 105
+  name: 13|加拿大 125
   network: ws
-  port: '80'
-  server: 104.21.237.26
+  port: 80
+  server: 104.21.232.62
+  servername: ''
   tls: false
   type: vmess
-  uuid: d31c39e0-e614-11ee-b333-205c6d5f5d78
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   ws-opts:
     headers:
-      Host: hDIgP.cnbete.life
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦 加拿大 111
-  network: ws
-  port: '80'
-  server: 104.21.237.134
-  tls: false
-  type: vmess
-  uuid: d31c39e0-e614-11ee-b333-205c6d5f5d78
-  ws-opts:
-    headers:
-      Host: hDIgP.cnbete.life
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦 加拿大 120
-  network: ws
-  port: '8880'
-  server: 104.21.84.38
-  tls: false
-  type: vmess
-  uuid: f9c92e9c-5f92-4ff7-99a1-91a973b6ec57
-  ws-opts:
-    headers:
-      Host: us1.laobideng.xyz
+      Host: a.prapt4.ir
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦 加拿大 093
+  name: 13|🇨🇦 加拿大 134
   network: ws
   port: '80'
-  server: 104.21.237.136
+  server: 104.21.237.214
   tls: false
   type: vmess
   uuid: d31c39e0-e614-11ee-b333-205c6d5f5d78
@@ -233,10 +340,38 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦 加拿大 118
+  name: 13|加拿大 132
+  network: ws
+  port: 2053
+  server: u04.tk3322.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bfccd2a4-a421-4d4f-f564-a081f4a12d7e
+  ws-opts:
+    headers:
+      Host: u04.tk3322.com
+    path: /u04
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 122
+  network: ws
+  port: 2053
+  server: 104.21.67.246
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: ffde13b1-e66e-4b2a-9392-4ed9a826aec6
+  ws-opts:
+    headers:
+      Host: mg013.tk4433.com
+    path: /mg013.tk4433.com
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 126
   network: ws
   port: '80'
-  server: 104.21.237.91
+  server: 104.21.237.235
   tls: false
   type: vmess
   uuid: d31c39e0-e614-11ee-b333-205c6d5f5d78
@@ -244,6 +379,90 @@ proxies:
     headers:
       Host: hDIgP.cnbete.life
     path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 131
+  network: ws
+  port: 80
+  server: 104.21.224.150
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 010
+  network: ws
+  port: 80
+  server: 104.21.236.82
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 003
+  network: ws
+  port: 80
+  server: 172.67.170.75
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    headers:
+      Host: us4e-20240111.v2freevpn.com
+    path: /v149-dskds65
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 123
+  network: ws
+  port: 80
+  server: 104.21.224.221
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 116
+  network: ws
+  port: 80
+  server: 104.21.224.101
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 104
+  network: ws
+  port: 80
+  server: 104.21.220.157
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&amp;Telegram🇨🇳
 - alterId: 0
   cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
@@ -253,4 +472,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f5bcd389-abef-43a2-8eec-1ac33463fd42
+  uuid: cb1958a2-c6a1-413b-94e6-5f8e23335513
