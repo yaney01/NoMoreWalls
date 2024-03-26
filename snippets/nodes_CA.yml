@@ -95,8 +95,9 @@ proxies:
   cipher: auto
   name: 6,7,11|美国 CloudFlare公司CDN节点(shopify)
   network: ws
-  port: 8080
+  port: '8080'
   server: 23.227.38.23
+  servername: ''
   tls: false
   type: vmess
   uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b
@@ -113,7 +114,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 895da1f3-a274-4c73-9343-21c45338a25c
+  uuid: 5e4d7534-1469-4534-a88e-7d004dae7948
 - alterId: 0
   cipher: auto
   name: 13|加拿大 156
@@ -158,6 +159,23 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 13,15,16|美国|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 104.21.224.221
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /
+- alterId: 0
+  cipher: auto
   name: 13|加拿大 132
   network: ws
   port: 2053
@@ -170,6 +188,20 @@ proxies:
     headers:
       Host: u04.tk3322.com
     path: /u04
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 073
+  network: ws
+  port: 80
+  server: 104.21.233.49
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
   name: 13|加拿大 116
@@ -226,6 +258,20 @@ proxies:
     headers:
       Host: a.prapt1.ir
     path: '/?ed=2048&Telegram🇨🇳 '
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 107
+  network: ws
+  port: 80
+  server: 104.21.224.129
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  ws-opts:
+    headers:
+      Host: a.prapt1.ir
+    path: /?ed=2048&Telegram🇨🇳
 - alterId: 0
   cipher: auto
   name: 13|加拿大 165
@@ -305,4 +351,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: ffeb2627-cc91-421a-b244-4739a7ff2ba4
+  uuid: d5d648aa-38c2-43ba-bc8e-1420b58bba57
