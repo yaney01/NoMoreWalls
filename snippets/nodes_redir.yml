@@ -115,7 +115,7 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: '3,6,7,11,13,17|🇦🇪_AE_阿联酋->🇬🇧_GB_英国 #4'
+  name: '3,6,7,11,17|🇦🇪_AE_阿联酋->🇬🇧_GB_英国 #3'
   network: ws
   port: 8880
   server: 94.140.0.110
@@ -182,6 +182,15 @@ proxies:
 - alterId: 0
   cipher: auto
   name: '13|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
+  network: tcp
+  port: 11129
+  server: 23.142.200.149
+  tls: false
+  type: vmess
+  uuid: 2c69c823-4dad-4dc1-89df-6eeab1dc5fe5
+- alterId: 0
+  cipher: auto
+  name: '13|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7'
   network: ws
   port: 80
   server: 104.21.235.6
