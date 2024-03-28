@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 745138e1-9f8b-4122-bea7-a3696e33fbca
+  uuid: f0f34644-ae55-46b8-984f-65f5ccd8918c
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 745138e1-9f8b-4122-bea7-a3696e33fbca
+  uuid: f0f34644-ae55-46b8-984f-65f5ccd8918c
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,21 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 745138e1-9f8b-4122-bea7-a3696e33fbca
-- alterId: 0
-  cipher: auto
-  name: 13|日本02-高速｜x1
-  network: ws
-  port: '31636'
-  server: 103.150.8.236
-  servername: jp.pddf.buzz
-  tls: true
-  type: vmess
-  uuid: dd1a99fc-8080-4b6f-b255-20fe1a57d238
-  ws-opts:
-    headers:
-      Host: jp.pddf.buzz
-    path: /pdd?ed=2048
+  uuid: f0f34644-ae55-46b8-984f-65f5ccd8918c
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
@@ -52,7 +38,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1408e852-39c7-4a18-98eb-afc46d56598e
+  uuid: 8f326b8c-43c2-4edf-bee3-aaf26ffff266
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -62,7 +48,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1408e852-39c7-4a18-98eb-afc46d56598e
+  uuid: 8f326b8c-43c2-4edf-bee3-aaf26ffff266
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -72,7 +58,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1408e852-39c7-4a18-98eb-afc46d56598e
+  uuid: 8f326b8c-43c2-4edf-bee3-aaf26ffff266
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
