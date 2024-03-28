@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9391d319-ace0-40d7-891b-4d117ed5cc0f
+  uuid: 8bc6ec54-2cfd-4298-b373-e240484a0d34
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9391d319-ace0-40d7-891b-4d117ed5cc0f
+  uuid: 8bc6ec54-2cfd-4298-b373-e240484a0d34
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,21 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 9391d319-ace0-40d7-891b-4d117ed5cc0f
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇸🇬 SG-128.199.193.1...
-  network: ws
-  port: '52419'
-  server: 128.199.193.14
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 250014f0-1f89-43a5-bbe0-127ab48b66a0
-  ws-opts:
-    headers:
-      Host: whatsapp.net
-    path: /
+  uuid: 8bc6ec54-2cfd-4298-b373-e240484a0d34
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
@@ -52,7 +38,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 18ea9b49-7372-469d-b626-e517ffecef92
+  uuid: eea3843d-e972-4d92-bf25-0117a61c5909
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -62,7 +48,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 18ea9b49-7372-469d-b626-e517ffecef92
+  uuid: eea3843d-e972-4d92-bf25-0117a61c5909
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -72,7 +58,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 18ea9b49-7372-469d-b626-e517ffecef92
+  uuid: eea3843d-e972-4d92-bf25-0117a61c5909
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡2|@ripaojiedian
