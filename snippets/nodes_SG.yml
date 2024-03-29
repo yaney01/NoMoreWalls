@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fe24cff1-bf43-4743-bd3a-a04774e62c1f
+  uuid: 3654a1f2-130e-4122-920f-434c2f43d64a
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fe24cff1-bf43-4743-bd3a-a04774e62c1f
+  uuid: 3654a1f2-130e-4122-920f-434c2f43d64a
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,20 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: fe24cff1-bf43-4743-bd3a-a04774e62c1f
-- alterId: 0
-  cipher: auto
-  name: 13| 🇸🇬 新加坡 SG02
-  network: ws
-  port: '80'
-  server: sg02.xpoti.online
-  tls: false
-  type: vmess
-  uuid: 432b1dd7-5787-440e-9af9-d924e6cf461c
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: 3654a1f2-130e-4122-920f-434c2f43d64a
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇸🇬 SG-128.199.193.1...
@@ -58,19 +45,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|🇸🇬 新加坡 DigitalOcean数据中心
-  network: ws
-  port: '80'
-  server: 206.189.153.83
-  tls: false
-  type: vmess
-  uuid: 432b1dd7-5787-440e-9af9-d924e6cf461c
-  ws-opts:
-    headers:
-      Host: sg02.xpoti.online
-    path: /
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -78,7 +52,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3fc40129-2b14-42f4-92d3-55792dad4927
+  uuid: d6ebf91d-ddcf-4928-9261-2aed105df4e3
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -88,7 +62,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3fc40129-2b14-42f4-92d3-55792dad4927
+  uuid: d6ebf91d-ddcf-4928-9261-2aed105df4e3
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -98,7 +72,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3fc40129-2b14-42f4-92d3-55792dad4927
+  uuid: d6ebf91d-ddcf-4928-9261-2aed105df4e3
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡2|@ripaojiedian
