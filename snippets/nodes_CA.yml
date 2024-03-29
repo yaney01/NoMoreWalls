@@ -29,18 +29,17 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: 1,13|🇨🇦_CA_加拿大_3
+  name: 1|_CA__3
   network: ws
   port: 8080
   server: 108.181.23.161
-  servername: ''
   skip-cert-verify: true
   tls: false
   type: vmess
   uuid: 969f1909-c0d3-4c30-813d-3aec5c838b7d
   ws-opts:
     headers:
-      Host: ''
+      host: internet.life.com.by
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
@@ -114,35 +113,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 5b892152-b8e7-41bc-be1c-288c4c1f2637
-- alterId: 0
-  cipher: auto
-  name: '13|Channel id: @ShadowProxy66 🇨🇦'
-  network: ws
-  port: '443'
-  server: 104.21.4.6
-  servername: glweidf.cfd
-  tls: true
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      Host: glweidf.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: '13|Channel id: @ShadowProxy66 🇨🇦 #1'
-  network: ws
-  port: '443'
-  server: 104.21.15.36
-  servername: linde06.indiavideo.sbs
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
+  uuid: 613cb5b7-a692-4de5-a396-1cd2cf0196b2
 - alterId: 0
   cipher: auto
   name: 13|加拿大 007
@@ -159,31 +130,18 @@ proxies:
     path: /acc
 - alterId: 0
   cipher: auto
-  name: '13|Channel id: @ShadowProxy66 🇨🇦 #2'
+  name: '13|Channel id: @ShadowProxy66 🇨🇦'
   network: ws
   port: '443'
-  server: 104.16.216.241
-  servername: nelly.homes
+  server: 104.21.15.212
+  servername: glweidf.sbs
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
   ws-opts:
     headers:
-      Host: nelly.homes
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦 加拿大 020
-  network: ws
-  port: '2052'
-  server: 104.19.129.191
-  tls: false
-  type: vmess
-  uuid: 67d8b1b9-1c9f-4a8b-8ddc-0b9ec2db2d6c
-  ws-opts:
-    headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
+      Host: glweidf.sbs
+    path: /linkws
 - alterId: 0
   cipher: auto
   name: 13|加拿大 011
@@ -200,18 +158,86 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
+  name: '13|Channel id: @ShadowProxy66 🇨🇦 #1'
+  network: ws
+  port: '443'
+  server: 104.21.4.6
+  servername: glweidf.cfd
+  tls: true
+  type: vmess
+  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+  ws-opts:
+    headers:
+      Host: glweidf.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: '13|Channel id: @ShadowProxy66 🇨🇦 #2'
+  network: ws
+  port: '443'
+  server: 104.16.216.241
+  servername: nelly.homes
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: nelly.homes
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 021
+  network: ws
+  port: '8443'
+  server: v014.583181.xyz
+  tls: true
+  type: vmess
+  uuid: 6bcb91d7-3d6b-40ad-93f4-b326d0ed20a4
+  ws-opts:
+    headers:
+      Host: v014.583181.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 020
+  network: ws
+  port: 2052
+  server: 104.19.129.191
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 67d8b1b9-1c9f-4a8b-8ddc-0b9ec2db2d6c
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
+- alterId: 0
+  cipher: auto
   name: '13|Channel id: @ShadowProxy66 🇨🇦 #3'
   network: ws
   port: '443'
-  server: 104.21.15.212
-  servername: glweidf.sbs
+  server: 104.21.75.244
+  servername: janett.click
   tls: true
   type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: glweidf.sbs
-    path: /linkws
+      Host: janett.click
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 026
+  network: ws
+  port: '80'
+  server: gw.jidexufei.top
+  tls: false
+  type: vmess
+  uuid: 75d51bad-0f16-422f-95c0-c74786c57c05
+  ws-opts:
+    headers:
+      Host: gw.jidexufei.top
+    path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
@@ -221,4 +247,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e67d8fed-4818-4f40-913a-fe6597a14ce4
+  uuid: 32c1f463-7c9c-4bb7-a6e2-ad9b0963d084
