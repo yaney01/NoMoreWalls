@@ -34,10 +34,11 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港1|@ripaojiedian
+  name: 15,16|香港1|@ripaojiedian
   network: ws
-  port: 50080
+  port: '50080'
   server: 223.113.130.58
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -60,27 +61,21 @@ proxies:
   tls: false
   type: vmess
   uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7
-- alterId: 0
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港5|@ripaojiedian
+  password: eoSwHMmeRcyJUo4uGD_25
+  port: 15033
+  server: ntded7zt.klmdns.com
+  tfo: false
+  type: ss
+- alterId: 64
   cipher: auto
   name: 16|香港|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: 185.14.47.99
-  servername: hk-6.trollfunny.net
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|香港1|@ripaojiedian
   network: tcp
-  port: '57310'
-  server: 156.251.217.24
+  port: '40259'
+  server: 120.238.122.148
   servername: ''
   tls: false
   type: vmess
-  uuid: b080b33d-c598-4cb0-8381-1ac467540a89
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
