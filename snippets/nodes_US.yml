@@ -1,156 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|_US__1
+  name: 1|_US_
   network: ws
-  port: 2052
-  server: 172.67.152.170
+  port: 8080
+  server: www.velvetmountain.shop
   skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      host: mahilu.site
+      host: www.velvetmountain.shop
     path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US__2
-  network: ws
-  port: 2095
-  server: russia.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
-  ws-opts:
-    headers:
-      host: ssrsub.v03.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: '1,6|🇺🇸_US_美国 #8'
-  network: ws
-  port: 443
-  server: cold-dawn-9246.fly.dev
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
-  ws-opts:
-    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
-- alterId: 0
-  cipher: auto
-  name: 1|_US__4
-  network: ws
-  port: 2052
-  server: 104.21.82.39
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      host: mahilu.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US__5
-  network: ws
-  port: 2052
-  server: mahilu.site
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      host: mahilu.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 1|_US__6
-  network: ws
-  port: 8080
-  server: fbi.gov
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  ws-opts:
-    headers:
-      host: bibliographic-sword-sequence-advertisers.trycloudflare.com
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-- alterId: 0
-  cipher: auto
-  name: 1|_US__7
-  network: ws
-  port: 2086
-  server: cfcdn1.sanfencdn9.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 3f09c198-da80-44ce-a72b-40bc600b2321
-  ws-opts:
-    headers:
-      host: us77SmSk86j.fzbqfrse.xyz
-    path: /video/Z7qdcrAGRw
-- alterId: 0
-  cipher: auto
-  name: 1|_US__8
-  network: ws
-  port: 8080
-  server: 162.159.134.23
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 9b196b50-37f2-4f4b-b175-06273adc6207
-  ws-opts:
-    headers:
-      host: championship-bidding-oxygen-brochure.trycloudflare.com
-    path: 9b196b50-37f2-4f4b-b175-06273adc6207-vm
-- alterId: 0
-  cipher: auto
-  name: 1|_US__9
-  network: ws
-  port: 8080
-  server: 162.159.130.208
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45
-  ws-opts:
-    headers:
-      host: widescreen-instruction-breakdown-postage.trycloudflare.com
-    path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
-- alterId: 0
-  cipher: auto
-  name: 1|_US__10
-  network: ws
-  port: 8880
-  server: russia.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 6658a3a6-225a-4d33-a5d2-82cfde565b4e
-  ws-opts:
-    headers:
-      host: ssrsub.v03.ssrsub.com
-    path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 1|_US__11
-  network: ws
-  port: 8080
-  server: yh2.freeh1.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96
-  ws-opts:
-    headers:
-      host: pcs-referenced-camera-concerns.trycloudflare.com
-    path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
   name: '3,6,7,17|🇺🇸_US_美国 #31'
@@ -242,6 +104,17 @@ proxies:
     headers:
       Host: mahilu.site
     path: /
+- alterId: 0
+  cipher: auto
+  name: '6|🇺🇸_US_美国 #8'
+  network: ws
+  port: 443
+  server: cold-dawn-9246.fly.dev
+  tls: true
+  type: vmess
+  uuid: ea4909ef-7ca6-4b46-bf2e-6c07896ef338
+  ws-opts:
+    path: /ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm
 - alterId: 0
   cipher: auto
   name: '6,7|🇺🇸_US_美国 #24'
@@ -395,7 +268,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ee224b81-ea84-46c0-b7a7-2d4680421a79
+  uuid: b5dced5a-c320-4665-8476-ba385afa9190
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -405,7 +278,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ee224b81-ea84-46c0-b7a7-2d4680421a79
+  uuid: b5dced5a-c320-4665-8476-ba385afa9190
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -415,7 +288,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ee224b81-ea84-46c0-b7a7-2d4680421a79
+  uuid: b5dced5a-c320-4665-8476-ba385afa9190
 - alterId: 0
   cipher: auto
   name: 11,13|美国4
@@ -3148,7 +3021,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9dc4f29d-f18c-4dd2-bcc6-f4a68fb73848
+  uuid: 23ae3fdd-7a63-4b95-b024-a3b4df18fa00
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -3158,7 +3031,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9dc4f29d-f18c-4dd2-bcc6-f4a68fb73848
+  uuid: 23ae3fdd-7a63-4b95-b024-a3b4df18fa00
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -3168,7 +3041,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9dc4f29d-f18c-4dd2-bcc6-f4a68fb73848
+  uuid: 23ae3fdd-7a63-4b95-b024-a3b4df18fa00
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇺🇸 美国1|@ripaojiedian
