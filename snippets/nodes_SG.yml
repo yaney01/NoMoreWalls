@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 79eac262-3381-49f8-b1be-b5acb0b98679
+  uuid: 25b9c291-f80a-453f-bccf-81dc20495b9e
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 79eac262-3381-49f8-b1be-b5acb0b98679
+  uuid: 25b9c291-f80a-453f-bccf-81dc20495b9e
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,21 +28,21 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 79eac262-3381-49f8-b1be-b5acb0b98679
+  uuid: 25b9c291-f80a-453f-bccf-81dc20495b9e
 - alterId: 0
   cipher: auto
-  name: 13|新加坡【TG：@ccbaohe】定时更新节点订阅 20
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-45.32.99.83:1...
   network: ws
-  port: 2086
-  server: 27.50.48.72
+  port: '18275'
+  server: 45.32.99.83
   servername: ''
   tls: false
   type: vmess
-  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  uuid: 386e5066-5078-4bef-96bf-4c25e422eabf
   ws-opts:
     headers:
-      Host: krcc1.topf6.com
-    path: /ws?ed=2048
+      Host: m.zoom.us
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NONE 🇸🇬 SG-45.32.99.83...
@@ -63,7 +63,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 854f6e77-815a-49d2-9ce0-328450a9703e
+  uuid: 50d20cd0-21b9-4f55-8d41-3e84d14b3dde
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -73,7 +73,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 854f6e77-815a-49d2-9ce0-328450a9703e
+  uuid: 50d20cd0-21b9-4f55-8d41-3e84d14b3dde
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -83,7 +83,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 854f6e77-815a-49d2-9ce0-328450a9703e
+  uuid: 50d20cd0-21b9-4f55-8d41-3e84d14b3dde
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

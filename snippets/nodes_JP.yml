@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 79eac262-3381-49f8-b1be-b5acb0b98679
+  uuid: 25b9c291-f80a-453f-bccf-81dc20495b9e
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 79eac262-3381-49f8-b1be-b5acb0b98679
+  uuid: 25b9c291-f80a-453f-bccf-81dc20495b9e
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,7 +28,17 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 79eac262-3381-49f8-b1be-b5acb0b98679
+  uuid: 25b9c291-f80a-453f-bccf-81dc20495b9e
+- alterId: 1
+  cipher: auto
+  name: 13|日本 002
+  network: tcp
+  port: 444
+  server: qin5c-g01.jp04-3771-vm0.entry.fr0307a.art
+  servername: qin5c-g01.jp04-3771-vm0.entry.fr0307a.art
+  tls: false
+  type: vmess
+  uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
 - alterId: 1
   cipher: auto
   name: 13|日本 001
@@ -39,15 +49,6 @@ proxies:
   tls: true
   type: vmess
   uuid: 02bf7660-c38f-30b4-b740-2f9b4d717704
-- alterId: 1
-  cipher: auto
-  name: 13|🇯🇵 日本 012
-  network: tcp
-  port: '449'
-  server: h3qa5-g06.jp04-3771-vm0.entry.fr0307a.art
-  tls: false
-  type: vmess
-  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
@@ -57,7 +58,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 854f6e77-815a-49d2-9ce0-328450a9703e
+  uuid: 50d20cd0-21b9-4f55-8d41-3e84d14b3dde
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -67,7 +68,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 854f6e77-815a-49d2-9ce0-328450a9703e
+  uuid: 50d20cd0-21b9-4f55-8d41-3e84d14b3dde
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -77,7 +78,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 854f6e77-815a-49d2-9ce0-328450a9703e
+  uuid: 50d20cd0-21b9-4f55-8d41-3e84d14b3dde
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
