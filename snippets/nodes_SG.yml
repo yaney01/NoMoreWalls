@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a0c34370-8ee1-44d2-926e-897df07f9f3a
+  uuid: 7f53783b-ec32-4b04-9129-5e1cff1bac0b
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a0c34370-8ee1-44d2-926e-897df07f9f3a
+  uuid: 7f53783b-ec32-4b04-9129-5e1cff1bac0b
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,32 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: a0c34370-8ee1-44d2-926e-897df07f9f3a
+  uuid: 7f53783b-ec32-4b04-9129-5e1cff1bac0b
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡【TG：@ccbaohe】定时更新节点订阅 20
+  network: ws
+  port: 2086
+  server: 27.50.48.72
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3960f128-1163-40a3-8dd7-7c91176e14a5
+  ws-opts:
+    headers:
+      Host: krcc1.topf6.com
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-45.32.99.83...
+  network: ws
+  port: 28051
+  server: 45.32.99.83
+  tls: false
+  type: vmess
+  uuid: bcf27281-d173-4404-a1ce-7513e4337622
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
@@ -38,7 +63,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 18f79d87-4b50-47f4-a786-8c6b14675140
+  uuid: 68f3db20-9c83-48a3-b019-e58ae8cff9ba
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -48,7 +73,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 18f79d87-4b50-47f4-a786-8c6b14675140
+  uuid: 68f3db20-9c83-48a3-b019-e58ae8cff9ba
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -58,7 +83,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 18f79d87-4b50-47f4-a786-8c6b14675140
+  uuid: 68f3db20-9c83-48a3-b019-e58ae8cff9ba
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
