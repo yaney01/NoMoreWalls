@@ -268,7 +268,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7f53783b-ec32-4b04-9129-5e1cff1bac0b
+  uuid: 79eac262-3381-49f8-b1be-b5acb0b98679
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -278,7 +278,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7f53783b-ec32-4b04-9129-5e1cff1bac0b
+  uuid: 79eac262-3381-49f8-b1be-b5acb0b98679
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -288,7 +288,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7f53783b-ec32-4b04-9129-5e1cff1bac0b
+  uuid: 79eac262-3381-49f8-b1be-b5acb0b98679
 - alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
@@ -1427,7 +1427,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 68f3db20-9c83-48a3-b019-e58ae8cff9ba
+  uuid: 854f6e77-815a-49d2-9ce0-328450a9703e
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -1437,7 +1437,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 68f3db20-9c83-48a3-b019-e58ae8cff9ba
+  uuid: 854f6e77-815a-49d2-9ce0-328450a9703e
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -1447,4 +1447,21 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 68f3db20-9c83-48a3-b019-e58ae8cff9ba
+  uuid: 854f6e77-815a-49d2-9ce0-328450a9703e
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|美国3|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: www.pcmag.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b75b34b3-7fbc-4f30-bcb0-3a0085ecd77e
+  ws-opts:
+    headers:
+      Host: cs.tashancloud.link
+    path: /

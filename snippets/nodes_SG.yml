@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7f53783b-ec32-4b04-9129-5e1cff1bac0b
+  uuid: 79eac262-3381-49f8-b1be-b5acb0b98679
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7f53783b-ec32-4b04-9129-5e1cff1bac0b
+  uuid: 79eac262-3381-49f8-b1be-b5acb0b98679
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7f53783b-ec32-4b04-9129-5e1cff1bac0b
+  uuid: 79eac262-3381-49f8-b1be-b5acb0b98679
 - alterId: 0
   cipher: auto
   name: 13|新加坡【TG：@ccbaohe】定时更新节点订阅 20
@@ -63,7 +63,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 68f3db20-9c83-48a3-b019-e58ae8cff9ba
+  uuid: 854f6e77-815a-49d2-9ce0-328450a9703e
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -73,7 +73,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 68f3db20-9c83-48a3-b019-e58ae8cff9ba
+  uuid: 854f6e77-815a-49d2-9ce0-328450a9703e
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -83,15 +83,39 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 68f3db20-9c83-48a3-b019-e58ae8cff9ba
-- cipher: chacha20-ietf-poly1305
+  uuid: 854f6e77-815a-49d2-9ce0-328450a9703e
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: f859f42a-d0fa-48e8-82a3-9ea77cf372c1
-  port: 20672
-  server: sg01.mofacloud.com
+  grpc-opts:
+    grpc-service-name: /
+  name: 15,16|新加坡|@ripaojiedian
+  network: grpc
+  port: '34237'
+  server: hk.yydsb.link
+  servername: nf.k8s.now.cc
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: true
+  type: vmess
+  uuid: 61f7a2a6-e699-40fd-bf63-5000aa4cbdeb
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|新加坡2|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 134.122.184.63
+  servername: www.36224588.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.36224588.xyz
+    path: /path/311227222808
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
