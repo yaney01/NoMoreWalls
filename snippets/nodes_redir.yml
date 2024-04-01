@@ -668,11 +668,10 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: '3,6,11,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
+  name: '3,6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
   network: ws
   port: 8080
   server: 162.159.137.249
-  servername: ''
   tls: false
   type: vmess
   uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
@@ -770,19 +769,6 @@ proxies:
   ws-opts:
     headers:
       Host: mizban.arzonhost.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
-  network: ws
-  port: 2086
-  server: 104.21.4.14
-  tls: false
-  type: vmess
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
-  ws-opts:
-    headers:
-      Host: admin.arzonhost.ir
     path: /
 - alterId: 0
   cipher: auto
