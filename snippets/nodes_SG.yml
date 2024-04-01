@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 96608447-9018-4b2b-a538-2af861a2bb7c
+  uuid: 20aa1863-0bd8-4c6f-ab20-bfd36903ec7d
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 96608447-9018-4b2b-a538-2af861a2bb7c
+  uuid: 20aa1863-0bd8-4c6f-ab20-bfd36903ec7d
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,31 +28,20 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 96608447-9018-4b2b-a538-2af861a2bb7c
+  uuid: 20aa1863-0bd8-4c6f-ab20-bfd36903ec7d
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇸🇬 SG-45.32.99.83:1...
+  name: 13|SG_粉爱福利节点_2
   network: ws
-  port: '18275'
-  server: 45.32.99.83
+  port: 80
+  server: sg5g.xn--vhq70hxyat50h6wk.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 386e5066-5078-4bef-96bf-4c25e422eabf
+  uuid: ae1e5588-79c2-44a9-a2c8-a8e4b645fcce
   ws-opts:
     headers:
-      Host: m.zoom.us
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-45.32.99.83...
-  network: ws
-  port: 28051
-  server: 45.32.99.83
-  tls: false
-  type: vmess
-  uuid: bcf27281-d173-4404-a1ce-7513e4337622
-  ws-opts:
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -63,7 +52,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3323c984-cc5d-4a83-a5b6-ad0e49ef497c
+  uuid: fb6882fe-d110-49d8-80ce-a884c2ea12ba
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -73,7 +62,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3323c984-cc5d-4a83-a5b6-ad0e49ef497c
+  uuid: fb6882fe-d110-49d8-80ce-a884c2ea12ba
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -83,7 +72,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3323c984-cc5d-4a83-a5b6-ad0e49ef497c
+  uuid: fb6882fe-d110-49d8-80ce-a884c2ea12ba
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
