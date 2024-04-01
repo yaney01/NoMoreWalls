@@ -29,6 +29,43 @@ proxies:
   tls: true
   type: vmess
   uuid: 52c4e6de-7dfd-40b8-a734-51950d12ac41
+- alterId: 1
+  cipher: auto
+  name: 13|🇯🇵 日本 008
+  network: tcp
+  port: '28783'
+  server: tfu6i-g01.jp06-7c5a-vm0.entry.fr0307a.art
+  tls: true
+  type: vmess
+  uuid: daa811f7-7e7e-3089-9361-d2de712e59b6
+- alterId: 1
+  cipher: auto
+  name: 13|日本 004
+  network: tcp
+  port: 46484
+  server: en7a5-g03.jp05-6786-vm0.entry.fr0307a.art
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dd121fb6-3fbc-3a11-bf1d-5532a767af7e
+- alterId: 1
+  cipher: auto
+  name: 13|🇯🇵 日本 011
+  network: tcp
+  port: '21581'
+  server: b834o-g01.jp03-7d22-vm0.entry.fr0307a.art
+  tls: true
+  type: vmess
+  uuid: daa811f7-7e7e-3089-9361-d2de712e59b6
+- alterId: 1
+  cipher: auto
+  name: 13|🇯🇵 日本 012
+  network: tcp
+  port: '449'
+  server: h3qa5-g06.jp04-3771-vm0.entry.fr0307a.art
+  tls: false
+  type: vmess
+  uuid: 2278146c-8fb0-3683-8300-342238f8a9d0
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
@@ -62,9 +99,9 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
-  password: 55a021e6-30f6-46c5-8297-a2b74d0b3031
-  port: 50005
-  server: ddns.olucloud.subapi.cc
+  password: 724a69fd-5240-4448-9fac-4367edf8c596
+  port: 34507
+  server: rk2.izoizoizo.top
   tfo: false
   type: ss
 - alterId: 0

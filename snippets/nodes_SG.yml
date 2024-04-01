@@ -59,11 +59,19 @@ proxies:
   tls: true
   type: vmess
   uuid: b81e6dae-e62a-4daf-846c-ecba09e303d6
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: f859f42a-d0fa-48e8-82a3-9ea77cf372c1
+  port: 20672
+  server: sg01.mofacloud.com
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.201.24.53
+  server: 43.203.192.6
   tfo: false
   type: ss
