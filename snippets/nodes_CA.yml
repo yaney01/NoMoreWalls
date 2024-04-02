@@ -69,7 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f528b8ad-4916-4430-9bc4-9fde2d668a7d
+  uuid: be44d2a5-bc31-47c4-871d-31166e49d837
 - alterId: 0
   cipher: auto
   name: 13|加拿大 008
@@ -86,24 +86,15 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦 加拿大 009
+  name: 13|🔒 VM-WS-NA 🇨🇦 CA-104.234.69.24...
   network: ws
-  port: '2095'
-  server: 172.67.214.33
+  port: 53259
+  server: 104.234.69.243
+  servername: ''
   tls: false
   type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  uuid: 4dd6c192-8284-4504-9dee-5ca7da27069b
   ws-opts:
     headers:
-      Host: onea.flha.ru
+      Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 14|【BGP】加拿大 02 | 1x CA
-  network: tcp
-  port: '31701'
-  server: 3d1c4a04.m3c5wy.xyz
-  servername: ca04.lovemc.xyz
-  tls: true
-  type: vmess
-  uuid: a0e370bb-bff1-4144-a7ed-24e80de77d2e
