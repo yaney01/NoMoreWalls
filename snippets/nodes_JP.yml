@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 87024d24-7a8d-42e0-8a2c-6f376ea0b64b
+  uuid: 5836a257-a5da-4e7a-8bf9-abb140057c8d
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 87024d24-7a8d-42e0-8a2c-6f376ea0b64b
+  uuid: 5836a257-a5da-4e7a-8bf9-abb140057c8d
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,17 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 87024d24-7a8d-42e0-8a2c-6f376ea0b64b
-- alterId: 0
-  cipher: auto
-  name: 13|日本 1 Nico Abema - 西瓜皮是真的皮〖电报：@...
-  network: tcp
-  port: 19831
-  server: xg-cm2.dx001.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f6b92f29-1b3c-3628-86b0-b47a44a2b3bf
+  uuid: 5836a257-a5da-4e7a-8bf9-abb140057c8d
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
@@ -51,6 +41,20 @@ proxies:
   uuid: e961894f-8e90-472f-98d3-09402e4be453
 - alterId: 0
   cipher: auto
+  name: 13|日本 002
+  network: ws
+  port: 8080
+  server: 87.120.204.64
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
+  ws-opts:
+    headers:
+      Host: 87.120.204.64
+    path: /
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
   network: tcp
   port: '31116'
@@ -58,7 +62,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bc5fce66-dbfb-4dc8-a599-e7942f07c544
+  uuid: 840ca2c3-b5b9-4f4b-bd0b-b165491df90f
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -68,7 +72,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bc5fce66-dbfb-4dc8-a599-e7942f07c544
+  uuid: 840ca2c3-b5b9-4f4b-bd0b-b165491df90f
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -78,7 +82,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: bc5fce66-dbfb-4dc8-a599-e7942f07c544
+  uuid: 840ca2c3-b5b9-4f4b-bd0b-b165491df90f
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -118,9 +122,9 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|日本4|@ripaojiedian
+  name: 15|🇯🇵 日本4|@ripaojiedian
   network: ws
-  port: '30000'
+  port: 30000
   server: 104.233.170.150
   servername: www.71974218.xyz
   skip-cert-verify: false
@@ -142,10 +146,24 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 16|日本|@ripaojiedian
+  network: ws
+  port: '46012'
+  server: mf411f.micloud.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 62477f7a-783b-4f00-93cb-ce1f62155776
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
   name: 16|日本2|@ripaojiedian
   network: tcp
-  port: '38996'
-  server: 8879v-rmyielu.qlh9n89kw-v17.my777999.top
+  port: '38997'
+  server: 8987-3i640t6rlj4n.zpveerb-jp03.my777999.top
   servername: ''
   tls: false
   type: vmess
