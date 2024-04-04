@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 138dbe69-e73f-4531-b1a4-298b354902b1
+  uuid: 993c2cfe-0704-40b6-b839-c9d003614d36
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 138dbe69-e73f-4531-b1a4-298b354902b1
+  uuid: 993c2cfe-0704-40b6-b839-c9d003614d36
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,7 +28,21 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 138dbe69-e73f-4531-b1a4-298b354902b1
+  uuid: 993c2cfe-0704-40b6-b839-c9d003614d36
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇯🇵 JP-47.74.6.16:20...
+  network: ws
+  port: '2052'
+  server: 47.74.6.16
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 039fc4e4-92b0-489c-a7c3-d02d40eaa551
+  ws-opts:
+    headers:
+      Host: jpyouyou.mac2winer.cfd
+    path: /039fc4e4
 - alterId: 0
   cipher: auto
   name: 13|日本 002
@@ -52,7 +66,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2d005644-69c8-4dac-8257-2e1f8c48fdbe
+  uuid: 864633ed-435f-42ba-9ce7-190869e19caf
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -62,7 +76,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2d005644-69c8-4dac-8257-2e1f8c48fdbe
+  uuid: 864633ed-435f-42ba-9ce7-190869e19caf
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -72,7 +86,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2d005644-69c8-4dac-8257-2e1f8c48fdbe
+  uuid: 864633ed-435f-42ba-9ce7-190869e19caf
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
