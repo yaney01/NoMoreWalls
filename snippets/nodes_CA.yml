@@ -69,7 +69,21 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f96c0b45-d32e-4317-851b-37300193fac8
+  uuid: 86c8f023-e535-4380-9f83-7652a371de4a
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇨🇦 CA-104.234.69.24...
+  network: ws
+  port: 53259
+  server: 104.234.69.243
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4dd6c192-8284-4504-9dee-5ca7da27069b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
@@ -79,4 +93,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c443b244-571b-49ff-84bd-5629504173fa
+  uuid: 8067cd05-805a-4876-a7cd-8e5b7d22d963
