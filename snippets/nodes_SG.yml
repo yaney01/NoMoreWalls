@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2b1b83b1-25f3-4710-8b7e-1dbc72140817
+  uuid: 728e178e-6374-4f2e-98d2-510a944f4a8c
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2b1b83b1-25f3-4710-8b7e-1dbc72140817
+  uuid: 728e178e-6374-4f2e-98d2-510a944f4a8c
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,19 +28,20 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 2b1b83b1-25f3-4710-8b7e-1dbc72140817
+  uuid: 728e178e-6374-4f2e-98d2-510a944f4a8c
 - alterId: 0
   cipher: auto
-  name: 13|SG_youtube@资源分享师_217
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-146.190.84.34...
   network: ws
-  port: 80
-  server: sg03.oliviapretty.online
+  port: 26012
+  server: 146.190.84.34
+  servername: ''
   tls: false
   type: vmess
-  uuid: b5f40979-0200-428c-8ae1-f8c981560dd3
+  uuid: 695bc422-4dc8-4d8c-8457-26e18c2421b4
   ws-opts:
     headers:
-      Host: sg03.oliviapretty.online
+      Host: tiktok.com
     path: /
 - alterId: 0
   cipher: auto
@@ -51,7 +52,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6e45d41b-3b58-499e-8d2b-a54aaa542cbf
+  uuid: 3bc18678-9ed8-4f03-b589-c3452a2bfdda
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -61,7 +62,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6e45d41b-3b58-499e-8d2b-a54aaa542cbf
+  uuid: 3bc18678-9ed8-4f03-b589-c3452a2bfdda
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -71,7 +72,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6e45d41b-3b58-499e-8d2b-a54aaa542cbf
+  uuid: 3bc18678-9ed8-4f03-b589-c3452a2bfdda
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
