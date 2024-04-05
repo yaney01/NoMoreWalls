@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ec0ea00b-1702-4323-a75c-1c09d650dcf6
+  uuid: 45d1b5b4-1aaf-4395-8557-f33ecac68945
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ec0ea00b-1702-4323-a75c-1c09d650dcf6
+  uuid: 45d1b5b4-1aaf-4395-8557-f33ecac68945
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ec0ea00b-1702-4323-a75c-1c09d650dcf6
+  uuid: 45d1b5b4-1aaf-4395-8557-f33ecac68945
 - alterId: 0
   cipher: auto
   name: 13|SG_youtube@资源分享师_217
@@ -44,34 +44,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|SG_speednode_0087
-  network: ws
-  port: 80
-  server: sg04.victorialouisa.online
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ecbc3680-a5f0-4ac2-b790-2ed6e72564f3
-  ws-opts:
-    headers:
-      Host: sg04.victorialouisa.online
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇸🇬 SG-146.190.84.34...
-  network: ws
-  port: 26012
-  server: 146.190.84.34
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 695bc422-4dc8-4d8c-8457-26e18c2421b4
-  ws-opts:
-    headers:
-      Host: tiktok.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -79,7 +51,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3c217a7d-b9cd-479d-a343-84530426a6a4
+  uuid: 52d3bc1b-1ca7-4e25-9523-1e6680a9285e
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -89,7 +61,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3c217a7d-b9cd-479d-a343-84530426a6a4
+  uuid: 52d3bc1b-1ca7-4e25-9523-1e6680a9285e
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -99,7 +71,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3c217a7d-b9cd-479d-a343-84530426a6a4
+  uuid: 52d3bc1b-1ca7-4e25-9523-1e6680a9285e
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
