@@ -31,6 +31,20 @@ proxies:
   uuid: 294c6b2d-1985-4667-be2c-0f25270be1bb
 - alterId: 0
   cipher: auto
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-146.190.84.34...
+  network: ws
+  port: 26012
+  server: 146.190.84.34
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 695bc422-4dc8-4d8c-8457-26e18c2421b4
+  ws-opts:
+    headers:
+      Host: tiktok.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'

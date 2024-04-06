@@ -31,20 +31,6 @@ proxies:
   uuid: 294c6b2d-1985-4667-be2c-0f25270be1bb
 - alterId: 0
   cipher: auto
-  name: 13|日本 004
-  network: ws
-  port: 8080
-  server: kkyx.yydsii.com
-  servername: kkyx.yydsii.com
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 13|日本 002
   network: ws
   port: 8080
@@ -59,39 +45,46 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
-  network: tcp
-  port: '14935'
-  server: 167.179.111.237
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e961894f-8e90-472f-98d3-09402e4be453
-- alterId: 0
-  cipher: auto
-  name: 13|RU_分享日记_15
+  name: 13|🇯🇵 日本 004
   network: ws
-  port: 2024
-  server: 45.14.244.133
+  port: '8080'
+  server: kkyx.yydsii.com
   tls: false
   type: vmess
-  uuid: bf1dd328-a605-48fd-918f-44cca1cfe07f
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇯🇵 JP-47.74.6.16:20...
-  network: ws
-  port: '2052'
-  server: 47.74.6.16
-  servername: ''
+  name: 13|KZ_分享日记_4
+  network: tcp
+  port: 16179
+  server: 45.152.84.131
   tls: false
   type: vmess
-  uuid: 039fc4e4-92b0-489c-a7c3-d02d40eaa551
+  uuid: d95078fa-9968-49fb-f505-78ccd01faa92
+- alterId: 0
+  cipher: auto
+  name: 13|AU_分享日记_2
+  network: ws
+  port: 26639
+  server: 91.149.236.44
+  tls: false
+  type: vmess
+  uuid: 2cd01fcd-79f3-4ec4-8536-7802c6fcba08
   ws-opts:
-    headers:
-      Host: jpyouyou.mac2winer.cfd
-    path: /039fc4e4
+    path: /cctv13/hd.m3u8/
+- alterId: 0
+  cipher: auto
+  name: 13|JP_分享日记_2
+  network: tcp
+  port: 14935
+  server: 167.179.111.237
+  tls: false
+  type: vmess
+  uuid: e961894f-8e90-472f-98d3-09402e4be453
 - alterId: 0
   cipher: auto
   name: 13|RU_分享日记_8
@@ -103,13 +96,28 @@ proxies:
   uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
 - alterId: 0
   cipher: auto
-  name: 13|KZ_分享日记_4
-  network: tcp
-  port: 16179
+  name: 13|JP_分享日记_16
+  network: ws
+  port: 2052
+  server: 47.74.34.38
+  tls: false
+  type: vmess
+  uuid: 039fc4e4-92b0-489c-a7c3-d02d40eaa551
+  ws-opts:
+    headers:
+      Host: jpyouyou.mac2winer.cfd
+    path: /039fc4e4
+- alterId: 0
+  cipher: auto
+  name: 13|KZ_分享日记_1
+  network: ws
+  port: 38409
   server: 45.152.84.131
   tls: false
   type: vmess
-  uuid: d95078fa-9968-49fb-f505-78ccd01faa92
+  uuid: d66c585d-a91b-42a5-ca25-c1c331c23d09
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
