@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8e44ae3a-94e9-433a-89b2-85fbf8b1d132
+  uuid: 7810d991-892a-49d4-9f5d-7637f3230856
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8e44ae3a-94e9-433a-89b2-85fbf8b1d132
+  uuid: 7810d991-892a-49d4-9f5d-7637f3230856
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,21 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 8e44ae3a-94e9-433a-89b2-85fbf8b1d132
+  uuid: 7810d991-892a-49d4-9f5d-7637f3230856
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇸🇬 SG-146.190.84.34...
+  network: ws
+  port: 26012
+  server: 146.190.84.34
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 695bc422-4dc8-4d8c-8457-26e18c2421b4
+  ws-opts:
+    headers:
+      Host: tiktok.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|新加坡 001
@@ -52,7 +66,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a345caad-fad5-4503-b1de-ca0d36d06b15
+  uuid: 60e51218-e571-41ce-b32a-1dfc2216f21c
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -62,7 +76,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a345caad-fad5-4503-b1de-ca0d36d06b15
+  uuid: 60e51218-e571-41ce-b32a-1dfc2216f21c
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -72,24 +86,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a345caad-fad5-4503-b1de-ca0d36d06b15
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|新加坡|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 1b06158a-ea35-4e54-885d-d1eb61f34278
-  ws-opts:
-    headers:
-      Host: jpafzyhfsg3.yofnhkfc.xyz
-    path: /video/u4eCZTxW
+  uuid: 60e51218-e571-41ce-b32a-1dfc2216f21c
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
