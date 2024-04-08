@@ -69,7 +69,46 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 44c51223-5d2b-416e-b3c5-d760643b2e9e
+  uuid: 28baad8f-e896-41b7-90c0-b0e611c0ec92
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 014
+  network: ws
+  port: '2083'
+  server: 104.19.120.119
+  tls: true
+  type: vmess
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: cache-1.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 023
+  network: ws
+  port: '443'
+  server: 104.19.67.174
+  tls: true
+  type: vmess
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: cache-2.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 022
+  network: ws
+  port: '443'
+  server: 104.17.193.38
+  tls: true
+  type: vmess
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: data-2.cn-db.top
+    path: /db00
 - alterId: 0
   cipher: auto
   name: 13|加拿大 009
@@ -86,6 +125,86 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
+  name: 13|🇨🇦 加拿大 013
+  network: ws
+  port: '443'
+  server: 104.17.11.193
+  tls: true
+  type: vmess
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: cache-2.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 020
+  network: ws
+  port: 2053
+  server: 104.18.110.219
+  servername: cache-1.cn-db.top
+  tls: true
+  type: vmess
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: cache-1.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 015
+  network: ws
+  port: '2083'
+  server: 104.17.46.97
+  tls: true
+  type: vmess
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: data-1.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 024
+  network: ws
+  port: '2053'
+  server: 104.17.103.213
+  tls: true
+  type: vmess
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: cache-1.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 021
+  network: ws
+  port: 2083
+  server: 104.18.101.183
+  servername: data-1.cn-db.top
+  tls: true
+  type: vmess
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: data-1.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 018
+  network: ws
+  port: '2053'
+  server: 104.18.228.209
+  tls: true
+  type: vmess
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: data-2.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
   name: 13|加拿大 010
   network: ws
   port: 443
@@ -100,18 +219,17 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 001
+  name: 13|🇨🇦 加拿大 025
   network: ws
-  port: 2086
-  server: 104.21.4.14
-  servername: ''
-  tls: false
+  port: '2053'
+  server: 104.19.206.121
+  tls: true
   type: vmess
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
   ws-opts:
     headers:
-      Host: admin.arzonhost.ir
-    path: /
+      Host: data-1.cn-db.top
+    path: /db00
 - alterId: 0
   cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
@@ -121,4 +239,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a1d20e2d-48b9-4452-b676-2aa1eeeaf81b
+  uuid: d1135171-4db2-4b01-9c7f-68d329b4f472
