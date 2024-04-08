@@ -69,49 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f808b2ae-5419-4586-91d2-4535a8bc5c98
-- alterId: 0
-  cipher: auto
-  name: '13|Channel id: @ShadowProxy66 🇨🇦'
-  network: ws
-  port: '443'
-  server: 172.67.161.77
-  servername: linde06.indiavideo.sbs
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
-- alterId: 64
-  cipher: auto
-  name: 13|加拿大 047
-  network: ws
-  port: 443
-  server: v2ray.damaoooo.com
-  servername: v2ray.damaoooo.com
-  tls: true
-  type: vmess
-  uuid: 82f2a51f-488c-47b0-b223-d17f49d8660d
-  ws-opts:
-    headers:
-      Host: v2ray.damaoooo.com
-    path: /fuckgfw/
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 065
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  servername: 158.51.123.111
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
+  uuid: cab944b4-d967-464f-b176-7a65b73ff446
 - alterId: 0
   cipher: auto
   name: 13|加拿大 009
@@ -128,18 +86,18 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 016
+  name: 13|加拿大 010
   network: ws
-  port: 80
-  server: 104.19.245.201
-  servername: ''
-  tls: false
+  port: 443
+  server: 158.51.123.111
+  servername: 158.51.123.111
+  tls: true
   type: vmess
-  uuid: 1b06158a-ea35-4e54-885d-d1eb61f34278
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: agzbjszujp4.yofnhkfc.xyz
-    path: /video/ibCT6z55
+      Host: ''
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 13|加拿大 001
@@ -156,20 +114,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 057
-  network: ws
-  port: 443
-  server: 104.21.20.155
-  servername: hdfy6c3.foriran.trade
-  tls: true
-  type: vmess
-  uuid: 4804f14b-c1f8-452d-a6ec-eff1490aeac9
-  ws-opts:
-    headers:
-      Host: hdfy6c3.foriran.trade
-    path: /lRkGCkYS9X5GDNJYMWXN7kCm3lL
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -177,4 +121,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1736725b-0a1d-445f-970c-991b91d53565
+  uuid: 248a7590-d285-416f-8e06-d95e6ed0f990

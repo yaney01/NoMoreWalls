@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f808b2ae-5419-4586-91d2-4535a8bc5c98
+  uuid: cab944b4-d967-464f-b176-7a65b73ff446
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f808b2ae-5419-4586-91d2-4535a8bc5c98
+  uuid: cab944b4-d967-464f-b176-7a65b73ff446
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,29 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f808b2ae-5419-4586-91d2-4535a8bc5c98
-- alterId: 0
-  cipher: auto
-  name: 13|KZ_分享日记_3
-  network: tcp
-  port: 16179
-  server: 45.152.84.131
-  tls: false
-  type: vmess
-  uuid: d95078fa-9968-49fb-f505-78ccd01faa92
-- alterId: 0
-  cipher: auto
-  name: 13|RU_分享日记_6
-  network: ws
-  port: 443
-  server: 194.76.18.0
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: kittiy.sbs
-    path: /linkvws
+  uuid: cab944b4-d967-464f-b176-7a65b73ff446
 - alterId: 0
   cipher: auto
   name: 13|NL_分享日记_1
@@ -66,6 +44,78 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
+  name: 13|RU_分享日记_6
+  network: ws
+  port: 443
+  server: 194.76.18.0
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: kittiy.sbs
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
+  network: tcp
+  port: '14935'
+  server: 167.179.111.237
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e961894f-8e90-472f-98d3-09402e4be453
+- alterId: 0
+  cipher: auto
+  name: 13|RU_分享日记_4
+  network: tcp
+  port: 47555
+  server: 46.29.166.237
+  tls: false
+  type: vmess
+  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
+- alterId: 0
+  cipher: auto
+  name: 13|VN_分享日记
+  network: ws
+  port: 80
+  server: max26.flash5g.com
+  tls: false
+  type: vmess
+  uuid: 4e25f91f-603c-4e83-b002-c26030757816
+  ws-opts:
+    headers:
+      Host: max26.flash5g.com
+    path: /AnhBin
+- alterId: 0
+  cipher: auto
+  name: 13|JP_分享日记_1
+  network: ws
+  port: 2052
+  server: 47.74.34.38
+  tls: false
+  type: vmess
+  uuid: 039fc4e4-92b0-489c-a7c3-d02d40eaa551
+  ws-opts:
+    headers:
+      Host: jpyouyou.mac2winer.cfd
+    path: /039fc4e4
+- alterId: 0
+  cipher: auto
+  name: 13|日本 001
+  network: ws
+  port: 8080
+  server: kkyx.yydsii.com
+  servername: kkyx.yydsii.com
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 13|CR_分享日记_1
   network: ws
   port: 443
@@ -79,17 +129,13 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 13|JP_分享日记_20
-  network: ws
-  port: 2052
-  server: 47.74.34.38
+  name: 13|KZ_分享日记_3
+  network: tcp
+  port: 16179
+  server: 45.152.84.131
   tls: false
   type: vmess
-  uuid: 039fc4e4-92b0-489c-a7c3-d02d40eaa551
-  ws-opts:
-    headers:
-      Host: jpyouyou.mac2winer.cfd
-    path: /039fc4e4
+  uuid: d95078fa-9968-49fb-f505-78ccd01faa92
 - alterId: 0
   cipher: auto
   name: 13|AU_分享日记_2
@@ -117,63 +163,6 @@ proxies:
     path: /bb
 - alterId: 0
   cipher: auto
-  name: 13|KZ_分享日记_5
-  network: ws
-  port: 38409
-  server: 45.152.84.131
-  tls: false
-  type: vmess
-  uuid: d66c585d-a91b-42a5-ca25-c1c331c23d09
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|RU_分享日记_4
-  network: tcp
-  port: 47555
-  server: 46.29.166.237
-  tls: false
-  type: vmess
-  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
-- alterId: 0
-  cipher: auto
-  name: 13|VN_分享日记
-  network: ws
-  port: 80
-  server: max26.flash5g.com
-  tls: false
-  type: vmess
-  uuid: 4e25f91f-603c-4e83-b002-c26030757816
-  ws-opts:
-    headers:
-      Host: max26.flash5g.com
-    path: /AnhBin
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
-  network: tcp
-  port: '14935'
-  server: 167.179.111.237
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e961894f-8e90-472f-98d3-09402e4be453
-- alterId: 0
-  cipher: auto
-  name: 13|日本 001
-  network: ws
-  port: 8080
-  server: kkyx.yydsii.com
-  servername: kkyx.yydsii.com
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
   network: tcp
   port: '31116'
@@ -181,7 +170,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1736725b-0a1d-445f-970c-991b91d53565
+  uuid: 248a7590-d285-416f-8e06-d95e6ed0f990
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -191,7 +180,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1736725b-0a1d-445f-970c-991b91d53565
+  uuid: 248a7590-d285-416f-8e06-d95e6ed0f990
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -201,7 +190,24 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1736725b-0a1d-445f-970c-991b91d53565
+  uuid: 248a7590-d285-416f-8e06-d95e6ed0f990
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|日本2|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 1b06158a-ea35-4e54-885d-d1eb61f34278
+  ws-opts:
+    headers:
+      Host: agzbjszujp4.yofnhkfc.xyz
+    path: /video/ibCT6z55
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
