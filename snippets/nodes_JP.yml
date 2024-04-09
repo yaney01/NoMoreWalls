@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0da0b866-d643-4865-8936-61bf152622bc
+  uuid: b1f43d71-1f26-42a4-9fa7-4fe3c6fc3dd5
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0da0b866-d643-4865-8936-61bf152622bc
+  uuid: b1f43d71-1f26-42a4-9fa7-4fe3c6fc3dd5
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,95 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0da0b866-d643-4865-8936-61bf152622bc
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-152.69.197.6...
-  network: tcp
-  port: 1069
-  server: 152.69.197.60
-  tls: false
-  type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
-- alterId: 0
-  cipher: auto
-  name: 13|KZ_分享日记_2
-  network: tcp
-  port: 16179
-  server: 45.152.84.131
-  tls: false
-  type: vmess
-  uuid: d95078fa-9968-49fb-f505-78ccd01faa92
-- alterId: 0
-  cipher: auto
-  name: 13|LT_分享日记_1
-  network: ws
-  port: 45979
-  server: 89.117.12.88
-  tls: false
-  type: vmess
-  uuid: 23bdf6df-c482-46d0-c0f4-5a98d534ea11
-  ws-opts:
-    path: /test
-- alterId: 0
-  cipher: auto
-  name: 13|JP_分享日记_1
-  network: tcp
-  port: 14935
-  server: 167.179.111.237
-  tls: false
-  type: vmess
-  uuid: e961894f-8e90-472f-98d3-09402e4be453
-- alterId: 0
-  cipher: auto
-  name: 13|CZ_分享日记_3
-  network: ws
-  port: 2082
-  server: 77.75.230.125
-  tls: false
-  type: vmess
-  uuid: d466dd36-8b86-48b7-b0f0-67e7d128de6c
-  ws-opts:
-    headers:
-      Host: 77.75.230.125
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 13|NL_分享日记_6
-  network: ws
-  port: 80
-  server: 91.242.229.77
-  tls: false
-  type: vmess
-  uuid: 56890326-df58-432d-be1e-67064e2b4355
-  ws-opts:
-    headers:
-      Host: 91.242.229.77
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 13|RU_分享日记_8
-  network: ws
-  port: 443
-  server: 45.154.3.165
-  tls: false
-  type: vmess
-  uuid: 6f2d966b-095a-446b-d36e-7a49770fb7e4
-  ws-opts:
-    headers:
-      Host: 45.154.3.165
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: 13|KZ_分享日记_5
-  network: ws
-  port: 38409
-  server: 45.152.84.131
-  tls: false
-  type: vmess
-  uuid: d66c585d-a91b-42a5-ca25-c1c331c23d09
-  ws-opts:
-    path: /
+  uuid: b1f43d71-1f26-42a4-9fa7-4fe3c6fc3dd5
 - alterId: 0
   cipher: auto
   name: 13|CR_分享日记_1
@@ -132,16 +44,56 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 13|FI_分享日记
-  network: ws
-  port: 80
-  server: 77.91.103.47
+  name: 13|IR_分享日记
+  network: tcp
+  port: 52361
+  server: 91.107.137.180
   tls: false
   type: vmess
-  uuid: 09e35fe0-2efd-44c1-96fb-46b7b3cc28eb
+  uuid: e5625c1e-96af-494d-ad26-b15a036c57a0
+- alterId: 0
+  cipher: auto
+  name: 13|RU_分享日记_4
+  network: tcp
+  port: 47555
+  server: 46.29.166.237
+  tls: false
+  type: vmess
+  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
+- alterId: 0
+  cipher: auto
+  name: 13|RU_分享日记_2
+  network: ws
+  port: 443
+  server: 194.76.18.0
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: fi1.xv2ray.net
+      Host: kittiy.sbs
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|KZ_分享日记_2
+  network: tcp
+  port: 16179
+  server: 45.152.84.131
+  tls: false
+  type: vmess
+  uuid: d95078fa-9968-49fb-f505-78ccd01faa92
+- alterId: 0
+  cipher: auto
+  name: 13|NL_分享日记_6
+  network: ws
+  port: 80
+  server: 91.242.229.77
+  tls: false
+  type: vmess
+  uuid: 56890326-df58-432d-be1e-67064e2b4355
+  ws-opts:
+    headers:
+      Host: 91.242.229.77
     path: /vmess
 - alterId: 0
   cipher: auto
@@ -158,52 +110,16 @@ proxies:
     path: /AnhBin
 - alterId: 0
   cipher: auto
-  name: 13|NL_分享日记_2
-  network: ws
-  port: 2086
-  server: 91.242.229.69
-  tls: false
-  type: vmess
-  uuid: 88c216b8-56c6-4f34-bcfd-e198ce11f7d6
-  ws-opts:
-    headers:
-      Host: 91.242.229.69
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 13|RU_分享日记_4
-  network: tcp
-  port: 47555
-  server: 46.29.166.237
-  tls: false
-  type: vmess
-  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇯🇵 JP-152.69.197.74...
-  network: ws
-  port: 12345
-  server: 152.69.197.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    headers:
-      Host: ''
-    path: /bb
-- alterId: 0
-  cipher: auto
-  name: 13|CZ_分享日记_1
+  name: 13|FI_分享日记
   network: ws
   port: 80
-  server: 77.75.230.125
+  server: 77.91.103.47
   tls: false
   type: vmess
-  uuid: d466dd36-8b86-48b7-b0f0-67e7d128de6c
+  uuid: 09e35fe0-2efd-44c1-96fb-46b7b3cc28eb
   ws-opts:
     headers:
-      Host: 77.75.230.125
+      Host: fi1.xv2ray.net
     path: /vmess
 - alterId: 0
   cipher: auto
@@ -218,17 +134,39 @@ proxies:
     path: /cctv13/hd.m3u8/
 - alterId: 0
   cipher: auto
-  name: 13|RU_分享日记_2
+  name: 13|LT_分享日记_1
+  network: ws
+  port: 45979
+  server: 89.117.12.88
+  tls: false
+  type: vmess
+  uuid: 23bdf6df-c482-46d0-c0f4-5a98d534ea11
+  ws-opts:
+    path: /test
+- alterId: 0
+  cipher: auto
+  name: 13|JP_分享日记_9
+  network: ws
+  port: 12345
+  server: 152.69.197.74
+  tls: false
+  type: vmess
+  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
+  ws-opts:
+    path: /bb
+- alterId: 0
+  cipher: auto
+  name: 13|RU_分享日记_8
   network: ws
   port: 443
-  server: 194.76.18.0
-  tls: true
+  server: 45.154.3.165
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 6f2d966b-095a-446b-d36e-7a49770fb7e4
   ws-opts:
     headers:
-      Host: kittiy.sbs
-    path: /linkvws
+      Host: 45.154.3.165
+    path: /ray
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
@@ -238,7 +176,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b431faaa-7ef9-4e92-9be6-598d6570e3d7
+  uuid: ce21064d-db6e-4cf7-b443-ed4a5ee57a26
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -248,7 +186,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b431faaa-7ef9-4e92-9be6-598d6570e3d7
+  uuid: ce21064d-db6e-4cf7-b443-ed4a5ee57a26
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -258,7 +196,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b431faaa-7ef9-4e92-9be6-598d6570e3d7
+  uuid: ce21064d-db6e-4cf7-b443-ed4a5ee57a26
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
