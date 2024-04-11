@@ -69,19 +69,103 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: dea15276-f9ff-4503-b3cd-4d61a86ae15f
+  uuid: 97be9f13-01de-4d0f-9bd3-1f77f91b8d19
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦 加拿大 025
+  name: 13|加拿大 024
+  network: ws
+  port: 443
+  server: gur.gov.ua
+  servername: ru.sxmzkfyy.com
+  tls: true
+  type: vmess
+  uuid: fa2ad4c5-63ba-45f0-8926-12fcce49ded1
+  ws-opts:
+    headers:
+      Host: ru.sxmzkfyy.com
+    path: /VK4yTEQZ/
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 038
+  network: ws
+  port: '2083'
+  server: 104.18.215.164
+  tls: true
+  type: vmess
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: data-1.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: '13|Channel id: @ShadowProxy66 🇨🇦'
   network: ws
   port: '443'
-  server: 104.26.10.60
+  server: 162.159.192.83
+  servername: nina.bond
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: meroiy.icu
+      Host: nina.bond
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 006
+  network: ws
+  port: 443
+  server: 23.162.200.227
+  servername: 23.162.200.227
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NA 🇨🇦 CA-104.234.69.24...
+  network: ws
+  port: 53259
+  server: 104.234.69.243
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4dd6c192-8284-4504-9dee-5ca7da27069b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 004
+  network: ws
+  port: 443
+  server: 158.51.121.36
+  servername: 158.51.121.36
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '13|Channel id: @ShadowProxy66 🇨🇦 #1'
+  network: ws
+  port: '443'
+  server: 172.67.155.66
+  servername: melisa.lol
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: melisa.lol
     path: /linkvws
 - alterId: 0
   cipher: auto
@@ -99,116 +183,72 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '13|Channel id: @ShadowProxy66 🇨🇦'
+  name: 13|加拿大 030
   network: ws
-  port: '443'
-  server: upload.ir
-  servername: pl1-vmess.sshmax.xyz
+  port: 2083
+  server: 104.17.100.64
+  servername: data-1.cn-db.top
   tls: true
   type: vmess
-  uuid: 33653184-91f3-4f3f-b707-2fc21e9adeb8
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
   ws-opts:
     headers:
-      Host: pl1-vmess.sshmax.xyz
-    path: /vmess
+      Host: data-1.cn-db.top
+    path: /db00
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 006
+  name: 13|🇨🇦 加拿大 027
+  network: ws
+  port: '2053'
+  server: 104.18.65.179
+  tls: true
+  type: vmess
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: data-2.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 036
+  network: ws
+  port: '2083'
+  server: 104.18.211.13
+  tls: true
+  type: vmess
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: data-2.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 025
   network: ws
   port: 443
-  server: 23.162.200.227
-  servername: 23.162.200.227
+  server: 104.26.10.60
+  servername: meroiy.icu
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: ''
+      Host: meroiy.icu
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '13|Channel id: @ShadowProxy66 🇨🇦 #1'
+  name: 13|加拿大 028
   network: ws
-  port: '443'
-  server: kristin.makeup
-  servername: kristin.makeup
+  port: 2053
+  server: 104.17.174.231
+  servername: cache-2.cn-db.top
   tls: true
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
   ws-opts:
     headers:
-      Host: kristin.makeup
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: '13|Channel id: @ShadowProxy66 🇨🇦 #2'
-  network: ws
-  port: '443'
-  server: 198.41.196.0
-  servername: nelly.homes
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: nelly.homes
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 024
-  network: ws
-  port: 443
-  server: gur.gov.ua
-  servername: ru.sxmzkfyy.com
-  tls: true
-  type: vmess
-  uuid: fa2ad4c5-63ba-45f0-8926-12fcce49ded1
-  ws-opts:
-    headers:
-      Host: ru.sxmzkfyy.com
-    path: /VK4yTEQZ/
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 004
-  network: ws
-  port: 443
-  server: 158.51.121.36
-  servername: 158.51.121.36
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: '13|Channel id: @ShadowProxy66 🇨🇦 #3'
-  network: ws
-  port: '443'
-  server: 104.21.44.64
-  servername: kellie.makeup
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: kellie.makeup
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 026
-  network: ws
-  port: 443
-  server: www.speedtest.net
-  servername: nina.bond
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: nina.bond
-    path: /linkvws
+      Host: cache-2.cn-db.top
+    path: /db00
 - alterId: 0
   cipher: auto
   name: 13|加拿大 005
@@ -225,6 +265,33 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
+  name: 13|🇨🇦 加拿大 026
+  network: ws
+  port: '443'
+  server: www.speedtest.net
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: nina.bond
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 029
+  network: ws
+  port: 443
+  server: 104.19.6.88
+  servername: cache-1.cn-db.top
+  tls: true
+  type: vmess
+  uuid: 4f574408-dfef-338a-a7d9-f7d1e70ff8d9
+  ws-opts:
+    headers:
+      Host: cache-1.cn-db.top
+    path: /db00
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -232,4 +299,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0e484d4a-43d7-4ee0-8c80-4c8e9629f439
+  uuid: f496492d-e0ae-4596-936c-1e2eff2f5d50
