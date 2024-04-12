@@ -1,33 +1,37 @@
 proxies:
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港KT|@ripaojiedian
-  password: a-wym4ovY4Yw
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: ''
-    mode: websocket
-    mux: true
-    path: ''
-    skip-cert-verify: true
-    tls: false
-  port: 443
-  server: 42.98.119.98
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
+  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.76.35.246:...
+  network: ws
+  port: 24101
+  server: 47.76.35.246
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 64
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本4|@ripaojiedian
-  password: ZCqpeNxYA8Z3YDCX83743lBS9IwaynuFDTjKRlp0e2a3RDxzC6cEgFSySOAaO5
-  port: 28333
-  server: claydol.superpokemon.com
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  port: 41492
+  server: 120.232.242.117
   skip-cert-verify: false
-  sni: claydol.superpokemon.com
   tfo: false
   tls: false
-  type: trojan
-  uuid: 8a082903-6e40-4307-b73b-d0d26791c771
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: a-wym4ovY4Yw
+  port: 81
+  server: 8.210.201.82
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -45,12 +49,28 @@ proxies:
     headers:
       Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  network: ws
+  port: 47931
+  server: zf.lalayun.cyou
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b1553abe-6f1f-3288-bfc2-908b2f9fc4fc
+  ws-opts:
+    headers:
+      Host: hk.lalayunssl.xyz
+    path: /v2ray
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港7|@ripaojiedian
   password: a-wym4ovY4Yw
   port: 80
-  server: 1.65.197.10
+  server: 1.36.223.86
   tfo: false
   type: ss
 - alterId: 64
