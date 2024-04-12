@@ -52,10 +52,11 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
+  name: 15,16|香港6|@ripaojiedian
   network: ws
-  port: 47931
+  port: '47931'
   server: zf.lalayun.cyou
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -103,13 +104,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 16|香港4|@ripaojiedian
-  network: tcp
-  port: '45861'
-  server: xctransfer1st.cokecloud.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8a082903-6e40-4307-b73b-d0d26791c771

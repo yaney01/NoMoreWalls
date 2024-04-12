@@ -215,7 +215,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6e96b75a-9f37-493b-9da1-f0be2ab1afd9
+  uuid: 4385ddc7-8729-43e1-bd72-c162642a37de
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -225,7 +225,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6e96b75a-9f37-493b-9da1-f0be2ab1afd9
+  uuid: 4385ddc7-8729-43e1-bd72-c162642a37de
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -235,7 +235,7 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6e96b75a-9f37-493b-9da1-f0be2ab1afd9
+  uuid: 4385ddc7-8729-43e1-bd72-c162642a37de
 - alterId: 0
   cipher: auto
   name: 11|美国 CloudFlare节点
@@ -1086,7 +1086,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8e8f2e62-083c-499e-b4ad-cf07fe3b3fc7
+  uuid: 1233f4f9-780b-471a-8a59-b484a3ae5a40
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -1096,7 +1096,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8e8f2e62-083c-499e-b4ad-cf07fe3b3fc7
+  uuid: 1233f4f9-780b-471a-8a59-b484a3ae5a40
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -1106,14 +1106,15 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8e8f2e62-083c-499e-b4ad-cf07fe3b3fc7
+  uuid: 1233f4f9-780b-471a-8a59-b484a3ae5a40
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇺🇸 美国|@ripaojiedian
+  name: 15,16|美国|@ripaojiedian
   network: ws
-  port: 2086
+  port: '2086'
   server: mizban.arzonhost.ir
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -1134,10 +1135,11 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇺🇸 美国3|@ripaojiedian
+  name: 15,16|美国3|@ripaojiedian
   network: ws
-  port: 8880
+  port: '8880'
   server: cfcdn1.sanfencdn9.com
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -1155,20 +1157,6 @@ proxies:
   server: 167.88.61.159
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|美国2|@ripaojiedian
-  network: ws
-  port: '2095'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 474413f9-3c15-493f-88b2-50e0c4702dde
-  ws-opts:
-    headers:
-      Host: us82pRzxDMb.fzbqfrse.xyz
-    path: /video/qYZue4zaWS
 - alterId: 0
   cipher: auto
   name: 16|美国5|@ripaojiedian

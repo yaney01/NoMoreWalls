@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6e96b75a-9f37-493b-9da1-f0be2ab1afd9
+  uuid: 4385ddc7-8729-43e1-bd72-c162642a37de
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6e96b75a-9f37-493b-9da1-f0be2ab1afd9
+  uuid: 4385ddc7-8729-43e1-bd72-c162642a37de
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6e96b75a-9f37-493b-9da1-f0be2ab1afd9
+  uuid: 4385ddc7-8729-43e1-bd72-c162642a37de
 - alterId: 0
   cipher: auto
   name: 13|RU_分享日记
@@ -227,7 +227,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8e8f2e62-083c-499e-b4ad-cf07fe3b3fc7
+  uuid: 1233f4f9-780b-471a-8a59-b484a3ae5a40
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -237,7 +237,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8e8f2e62-083c-499e-b4ad-cf07fe3b3fc7
+  uuid: 1233f4f9-780b-471a-8a59-b484a3ae5a40
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -247,7 +247,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 8e8f2e62-083c-499e-b4ad-cf07fe3b3fc7
+  uuid: 1233f4f9-780b-471a-8a59-b484a3ae5a40
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -268,7 +268,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 474413f9-3c15-493f-88b2-50e0c4702dde
+  uuid: e7bd848c-c1c9-40a4-b1d9-eba048a340c5
   ws-opts:
     headers:
       Host: wtywwcrzjp5.yofnhkfc.xyz
@@ -276,9 +276,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
+  name: 15,16|日本3|@ripaojiedian
   network: ws
-  port: 8080
+  port: '8080'
   server: 87.120.204.6
   servername: jp-10.trollfunny.net
   skip-cert-verify: false
@@ -287,6 +287,8 @@ proxies:
   type: vmess
   uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
   ws-opts:
+    headers:
+      Host: ''
     path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
@@ -296,17 +298,3 @@ proxies:
   server: 43.201.47.36
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|日本3|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: 87.120.204.161
-  servername: jp-4.trollfunny.net
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
