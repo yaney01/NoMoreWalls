@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 02159988-bc94-4f96-8728-e100539e1572
+  uuid: ee89398e-a68a-4b1d-a8aa-50d68abd8ebd
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 02159988-bc94-4f96-8728-e100539e1572
+  uuid: ee89398e-a68a-4b1d-a8aa-50d68abd8ebd
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 02159988-bc94-4f96-8728-e100539e1572
+  uuid: ee89398e-a68a-4b1d-a8aa-50d68abd8ebd
 - alterId: 0
   cipher: auto
   name: 13|RU_分享日记
@@ -165,7 +165,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 224cb0a5-c22e-4e4a-a513-aea5432a207f
+  uuid: 7eaea99f-ca10-4e11-8acb-a7f4309157b0
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -175,7 +175,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 224cb0a5-c22e-4e4a-a513-aea5432a207f
+  uuid: 7eaea99f-ca10-4e11-8acb-a7f4309157b0
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -185,12 +185,12 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 224cb0a5-c22e-4e4a-a513-aea5432a207f
+  uuid: 7eaea99f-ca10-4e11-8acb-a7f4309157b0
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
+  name: 15|🇯🇵 日本1|@ripaojiedian
   password: 4feb33c2-cb06-4371-a572-243d47b789d9
-  port: 26668
+  port: 50005
   server: ddns.olucloud.subapi.cc
   tfo: false
   type: ss
@@ -211,28 +211,21 @@ proxies:
     headers:
       Host: wtywwcrzjp5.yofnhkfc.xyz
     path: /video/9TfVEyku
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|日本3|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: 87.120.204.6
-  servername: jp-10.trollfunny.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: bdd22841-c4d2-4aa8-acf2-95aa9125f159
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.201.47.36
+  server: 18.183.77.187
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|日本|@ripaojiedian
+  network: tcp
+  port: '13820'
+  server: c76s4.portablesubmarines.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f094f632-5113-4f1c-8398-25077be216b0
