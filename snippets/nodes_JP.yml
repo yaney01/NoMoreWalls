@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 71e83558-3315-4ba7-a271-67356ecd6476
+  uuid: 7108420d-7bd2-437b-a914-a52337388c6e
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 71e83558-3315-4ba7-a271-67356ecd6476
+  uuid: 7108420d-7bd2-437b-a914-a52337388c6e
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,21 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 71e83558-3315-4ba7-a271-67356ecd6476
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇯🇵 JP-152.69.197.74...
-  network: ws
-  port: '12345'
-  server: 152.69.197.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
-  ws-opts:
-    headers:
-      Host: ''
-    path: /bb
+  uuid: 7108420d-7bd2-437b-a914-a52337388c6e
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇯🇵 JP-167.179.111....
@@ -65,6 +51,20 @@ proxies:
   uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
 - alterId: 0
   cipher: auto
+  name: 13|🔒 VM-WS-NA 🇯🇵 JP-152.69.197.74...
+  network: ws
+  port: '12345'
+  server: 152.69.197.74
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
+  ws-opts:
+    headers:
+      Host: ''
+    path: /bb
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
   network: tcp
   port: '31116'
@@ -72,7 +72,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: dc912e6a-80f0-46fb-b780-7033fb3238b8
+  uuid: 6a3ab681-f7d8-4bc1-aca1-9efbd8d46d52
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -82,7 +82,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: dc912e6a-80f0-46fb-b780-7033fb3238b8
+  uuid: 6a3ab681-f7d8-4bc1-aca1-9efbd8d46d52
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -92,7 +92,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: dc912e6a-80f0-46fb-b780-7033fb3238b8
+  uuid: 6a3ab681-f7d8-4bc1-aca1-9efbd8d46d52
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
