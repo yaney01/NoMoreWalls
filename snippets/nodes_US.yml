@@ -214,7 +214,7 @@ proxies:
   servername: us04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 00a7bbe5-0370-4b43-a0fd-d98e309f36a8
+  uuid: e8442f34-ee77-4436-93d1-e45bf19ed708
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国05
@@ -224,7 +224,7 @@ proxies:
   servername: us05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 00a7bbe5-0370-4b43-a0fd-d98e309f36a8
+  uuid: e8442f34-ee77-4436-93d1-e45bf19ed708
 - alterId: 0
   cipher: auto
   name: 10|🇺🇸美国06
@@ -234,21 +234,33 @@ proxies:
   servername: us06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 00a7bbe5-0370-4b43-a0fd-d98e309f36a8
+  uuid: e8442f34-ee77-4436-93d1-e45bf19ed708
 - alterId: 0
   cipher: auto
-  name: 11,13|🇺🇸 美国 CloudFlare节点
+  name: '11,13|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
   network: ws
-  port: '80'
-  server: 172.64.104.182
-  servername: ''
+  port: 2086
+  server: admin.arzonhost.ir
   tls: false
   type: vmess
-  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
   ws-opts:
     headers:
-      Host: fr.grpc.gay
-    path: /rongseven?ed=2048
+      Host: admin.arzonhost.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #1'
+  network: ws
+  port: 80
+  server: beijing.mfa.ee
+  tls: false
+  type: vmess
+  uuid: d39a347a-00c9-4f91-9255-7f536c07c5a8
+  ws-opts:
+    headers:
+      Host: open.alipay.ovh
+    path: /aries?ed=2048
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -268,70 +280,6 @@ proxies:
     path: /video/P7EExoE2
 - alterId: 0
   cipher: auto
-  name: '11,13|🇺🇸_US_美国 #23'
-  network: ws
-  port: 80
-  server: us219.netfilx.live
-  tls: false
-  type: vmess
-  uuid: 1e65ec6d-9a42-4cd0-8c51-63030970134f
-  ws-opts:
-    headers:
-      Host: us219.netfilx.live
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,13|🇺🇸|US|美国|@wxgqlfx|182
-  network: ws
-  port: '2086'
-  server: 172.67.223.242
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
-  ws-opts:
-    headers:
-      Host: admin.arzonhost.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,13|美国 002
-  network: ws
-  port: 443
-  server: 23.154.136.2
-  servername: 23.154.136.2
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 11,13|🫖29@oneclickvpnkeys
-  network: ws
-  port: '8080'
-  server: kkyx.yydsii.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|美国 华盛顿Cogent通信公司
-  network: tcp
-  port: 22324
-  server: 38.75.137.27
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
   name: 11,12|github.com/freefq - 美国CloudFla...
   network: ws
   port: 8080
@@ -342,6 +290,100 @@ proxies:
   ws-opts:
     headers:
       Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,13|✅20@oneclickvpnkeys
+  network: ws
+  port: '80'
+  server: 104.19.35.187
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 89d4fac6-0ef2-4855-92ce-f454b7154202
+  ws-opts:
+    headers:
+      Host: mix.tgdns68.vps666.onflashdrive.app
+    path: /TG@dns68公益节点
+- alterId: 0
+  cipher: auto
+  name: 11,13|🇺🇸|US|美国|@wxgqlfx|159
+  network: ws
+  port: '2052'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e7bd848c-c1c9-40a4-b1d9-eba048a340c5
+  ws-opts:
+    headers:
+      Host: wtywwcrzjp5.yofnhkfc.xyz
+    path: /video/9TfVEyku
+- alterId: 0
+  cipher: auto
+  name: '11,13|VPN招代理电报联系@litata2022 #1'
+  network: ws
+  port: 2086
+  server: mizban.arzonhost.ir
+  tls: false
+  type: vmess
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
+  ws-opts:
+    headers:
+      Host: mizban.arzonhost.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,13|加拿大 047
+  network: ws
+  port: 2052
+  server: 104.18.113.56
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e7bd848c-c1c9-40a4-b1d9-eba048a340c5
+  ws-opts:
+    headers:
+      Host: wtywwcrzjp5.yofnhkfc.xyz
+    path: /video/9TfVEyku
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #8'
+  network: ws
+  port: 80
+  server: www.speedtest.net
+  tls: false
+  type: vmess
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    headers:
+      Host: us4e-20240111.v2freevpn.com
+    path: /v149-dskds65
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #9'
+  network: ws
+  port: 2052
+  server: lol.ps
+  tls: false
+  type: vmess
+  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /afrhms16v.bestxray.buzz/linkws
+- alterId: 0
+  cipher: auto
+  name: '11,13|🇺🇸_US_美国 #23'
+  network: ws
+  port: 80
+  server: us219.netfilx.live
+  tls: false
+  type: vmess
+  uuid: 1e65ec6d-9a42-4cd0-8c51-63030970134f
+  ws-opts:
+    headers:
+      Host: us219.netfilx.live
     path: /
 - alterId: 0
   cipher: auto
@@ -496,6 +538,20 @@ proxies:
     path: /VPNHOMES
 - alterId: 0
   cipher: auto
+  name: 13|🇺🇸|US|美国|@wxgqlfx|182
+  network: ws
+  port: '2086'
+  server: 172.67.223.242
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  ws-opts:
+    headers:
+      Host: admin.arzonhost.ir
+    path: /
+- alterId: 0
+  cipher: auto
   name: 13|🔒 VM-TCP-NA 🇺🇸 US-45.76.18.197...
   network: tcp
   port: '20703'
@@ -504,6 +560,19 @@ proxies:
   tls: false
   type: vmess
   uuid: ae710bf3-229a-4f31-d990-971b831c8985
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸 美国 CloudFlare节点
+  network: ws
+  port: '80'
+  server: 172.64.104.182
+  tls: false
+  type: vmess
+  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
+  ws-opts:
+    headers:
+      Host: fr.grpc.gay
+    path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇺🇸 US-104.207.133....
@@ -665,18 +734,18 @@ proxies:
   uuid: a36d5f0e-f529-4c83-9279-f4c4ce557031
 - alterId: 0
   cipher: auto
-  name: 13|🇺🇸|US|美国|@wxgqlfx|159
+  name: 13|美国 002
   network: ws
-  port: '2052'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  tls: false
+  port: 443
+  server: 23.154.136.2
+  servername: 23.154.136.2
+  tls: true
   type: vmess
-  uuid: e7bd848c-c1c9-40a4-b1d9-eba048a340c5
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: wtywwcrzjp5.yofnhkfc.xyz
-    path: /video/9TfVEyku
+      Host: ''
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 13|美国 V2CROSS.COM
@@ -756,7 +825,7 @@ proxies:
   servername: us04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0508cc3f-561f-48f8-97f9-6651251dd4b5
+  uuid: 0dc05032-54ad-4b7d-80e5-d75ab7fce6d0
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 05 | 1x US
@@ -766,7 +835,7 @@ proxies:
   servername: us05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0508cc3f-561f-48f8-97f9-6651251dd4b5
+  uuid: 0dc05032-54ad-4b7d-80e5-d75ab7fce6d0
 - alterId: 0
   cipher: auto
   name: 14|【BGP】美国 06 | 1x US
@@ -776,7 +845,7 @@ proxies:
   servername: us06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 0508cc3f-561f-48f8-97f9-6651251dd4b5
+  uuid: 0dc05032-54ad-4b7d-80e5-d75ab7fce6d0
 - alterId: 0
   cipher: auto
   name: 16|美国2|@ripaojiedian
