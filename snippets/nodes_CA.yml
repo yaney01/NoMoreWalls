@@ -69,7 +69,47 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1dcfd1f8-e1c6-42a0-b9ab-431c5ab59ba6
+  uuid: 6893628e-dc16-455e-b7b2-387dfc253372
+- alterId: 0
+  cipher: auto
+  name: 13|Canada_Vancouver_vmess_10144
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 040
+  network: ws
+  port: '443'
+  server: changupmecca.com
+  tls: true
+  type: vmess
+  uuid: dfbbc8de-8a4f-407d-8069-6de38d83c4e1
+  ws-opts:
+    headers:
+      Host: cpisub7.CPIForpERsiA.UK
+    path: /hdfy4c1.iraniancpi.uk/WgCmp8pxRWBtLTlTL
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 041
+  network: ws
+  port: '443'
+  server: nicoler.lol
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: nicoler.lol
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 13|CA_speednode_0002
@@ -86,44 +126,6 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 008
-  network: ws
-  port: 8080
-  server: 172.67.199.185
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 024
-  network: ws
-  port: 443
-  server: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
-  ws-opts:
-    headers:
-      Host: 1a2d514b-37cf-499f-8d08-d017a92ab5bb.asoul-ava.top
-    path: /azumase.ren
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
   name: 13|CA_speednode_0003
   network: ws
   port: 443
@@ -138,44 +140,17 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦 加拿大 067
-  network: ws
-  port: '2053'
-  server: u05.tk3322.com
-  tls: true
-  type: vmess
-  uuid: bf185479-64e1-42d5-a98f-f012c7376e2a
-  ws-opts:
-    headers:
-      Host: u05.tk3322.com
-    path: /u05
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦 加拿大
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- alterId: 0
-  cipher: auto
   name: '13|Channel id: @ShadowProxy66 🇨🇦'
   network: ws
   port: '443'
-  server: maviss.cfd
-  servername: ''
+  server: martina.quest
+  servername: martina.quest
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: ''
+      Host: martina.quest
     path: /linkvws
 - alterId: 0
   cipher: auto
@@ -186,4 +161,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 85a51dfc-26d7-45b7-b97f-b0092c5eb61e
+  uuid: 8d04d852-659e-470b-b88c-f6c6fa2f1b9d
