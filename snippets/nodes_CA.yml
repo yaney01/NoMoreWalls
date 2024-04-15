@@ -69,10 +69,10 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ef8f164f-68ba-4ee8-bbeb-71c8323ac3a0
+  uuid: e39edbd0-18e8-40ab-9077-6b3d435742c8
 - alterId: 0
   cipher: auto
-  name: 13|Canada_Vancouver_vmess_10144
+  name: 11,13|Canada_Vancouver_vmess_10144
   network: ws
   port: 443
   server: 158.51.123.111
@@ -154,6 +154,19 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
+  name: 13|🇨🇦 加拿大 009
+  network: ws
+  port: '2052'
+  server: 104.18.113.56
+  tls: false
+  type: vmess
+  uuid: e7bd848c-c1c9-40a4-b1d9-eba048a340c5
+  ws-opts:
+    headers:
+      Host: wtywwcrzjp5.yofnhkfc.xyz
+    path: /video/9TfVEyku
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -161,4 +174,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9978d28e-0e7e-4405-ab8e-49e842654148
+  uuid: 5611b36a-81e8-4dc9-bd32-2008ffc0853f
