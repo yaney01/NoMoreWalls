@@ -1,20 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.76.35.246:...
-  network: ws
-  port: '24101'
-  server: 47.76.35.246
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2fbf5c4d-4748-4064-d02e-af9e5c6be060
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 13|🔒 VM-WS-NA 🇭🇰 HK-91.149.236.44...
   network: ws
   port: 26639
@@ -46,28 +32,45 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇬🇧 英国2|@ripaojiedian
-  port: 41999
-  server: 7569erzy.of08zo0-et55lpt-uk01.my777999.top
+  name: 15|🇺🇸 美国2|@ripaojiedian
+  port: 30063
+  server: 183.232.170.21
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 22212159-1be2-4c81-afbb-6203b6a51739
-- cipher: chacha20-ietf-poly1305
+  uuid: e456d54e-fb49-42c2-ace7-0dd141fee5a6
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: cff22fc2-7b50-4353-a695-158ac3a2738d
-  port: 35021
-  server: hk.4.thap.xyz
+  name: 15,16|香港4|@ripaojiedian
+  network: ws
+  port: '28681'
+  server: 47.242.22.171
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
-- cipher: aes-256-gcm
+  tls: false
+  type: vmess
+  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇭🇰 香港5|@ripaojiedian
-  password: f04b7244-2d04-44ee-8f3b-cc2aebc0dbb9
-  port: 48001
-  server: k1.b99.buzz
+  password: SBM7R883jBmnqe6C
+  port: 9053
+  server: 103.172.116.79
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港7|@ripaojiedian
+  password: 4feb33c2-cb06-4371-a572-243d47b789d9
+  port: 20001
+  server: ddns.olucloud.subapi.cc
   tfo: false
   type: ss
 - alterId: 64
@@ -82,10 +85,10 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 16|香港4|@ripaojiedian
+  name: 16|香港3|@ripaojiedian
   network: tcp
-  port: '30112'
-  server: 183.240.179.207
+  port: '30111'
+  server: 183.232.170.21
   servername: ''
   tls: false
   type: vmess

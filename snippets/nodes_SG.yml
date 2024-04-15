@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6332244f-ac04-48e7-9a34-9fd1638b8e08
+  uuid: 00a7bbe5-0370-4b43-a0fd-d98e309f36a8
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6332244f-ac04-48e7-9a34-9fd1638b8e08
+  uuid: 00a7bbe5-0370-4b43-a0fd-d98e309f36a8
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,20 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6332244f-ac04-48e7-9a34-9fd1638b8e08
-- alterId: 0
-  cipher: auto
-  name: 13|新加坡1
-  network: ws
-  port: '2086'
-  server: sg.wumaojichang.com
-  tls: false
-  type: vmess
-  uuid: 9abab37a-c9b8-4b51-ac7c-26187cb9c59f
-  ws-opts:
-    headers:
-      Host: sg.wumaojichang.com
-    path: /
+  uuid: 00a7bbe5-0370-4b43-a0fd-d98e309f36a8
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
@@ -51,7 +38,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9b93064a-3e3a-4bff-9d0d-b17896be3f51
+  uuid: 0508cc3f-561f-48f8-97f9-6651251dd4b5
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -61,7 +48,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9b93064a-3e3a-4bff-9d0d-b17896be3f51
+  uuid: 0508cc3f-561f-48f8-97f9-6651251dd4b5
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -71,7 +58,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 9b93064a-3e3a-4bff-9d0d-b17896be3f51
+  uuid: 0508cc3f-561f-48f8-97f9-6651251dd4b5
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -94,6 +81,16 @@ proxies:
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.238.23.117
+  server: 54.250.160.219
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|新加坡2|@ripaojiedian
+  network: tcp
+  port: '37997'
+  server: 8789-kf49kc85w.uy2w4vf-sg03.my777999.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f9d88b9b-baf4-48cd-b98f-c28912b96ce5
