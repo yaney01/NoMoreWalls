@@ -31,19 +31,6 @@ proxies:
   uuid: 2f18be59-800c-44bd-98de-f245a6e84881
 - alterId: 0
   cipher: auto
-  name: 13|🇸🇬 新加坡-1D
-  network: ws
-  port: '30054'
-  server: sgb4.s.sm-node.gay
-  tls: true
-  type: vmess
-  uuid: d38585a0-6c96-42dd-bf3c-41a818f06c01
-  ws-opts:
-    headers:
-      Host: sge.shuimu.space
-    path: /
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】新加坡 04 | 1x SG
   network: tcp
   port: '31201'
@@ -51,7 +38,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 81366ecb-b102-44b2-bc88-799bfe2c5882
+  uuid: fe95a965-d3c3-427f-9d5c-7e73cbe6c4c9
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -61,7 +48,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 81366ecb-b102-44b2-bc88-799bfe2c5882
+  uuid: fe95a965-d3c3-427f-9d5c-7e73cbe6c4c9
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -71,7 +58,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 81366ecb-b102-44b2-bc88-799bfe2c5882
+  uuid: fe95a965-d3c3-427f-9d5c-7e73cbe6c4c9
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
