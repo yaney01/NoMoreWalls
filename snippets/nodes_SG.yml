@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ea6bdc4a-ad0d-43f8-9341-312073cb10c5
+  uuid: 111dca5a-7fbb-4631-9b56-2ed7e23751e2
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ea6bdc4a-ad0d-43f8-9341-312073cb10c5
+  uuid: 111dca5a-7fbb-4631-9b56-2ed7e23751e2
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ea6bdc4a-ad0d-43f8-9341-312073cb10c5
+  uuid: 111dca5a-7fbb-4631-9b56-2ed7e23751e2
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.84....
@@ -51,7 +51,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4bb2cfc5-3045-4192-9bbf-29e3d4758b77
+  uuid: 729054dd-d258-493a-9010-8c40534ba409
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -61,7 +61,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4bb2cfc5-3045-4192-9bbf-29e3d4758b77
+  uuid: 729054dd-d258-493a-9010-8c40534ba409
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -71,29 +71,46 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4bb2cfc5-3045-4192-9bbf-29e3d4758b77
+  uuid: 729054dd-d258-493a-9010-8c40534ba409
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 15,16|新加坡|@ripaojiedian
   network: ws
-  port: '21021'
-  server: sg.lianjianode.cc
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: e472a610-a7de-4fce-befc-5c11c31a9246
+  uuid: e9a6c0a4-2e6f-488e-a765-46edba636b02
   ws-opts:
     headers:
-      Host: sg1.luodi.xyz
-    path: /singapore
+      Host: jpafzyhfsg3.yofnhkfc.xyz
+    path: /video/u4eCZTxW
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|新加坡2|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 43b8d.cnbete.xyz
+  servername: 43b8d.cnbete.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 8ac4cc04-b1fa-419f-b436-270456fcff86
+  ws-opts:
+    headers:
+      Host: 43b8d.cnbete.xyz
+    path: /vmess
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 57.180.65.163
+  server: 35.91.54.169
   tfo: false
   type: ss
