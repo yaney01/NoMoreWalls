@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 73b293cc-affd-4640-88e2-975074d93e64
+  uuid: bf5eb787-991a-437a-9d99-05c5a9c47dcc
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 73b293cc-affd-4640-88e2-975074d93e64
+  uuid: bf5eb787-991a-437a-9d99-05c5a9c47dcc
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 73b293cc-affd-4640-88e2-975074d93e64
+  uuid: bf5eb787-991a-437a-9d99-05c5a9c47dcc
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.84....
@@ -51,7 +51,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2be2ade5-d87b-41ef-8aef-8b5b66b1f549
+  uuid: 1124e9ff-a1ca-4c3f-a5ca-e042baaf5ebc
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -61,7 +61,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2be2ade5-d87b-41ef-8aef-8b5b66b1f549
+  uuid: 1124e9ff-a1ca-4c3f-a5ca-e042baaf5ebc
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -71,7 +71,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2be2ade5-d87b-41ef-8aef-8b5b66b1f549
+  uuid: 1124e9ff-a1ca-4c3f-a5ca-e042baaf5ebc
 - client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
   network: ws
@@ -88,10 +88,11 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  name: 15,16|新加坡2|@ripaojiedian
   network: ws
-  port: 80
+  port: '80'
   server: vps789.com
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -109,31 +110,3 @@ proxies:
   server: 3.112.218.182
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|新加坡|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e9a6c0a4-2e6f-488e-a765-46edba636b02
-  ws-opts:
-    headers:
-      Host: jpafzyhfsg3.yofnhkfc.xyz
-    path: /video/u4eCZTxW
-- alterId: 0
-  cipher: auto
-  name: 16|新加坡2|@ripaojiedian
-  network: ws
-  port: '443'
-  server: 43b8d.cnbete.xyz
-  servername: 43b8d.cnbete.xyz
-  tls: true
-  type: vmess
-  uuid: 8ac4cc04-b1fa-419f-b436-270456fcff86
-  ws-opts:
-    headers:
-      Host: 43b8d.cnbete.xyz
-    path: /vmess

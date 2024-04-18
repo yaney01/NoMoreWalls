@@ -8,7 +8,7 @@ proxies:
   servername: jp04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 73b293cc-affd-4640-88e2-975074d93e64
+  uuid: bf5eb787-991a-437a-9d99-05c5a9c47dcc
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本05
@@ -18,7 +18,7 @@ proxies:
   servername: jp05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 73b293cc-affd-4640-88e2-975074d93e64
+  uuid: bf5eb787-991a-437a-9d99-05c5a9c47dcc
 - alterId: 0
   cipher: auto
   name: 10|🇯🇵日本06
@@ -28,7 +28,7 @@ proxies:
   servername: jp06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 73b293cc-affd-4640-88e2-975074d93e64
+  uuid: bf5eb787-991a-437a-9d99-05c5a9c47dcc
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇯🇵 JP-152.69.197.74...
@@ -149,7 +149,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2be2ade5-d87b-41ef-8aef-8b5b66b1f549
+  uuid: 1124e9ff-a1ca-4c3f-a5ca-e042baaf5ebc
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -159,7 +159,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2be2ade5-d87b-41ef-8aef-8b5b66b1f549
+  uuid: 1124e9ff-a1ca-4c3f-a5ca-e042baaf5ebc
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -169,14 +169,15 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2be2ade5-d87b-41ef-8aef-8b5b66b1f549
+  uuid: 1124e9ff-a1ca-4c3f-a5ca-e042baaf5ebc
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
+  name: 15,16|日本|@ripaojiedian
   network: ws
-  port: 2052
+  port: '2052'
   server: cfcdn3.sanfencdn9.com
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -197,14 +198,10 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 16|日本2|@ripaojiedian
-  network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
+  network: tcp
+  port: '38997'
+  server: 8987-3i640t6rlj4n.zpveerb-jp03.my777999.top
   servername: ''
   tls: false
   type: vmess
-  uuid: e9a6c0a4-2e6f-488e-a765-46edba636b02
-  ws-opts:
-    headers:
-      Host: agzbjszujp4.yofnhkfc.xyz
-    path: /video/ibCT6z55
+  uuid: f9d88b9b-baf4-48cd-b98f-c28912b96ce5

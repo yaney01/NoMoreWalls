@@ -69,21 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 73b293cc-affd-4640-88e2-975074d93e64
-- alterId: 0
-  cipher: auto
-  name: 11,13|🇨🇦 加拿大
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
+  uuid: bf5eb787-991a-437a-9d99-05c5a9c47dcc
 - alterId: 0
   cipher: auto
   name: 13|加拿大 001
@@ -98,6 +84,20 @@ proxies:
     headers:
       Host: admin.arzonhost.ir
     path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 13|加拿大 002
@@ -163,4 +163,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2be2ade5-d87b-41ef-8aef-8b5b66b1f549
+  uuid: 1124e9ff-a1ca-4c3f-a5ca-e042baaf5ebc
