@@ -69,27 +69,14 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: c4c75e93-b30e-41d9-a42c-14e1d00304c8
+  uuid: 3eca8f36-31d1-4518-8b9c-81eeb744c8fb
 - alterId: 0
   cipher: auto
-  name: 13|CA_speednode_0001
+  name: 13|加拿大 003
   network: ws
-  port: 443
-  server: 158.51.123.111
+  port: 8080
+  server: 172.67.199.185
   servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦 加拿大 034
-  network: ws
-  port: '8080'
-  server: 172.67.169.90
   tls: false
   type: vmess
   uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
@@ -99,24 +86,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦 加拿大 001
-  network: ws
-  port: '2086'
-  server: 104.21.4.14
-  tls: false
-  type: vmess
-  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
-  ws-opts:
-    headers:
-      Host: admin.arzonhost.ir
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 002
+  name: 13|[🇨🇦]t.me/ConfigsHub_26
   network: ws
   port: 443
-  server: 158.51.121.36
-  servername: 158.51.121.36
+  server: maxin.beauty
+  servername: ''
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -140,6 +114,89 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
+  name: 13|CA_speednode_0001
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 002
+  network: ws
+  port: 443
+  server: 158.51.121.36
+  servername: 158.51.121.36
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 001
+  network: ws
+  port: '2086'
+  server: 104.21.4.14
+  tls: false
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  ws-opts:
+    headers:
+      Host: admin.arzonhost.ir
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|[🇨🇦]t.me/ConfigsHub_3
+  network: ws
+  port: 443
+  server: jahfkjha.cfd
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大_多伦多_25
+  network: ws
+  port: 2086
+  server: mizban.arzonhost.ir
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|%F0%9F%87%A8%F0%9F%87%A6%20Can...
+  network: ws
+  port: 8443
+  server: v014.583181.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 6bcb91d7-3d6b-40ad-93f4-b326d0ed20a4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -147,4 +204,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3461a61e-c1c0-4600-9ded-62e88cfb0b51
+  uuid: 22d2ff94-9216-44cf-8d0e-ece729d9f0ad
