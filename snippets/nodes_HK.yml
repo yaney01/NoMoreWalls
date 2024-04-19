@@ -1,30 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 13|香港1-优选 0.1X
-  network: ws
-  port: '8080'
-  server: cfzl1.freeapp.buzz
-  tls: false
-  type: vmess
-  uuid: db6ba805-b96b-4364-becc-6df3805ffc65
-  ws-opts:
-    headers:
-      Host: duo.freeapp.buzz
-    path: /gd3245vd2S32cr
-- alterId: 0
-  cipher: auto
-  name: 13|香港优选-要经常刷新
-  network: ws
-  port: '13080'
-  server: 159.138.139.236
-  tls: false
-  type: vmess
-  uuid: db6ba805-b96b-4364-becc-6df3805ffc65
-  ws-opts:
-    headers:
-      Host: ww1.kcjs.me
-    path: /fdsffgfdgdfgdf
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
