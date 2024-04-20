@@ -69,7 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7f0cf996-e064-4fce-9052-cd6f3ebfee82
+  uuid: 041e89be-2534-4c7d-bcce-5c61f3e4a198
 - alterId: 0
   cipher: auto
   name: 13|加拿大 003
@@ -193,6 +193,19 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
+  name: 13|🇨🇦 加拿大 034
+  network: ws
+  port: '8080'
+  server: 172.67.169.90
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -200,4 +213,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: c240b0db-e3ee-49d8-850f-c080c7977e6b
+  uuid: c0725f00-b470-4525-8da6-c9f9b0cb6b0b
