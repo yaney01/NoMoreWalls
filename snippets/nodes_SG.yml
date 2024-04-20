@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b8f5b8d9-4da8-4668-9901-6e5881432e60
+  uuid: 7f0cf996-e064-4fce-9052-cd6f3ebfee82
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b8f5b8d9-4da8-4668-9901-6e5881432e60
+  uuid: 7f0cf996-e064-4fce-9052-cd6f3ebfee82
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,7 +28,7 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: b8f5b8d9-4da8-4668-9901-6e5881432e60
+  uuid: 7f0cf996-e064-4fce-9052-cd6f3ebfee82
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇸🇬 SG-68.183.180.24...
@@ -52,7 +52,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6fb8eb36-2ba0-41d8-ae46-92adca824c14
+  uuid: c240b0db-e3ee-49d8-850f-c080c7977e6b
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -62,7 +62,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6fb8eb36-2ba0-41d8-ae46-92adca824c14
+  uuid: c240b0db-e3ee-49d8-850f-c080c7977e6b
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -72,17 +72,38 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 6fb8eb36-2ba0-41d8-ae46-92adca824c14
+  uuid: c240b0db-e3ee-49d8-850f-c080c7977e6b
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|新加坡|@ripaojiedian
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  network: ws
+  port: 2052
+  server: cfcdn2.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aa385f39-d784-4b80-9725-c3904a337cf8
+  ws-opts:
+    headers:
+      Host: jpafzyhfsg3.yofnhkfc.xyz
+    path: /video/u4eCZTxW
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.112.208.94
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|新加坡|@ripaojiedian
   network: ws
   port: '32202'
   server: free-relay.themars.top
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: d660d002-6bfc-4a6d-9e91-31e3b9f7b5ff
@@ -90,11 +111,3 @@ proxies:
     headers:
       Host: www.cctv.com
     path: /cctv1.m3u8
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.112.214.89
-  tfo: false
-  type: ss
