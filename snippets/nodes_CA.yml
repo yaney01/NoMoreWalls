@@ -69,35 +69,21 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 49f272a5-7933-4601-90b3-da118d49f4d6
+  uuid: e3811820-79de-4424-8ad7-b1d199de1f12
 - alterId: 0
   cipher: auto
-  name: '13|Channel id: @ShadowProxy66 🇨🇦'
+  name: 13|加拿大 003
   network: ws
-  port: '443'
-  server: jahfkjha.cfd
-  servername: jahfkjha.cfd
-  tls: true
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
-  ws-opts:
-    headers:
-      Host: jahfkjha.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 13|CA_speednode_0005
-  network: ws
-  port: 443
-  server: 158.51.121.36
+  port: 8080
+  server: 172.67.199.185
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts:
     headers:
-      Host: ''
-    path: /linkvws
+      Host: oiictw.yydsii.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 13|🇨🇦 加拿大
@@ -114,18 +100,59 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '13|Channel id: @ShadowProxy66 🇨🇦 #1'
+  name: 13|CA_speednode_0004
   network: ws
-  port: '443'
-  server: 172.67.170.13
-  servername: glweidf.sbs
+  port: 443
+  server: 158.51.121.36
+  servername: 158.51.121.36
   tls: true
   type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: glweidf.sbs
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: '13|Channel id: @ShadowProxy66 🇨🇦'
+  network: ws
+  port: '443'
+  server: jahfkjha.cfd
+  servername: jahfkjha.cfd
+  tls: true
+  type: vmess
+  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  ws-opts:
+    headers:
+      Host: jahfkjha.cfd
     path: /linkws
+- alterId: 64
+  cipher: auto
+  name: 13|CA_speednode_0006
+  network: ws
+  port: 443
+  server: 71.19.248.159
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 3d173f0a-138b-4baf-9ec6-4848243e0a12
+  ws-opts:
+    headers:
+      Host: www.91856095.xyz
+    path: /path/180401120101
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 006
+  network: ws
+  port: '2095'
+  server: 104.16.67.38
+  tls: false
+  type: vmess
+  uuid: 18e5f40f-bda6-4c15-9334-e87cda6047af
+  ws-opts:
+    headers:
+      Host: uare-truth-7033.rijiwex893.workers.dev
+    path: /ming2.kiwireich.com/ray
 - alterId: 0
   cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
@@ -135,4 +162,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3442c942-dbbd-4115-8d6a-01cf6ea0ff44
+  uuid: 9d115fc7-0083-4d8b-bf20-7c464e949baa
