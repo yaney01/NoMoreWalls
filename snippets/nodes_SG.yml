@@ -8,7 +8,7 @@ proxies:
   servername: sg04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 340baa79-fd5a-4286-91a0-bfd4a3e4feb4
+  uuid: 83bb1807-a1a7-483f-a81d-b5606ba5137a
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡05
@@ -18,7 +18,7 @@ proxies:
   servername: sg05.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 340baa79-fd5a-4286-91a0-bfd4a3e4feb4
+  uuid: 83bb1807-a1a7-483f-a81d-b5606ba5137a
 - alterId: 0
   cipher: auto
   name: 10|🇸🇬新加坡06
@@ -28,18 +28,30 @@ proxies:
   servername: sg06.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 340baa79-fd5a-4286-91a0-bfd4a3e4feb4
+  uuid: 83bb1807-a1a7-483f-a81d-b5606ba5137a
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.86....
+  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.84....
   network: ws
-  port: 35010
-  server: 146.190.86.66
+  port: 26012
+  server: 146.190.84.34
   tls: false
   type: vmess
-  uuid: 9fbd6d59-dee1-4f1a-be58-53f0ed32356a
+  uuid: 695bc422-4dc8-4d8c-8457-26e18c2421b4
   ws-opts:
+    headers:
+      Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇸🇬 SG-152.42.218.5...
+  network: tcp
+  port: '80'
+  server: 152.42.218.53
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 48a16dc9-40e7-4270-925e-b7fcef9bc4c6
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇸🇬 SG-68.183.180.24...
@@ -56,27 +68,27 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇸🇬 SG-152.42.218.5...
-  network: tcp
-  port: '80'
-  server: 152.42.218.53
-  servername: ''
+  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-146.190.86....
+  network: ws
+  port: 35010
+  server: 146.190.86.66
   tls: false
   type: vmess
-  uuid: 48a16dc9-40e7-4270-925e-b7fcef9bc4c6
+  uuid: 9fbd6d59-dee1-4f1a-be58-53f0ed32356a
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
-  name: 13|新加坡 001
+  name: 13|🇸🇬 新加坡 001
   network: ws
-  port: 37765
+  port: '37765'
   server: xinjiapo.jinchanbaby.shop
-  servername: ''
   tls: true
   type: vmess
   uuid: 3a7b80b6-2b54-425e-dabf-fa91b549103f
   ws-opts:
     headers:
-      Host: ''
+      Host: xinjiapo.jinchanbaby.shop
     path: /
 - alterId: 0
   cipher: auto
@@ -87,7 +99,7 @@ proxies:
   servername: sg04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f9cd896e-58b9-49d3-ad4f-1d0785f1b56c
+  uuid: b437b686-92a4-40b7-a65d-689723dc8b89
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 05 | 1x SG
@@ -97,7 +109,7 @@ proxies:
   servername: sg05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f9cd896e-58b9-49d3-ad4f-1d0785f1b56c
+  uuid: b437b686-92a4-40b7-a65d-689723dc8b89
 - alterId: 0
   cipher: auto
   name: 14|【BGP】新加坡 06 | 1x SG
@@ -107,7 +119,7 @@ proxies:
   servername: sg06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f9cd896e-58b9-49d3-ad4f-1d0785f1b56c
+  uuid: b437b686-92a4-40b7-a65d-689723dc8b89
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
