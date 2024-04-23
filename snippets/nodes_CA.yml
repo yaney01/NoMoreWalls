@@ -69,7 +69,21 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 99fe2155-49ee-4764-9420-70a4603e83aa
+  uuid: 846ea46d-b5a3-4503-886a-1fd8965e2cf8
+- alterId: 0
+  cipher: auto
+  name: 13|CA_speednode_0001
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: '13|Channel id: @ShadowProxy66 🇨🇦'
@@ -86,21 +100,7 @@ proxies:
     path: /vmess
 - alterId: 0
   cipher: auto
-  name: '13|Channel id: @ShadowProxy66 🇨🇦 #2'
-  network: ws
-  port: '443'
-  server: 172.67.196.112
-  servername: linde06.indiavideo.sbs
-  tls: true
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: linde06.indiavideo.sbs
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 13|CA_speednode_0003
+  name: 13|加拿大 002
   network: ws
   port: 443
   server: 158.51.121.36
@@ -114,7 +114,21 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '13|Channel id: @ShadowProxy66 🇨🇦 #3'
+  name: 13|加拿大 056
+  network: ws
+  port: 2052
+  server: 162.159.50.164
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aa385f39-d784-4b80-9725-c3904a337cf8
+  ws-opts:
+    headers:
+      Host: jpafzyhfsg3.yofnhkfc.xyz
+    path: /video/u4eCZTxW
+- alterId: 0
+  cipher: auto
+  name: '13|Channel id: @ShadowProxy66 🇨🇦 #1'
   network: ws
   port: '443'
   server: upload.ir
@@ -142,32 +156,21 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 13|CA_speednode_0001
+  client-fingerprint: chrome
+  name: 13,15,16|新加坡|@ripaojiedian
   network: ws
-  port: 443
-  server: 158.51.123.111
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
   servername: ''
-  tls: true
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: aa385f39-d784-4b80-9725-c3904a337cf8
   ws-opts:
     headers:
-      Host: ''
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: '13|Channel id: @ShadowProxy66 🇨🇦 #4'
-  network: ws
-  port: '443'
-  server: 104.21.44.106
-  servername: xmivideo.cfd
-  tls: true
-  type: vmess
-  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
-  ws-opts:
-    headers:
-      Host: xmivideo.cfd
-    path: /linkws
+      Host: jpafzyhfsg3.yofnhkfc.xyz
+    path: /video/u4eCZTxW
 - alterId: 0
   cipher: auto
   name: 13|CA_speednode_0002
@@ -184,6 +187,19 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
+  name: 13|🇨🇦 加拿大 032
+  network: ws
+  port: '2052'
+  server: 104.19.246.67
+  tls: false
+  type: vmess
+  uuid: aa385f39-d784-4b80-9725-c3904a337cf8
+  ws-opts:
+    headers:
+      Host: wtywwcrzjp5.yofnhkfc.xyz
+    path: /video/9TfVEyku
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -191,4 +207,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 7dacf36d-2c71-43ee-8b10-4d41ee060674
+  uuid: 7ad9a6cf-b7c2-4c62-bc98-b37f447ac5e7
