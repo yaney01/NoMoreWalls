@@ -69,7 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: f6acee89-c036-44ed-afff-d75789898479
+  uuid: cb3da8b7-df8e-42c0-8c71-06d1c1baefcf
 - alterId: 0
   cipher: auto
   name: 13|CA_speednode_0003
@@ -159,19 +159,6 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦 加拿大 061
-  network: ws
-  port: '8080'
-  server: 172.67.185.79
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
   name: '13|Channel id: @ShadowProxy66 🇨🇦 #4'
   network: ws
   port: '443'
@@ -214,6 +201,20 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
+  name: 13|加拿大 001
+  network: ws
+  port: 2086
+  server: 104.21.4.14
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7d93e992-48cf-42d4-84f8-75768e815a4c
+  ws-opts:
+    headers:
+      Host: admin.arzonhost.ir
+    path: /
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -221,4 +222,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 938f0bb1-2202-4efc-9382-c6acd9021240
+  uuid: ca62f97c-25cb-46fe-abc8-8da3042f328d
