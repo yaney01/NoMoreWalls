@@ -69,7 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: ac9616bd-aa56-45d8-8fb2-f0b7f423a5bf
+  uuid: b04c11d3-317e-4cb0-b76c-17cdb511f454
 - alterId: 0
   cipher: auto
   name: 13|CA_speednode_0001
@@ -126,6 +126,23 @@ proxies:
     headers:
       Host: jpafzyhfsg3.yofnhkfc.xyz
     path: /video/u4eCZTxW
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 13,15,16|日本2|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: aa385f39-d784-4b80-9725-c3904a337cf8
+  ws-opts:
+    headers:
+      Host: wtywwcrzjp5.yofnhkfc.xyz
+    path: /video/9TfVEyku
 - alterId: 0
   cipher: auto
   name: '13|Channel id: @ShadowProxy66 🇨🇦 #1'
@@ -207,4 +224,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 21945ef8-92c9-4860-a486-5ffc3a5f6435
+  uuid: 738f6787-2ce2-43ec-9231-50c2d068dbf5
