@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|🇭🇰[直连]香港|BGP|广播|VMESS
+  network: ws
+  port: '8081'
+  server: 141.11.75.68
+  tls: false
+  type: vmess
+  uuid: 538444e7-453e-4e5d-a5eb-749c5dbbeeb2
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
   name: 13|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2...
   network: ws
   port: '4431'
@@ -15,15 +28,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇭🇰 HK-218.102.135....
-  network: tcp
-  port: 20000
-  server: 218.102.135.177
-  tls: false
-  type: vmess
-  uuid: 324aa1c5-7504-4893-82b4-1365596331e2
-- alterId: 0
-  cipher: auto
   name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
   network: ws
   port: 28681
@@ -36,19 +40,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🇭🇰[直连]香港|BGP|广播|VMESS
-  network: ws
-  port: '8081'
-  server: 141.11.75.68
-  tls: false
-  type: vmess
-  uuid: 538444e7-453e-4e5d-a5eb-749c5dbbeeb2
-  ws-opts:
-    headers:
-      Host: ''
-    path: ''
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
