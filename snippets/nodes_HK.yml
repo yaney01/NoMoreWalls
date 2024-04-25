@@ -1,30 +1,99 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NONE 🇭🇰 HK-45.144.3.20...
-  network: ws
-  port: 18356
-  server: 45.144.3.204
+  name: 13|🇭🇰香港♾️|1x
+  network: tcp
+  port: '30935'
+  server: gy.youaremygod.top
   tls: false
   type: vmess
-  uuid: f36b128b-99b2-4e58-bd96-7a075cdb2b0a
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰香港02|1x
+  network: tcp
+  port: '48889'
+  server: gy.youaremygod.top
+  tls: false
+  type: vmess
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰香港03|1x
+  network: tcp
+  port: '48890'
+  server: gy.youaremygod.top
+  tls: false
+  type: vmess
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-TLS 🇭🇰 HK-152.32.190.2...
+  network: ws
+  port: '4431'
+  server: 152.32.190.239
+  servername: cfhk.393930.xyz
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
   ws-opts:
     headers:
-      Host: ''
+      Host: cfhk.393930.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|香港 02 三网优化 1x
-  network: ws
-  port: '80'
-  server: freejc.test.freecarriertraffic.hongkong.133141.xyz
+  name: 13|🇭🇰香港05|1x
+  network: tcp
+  port: '48891'
+  server: gg.youaremygod.top
   tls: false
   type: vmess
-  uuid: 64835c9c-0f38-414f-a620-9b81fa900b28
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /?ed=2048
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰香港07|1x
+  network: tcp
+  port: '48893'
+  server: gg.youaremygod.top
+  tls: false
+  type: vmess
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰香港01|1x
+  network: tcp
+  port: '48888'
+  server: gy.youaremygod.top
+  tls: false
+  type: vmess
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰香港08|1x
+  network: tcp
+  port: '48895'
+  server: gg.youaremygod.top
+  tls: false
+  type: vmess
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰香港06|1x
+  network: tcp
+  port: '48892'
+  server: gg.youaremygod.top
+  tls: false
+  type: vmess
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰香港04|1x
+  network: tcp
+  port: '48894'
+  server: gy.youaremygod.top
+  tls: false
+  type: vmess
+  uuid: 54de5bc2-fd5d-4aa1-adc8-6beb11e402b5
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
