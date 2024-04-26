@@ -27,10 +27,10 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇩🇪 德国|@ripaojiedian
+  name: 15|🇨🇦 加拿大|@ripaojiedian
   password: BZjkHMao
-  port: 14755
-  server: 120.233.204.80
+  port: 443
+  server: 38.180.127.194
   skip-cert-verify: true
   sni: cloudflare.node-ssl.cdn-alibaba.com
   tfo: false
@@ -56,16 +56,6 @@ proxies:
     path: /debian
 - alterId: 64
   cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '54437'
-  server: 183.236.51.59
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
   name: 16|香港2|@ripaojiedian
   network: tcp
   port: '40259'
@@ -74,3 +64,13 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 16|香港6|@ripaojiedian
+  network: tcp
+  port: '53385'
+  server: e00618c75712.uxzbpycs.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d557c608-f676-472a-bd6b-612ba975c116

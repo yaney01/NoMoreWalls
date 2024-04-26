@@ -242,7 +242,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 04a17414-6306-4195-807d-c55b17b7087b
+  uuid: 91142ad4-4bb8-42dc-af60-394b4e4f1cfa
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -252,7 +252,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 04a17414-6306-4195-807d-c55b17b7087b
+  uuid: 91142ad4-4bb8-42dc-af60-394b4e4f1cfa
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -262,35 +262,18 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 04a17414-6306-4195-807d-c55b17b7087b
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|日本2|@ripaojiedian
-  network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a595e9ba-b641-480f-8597-323612357ba5
-  ws-opts:
-    headers:
-      Host: 6Sn8mFtTjp3.yofnhkfc.xyz
-    path: /video/X37qXHip
+  uuid: 91142ad4-4bb8-42dc-af60-394b4e4f1cfa
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.141.186.136
+  server: 13.250.125.144
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: 16|日本|@ripaojiedian
+  name: 16|日本2|@ripaojiedian
   network: tcp
   port: '11022'
   server: dotu-jpv1.03ezhg0qsa.download
