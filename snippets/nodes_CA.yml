@@ -69,21 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1cc4f708-4195-48e6-a9ea-f3fbef7b9909
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 108
-  network: ws
-  port: 80
-  server: 162.159.58.175
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
-  ws-opts:
-    headers:
-      Host: newjp1.xn--mes53ddysu0o3gl.top
-    path: /xn--mes53ddysu0o3gl
+  uuid: b9b9a120-521f-4984-9bfa-df4527c36431
 - alterId: 0
   cipher: auto
   name: 13|加拿大 001
@@ -100,20 +86,6 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 107
-  network: ws
-  port: 80
-  server: 162.159.58.84
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1cfaad16-d2ba-4c49-af07-d7b9f11f43d0
-  ws-opts:
-    headers:
-      Host: newjp1.xn--mes53ddysu0o3gl.top
-    path: /xn--mes53ddysu0o3gl
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -121,4 +93,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: a2975d44-f0e2-4328-9ae8-c95c62226e12
+  uuid: 53621847-2275-4e81-812b-9e37578739ad
