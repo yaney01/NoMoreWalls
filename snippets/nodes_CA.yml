@@ -69,14 +69,13 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 71963a01-d48b-451f-a1f1-9ef0230b7f1d
+  uuid: c99068cf-af44-4cdb-8c98-1668427aa8d7
 - alterId: 0
   cipher: auto
-  name: 11,13|加拿大【TG：@ccbaohe】定时更新节点订阅
+  name: 11|加拿大 v2rayfree.eu.org
   network: ws
   port: 443
   server: 158.51.123.111
-  servername: ''
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
@@ -84,6 +83,16 @@ proxies:
     headers:
       Host: 158.51.123.111
     path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
+  network: tcp
+  port: '22324'
+  server: 198.57.27.212
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   name: 13|加拿大 001
@@ -100,42 +109,6 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
-  network: tcp
-  port: '22324'
-  server: 198.57.27.212
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦加拿大3丨电报群@bp520
-  network: ws
-  port: '80'
-  server: 162.159.200.3
-  tls: false
-  type: vmess
-  uuid: 14f364ef-251b-449f-afc0-426ab19bf513
-  ws-opts:
-    headers:
-      Host: ca3.visaapp.top
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦加拿大5丨电报群@bp520
-  network: ws
-  port: '80'
-  server: 162.159.200.5
-  tls: false
-  type: vmess
-  uuid: 14f364ef-251b-449f-afc0-426ab19bf513
-  ws-opts:
-    headers:
-      Host: ca3.889611.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -143,4 +116,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: cf643583-4385-430c-8654-c0a59f369669
+  uuid: 08a06c2b-ad49-42ab-a173-d71f685fe7d1
