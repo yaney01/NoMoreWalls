@@ -1,30 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|DE_分享日记_12
-  network: ws
-  port: 80
-  server: 92.223.124.36
-  tls: false
-  type: vmess
-  uuid: 0688b7c7-72e9-442e-95a0-d3b950028c39
-  ws-opts:
-    headers:
-      Host: mehdi600.3utilities.com
-    path: /@forwardv2ray
-- alterId: 0
-  cipher: auto
-  name: 13|NL_分享日记_7
-  network: ws
-  port: 443
-  server: nl-full.privateip.net
-  tls: true
-  type: vmess
-  uuid: 1f7e5d04-ad1e-47eb-ab78-9d9caa266b3c
-  ws-opts:
-    path: /RACEVPN
-- alterId: 0
-  cipher: auto
   name: 13|DE_分享日记_15
   network: ws
   port: 80
@@ -38,15 +14,63 @@ proxies:
     path: /@forwardv2ray
 - alterId: 0
   cipher: auto
-  name: 13|GB_分享日记_27
+  name: 13|KR_分享日记_5
+  network: tcp
+  port: 26022
+  server: 152.70.39.9
+  tls: false
+  type: vmess
+  uuid: e0254dda-dc8c-46b0-8df8-07c453aaafd7
+- alterId: 64
+  cipher: auto
+  name: 13|GB_分享日记_5
   network: ws
-  port: 443
-  server: uk-full.privateip.net
+  port: 30000
+  server: 51.89.2.48
   tls: true
   type: vmess
-  uuid: 31c8ace0-0495-4326-a47e-c3db49786ecc
+  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
+  ws-opts:
+    headers:
+      Host: www.25311731.xyz
+    path: /path/203113182529
+- alterId: 0
+  cipher: auto
+  name: 13|🇯🇵日本4丨电报群@bp520
+  network: ws
+  port: '80'
+  server: 162.159.200.4
+  tls: false
+  type: vmess
+  uuid: 14f364ef-251b-449f-afc0-426ab19bf513
+  ws-opts:
+    headers:
+      Host: jp3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|DE_分享日记_16
+  network: ws
+  port: 443
+  server: de-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: 3f599734-3f70-4b94-ae40-10abdd5a3954
   ws-opts:
     path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 13|DE_分享日记_13
+  network: ws
+  port: 80
+  server: 92.223.124.36
+  tls: false
+  type: vmess
+  uuid: 0688b7c7-72e9-442e-95a0-d3b950028c39
+  ws-opts:
+    headers:
+      Host: mehdi600.3utilities.com
+    path: /@forwardv2ray
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇯🇵 JP-152.69.197.74...
@@ -63,61 +87,6 @@ proxies:
     path: /bb
 - alterId: 0
   cipher: auto
-  name: 13|RU_分享日记_1
-  network: tcp
-  port: 47555
-  server: 46.29.166.237
-  tls: false
-  type: vmess
-  uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
-- alterId: 64
-  cipher: auto
-  name: 13|GB_分享日记_5
-  network: ws
-  port: 30000
-  server: 51.89.2.48
-  tls: true
-  type: vmess
-  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
-  ws-opts:
-    headers:
-      Host: www.25311731.xyz
-    path: /path/203113182529
-- alterId: 0
-  cipher: auto
-  name: 13|NL_分享日记_3
-  network: ws
-  port: 80
-  server: 188.114.99.77
-  tls: false
-  type: vmess
-  uuid: 2dd253e4-311f-4898-92f5-d4eb88ce27af
-  ws-opts:
-    headers:
-      Host: nl1-vmess.sshmax.xyz
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 13|DE_分享日记_16
-  network: ws
-  port: 443
-  server: de-full.privateip.net
-  tls: true
-  type: vmess
-  uuid: 3f599734-3f70-4b94-ae40-10abdd5a3954
-  ws-opts:
-    path: /RACEVPN
-- alterId: 0
-  cipher: auto
-  name: 13|KR_分享日记_5
-  network: tcp
-  port: 26022
-  server: 152.70.39.9
-  tls: false
-  type: vmess
-  uuid: e0254dda-dc8c-46b0-8df8-07c453aaafd7
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】日本 04  | 1x JP
   network: tcp
   port: '31116'
@@ -125,7 +94,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5d3fa23e-66ee-4723-88c1-3f0aed9e4293
+  uuid: 80f966c3-b2f0-4ae1-9e90-c065e58e0ccb
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -135,7 +104,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5d3fa23e-66ee-4723-88c1-3f0aed9e4293
+  uuid: 80f966c3-b2f0-4ae1-9e90-c065e58e0ccb
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -145,24 +114,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 5d3fa23e-66ee-4723-88c1-3f0aed9e4293
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|日本3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: cf1.ftclashcloud.site
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: fd09819d-e55a-4e3b-a838-87642d920e3e
-  ws-opts:
-    headers:
-      Host: churrosjp01.ftclashcloud.online
-    path: /ws?ed
+  uuid: 80f966c3-b2f0-4ae1-9e90-c065e58e0ccb
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
