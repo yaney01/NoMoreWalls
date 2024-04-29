@@ -1,6 +1,48 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 13|🇭🇰HK_6
+  network: ws
+  port: '443'
+  server: 99.84.50.6
+  servername: d2zpep5anc4l5k.cloudfront.net
+  tls: true
+  type: vmess
+  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
+  ws-opts:
+    headers:
+      Host: d2zpep5anc4l5k.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰HK_146
+  network: ws
+  port: '443'
+  server: 99.84.50.146
+  servername: d2zpep5anc4l5k.cloudfront.net
+  tls: true
+  type: vmess
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
+  ws-opts:
+    headers:
+      Host: d2zpep5anc4l5k.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  name: 13|HK_13
+  network: ws
+  port: 443
+  server: 99.84.50.13
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
+  ws-opts:
+    headers:
+      Host: d2zpep5anc4l5k.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
   name: 13|🔒 VM-WS-NONE 🇭🇰 HK-45.144.3.20...
   network: ws
   port: 16222
@@ -8,20 +50,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 37e2e6fa-c9a0-42f5-97d6-d6e7b29e4ab9
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇭🇰 HK-47.242.22.171...
-  network: ws
-  port: 28681
-  server: 47.242.22.171
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3b1072ce-d096-46c2-a3e7-08b4f58538f5
   ws-opts:
     headers:
       Host: ''

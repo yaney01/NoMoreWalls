@@ -181,7 +181,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '7|🇺🇸_US_美国 #21'
+  name: 7,13|US_分享日记_22
   network: ws
   port: 443
   server: hms082.gwdef.sbs
@@ -207,9 +207,9 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|美国 CloudFlare节点
+  name: 11,13|🇨🇦 加拿大 015
   network: ws
-  port: 443
+  port: '443'
   server: 104.19.49.185
   tls: true
   type: vmess
@@ -315,7 +315,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #8'
+  name: 11,13|US_分享日记_30
   network: ws
   port: 443
   server: 104.19.49.146
@@ -452,315 +452,41 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|US_youtube@资源分享师_33
+  name: 13|🔒 VM-WS-NA 🇺🇸 US-23.94.100.187...
   network: ws
-  port: 443
-  server: 13.35.13.205
-  tls: true
-  type: vmess
-  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
-  ws-opts:
-    headers:
-      Host: d2zpep5anc4l5k.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  name: 13|US_youtube@资源分享师_44
-  network: ws
-  port: 443
-  server: 13.35.13.103
-  tls: true
-  type: vmess
-  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
-  ws-opts:
-    headers:
-      Host: d2zpep5anc4l5k.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇺🇸 US-129.146.126.1...
-  network: ws
-  port: 46666
-  server: 129.146.126.171
+  port: 22210
+  server: 23.94.100.187
   servername: ''
   tls: false
   type: vmess
-  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
-  ws-opts:
-    headers:
-      Host: us-phoenix-oracle-3e4543.ip1.shop
-    path: /rongseven?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-66.135.3.168...
-  network: tcp
-  port: 44990
-  server: 66.135.3.168
-  tls: false
-  type: vmess
-  uuid: 88623615-0713-497a-9233-755a33cc7080
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-45.77.218.99...
-  network: tcp
-  port: '12810'
-  server: 45.77.218.99
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 469daa04-235a-47be-fdf8-41a9a72f8be2
-- alterId: 0
-  cipher: auto
-  name: 13|US_youtube@资源分享师_58
-  network: ws
-  port: 443
-  server: 13.35.13.119
-  tls: true
-  type: vmess
-  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
-  ws-opts:
-    headers:
-      Host: d2zpep5anc4l5k.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  name: 13|US_youtube@资源分享师_4
-  network: ws
-  port: 443
-  server: 99.84.50.2
-  tls: true
-  type: vmess
-  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
-  ws-opts:
-    headers:
-      Host: d2zpep5anc4l5k.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-104.207.143....
-  network: tcp
-  port: '43938'
-  server: 104.207.143.93
-  tls: false
-  type: vmess
-  uuid: edfa4166-7eab-4fb8-b323-7882463e2ae0
-- alterId: 0
-  cipher: auto
-  name: 13|美国 043
-  network: ws
-  port: 443
-  server: 38.91.107.36
-  servername: maggiy.shop
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: 40441b4f-8e74-40d5-a8f0-8f1db05e7a51
   ws-opts:
     headers:
       Host: ''
-    path: /linkvws
+    path: /dwax
 - alterId: 0
   cipher: auto
-  name: 13|美国【TG：@ccbaohe】定时更新节点订阅 11
-  network: ws
-  port: 2052
-  server: 104.19.250.15
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
-  ws-opts:
-    headers:
-      Host: usxm.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|US_youtube@资源分享师_72
+  name: 13|US_youtube@资源分享师_278
   network: ws
   port: 443
-  server: 13.35.13.138
+  server: 99.84.50.198
   tls: true
   type: vmess
-  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
   ws-opts:
     headers:
       Host: d2zpep5anc4l5k.cloudfront.net
     path: /stream
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇺🇸 US-172.67.204.84...
-  network: ws
-  port: '80'
-  server: 172.67.204.84
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6c6c4113-8b19-42ed-a19d-cb304ae1cbb6
-  ws-opts:
-    headers:
-      Host: Ch1-vmess.sshmax.xyz.
-    path: /vmess
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-172.233.164....
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-38.75.137.27...
   network: tcp
-  port: '39841'
-  server: 172.233.164.32
-  tls: false
-  type: vmess
-  uuid: 4242d74d-b748-4e74-a7c2-2bfb9d6ed121
-- alterId: 0
-  cipher: auto
-  name: 13|美国【TG：@ccbaohe】定时更新节点订阅 46
-  network: ws
-  port: 80
-  server: speed.cloudflare.com
+  port: '22324'
+  server: 38.75.137.27
   servername: ''
   tls: false
   type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      Host: freevpn878.hamidimorteza680.workers.dev
-    path: /glweidf.cfd/linkws
-- alterId: 0
-  cipher: auto
-  name: 13|US_youtube@资源分享师_101
-  network: ws
-  port: 443
-  server: 99.84.50.22
-  tls: true
-  type: vmess
-  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
-  ws-opts:
-    headers:
-      Host: d2zpep5anc4l5k.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  name: 13|US_youtube@资源分享师_126
-  network: ws
-  port: 443
-  server: 99.84.50.125
-  tls: true
-  type: vmess
-  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
-  ws-opts:
-    headers:
-      Host: d2zpep5anc4l5k.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇺🇸 US-155.138.242.2...
-  network: ws
-  port: 54316
-  server: 155.138.242.207
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 67797c6a-e898-49bd-8f61-5fb1523ce0bd
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-104.249.173....
-  network: tcp
-  port: '40118'
-  server: 104.249.173.159
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b89f5af7-e478-4b45-f1d5-1a5481acc15b
-- alterId: 0
-  cipher: auto
-  name: 13|US_youtube@资源分享师_35
-  network: ws
-  port: 443
-  server: 13.35.13.209
-  tls: true
-  type: vmess
-  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
-  ws-opts:
-    headers:
-      Host: d2zpep5anc4l5k.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-174.136.205....
-  network: tcp
-  port: '39027'
-  server: 174.136.205.46
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 26419143-8a06-43ab-d58c-bea7b7da8203
-- alterId: 0
-  cipher: auto
-  name: 13|US_youtube@资源分享师_13
-  network: ws
-  port: 443
-  server: 99.84.50.83
-  tls: true
-  type: vmess
-  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
-  ws-opts:
-    headers:
-      Host: d2zpep5anc4l5k.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  name: 13|美国 042
-  network: ws
-  port: 443
-  server: 69.50.93.90
-  servername: 69.50.93.90
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: 13|US_youtube@资源分享师_60
-  network: ws
-  port: 443
-  server: 13.35.13.192
-  tls: true
-  type: vmess
-  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
-  ws-opts:
-    headers:
-      Host: d2zpep5anc4l5k.cloudfront.net
-    path: /stream
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇺🇸 US-136.175.177.4...
-  network: ws
-  port: '35694'
-  server: 136.175.177.45
-  tls: false
-  type: vmess
-  uuid: 603684a2-d080-40d7-d09c-afc3ac036eb4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /fsdafa
-- alterId: 0
-  cipher: auto
-  name: 13|US_youtube@资源分享师_122
-  network: ws
-  port: 443
-  server: 99.84.50.15
-  tls: true
-  type: vmess
-  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
-  ws-opts:
-    headers:
-      Host: d2zpep5anc4l5k.cloudfront.net
-    path: /stream
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -780,27 +506,193 @@ proxies:
     path: /video/VDXcaM7r
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-75.102.51.61...
-  network: tcp
-  port: '12732'
-  server: 75.102.51.61
+  name: 13|🔒 VM-WS-NA 🇺🇸 US-129.146.126.1...
+  network: ws
+  port: 46666
+  server: 129.146.126.171
   servername: ''
   tls: false
   type: vmess
-  uuid: 191ba971-0f63-402e-bbc9-9e9eb2604b0c
+  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
+  ws-opts:
+    headers:
+      Host: us-phoenix-oracle-3e4543.ip1.shop
+    path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
-  name: 13|US_youtube@资源分享师_171
+  name: 13|US_youtube@资源分享师_121
   network: ws
   port: 443
-  server: 99.84.50.146
+  server: 99.84.50.144
   tls: true
   type: vmess
-  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
   ws-opts:
     headers:
       Host: d2zpep5anc4l5k.cloudfront.net
     path: /stream
+- alterId: 0
+  cipher: auto
+  name: 13|US_youtube@资源分享师_142
+  network: ws
+  port: 2086
+  server: ip.sb
+  tls: false
+  type: vmess
+  uuid: 9d38f641-e4a7-4c01-919f-43dae64472a8
+  ws-opts:
+    headers:
+      Host: mcdonald-construction-sharon-ignored.trycloudflare.com
+    path: 9d38f641-e4a7-4c01-919f-43dae64472a8-vm
+- alterId: 0
+  cipher: auto
+  name: 13|US_youtube@资源分享师_247
+  network: ws
+  port: 443
+  server: 99.84.50.138
+  tls: true
+  type: vmess
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
+  ws-opts:
+    headers:
+      Host: d2zpep5anc4l5k.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  name: 13|US_youtube@资源分享师_115
+  network: ws
+  port: 443
+  server: 99.84.50.26
+  tls: true
+  type: vmess
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
+  ws-opts:
+    headers:
+      Host: d2zpep5anc4l5k.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-140.82.2.34:...
+  network: tcp
+  port: '23670'
+  server: 140.82.2.34
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 423f6443-f1e9-4e84-d895-a14badc59e88
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-149.28.49.17...
+  network: tcp
+  port: '24663'
+  server: 149.28.49.174
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04bf314e-e40a-4d05-9faa-0a6baded2a22
+- alterId: 0
+  cipher: auto
+  name: '13|US-NEWYORK5 #1'
+  network: ws
+  port: 8880
+  server: cdnikuancdnikuan.internetcdn.ggff.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c736ecf4-683f-4eca-91c0-09e21b92fbd1
+  ws-opts:
+    headers:
+      Host: losangeles.sanjose.xhzshop.link
+    path: /microsoft?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|US_youtube@资源分享师_215
+  network: ws
+  port: 443
+  server: 99.84.50.95
+  tls: true
+  type: vmess
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
+  ws-opts:
+    headers:
+      Host: d2zpep5anc4l5k.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  name: 13|US_youtube@资源分享师_242
+  network: ws
+  port: 443
+  server: 99.84.50.147
+  tls: true
+  type: vmess
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
+  ws-opts:
+    headers:
+      Host: d2zpep5anc4l5k.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-45.76.18.197...
+  network: tcp
+  port: '20703'
+  server: 45.76.18.197
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ae710bf3-229a-4f31-d990-971b831c8985
+- alterId: 0
+  cipher: auto
+  name: 13|US_youtube@资源分享师_217
+  network: ws
+  port: 443
+  server: 99.84.50.122
+  tls: true
+  type: vmess
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
+  ws-opts:
+    headers:
+      Host: d2zpep5anc4l5k.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  name: 13|US_youtube@资源分享师_205
+  network: ws
+  port: 443
+  server: 99.84.50.2
+  tls: true
+  type: vmess
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
+  ws-opts:
+    headers:
+      Host: d2zpep5anc4l5k.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  name: 13|US_youtube@资源分享师_158
+  network: ws
+  port: 443
+  server: 99.84.50.141
+  tls: true
+  type: vmess
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
+  ws-opts:
+    headers:
+      Host: d2zpep5anc4l5k.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  name: 13|US-NEWYORK3
+  network: ws
+  port: '8880'
+  server: cdn3.internetcdn.ggff.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c736ecf4-683f-4eca-91c0-09e21b92fbd1
+  ws-opts:
+    headers:
+      Host: losangeles.sanjose.xhzshop.link
+    path: /microsoft?ed=2048
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇺🇸 US-129.146.247....
@@ -813,114 +705,171 @@ proxies:
   uuid: 1773b226-0bdb-43c5-87d8-270d26211dda
 - alterId: 0
   cipher: auto
-  name: 13|US_youtube@资源分享师_12
+  name: 13|US_youtube@资源分享师_225
   network: ws
   port: 443
-  server: 99.84.50.17
+  server: 99.84.50.22
   tls: true
   type: vmess
-  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
   ws-opts:
     headers:
       Host: d2zpep5anc4l5k.cloudfront.net
     path: /stream
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-149.28.58.12...
-  network: ''
-  port: 45617
-  server: 149.28.58.129
+  name: 13|US_youtube@资源分享师_286
+  network: ws
+  port: 443
+  server: 99.84.50.184
+  tls: true
+  type: vmess
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
+  ws-opts:
+    headers:
+      Host: d2zpep5anc4l5k.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  name: 13|US_youtube@资源分享师_224
+  network: ws
+  port: 443
+  server: 99.84.50.217
+  tls: true
+  type: vmess
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
+  ws-opts:
+    headers:
+      Host: d2zpep5anc4l5k.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-45.77.146.58...
+  network: tcp
+  port: '22131'
+  server: 45.77.146.58
+  servername: ''
   tls: false
   type: vmess
-  uuid: 59c95ca3-babe-466a-9a5b-4761e575caf8
+  uuid: ad42d586-dcd1-4629-d49b-a6f2d821ad39
 - alterId: 0
   cipher: auto
-  name: 13|US_youtube@资源分享师_34
+  name: 13|US_youtube@资源分享师_235
   network: ws
   port: 443
-  server: 13.35.13.65
+  server: 99.84.50.55
   tls: true
   type: vmess
-  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
   ws-opts:
     headers:
       Host: d2zpep5anc4l5k.cloudfront.net
     path: /stream
 - alterId: 0
   cipher: auto
-  name: 13|US_youtube@资源分享师_67
-  network: ws
-  port: 443
-  server: 104.19.49.15
-  tls: true
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-205.234.232....
+  network: tcp
+  port: '50129'
+  server: 205.234.232.189
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
+  uuid: d3d91368-c7bc-4f2f-890b-09710fb9f0ec
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-TLS 🇺🇸 US-172.67.175.5...
+  name: 13|美国A-不限流
   network: ws
-  port: '443'
-  server: 172.67.175.56
-  servername: obdii.cfd
-  tls: true
+  port: 80
+  server: vps789.com
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  uuid: deda81bc-df18-4740-881b-f5ac39b45f1b
   ws-opts:
     headers:
-      Host: obdii.cfd
-    path: /linkws
+      Host: cc.nekoneko.buzz
+    path: /cctv13/hd.m3u8
 - alterId: 0
   cipher: auto
-  name: 13|US_youtube@资源分享师_77
+  name: 13|US_youtube@资源分享师_284
   network: ws
   port: 443
-  server: 104.19.49.33
+  server: 99.84.50.72
   tls: true
   type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|US_youtube@资源分享师_146
-  network: ws
-  port: 443
-  server: 104.19.49.237
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|US_youtube@资源分享师_22
-  network: ws
-  port: 443
-  server: 13.35.13.16
-  tls: true
-  type: vmess
-  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
   ws-opts:
     headers:
       Host: d2zpep5anc4l5k.cloudfront.net
     path: /stream
 - alterId: 0
   cipher: auto
-  name: 13|US_youtube@资源分享师_87
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-168.235.82.1...
+  network: tcp
+  port: '16123'
+  server: 168.235.82.103
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fa09f016-0460-4bcf-d209-197b7f3d270e
+- alterId: 0
+  cipher: auto
+  name: 13|US_youtube@资源分享师_135
   network: ws
   port: 443
-  server: 13.35.13.133
+  server: 99.84.50.32
   tls: true
   type: vmess
-  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
+  ws-opts:
+    headers:
+      Host: d2zpep5anc4l5k.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  name: 13|US_youtube@资源分享师_279
+  network: ws
+  port: 443
+  server: 99.84.50.196
+  tls: true
+  type: vmess
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
+  ws-opts:
+    headers:
+      Host: d2zpep5anc4l5k.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  name: 13|US_youtube@资源分享师_273
+  network: ws
+  port: 443
+  server: 99.84.50.77
+  tls: true
+  type: vmess
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
+  ws-opts:
+    headers:
+      Host: d2zpep5anc4l5k.cloudfront.net
+    path: /stream
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-149.28.228.2...
+  network: tcp
+  port: '22195'
+  server: 149.28.228.215
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f865bc43-b129-443e-d00a-7d303b25c4a2
+- alterId: 0
+  cipher: auto
+  name: 13|US_youtube@资源分享师_207
+  network: ws
+  port: 443
+  server: 99.84.50.225
+  tls: true
+  type: vmess
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
   ws-opts:
     headers:
       Host: d2zpep5anc4l5k.cloudfront.net
@@ -937,72 +886,81 @@ proxies:
   uuid: e90a1709-fd94-44d3-f809-8849837cc2d3
 - alterId: 0
   cipher: auto
-  name: 13|US_youtube@资源分享师_215
+  name: 13|美国 042
   network: ws
   port: 443
-  server: 99.84.50.108
+  server: 69.50.93.90
+  servername: 69.50.93.90
   tls: true
   type: vmess
-  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-207.148.31.1...
+  network: tcp
+  port: '30587'
+  server: 207.148.31.167
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 55219214-9f2d-4914-fbaf-b1b444c85b0e
+- alterId: 0
+  cipher: auto
+  name: 13|US_youtube@资源分享师_223
+  network: ws
+  port: 443
+  server: 99.84.50.142
+  tls: true
+  type: vmess
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
   ws-opts:
     headers:
       Host: d2zpep5anc4l5k.cloudfront.net
     path: /stream
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-172.105.150....
-  network: ''
-  port: 28953
-  server: 172.105.150.181
-  tls: false
-  type: vmess
-  uuid: d1f31766-564a-47ab-88cc-0721145b78b8
-- alterId: 0
-  cipher: auto
-  name: 13|US_youtube@资源分享师_59
+  name: 13|US_youtube@资源分享师_258
   network: ws
   port: 443
-  server: 13.35.13.175
+  server: 99.84.50.110
   tls: true
   type: vmess
-  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
   ws-opts:
     headers:
       Host: d2zpep5anc4l5k.cloudfront.net
     path: /stream
 - alterId: 0
   cipher: auto
-  name: 13|美国【TG：@ccbaohe】定时更新节点订阅 9
+  name: '13|🔒 VM-WS-NA 🇺🇸 US-23.94.100.187... #1'
   network: ws
-  port: 80
-  server: speed.cloudflare.com
+  port: 48889
+  server: 23.94.100.187
   servername: ''
   tls: false
   type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  uuid: ae62156c-16fc-4992-e957-0b46796254cf
   ws-opts:
     headers:
-      Host: d396-flower-d396.megare7260.workers.dev
-    path: /obdii.cfd/linkws
+      Host: ''
+    path: /awd
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-140.82.8.218...
-  network: tcp
-  port: 25087
-  server: 140.82.8.218
-  tls: false
+  name: 13|US_youtube@资源分享师_141
+  network: ws
+  port: 443
+  server: 99.84.50.207
+  tls: true
   type: vmess
-  uuid: 3e3a4f91-160c-4967-c2d7-5aebf6faf0c9
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-149.28.226.2...
-  network: tcp
-  port: 37985
-  server: 149.28.226.202
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a36d5f0e-f529-4c83-9279-f4c4ce557031
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
+  ws-opts:
+    headers:
+      Host: d2zpep5anc4l5k.cloudfront.net
+    path: /stream
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1022,131 +980,66 @@ proxies:
     path: /video/GQ2qE5Us9g
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-45.77.146.58...
-  network: tcp
-  port: '22131'
-  server: 45.77.146.58
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ad42d586-dcd1-4629-d49b-a6f2d821ad39
-- alterId: 0
-  cipher: auto
-  name: 13|US_youtube@资源分享师_107
+  name: 13|US_youtube@资源分享师_255
   network: ws
   port: 443
-  server: 99.84.50.193
+  server: 99.84.50.195
   tls: true
   type: vmess
-  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
   ws-opts:
     headers:
       Host: d2zpep5anc4l5k.cloudfront.net
     path: /stream
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-TLS 🇺🇸 US-172.67.74.4:...
-  network: ws
-  port: '443'
-  server: 172.67.74.4
-  servername: mikasa.yaemiko.cloudns.org
-  tls: true
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: mikasa.yaemiko.cloudns.org
-    path: /ivideos.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: 13|US_youtube@资源分享师_161
+  name: 13|US_youtube@资源分享师_231
   network: ws
   port: 443
-  server: 99.84.50.144
+  server: 99.84.50.48
   tls: true
   type: vmess
-  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
   ws-opts:
     headers:
       Host: d2zpep5anc4l5k.cloudfront.net
     path: /stream
 - alterId: 0
   cipher: auto
-  name: 13|US_youtube@资源分享师_100
+  name: 13|US_youtube@资源分享师_218
   network: ws
   port: 443
-  server: 99.84.50.1
+  server: 99.84.50.96
   tls: true
   type: vmess
-  uuid: eadbc43e-e26e-415b-bab6-fb1fba70bf63
+  uuid: beccf0cc-adc8-46f2-82fd-0b1350abb734
   ws-opts:
     headers:
       Host: d2zpep5anc4l5k.cloudfront.net
     path: /stream
 - alterId: 0
   cipher: auto
-  name: 13|US_youtube@资源分享师_137
+  name: 13|美国 043
   network: ws
   port: 443
-  server: 104.19.49.177
+  server: 38.91.107.36
+  servername: maggiy.shop
   tls: true
   type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: cfhk.393930.xyz
-    path: /
+      Host: ''
+    path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 13|美国【TG：@ccbaohe】定时更新节点订阅 4
-  network: ws
-  port: 2086
-  server: 104.16.61.8
-  servername: ''
+  name: 13|🔒 VM-TCP-NA 🇺🇸 US-149.28.58.12...
+  network: ''
+  port: 45617
+  server: 149.28.58.129
   tls: false
   type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: ury-unit-c030ehei8.poget71138.workers.dev
-    path: /ivideos.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-TCP-NA 🇺🇸 US-207.148.31.1...
-  network: tcp
-  port: '30587'
-  server: 207.148.31.167
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 55219214-9f2d-4914-fbaf-b1b444c85b0e
-- alterId: 0
-  cipher: auto
-  name: 13|美国【TG：@ccbaohe】定时更新节点订阅 16
-  network: ws
-  port: 2052
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 07a902d1-7c2d-47de-f2c5-c2236fc7cd46
-  ws-opts:
-    headers:
-      Host: usxm.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|US_youtube@资源分享师_144
-  network: ws
-  port: 443
-  server: 104.19.49.206
-  tls: true
-  type: vmess
-  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
-  ws-opts:
-    headers:
-      Host: cfhk.393930.xyz
-    path: /
+  uuid: 59c95ca3-babe-466a-9a5b-4761e575caf8
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
