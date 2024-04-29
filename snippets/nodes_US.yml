@@ -209,15 +209,180 @@ proxies:
   cipher: auto
   name: 11|美国 CloudFlare节点
   network: ws
-  port: 80
-  server: 162.159.200.6
-  tls: false
+  port: 443
+  server: 104.19.49.185
+  tls: true
   type: vmess
-  uuid: 14f364ef-251b-449f-afc0-426ab19bf513
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
   ws-opts:
     headers:
-      Host: er3.889611.com
+      Host: cfhk.393930.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: 11,13|美国|【付费用户】油管秒开4K/8K|更多地区接入|GPT+...
+  network: ws
+  port: 2082
+  server: 104.19.172.55
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bdc7d7c5-be05-3db8-93e9-4d4157bfaa17
+  ws-opts:
+    headers:
+      Host: 100.100.17.172.cn-db.top
+    path: /dabai.in5517219
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #2'
+  network: ws
+  port: '8080'
+  server: yh5.dtku41.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a
+  ws-opts:
+    headers:
+      Host: fantastic-doe-bids-ended.trycloudflare.com
+    path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #3'
+  network: ws
+  port: 2052
+  server: 104.19.250.15
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #4'
+  network: ws
+  port: '2052'
+  server: 104.18.36.119
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #5'
+  network: ws
+  port: '8080'
+  server: 172.67.185.64
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #6'
+  network: ws
+  port: '2052'
+  server: 104.18.19.191
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #7'
+  network: ws
+  port: 8080
+  server: kkyx.yydsii.com
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #8'
+  network: ws
+  port: 443
+  server: 104.19.49.146
+  tls: true
+  type: vmess
+  uuid: 5840ab2d-ab59-4eb0-9dea-122d0fbbd2d9
+  ws-opts:
+    headers:
+      Host: cfhk.393930.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #9'
+  network: ws
+  port: '8080'
+  server: 104.17.17.103
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
+  ws-opts:
+    headers:
+      Host: booty-pensions-scheduling-blogging.trycloudflare.com
+    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #10'
+  network: ws
+  port: '8880'
+  server: 104.19.40.84
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  ws-opts:
+    headers:
+      Host: uk.moss.network
+    path: /d/65dd503.TG.WangCai2.WangCai_8:107690
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #11'
+  network: ws
+  port: '8880'
+  server: 104.19.40.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
+  ws-opts:
+    headers:
+      Host: uk.moss.network
+    path: /d/65dd503.TG.WangCai2.WangCai_8:107690
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #12'
+  network: ws
+  port: '80'
+  server: 172.64.104.182
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f0f067fe-8e6d-4d95-816b-601038fd5876
+  ws-opts:
+    headers:
+      Host: fr.grpc.gay
+    path: /rongseven?ed=2048
 - alterId: 0
   cipher: auto
   name: 11,12|github.com/freefq - 美国CloudFla...
@@ -230,99 +395,6 @@ proxies:
   ws-opts:
     headers:
       Host: www.darkroom.lol
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #2'
-  network: ws
-  port: '8880'
-  server: 104.19.40.222
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  ws-opts:
-    headers:
-      Host: uk.moss.network
-    path: /d/65dd503.TG.WangCai2.WangCai_8:107690
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #3'
-  network: ws
-  port: 8080
-  server: yh9.dtku41.xyz
-  tls: false
-  type: vmess
-  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
-  ws-opts:
-    headers:
-      Host: hang-broke-john-neither.trycloudflare.com
-    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #4'
-  network: ws
-  port: 80
-  server: 104.18.15.149
-  tls: false
-  type: vmess
-  uuid: 14f364ef-251b-449f-afc0-426ab19bf513
-  ws-opts:
-    headers:
-      Host: er3.visaapp.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #5'
-  network: ws
-  port: '8080'
-  server: yh7.dtku41.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 028c8131-9e3e-4836-94ac-ea7f24d4d05a
-  ws-opts:
-    headers:
-      Host: booty-pensions-scheduling-blogging.trycloudflare.com
-    path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #6'
-  network: ws
-  port: 80
-  server: 104.18.15.150
-  tls: false
-  type: vmess
-  uuid: 14f364ef-251b-449f-afc0-426ab19bf513
-  ws-opts:
-    headers:
-      Host: er3.889611.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #7'
-  network: ws
-  port: '8880'
-  server: 104.19.40.58
-  tls: false
-  type: vmess
-  uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0
-  ws-opts:
-    headers:
-      Host: uk.moss.network
-    path: /d/65dd503.TG.WangCai2.WangCai_8:107690
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #9'
-  network: ws
-  port: 80
-  server: 104.19.174.68
-  tls: false
-  type: vmess
-  uuid: 14f364ef-251b-449f-afc0-426ab19bf513
-  ws-opts:
-    headers:
-      Host: us3.visaapp.top
     path: /
 - alterId: 0
   cipher: auto
@@ -470,7 +542,7 @@ proxies:
     path: /dabai.in25121416
 - alterId: 0
   cipher: auto
-  name: '13|美国 CloudFlare节点 #10'
+  name: '13|美国 CloudFlare节点 #13'
   network: ws
   port: 2095
   server: 172.67.214.33
@@ -498,7 +570,7 @@ proxies:
     path: /dabai.in1485716
 - alterId: 0
   cipher: auto
-  name: '13|美国 CloudFlare节点 #11'
+  name: '13|美国 CloudFlare节点 #14'
   network: ws
   port: 80
   server: us3e-mmnnfr9dop0.v2freevpn.com
@@ -619,20 +691,6 @@ proxies:
     headers:
       Host: mikasa.yaemiko.cloudns.org
     path: /ivideos.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: 13|美国|【付费用户】油管秒开4K/8K|更多地区接入|GPT+...
-  network: ws
-  port: 2082
-  server: 104.19.172.55
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bdc7d7c5-be05-3db8-93e9-4d4157bfaa17
-  ws-opts:
-    headers:
-      Host: 100.100.17.172.cn-db.top
-    path: /dabai.in5517219
 - alterId: 0
   cipher: auto
   name: 13|美国|【注册使用】速度更快|GPT+流媒体|共享 - 大白〖...
