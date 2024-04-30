@@ -100,7 +100,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2595cca2-5869-4800-9095-106f30c66887
+  uuid: 4af8c595-a392-453f-85ad-859e6d73b5a9
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -110,7 +110,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2595cca2-5869-4800-9095-106f30c66887
+  uuid: 4af8c595-a392-453f-85ad-859e6d73b5a9
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -120,7 +120,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2595cca2-5869-4800-9095-106f30c66887
+  uuid: 4af8c595-a392-453f-85ad-859e6d73b5a9
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -138,11 +138,24 @@ proxies:
     headers:
       Host: GWYp69Yujp2.yofnhkfc.xyz
     path: /video/VDXcaM7r
+- client-fingerprint: chrome
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  network: ws
+  password: g76wex
+  port: 443
+  server: aws-jp-tokyo-1.f1cflined.com
+  skip-cert-verify: false
+  sni: aws-jp-tokyo-1.f1cflined.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aws-jp-tokyo-1.f1cflined.com
+    path: /f1rocket
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.201.34.246
+  server: 43.207.104.148
   tfo: false
   type: ss

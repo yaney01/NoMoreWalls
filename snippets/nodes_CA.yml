@@ -69,21 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 6b2dfea4-7d2c-4b28-8feb-a63d0d006bf8
-- alterId: 0
-  cipher: auto
-  name: 11,13|CA_speednode_0003
-  network: ws
-  port: 443
-  server: 158.51.123.111
-  servername: 158.51.123.111
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
+  uuid: f7562036-1d3a-4ae3-b6e5-6f56c90d48b7
 - alterId: 0
   cipher: auto
   name: 13|加拿大 001
@@ -169,6 +155,20 @@ proxies:
     path: /dabai.in756416
 - alterId: 0
   cipher: auto
+  name: 13|CA_speednode_0003
+  network: ws
+  port: 443
+  server: 158.51.123.111
+  servername: 158.51.123.111
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
+- alterId: 0
+  cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -176,4 +176,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2595cca2-5869-4800-9095-106f30c66887
+  uuid: 4af8c595-a392-453f-85ad-859e6d73b5a9
