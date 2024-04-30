@@ -69,7 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 7a14338c-22de-46eb-b455-733f612ac229
+  uuid: 16d5183a-ee19-4bed-8520-6ee8854371cc
 - alterId: 0
   cipher: auto
   name: 13|加拿大 001
@@ -250,6 +250,20 @@ proxies:
     path: /dabai.in6818819
 - alterId: 0
   cipher: auto
+  name: 13|加拿大 014
+  network: ws
+  port: 80
+  server: 104.19.43.11
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
+  ws-opts:
+    headers:
+      Host: tw1.renwox.xyz
+    path: /needay?ed=2048
+- alterId: 0
+  cipher: auto
   name: 13|加拿大 026
   network: ws
   port: 80
@@ -330,20 +344,6 @@ proxies:
     headers:
       Host: 100.100.17.89.db-link02.top
     path: /dabai.in948918
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 015
-  network: ws
-  port: 80
-  server: 104.19.43.217
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5d815dc6-a795-44ff-aeb6-7ee16a7a1c57
-  ws-opts:
-    headers:
-      Host: tw1.renwox.xyz
-    path: /needay?ed=2048
 - alterId: 0
   cipher: auto
   name: 13|加拿大 050
@@ -712,4 +712,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 12a0cfcd-68ee-45dd-a145-8637a94023ae
+  uuid: a315eddc-30ba-4300-947f-8307530682b9
