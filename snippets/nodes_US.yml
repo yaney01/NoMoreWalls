@@ -1,4 +1,42 @@
 proxies:
+- cipher: aes-256-gcm
+  name: 1|_US__1
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 23.157.40.66
+  type: ss
+- cipher: aes-256-gcm
+  name: 1|_US__2
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 23.157.40.66
+  type: ss
+- cipher: aes-256-gcm
+  name: 1|_US__3
+  password: KixLvKzwjekG00rm
+  port: 8000
+  server: 23.157.40.20
+  type: ss
+- cipher: aes-256-gcm
+  name: 1|_US__4
+  password: Y6R9pAtvxxzmGC
+  port: 5600
+  server: 23.157.40.66
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 1|_US__5
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 8c7b39d2-eb80-48d4-9471-76bddc5273c8
+  ws-opts:
+    headers:
+      host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
