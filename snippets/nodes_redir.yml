@@ -1,7 +1,60 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '6,17|🇺🇸_US_美国 #26'
+  name: '3,13|🇺🇸_US_美国->🇩🇪_DE_德国 #3'
+  network: ws
+  port: 2052
+  server: 104.18.36.119
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '3,7,11,17|🇺🇸_US_美国->🇫🇷_FR_法国 #4'
+  network: ws
+  port: 2082
+  server: 104.21.8.157
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '3,11,13|🇺🇸_US_美国->🇩🇪_DE_德国 #4'
+  network: ws
+  port: 2052
+  server: 104.18.19.191
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '3,13|🇺🇸_US_美国->🇩🇪_DE_德国 #5'
+  network: ws
+  port: 2052
+  server: 104.19.250.15
+  tls: false
+  type: vmess
+  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
+  ws-opts:
+    headers:
+      Host: helanv6cf.inekokkk.top
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '6,17|🇺🇸_US_美国 #27'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -40,7 +93,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '6,7,17|🇺🇸_US_美国 #25'
+  name: '6,7,17|🇺🇸_US_美国 #26'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -53,7 +106,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  name: '6,7|🇺🇸_US_美国 #15'
+  name: '6,7|🇺🇸_US_美国 #16'
   network: ws
   port: 8080
   server: 162.159.5.6
@@ -69,19 +122,6 @@ proxies:
   name: '7,17|🇺🇸_US_美国->🇫🇷_FR_法国 #3'
   network: ws
   port: 2082
-  server: 104.21.8.157
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '7,17|🇺🇸_US_美国->🇫🇷_FR_法国 #2'
-  network: ws
-  port: 2082
   server: 172.67.130.140
   tls: false
   type: vmess
@@ -89,43 +129,4 @@ proxies:
   ws-opts:
     headers:
       Host: s1c.v2.v001sss.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🇺🇸_US_美国->🇩🇪_DE_德国
-  network: ws
-  port: 2052
-  server: 104.18.36.119
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      Host: helanv6cf.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|🇺🇸_US_美国->🇩🇪_DE_德国 #1'
-  network: ws
-  port: 2052
-  server: 104.18.19.191
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      Host: helanv6cf.inekokkk.top
-    path: /
-- alterId: 0
-  cipher: auto
-  name: '13|🇺🇸_US_美国->🇩🇪_DE_德国 #2'
-  network: ws
-  port: 2052
-  server: 104.19.250.15
-  tls: false
-  type: vmess
-  uuid: aec82fa6-ab70-4d0a-e7fb-422ef729d961
-  ws-opts:
-    headers:
-      Host: helanv6cf.inekokkk.top
     path: /

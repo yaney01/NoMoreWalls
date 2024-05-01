@@ -69,7 +69,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 0375c07d-0c66-4186-8931-18dfc38f5c9f
+  uuid: 8453bd14-32d9-476b-b506-fca070957912
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇨🇦 CA-198.57.27.21...
@@ -137,20 +137,6 @@ proxies:
     path: /dabai.in105717
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 040
-  network: ws
-  port: 80
-  server: 104.18.232.206
-  servername: cache-us-4.db-link02.top
-  tls: false
-  type: vmess
-  uuid: 72abd60a-00ee-3bd1-9fa3-a03a17e21a80
-  ws-opts:
-    headers:
-      Host: 100.100.17.232.db-link02.top
-    path: /dabai.in20623218
-- alterId: 0
-  cipher: auto
   name: 13|加拿大 111
   network: ws
   port: 8080
@@ -176,20 +162,6 @@ proxies:
     headers:
       Host: 100.100.17.14.db-link02.top
     path: /dabai.in421416
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 021
-  network: ws
-  port: 2082
-  server: 104.17.206.236
-  servername: data-us-3.db-link02.top
-  tls: false
-  type: vmess
-  uuid: 72abd60a-00ee-3bd1-9fa3-a03a17e21a80
-  ws-opts:
-    headers:
-      Host: 100.100.17.206.db-link02.top
-    path: /dabai.in23620617
 - alterId: 0
   cipher: auto
   name: 13|加拿大 066
@@ -244,20 +216,6 @@ proxies:
     headers:
       Host: 100.100.17.64.db-link02.top
     path: /dabai.in1806420
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 046
-  network: ws
-  port: 8880
-  server: 104.19.163.250
-  servername: data-us-1.db-link01.top
-  tls: false
-  type: vmess
-  uuid: 72abd60a-00ee-3bd1-9fa3-a03a17e21a80
-  ws-opts:
-    headers:
-      Host: 100.100.17.163.db-link01.top
-    path: /dabai.in25016319
 - alterId: 0
   cipher: auto
   name: 13|加拿大 063
@@ -383,20 +341,6 @@ proxies:
     headers:
       Host: 100.100.17.4.cn-db.top
     path: /dabai.in192420
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 038
-  network: ws
-  port: 2052
-  server: 104.18.151.207
-  servername: cache-us-1.cn-db.top
-  tls: false
-  type: vmess
-  uuid: 72abd60a-00ee-3bd1-9fa3-a03a17e21a80
-  ws-opts:
-    headers:
-      Host: 100.100.17.151.cn-db.top
-    path: /dabai.in20715118
 - alterId: 0
   cipher: auto
   name: 13|加拿大 025
@@ -537,20 +481,6 @@ proxies:
     path: /dabai.in4811020
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 028
-  network: ws
-  port: 8880
-  server: 104.16.236.57
-  servername: data-us-1.db-link01.top
-  tls: false
-  type: vmess
-  uuid: 72abd60a-00ee-3bd1-9fa3-a03a17e21a80
-  ws-opts:
-    headers:
-      Host: 100.100.17.236.db-link01.top
-    path: /dabai.in5723616
-- alterId: 0
-  cipher: auto
   name: 13|加拿大 060
   network: ws
   port: 80
@@ -607,20 +537,6 @@ proxies:
     path: /dabai.in1367219
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 020
-  network: ws
-  port: 8080
-  server: 104.18.236.224
-  servername: cache-us-1.cn-db.top
-  tls: false
-  type: vmess
-  uuid: 72abd60a-00ee-3bd1-9fa3-a03a17e21a80
-  ws-opts:
-    headers:
-      Host: 100.100.17.236.cn-db.top
-    path: /dabai.in22423618
-- alterId: 0
-  cipher: auto
   name: 14|【BGP】加拿大 02 | 1x CA
   network: tcp
   port: '31701'
@@ -628,4 +544,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: b6f27d5f-779d-4e85-86ea-2cd362ef31b1
+  uuid: 26bf0528-732c-4b88-8db9-194b102135bb
