@@ -224,14 +224,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|台湾2|@ripaojiedian
+  name: 11|美国 CloudFlare节点
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
@@ -1691,14 +1688,11 @@ proxies:
     path: /xn--mes53ddysu0o3gl
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 13,15,16|美国3|@ripaojiedian
+  name: 13|美国3〖电报：@ccbaohe】免费节点定时更新
   network: ws
-  port: '2082'
+  port: 2082
   server: cfcdn1.sanfencdn9.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 7f40abd1-6397-4706-8510-bc5d08df8ad5
@@ -1924,28 +1918,20 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|美国|@ripaojiedian
+  name: 15,16|美国3|@ripaojiedian
   network: ws
-  port: '2052'
-  server: hk.wish.ml
+  port: '13486'
+  server: 218.204.178.2
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 543f15f1-96a8-4205-b4a2-1a1ae6766c12
+  uuid: 61b81abc-320b-49c1-893c-f3ddd45880de
   ws-opts:
     headers:
-      Host: us7.wish.ml
+      Host: waphk.xlb8.eu.org
     path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇺🇸 美国2|@ripaojiedian
-  password: c440808b-a8ad-484a-90c2-4399d5a26dbe
-  port: 43605
-  server: zy.aand.site
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   name: '17|🇺🇸_US_美国 #30'
