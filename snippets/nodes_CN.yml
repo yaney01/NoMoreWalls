@@ -11,11 +11,10 @@ proxies:
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
 - alterId: 0
   cipher: auto
-  name: 11,16|台湾|@ripaojiedian
+  name: '11|广东省佛山市 移动 #1'
   network: tcp
-  port: '21006'
+  port: 21006
   server: 183.232.199.28
-  servername: ''
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
@@ -44,14 +43,11 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|美国3|@ripaojiedian
+  name: 11|广东省中山市 广东移动中山市分公司
   network: ws
   port: '13486'
   server: 218.204.178.2
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 61b81abc-320b-49c1-893c-f3ddd45880de
