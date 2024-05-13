@@ -98,7 +98,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e9949361-5f30-4541-8244-2469385d27bf
+  uuid: f6b406b1-f796-4718-967e-87acf7c36f6b
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -108,7 +108,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e9949361-5f30-4541-8244-2469385d27bf
+  uuid: f6b406b1-f796-4718-967e-87acf7c36f6b
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -118,13 +118,21 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: e9949361-5f30-4541-8244-2469385d27bf
+  uuid: f6b406b1-f796-4718-967e-87acf7c36f6b
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本4|@ripaojiedian
+  password: 918eba0d3ff04abc803fb00e18d0fcb5
+  port: 60283
+  server: any.hmbiplc-02.com
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.229.54.243
+  server: 3.112.219.236
   tfo: false
   type: ss
 - alterId: 0
@@ -137,3 +145,13 @@ proxies:
   tls: false
   type: vmess
   uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad
+- alterId: 0
+  cipher: auto
+  name: 16|日本3|@ripaojiedian
+  network: tcp
+  port: '443'
+  server: 20.40.97.46
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 5c03bf73-c00a-4c7b-a71d-b913641a0c10
