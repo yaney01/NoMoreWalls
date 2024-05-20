@@ -1,6 +1,20 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11|日本 东京都Amazon数据中心
+  network: ws
+  port: '80'
+  server: 18.181.190.41
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ffee3554-cf70-4a11-8d20-66f45354fc1a
+  ws-opts:
+    headers:
+      Host: ''
+    path: ''
+- alterId: 0
+  cipher: auto
   name: 13|JP_分享日记_2
   network: ws
   port: 57557
@@ -98,7 +112,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3bd2c23f-61cb-429d-af38-e65123b1c046
+  uuid: 84a12358-5cf1-4226-8f66-c926d5dab0f8
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -108,7 +122,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3bd2c23f-61cb-429d-af38-e65123b1c046
+  uuid: 84a12358-5cf1-4226-8f66-c926d5dab0f8
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -118,7 +132,7 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 3bd2c23f-61cb-429d-af38-e65123b1c046
+  uuid: 84a12358-5cf1-4226-8f66-c926d5dab0f8
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
