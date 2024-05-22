@@ -51,7 +51,6 @@ proxies:
   port: 20344
   server: 36.151.195.48
   skip-cert-verify: true
-  sni: ssl.sbgfw.info
   tfo: false
   tls: false
   type: trojan
@@ -107,23 +106,6 @@ proxies:
     headers:
       Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
     path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|香港9|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: 22.6bnw.top
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 439ffb3a-f93a-45be-9505-618b422f5cad
-  ws-opts:
-    headers:
-      Host: polohk.6bnw.top
-    path: /cctv?ed
 - alterId: 0
   cipher: auto
   name: 16|香港|@ripaojiedian
