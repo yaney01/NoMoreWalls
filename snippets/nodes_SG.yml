@@ -21,6 +21,23 @@ proxies:
   server: 03.forlive.live
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|新加坡2|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 1ed3f9fd-7adb-4971-b8c0-3d4916290982
+  ws-opts:
+    headers:
+      Host: 7nAi74jJsg1.yofnhkfc.xyz
+    path: /video/c9efxRCi
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
