@@ -112,7 +112,7 @@ proxies:
   servername: jp04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4ef96445-cebd-44e0-9c05-bac8c262bb6d
+  uuid: c48c71e2-2617-4f24-a590-9085a7905d15
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 05  | 1x JP
@@ -122,7 +122,7 @@ proxies:
   servername: jp05.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4ef96445-cebd-44e0-9c05-bac8c262bb6d
+  uuid: c48c71e2-2617-4f24-a590-9085a7905d15
 - alterId: 0
   cipher: auto
   name: 14|【BGP】日本 06  | 1x JP
@@ -132,17 +132,22 @@ proxies:
   servername: jp06.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 4ef96445-cebd-44e0-9c05-bac8c262bb6d
+  uuid: c48c71e2-2617-4f24-a590-9085a7905d15
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 18.183.73.152
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|日本3|@ripaojiedian
+  name: 16|日本3|@ripaojiedian
   network: ws
   port: '80'
   server: cfcdn3.sanfencdn9.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 1ed3f9fd-7adb-4971-b8c0-3d4916290982
@@ -150,11 +155,3 @@ proxies:
     headers:
       Host: oA5FSz9Tjp1.yofnhkfc.xyz
     path: /video/P7EExoE2
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 18.143.159.186
-  tfo: true
-  type: ss
