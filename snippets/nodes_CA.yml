@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1,3,11,13|🇨🇦 加拿大
+  name: 1,3,13|🇨🇦 加拿大
   network: ws
   port: 443
   server: 158.51.121.36
@@ -84,17 +84,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 40203f1a-af4a-4b16-977a-041f6b529010
-- alterId: 0
-  cipher: auto
-  name: 11|加拿大 魁北克省博阿努瓦OVH数据中心
-  network: tcp
-  port: '50577'
-  server: 167.114.90.198
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 132b0296-e304-45a6-b045-4cdf0902e2b7
+  uuid: 1d0c3346-6170-40d8-963b-48f62c0d44b9
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇨🇦 CA-142.93.144.9...
@@ -302,4 +292,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 2868c776-c58b-4d89-b516-c8a77bb3811b
+  uuid: acf3ea0f-eb01-487e-9dcc-013935d0f7c3
