@@ -77,7 +77,31 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 1703061b-e13c-4a56-b528-846580d94d50
+  uuid: 54a2cdc0-9db8-4235-8f66-254ee2466349
+- alterId: 0
+  cipher: auto
+  name: 11|加拿大 魁北克省博阿努瓦OVH数据中心
+  network: tcp
+  port: '50577'
+  server: 167.114.90.198
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 132b0296-e304-45a6-b045-4cdf0902e2b7
+- alterId: 0
+  cipher: auto
+  name: 11,13|🇨🇦 加拿大
+  network: ws
+  port: 443
+  server: 158.51.121.36
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: ''
+    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇨🇦 CA-142.93.144.9...
@@ -116,20 +140,6 @@ proxies:
     headers:
       Host: xmivideo.cfd
     path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦 加拿大
-  network: ws
-  port: 443
-  server: 158.51.121.36
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: ''
-    path: /linkvws
 - alterId: 0
   cipher: auto
   name: 13|⚡️@DeamNet 🇨🇦Canada 18
@@ -299,4 +309,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: f2f34ff1-f095-4609-9e31-1ae13b0e34b0
+  uuid: 2b3cfb7e-1d09-486b-865d-b08b564b89f2
