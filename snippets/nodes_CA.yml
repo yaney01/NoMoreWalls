@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1,3,13|🇨🇦 加拿大
+  name: 1,13|🇨🇦 加拿大
   network: ws
   port: 443
   server: 158.51.121.36
@@ -16,7 +16,7 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: '6|🇨🇦_CA_加拿大 #1'
+  name: 6|🇨🇦_CA_加拿大
   network: ws
   port: 8080
   server: 23.227.39.24
@@ -42,7 +42,7 @@ proxies:
     path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
 - alterId: 0
   cipher: auto
-  name: '6|🇨🇦_CA_加拿大 #3'
+  name: '6|🇨🇦_CA_加拿大 #2'
   network: ws
   port: 8080
   server: 108.181.23.161
@@ -55,7 +55,7 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: '6,7,17|🇨🇦_CA_加拿大 #7'
+  name: '6,7,17|🇨🇦_CA_加拿大 #6'
   network: http
   port: 3389
   server: 134.122.41.160
@@ -84,7 +84,7 @@ proxies:
   servername: ca04.abpilot.xyz
   tls: true
   type: vmess
-  uuid: 81749a4e-f90b-4e9b-a920-0cb283ada89c
+  uuid: f8dd372a-52fc-4e26-bde6-c22684c11d76
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇨🇦 CA-142.93.144.9...
@@ -292,4 +292,4 @@ proxies:
   servername: ca04.lovemc.xyz
   tls: true
   type: vmess
-  uuid: 1ca18ba6-ac6b-432f-b842-ca13d6abb62c
+  uuid: 3ed25d9f-c291-4dc2-adbf-ad08d9367045
