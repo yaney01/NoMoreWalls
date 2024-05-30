@@ -55,17 +55,14 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 3,13,15,16|美国6|@ripaojiedian
+  name: 3,13|美国2〖电报：@ccbaohe】免费节点定时更新
   network: ws
-  port: '2095'
+  port: 2095
   server: cfcdn1.sanfencdn9.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
-  uuid: e83f27c4-b1cb-4311-907c-ea16d32348e1
+  uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
   ws-opts:
     headers:
       Host: us82pRzxDMb.fzbqfrse.xyz
@@ -826,17 +823,14 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 13,15,16|台湾2|@ripaojiedian
+  name: 13|🇺🇸 美国 CloudFlare节点 6
   network: ws
-  port: '2052'
+  port: 2052
   server: cfcdn1.sanfencdn9.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
-  uuid: e83f27c4-b1cb-4311-907c-ea16d32348e1
+  uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
   ws-opts:
     headers:
       Host: tw1bQiWSE4x.fzbqfrse.xyz
@@ -1111,10 +1105,11 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇺🇸 美国|@ripaojiedian
+  name: 15,16|美国|@ripaojiedian
   network: ws
-  port: 2052
+  port: '2052'
   server: hk.wish.ml
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
