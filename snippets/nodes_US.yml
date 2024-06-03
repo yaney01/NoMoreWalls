@@ -940,14 +940,17 @@ proxies:
     path: /glweidf.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: 13|🇺🇸 美国 CloudFlare节点 6
+  client-fingerprint: chrome
+  name: 13,15,16|台湾3|@ripaojiedian
   network: ws
-  port: 2052
+  port: '2052'
   server: cfcdn1.sanfencdn9.com
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 3fdef482-3fba-47f9-af67-b3f5bf93ec4c
+  uuid: bb1af7d3-9526-44f1-9155-788773cc629e
   ws-opts:
     headers:
       Host: tw1bQiWSE4x.fzbqfrse.xyz
