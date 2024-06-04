@@ -1,32 +1,6 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
-  network: ws
-  port: '443'
-  server: sg-full.privateip.net
-  tls: true
-  type: vmess
-  uuid: 41632df1-92bc-40af-8382-5d46f7725a9a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /RACEVPN
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-152.42.164....
-  network: ws
-  port: 29320
-  server: 152.42.164.199
-  tls: false
-  type: vmess
-  uuid: 7fef9dc9-d6c2-459f-b60b-2bb2186081e4
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
   name: 13|SG_youtube@资源分享师_3
   network: tcp
   port: 2083
@@ -36,7 +10,7 @@ proxies:
   uuid: 7cc6a250-f767-4d4b-9421-03b1bbf23f88
 - alterId: 0
   cipher: auto
-  name: '13|%F0%9F%87%B8%F0%9F%87%AC%20Sin... #1'
+  name: 13|%F0%9F%87%B8%F0%9F%87%AC%20Sin...
   network: ws
   port: '443'
   server: sg2-full.privateip.net
@@ -50,7 +24,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|新加坡3|@ripaojiedian
+  name: 13,15,16|新加坡3|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn2.sanfencdn9.com
@@ -64,6 +38,19 @@ proxies:
     headers:
       Host: rpmlybgzsg2.yofnhkfc.xyz
     path: /video/3YKfzGw4
+- alterId: 0
+  cipher: auto
+  name: 13|🔒 VM-WS-NONE 🇸🇬 SG-152.42.164....
+  network: ws
+  port: 29320
+  server: 152.42.164.199
+  tls: false
+  type: vmess
+  uuid: 7fef9dc9-d6c2-459f-b60b-2bb2186081e4
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian

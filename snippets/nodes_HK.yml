@@ -1,17 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|[VMess] 🇭🇰 香港 环球全域电讯
+  name: 13|HongKong Aliyun HK
   network: ws
-  port: 12909
-  server: 210.3.159.224
+  port: '2052'
+  server: web.com
   servername: ''
-  tls: true
+  tls: false
   type: vmess
-  uuid: 8259cb1c-dd6c-4739-9c88-af550d977525
+  uuid: a1ec3211-b1ff-4e53-a729-e5b7b55567eb
   ws-opts:
     headers:
-      Host: ''
+      Host: aliyun_hk1.cn2.free.hr
     path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
