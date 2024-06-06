@@ -1,9 +1,23 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇯🇵 JP-152.69.197.74...
+  name: 13|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
   network: ws
-  port: '12345'
+  port: 80
+  server: jp5g.forlive.live
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e9394d66-d3cd-4e66-89dd-cda991bde821
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '13|%F0%9F%87%AF%F0%9F%87%B5%20Jap... #1'
+  network: ws
+  port: 12345
   server: 152.69.197.74
   servername: ''
   tls: false
@@ -15,17 +29,59 @@ proxies:
     path: /bb
 - alterId: 0
   cipher: auto
-  name: 13|🇯🇵JP-18.181.190.41-0169
+  name: 13|日本【免费 02】
   network: ws
   port: 80
-  server: jp5g.forlive.live
+  server: cf2.ftclashcloud.site
   servername: ''
   tls: false
   type: vmess
-  uuid: e9394d66-d3cd-4e66-89dd-cda991bde821
+  uuid: 9df421b3-0edb-423c-96ed-e3f327699473
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
+      Host: azjp01.ftclashcloud.online
+    path: /ws?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 13|日本【免费 01】
+  network: ws
+  port: 80
+  server: cf1.ftclashcloud.site
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9df421b3-0edb-423c-96ed-e3f327699473
+  ws-opts:
+    headers:
+      Host: azjp01.ftclashcloud.online
+    path: /ws?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 13|日本【免费 04】
+  network: ws
+  port: 80
+  server: cf4.ftclashcloud.site
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9df421b3-0edb-423c-96ed-e3f327699473
+  ws-opts:
+    headers:
+      Host: azjp01.ftclashcloud.online
+    path: /ws?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 13|日本【TG：@ccbaohe】定时更新节点订阅
+  network: ws
+  port: 443
+  server: 141.147.174.244
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3c5d5534-4b08-4f1a-f8da-f1f9134554f6
+  ws-opts:
+    headers:
+      Host: gw.alicdn.com
     path: /
 - alterId: 0
   cipher: auto
