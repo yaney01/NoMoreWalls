@@ -249,10 +249,11 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: none
-  name: 3|🇳🇱_NL_荷兰->🇬🇮_GI_直布罗陀
+  name: 3,11|巴西圣保罗 CloudFlare节点
   network: ws
-  port: 80
+  port: '80'
   server: 188.114.97.3
+  servername: ''
   tls: false
   type: vmess
   uuid: b25f8da6-54a2-49b3-bacf-8403b4c36556
@@ -262,9 +263,9 @@ proxies:
     path: /vmess#DONT-FORGET-TO-SUPPORT-SSHMAX.NET-TO-KEEP-THIS-SERVER-ALIVE
 - alterId: 0
   cipher: auto
-  name: '3|🇺🇸_US_美国 #3'
+  name: '3,11|美国 CloudFlare节点 #1'
   network: ws
-  port: 2095
+  port: '2095'
   server: russia.com
   tls: false
   type: vmess
@@ -662,29 +663,49 @@ proxies:
   cipher: auto
   name: 11|美国 CloudFlare节点
   network: ws
-  port: '2082'
-  server: 172.67.144.12
+  port: '8080'
+  server: 172.67.172.168
   tls: false
   type: vmess
-  uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts:
     headers:
-      Host: dny.chaozhijc.xyz
+      Host: oiictw.yydsii.com
     path: /
 - alterId: 0
   cipher: auto
-  name: '11|美国 CloudFlare节点 #1'
+  client-fingerprint: chrome
+  name: 11,15,16|香港5|@ripaojiedian
   network: ws
-  port: 2082
-  server: chaoji2.chaozhijc.xyz
+  port: '16632'
+  server: m.cnmjin.net
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
   ws-opts:
     headers:
-      Host: dny.chaozhijc.xyz
-    path: ?ed=2048
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|香港7|@ripaojiedian
+  network: ws
+  port: '16632'
+  server: yes.cnmjcn.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
+  ws-opts:
+    headers:
+      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,12|github.com/freefq - 印度  2
@@ -2403,40 +2424,6 @@ proxies:
   tls: false
   type: trojan
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|香港5|@ripaojiedian
-  network: ws
-  port: '16632'
-  server: m.cnmjin.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|香港7|@ripaojiedian
-  network: ws
-  port: '16632'
-  server: yes.cnmjcn.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b
-  ws-opts:
-    headers:
-      Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com
-    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇭🇰 香港R|@ripaojiedian

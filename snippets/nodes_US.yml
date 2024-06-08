@@ -79,9 +79,9 @@ proxies:
     path: /api/v3/download.getFile
 - alterId: 0
   cipher: auto
-  name: '3|🇺🇸_US_美国 #3'
+  name: '3,11|美国 CloudFlare节点 #1'
   network: ws
-  port: 2095
+  port: '2095'
   server: russia.com
   tls: false
   type: vmess
@@ -300,29 +300,15 @@ proxies:
   cipher: auto
   name: 11|美国 CloudFlare节点
   network: ws
-  port: '2082'
-  server: 172.67.144.12
+  port: '8080'
+  server: 172.67.172.168
   tls: false
   type: vmess
-  uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
   ws-opts:
     headers:
-      Host: dny.chaozhijc.xyz
+      Host: oiictw.yydsii.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: '11|美国 CloudFlare节点 #1'
-  network: ws
-  port: 2082
-  server: chaoji2.chaozhijc.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2
-  ws-opts:
-    headers:
-      Host: dny.chaozhijc.xyz
-    path: ?ed=2048
 - alterId: 0
   cipher: auto
   name: 11,12|github.com/freefq - 美国CloudFla...
