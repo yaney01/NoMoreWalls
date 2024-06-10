@@ -81,39 +81,30 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 13|%F0%9F%87%A8%F0%9F%87%A6%20Can...
-  network: tcp
-  port: '443'
-  server: ca-v2ray.ipracevpn.com
+  network: ws
+  port: '80'
+  server: us3e-mmnnfr9dop0.v2freevpn.com
   servername: ''
-  tls: true
-  type: vmess
-  uuid: 15437838-18d2-44bf-98f4-0f2dbb6b3cdc
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦 加拿大 179
-  network: ws
-  port: '8080'
-  server: 104.19.47.149
   tls: false
   type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
   ws-opts:
     headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
+      Host: us3e-mmnnfr9dop0.v2freevpn.com
+    path: /v118-fccxmxm35
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦 加拿大 172
+  name: 13|[vmess]加拿大 1
   network: ws
-  port: '8080'
-  server: 104.19.47.34
+  port: '80'
+  server: m2-ca1.m2network.icu
   tls: false
   type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  uuid: 8d3f44eb-9ba0-4dd4-83cd-eaece719ca92
   ws-opts:
     headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
+      Host: m2-ca1.m2network.icu
+    path: /ws?ed=2560
 - alterId: 0
   cipher: auto
   name: '13|%F0%9F%87%A8%F0%9F%87%A6%20Can... #1'
@@ -129,24 +120,34 @@ proxies:
     path: /RACEVPN
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦 加拿大 180
+  name: '13|%F0%9F%87%A8%F0%9F%87%A6%20Can... #2'
+  network: tcp
+  port: '443'
+  server: ca-v2ray.ipracevpn.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 15437838-18d2-44bf-98f4-0f2dbb6b3cdc
+- alterId: 2
+  cipher: auto
+  name: 13|加拿大 200
   network: ws
-  port: '8080'
-  server: 104.19.47.36
+  port: 80
+  server: free.qdns.live
+  servername: ''
   tls: false
   type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  uuid: ad6afad6-5659-3f25-9477-029735d5401c
   ws-opts:
     headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
+      Host: free-us.qdns.live
+    path: /
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 040
+  name: 13|🇨🇦 加拿大 179
   network: ws
-  port: 8080
-  server: 104.19.47.226
-  servername: ''
+  port: '8080'
+  server: 104.19.47.149
   tls: false
   type: vmess
   uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
@@ -170,53 +171,11 @@ proxies:
     path: 028c8131-9e3e-4836-94ac-ea7f24d4d05a-vm
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦 加拿大 187
-  network: ws
-  port: '8080'
-  server: 104.19.47.207
+  name: 13|🔒 VM-TCP-NA 🇨🇦 CA-167.114.90.1...
+  network: tcp
+  port: '50577'
+  server: 167.114.90.198
+  servername: ''
   tls: false
   type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦 加拿大 060
-  network: ws
-  port: '2095'
-  server: 104.16.67.38
-  tls: false
-  type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  ws-opts:
-    headers:
-      Host: proud-union-8659.email-0kn8d.workers.dev
-    path: /glweidf.sbs/linkws
-- alterId: 2
-  cipher: auto
-  name: 13|🇨🇦 加拿大 200
-  network: ws
-  port: '80'
-  server: free.qdns.live
-  tls: false
-  type: vmess
-  uuid: ad6afad6-5659-3f25-9477-029735d5401c
-  ws-opts:
-    headers:
-      Host: free-us.qdns.live
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦 加拿大 059
-  network: ws
-  port: '2095'
-  server: 104.16.60.8
-  tls: false
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: icy-tooth-3d05.plzthsmdnss-7d8ly.workers.dev
-    path: /obdii.cfd/linkws
+  uuid: 132b0296-e304-45a6-b045-4cdf0902e2b7
