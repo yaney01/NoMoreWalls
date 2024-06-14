@@ -77,7 +77,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: '6,17|🇺🇸_US_美国 #26'
+  name: '6,17|🇺🇸_US_美国 #25'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -116,7 +116,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '6,7,17|🇺🇸_US_美国 #25'
+  name: '6,7,17|🇺🇸_US_美国 #24'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -166,3 +166,16 @@ proxies:
     headers:
       Host: s1c.v2.v001sss.xyz
     path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇺🇸_US_美国->🇬🇧_GB_英国
+  network: ws
+  port: 80
+  server: zula.ir
+  tls: false
+  type: vmess
+  uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
+  ws-opts:
+    headers:
+      Host: Uk2.vmess.site.
+    path: /vmess @hopev2ray
