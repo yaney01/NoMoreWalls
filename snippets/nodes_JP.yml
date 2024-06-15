@@ -2,6 +2,20 @@ proxies:
 - alterId: 0
   cipher: auto
   name: 13|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
+  network: ws
+  port: 12345
+  server: 152.69.197.74
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b8a6bf58-485a-4046-b386-b3661bf65eff
+  ws-opts:
+    headers:
+      Host: ''
+    path: /bb
+- alterId: 0
+  cipher: auto
+  name: '13|%F0%9F%87%AF%F0%9F%87%B5%20Jap... #1'
   network: tcp
   port: '2083'
   server: jp-v2ray.ipracevpn.com
@@ -9,6 +23,16 @@ proxies:
   tls: true
   type: vmess
   uuid: 745a1002-6136-4a61-b865-86e2e29bf8b6
+- alterId: 64
+  cipher: chacha20-poly1305
+  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-210.230.206....
+  network: tcp
+  port: '38296'
+  server: 210.230.206.25
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 18648ee3-e06a-82bf-5a48-2d976b41febd
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
@@ -17,23 +41,6 @@ proxies:
   server: 120.199.90.26
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|日本3|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e62d9d73-9a0e-4d7a-8eba-8a9666c9bcbe
-  ws-opts:
-    headers:
-      Host: kvjqqknzjp6.yofnhkfc.xyz
-    path: /video/Zo98PYfE
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本R|@ripaojiedian
