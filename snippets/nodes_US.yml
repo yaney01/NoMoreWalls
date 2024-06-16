@@ -323,32 +323,100 @@ proxies:
     headers:
       Host: a.prapt1.ir
     path: /
+- alterId: 0
+  cipher: auto
+  name: 11|美国 CloudFlare节点
+  network: ws
+  port: '8080'
+  server: 172.67.172.67
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #1'
+  network: ws
+  port: '8080'
+  server: 104.19.44.174
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5
+  ws-opts:
+    headers:
+      Host: amd2.720208.xyz
+    path: /?ed=2048&Telegram🇨🇳 @WangCai_8
+- alterId: 0
+  cipher: auto
+  name: '11,13|🇺🇸 美国 CloudFlare节点 #1'
+  network: ws
+  port: '8880'
+  server: yx2.gyyun.top
+  tls: false
+  type: vmess
+  uuid: 2c8ba46c-7bb9-4f80-8d58-5aef9629b09f
+  ws-opts:
+    headers:
+      Host: lxjp1.gyyun.top
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 11,13|加拿大 058
+  network: ws
+  port: 8080
+  server: 104.17.221.34
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: usakansas.xlb8.eu.org
+    path: /?ed=2560
 - alterId: 64
   cipher: auto
   name: 11|美国 华盛顿Cogent通信公司
   network: ws
-  port: '31000'
-  server: 38.11.61.85
+  port: 37000
+  server: 38.33.46.89
+  servername: www.13987826.xyz
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   ws-opts:
-    headers:
-      Host: www.22796359.xyz
     path: /path/191019072927
 - alterId: 0
   cipher: auto
-  name: 11,12|github.com/freefq - 美国Fastly全球...
+  name: 11,12|github.com/freefq - 美国CloudFla...
   network: ws
-  port: 443
-  server: gov.uk
-  tls: true
+  port: 8080
+  server: www.darkroom.lol
+  tls: false
   type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
   ws-opts:
     headers:
-      Host: zheshiscp.com
-    path: /77848824
+      Host: www.darkroom.lol
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '11|美国 CloudFlare节点 #5'
+  network: ws
+  port: '80'
+  server: 104.19.42.49
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: jp.xlb8.eu.org
+    path: /
 - alterId: 0
   cipher: auto
   name: '11,12|github.com/freefq - 美国CloudFla... #1'
@@ -365,19 +433,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,12|github.com/freefq - 美国CloudFla...
-  network: ws
-  port: 8080
-  server: www.darkroom.lol
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.darkroom.lol
-    path: /
-- alterId: 0
-  cipher: auto
   name: '11,12|github.com/freefq - 美国CloudFla... #2'
   network: ws
   port: 8880
@@ -390,6 +445,19 @@ proxies:
     headers:
       Host: server26.beheshtbaneh.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 11,12|github.com/freefq - 美国Fastly全球...
+  network: ws
+  port: 443
+  server: gov.uk
+  tls: true
+  type: vmess
+  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
+  ws-opts:
+    headers:
+      Host: zheshiscp.com
+    path: /77848824
 - alterId: 0
   cipher: auto
   name: '11,12|github.com/freefq - 美国CloudFla... #3'
@@ -616,19 +684,6 @@ proxies:
     headers:
       Host: www.15314695.xyz
     path: /path/191019072927
-- alterId: 0
-  cipher: auto
-  name: '13|🇺🇸 美国 CloudFlare节点 #1'
-  network: ws
-  port: '8880'
-  server: yx2.gyyun.top
-  tls: false
-  type: vmess
-  uuid: 2c8ba46c-7bb9-4f80-8d58-5aef9629b09f
-  ws-opts:
-    headers:
-      Host: lxjp1.gyyun.top
-    path: /?ed=2048
 - alterId: 64
   cipher: auto
   name: 13|🔒 VM-TCP-NA 🇺🇸 US-107.148.192....
