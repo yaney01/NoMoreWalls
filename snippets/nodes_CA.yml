@@ -198,33 +198,6 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 070
-  network: ws
-  port: 80
-  server: 104.16.67.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      Host: us3e-mmnnfr9dop0.v2freevpn.com
-    path: /v118-fccxmxm35
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦 加拿大 028
-  network: ws
-  port: '8080'
-  server: 104.19.47.180
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
   name: 13|加拿大 068
   network: ws
   port: 8080
@@ -511,3 +484,17 @@ proxies:
     headers:
       Host: oiictw.yydsii.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 13|[VMess] 🇨🇦 加拿大 006
+  network: ws
+  port: 2086
+  server: 104.16.67.38
+  servername: snowy-river-f497.turkeys-radford.workers.dev
+  tls: false
+  type: vmess
+  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+  ws-opts:
+    headers:
+      Host: snowy-river-f497.turkeys-radford.workers.dev
+    path: /linde06.indiavideo.sbs/linkws

@@ -49,21 +49,29 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 3,15,16|美国3|@ripaojiedian
+  name: 3|🇺🇸_US_美国->🇮🇱_IL_以色列
   network: ws
-  port: '16928'
-  server: 120.232.240.56
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
+  port: 443
+  server: Mikohail.rafalion.ir.
+  tls: true
   type: vmess
-  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  uuid: dddb41b3-0062-4cd1-9932-34d3a6fa2d20
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '3,11|美国 CloudFlare节点 #7'
+  network: ws
+  port: '443'
+  server: Efrzowsinia.rafalion.ir.
+  servername: Azhnakina.rafalion.ir.
+  tls: true
+  type: vmess
+  uuid: dddb41b3-0062-4cd1-9932-34d3a6fa2d20
   ws-opts:
     headers:
-      Host: '%7B%22Host%22:%22193.25.215.160%22%7D'
-    path: /v2ray
+      Host: ''
+    path: /
 - alterId: 0
   cipher: auto
   name: 3,13|VPN招代理电报联系@litata2022
@@ -79,7 +87,50 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '6,17|🇺🇸_US_美国 #29'
+  client-fingerprint: chrome
+  name: 3,11,15,16|美国3|@ripaojiedian
+  network: ws
+  port: '16928'
+  server: 120.232.240.56
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973
+  ws-opts:
+    headers:
+      Host: '%7B%22Host%22:%22193.25.215.160%22%7D'
+    path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 3|🇺🇸_US_美国->🇨🇦_CA_加拿大
+  network: ws
+  port: 8080
+  server: 172.64.97.235
+  tls: false
+  type: vmess
+  uuid: ef8c954e-014f-4b36-8273-9b5086afab34
+  ws-opts:
+    headers:
+      Host: luther-soon-uploaded-anxiety.trycloudflare.com
+    path: ef8c954e-014f-4b36-8273-9b5086afab34-vm
+- alterId: 0
+  cipher: auto
+  name: 3,13|🇺🇸 美国 CloudFlare节点
+  network: ws
+  port: '80'
+  server: 104.21.69.44
+  tls: false
+  type: vmess
+  uuid: da62a137-3611-4dd7-8523-b5266afe6fe5
+  ws-opts:
+    headers:
+      Host: Uk2.vmess.site.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: '6,17|🇺🇸_US_美国 #28'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -92,7 +143,7 @@ proxies:
     path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm
 - alterId: 0
   cipher: auto
-  name: '6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #5'
+  name: '6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
   network: ws
   port: 8080
   server: 162.159.137.249
@@ -118,7 +169,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '6,7,17|🇺🇸_US_美国 #28'
+  name: '6,7,17|🇺🇸_US_美国 #27'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
@@ -131,7 +182,7 @@ proxies:
     path: 82cb93a3-65a9-4dac-a2a7-d997b6c26d6a-vm
 - alterId: 0
   cipher: auto
-  name: '6,7|🇺🇸_US_美国 #19'
+  name: '6,7|🇺🇸_US_美国 #18'
   network: ws
   port: 8080
   server: 162.159.5.6
