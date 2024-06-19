@@ -1,73 +1,4 @@
 proxies:
-- cipher: aes-256-gcm
-  name: 1|_CA__1
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 23.162.200.181
-  type: ss
-- name: 1|_CA__2
-  network: tcp
-  password: telegram-id-directvpn
-  port: 22222
-  server: 15.156.141.38
-  skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
-  type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: 1|_CA__3
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 23.162.200.181
-  type: ss
-- cipher: aes-256-gcm
-  name: 1|_CA__4
-  password: RexnBgU7EV5ADxG
-  port: 7001
-  server: 23.162.200.181
-  type: ss
-- cipher: aes-256-gcm
-  name: 1|_CA__5
-  password: KixLvKzwjekG00rm
-  port: 8000
-  server: 23.162.200.181
-  type: ss
-- cipher: aes-256-gcm
-  name: 1|_CA__6
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 23.162.200.181
-  type: ss
-- cipher: aes-256-gcm
-  name: 1|_CA__7
-  password: FoOiGlkAA9yPEGP
-  port: 7306
-  server: 23.162.200.181
-  type: ss
-- cipher: aes-256-gcm
-  name: 1|_CA__8
-  password: Y6R9pAtvxxzmGC
-  port: 5001
-  server: 23.162.200.181
-  type: ss
-- cipher: aes-256-gcm
-  name: 1|_CA__9
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 23.162.200.181
-  type: ss
-- cipher: aes-256-gcm
-  name: 1|_CA__10
-  password: faBAoD54k87UJG7
-  port: 2375
-  server: 23.162.200.181
-  type: ss
-- cipher: aes-256-gcm
-  name: 1|_CA__11
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 23.162.200.181
-  type: ss
 - alterId: 0
   cipher: auto
   name: 6|🇨🇦_CA_加拿大
@@ -312,6 +243,20 @@ proxies:
     path: /?ed=2048
 - alterId: 0
   cipher: auto
+  name: 13|加拿大 036
+  network: ws
+  port: 8080
+  server: 104.17.221.34
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
+  ws-opts:
+    headers:
+      Host: usakansas.xlb8.eu.org
+    path: /?ed=2560
+- alterId: 0
+  cipher: auto
   name: '13|%F0%9F%87%A8%F0%9F%87%A6%20Can... #1'
   network: tcp
   port: '443'
@@ -334,19 +279,6 @@ proxies:
     headers:
       Host: yaghoob55freenodes.repaco69437403.workers.dev
     path: /jahfkjha.cfd/linkws
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦 加拿大 068
-  network: ws
-  port: '8080'
-  server: 172.67.172.88
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 13|加拿大 005
@@ -527,6 +459,20 @@ proxies:
   ws-opts:
     headers:
       Host: De2.vmess.site.
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 041
+  network: ws
+  port: 8080
+  server: 172.67.199.221
+  servername: oiictw.yydsii.com
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
     path: /
 - alterId: 0
   cipher: auto
