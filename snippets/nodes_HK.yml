@@ -1,18 +1,31 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|香港 01
+  name: 13|🇭🇰 港鸡蛋仔 01-IP
   network: ws
-  port: 80
-  server: lzyjc.779917.xyz
+  port: '80'
+  server: 116.92.208.15
+  tls: false
+  type: vmess
+  uuid: 69b35ece-15e2-4973-8a5f-891c18a85b7a
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇭🇰 香港1| cf
+  network: ws
+  port: '2052'
+  server: hk.wish.ml
   servername: ''
   tls: false
   type: vmess
-  uuid: 557dd7d1-9085-4f39-970f-7d2bb79b164e
+  uuid: 071ef7de-1524-44ca-9c00-0b5885cd23a0
   ws-opts:
     headers:
-      Host: hkk.779917.xyz
-    path: /?ed=2048
+      Host: hk2.wish.ml
+    path: /
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian

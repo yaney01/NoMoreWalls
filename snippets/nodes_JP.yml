@@ -1,4 +1,30 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 13|🇯🇵 日本乌冬 02-IP
+  network: ws
+  port: '80'
+  server: 18.183.48.212
+  tls: false
+  type: vmess
+  uuid: 69b35ece-15e2-4973-8a5f-891c18a85b7a
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇯🇵 日本乌冬 02
+  network: ws
+  port: '80'
+  server: jp02.cbd12403-7946-4bbc-8127-2d9e5f1d50bc.genshinimpact.cyou
+  tls: false
+  type: vmess
+  uuid: 69b35ece-15e2-4973-8a5f-891c18a85b7a
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
 - alterId: 64
   cipher: chacha20-poly1305
   name: 13|🔒 VM-TCP-NA 🇯🇵 JP-210.230.206....
@@ -9,6 +35,29 @@ proxies:
   tls: false
   type: vmess
   uuid: 18648ee3-e06a-82bf-5a48-2d976b41febd
+- alterId: 0
+  cipher: auto
+  name: 13|🇯🇵 日本拉面 03
+  network: ws
+  port: '80'
+  server: jp03.73c01f37-d10a-4317-a43a-380fc51d0bc4.genshinimpact.cyou
+  tls: false
+  type: vmess
+  uuid: 69b35ece-15e2-4973-8a5f-891c18a85b7a
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|日本 006
+  network: tcp
+  port: 45458
+  server: 103.200.30.8
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bbe8249a-3bfe-43c2-fe55-838e7ae13c45
 - alterId: 0
   cipher: auto
   name: 13|🔒 VM-WS-NA 🇯🇵 JP-152.69.197.74...
@@ -25,31 +74,13 @@ proxies:
     path: /bb
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 13,15,16|日本2|@ripaojiedian
+  name: 13|公测|日本 03 1x
   network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 150be761-0f1b-464c-a0c7-09fd31bd2f31
-  ws-opts:
-    headers:
-      Host: oA5FSz9Tjp1.yofnhkfc.xyz
-    path: /video/P7EExoE2
-- alterId: 0
-  cipher: auto
-  name: 13|公测|日本 01 1x
-  network: ws
-  port: 80
+  port: '8880'
   server: baobaojichang.bbjc.xyz
-  servername: ''
   tls: false
   type: vmess
-  uuid: 9ec32656-553f-46c1-82bf-1404c37766ec
+  uuid: 36662862-9cb7-4d67-9561-f05b328155ba
   ws-opts:
     headers:
       Host: riben.mojc.xyz

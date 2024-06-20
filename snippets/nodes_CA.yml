@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: '1,3,13|🇨🇦_CA_加拿大 #7'
+  name: 1,3|🇨🇦_CA_加拿大
   network: ''
   port: 17163
   server: 108.181.200.220
@@ -50,7 +50,7 @@ proxies:
     path: /1IKYjV0r/
 - alterId: 0
   cipher: auto
-  name: '6,7,17|🇨🇦_CA_加拿大 #8'
+  name: '6,7,17|🇨🇦_CA_加拿大 #7'
   network: http
   port: 3389
   server: 134.122.41.160
@@ -72,64 +72,10 @@ proxies:
     path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm
 - alterId: 0
   cipher: auto
-  name: 13|🇨🇦 加拿大 071
-  network: ws
-  port: '2095'
-  server: 162.159.136.208
-  tls: false
-  type: vmess
-  uuid: e9555d84-a146-4e36-9c23-eac28387be48
-  ws-opts:
-    headers:
-      Host: ip5.dtku47.xyz
-    path: /WNh8bXQv/
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦 加拿大 049
-  network: ws
-  port: '80'
-  server: 104.19.37.138
-  tls: false
-  type: vmess
-  uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29
-  ws-opts:
-    headers:
-      Host: akjp.xlb8.eu.org
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 056
-  network: ws
-  port: 2052
-  server: 104.16.61.8
-  servername: free.fnet00.workers.dev
-  tls: false
-  type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  ws-opts:
-    headers:
-      Host: free.fnet00.workers.dev
-    path: /glweidf.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 006
-  network: ws
-  port: 2086
-  server: 104.16.67.38
-  servername: snowy-river-f497.turkeys-radford.workers.dev
-  tls: false
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: snowy-river-f497.turkeys-radford.workers.dev
-    path: /linde06.indiavideo.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 069
+  name: 13|%F0%9F%87%A8%F0%9F%87%A6%20Can...
   network: ws
   port: 2095
-  server: 172.64.144.66
+  server: 162.159.136.208
   servername: ip5.dtku47.xyz
   tls: false
   type: vmess
@@ -140,56 +86,74 @@ proxies:
     path: /WNh8bXQv/
 - alterId: 0
   cipher: auto
-  name: 13|%F0%9F%87%A8%F0%9F%87%A6%20Can...
-  network: tcp
-  port: '443'
-  server: ca-v2ray.ipracevpn.com
-  servername: ''
+  name: 13|[VMess] 🇨🇦 加拿大 44
+  network: ws
+  port: 443
+  server: 104.21.75.142
+  servername: hdfy5c1.foriran.trade
   tls: true
   type: vmess
-  uuid: d8f08061-b050-4fe2-8f99-cf3b04846c35
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 057
-  network: ws
-  port: 8880
-  server: 104.16.61.8
-  servername: yaghoob55freenodes.repaco69437403.workers.dev
-  tls: false
-  type: vmess
-  uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+  uuid: 251780c1-1501-43b3-be2a-d144a20d479a
   ws-opts:
     headers:
-      Host: yaghoob55freenodes.repaco69437403.workers.dev
-    path: /jahfkjha.cfd/linkws
+      Host: hdfy5c1.foriran.trade
+    path: /Nbs2DSTSkFW6MrrFQHeSDQ7
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 065
+  name: '13|Channel id: @ShadowProxy66 🇨🇦'
+  network: ws
+  port: '443'
+  server: hms24.ivideos.sbs
+  servername: ivideos.sbs
+  tls: true
+  type: vmess
+  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+  ws-opts:
+    headers:
+      Host: ivideos.sbs
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 119
+  network: ws
+  port: 8080
+  server: 23.227.38.3
+  servername: ip001.freegradely.xyz
+  tls: false
+  type: vmess
+  uuid: ffaba3ee-4070-4590-9959-d863f9a4c6de
+  ws-opts:
+    headers:
+      Host: ip001.freegradely.xyz
+    path: /9aqOiXD2/
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 120
   network: ws
   port: 2086
-  server: 162.159.136.33
-  servername: ip002.dtku47.xyz
+  server: 23.227.38.5
+  servername: ip002.freegradely.xyz
   tls: false
   type: vmess
   uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
   ws-opts:
     headers:
-      Host: ip002.dtku47.xyz
+      Host: ip002.freegradely.xyz
     path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 068
+  name: 13|加拿大 122
   network: ws
-  port: 2095
-  server: 104.19.38.88
-  servername: ip5.dtku47.xyz
+  port: 2086
+  server: 23.227.38.6
+  servername: ip002.freegradely.xyz
   tls: false
   type: vmess
-  uuid: e9555d84-a146-4e36-9c23-eac28387be48
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
   ws-opts:
     headers:
-      Host: ip5.dtku47.xyz
-    path: /WNh8bXQv/
+      Host: ip002.freegradely.xyz
+    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
 - alterId: 0
   cipher: auto
   name: 13|🇨🇦CA-158.51.121.36-3144
@@ -206,6 +170,168 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
+  name: '13|%F0%9F%87%A8%F0%9F%87%A6%20Can... #1'
+  network: tcp
+  port: '443'
+  server: ca-v2ray.ipracevpn.com
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: d8f08061-b050-4fe2-8f99-cf3b04846c35
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 79
+  network: ws
+  port: 80
+  server: 104.19.176.68
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c3fe15dd-3559-4f4b-bd2c-37ad818411e4
+  ws-opts:
+    headers:
+      Host: jp3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 26
+  network: ws
+  port: 80
+  server: 104.19.173.68
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c3fe15dd-3559-4f4b-bd2c-37ad818411e4
+  ws-opts:
+    headers:
+      Host: sg3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 123
+  network: ws
+  port: 2095
+  server: 23.227.38.8
+  servername: ip5.freegradely.xyz
+  tls: false
+  type: vmess
+  uuid: e9555d84-a146-4e36-9c23-eac28387be48
+  ws-opts:
+    headers:
+      Host: ip5.freegradely.xyz
+    path: /WNh8bXQv/
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 102
+  network: ws
+  port: 80
+  server: 104.19.175.68
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c3fe15dd-3559-4f4b-bd2c-37ad818411e4
+  ws-opts:
+    headers:
+      Host: jp3.889611.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 101
+  network: ws
+  port: '80'
+  server: 104.24.200.140
+  tls: false
+  type: vmess
+  uuid: 1b1fd0c4-44d8-4c7b-ab61-f9c86b5df1c3
+  ws-opts:
+    headers:
+      Host: 127.0.0.1.лыемаленькиебуквы.ultramanrising.極為輕鬆的工作.suonycars.buzz.
+    path: /other
+- alterId: 0
+  cipher: auto
+  name: '13|%F0%9F%87%A8%F0%9F%87%A6%20Can... #2'
+  network: ws
+  port: 2095
+  server: 172.64.144.66
+  servername: ip5.dtku47.xyz
+  tls: false
+  type: vmess
+  uuid: e9555d84-a146-4e36-9c23-eac28387be48
+  ws-opts:
+    headers:
+      Host: ip5.dtku47.xyz
+    path: /WNh8bXQv/
+- alterId: 0
+  cipher: auto
+  name: '13|%F0%9F%87%A8%F0%9F%87%A6%20Can... #3'
+  network: ws
+  port: 2095
+  server: 162.159.129.111
+  servername: ip5.dtku47.xyz
+  tls: false
+  type: vmess
+  uuid: e9555d84-a146-4e36-9c23-eac28387be48
+  ws-opts:
+    headers:
+      Host: ip5.dtku47.xyz
+    path: /WNh8bXQv/
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大【TG：@ccbaohe】定时更新节点订阅
+  network: ws
+  port: '8880'
+  server: 23.227.38.3
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d726eb31-0c9e-49f9-8968-59c06f4ea15c
+  ws-opts:
+    headers:
+      Host: remaining-criminal-douglas-idol.trycloudflare.com
+    path: d726eb31-0c9e-49f9-8968-59c06f4ea15c-vm
+- alterId: 0
+  cipher: auto
+  name: 13|🇨🇦 加拿大 097
+  network: ws
+  port: '80'
+  server: lzyjc.779917.xyz
+  tls: false
+  type: vmess
+  uuid: 557dd7d1-9085-4f39-970f-7d2bb79b164e
+  ws-opts:
+    headers:
+      Host: hkk.779917.xyz
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 098
+  network: ws
+  port: 443
+  server: 104.26.0.95
+  servername: obdii.cfd
+  tls: true
+  type: vmess
+  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+  ws-opts:
+    headers:
+      Host: obdii.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: '13|%F0%9F%87%A8%F0%9F%87%A6%20Can... #4'
+  network: ws
+  port: 2095
+  server: 104.19.38.88
+  servername: ip5.dtku47.xyz
+  tls: false
+  type: vmess
+  uuid: e9555d84-a146-4e36-9c23-eac28387be48
+  ws-opts:
+    headers:
+      Host: ip5.dtku47.xyz
+    path: /WNh8bXQv/
+- alterId: 0
+  cipher: auto
   name: 13|🇨🇦CA-23.162.200.227-1299
   network: ws
   port: 443
@@ -220,96 +346,29 @@ proxies:
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 092
+  name: 13|加拿大 065
   network: ws
-  port: 2082
-  server: 104.16.60.8
-  servername: ''
+  port: 2086
+  server: 162.159.136.33
+  servername: ip002.dtku47.xyz
   tls: false
   type: vmess
-  uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
   ws-opts:
     headers:
-      Host: worker-noisy-paper-fa00.hetoj18200.workers.dev
-    path: /afrhms16v.bestxray.buzz/linkws
+      Host: ip002.dtku47.xyz
+    path: 29eebb60-b27b-4a9d-bba5-947763d9205e-vm
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 066
+  name: 13|加拿大 118
   network: ws
   port: 8080
-  server: 162.159.128.118
-  servername: ip001.dtku47.xyz
+  server: 104.16.148.244
+  servername: ip001.freegradely.xyz
   tls: false
   type: vmess
   uuid: ffaba3ee-4070-4590-9959-d863f9a4c6de
   ws-opts:
     headers:
-      Host: ip001.dtku47.xyz
+      Host: ip001.freegradely.xyz
     path: /9aqOiXD2/
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦 加拿大 013
-  network: ws
-  port: '2095'
-  server: 104.16.67.38
-  tls: false
-  type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  ws-opts:
-    headers:
-      Host: proud-union-8659.email-0kn8d.workers.dev
-    path: /glweidf.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦 加拿大 005
-  network: ws
-  port: '2082'
-  server: 104.16.67.38
-  tls: false
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: late-wave-1d0a.lesijo3430.workers.dev
-    path: /ivideos.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: 13|🇨🇦 加拿大 067
-  network: ws
-  port: '2095'
-  server: 162.159.129.111
-  tls: false
-  type: vmess
-  uuid: e9555d84-a146-4e36-9c23-eac28387be48
-  ws-opts:
-    headers:
-      Host: ip5.dtku47.xyz
-    path: /WNh8bXQv/
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 095
-  network: ws
-  port: 2086
-  server: 104.16.61.8
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  ws-opts:
-    headers:
-      Host: ury-unit-c030ehei8.poget71138.workers.dev
-    path: /ivideos.sbs/linkws
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 012
-  network: ws
-  port: 2095
-  server: 104.16.60.8
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: icy-tooth-3d05.plzthsmdnss-7d8ly.workers.dev
-    path: /obdii.cfd/linkws
