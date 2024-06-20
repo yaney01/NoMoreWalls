@@ -397,6 +397,20 @@ proxies:
     path: /linkws
 - alterId: 0
   cipher: auto
+  name: 13|[VMess] 🇨🇦 加拿大 068
+  network: ws
+  port: 8080
+  server: 172.67.172.88
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts:
+    headers:
+      Host: oiictw.yydsii.com
+    path: /
+- alterId: 0
+  cipher: auto
   name: '13|%F0%9F%87%A8%F0%9F%87%A6%20Can... #2'
   network: ws
   port: 80
