@@ -86,10 +86,11 @@ proxies:
     path: /v2ray
 - alterId: 0
   cipher: auto
-  name: '3,7,17|🇺🇸_US_美国->🇫🇷_FR_法国 #6'
+  name: '3,7,13,17|🇺🇸_US_美国->🇫🇷_FR_法国 #6'
   network: ws
   port: 2082
   server: 104.21.8.157
+  servername: ''
   tls: false
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
@@ -112,10 +113,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,7,11,17|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
+  name: '3,7,11,13,17|🇺🇸_US_美国->🇫🇷_FR_法国 #5'
   network: ws
   port: 2082
   server: 172.67.130.140
+  servername: ''
   tls: false
   type: vmess
   uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
@@ -125,7 +127,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '6,17|🇺🇸_US_美国 #33'
+  name: '6,17|🇺🇸_US_美国 #32'
   network: ws
   port: 8080
   server: 162.159.1.33
@@ -164,7 +166,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '6,7,17|🇺🇸_US_美国 #32'
+  name: '6,7,17|🇺🇸_US_美国 #31'
   network: ws
   port: 8080
   server: yh3.freeh1.xyz
