@@ -1,23 +1,9 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 13|🔒 VM-WS-NA 🇯🇵 JP-183.181.36.19...
-  network: ws
-  port: '41597'
-  server: 183.181.36.194
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - alterId: 64
-  cipher: chacha20-poly1305
-  name: 13|🔒 VM-TCP-NA 🇯🇵 JP-210.230.206....
+  cipher: auto
+  name: 13|[VMess] 🇯🇵 日本 002
   network: tcp
-  port: '38296'
+  port: 38296
   server: 210.230.206.25
   servername: ''
   tls: false
