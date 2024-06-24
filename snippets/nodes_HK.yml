@@ -1,69 +1,17 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|香港-1
+  name: 13|bbjc.xyz tg@bbjc52|香港 05
   network: ws
-  port: '80'
-  server: 103.28.68.48
+  port: '2082'
+  server: baobaojichang.bbjc.xyz
   tls: false
   type: vmess
-  uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca
+  uuid: 9f4b982c-9db1-4dd0-b44c-1f9376d0ee2c
   ws-opts:
     headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|香港-3-三网
-  network: ws
-  port: '80'
-  server: 47.242.88.200
-  tls: false
-  type: vmess
-  uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /cdn
-- alterId: 0
-  cipher: auto
-  name: 13|香港-2-移动>电信>联通
-  network: ws
-  port: '80'
-  server: 38.207.173.28
-  tls: false
-  type: vmess
-  uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|香港解锁-1
-  network: ws
-  port: '80'
-  server: 213.130.140.184
-  tls: false
-  type: vmess
-  uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|香港-2-(移动.联通)
-  network: ws
-  port: '80'
-  server: 149.104.26.31
-  tls: false
-  type: vmess
-  uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
+      Host: hongkong.mojc.xyz
+    path: /?ed=2048
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian

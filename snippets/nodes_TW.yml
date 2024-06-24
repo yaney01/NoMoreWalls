@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|TW4 836.8KB/s
+  name: 13|🔒 VM-WS-NA 🇹🇼 TW-103.159.206.3...
   network: ws
   port: '31945'
   server: 103.159.206.35
@@ -13,59 +13,6 @@ proxies:
     headers:
       Host: ''
     path: /
-- alterId: 0
-  cipher: auto
-  name: 13|台湾-2-三倍-三网
-  network: ws
-  port: '80'
-  server: 34.81.170.249
-  tls: false
-  type: vmess
-  uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|Relay_🏁ZZ-🇹🇼TW_328 |10.85Mb
-  network: ws
-  port: 8080
-  server: 104.19.47.238
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
-  ws-opts:
-    headers:
-      Host: oiictw.yydsii.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|台湾解锁
-  network: ws
-  port: '80'
-  server: 108.165.144.158
-  tls: false
-  type: vmess
-  uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|台湾-1-三倍-三网
-  network: ws
-  port: '80'
-  server: 35.187.147.204
-  tls: false
-  type: vmess
-  uuid: f4ae46f4-1c06-4a19-877e-e8cdce2a83ca
-  ws-opts:
-    headers:
-      Host: gw.alicdn.com
-    path: /cdn
 - client-fingerprint: chrome
   name: 15|🇹🇼 台湾2|@ripaojiedian
   network: ws
