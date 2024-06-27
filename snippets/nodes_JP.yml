@@ -7,32 +7,32 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🔒 VM-WS-NA 🇯🇵 JP-183.181.36.19...
+  name: '13|TG BBJC52|日本 02 #1'
   network: ws
-  port: '41597'
-  server: 183.181.36.194
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4a6eaa2d-5603-4c05-d967-fb6f42250a5a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|TG BBJC52|日本 05 2
-  network: ws
-  port: 2082
+  port: '8080'
   server: baobaojichang.bbjc.xyz
   servername: ''
   tls: false
   type: vmess
-  uuid: d776642b-6578-4388-8f5e-92be42a5e0ca
+  uuid: f85839c8-06ea-40aa-b2cb-4a5b26a0c3d6
   ws-opts:
     headers:
       Host: riben.mojc.xyz
     path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|日本03
+  network: ws
+  port: '80'
+  server: uy4xj-ptjp.luczua.sbs
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 15c82714-91f0-48b7-bf11-5057be993025
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -52,26 +52,41 @@ proxies:
     path: /video/9TfVEyku
 - alterId: 0
   cipher: auto
-  name: 13|bbjc.xyz tg@bbjc52|日本 03
+  name: 13|TG BBJC52|日本 04
   network: ws
-  port: '8880'
+  port: 2052
   server: baobaojichang.bbjc.xyz
+  servername: ''
   tls: false
   type: vmess
-  uuid: 9b420190-30a9-4af9-991f-34f728fe6ca0
+  uuid: aa94d5ad-c4af-4af3-abf9-edd0ede6322f
   ws-opts:
     headers:
       Host: riben.mojc.xyz
     path: /?ed=2048
 - alterId: 0
   cipher: auto
-  name: 13|bbjc.xyz tg@bbjc52|日本 02
+  name: 13|%F0%9F%87%AF%F0%9F%87%B5%20Jap...
   network: ws
-  port: '8080'
+  port: '443'
+  server: jp-full.privateip.net
+  tls: true
+  type: vmess
+  uuid: cf2dd0d1-9837-4150-a420-86c498338c44
+  ws-opts:
+    headers:
+      Host: ''
+    path: /RACEVPN
+- alterId: 0
+  cipher: auto
+  name: 13|TG BBJC52|日本 05
+  network: ws
+  port: '2082'
   server: baobaojichang.bbjc.xyz
+  servername: ''
   tls: false
   type: vmess
-  uuid: 9f4b982c-9db1-4dd0-b44c-1f9376d0ee2c
+  uuid: f85839c8-06ea-40aa-b2cb-4a5b26a0c3d6
   ws-opts:
     headers:
       Host: riben.mojc.xyz
