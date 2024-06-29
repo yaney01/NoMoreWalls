@@ -131,6 +131,20 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
+  name: 13|加拿大 001
+  network: ws
+  port: 8443
+  server: 104.19.48.0
+  servername: hk01.linkitnow.net
+  tls: true
+  type: vmess
+  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
+  ws-opts:
+    headers:
+      Host: hk01.linkitnow.net
+    path: /
+- alterId: 0
+  cipher: auto
   name: 13|[VMess] 🇨🇦 加拿大 031
   network: ws
   port: 8443
@@ -212,6 +226,19 @@ proxies:
     path: /linde06.indiavideo.sbs/linkws
 - alterId: 0
   cipher: auto
+  name: 13|🇨🇦 加拿大 004
+  network: ws
+  port: '8443'
+  server: 104.19.48.11
+  tls: true
+  type: vmess
+  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
+  ws-opts:
+    headers:
+      Host: hk01.linkitnow.net
+    path: /
+- alterId: 0
+  cipher: auto
   name: '13|%F0%9F%87%A8%F0%9F%87%A6%20Can... #1'
   network: ws
   port: '443'
@@ -265,20 +292,6 @@ proxies:
     headers:
       Host: hdfy5c1.foriran.trade
     path: /Nbs2DSTSkFW6MrrFQHeSDQ7
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 278
-  network: ws
-  port: 2086
-  server: 104.18.57.111
-  servername: ip11.freegradely.xyz
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip11.freegradely.xyz
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 13|🇨🇦 加拿大 113
@@ -363,6 +376,20 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 13|加拿大 264
+  network: ws
+  port: 2086
+  server: 104.20.17.186
+  servername: ip11.freegradely.xyz
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip11.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
   name: '13|%F0%9F%87%A8%F0%9F%87%A6%20Can... #2'
   network: ws
   port: 443
@@ -415,6 +442,20 @@ proxies:
     headers:
       Host: linde06.indiavideo.sbs
     path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 097
+  network: ws
+  port: 2052
+  server: 104.19.58.175
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 13|加拿大 011
@@ -510,20 +551,6 @@ proxies:
     headers:
       Host: hk01.linkitnow.net
     path: /
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 265
-  network: ws
-  port: 2086
-  server: 104.19.21.63
-  servername: ip11.freegradely.xyz
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip11.freegradely.xyz
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: 13|加拿大-3.14MB/s
