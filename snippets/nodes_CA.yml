@@ -90,15 +90,6 @@ proxies:
     path: /9aqOiXD2/
 - alterId: 0
   cipher: auto
-  name: 13|CA_youtube@资源分享师_18
-  network: tcp
-  port: 443
-  server: ca-v2ray.ipracevpn.com
-  tls: true
-  type: vmess
-  uuid: 1b3d460b-91cc-46f9-909d-73823128ee0a
-- alterId: 0
-  cipher: auto
   name: 13|加拿大 032
   network: ws
   port: 2086
@@ -110,20 +101,6 @@ proxies:
   ws-opts:
     headers:
       Host: ip13.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 020
-  network: ws
-  port: 2086
-  server: 104.19.38.88
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip5-4.freegradely.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -159,6 +136,20 @@ proxies:
   network: ws
   port: 2086
   server: 104.19.46.17
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 049
+  network: ws
+  port: 2086
+  server: 104.19.45.31
   servername: ''
   tls: false
   type: vmess
