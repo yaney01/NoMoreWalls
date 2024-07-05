@@ -24,6 +24,20 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
+  name: 13|加拿大 097
+  network: ws
+  port: 2052
+  server: 104.19.58.175
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts:
+    headers:
+      Host: cdn1.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
   name: 13|加拿大 035
   network: ws
   port: 2086
@@ -511,6 +525,20 @@ proxies:
   ws-opts:
     headers:
       Host: hk01.leleles.us
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 030
+  network: ws
+  port: 8443
+  server: 104.19.48.35
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
+  ws-opts:
+    headers:
+      Host: hk01.linkitnow.net
     path: /
 - alterId: 0
   cipher: auto
