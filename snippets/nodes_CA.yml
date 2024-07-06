@@ -192,20 +192,6 @@ proxies:
     path: /obdii.cfd/linkws
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 044
-  network: ws
-  port: 2086
-  server: 104.19.45.90
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip13.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 13|加拿大 038
   network: ws
   port: 80
@@ -262,17 +248,17 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 020
+  name: 13|加拿大 264
   network: ws
   port: 2086
-  server: 104.19.38.88
-  servername: ''
+  server: 104.20.17.186
+  servername: ip11.freegradely.xyz
   tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
-      Host: ip5-4.freegradely.xyz
+      Host: ip11.freegradely.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -294,20 +280,6 @@ proxies:
   network: ws
   port: 2086
   server: 104.19.45.31
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip13.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 13|加拿大 032
-  network: ws
-  port: 2086
-  server: 104.19.46.22
   servername: ''
   tls: false
   type: vmess
