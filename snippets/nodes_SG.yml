@@ -7,10 +7,10 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 13|🇸🇬 Singapore 01
+  name: 13|🇸🇬 Singapore 07
   network: ws
   port: '443'
-  server: download11.520netflix.eu
+  server: download17.520netflix.eu
   servername: downloads2.bingwallpapers.xyz
   tls: true
   type: vmess
@@ -18,21 +18,7 @@ proxies:
   ws-opts:
     headers:
       Host: downloads2.bingwallpapers.xyz
-    path: /downloads
-- alterId: 0
-  cipher: auto
-  name: 13|🇸🇬 Singapore 02
-  network: ws
-  port: '443'
-  server: download12.520netflix.eu
-  servername: downloads2.bingwallpapers.xyz
-  tls: true
-  type: vmess
-  uuid: 9259b1d2-8230-5b0d-b988-1022274e1f4b
-  ws-opts:
-    headers:
-      Host: downloads2.bingwallpapers.xyz
-    path: /downloads2
+    path: /downloads7
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬 Singapore 04
@@ -49,6 +35,48 @@ proxies:
     path: /downloads4
 - alterId: 0
   cipher: auto
+  name: '13|新加坡SG #1'
+  network: ws
+  port: 80
+  server: sg1.ludou.us.kg
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 936d5022-5bdf-41af-b1b8-f4ef1f0ee38f
+  ws-opts:
+    headers:
+      Host: sg.ludou.us.kg
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 13|🇸🇬 Singapore 02
+  network: ws
+  port: '443'
+  server: download12.520netflix.eu
+  servername: downloads2.bingwallpapers.xyz
+  tls: true
+  type: vmess
+  uuid: 9259b1d2-8230-5b0d-b988-1022274e1f4b
+  ws-opts:
+    headers:
+      Host: downloads2.bingwallpapers.xyz
+    path: /downloads2
+- alterId: 0
+  cipher: auto
+  name: 13|🇸🇬 Singapore 03
+  network: ws
+  port: '443'
+  server: download13.520netflix.eu
+  servername: downloads2.bingwallpapers.xyz
+  tls: true
+  type: vmess
+  uuid: 9259b1d2-8230-5b0d-b988-1022274e1f4b
+  ws-opts:
+    headers:
+      Host: downloads2.bingwallpapers.xyz
+    path: /downloads3
+- alterId: 0
+  cipher: auto
   name: 13|🇸🇬 Singapore 05
   network: ws
   port: '443'
@@ -61,6 +89,20 @@ proxies:
     headers:
       Host: downloads2.bingwallpapers.xyz
     path: /downloads5
+- alterId: 0
+  cipher: auto
+  name: 13|新加坡2
+  network: ws
+  port: 80
+  server: sg0214551.ludou.us.kg
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 936d5022-5bdf-41af-b1b8-f4ef1f0ee38f
+  ws-opts:
+    headers:
+      Host: sg002afa.ludou.us.kg
+    path: /?ed=2048
 - alterId: 0
   cipher: auto
   name: 13|🇸🇬 Singapore 06
@@ -77,10 +119,10 @@ proxies:
     path: /downloads6
 - alterId: 0
   cipher: auto
-  name: 13|🇸🇬 Singapore 07
+  name: 13|🇸🇬 Singapore 01
   network: ws
   port: '443'
-  server: download17.520netflix.eu
+  server: download11.520netflix.eu
   servername: downloads2.bingwallpapers.xyz
   tls: true
   type: vmess
@@ -88,21 +130,21 @@ proxies:
   ws-opts:
     headers:
       Host: downloads2.bingwallpapers.xyz
-    path: /downloads7
+    path: /downloads
 - alterId: 0
   cipher: auto
-  name: 13|🇸🇬 Singapore 03
+  name: 13|新加坡
   network: ws
-  port: '443'
-  server: download13.520netflix.eu
-  servername: downloads2.bingwallpapers.xyz
-  tls: true
+  port: '80'
+  server: 01.bitaiyun.tech
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 9259b1d2-8230-5b0d-b988-1022274e1f4b
+  uuid: 936d5022-5bdf-41af-b1b8-f4ef1f0ee38f
   ws-opts:
     headers:
-      Host: downloads2.bingwallpapers.xyz
-    path: /downloads3
+      Host: 02.bitaiyun.tech
+    path: /vccmn
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
