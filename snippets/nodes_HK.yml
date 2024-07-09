@@ -1,18 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 13|香港〖电报：@ccbaohe】免费节点定时更新
+  name: 13|HK 香港 I IEPL
   network: ws
-  port: '80'
-  server: hk03.counsellor.buzz
+  port: 5073
+  server: api-hk1.veadev.com
   servername: ''
-  tls: false
+  tls: true
   type: vmess
-  uuid: b7f8cc9d-d7d6-428c-bea4-420c37f76048
+  uuid: 9fab6e68-dc37-4282-b384-41c4154bb24b
   ws-opts:
     headers:
-      Host: hk03.counsellor.buzz
-    path: /
+      Host: api-hk1.veadev.com
+    path: /config
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
