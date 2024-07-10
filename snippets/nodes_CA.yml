@@ -24,20 +24,6 @@ proxies:
     path: /linde06.indiavideo.sbs/linkws
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 080
-  network: ws
-  port: 2086
-  server: 104.19.47.22
-  servername: ip2.1457230.xyz
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: '13|Channel id: @ShadowProxy66 🇨🇦'
   network: ws
   port: '443'
@@ -120,6 +106,20 @@ proxies:
     headers:
       Host: hk01.linkitnow.net
     path: /
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 056
+  network: ws
+  port: 2086
+  server: 104.19.47.45
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: '13|Channel id: @ShadowProxy66 🇨🇦 #1'
@@ -262,34 +262,6 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 13|加拿大 102
-  network: ws
-  port: 80
-  server: 172.67.171.56
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 27d46493-8693-4dc0-af97-0776591ad1a7
-  ws-opts:
-    headers:
-      Host: De2.vmess.site.
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 13|Relay_🏁ZZ-🇨🇦CA_180 |264.85Mb
-  network: ws
-  port: '2052'
-  server: 104.19.47.75
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn2.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: 13|加拿大 041
   network: ws
   port: 2086
@@ -316,6 +288,20 @@ proxies:
     headers:
       Host: afrhms07.xfixedfloat.cfd
     path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 13|加拿大 265
+  network: ws
+  port: 2086
+  server: 104.19.21.63
+  servername: ip11.freegradely.xyz
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip11.freegradely.xyz
+    path: github.com/Alvin9999
 - client-fingerprint: chrome
   name: 15|🇨🇦 加拿大|@ripaojiedian
   network: ws
