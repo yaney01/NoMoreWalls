@@ -1372,19 +1372,14 @@ proxies:
     headers:
       Host: ip005.dtku47.xyz
     path: github.com/Alvin9999
-- client-fingerprint: chrome
-  name: 15|🇺🇸 美国2|@ripaojiedian
-  network: ws
-  password: c5110090-c3a2-429e-b9b8-072b6535be1b
-  port: 443
-  server: ct.cfyun.top
-  skip-cert-verify: false
-  sni: cfus4.trojanwss.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: cfus4.trojanwss.xyz
-    path: /CFJICHANG
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇺🇸 美国3|@ripaojiedian
+  password: amazonskr05
+  port: 80
+  server: 54.185.34.218
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1402,3 +1397,13 @@ proxies:
     headers:
       Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  name: 16|美国2|@ripaojiedian
+  network: tcp
+  port: '19358'
+  server: iepl.hongxingdl.vip
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5ffe58d1-ddbe-4fc0-8af7-06db520b48c9
