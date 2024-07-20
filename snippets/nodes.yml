@@ -1176,17 +1176,25 @@ proxies:
   password: a-wym4ovY4Yw
   plugin: v2ray-plugin
   plugin-opts:
-    host: h1.fjdd.store
+    host: h2.wagaga.online
     mode: websocket
     mux: true
     path: ''
     skip-cert-verify: false
     tls: true
-  port: 8443
-  server: 172.67.141.111
+  port: 443
+  server: 36.233.252.19
   tfo: false
   type: ss
-- alterId: 0
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: XoYrrEfZYxxHL3AI
+  port: 46983
+  server: kis7as.9sjd2dkesl2.shop
+  tfo: false
+  type: ss
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 15|🇺🇸 美国4|@ripaojiedian
@@ -1194,17 +1202,33 @@ proxies:
   port: 40081
   server: 183.232.139.24
   skip-cert-verify: true
-  sni: cooker.homeofbrave.net
   tfo: false
   tls: false
   type: trojan
-  uuid: 2afa1ad2-990e-4711-8cd0-34085115ec22
-- cipher: aes-256-gcm
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: ad2114ca-1c75-4607-ad14-1a1824a6dde9
-  port: 10067
-  server: 36.138.218.41
+  name: 15,16|香港5|@ripaojiedian
+  network: ws
+  port: '21949'
+  server: sui.forlive.live
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e4649346-1eed-4ea0-8ef6-355563258cea
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: XoYrrEfZYxxHL3AI
+  port: 16985
+  server: a1.45s6e224gdr.shop
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1272,31 +1296,6 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|韩国|@ripaojiedian
-  network: ws
-  port: '40396'
-  server: sui.forlive.live
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 545d58da-5cf4-4dd5-8760-353509720b0a
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇰🇷 韩国3|@ripaojiedian
-  password: ad2114ca-1c75-4607-ad14-1a1824a6dde9
-  port: 10104
-  server: 36.140.94.130
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
   name: 15,16|美国|@ripaojiedian
   network: ws
   port: '2086'
@@ -1311,37 +1310,20 @@ proxies:
     headers:
       Host: ip005.dtku47.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|美国6|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: 104.19.38.18
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  ws-opts:
-    headers:
-      Host: cdn2.freegradely.xyz
-    path: github.com/Alvin9999
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.209.13.203
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.180.140.81
+  server: 43.207.118.251
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.212.14.204
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1349,7 +1331,7 @@ proxies:
   name: 15|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.201.253.180
+  server: 18.183.186.14
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1360,33 +1342,43 @@ proxies:
   server: 59.56.77.178
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '10069'
-  server: 36.138.218.41
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ad2114ca-1c75-4607-ad14-1a1824a6dde9
 - alterId: 64
   cipher: auto
   name: 16|香港2|@ripaojiedian
   network: tcp
-  port: '51193'
-  server: 183.238.202.173
+  port: '45020'
+  server: 183.236.51.23
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 16|香港6|@ripaojiedian
+  name: 16|香港3|@ripaojiedian
   network: tcp
-  port: '45449'
-  server: xctransfer1st.cokecloud.top
+  port: '18556'
+  server: 38.147.188.153
   servername: ''
   tls: false
   type: vmess
-  uuid: 2afa1ad2-990e-4711-8cd0-34085115ec22
+  uuid: 6c8d9e75-a6d4-410a-88ae-2fa7ba1e697a
+- alterId: 0
+  cipher: auto
+  name: 16|日本3|@ripaojiedian
+  network: tcp
+  port: '10417'
+  server: 45.159.50.96
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 712fa20b-7d84-4383-87e2-b5f2c57aa045
+- alterId: 64
+  cipher: auto
+  name: 16|美国2|@ripaojiedian
+  network: tcp
+  port: '42055'
+  server: 120.232.153.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
