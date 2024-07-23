@@ -40,3 +40,17 @@ proxies:
   server: 52.195.207.131
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|日本2|@ripaojiedian
+  network: ws
+  port: '63011'
+  server: in06.dns2024.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
+  ws-opts:
+    headers:
+      Host: jp-a-mugua.weibo-cdn.best
+    path: /

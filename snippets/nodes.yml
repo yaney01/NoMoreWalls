@@ -1162,12 +1162,12 @@ proxies:
   cipher: auto
   name: 16|香港|@ripaojiedian
   network: tcp
-  port: '29767'
-  server: bvip.hongxingdl.vip
+  port: '63099'
+  server: in06.dns2024.org
   servername: ''
   tls: false
   type: vmess
-  uuid: 0daceca8-228a-4cc6-a613-db4c6b05c899
+  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
 - alterId: 64
   cipher: auto
   name: 16|香港2|@ripaojiedian
@@ -1180,14 +1180,38 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 16|香港3|@ripaojiedian
+  name: 16|台湾3|@ripaojiedian
   network: tcp
-  port: '53061'
-  server: 38.147.188.102
+  port: '3283'
+  server: tw99.jinkela2024vpn.xyz
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
+- alterId: 0
+  cipher: auto
+  name: 16|日本2|@ripaojiedian
+  network: ws
+  port: '63011'
+  server: in06.dns2024.org
   servername: ''
   tls: false
   type: vmess
-  uuid: 6f7ad57a-b1c8-4f83-988a-668a927d494e
+  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
+  ws-opts:
+    headers:
+      Host: jp-a-mugua.weibo-cdn.best
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16|韩国|@ripaojiedian
+  network: tcp
+  port: '63097'
+  server: in06.dns2024.org
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
 - alterId: 64
   cipher: auto
   name: 16|美国2|@ripaojiedian
