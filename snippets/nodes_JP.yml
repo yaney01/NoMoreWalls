@@ -1,22 +1,8 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|10,11|日本2|@ripaojiedian
-  network: ws
-  port: '63011'
-  server: in06.dns2024.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e8e6f618-842c-33d4-9a9f-7827614a6bf9
-  ws-opts:
-    headers:
-      Host: jp-a-mugua.weibo-cdn.best
-    path: /
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
-  name: 15,16|日本2|@ripaojiedian
+  name: 11,15,16|日本2|@ripaojiedian
   network: ws
   port: '2052'
   server: 22.6bkc.top
