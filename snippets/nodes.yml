@@ -1366,56 +1366,89 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 11|10,11|日本2|@ripaojiedian
+  client-fingerprint: chrome
+  name: 11,15,16|香港5|@ripaojiedian
   network: ws
   port: '2052'
-  server: 22.6bkc.top
+  server: 33.6bnw.top
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 5bb63601-bac8-40fd-9dc4-92de6e6ecd33
+  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
   ws-opts:
     headers:
-      Host: xzjp.6bkc.top
+      Host: hkbn.6bnw.top
     path: /?ed=2560
 - alterId: 0
   cipher: auto
-  name: 11|10,11|新加坡2|@ripaojiedian
+  client-fingerprint: chrome
+  name: 11,15,16|香港8|@ripaojiedian
   network: ws
-  port: '80'
-  server: 104.19.173.168
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: b3cfb801-2427-4973-9e2e-5221207dba0c
+  uuid: a223af01-b481-4abf-a305-60d60587d1e4
   ws-opts:
     headers:
-      Host: sg3.889611.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 11|11|美国2|@ripaojiedian
-  network: tcp
-  port: '42055'
-  server: 120.232.153.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+      Host: zifstzamhk1.yofnhkfc.xyz
+    path: /video/VuDFdktz
 - alterId: 0
   cipher: auto
-  name: 11|10,11|美国3|@ripaojiedian
+  client-fingerprint: chrome
+  name: 11,15,16|日本3|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a223af01-b481-4abf-a305-60d60587d1e4
+  ws-opts:
+    headers:
+      Host: wtywwcrzjp5.yofnhkfc.xyz
+    path: /video/9TfVEyku
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|美国2|@ripaojiedian
   network: ws
   port: '8080'
-  server: mugen11.6bnw.top
+  server: bestcf.onecf.eu.org
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 5bb63601-bac8-40fd-9dc4-92de6e6ecd33
+  uuid: 1c1cb7fe-a929-4e47-b292-4073b63d2d4b
   ws-opts:
     headers:
-      Host: buyvmus2.6bnw.top
-    path: /?ed=2560
+      Host: lamhosting.daozhang.link
+    path: /?ed=2048
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|美国3|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a223af01-b481-4abf-a305-60d60587d1e4
+  ws-opts:
+    headers:
+      Host: us5PhAx6xsj.fzbqfrse.xyz
+    path: /video/f8ZKTGaGoC/
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1602,23 +1635,6 @@ proxies:
   tls: false
   type: trojan
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|香港5|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: 33.6bnw.top
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b0549224-831d-4cba-bab9-94fdc6a1327e
-  ws-opts:
-    headers:
-      Host: hkbn.6bnw.top
-    path: /?ed=2560
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港6|@ripaojiedian
@@ -1627,23 +1643,6 @@ proxies:
   server: a1.45s6e224gdr.shop
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|香港8|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a223af01-b481-4abf-a305-60d60587d1e4
-  ws-opts:
-    headers:
-      Host: zifstzamhk1.yofnhkfc.xyz
-    path: /video/VuDFdktz
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇭🇰 香港R|@ripaojiedian
@@ -1684,23 +1683,6 @@ proxies:
   server: ydthree.9sjd2dkesl2.shop
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|日本3|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a223af01-b481-4abf-a305-60d60587d1e4
-  ws-opts:
-    headers:
-      Host: wtywwcrzjp5.yofnhkfc.xyz
-    path: /video/9TfVEyku
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本R|@ripaojiedian
@@ -1717,40 +1699,6 @@ proxies:
   server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|美国2|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: bestcf.onecf.eu.org
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 1c1cb7fe-a929-4e47-b292-4073b63d2d4b
-  ws-opts:
-    headers:
-      Host: lamhosting.daozhang.link
-    path: /?ed=2048
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|美国3|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a223af01-b481-4abf-a305-60d60587d1e4
-  ws-opts:
-    headers:
-      Host: us5PhAx6xsj.fzbqfrse.xyz
-    path: /video/f8ZKTGaGoC/
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
