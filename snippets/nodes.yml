@@ -305,7 +305,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 2,15,16|新加坡|@ripaojiedian
+  name: 2,11,15,16|新加坡|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn2.sanfencdn9.com
@@ -765,6 +765,19 @@ proxies:
     headers:
       Host: a.prapt1.ir
     path: /
+- alterId: 64
+  cipher: auto
+  name: 11|0|-https://t.me/MrXbin-8
+  network: ws
+  port: 30000
+  server: 104.160.166.253
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.20670670.xyz
+    path: /path/181721272114
 - alterId: 0
   cipher: auto
   name: 11|2|d*********g.com_0
@@ -1341,6 +1354,16 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 64
   cipher: auto
+  name: 11,16|香港|@ripaojiedian
+  network: tcp
+  port: '42055'
+  server: 120.232.153.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
   name: 11,16|香港2|@ripaojiedian
   network: tcp
   port: '45020'
@@ -1365,20 +1388,26 @@ proxies:
     headers:
       Host: mmhk01.micloud.buzz
     path: /zh-cn
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11|10,11|日本3|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn3.sanfencdn9.com
+  name: 11,16|香港5|@ripaojiedian
+  network: tcp
+  port: '54104'
+  server: 183.236.51.23
   servername: ''
   tls: false
   type: vmess
-  uuid: a223af01-b481-4abf-a305-60d60587d1e4
-  ws-opts:
-    headers:
-      Host: wtywwcrzjp5.yofnhkfc.xyz
-    path: /video/9TfVEyku
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港7|@ripaojiedian
+  network: tcp
+  port: '29767'
+  server: svip.hongxingdl.vip
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 01604cad-f37b-4f3d-84fe-165fb5d68bc4
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1394,19 +1423,6 @@ proxies:
   ws-opts:
     headers:
       Host: mmjp11.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 11|10|🇸🇬 新加坡2|@ripaojiedian
-  network: ws
-  port: 46016
-  server: mmsg16.micloud.buzz
-  tls: false
-  type: vmess
-  uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121
-  ws-opts:
-    headers:
-      Host: mmsg16.micloud.buzz
     path: /zh-cn
 - alterId: 0
   cipher: auto
@@ -1427,20 +1443,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 11|10,11|美国3|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a223af01-b481-4abf-a305-60d60587d1e4
-  ws-opts:
-    headers:
-      Host: us5PhAx6xsj.fzbqfrse.xyz
-    path: /video/f8ZKTGaGoC/
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 11,15,16|美国5|@ripaojiedian
   network: ws
@@ -1458,6 +1460,23 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|美国3|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e093ca94-9890-4b06-8384-08572c5d3215
+  ws-opts:
+    headers:
+      Host: us2jdgv5GC7.fzbqfrse.xyz
+    path: /video/DDC4btA8wc/
+- alterId: 0
+  cipher: auto
   name: 11,16|香港3|@ripaojiedian
   network: ws
   port: '46001'
@@ -1472,32 +1491,18 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 11|11|香港6|@ripaojiedian
+  name: 11,16|日本5|@ripaojiedian
   network: ws
-  port: '2052'
-  server: 4.6bnw.top
+  port: '46011'
+  server: mmjp11.micloud.buzz
   servername: ''
   tls: false
   type: vmess
-  uuid: b5abc4c0-b518-4195-88b4-57900f16fb65
+  uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121
   ws-opts:
     headers:
-      Host: hkbn.6bnw.top
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 11|11|香港8|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a223af01-b481-4abf-a305-60d60587d1e4
-  ws-opts:
-    headers:
-      Host: zifstzamhk1.yofnhkfc.xyz
-    path: /video/VuDFdktz
+      Host: ''
+    path: /zh-cn
 - alterId: 0
   cipher: auto
   name: '11|13|d*********g.com_2 #4'
@@ -1725,23 +1730,6 @@ proxies:
   server: jp04.51feitu.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|美国3|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e093ca94-9890-4b06-8384-08572c5d3215
-  ws-opts:
-    headers:
-      Host: us2jdgv5GC7.fzbqfrse.xyz
-    path: /video/DDC4btA8wc/
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
@@ -1766,47 +1754,3 @@ proxies:
   server: 52.194.223.127
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '42055'
-  server: 120.232.153.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 16|香港5|@ripaojiedian
-  network: tcp
-  port: '54104'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 16|香港7|@ripaojiedian
-  network: tcp
-  port: '29767'
-  server: svip.hongxingdl.vip
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 01604cad-f37b-4f3d-84fe-165fb5d68bc4
-- alterId: 0
-  cipher: auto
-  name: 16|日本5|@ripaojiedian
-  network: ws
-  port: '46011'
-  server: mmjp11.micloud.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f9b02d8c-b69b-435f-aa25-68393e5fb121
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn

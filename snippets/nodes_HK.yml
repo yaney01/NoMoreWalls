@@ -1,6 +1,16 @@
 proxies:
 - alterId: 64
   cipher: auto
+  name: 11,16|香港|@ripaojiedian
+  network: tcp
+  port: '42055'
+  server: 120.232.153.37
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
   name: 11,16|香港2|@ripaojiedian
   network: tcp
   port: '45020'
@@ -25,6 +35,26 @@ proxies:
     headers:
       Host: mmhk01.micloud.buzz
     path: /zh-cn
+- alterId: 64
+  cipher: auto
+  name: 11,16|香港5|@ripaojiedian
+  network: tcp
+  port: '54104'
+  server: 183.236.51.23
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港7|@ripaojiedian
+  network: tcp
+  port: '29767'
+  server: svip.hongxingdl.vip
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 01604cad-f37b-4f3d-84fe-165fb5d68bc4
 - alterId: 0
   cipher: auto
   name: 11,16|香港3|@ripaojiedian
@@ -39,34 +69,6 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 11|11|香港6|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: 4.6bnw.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b5abc4c0-b518-4195-88b4-57900f16fb65
-  ws-opts:
-    headers:
-      Host: hkbn.6bnw.top
-    path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 11|11|香港8|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn2.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a223af01-b481-4abf-a305-60d60587d1e4
-  ws-opts:
-    headers:
-      Host: zifstzamhk1.yofnhkfc.xyz
-    path: /video/VuDFdktz
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港KT|@ripaojiedian
@@ -128,33 +130,3 @@ proxies:
   server: hk02.51feitu.com
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '42055'
-  server: 120.232.153.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 16|香港5|@ripaojiedian
-  network: tcp
-  port: '54104'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 16|香港7|@ripaojiedian
-  network: tcp
-  port: '29767'
-  server: svip.hongxingdl.vip
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 01604cad-f37b-4f3d-84fe-165fb5d68bc4
