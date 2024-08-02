@@ -1,16 +1,8 @@
 proxies:
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇹🇼 台湾2|@ripaojiedian
-  password: 4e079290-392b-4e4b-bdc4-f0a1f56ae841
-  port: 28102
-  server: tw04.51feitu.com
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|台湾3|@ripaojiedian
+  name: 11,15,16|台湾3|@ripaojiedian
   network: ws
   port: '80'
   server: v4.cfnode.eu.org
@@ -24,3 +16,11 @@ proxies:
     headers:
       Host: oiictw.yydsii.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇹🇼 台湾2|@ripaojiedian
+  password: 4e079290-392b-4e4b-bdc4-f0a1f56ae841
+  port: 28102
+  server: tw04.51feitu.com
+  tfo: false
+  type: ss
