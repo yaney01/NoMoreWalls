@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11,16|香港7|@ripaojiedian
+  network: tcp
+  port: '10184'
+  server: 36.139.183.164
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 273a61f5-03b5-4449-9d18-7e914d3808c4
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 11,15|🇭🇰 香港3|@ripaojiedian
   network: ws
@@ -27,28 +37,14 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|10,11|香港6|@ripaojiedian
-  network: ws
-  port: '50185'
-  server: hkt1.hkg.hypernat.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 273a61f5-03b5-4449-9d18-7e914d3808c4
-  ws-opts:
-    headers:
-      Host: hkt1.hkg.hypernat.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11,16|香港7|@ripaojiedian
+  name: 11,16|香港6|@ripaojiedian
   network: tcp
-  port: '10184'
-  server: 36.139.183.164
+  port: '29767'
+  server: svip.hongxingdl.vip
   servername: ''
   tls: false
   type: vmess
-  uuid: 273a61f5-03b5-4449-9d18-7e914d3808c4
+  uuid: d08b6b45-cd8a-4d36-a0fe-ef626b94fc27
 - alterId: 0
   cipher: auto
   name: 11,16|香港3|@ripaojiedian
@@ -83,13 +79,3 @@ proxies:
   server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港6|@ripaojiedian
-  network: tcp
-  port: '29767'
-  server: svip.hongxingdl.vip
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d08b6b45-cd8a-4d36-a0fe-ef626b94fc27
