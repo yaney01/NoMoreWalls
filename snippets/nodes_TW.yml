@@ -1,14 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|台湾3|@ripaojiedian
+  name: 11|10,11|台湾3|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 22ec0027-5230-462c-8100-ef7d489caaef
@@ -16,19 +13,3 @@ proxies:
     headers:
       Host: tw1bQiWSE4x.fzbqfrse.xyz
     path: /video/GQ2qE5Us9g
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇹🇼 台湾|@ripaojiedian
-  password: ef1cf445-e1b6-4536-ab3c-8aa1bb0dff11
-  port: 40018
-  server: gg01.6bnw.top
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇹🇼 台湾2|@ripaojiedian
-  password: ef1cf445-e1b6-4536-ab3c-8aa1bb0dff11
-  port: 32207
-  server: aa01gg.sssyun.xyz
-  tfo: false
-  type: ss
