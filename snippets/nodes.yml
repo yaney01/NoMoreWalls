@@ -763,6 +763,32 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 11|0|-https://t.me/MrXbin-9
+  network: ws
+  port: 80
+  server: 86.107.50.3
+  tls: false
+  type: vmess
+  uuid: 6a99725d-2af8-d27c-cef5-302fbbe54c07
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /IVApi/NL/7
+- alterId: 0
+  cipher: auto
+  name: 11|0|-https://t.me/MrXbin-10
+  network: ws
+  port: 80
+  server: 95.164.44.140
+  tls: false
+  type: vmess
+  uuid: 7e7325be-5c04-400a-9f11-e7f51c9cb1a9
+  ws-opts:
+    headers:
+      Host: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+    path: /vmess
+- alterId: 0
+  cipher: auto
   name: 11|2|d*********g.com_0
   network: ws
   port: 2086
@@ -945,20 +971,6 @@ proxies:
     headers:
       Host: mmhk01.micloud.buzz
     path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 11|10,11|香港3|@ripaojiedian
-  network: ws
-  port: '10184'
-  server: 36.139.183.164
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbf73243-836e-4994-9d66-bc8b311a4491
-  ws-opts:
-    headers:
-      Host: ''
-    path: /name
 - alterId: 64
   cipher: auto
   name: 11,16|香港5|@ripaojiedian
@@ -987,18 +999,21 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 11|10,11|日本4|@ripaojiedian
+  client-fingerprint: chrome
+  name: 11,15,16|日本4|@ripaojiedian
   network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
+  port: '2052'
+  server: pgrpxewcjptest.yofnhkfc.xyz
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 409fe654-65e4-4fce-ac9a-faaff3d334ec
   ws-opts:
     headers:
-      Host: oA5FSz9Tjp1.yofnhkfc.xyz
-    path: /video/P7EExoE2
+      Host: pgrpxewcjptest.yofnhkfc.xyz
+    path: /video/KaUwgzfU
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1294,23 +1309,6 @@ proxies:
   server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|日本4|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: pgrpxewcjptest.yofnhkfc.xyz
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 409fe654-65e4-4fce-ac9a-faaff3d334ec
-  ws-opts:
-    headers:
-      Host: pgrpxewcjptest.yofnhkfc.xyz
-    path: /video/KaUwgzfU
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡2|@ripaojiedian

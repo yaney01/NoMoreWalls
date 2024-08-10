@@ -17,18 +17,21 @@ proxies:
     path: /zh-cn
 - alterId: 0
   cipher: auto
-  name: 11|10,11|日本4|@ripaojiedian
+  client-fingerprint: chrome
+  name: 11,15,16|日本4|@ripaojiedian
   network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
+  port: '2052'
+  server: pgrpxewcjptest.yofnhkfc.xyz
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 409fe654-65e4-4fce-ac9a-faaff3d334ec
   ws-opts:
     headers:
-      Host: oA5FSz9Tjp1.yofnhkfc.xyz
-    path: /video/P7EExoE2
+      Host: pgrpxewcjptest.yofnhkfc.xyz
+    path: /video/KaUwgzfU
 - alterId: 0
   cipher: auto
   name: 11,16|日本5|@ripaojiedian
@@ -51,23 +54,6 @@ proxies:
   server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|日本4|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: pgrpxewcjptest.yofnhkfc.xyz
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 409fe654-65e4-4fce-ac9a-faaff3d334ec
-  ws-opts:
-    headers:
-      Host: pgrpxewcjptest.yofnhkfc.xyz
-    path: /video/KaUwgzfU
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
