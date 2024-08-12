@@ -929,19 +929,6 @@ proxies:
     headers:
       Host: ip005.3196772.xyz
     path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 11|10|🇭🇰 香港6|@ripaojiedian
-  network: ws
-  port: 46001
-  server: mmhk01.micloud.buzz
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmhk01.micloud.buzz
-    path: /zh-cn
 - alterId: 64
   cipher: auto
   name: 11,16|香港5|@ripaojiedian
@@ -952,6 +939,15 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11|10|🇹🇼 台湾2|@ripaojiedian
+  network: tcp
+  port: 29299
+  server: xdtw.cokecloud.top
+  tls: false
+  type: vmess
+  uuid: 8a25aadb-e034-43d0-a253-90c8077398f1
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1036,6 +1032,22 @@ proxies:
     headers:
       Host: us77SmSk86j.fzbqfrse.xyz
     path: /video/Z7qdcrAGRw
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15|🇺🇸 美国3|@ripaojiedian
+  network: ws
+  port: 46036
+  server: mmus36.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
+  ws-opts:
+    headers:
+      Host: mmus36.micloud.buzz
+    path: /zh-cn
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1314,22 +1326,6 @@ proxies:
   server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇺🇸 美国3|@ripaojiedian
-  network: ws
-  port: 46036
-  server: mmus36.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmus36.micloud.buzz
-    path: /zh-cn
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
