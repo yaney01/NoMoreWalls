@@ -1,4 +1,36 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15|🇭🇰 香港2|@ripaojiedian
+  network: ws
+  port: 46002
+  server: biedazjyd.zhangwei.li
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: dd5de63b-5ad1-472e-bbc7-7edb7a67438f
+  ws-opts:
+    headers:
+      Host: biedazjyd.zhangwei.li
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15|🇭🇰 香港3|@ripaojiedian
+  network: ws
+  port: 46001
+  server: mmhk01.micloud.buzz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 58ffeca7-7e75-417f-bbac-7b1041ce616d
+  ws-opts:
+    headers:
+      Host: mmhk01.micloud.buzz
+    path: /zh-cn
 - alterId: 64
   cipher: auto
   name: 11,16|香港5|@ripaojiedian
@@ -9,6 +41,30 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港8|@ripaojiedian
+  network: tcp
+  port: '44815'
+  server: ambxxid02hk.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9ab3ef7a-2348-4452-8e4a-548fc8a980d9
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港2|@ripaojiedian
+  network: ws
+  port: '46002'
+  server: biedazjyd.zhangwei.li
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dd5de63b-5ad1-472e-bbc7-7edb7a67438f
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
 - alterId: 0
   cipher: auto
   name: 11,16|香港3|@ripaojiedian
@@ -36,38 +92,6 @@ proxies:
   tls: false
   type: trojan
   uuid: 9ab3ef7a-2348-4452-8e4a-548fc8a980d9
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  network: ws
-  port: 46002
-  server: biedazjyd.zhangwei.li
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: dd5de63b-5ad1-472e-bbc7-7edb7a67438f
-  ws-opts:
-    headers:
-      Host: biedazjyd.zhangwei.li
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  network: ws
-  port: 46001
-  server: mmhk01.micloud.buzz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 58ffeca7-7e75-417f-bbac-7b1041ce616d
-  ws-opts:
-    headers:
-      Host: mmhk01.micloud.buzz
-    path: /zh-cn
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港6|@ripaojiedian
@@ -84,27 +108,3 @@ proxies:
   server: aa01gg.sssyun.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: ws
-  port: '46002'
-  server: biedazjyd.zhangwei.li
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dd5de63b-5ad1-472e-bbc7-7edb7a67438f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 16|香港8|@ripaojiedian
-  network: tcp
-  port: '44815'
-  server: ambxxid02hk.dorabbb.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9ab3ef7a-2348-4452-8e4a-548fc8a980d9

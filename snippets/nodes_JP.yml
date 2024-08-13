@@ -1,49 +1,8 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|10|🇯🇵 日本5|@ripaojiedian
-  network: ws
-  port: 46011
-  server: mmjp11.micloud.buzz
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: mmjp11.micloud.buzz
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 11|10,11|日本4|@ripaojiedian
-  network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9a403efc-18d7-4a78-8532-fb15541ef836
-  ws-opts:
-    headers:
-      Host: 6Sn8mFtTjp3.yofnhkfc.xyz
-    path: /video/X37qXHip
-- alterId: 0
-  cipher: auto
-  name: 11|11|日本5|@ripaojiedian
-  network: ws
-  port: '46011'
-  server: mmjp11.micloud.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 638501f6-0ba0-47cb-bcfe-200cc1169e81
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本2|@ripaojiedian
+  name: 11,15|🇯🇵 日本2|@ripaojiedian
   network: ws
   port: 46015
   server: cc1mm2vip.yushen.buzz
@@ -55,6 +14,20 @@ proxies:
   ws-opts:
     headers:
       Host: cc1mm2vip.yushen.buzz
+    path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 11,16|日本2|@ripaojiedian
+  network: ws
+  port: '46015'
+  server: cc1mm2vip.yushen.buzz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dd5de63b-5ad1-472e-bbc7-7edb7a67438f
+  ws-opts:
+    headers:
+      Host: ''
     path: /zh-cn
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
@@ -72,17 +45,3 @@ proxies:
   server: 43.207.118.251
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|日本2|@ripaojiedian
-  network: ws
-  port: '46015'
-  server: cc1mm2vip.yushen.buzz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dd5de63b-5ad1-472e-bbc7-7edb7a67438f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
