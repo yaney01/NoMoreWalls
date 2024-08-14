@@ -7,18 +7,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|10,11|新加坡2|@ripaojiedian
-  network: ws
-  port: '47408'
-  server: 103.30.78.3
+  name: 11,16|新加坡3|@ripaojiedian
+  network: tcp
+  port: '10420'
+  server: xcsgp.cokecloud.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 4a54a45e-4af9-49a2-bc9d-dacf925e986a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
+  uuid: b9dad5ed-74da-4a43-8145-90d06df1f890
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
@@ -43,13 +39,3 @@ proxies:
   server: 13.212.34.140
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|新加坡3|@ripaojiedian
-  network: tcp
-  port: '10420'
-  server: xcsgp.cokecloud.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b9dad5ed-74da-4a43-8145-90d06df1f890
