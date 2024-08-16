@@ -9,6 +9,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|香港6|@ripaojiedian
+  network: ws
+  port: '33722'
+  server: 103.30.76.172
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 0ff2eedc-bb21-4620-9092-9823cf298d76
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
@@ -46,20 +63,3 @@ proxies:
   tls: false
   type: trojan
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|香港6|@ripaojiedian
-  network: ws
-  port: '33722'
-  server: 103.30.76.172
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 0ff2eedc-bb21-4620-9092-9823cf298d76
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
