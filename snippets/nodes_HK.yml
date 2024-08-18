@@ -27,6 +27,16 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: 11,16|香港6|@ripaojiedian
+  network: tcp
+  port: '29767'
+  server: iepl.hongxingdl.vip
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fce9f624-b3c0-41ed-8327-13b85dbd2693
+- alterId: 0
+  cipher: auto
   name: 11,16|香港|@ripaojiedian
   network: ws
   port: '46001'
@@ -67,14 +77,4 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: fce9f624-b3c0-41ed-8327-13b85dbd2693
-- alterId: 0
-  cipher: auto
-  name: 16|香港6|@ripaojiedian
-  network: tcp
-  port: '29767'
-  server: iepl.hongxingdl.vip
-  servername: ''
-  tls: false
-  type: vmess
   uuid: fce9f624-b3c0-41ed-8327-13b85dbd2693
