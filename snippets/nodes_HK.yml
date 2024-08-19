@@ -15,6 +15,16 @@ proxies:
     headers:
       Host: mmhk01.micloud.buzz
     path: /zh-cn
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港2|@ripaojiedian
+  network: tcp
+  port: '44806'
+  server: ambxxic01hk.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ae66331e-b6b4-4c6f-959f-6ed64cf97628
 - alterId: 64
   cipher: auto
   name: 11,16|香港5|@ripaojiedian
@@ -25,16 +35,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|11|香港6|@ripaojiedian
-  network: tcp
-  port: '29767'
-  server: iepl.hongxingdl.vip
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fce9f624-b3c0-41ed-8327-13b85dbd2693
 - alterId: 0
   cipher: auto
   name: 11,16|香港|@ripaojiedian
@@ -62,13 +62,3 @@ proxies:
   tls: false
   type: trojan
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '44806'
-  server: ambxxic01hk.dorabbb.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ae66331e-b6b4-4c6f-959f-6ed64cf97628

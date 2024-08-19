@@ -25,7 +25,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  name: 11,15|🇸🇬 新加坡2|@ripaojiedian
   network: ws
   port: 46016
   server: mmsg16.micloud.buzz
@@ -38,17 +38,9 @@ proxies:
     headers:
       Host: mmsg16.micloud.buzz
     path: /zh-cn
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 3.112.13.193
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 16|新加坡2|@ripaojiedian
+  name: 11,16|新加坡2|@ripaojiedian
   network: ws
   port: '46016'
   server: mmsg16.micloud.buzz
@@ -60,3 +52,11 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 3.112.13.193
+  tfo: false
+  type: ss
