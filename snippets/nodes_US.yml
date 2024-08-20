@@ -427,18 +427,21 @@ proxies:
     path: /video/QXjZG5u4F2
 - alterId: 0
   cipher: auto
-  name: 11|10,11|美国3|@ripaojiedian
+  client-fingerprint: chrome
+  name: 11,15,16|美国3|@ripaojiedian
   network: ws
-  port: '20272'
-  server: 104.244.90.43
-  servername: ''
-  tls: false
+  port: '2087'
+  server: 104.25.245.99
+  servername: 100-100-17-170.db-link01.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vmess
-  uuid: 57f5c2bd-bb79-4fd8-eea1-a84d1ddf3a21
+  uuid: 977185fd-ab81-3bc0-a7f3-20013591bced
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: 100-100-17-170.db-link01.top
+    path: /dabai.in
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -524,20 +527,3 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|美国3|@ripaojiedian
-  network: ws
-  port: '2087'
-  server: 104.25.245.99
-  servername: 100-100-17-170.db-link01.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 977185fd-ab81-3bc0-a7f3-20013591bced
-  ws-opts:
-    headers:
-      Host: 100-100-17-170.db-link01.top
-    path: /dabai.in
