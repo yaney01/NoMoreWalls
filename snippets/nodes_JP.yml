@@ -1,28 +1,4 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  name: 11|10,11|日本2|@ripaojiedian
-  network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b0ad2482-c734-4ffc-9584-8c018cf6cc9b
-  ws-opts:
-    headers:
-      Host: GWYp69Yujp2.yofnhkfc.xyz
-    path: /video/VDXcaM7r
-- alterId: 2
-  cipher: auto
-  name: 11|11|日本3|@ripaojiedian
-  network: tcp
-  port: '10009'
-  server: cnah2.lanyunshi.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 242eaf22-2c23-3181-a643-5e39bef2e08a
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
