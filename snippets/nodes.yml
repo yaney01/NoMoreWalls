@@ -1255,35 +1255,67 @@ proxies:
   port: 54104
   server: 183.236.51.23
   skip-cert-verify: false
-  sni: hk1.juelaohai.us.kg
   tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 09c601f1-cb28-4ec7-8a09-f2fef77151e1
-  port: 36993
+  password: 355678dc-4015-4d4c-8f4a-69819269dacd
+  port: 26766
+  server: vole.wdy88.com
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: 0ecee8bb-9fff-40f4-9f51-72edf4d82862
+  port: 40011
+  server: gg01.6bnw.top
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: de50dfe4-16b8-4f81-8089-09673edfe43a
+  port: 58811
+  server: zx.1010520.shop
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港7|@ripaojiedian
+  password: 0ecee8bb-9fff-40f4-9f51-72edf4d82862
+  port: 39301
   server: 6bhz.6bnw.top
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: 09c601f1-cb28-4ec7-8a09-f2fef77151e1
-  port: 40012
-  server: gg01.6bnw.top
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
   name: 15|🇹🇼 台湾|@ripaojiedian
-  password: 09c601f1-cb28-4ec7-8a09-f2fef77151e1
-  port: 40018
-  server: gg01.6bnw.top
+  password: 0ecee8bb-9fff-40f4-9f51-72edf4d82862
+  port: 39201
+  server: 6bhz.6bnw.top
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|台湾2|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6923a333-44d7-4fc8-bf93-224bbaad577b
+  ws-opts:
+    headers:
+      Host: tw1bQiWSE4x.fzbqfrse.xyz
+    path: /video/GQ2qE5Us9g
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -1295,35 +1327,61 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
-  password: 09c601f1-cb28-4ec7-8a09-f2fef77151e1
-  port: 40020
-  server: gg01.6bnw.top
+  password: 0ecee8bb-9fff-40f4-9f51-72edf4d82862
+  port: 49207
+  server: 6bhz.6bnw.top
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: 3f41b92f-9188-431c-be29-a7e5de2722dc
-  port: 38424
-  server: gzyd5-1.piaomiaoxu.net
+  name: 15,16|日本3|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6923a333-44d7-4fc8-bf93-224bbaad577b
+  ws-opts:
+    headers:
+      Host: GWYp69Yujp2.yofnhkfc.xyz
+    path: /video/VDXcaM7r
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇰🇷 韩国|@ripaojiedian
+  password: de50dfe4-16b8-4f81-8089-09673edfe43a
+  port: 14384
+  server: zx.1010520.shop
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡2|@ripaojiedian
-  password: 09c601f1-cb28-4ec7-8a09-f2fef77151e1
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: 0ecee8bb-9fff-40f4-9f51-72edf4d82862
   port: 39204
   server: 6bhz.6bnw.top
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇺🇸 美国3|@ripaojiedian
-  password: 2affd0c1-a5b4-4c1c-8800-fb2f866626e7
-  port: 47084
-  server: zzh2.gouersu.top
+  name: 15,16|美国2|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 6923a333-44d7-4fc8-bf93-224bbaad577b
+  ws-opts:
+    headers:
+      Host: us3AJ8biuQx.fzbqfrse.xyz
+    path: /video/QXjZG5u4F2
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇻🇳 越南|@ripaojiedian
@@ -1334,18 +1392,10 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本R|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15084
-  server: 59.56.77.225
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.230.97.225
+  server: 18.139.110.249
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1353,7 +1403,7 @@ proxies:
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.112.237.254
+  server: 57.180.28.226
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1361,6 +1411,6 @@ proxies:
   name: 15|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.194.189.140
+  server: 52.195.207.131
   tfo: false
   type: ss
