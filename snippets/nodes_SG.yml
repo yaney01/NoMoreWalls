@@ -5,18 +5,10 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: 25f6705c-16f0-4c34-b370-5e8e66fa3238
-  port: 40014
-  server: gg01.6bnw.top
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|新加坡2|@ripaojiedian
+  name: 11,15,16|新加坡2|@ripaojiedian
   network: ws
   port: '10001'
   server: yxvmsglux01.naizi.vip
@@ -30,6 +22,14 @@ proxies:
     headers:
       Host: www.python.org
     path: /nishidashabi
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: 25f6705c-16f0-4c34-b370-5e8e66fa3238
+  port: 40014
+  server: gg01.6bnw.top
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
