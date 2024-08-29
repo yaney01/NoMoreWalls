@@ -1,30 +1,8 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|10,11|台湾|@ripaojiedian
-  network: ws
-  port: '2052'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9ebb09ef-ce69-4bbb-ba8f-3be6c52ef9c2
-  ws-opts:
-    headers:
-      Host: tw1bQiWSE4x.fzbqfrse.xyz
-    path: /video/GQ2qE5Us9g
-- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇹🇼 台湾|@ripaojiedian
-  password: 515fe89b-473a-4fee-bc39-6a797011e27e
-  port: 40018
-  server: gg01.6bnw.top
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇹🇼 台湾2|@ripaojiedian
+  name: 11,15|🇹🇼 台湾2|@ripaojiedian
   network: ws
   port: 5203
   server: ovhsg.v4.ddnsjifeng.xyz
@@ -39,7 +17,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 16|台湾2|@ripaojiedian
+  name: 11,16|台湾2|@ripaojiedian
   network: ws
   port: '5203'
   server: ovhsg.v4.ddnsjifeng.xyz
@@ -51,3 +29,11 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇹🇼 台湾|@ripaojiedian
+  password: 515fe89b-473a-4fee-bc39-6a797011e27e
+  port: 40018
+  server: gg01.6bnw.top
+  tfo: false
+  type: ss
