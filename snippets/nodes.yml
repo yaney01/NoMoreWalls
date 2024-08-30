@@ -1045,13 +1045,10 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15|🇭🇰 香港3|@ripaojiedian
+  name: 11|10|🇭🇰 香港3|@ripaojiedian
   network: ws
   port: 5106
   server: ovhsg.v4.ddnsjifeng.xyz
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
@@ -1071,14 +1068,11 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|香港7|@ripaojiedian
+  name: 11|10,11|香港7|@ripaojiedian
   network: ws
   port: '10001'
   server: 62.72.163.54
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 9cb567a0-0cd8-4ef2-819d-c9fa40095414
@@ -1088,13 +1082,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15|🇭🇰 香港8|@ripaojiedian
+  name: 11|10|🇭🇰 香港8|@ripaojiedian
   network: ws
   port: 5108
   server: ovhsg.v4.ddnsjifeng.xyz
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
@@ -1104,13 +1095,10 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15|🇹🇼 台湾2|@ripaojiedian
+  name: 11|10|🇹🇼 台湾2|@ripaojiedian
   network: ws
   port: 5203
   server: ovhsg.v4.ddnsjifeng.xyz
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
@@ -1129,7 +1117,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
+  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
   ws-opts:
     headers:
       Host: v1.cdn.ddnschiyun.xyz
@@ -1153,13 +1141,10 @@ proxies:
     path: /video/X37qXHip
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15|🇸🇬 新加坡2|@ripaojiedian
+  name: 11|10|🇸🇬 新加坡2|@ripaojiedian
   network: ws
   port: 5502
   server: v1.cdn.ddnschiyun.xyz
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
@@ -1221,7 +1206,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15|🇷🇺 公益|俄罗斯|V2
+  name: 11,15|🇷🇺 俄罗斯|@ripaojiedian
   network: ws
   port: 40045
   server: mz.flmweb.cc
@@ -1236,7 +1221,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,16|香港3|@ripaojiedian
+  name: 11|11|香港3|@ripaojiedian
   network: ws
   port: '5106'
   server: ovhsg.v4.ddnsjifeng.xyz
@@ -1250,7 +1235,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,16|香港8|@ripaojiedian
+  name: 11|11|香港8|@ripaojiedian
   network: ws
   port: '5108'
   server: ovhsg.v4.ddnsjifeng.xyz
@@ -1264,7 +1249,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,16|台湾2|@ripaojiedian
+  name: 11|11|台湾2|@ripaojiedian
   network: ws
   port: '5203'
   server: ovhsg.v4.ddnsjifeng.xyz
@@ -1285,14 +1270,14 @@ proxies:
   servername: ''
   tls: false
   type: vmess
-  uuid: 257e532c-82a6-4ca5-8e09-83f45197fedb
+  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
   ws-opts:
     headers:
       Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,16|新加坡2|@ripaojiedian
+  name: 11|11|新加坡2|@ripaojiedian
   network: ws
   port: '5502'
   server: v1.cdn.ddnschiyun.xyz
@@ -1306,7 +1291,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,16|公益|俄罗斯|V2
+  name: 11,16|俄罗斯|@ripaojiedian
   network: ws
   port: '40045'
   server: mz.flmweb.cc
@@ -1456,7 +1441,7 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 15|🇭🇰 香港5|@ripaojiedian
-  password: llyEnxJlVC
+  password: bDDJrvVT
   port: 54104
   server: 183.236.51.23
   skip-cert-verify: false
@@ -1467,27 +1452,59 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 515fe89b-473a-4fee-bc39-6a797011e27e
-  port: 40012
-  server: gg01.6bnw.top
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: de50dfe4-16b8-4f81-8089-09673edfe43a
-  port: 58811
-  server: zx.1010520.shop
+  password: 76321d59-6bf2-4d77-8cc8-94219de74ccc
+  port: 33941
+  server: 911.wdy88.com
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: 4b1b1e13-1e02-4b73-848a-e99cefab6f55
+  port: 40012
+  server: gg01.6bnw.top
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  network: ws
+  port: 5101
+  server: v1.cdn.ddnschiyun.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
+  ws-opts:
+    headers:
+      Host: v1.cdn.ddnschiyun.xyz
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
   name: 15|🇹🇼 台湾|@ripaojiedian
-  password: 515fe89b-473a-4fee-bc39-6a797011e27e
+  password: 4b1b1e13-1e02-4b73-848a-e99cefab6f55
   port: 40018
   server: gg01.6bnw.top
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇹🇼 台湾2|@ripaojiedian
+  network: ws
+  port: 5201
+  server: ovhsg.v4.ddnsjifeng.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
+  ws-opts:
+    headers:
+      Host: ovhsg.v4.ddnsjifeng.xyz
+    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -1498,18 +1515,59 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: 515fe89b-473a-4fee-bc39-6a797011e27e
-  port: 40013
+  name: 15|🇰🇷 韩国|@ripaojiedian
+  password: 4b1b1e13-1e02-4b73-848a-e99cefab6f55
+  port: 40015
   server: gg01.6bnw.top
   tfo: false
   type: ss
-- cipher: aes-256-cfb
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇻🇳 越南|@ripaojiedian
-  password: hGkQ6915tD
-  port: 15083
-  server: 59.56.77.225
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  network: ws
+  port: 5501
+  server: v1.cdn.ddnschiyun.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
+  ws-opts:
+    headers:
+      Host: v1.cdn.ddnschiyun.xyz
+    path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: fbebeaa2-e5e3-40fa-8a29-83e88ffd0fcd
+  port: 29440
+  server: zf.1010520.shop
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|新加坡3|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: b300b4b1-e6d4-463b-9dae-2ac0cfa0d218
+  ws-opts:
+    headers:
+      Host: jpafzyhfsg3.yofnhkfc.xyz
+    path: /video/u4eCZTxW
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡4|@ripaojiedian
+  password: 4b1b1e13-1e02-4b73-848a-e99cefab6f55
+  port: 40013
+  server: gg01.6bnw.top
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1536,3 +1594,45 @@ proxies:
   server: 35.85.60.143
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港6|@ripaojiedian
+  network: ws
+  port: '5101'
+  server: v1.cdn.ddnschiyun.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16|台湾2|@ripaojiedian
+  network: ws
+  port: '5201'
+  server: ovhsg.v4.ddnsjifeng.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16|新加坡|@ripaojiedian
+  network: ws
+  port: '5501'
+  server: v1.cdn.ddnschiyun.xyz
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 94850168-ba31-47f8-82e1-0666648fc7bc
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
