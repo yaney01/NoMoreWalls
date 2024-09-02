@@ -2,7 +2,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇹🇼 台湾|@ripaojiedian
+  name: 11,15|🇹🇼 台湾|@ripaojiedian
   network: ws
   port: 5202
   server: ovhsg.v4.ddnsjifeng.xyz
@@ -15,17 +15,9 @@ proxies:
     headers:
       Host: ovhsg.v4.ddnsjifeng.xyz
     path: /
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇹🇼 台湾2|@ripaojiedian
-  password: 99a941d2-2a7b-4dc4-bafc-eb18caffc648
-  port: 50222
-  server: microsoft-680deb75.nbaqz0v1meo0k3d-tw.fcnode.net
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
-  name: 16|台湾|@ripaojiedian
+  name: 11,16|台湾|@ripaojiedian
   network: ws
   port: '5202'
   server: ovhsg.v4.ddnsjifeng.xyz
@@ -37,3 +29,11 @@ proxies:
     headers:
       Host: ''
     path: /
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇹🇼 台湾2|@ripaojiedian
+  password: 99a941d2-2a7b-4dc4-bafc-eb18caffc648
+  port: 50222
+  server: microsoft-680deb75.nbaqz0v1meo0k3d-tw.fcnode.net
+  tfo: false
+  type: ss

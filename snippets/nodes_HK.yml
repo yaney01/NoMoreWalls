@@ -11,16 +11,36 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|10|🇭🇰 香港2|@ripaojiedian
+  client-fingerprint: chrome
+  name: 11,15,16|香港2|@ripaojiedian
   network: ws
-  port: 40046
-  server: shhkt.cdn-sgp.xyz
+  port: '30068'
+  server: 220.246.57.161
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: 1cbb8f04-b0cc-4520-8b17-ed412f457b9f
   ws-opts:
     headers:
-      Host: shhkt.cdn-sgp.xyz
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15|🇭🇰 香港3|@ripaojiedian
+  network: ws
+  port: 5101
+  server: v1.cdn.ddnschiyun.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a95f159e-df58-452c-8484-f3571174d55a
+  ws-opts:
+    headers:
+      Host: v1.cdn.ddnschiyun.xyz
     path: /
 - alterId: 64
   cipher: auto
@@ -34,42 +54,44 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|10,11|香港7|@ripaojiedian
+  client-fingerprint: chrome
+  name: 11,15|🇭🇰 香港7|@ripaojiedian
   network: ws
-  port: '10001'
-  server: 62.72.163.54
+  port: 5105
+  server: v1.cdn.ddnschiyun.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a95f159e-df58-452c-8484-f3571174d55a
+  ws-opts:
+    headers:
+      Host: v1.cdn.ddnschiyun.xyz
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港3|@ripaojiedian
+  network: ws
+  port: '5101'
+  server: v1.cdn.ddnschiyun.xyz
   servername: ''
   tls: false
   type: vmess
-  uuid: 55429656-9a94-422f-997d-b067695bc89d
+  uuid: a95f159e-df58-452c-8484-f3571174d55a
   ws-opts:
     headers:
       Host: ''
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|10,11|香港9|@ripaojiedian
+  name: 11,16|香港7|@ripaojiedian
   network: ws
-  port: '2052'
-  server: 4.6bnw.top
+  port: '5105'
+  server: v1.cdn.ddnschiyun.xyz
   servername: ''
   tls: false
   type: vmess
-  uuid: 5a88940e-e7f8-475b-8157-35863345eccf
-  ws-opts:
-    headers:
-      Host: polohk.6bnw.top
-    path: /cctv?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 11|11|香港2|@ripaojiedian
-  network: ws
-  port: '40046'
-  server: shhkt.cdn-sgp.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1cbb8f04-b0cc-4520-8b17-ed412f457b9f
+  uuid: a95f159e-df58-452c-8484-f3571174d55a
   ws-opts:
     headers:
       Host: ''
@@ -87,39 +109,6 @@ proxies:
   tls: false
   type: trojan
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|香港2|@ripaojiedian
-  network: ws
-  port: '30068'
-  server: 220.246.57.161
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 1cbb8f04-b0cc-4520-8b17-ed412f457b9f
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  network: ws
-  port: 5101
-  server: v1.cdn.ddnschiyun.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a95f159e-df58-452c-8484-f3571174d55a
-  ws-opts:
-    headers:
-      Host: v1.cdn.ddnschiyun.xyz
-    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港6|@ripaojiedian
@@ -128,47 +117,3 @@ proxies:
   server: hk1.mhw7e2.online
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港7|@ripaojiedian
-  network: ws
-  port: 5105
-  server: v1.cdn.ddnschiyun.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: a95f159e-df58-452c-8484-f3571174d55a
-  ws-opts:
-    headers:
-      Host: v1.cdn.ddnschiyun.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: ws
-  port: '5101'
-  server: v1.cdn.ddnschiyun.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a95f159e-df58-452c-8484-f3571174d55a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|香港7|@ripaojiedian
-  network: ws
-  port: '5105'
-  server: v1.cdn.ddnschiyun.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a95f159e-df58-452c-8484-f3571174d55a
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
