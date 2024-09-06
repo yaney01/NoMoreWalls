@@ -410,14 +410,11 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|美国2|@ripaojiedian
+  name: 11|10,11|美国2|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: dd6973d6-9af9-4edd-9140-c57eab178a0d
@@ -510,3 +507,28 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|美国3|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: dd6973d6-9af9-4edd-9140-c57eab178a0d
+  ws-opts:
+    headers:
+      Host: us3AJ8biuQx.fzbqfrse.xyz
+    path: /video/QXjZG5u4F2
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇺🇸 美国4|@ripaojiedian
+  password: d3f674e2-b985-49d2-8654-4b8d53e20217
+  port: 24706
+  server: gdyddx500.xiyunchen.cn
+  tfo: false
+  type: ss
