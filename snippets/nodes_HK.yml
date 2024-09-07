@@ -12,6 +12,50 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 11,15,16|香港5|@ripaojiedian
+  network: ws
+  port: '10001'
+  server: 62.72.163.54
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: fddb5ca7-cad2-4635-b86a-dfb5c5b9e446
+  ws-opts:
+    headers:
+      Host: ''
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|香港7|@ripaojiedian
+  network: ws
+  port: '54433'
+  server: 103.255.209.108
+  servername: hk2.aisupermall.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: e24840f7-83c2-4730-98df-bf852ecbd2d3
+  ws-opts:
+    headers:
+      Host: unknown
+    path: /axsxzA
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港8|@ripaojiedian
+  network: tcp
+  port: '13008'
+  server: 45.78.25.158
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a074c66e-1107-475c-8bc7-9de7ef6620ed
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 15|🇲🇾 马来西亚|@ripaojiedian
   password: xXg9OC4uqBaRRA3T8OpCjSC7w8eIe03xKFc2nEDF3y3Yy6DDZAl5NpSYZzalSa
   port: 24474
@@ -38,23 +82,6 @@ proxies:
   server: microsoft-766685bb.nbaqz0v1meo0k3d-hk.fcnode.net
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|香港5|@ripaojiedian
-  network: ws
-  port: '10001'
-  server: 62.72.163.54
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: fddb5ca7-cad2-4635-b86a-dfb5c5b9e446
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港6|@ripaojiedian
@@ -63,30 +90,3 @@ proxies:
   server: hk1.mhw7e2.online
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|香港7|@ripaojiedian
-  network: ws
-  port: '54433'
-  server: 103.255.209.108
-  servername: hk2.aisupermall.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: e24840f7-83c2-4730-98df-bf852ecbd2d3
-  ws-opts:
-    headers:
-      Host: unknown
-    path: /axsxzA
-- alterId: 0
-  cipher: auto
-  name: 16|香港8|@ripaojiedian
-  network: tcp
-  port: '13008'
-  server: 45.78.25.158
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a074c66e-1107-475c-8bc7-9de7ef6620ed
