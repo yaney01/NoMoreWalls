@@ -11,42 +11,55 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|10,11|香港5|@ripaojiedian
+  client-fingerprint: chrome
+  name: 11,15,16|香港5|@ripaojiedian
   network: ws
-  port: '10001'
-  server: 62.72.163.54
+  port: '80'
+  server: 157.254.22.109
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: fddb5ca7-cad2-4635-b86a-dfb5c5b9e446
+  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
   ws-opts:
     headers:
-      Host: ''
-    path: /
+      Host: syjsq.hk5.flyidc.top
+    path: /syjsq/data
 - alterId: 0
   cipher: auto
-  name: 11|10,11|香港7|@ripaojiedian
+  client-fingerprint: chrome
+  name: 11,15,16|香港7|@ripaojiedian
   network: ws
-  port: '54433'
-  server: 103.255.209.108
-  servername: hk2.aisupermall.com
-  tls: true
-  type: vmess
-  uuid: e24840f7-83c2-4730-98df-bf852ecbd2d3
-  ws-opts:
-    headers:
-      Host: unknown
-    path: /axsxzA
-- alterId: 0
-  cipher: auto
-  name: 11|11|香港8|@ripaojiedian
-  network: tcp
-  port: '13008'
-  server: 45.78.25.158
+  port: '80'
+  server: 18.162.141.165
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: a074c66e-1107-475c-8bc7-9de7ef6620ed
+  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
+  ws-opts:
+    headers:
+      Host: syjsq.hk1.flyidc.top
+    path: /syjsq/data
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|香港8|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 16.163.143.214
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
+  ws-opts:
+    headers:
+      Host: syjsq.hk2.flyidc.top
+    path: /syjsq/data
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -75,23 +88,6 @@ proxies:
   server: 6ad1ae37883fcbf8.cdn.jiashule.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|香港5|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 157.254.22.109
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
-  ws-opts:
-    headers:
-      Host: syjsq.hk5.flyidc.top
-    path: /syjsq/data
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港6|@ripaojiedian
@@ -100,37 +96,3 @@ proxies:
   server: hk1.mhw7e2.online
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|香港7|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 18.162.141.165
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
-  ws-opts:
-    headers:
-      Host: syjsq.hk1.flyidc.top
-    path: /syjsq/data
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|香港8|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 16.163.143.214
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
-  ws-opts:
-    headers:
-      Host: syjsq.hk2.flyidc.top
-    path: /syjsq/data
