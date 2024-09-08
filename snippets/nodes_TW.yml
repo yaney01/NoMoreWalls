@@ -1,14 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|台湾2|@ripaojiedian
+  name: 11|10,11|台湾2|@ripaojiedian
   network: ws
   port: '10001'
   server: 85.237.206.174
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: fddb5ca7-cad2-4635-b86a-dfb5c5b9e446
@@ -16,11 +13,3 @@ proxies:
     headers:
       Host: ''
     path: /
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇹🇼 台湾|@ripaojiedian
-  password: 2509f9e7-93a6-4ac3-bd34-df62e809371d
-  port: 50223
-  server: microsoft-766685bb.nbaqz0v1meo0k3d-tw.fcnode.net
-  tfo: false
-  type: ss
