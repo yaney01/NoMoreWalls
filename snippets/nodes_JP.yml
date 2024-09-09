@@ -1,28 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|11|日本|@ripaojiedian
+  name: 11,16|日本3|@ripaojiedian
   network: tcp
-  port: '11767'
-  server: 212.50.255.109
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7269ac36-82da-43f9-86b8-ea57bef8f1e7
-- alterId: 0
-  cipher: auto
-  name: 11|10,11|日本3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 103.238.129.205
+  port: '16718'
+  server: relay.gz.flyidc.top
   servername: ''
   tls: false
   type: vmess
   uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
-  ws-opts:
-    headers:
-      Host: syjsq.jp2.flyidc.top
-    path: /syjsq/data
+- alterId: 0
+  cipher: auto
+  name: 11,16|日本4|@ripaojiedian
+  network: tcp
+  port: '11767'
+  server: 212.50.253.146
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7269ac36-82da-43f9-86b8-ea57bef8f1e7
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -47,23 +43,3 @@ proxies:
   server: 35.93.25.21
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|日本3|@ripaojiedian
-  network: tcp
-  port: '16718'
-  server: relay.gz.flyidc.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
-- alterId: 0
-  cipher: auto
-  name: 16|日本4|@ripaojiedian
-  network: tcp
-  port: '11767'
-  server: 212.50.253.146
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7269ac36-82da-43f9-86b8-ea57bef8f1e7
