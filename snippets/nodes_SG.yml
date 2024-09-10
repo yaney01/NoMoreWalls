@@ -7,18 +7,8 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|11|新加坡|@ripaojiedian
-  network: tcp
-  port: '17575'
-  server: relay.gz.flyidc.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
-  name: 15,16|新加坡|@ripaojiedian
+  name: 11,15,16|新加坡|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn2.sanfencdn9.com
