@@ -427,14 +427,11 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|美国3|@ripaojiedian
+  name: 11|10,11|美国3|@ripaojiedian
   network: ws
   port: '80'
   server: 104.16.164.228
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: e6d76927-edd1-442b-92a4-fa031f522c42
@@ -527,12 +524,12 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 15|🇺🇸 美国4|@ripaojiedian
-  password: 0b31e9ee-3e6f-4ecb-bfe4-98412daf24ef
-  port: 39061
-  server: office-0f1df58e3d.f9umiigcm1awo6o-us.qytnode.com
+  name: 15|🇺🇸 美国3|@ripaojiedian
+  password: shadowsocks
+  port: 443
+  server: 212.102.47.130
   tfo: false
   type: ss
 - alterId: 0
