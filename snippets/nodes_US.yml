@@ -427,14 +427,11 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16,20|美国_由快嘴科技提供：kkzui.com98
+  name: 11,20|美国_由快嘴科技提供：kkzui.com98
   network: ws
   port: 8880
   server: cfcdn1.sanfencdn9.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: de8a6fd5-9b7f-4f5c-9800-b3ff59bc0d44
@@ -518,6 +515,40 @@ proxies:
   server: 212.102.47.130
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|美国4|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn1.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cd47cb10-d851-489b-86cd-ffaf659ed943
+  ws-opts:
+    headers:
+      Host: us3AJ8biuQx.fzbqfrse.xyz
+    path: /video/QXjZG5u4F2
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|美国5|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 23.156.152.106
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
+  ws-opts:
+    headers:
+      Host: syjsq.us4.flyidc.top
+    path: /syjsq/data
 - alterId: 0
   cipher: auto
   name: 20|美国_由快嘴科技提供：kkzui.com1

@@ -1,10 +1,10 @@
 proxies:
-- cipher: aes-128-gcm
+- cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
-  password: 5014dfd8-cbef-46d8-b96a-b75565be73ab
-  port: 11005
-  server: group-south-01.nutbit-node.lat
+  password: amazonskr05
+  port: 443
+  server: 52.221.193.173
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -15,21 +15,35 @@ proxies:
   server: gdyddx500.xiyunchen.cn
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港3|@ripaojiedian
-  password: 2b0ea7b4-bd27-4995-bc95-a817174b6f7c
-  port: 23331
-  server: link.karleynetwork.xyz
-  tfo: false
-  type: ss
-- client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
+  name: 15|🇸🇬 新加坡|@ripaojiedian
   password: lNOcIAxy
-  port: 444
-  server: 36.151.195.83
-  skip-cert-verify: true
-  type: trojan
+  port: 17575
+  server: relay.gz.flyidc.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|香港5|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 38.207.142.31
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
+  ws-opts:
+    headers:
+      Host: syjsq.hk6.flyidc.top
+    path: /syjsq/data
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港6|@ripaojiedian
@@ -38,3 +52,21 @@ proxies:
   server: hk1.mhw7e2.online
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港R|@ripaojiedian
+  password: hGkQ6915tD
+  port: 16088
+  server: 103.161.255.195
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '44806'
+  server: ambxxic01hk.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fe9333e9-c864-41ea-8076-a0df85cc50de
