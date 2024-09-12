@@ -444,14 +444,11 @@ proxies:
     path: /video/QXjZG5u4F2
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|美国5|@ripaojiedian
+  name: 11,16|美国5|@ripaojiedian
   network: ws
   port: '80'
   server: 23.156.152.106
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
@@ -533,6 +530,14 @@ proxies:
   password: shadowsocks
   port: 443
   server: 212.102.47.130
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 15|🇺🇸 美国5|@ripaojiedian
+  password: z5WzrVUCMZa2
+  port: 6297
+  server: 45.89.53.134
   tfo: false
   type: ss
 - alterId: 0
@@ -1109,32 +1114,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '20|美国_由快嘴科技提供：kkzui.com美国 #46'
-  network: ws
-  port: 2086
-  server: ip.sb
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: '20|美国_由快嘴科技提供：kkzui.com美国 #47'
-  network: ws
-  port: 2086
-  server: malaysia.com
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: '20|美国_由快嘴科技提供：kkzui.com美国 #48'
   network: ws
   port: 2086
@@ -1200,19 +1179,6 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: '20|美国_由快嘴科技提供：kkzui.com美国 #53'
-  network: ws
-  port: 2086
-  server: japan.com
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: '20|美国_由快嘴科技提供：kkzui.com美国 #54'
   network: ws
   port: 2086
@@ -1250,19 +1216,6 @@ proxies:
     headers:
       Host: f.khilei.com
     path: /linkvws
-- alterId: 0
-  cipher: auto
-  name: '20|美国_由快嘴科技提供：kkzui.com美国 #58'
-  network: ws
-  port: 2086
-  server: icook.tw
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: '20|美国_由快嘴科技提供：kkzui.com美国 #59'
