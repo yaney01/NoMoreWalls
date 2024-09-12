@@ -7,18 +7,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11,20|美国_由快嘴科技提供：kkzui.com77
-  network: ws
-  port: 2052
-  server: cfcdn2.sanfencdn9.com
+  name: 11,16|新加坡|@ripaojiedian
+  network: tcp
+  port: '17575'
+  server: relay.gz.flyidc.top
   servername: ''
   tls: false
   type: vmess
-  uuid: de8a6fd5-9b7f-4f5c-9800-b3ff59bc0d44
-  ws-opts:
-    headers:
-      Host: cscEqFeksg1.wzjwkqya.xyz
-    path: /video/orbHPhkP
+  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
@@ -27,16 +23,6 @@ proxies:
   server: 43.203.242.24
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|新加坡|@ripaojiedian
-  network: tcp
-  port: '17575'
-  server: relay.gz.flyidc.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2d9a81f6-e86e-48e6-9646-b3b1325f8d61
 - alterId: 0
   cipher: auto
   name: 20|新加坡_由快嘴科技提供：kkzui.com111
