@@ -427,18 +427,21 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  name: 11|13,14|美国4|@ripaojiedian
+  client-fingerprint: chrome
+  name: 11,15,16|美国4|@ripaojiedian
   network: ws
-  port: '2052'
+  port: '2095'
   server: cfcdn1.sanfencdn9.com
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: a7fa0544-86ec-4cf6-b216-fc0ee4422b8b
+  uuid: 75781b8f-db32-44b5-936c-0065a3064a98
   ws-opts:
     headers:
-      Host: us3AJ8biuQx.fzbqfrse.xyz
-    path: /video/QXjZG5u4F2
+      Host: us82pRzxDMb.fzbqfrse.xyz
+    path: /video/qYZue4zaWS
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
@@ -515,20 +518,3 @@ proxies:
   server: 14.29.215.158
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|美国4|@ripaojiedian
-  network: ws
-  port: '2095'
-  server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 75781b8f-db32-44b5-936c-0065a3064a98
-  ws-opts:
-    headers:
-      Host: us82pRzxDMb.fzbqfrse.xyz
-    path: /video/qYZue4zaWS
