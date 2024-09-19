@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11,16|香港|@ripaojiedian
+  network: tcp
+  port: '44801'
+  server: ambxxic01hk.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2302fd7b-1b02-4b1b-8391-782f4c99b7b3
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡2|@ripaojiedian
   password: cf8c51d3-e692-46a6-b351-4c5ef0b5efc3
@@ -52,13 +62,3 @@ proxies:
   server: 103.161.255.195
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '44801'
-  server: ambxxic01hk.dorabbb.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2302fd7b-1b02-4b1b-8391-782f4c99b7b3
