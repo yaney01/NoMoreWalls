@@ -1071,14 +1071,11 @@ proxies:
   uuid: 2302fd7b-1b02-4b1b-8391-782f4c99b7b3
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|台湾|@ripaojiedian
+  name: 11|13,14|台湾|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: cfa71038-632b-4a8f-859d-cce4d91c1082
@@ -1088,14 +1085,11 @@ proxies:
     path: /video/WNMicnDh
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|美国|@ripaojiedian
+  name: 11|13,14|美国|@ripaojiedian
   network: ws
   port: '2086'
   server: 104.19.51.232
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
@@ -1122,14 +1116,11 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|美国4|@ripaojiedian
+  name: 11|13,14|美国4|@ripaojiedian
   network: ws
   port: '2095'
   server: cfcdn1.sanfencdn9.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: cfa71038-632b-4a8f-859d-cce4d91c1082
@@ -1271,7 +1262,7 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -1283,21 +1274,54 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: 2302fd7b-1b02-4b1b-8391-782f4c99b7b3
-- cipher: chacha20-ietf
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 38.147.191.5
+  name: 15,16|香港2|@ripaojiedian
+  network: ws
+  port: '2052'
+  server: cfcdn2.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: cfa71038-632b-4a8f-859d-cce4d91c1082
+  ws-opts:
+    headers:
+      Host: zTrUWkzLhk1.wzjwkqya.xyz
+    path: /video/epGXsEeR
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港3|@ripaojiedian
   password: a50b9ad6-20df-4a38-a75a-a04793355cf8
   port: 33107
   server: cm.guguyun.pw
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港5|@ripaojiedian
+  password: 1404585b-fe61-4f4d-9680-f63d2002b429
+  port: 27466
+  server: gdyddx500.xiyunchen.cn
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港7|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 103.36.91.23
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港8|@ripaojiedian
+  password: 1404585b-fe61-4f4d-9680-f63d2002b429
+  port: 58774
+  server: gdyddx500.xiyunchen.cn
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1308,6 +1332,57 @@ proxies:
   server: 103.161.255.195
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|日本2|@ripaojiedian
+  network: ws
+  port: '20002'
+  server: yxvmjp02-1.naizi.vip
+  servername: yxvmjp02-1.naizi.vip
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
+  ws-opts:
+    headers:
+      Host: www.python.org
+    path: /nishidashabi
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|日本3|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cfa71038-632b-4a8f-859d-cce4d91c1082
+  ws-opts:
+    headers:
+      Host: zqWukzdtjp1.wzjwkqya.xyz
+    path: /video/RPKZwKFW
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|日本4|@ripaojiedian
+  network: ws
+  port: '10005'
+  server: jplux01-1.naizi.vip
+  servername: jplux01-1.naizi.vip
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
+  ws-opts:
+    headers:
+      Host: tv.cctv.com
+    path: /nishidashabi
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本R|@ripaojiedian
@@ -1324,20 +1399,29 @@ proxies:
   server: zf01.yydz.one
   tfo: false
   type: ss
-- cipher: chacha20-ietf
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇺🇸 美国3|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 107.149.212.67
+  name: 15,16|新加坡|@ripaojiedian
+  network: ws
+  port: '10002'
+  server: yxvmsglux01.naizi.vip
+  servername: yxvmsglux01.naizi.vip
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: true
+  type: vmess
+  uuid: 1404585b-fe61-4f4d-9680-f63d2002b429
+  ws-opts:
+    headers:
+      Host: www.python.org
+    path: /nishidashabi
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.168.242.26
+  server: 47.129.228.107
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1345,7 +1429,7 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.231.125.24
+  server: 3.1.202.81
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1353,6 +1437,16 @@ proxies:
   name: 15|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 34.214.150.14
+  server: 54.255.148.85
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 16|香港6|@ripaojiedian
+  network: tcp
+  port: '31778'
+  server: 183.236.48.161
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
