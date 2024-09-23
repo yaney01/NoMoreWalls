@@ -393,14 +393,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|美国|@ripaojiedian
+  name: 11|13,14|美国|@ripaojiedian
   network: ws
   port: '2086'
   server: cfcdn1.sanfencdn9.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 01dee9d8-7147-44b4-b3df-b4fe053d18d5
@@ -503,3 +500,13 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 16|美国4|@ripaojiedian
+  network: tcp
+  port: '43484'
+  server: 45.155.223.83
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 67ac2316-e6cf-4c56-91a9-6bcbcb3be4d9
