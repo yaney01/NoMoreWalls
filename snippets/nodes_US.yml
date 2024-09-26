@@ -421,9 +421,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15,16|美国4|@ripaojiedian
+  name: 11,15|🇺🇸 美国4|@ripaojiedian
   network: ws
-  port: '2095'
+  port: 2095
   server: cfcdn1.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
@@ -519,3 +519,27 @@ proxies:
   server: 142.202.190.110
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|美国4|@ripaojiedian
+  network: ws
+  port: '80'
+  server: cfcdn3.sanfencdn9.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 592d0884-c322-43a0-abbd-f3e421e420f5
+  ws-opts:
+    headers:
+      Host: zqWukzdtjp1.wzjwkqya.xyz
+    path: /video/RPKZwKFW
+- alterId: 64
+  cipher: auto
+  name: 16|美国5|@ripaojiedian
+  network: tcp
+  port: '58831'
+  server: 120.232.153.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
