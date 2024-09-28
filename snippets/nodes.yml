@@ -1069,14 +1069,11 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|香港6|@ripaojiedian
+  name: 11|13,14|香港6|@ripaojiedian
   network: ws
   port: '30001'
   server: 134.122.184.63
   servername: www.36224588.xyz
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -1299,23 +1296,15 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港|@ripaojiedian
-  password: 7d6fd36b-9580-4bee-8ad4-963f48c40b86
-  port: 47000
-  server: gate.jiasudu.buzz
-  tfo: false
-  type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇺🇸 美国9|@ripaojiedian
-  password: Sc4B3DORqFuNpREIySlCClZwgZ0aax26OXynF883j7YDK3pTYz5ACSexDaA9e3
-  port: 28331
-  server: bettong.missionsec.io
+  name: 15|🇺🇸 美国6|@ripaojiedian
+  password: c471ef32-798d-40a0-a57c-acf3475a204e
+  port: 13019
+  server: naiu-us.05vr9nyqg5.download
   skip-cert-verify: false
-  sni: bettong.missionsec.io
+  sni: cloudflare.node-ssl.cdn-alibaba.com
   tfo: false
   tls: false
   type: trojan
@@ -1328,20 +1317,12 @@ proxies:
   server: 103.161.255.195
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: 6007a3c9-eaa3-442f-b9fe-825b0926b1d9
-  port: 49494
-  server: jp.zhongguoliantong.shop
-  tfo: false
-  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.38.255.233
+  server: 3.36.120.116
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1349,7 +1330,7 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.213.56.182
+  server: 54.180.240.137
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1357,7 +1338,7 @@ proxies:
   name: 15|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.202.67.216
+  server: 13.212.1.95
   tfo: false
   type: ss
 - cipher: aes-128-gcm
@@ -1366,5 +1347,13 @@ proxies:
   password: shadowsocks
   port: 443
   server: 212.102.53.81
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇩🇪 德国|@ripaojiedian
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20024
+  server: sg1.mhw7e2.online
   tfo: false
   type: ss
