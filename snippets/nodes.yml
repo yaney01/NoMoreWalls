@@ -1105,11 +1105,10 @@ proxies:
   uuid: 61b739bf-777f-44b9-b637-9b28b8e39638
 - alterId: 64
   cipher: auto
-  name: 11,16|美国|@ripaojiedian
+  name: 11|广东省广州市 移动
   network: tcp
-  port: '52112'
+  port: 52112
   server: 183.236.51.23
-  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -1632,15 +1631,15 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇺🇸 美国6|@ripaojiedian
+  name: 15|🇺🇸 美国5|@ripaojiedian
   password: c471ef32-798d-40a0-a57c-acf3475a204e
-  port: 13019
-  server: naiu-us.05vr9nyqg5.download
+  port: 58831
+  server: 120.232.153.27
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   tfo: false
   tls: false
-  type: trojan
+  type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-256-cfb
   client-fingerprint: chrome
@@ -1653,7 +1652,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|台湾|@ripaojiedian
+  name: 15,16|台湾2|@ripaojiedian
   network: ws
   port: '2052'
   server: cfcdn1.sanfencdn9.com
@@ -1662,7 +1661,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: fde30ec9-149a-4bba-8dd0-75f374fabbed
+  uuid: 423caa0c-0542-4326-92e1-18769b6608e7
   ws-opts:
     headers:
       Host: tw1eskJpKcA.inivtrak.xyz
@@ -1670,20 +1669,27 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|美国2|@ripaojiedian
+  name: 15|🇯🇵 日本|@ripaojiedian
   network: ws
-  port: '2086'
-  server: 104.26.0.56
-  servername: ''
+  port: 6868
+  server: mtts.buyiasoa.com
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  uuid: 41d1b1e2-51e8-4510-8dcf-2b4721d352ea
   ws-opts:
     headers:
-      Host: ip14.freegradely.xyz
-    path: github.com/Alvin9999
+      Host: mtts.buyiasoa.com
+    path: /lapw89
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇺🇸 美国|@ripaojiedian
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20017
+  server: hk5.mhw7e2.online
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1706,7 +1712,7 @@ proxies:
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.36.120.116
+  server: 13.124.137.69
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1714,7 +1720,7 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.180.240.137
+  server: 43.201.254.74
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1722,15 +1728,7 @@ proxies:
   name: 15|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.212.1.95
-  tfo: false
-  type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇬🇧 英国|@ripaojiedian
-  password: shadowsocks
-  port: 443
-  server: 212.102.53.81
+  server: 43.207.213.253
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -1743,24 +1741,24 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '57739'
+  server: 103.30.78.105
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f1a52841-0c10-4119-8617-7c3ff2a4a937
+- alterId: 0
+  cipher: auto
   name: 16|香港2|@ripaojiedian
   network: tcp
-  port: '44806'
-  server: ambxxic01hk.dorabbb.top
+  port: '47207'
+  server: 149.104.20.212
   servername: ''
   tls: false
   type: vmess
-  uuid: be263eac-a624-452b-89da-bb25190676fc
-- alterId: 64
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '52908'
-  server: 120.237.79.157
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 88e49a19-9448-4a15-adf0-db54c97e0ad4
 - alterId: 64
   cipher: auto
   name: 16|香港4|@ripaojiedian
@@ -1771,6 +1769,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 16|日本|@ripaojiedian
+  network: ws
+  port: '6868'
+  server: mtts.buyiasoa.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 41d1b1e2-51e8-4510-8dcf-2b4721d352ea
+  ws-opts:
+    headers:
+      Host: ''
+    path: /lapw89
 - alterId: 0
   cipher: auto
   name: 16|美国3|@ripaojiedian
