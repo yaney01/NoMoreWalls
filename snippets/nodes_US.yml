@@ -23,7 +23,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '1,3,6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11'
+  name: '1,3,6|🇺🇸_US_美国 #9'
   network: ws
   port: 2086
   server: 104.19.57.4
@@ -79,7 +79,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '1,3,6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #10'
+  name: '1,3,6|🇺🇸_US_美国 #13'
   network: ws
   port: 2086
   server: 104.18.57.111
@@ -207,7 +207,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国 #32'
+  name: '3|🇺🇸_US_美国 #4'
   network: ws
   port: 2082
   server: cfcdn1.sanfencdn9.com
@@ -217,7 +217,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国 #33'
+  name: '3|🇺🇸_US_美国 #5'
   network: ws
   port: 2086
   server: 104.19.32.46
@@ -227,7 +227,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国 #34'
+  name: '3|🇺🇸_US_美国 #6'
   network: ws
   port: 8080
   server: russia.com
@@ -1110,20 +1110,20 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|美国4|@ripaojiedian
+  name: 15,16|美国2|@ripaojiedian
   network: ws
-  port: '80'
-  server: cfcdn3.sanfencdn9.com
+  port: '2052'
+  server: cfcdn1.sanfencdn9.com
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 592d0884-c322-43a0-abbd-f3e421e420f5
+  uuid: af0bfcce-8730-4133-bdaa-f6b1da70fc1c
   ws-opts:
     headers:
-      Host: zqWukzdtjp1.wzjwkqya.xyz
-    path: /video/RPKZwKFW
+      Host: us2htbepeox.inivtrak.xyz
+    path: /video/yGbumWFW/
 - alterId: 0
   cipher: auto
   name: 16|美国3|@ripaojiedian
