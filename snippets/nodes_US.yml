@@ -419,17 +419,13 @@ proxies:
     path: /path/181721272114
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|美国3|@ripaojiedian
+  name: '11|美国 CloudFlare节点 #1'
   network: ws
-  port: '2052'
+  port: 2052
   server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
-  uuid: 423caa0c-0542-4326-92e1-18769b6608e7
+  uuid: af0bfcce-8730-4133-bdaa-f6b1da70fc1c
   ws-opts:
     headers:
       Host: us2FchmwQky.inivtrak.xyz

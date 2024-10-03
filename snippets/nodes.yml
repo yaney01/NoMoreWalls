@@ -789,17 +789,13 @@ proxies:
     path: /path/181721272114
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|美国3|@ripaojiedian
+  name: '11|美国 CloudFlare节点 #1'
   network: ws
-  port: '2052'
+  port: 2052
   server: cfcdn1.sanfencdn9.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
-  uuid: 423caa0c-0542-4326-92e1-18769b6608e7
+  uuid: af0bfcce-8730-4133-bdaa-f6b1da70fc1c
   ws-opts:
     headers:
       Host: us2FchmwQky.inivtrak.xyz
@@ -1187,19 +1183,44 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- alterId: 64
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: ddfeaada-fcd6-4e8d-be0c-d4a847725d02
+  port: 25991
+  server: whcm.v6v.eu
+  tfo: false
+  type: ss
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇻🇳 越南2|@ripaojiedian
-  password: '3672449442956713984'
+  name: 15|🇰🇷 韩国|@ripaojiedian
+  password: 0b0387b8-5258-386b-8744-dcacb2320d94
   port: 443
-  server: stable-koi.gelding865.autos
-  skip-cert-verify: false
-  sni: stable-koi.gelding865.autos
+  server: 3.38.198.76
+  skip-cert-verify: true
+  sni: AAAAAAAAAAAAAAAAAAA.BILIVIDEO.COM
   tfo: false
   tls: false
   type: trojan
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: ff6588e1-b3dd-42e8-8f5c-ff90bfbd935d
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|香港3|@ripaojiedian
+  network: ws
+  port: '59501'
+  server: cm.laoliu.live
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 454e1e97-2dab-4abb-b770-adfa92be4d19
+  ws-opts:
+    headers:
+      Host: hk22.laoliu.store
+    path: /downloads_hk22
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇭🇰 香港R|@ripaojiedian
@@ -1211,28 +1232,20 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|台湾4|@ripaojiedian
+  name: 15,16|台湾|@ripaojiedian
   network: ws
-  port: '2052'
-  server: cfcdn1.sanfencdn9.com
+  port: '59501'
+  server: cm.laoliu.live
   servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 423caa0c-0542-4326-92e1-18769b6608e7
+  uuid: e49d1b8f-d5b2-4e1e-8c0e-5d8d16e7d3e3
   ws-opts:
     headers:
-      Host: tw1yYfBXuZe.inivtrak.xyz
-    path: /video/bkvyiKgP
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇹🇼 台湾3|@ripaojiedian
-  password: ddfeaada-fcd6-4e8d-be0c-d4a847725d02
-  port: 32185
-  server: whcm.v6v.eu
-  tfo: false
-  type: ss
+      Host: tw-nat.laoliu.store
+    path: /downloads_twnat
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -1241,14 +1254,65 @@ proxies:
   server: whcm.v6v.eu
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|日本4|@ripaojiedian
+  network: ws
+  port: '443'
+  server: mncsdmeujptest.wzjwkqya.xyz
+  servername: mncsdmeujptest.wzjwkqya.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 423caa0c-0542-4326-92e1-18769b6608e7
+  ws-opts:
+    headers:
+      Host: mncsdmeujptest.wzjwkqya.xyz
+    path: /video/EFkRECxp
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|日本6|@ripaojiedian
+  network: ws
+  port: '59501'
+  server: cm.laoliu.live
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 10933bdb-ed0e-410c-a019-91c1f33eff25
+  ws-opts:
+    headers:
+      Host: jp12.laoliu.store
+    path: /downloads_jp12
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇰🇷 韩国2|@ripaojiedian
-  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
-  port: 10702
-  server: 122.195.189.15
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: ddfeaada-fcd6-4e8d-be0c-d4a847725d02
+  port: 42348
+  server: whcm.v6v.eu
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|新加坡2|@ripaojiedian
+  network: ws
+  port: '59501'
+  server: cm.laoliu.live
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e7d89b98-eef9-40b3-e533-a92e981134bb
+  ws-opts:
+    headers:
+      Host: sg22.laoliu.store
+    path: /downloads_sg22
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -1279,7 +1343,7 @@ proxies:
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.250.49.16
+  server: 3.36.111.75
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1287,7 +1351,7 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.236.95.86
+  server: 43.206.194.56
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1295,6 +1359,16 @@ proxies:
   name: 15|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.202.54.30
+  server: 13.114.140.218
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港5|@ripaojiedian
+  network: tcp
+  port: '44826'
+  server: ambxxid02hk.dorabbb.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ff6588e1-b3dd-42e8-8f5c-ff90bfbd935d
