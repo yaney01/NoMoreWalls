@@ -685,20 +685,36 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|美国2|@ripaojiedian
+  name: 15,16|美国|@ripaojiedian
   network: ws
-  port: '46010'
-  server: 223.244.26.216
-  servername: ''
+  port: '443'
+  server: 172.234.88.187
+  servername: 172.234.88.187
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: c9bda0e7-4ffa-464f-84a0-41253180d04c
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
   ws-opts:
     headers:
-      Host: ''
-    path: /zh-cn
+      Host: 172.234.88.187
+    path: /KrAJKJQo
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇺🇸 美国3|@ripaojiedian
+  password: TEzjfAYq2IjtuoS
+  port: 6697
+  server: 23.157.40.85
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇺🇸 美国4|@ripaojiedian
+  password: pKEW8JPByTVTLtM
+  port: 443
+  server: 38.114.114.158
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇺🇸 美国5|@ripaojiedian
