@@ -728,8 +728,8 @@ proxies:
   name: 15,16|美国|@ripaojiedian
   network: ws
   port: '443'
-  server: 45.79.103.11
-  servername: 45.79.103.11
+  server: 50.116.1.158
+  servername: 50.116.1.158
   skip-cert-verify: false
   tfo: false
   tls: true
@@ -737,5 +737,15 @@ proxies:
   uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
   ws-opts:
     headers:
-      Host: 45.79.103.11
-    path: /GDeFfWLn
+      Host: 50.116.1.158
+    path: /LtteaUsf
+- alterId: 64
+  cipher: auto
+  name: 16|美国2|@ripaojiedian
+  network: tcp
+  port: '43526'
+  server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
