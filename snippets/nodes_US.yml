@@ -501,27 +501,25 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|美国|@ripaojiedian
+  name: 15,16|美国2|@ripaojiedian
   network: ws
   port: '443'
-  server: 66.175.217.126
-  servername: 66.175.217.126
+  server: ddd.zcr07.cloudns.biz
+  servername: ddd.zcr07.cloudns.biz
   skip-cert-verify: false
   tfo: false
   tls: true
   type: vmess
-  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  uuid: 62aa5f80-0328-4004-a375-7f5a59df4022
   ws-opts:
     headers:
-      Host: 66.175.217.126
-    path: /bFhFAWRF
-- alterId: 64
-  cipher: auto
-  name: 16|美国2|@ripaojiedian
-  network: tcp
-  port: '43526'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+      Host: ddd.zcr07.cloudns.biz
+    path: /hms19.best-tizi.top:443/linkws
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇺🇸 美国3|@ripaojiedian
+  password: 5cp9Z3iWnJZ2
+  port: 443
+  server: 205.134.180.150
+  tfo: false
+  type: ss
