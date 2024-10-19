@@ -1025,14 +1025,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|美国|@ripaojiedian
+  name: '11|美国 CloudFlare节点 #15'
   network: ws
   port: '2082'
   server: 104.19.58.175
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
@@ -1317,37 +1314,21 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 15|🇩🇪 德国|@ripaojiedian
-  password: '3690911436885991424'
+  password: '3648425794742788096'
   port: 43526
   server: 120.232.153.71
   skip-cert-verify: false
-  sni: winning-doe.sheepdog670.boats
+  sni: glad-boxer.opossum872.cfd
   tfo: false
   tls: false
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 509ca182-c182-410c-84a7-d22cafec8392
-  port: 11001
-  server: hk.bazhuayujiasu.cc
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
   name: 15|🇭🇰 香港3|@ripaojiedian
   password: 0143905a-7f2d-4f95-a2d6-9947d4017bcd
-  port: 39301
+  port: 36993
   server: hzhz1.sssyun.xyz
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: b1bfb546-0259-44f0-8c9a-8b8702618df9
-  port: 11001
-  server: 183.240.255.75
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1356,14 +1337,6 @@ proxies:
   password: hGkQ6915tD
   port: 16088
   server: 120.232.81.50
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇹🇼 台湾|@ripaojiedian
-  password: 0143905a-7f2d-4f95-a2d6-9947d4017bcd
-  port: 39201
-  server: hzhz1.sssyun.xyz
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1376,18 +1349,10 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
+  name: 15|🇰🇷 韩国|@ripaojiedian
   password: 0143905a-7f2d-4f95-a2d6-9947d4017bcd
-  port: 40015
+  port: 40016
   server: hzhz2.sssyun.xyz
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本4|@ripaojiedian
-  password: 9bfad321-59c2-42dc-be43-6985c6f84bba
-  port: 11001
-  server: 61.172.235.22
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -1400,18 +1365,18 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡3|@ripaojiedian
-  password: 88d31532-7497-452a-8f13-791f7f8bba6c
-  port: 11008
-  server: hk.bazhuayujiasu.cc
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: 0143905a-7f2d-4f95-a2d6-9947d4017bcd
+  port: 39204
+  server: hzhz1.sssyun.xyz
   tfo: false
   type: ss
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 13.229.212.209
+  name: 15|🇺🇸 美国|@ripaojiedian
+  password: 0143905a-7f2d-4f95-a2d6-9947d4017bcd
+  port: 39203
+  server: hzhz1.sssyun.xyz
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1419,7 +1384,7 @@ proxies:
   name: 15|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 35.89.80.84
+  server: 54.238.227.113
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1427,7 +1392,15 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.231.124.247
+  server: 52.192.45.11
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: amazonskr05
+  port: 443
+  server: 13.229.57.182
   tfo: false
   type: ss
 - cipher: aes-128-gcm
@@ -1446,6 +1419,24 @@ proxies:
   server: 120.232.81.50
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇻🇳 越南2|@ripaojiedian
+  password: 07c1e8da-045d-4814-a8f0-c60040fa3588
+  port: 31660
+  server: gdcub.yunnode.win
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '50021'
+  server: 50021.baidu-cdn.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f5e9155-2356-40be-8549-ee2f3e45fe36
 - alterId: 0
   cipher: auto
   name: 16|香港4|@ripaojiedian
