@@ -666,7 +666,7 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 64
   cipher: auto
-  name: 11,16|香港|@ripaojiedian
+  name: 11|14|香港|@ripaojiedian
   network: tcp
   port: '48009'
   server: 183.236.51.23
@@ -686,7 +686,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,16|香港3|@ripaojiedian
+  name: 11|14|香港3|@ripaojiedian
   network: tcp
   port: '17806'
   server: 38.147.189.182
@@ -868,6 +868,14 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: 895d48f1-eb49-41bc-8963-c12e407261cf
+  port: 12002
+  server: 58.254.183.32
+  tfo: false
+  type: ss
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -883,32 +891,24 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: 1a9abdcb-57de-4027-8d00-d00efbfc4888
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: a69ca599-2007-42b1-b69d-c0fc7b4e9ce7
   port: 11001
   server: 183.240.255.75
   tfo: false
   type: ss
 - cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
+  name: 15|🇭🇰 香港4|@ripaojiedian
   password: asd123456
   port: 8388
-  server: 154.197.98.64
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇹🇼 台湾|@ripaojiedian
-  password: 38798780-6d99-4896-8e3d-258e630c1265
-  port: 39201
-  server: hzhz1.sssyun.xyz
+  server: 103.36.90.195
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
-  password: 6cea1c5a-2145-46d2-a18c-039544f7717a
+  password: 13391662-0c19-44cd-a283-2aaa91d87254
   port: 11001
   server: 61.172.235.22
   tfo: false
@@ -929,14 +929,6 @@ proxies:
   server: 212.102.47.131
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇺🇸 美国2|@ripaojiedian
-  password: KixLvKzwjekG00rm
-  port: 8080
-  server: 142.202.49.119
-  tfo: false
-  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇺🇸 美国3|@ripaojiedian
@@ -950,7 +942,7 @@ proxies:
   name: 15|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.201.72.28
+  server: 3.35.137.32
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -958,7 +950,7 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 34.219.63.106
+  server: 44.243.225.84
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -966,6 +958,36 @@ proxies:
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.69.236.102
+  server: 13.125.51.118
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|日本3|@ripaojiedian
+  network: tcp
+  port: '20219'
+  server: 107.148.1.76
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: c9f5b2aa-d50c-48e0-fd7d-d4cdc325d905
+- alterId: 0
+  cipher: auto
+  name: 16|日本4|@ripaojiedian
+  network: tcp
+  port: '17763'
+  server: 45.159.50.245
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e6d7ed00-84fa-4c07-b106-28c757b0e6d9
+- alterId: 0
+  cipher: auto
+  name: 16|韩国3|@ripaojiedian
+  network: tcp
+  port: '13258'
+  server: 45.141.136.151
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6e5ecb6d-e763-4d16-b9c2-e7cc682a26da
