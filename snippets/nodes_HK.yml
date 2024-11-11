@@ -11,6 +11,16 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: 11,16|香港4|@ripaojiedian
+  network: tcp
+  port: '45840'
+  server: 103.224.80.100
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: daf8d2e7-d4e2-42d9-871f-6e287da72dd6
+- alterId: 0
+  cipher: auto
   name: 11,16|香港5|@ripaojiedian
   network: tcp
   port: '2902'
@@ -48,13 +58,3 @@ proxies:
   server: 120.241.45.50
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港4|@ripaojiedian
-  network: tcp
-  port: '45840'
-  server: 103.224.80.100
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: daf8d2e7-d4e2-42d9-871f-6e287da72dd6
