@@ -1,18 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|13,14|日本4|@ripaojiedian
-  network: ws
-  port: '33202'
-  server: yd2.ainivp.com
-  servername: yd2.ainivp.com
-  tls: true
+  name: 11,16|日本2|@ripaojiedian
+  network: tcp
+  port: '30178'
+  server: 45.159.51.88
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-opts:
-    headers:
-      Host: yd2.ainivp.com
-    path: /ray
+  uuid: a0dfa194-ce47-409f-b551-ff520181bfab
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -29,13 +25,3 @@ proxies:
   server: 3.38.209.2
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|日本2|@ripaojiedian
-  network: tcp
-  port: '30178'
-  server: 45.159.51.88
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a0dfa194-ce47-409f-b551-ff520181bfab
