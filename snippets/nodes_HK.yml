@@ -11,20 +11,10 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11|14|香港3|@ripaojiedian
+  name: 11,16|香港5|@ripaojiedian
   network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11|14|香港5|@ripaojiedian
-  network: tcp
-  port: '59952'
-  server: 183.236.48.158
+  port: '54882'
+  server: 183.236.48.163
   servername: ''
   tls: false
   type: vmess
@@ -35,6 +25,16 @@ proxies:
   network: tcp
   port: '58002'
   server: 120.232.153.27
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,16|香港7|@ripaojiedian
+  network: tcp
+  port: '30565'
+  server: 183.240.253.26
   servername: ''
   tls: false
   type: vmess
@@ -68,23 +68,3 @@ proxies:
   server: 58.63.250.61
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港5|@ripaojiedian
-  network: tcp
-  port: '54882'
-  server: 183.236.48.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 16|香港7|@ripaojiedian
-  network: tcp
-  port: '30565'
-  server: 183.240.253.26
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
