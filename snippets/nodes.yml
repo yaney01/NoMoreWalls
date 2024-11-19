@@ -528,20 +528,6 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|0|--22
-  network: ws
-  port: 2095
-  server: 172.64.166.22
-  servername: ip20.6016725.xyz
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
   name: '11|3,4,5|d*********g.com_0 #2'
   network: ws
   port: 8443
@@ -598,20 +584,10 @@ proxies:
     path: github.com/Alvin9999
 - alterId: 64
   cipher: auto
-  name: 11|14|香港2|@ripaojiedian
+  name: 11,16|香港3|@ripaojiedian
   network: tcp
-  port: '56601'
+  port: '53002'
   server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11|14|香港5|@ripaojiedian
-  network: tcp
-  port: '54882'
-  server: 183.236.48.163
   servername: ''
   tls: false
   type: vmess
@@ -638,28 +614,14 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|13,14|日本2|@ripaojiedian
-  network: ws
-  port: '33202'
-  server: yd2.ainivp.com
-  servername: yd2.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9204afcd-023e-781f-1abc-c12efccd1344
-  ws-opts:
-    headers:
-      Host: yd2.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: 11|14|韩国|@ripaojiedian
+  name: 11,16|韩国2|@ripaojiedian
   network: tcp
-  port: '36223'
-  server: 45.94.68.206
+  port: '34103'
+  server: 45.94.68.179
   servername: ''
   tls: false
   type: vmess
-  uuid: 1c327622-a059-4131-b9da-a457e9792a01
+  uuid: f083427f-9d8b-4863-b4a5-fc15255547d2
 - alterId: 64
   cipher: auto
   name: 11,16|新加坡2|@ripaojiedian
@@ -672,28 +634,21 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11|14|美国4|@ripaojiedian
-  network: tcp
-  port: '52112'
-  server: 183.236.51.23
+  client-fingerprint: chrome
+  name: 11,15,16|美国|@ripaojiedian
+  network: ws
+  port: '38007'
+  server: 142.4.108.140
   servername: ''
-  tls: false
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|13,14|英国|@ripaojiedian
-  network: ws
-  port: '2086'
-  server: cdn3.bpcdn.cc
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fbe5943b-58ad-4862-8af3-30e8b4f10dd0
   ws-opts:
     headers:
-      Host: ukh74wfshj2jg2jcsq.lovebaipiao.com
-    path: /
+      Host: ''
+    path: /path/081412110418
 - alterId: 0
   cipher: auto
   name: '11|16|d*********g.com_2 #3'
@@ -841,23 +796,6 @@ proxies:
   tls: false
   type: trojan
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|美国|@ripaojiedian
-  network: ws
-  port: '38007'
-  server: 142.4.108.140
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/081412110418
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
@@ -898,23 +836,3 @@ proxies:
   server: 46.17.40.57
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '53002'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 16|韩国2|@ripaojiedian
-  network: tcp
-  port: '34103'
-  server: 45.94.68.179
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f083427f-9d8b-4863-b4a5-fc15255547d2
