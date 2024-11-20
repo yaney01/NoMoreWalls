@@ -528,6 +528,20 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
+  name: 11|0|--45
+  network: ws
+  port: 443
+  server: 23.134.94.50
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: vk.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
   name: '11|3,4,5|d*********g.com_0 #2'
   network: ws
   port: 8443
@@ -592,6 +606,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港4|@ripaojiedian
+  network: tcp
+  port: '39949'
+  server: 185.207.155.123
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0899b23d-fbd2-42b8-8e48-b057cf45e24e
 - alterId: 64
   cipher: auto
   name: 11,16|香港6|@ripaojiedian
@@ -602,16 +626,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 11|14|香港7|@ripaojiedian
-  network: tcp
-  port: '30565'
-  server: 183.240.253.26
+  client-fingerprint: chrome
+  name: 11,15,16|台湾|@ripaojiedian
+  network: ws
+  port: '80'
+  server: twriyfjhhhh1.hfhfb.homes
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 2744bc46-8b19-40a5-9733-5bc819fa9553
+  ws-opts:
+    headers:
+      Host: app.dingtalk.com
+    path: /?ed
 - alterId: 0
   cipher: auto
   name: 11,16|韩国2|@ripaojiedian
@@ -624,28 +655,14 @@ proxies:
   uuid: f083427f-9d8b-4863-b4a5-fc15255547d2
 - alterId: 64
   cipher: auto
-  name: 11|14|新加坡2|@ripaojiedian
+  name: 11,16|美国|@ripaojiedian
   network: tcp
-  port: '40002'
-  server: 183.236.48.163
+  port: '52112'
+  server: 183.236.51.23
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11|13,14|美国|@ripaojiedian
-  network: ws
-  port: '38007'
-  server: 142.4.108.140
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: ''
-    path: /path/081412110418
 - alterId: 0
   cipher: auto
   name: '11|16|d*********g.com_2 #3'
@@ -801,23 +818,6 @@ proxies:
   server: 194.41.59.80
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|台湾|@ripaojiedian
-  network: ws
-  port: '80'
-  server: twriyfjhhhh1.hfhfb.homes
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2744bc46-8b19-40a5-9733-5bc819fa9553
-  ws-opts:
-    headers:
-      Host: app.dingtalk.com
-    path: /?ed
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇰🇷 韩国3|@ripaojiedian
@@ -866,23 +866,3 @@ proxies:
   server: 150.241.102.95
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港4|@ripaojiedian
-  network: tcp
-  port: '39949'
-  server: 185.207.155.123
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0899b23d-fbd2-42b8-8e48-b057cf45e24e
-- alterId: 64
-  cipher: auto
-  name: 16|美国|@ripaojiedian
-  network: tcp
-  port: '52112'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
