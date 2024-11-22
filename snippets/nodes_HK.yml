@@ -9,16 +9,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11|14|香港4|@ripaojiedian
+  name: 11,16|香港5|@ripaojiedian
   network: tcp
-  port: '35926'
-  server: 103.224.80.56
+  port: '58831'
+  server: 183.236.48.163
   servername: ''
   tls: false
   type: vmess
-  uuid: d3c1e9d2-4267-4fe6-a189-de4d641c6af9
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 11,16|香港6|@ripaojiedian
@@ -66,13 +66,3 @@ proxies:
   server: 4.api-catssr.catcloud.host
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港5|@ripaojiedian
-  network: tcp
-  port: '58831'
-  server: 183.236.48.163
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
