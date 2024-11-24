@@ -21,7 +21,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,16|香港6|@ripaojiedian
+  name: 11|14|香港6|@ripaojiedian
   network: tcp
   port: '58002'
   server: 120.232.153.27
@@ -32,37 +32,39 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇺🇸 美国3|@ripaojiedian
-  password: ad6e2bae-d580-4117-aa37-a8c111100740
-  port: 38692
-  server: 38.147.165.185
+  name: 15|🇬🇧 英国|@ripaojiedian
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 51.24.3.210
   skip-cert-verify: false
-  sni: cloudflare.node-ssl.cdn-alibaba.com
+  sni: trojan.burgerip.co.uk
   tfo: false
   tls: false
-  type: vmess
+  type: trojan
   uuid: decde5b9-cc9c-4622-9ee6-723378429f4e
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: URZYWLLW5LQAYR7X
-  port: 15010
-  server: 36.141.40.92
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: a93aa7ad-a2fd-41c7-a9f4-2ad622d7756d
+  port: 11001
+  server: 183.232.229.164
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港7|@ripaojiedian
-  password: Z1K84W4D8G5KO54J
-  port: 15011
-  server: 58.63.250.61
+  password: b9ff32d3-78bf-42a4-8673-61968a1a9545
+  port: 11001
+  server: 183.240.255.75
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港8|@ripaojiedian
-  password: BAIL27GTV8AIK2BC
-  port: 15012
-  server: 58.63.250.61
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港4|@ripaojiedian
+  network: tcp
+  port: '18271'
+  server: 38.147.188.139
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3ba5dca3-a24b-48f3-a571-60052ab43fef
