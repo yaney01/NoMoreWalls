@@ -528,17 +528,31 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|0|--26
+  name: 11|0|--35
+  network: ws
+  port: 443
+  server: 57.129.28.69
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: baradiha.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 11|0|--36
   network: ws
   port: 2095
-  server: 172.64.166.22
-  servername: ip20.6016725.xyz
+  server: 23.227.38.3
+  servername: c2.6016725.xyz
   tls: false
   type: vmess
   uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
   ws-opts:
     headers:
-      Host: ip20.6016725.xyz
+      Host: c2.6016725.xyz
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -626,20 +640,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 41386ba6-b0fe-4070-be67-a6384cf6beb5
-- alterId: 0
-  cipher: auto
-  name: 11|13,14|新加坡|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: go.daluquan.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 800e95d5-43f8-4988-a0d3-9ddcbb1de7f7
-  ws-opts:
-    headers:
-      Host: de-new01.daluquan.top
-    path: /
 - alterId: 64
   cipher: auto
   name: 11,16|美国2|@ripaojiedian
@@ -650,16 +650,36 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11|14|美国3|@ripaojiedian
+  name: 11,16|美国3|@ripaojiedian
   network: tcp
-  port: '38692'
-  server: 38.147.165.185
+  port: '58831'
+  server: 120.232.153.27
   servername: ''
   tls: false
   type: vmess
-  uuid: decde5b9-cc9c-4622-9ee6-723378429f4e
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,16|马来西亚|@ripaojiedian
+  network: tcp
+  port: '44342'
+  server: 110.42.38.185
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f57c973d-9475-4d25-87a3-be0a4482f0b3
+- alterId: 0
+  cipher: auto
+  name: 11,16|泰国|@ripaojiedian
+  network: tcp
+  port: '45851'
+  server: 110.42.36.15
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 414c79f7-1742-42f1-a7c6-1ccdbdd8e379
 - alterId: 0
   cipher: auto
   name: '11|16|d*********g.com_2 #3'
@@ -897,33 +917,3 @@ proxies:
   protocol-param: MTEyNTk4OnZjeTdxaQ
   server: 95b1cd85a0968ff2.cdn.jiashule.com
   type: ssr
-- alterId: 64
-  cipher: auto
-  name: 16|美国3|@ripaojiedian
-  network: tcp
-  port: '58831'
-  server: 120.232.153.27
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 16|马来西亚|@ripaojiedian
-  network: tcp
-  port: '44342'
-  server: 110.42.38.185
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f57c973d-9475-4d25-87a3-be0a4482f0b3
-- alterId: 0
-  cipher: auto
-  name: 16|泰国|@ripaojiedian
-  network: tcp
-  port: '45851'
-  server: 110.42.36.15
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 414c79f7-1742-42f1-a7c6-1ccdbdd8e379
