@@ -303,11 +303,20 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇺🇸 美国|@ripaojiedian
-  password: d3571b43-f940-410c-bf6b-f35d2db19a17
-  port: 31650
-  server: jsyd.yunnode.win
+  name: 15,16|美国|@ripaojiedian
+  network: ws
+  port: '80'
+  server: 170.114.45.53
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 3db2d115-1db9-457d-850f-818b73228f67
+  ws-opts:
+    headers:
+      Host: us1.849yht89w.jiesk4pdqcqjo16j.xyz
+    path: /
