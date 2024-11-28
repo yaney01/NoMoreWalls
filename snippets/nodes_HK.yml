@@ -19,6 +19,40 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|香港7|@ripaojiedian
+  network: ws
+  port: '16622'
+  server: m.cnmjin.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
+  ws-opts:
+    headers:
+      Host: 3fe454755ea98eaa00f870f7fa2990c7.mobgslb.tbcache.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|香港9|@ripaojiedian
+  network: ws
+  port: '2086'
+  server: cdn2.bpcdn.cc
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 3db2d115-1db9-457d-850f-818b73228f67
+  ws-opts:
+    headers:
+      Host: hkrg0nf30ik5piq1zr.lovebaipiao.com
+    path: /
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -40,23 +74,6 @@ proxies:
   server: 154.197.26.120
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|香港7|@ripaojiedian
-  network: ws
-  port: '16622'
-  server: m.cnmjin.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 1ba48a0e-af2e-45fb-9e15-2b2d4134657c
-  ws-opts:
-    headers:
-      Host: 3fe454755ea98eaa00f870f7fa2990c7.mobgslb.tbcache.com
-    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港8|@ripaojiedian
@@ -65,20 +82,3 @@ proxies:
   server: 111.29.57.108
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|香港9|@ripaojiedian
-  network: ws
-  port: '2086'
-  server: cdn2.bpcdn.cc
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 3db2d115-1db9-457d-850f-818b73228f67
-  ws-opts:
-    headers:
-      Host: hkrg0nf30ik5piq1zr.lovebaipiao.com
-    path: /
