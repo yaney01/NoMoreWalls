@@ -528,6 +528,19 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
+  name: 11|0|--33
+  network: ws
+  port: 2095
+  server: 172.64.99.22
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip12.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
   name: 11|5|d*********g.com_0
   network: ws
   port: 8443
@@ -582,16 +595,16 @@ proxies:
     headers:
       Host: http1.9290254.xyz
     path: github.com/Alvin9999
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 11|14|香港3|@ripaojiedian
+  name: 11,16|香港4|@ripaojiedian
   network: tcp
-  port: '53002'
-  server: 183.236.51.23
+  port: '18001'
+  server: cc3.douyin.com.gbnodex.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 7362aef8-0201-44a6-8cf2-5e50a3b6873b
 - alterId: 64
   cipher: auto
   name: 11,16|香港5|@ripaojiedian
@@ -602,58 +615,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|13,14|台湾|@ripaojiedian
-  network: ws
-  port: '443'
-  server: hk.xn--vpn-rw7eh25o.com
-  servername: hk.xn--vpn-rw7eh25o.com
-  tls: true
-  type: vmess
-  uuid: c9002485-0cfe-4617-86d3-0a9b959247a7
-  ws-opts:
-    headers:
-      Host: hk.xn--vpn-rw7eh25o.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|14|日本3|@ripaojiedian
-  network: tcp
-  port: '47118'
-  server: 45.159.51.28
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ea034172-f33d-4f2b-a4a7-c700ca773f7a
-- alterId: 0
-  cipher: auto
-  name: 11|13,14|美国|@ripaojiedian
-  network: ws
-  port: '2095'
-  server: 162.159.45.246
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: c3.6016725.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 11|13,14|美国3|@ripaojiedian
-  network: ws
-  port: '2086'
-  server: 162.159.45.219
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
-  ws-opts:
-    headers:
-      Host: p1.613055.xyz
-    path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   name: '11|16|d*********g.com_2 #1'
@@ -910,16 +871,6 @@ proxies:
   protocol-param: NzQ1OTI6bzRmYmVvcHNnY2Y
   server: 95b1cd85a0968ff2.cdn.jiashule.com
   type: ssr
-- alterId: 0
-  cipher: auto
-  name: 16|香港4|@ripaojiedian
-  network: tcp
-  port: '18001'
-  server: cc3.douyin.com.gbnodex.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7362aef8-0201-44a6-8cf2-5e50a3b6873b
 - cipher: rc4-md5
   name: 16|5pel5pysMnxAcmlwYW9qaWVkaWFu
   obfs: plain
