@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|14|台湾|@ripaojiedian
+  name: 11,16|台湾|@ripaojiedian
   network: tcp
-  port: '20016'
-  server: i.needss.top
+  port: '45077'
+  server: xdd.dashuai.cyou
   servername: ''
   tls: false
   type: vmess
-  uuid: b23172e2-eb36-4222-85ac-3d2f61651013
+  uuid: d574a472-d628-46cc-bcb7-ab85a6fe02bb
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇹🇼 台湾2|@ripaojiedian
@@ -17,13 +17,3 @@ proxies:
   server: soontw.soon.guru
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|台湾|@ripaojiedian
-  network: tcp
-  port: '45077'
-  server: xdd.dashuai.cyou
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d574a472-d628-46cc-bcb7-ab85a6fe02bb
