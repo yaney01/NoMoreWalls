@@ -528,34 +528,20 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|0|--24
+  name: 11|0|--26
   network: ws
   port: 443
-  server: 57.128.184.127
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  server: 69.50.93.90
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: baradiha.com
+      Host: 69.50.93.90
     path: /linkvws
 - alterId: 0
   cipher: auto
-  name: 11|0|--29
-  network: ws
-  port: 2082
-  server: 190.93.245.174
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 11|0|--35
+  name: 11|0|--52
   network: ws
   port: 443
   server: 38.91.106.227
@@ -567,35 +553,18 @@ proxies:
     headers:
       Host: megaan.homes
     path: /linkvws
-- alterId: 0
+- alterId: 1
   cipher: auto
   name: 11|0|--60
-  network: ws
-  port: 2082
-  server: 190.93.245.80
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 11|0|--71
-  network: ws
-  port: 443
-  server: irvideo.cfd
+  network: tcp
+  port: 21581
+  server: r17ld-g01.jp03-7d22-vm0.entry.fr0307a.art
   tls: true
   type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /linkws
+  uuid: a6374634-9d44-3a70-9bef-ffa21ea2bb32
 - alterId: 0
   cipher: auto
-  name: 11|0|--149
+  name: 11|0|--200
   network: ws
   port: 2082
   server: 190.93.245.103
@@ -692,16 +661,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|14|香港9|@ripaojiedian
-  network: tcp
-  port: '47292'
-  server: 149.104.15.77
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 733eb24f-6e5f-4a1e-9f19-52ddca78aa20
 - alterId: 64
   cipher: auto
   name: 11,16|美国2|@ripaojiedian
