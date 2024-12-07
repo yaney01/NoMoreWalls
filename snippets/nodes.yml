@@ -528,56 +528,26 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|0|--75
-  network: ws
-  port: 2095
-  server: 172.64.166.33
+  name: 11|0|--36
+  network: tcp
+  port: 18000
+  server: 79.127.229.54
   tls: false
   type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip12.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 11|0|--77
-  network: ws
-  port: 2095
-  server: 172.64.166.8
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip12.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 11|0|--95
-  network: ws
-  port: 2095
-  server: 172.64.175.88
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip9.6016725.xyz
-    path: /github.com/Alvin9999
+  uuid: fa1897db-1925-4c86-a495-939a959af900
 - alterId: 0
   cipher: auto
   name: 11|5|d*********g.com_0
   network: ws
   port: 8443
   server: 104.21.238.200
-  servername: http1.9290254.xyz
+  servername: http3.9290254.xyz
   tls: true
   type: vmess
   uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
   ws-opts:
     headers:
-      Host: http1.9290254.xyz
+      Host: http3.9290254.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -585,13 +555,13 @@ proxies:
   network: ws
   port: 8443
   server: 104.21.238.201
-  servername: http1.9290254.xyz
+  servername: http3.9290254.xyz
   tls: true
   type: vmess
   uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
   ws-opts:
     headers:
-      Host: http1.9290254.xyz
+      Host: http3.9290254.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -599,13 +569,13 @@ proxies:
   network: ws
   port: 8443
   server: 104.21.238.202
-  servername: http1.9290254.xyz
+  servername: http3.9290254.xyz
   tls: true
   type: vmess
   uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
   ws-opts:
     headers:
-      Host: http1.9290254.xyz
+      Host: http3.9290254.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -613,13 +583,13 @@ proxies:
   network: ws
   port: 8443
   server: 104.21.238.203
-  servername: http1.9290254.xyz
+  servername: http3.9290254.xyz
   tls: true
   type: vmess
   uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
   ws-opts:
     headers:
-      Host: http1.9290254.xyz
+      Host: http3.9290254.xyz
     path: github.com/Alvin9999
 - alterId: 64
   cipher: auto
