@@ -528,10 +528,10 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|0|--27
+  name: 11|0|--57
   network: ws
   port: 2082
-  server: 190.93.245.103
+  server: 190.93.245.174
   tls: false
   type: vmess
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
@@ -539,32 +539,6 @@ proxies:
     headers:
       Host: ip18.6929198.xyz
     path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 11|0|--28
-  network: ws
-  port: 2082
-  server: 190.93.245.80
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  name: 11|0|--30
-  network: ws
-  port: 443
-  server: irvideo.cfd
-  tls: true
-  type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /linkws
 - alterId: 64
   cipher: auto
   name: 11,16|香港3|@ripaojiedian
@@ -595,20 +569,26 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11|13,14|美国2|@ripaojiedian
-  network: ws
-  port: '80'
-  server: 170.114.45.51
+  name: 11,16|香港9|@ripaojiedian
+  network: tcp
+  port: '50052'
+  server: 183.236.48.158
   servername: ''
   tls: false
   type: vmess
-  uuid: 8471e1f6-cfa0-4561-a83e-311253b01130
-  ws-opts:
-    headers:
-      Host: us1.849yht89w.jiesk4pdqcqjo16j.xyz
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,16|台湾2|@ripaojiedian
+  network: tcp
+  port: '62506'
+  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
 - alterId: 0
   cipher: auto
   name: 11|16|d*********g.com_2
@@ -875,23 +855,3 @@ proxies:
   server: gdgs.tarioblink.me
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港9|@ripaojiedian
-  network: tcp
-  port: '50052'
-  server: 183.236.48.158
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 16|台湾2|@ripaojiedian
-  network: tcp
-  port: '62506'
-  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
