@@ -528,36 +528,37 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|0|--28
+  name: 11|0|--35
   network: ws
-  port: 2082
-  server: 190.93.245.80
-  tls: false
+  port: 443
+  server: irvideo.cfd
+  tls: true
   type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
   ws-opts:
     headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
+      Host: irvideo.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
-  name: 11|0|--30
+  name: 11|0|--56
   network: ws
-  port: 2082
-  server: 190.93.245.103
-  tls: false
+  port: 443
+  server: 38.75.137.21
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: true
   type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
     headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
+      Host: harriscity.com
+    path: /linkvws
 - alterId: 64
   cipher: auto
-  name: 11|14|香港3|@ripaojiedian
+  name: 11,16|香港3|@ripaojiedian
   network: tcp
-  port: '35601'
-  server: 120.198.71.216
+  port: '50052'
+  server: 183.236.48.158
   servername: ''
   tls: false
   type: vmess
@@ -584,24 +585,31 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,16|香港3|@ripaojiedian
+  name: 11,16|香港9|@ripaojiedian
   network: tcp
-  port: '50052'
-  server: 183.236.48.158
+  port: '41490'
+  server: 183.236.48.143
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11|14|台湾2|@ripaojiedian
-  network: tcp
-  port: '62506'
-  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
+  client-fingerprint: chrome
+  name: 11,15,16|韩国|@ripaojiedian
+  network: ws
+  port: '30000'
+  server: 107.167.30.126
+  servername: www.83645422.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vmess
-  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  uuid: 57f93e92-ebb9-4f16-9bdc-8225d2010995
+  ws-opts:
+    headers:
+      Host: www.83645422.xyz
+    path: /path/240811062813
 - alterId: 0
   cipher: auto
   name: 11|16|d*********g.com_2
@@ -804,23 +812,6 @@ proxies:
   server: j-p04.loveroise.com
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|韩国|@ripaojiedian
-  network: ws
-  port: '30000'
-  server: 107.167.30.126
-  servername: www.83645422.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 57f93e92-ebb9-4f16-9bdc-8225d2010995
-  ws-opts:
-    headers:
-      Host: www.83645422.xyz
-    path: /path/240811062813
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇺🇸 美国2|@ripaojiedian
@@ -853,13 +844,3 @@ proxies:
   server: 13.213.67.37
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港9|@ripaojiedian
-  network: tcp
-  port: '41490'
-  server: 183.236.48.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
