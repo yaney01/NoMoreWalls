@@ -554,7 +554,7 @@ proxies:
     path: /github.com/Alvin9999
 - alterId: 64
   cipher: auto
-  name: 11,16|香港3|@ripaojiedian
+  name: 11|14|香港3|@ripaojiedian
   network: tcp
   port: '35601'
   server: 120.198.71.216
@@ -584,7 +584,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,16|香港9|@ripaojiedian
+  name: 11,16|香港3|@ripaojiedian
   network: tcp
   port: '50052'
   server: 183.236.48.158
@@ -594,7 +594,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,16|台湾2|@ripaojiedian
+  name: 11|14|台湾2|@ripaojiedian
   network: tcp
   port: '62506'
   server: fiwejniavzoj.xn--fiqs8sjz2bull.com
@@ -741,7 +741,7 @@ proxies:
   server: hk9.ftq.ink
   tls: true
   type: http
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 15|🇻🇳 越南|@ripaojiedian
@@ -753,7 +753,7 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港4|@ripaojiedian
@@ -804,30 +804,23 @@ proxies:
   server: j-p04.loveroise.com
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 64
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇰🇷 韩国3|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54012
-  server: k-r03.loveroise.com
+  name: 15,16|韩国|@ripaojiedian
+  network: ws
+  port: '30000'
+  server: 107.167.30.126
+  servername: www.83645422.xyz
+  skip-cert-verify: false
   tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇰🇷 韩国|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54008
-  server: k-r01.loveroise.com
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: 09833a6f-4d46-426e-87fe-7793a5489f84
-  port: 54030
-  server: s-g04.loveroise.com
-  tfo: false
-  type: ss
+  tls: true
+  type: vmess
+  uuid: 57f93e92-ebb9-4f16-9bdc-8225d2010995
+  ws-opts:
+    headers:
+      Host: www.83645422.xyz
+    path: /path/240811062813
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇺🇸 美国2|@ripaojiedian
@@ -836,12 +829,12 @@ proxies:
   server: 104.192.225.138
   tfo: false
   type: ss
-- cipher: aes-256-cfb
+- cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: 15|🇰🇷 韩国特殊|@ripaojiedian
-  password: amazonskr05
-  port: 443
-  server: 43.201.31.40
+  name: 15|🇺🇸 美国3|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 137.175.113.215
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -849,7 +842,7 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.193.184.18
+  server: 43.201.31.40
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -860,11 +853,13 @@ proxies:
   server: 13.213.67.37
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇮🇳 印度|@ripaojiedian
-  password: 220401d9-d4bf-444e-a140-d6c650948e74
-  port: 30003
-  server: gdgs.tarioblink.me
-  tfo: false
-  type: ss
+- alterId: 64
+  cipher: auto
+  name: 16|香港9|@ripaojiedian
+  network: tcp
+  port: '41490'
+  server: 183.236.48.143
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
