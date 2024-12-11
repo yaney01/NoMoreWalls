@@ -574,7 +574,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,16|香港9|@ripaojiedian
+  name: 11|14|香港9|@ripaojiedian
   network: tcp
   port: '41490'
   server: 183.236.48.143
@@ -585,9 +585,9 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15,16|美国2|@ripaojiedian
+  name: 11,15|🇺🇸 美国2|@ripaojiedian
   network: ws
-  port: '10001'
+  port: 10001
   server: us.569520.xyz
   servername: us.569520.xyz
   skip-cert-verify: false
@@ -865,3 +865,43 @@ proxies:
   server: 13.124.228.227
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港3|@ripaojiedian
+  network: tcp
+  port: '39041'
+  server: hk1.tiljkc.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0d849bb5-8663-3958-ae0a-9918d4a95b5e
+- alterId: 0
+  cipher: auto
+  name: 16|日本4|@ripaojiedian
+  network: tcp
+  port: '38951'
+  server: jp1.tiljkc.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0d849bb5-8663-3958-ae0a-9918d4a95b5e
+- alterId: 0
+  cipher: auto
+  name: 16|新加坡2|@ripaojiedian
+  network: tcp
+  port: '34843'
+  server: sgp1.tiljkc.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0d849bb5-8663-3958-ae0a-9918d4a95b5e
+- alterId: 0
+  cipher: auto
+  name: 16|美国2|@ripaojiedian
+  network: tcp
+  port: '46051'
+  server: us1.tiljkc.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0d849bb5-8663-3958-ae0a-9918d4a95b5e
