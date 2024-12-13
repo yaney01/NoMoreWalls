@@ -1,12 +1,22 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|14|香港3|@ripaojiedian
-  network: tcp
-  port: '39041'
+  client-fingerprint: chrome
+  http-opts:
+    headers:
+      Host:
+      - urydh.ljricbrd.top
+    method: GET
+    path:
+    - /ljyed
+  name: 11,15,16|香港3|@ripaojiedian
+  network: http
+  port: '41002'
   server: hk1.tiljkc.top
-  servername: ''
-  tls: false
+  servername: urydh.ljricbrd.top
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vmess
   uuid: edd1ca31-bdf4-377e-bc3a-76635a33c9cd
 - alterId: 64
@@ -31,26 +41,6 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: edd1ca31-bdf4-377e-bc3a-76635a33c9cd
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  http-opts:
-    headers:
-      Host:
-      - urydh.ljricbrd.top
-    method: GET
-    path:
-    - /ljyed
-  name: 15,16|香港3|@ripaojiedian
-  network: http
-  port: '41002'
-  server: hk1.tiljkc.top
-  servername: urydh.ljricbrd.top
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
   uuid: edd1ca31-bdf4-377e-bc3a-76635a33c9cd
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
