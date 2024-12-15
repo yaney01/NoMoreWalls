@@ -528,12 +528,22 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|13,14|香港6|@ripaojiedian
-  network: http
-  port: '41001'
+  name: 11|0|--20
+  network: tcp
+  port: 64016
+  server: in06.my1188.org
+  servername: us01.wechat-cdn-us01.one
+  tls: false
+  type: vmess
+  uuid: fe0346d9-a972-3d8a-bac7-310604fa108f
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港6|@ripaojiedian
+  network: tcp
+  port: '39041'
   server: hk1.tiljkc.top
-  servername: urydh.ljricbrd.top
-  tls: true
+  servername: ''
+  tls: false
   type: vmess
   uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0
 - alterId: 64
@@ -548,28 +558,24 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|13,14|日本2|@ripaojiedian
-  network: http
-  port: '53892'
-  server: jp1.tiljkc.top
-  servername: urydh.ljricbrd.top
+  name: 11,16|台湾2|@ripaojiedian
+  network: tcp
+  port: '40380'
+  server: zfa04.333210.xyz
+  servername: ''
   tls: true
   type: vmess
-  uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0
+  uuid: 13364789-a8b2-4bcd-8df7-a794fb6f87e5
 - alterId: 0
   cipher: auto
-  name: 11|13,14|日本3|@ripaojiedian
-  network: ws
-  port: '2086'
-  server: cdn1.bpcdn.cc
+  name: 11,16|日本3|@ripaojiedian
+  network: tcp
+  port: '38953'
+  server: jp1.tiljkc.top
   servername: ''
   tls: false
   type: vmess
-  uuid: b2295415-b953-4959-8be0-88b358111e95
-  ws-opts:
-    headers:
-      Host: jpjhve0r3125kg1xmz.lovebaipiao.com
-    path: /
+  uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -589,12 +595,12 @@ proxies:
     path: /bby
 - alterId: 0
   cipher: auto
-  name: 11|13,14|新加坡2|@ripaojiedian
-  network: http
-  port: '21005'
+  name: 11,16|新加坡4|@ripaojiedian
+  network: tcp
+  port: '34843'
   server: sg1.tiljkc.top
-  servername: urydh.ljricbrd.top
-  tls: true
+  servername: ''
+  tls: false
   type: vmess
   uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0
 - alterId: 0
@@ -876,43 +882,3 @@ proxies:
   server: 43.207.81.209
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港6|@ripaojiedian
-  network: tcp
-  port: '39041'
-  server: hk1.tiljkc.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0
-- alterId: 0
-  cipher: auto
-  name: 16|台湾2|@ripaojiedian
-  network: tcp
-  port: '40380'
-  server: zfa04.333210.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 13364789-a8b2-4bcd-8df7-a794fb6f87e5
-- alterId: 0
-  cipher: auto
-  name: 16|日本3|@ripaojiedian
-  network: tcp
-  port: '38953'
-  server: jp1.tiljkc.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0
-- alterId: 0
-  cipher: auto
-  name: 16|新加坡4|@ripaojiedian
-  network: tcp
-  port: '34843'
-  server: sg1.tiljkc.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8995f5b8-6ad5-3c29-836f-ec8baa292ba0
