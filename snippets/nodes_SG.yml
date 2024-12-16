@@ -7,20 +7,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|13,14|新加坡|@ripaojiedian
-  network: ws
-  port: '40000'
-  server: ml01.333210.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 13364789-a8b2-4bcd-8df7-a794fb6f87e5
-  ws-opts:
-    headers:
-      Host: down.dingtalk.com
-    path: /bby
-- alterId: 0
-  cipher: auto
   name: 11,16|新加坡|@ripaojiedian
   network: tcp
   port: '34843'
