@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|14|日本3|@ripaojiedian
+  name: 11,16|日本2|@ripaojiedian
   network: tcp
-  port: '38953'
+  port: '38951'
   server: jp1.tiljkc.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 92dae006-a1bd-3eea-837e-64c8d09ab291
+  uuid: d1063964-2b13-372c-9b45-28f356e844aa
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本5|@ripaojiedian
@@ -25,13 +25,3 @@ proxies:
   server: 54.180.229.222
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|日本2|@ripaojiedian
-  network: tcp
-  port: '38951'
-  server: jp1.tiljkc.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d1063964-2b13-372c-9b45-28f356e844aa
