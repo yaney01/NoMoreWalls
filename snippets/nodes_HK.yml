@@ -21,6 +21,23 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|香港6|@ripaojiedian
+  network: ws
+  port: '30000'
+  server: 170.178.186.12
+  servername: www.59477189.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.59477189.xyz
+    path: /path/240811062813
+- alterId: 64
+  cipher: auto
   name: 11,16|香港7|@ripaojiedian
   network: tcp
   port: '46602'
@@ -60,20 +77,3 @@ proxies:
   server: db59a98b.b8z9y9a5g9-fb-hk18.6pzfwf.com
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|香港6|@ripaojiedian
-  network: ws
-  port: '30000'
-  server: 170.178.186.12
-  servername: www.59477189.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.59477189.xyz
-    path: /path/240811062813
