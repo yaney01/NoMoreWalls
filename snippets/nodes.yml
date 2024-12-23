@@ -526,34 +526,16 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11|0|--51
-  network: ws
-  port: 8443
-  server: 172.67.133.78
-  servername: lax2.ibgfw.top
-  tls: true
-  type: vmess
-  uuid: e88b85c6-93b4-47f6-b3fb-2c55dcb1289f
-  ws-opts:
-    headers:
-      Host: lax2.ibgfw.top
-    path: /dyajvws
-- alterId: 0
-  cipher: auto
-  name: 11|13,14|香港3|@ripaojiedian
-  network: ws
-  port: '51201'
-  server: b.naiun.node-is.green
+  name: 11,16|香港3|@ripaojiedian
+  network: tcp
+  port: '52908'
+  server: 120.234.102.229
   servername: ''
   tls: false
   type: vmess
-  uuid: 2d570475-a7a6-4242-b733-d5300305b615
-  ws-opts:
-    headers:
-      Host: live.bilibili.com
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 11,16|香港4|@ripaojiedian
@@ -586,14 +568,24 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|14|新加坡2|@ripaojiedian
+  name: 11,16|台湾|@ripaojiedian
   network: tcp
-  port: '50792'
-  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
+  port: '62506'
+  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 99266723-0802-4ef4-9d6c-4dc84c2ffa08
+  uuid: ea695d03-e64c-4be0-a8ea-6346e286ef60
+- alterId: 0
+  cipher: auto
+  name: 11,16|韩国|@ripaojiedian
+  network: tcp
+  port: '35384'
+  server: 45.94.68.206
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b3e95701-dbd0-4a2f-a701-6ec815fb5ad2
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -825,33 +817,3 @@ proxies:
   server: 146.70.61.18
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '52908'
-  server: 120.234.102.229
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 16|台湾|@ripaojiedian
-  network: tcp
-  port: '62506'
-  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ea695d03-e64c-4be0-a8ea-6346e286ef60
-- alterId: 0
-  cipher: auto
-  name: 16|韩国|@ripaojiedian
-  network: tcp
-  port: '35384'
-  server: 45.94.68.206
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b3e95701-dbd0-4a2f-a701-6ec815fb5ad2
