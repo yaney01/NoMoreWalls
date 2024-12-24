@@ -528,7 +528,7 @@ proxies:
   ws-opts: {}
 - alterId: 64
   cipher: auto
-  name: 11|0|--32
+  name: 11|0|--27
   network: ws
   port: 30000
   server: 107.167.30.126
@@ -540,30 +540,6 @@ proxies:
     headers:
       Host: www.83645422.xyz
     path: /path/240811062813
-- alterId: 0
-  cipher: auto
-  name: 11|0|--35
-  network: ws
-  port: 16712
-  server: 195.58.49.42
-  tls: false
-  type: vmess
-  uuid: 1ded1ec9-7557-4c15-aaac-758bedea64fd
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|0|--40
-  network: ws
-  port: 8049
-  server: us.aik.mom
-  tls: false
-  type: vmess
-  uuid: 15486dcc-f6e5-411b-acac-d1409375585a
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /wada12222
 - alterId: 64
   cipher: auto
   name: 11,16|香港3|@ripaojiedian
