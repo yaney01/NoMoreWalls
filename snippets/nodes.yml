@@ -604,7 +604,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,16|台湾|@ripaojiedian
+  name: 11|14|台湾|@ripaojiedian
   network: tcp
   port: '62506'
   server: fiwejniavzoj.xn--fiqs8sjz2bull.com
@@ -614,7 +614,7 @@ proxies:
   uuid: d679491f-583d-462e-a986-fad497702581
 - alterId: 0
   cipher: auto
-  name: 11,16|韩国|@ripaojiedian
+  name: 11|14|韩国|@ripaojiedian
   network: tcp
   port: '35384'
   server: 45.94.68.206
@@ -624,7 +624,7 @@ proxies:
   uuid: b3e95701-dbd0-4a2f-a701-6ec815fb5ad2
 - alterId: 0
   cipher: auto
-  name: 11,16|新加坡|@ripaojiedian
+  name: 11|14|新加坡|@ripaojiedian
   network: tcp
   port: '16919'
   server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
@@ -634,7 +634,7 @@ proxies:
   uuid: d679491f-583d-462e-a986-fad497702581
 - alterId: 0
   cipher: auto
-  name: 11,16|新加坡2|@ripaojiedian
+  name: 11|14|新加坡2|@ripaojiedian
   network: tcp
   port: '34842'
   server: sggp1.pfdsddla.com
@@ -808,7 +808,28 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: caf3f833-6973-3460-a4c7-ede4f574814c
+  uuid: 84d83b7e-d390-3aee-901b-257a3a2fe79d
+- client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  network: ws
+  password: TGCitizenScyu
+  port: 443
+  server: cf.zhetengsha.eu.org
+  skip-cert-verify: false
+  sni: maikeaxiang.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: maikeaxiang.me
+    path: /?ed=2560
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇹🇼 台湾|@ripaojiedian
+  password: uoXctIQ4L89ykUZwn17Pn3CzNDNcZSRabCgN5hyNV7JQ
+  port: 36918
+  server: tw.ssrxray.click
+  tfo: false
+  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -817,12 +838,42 @@ proxies:
   server: 149.22.87.204
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|新加坡|@ripaojiedian
+  network: ws
+  port: '80'
+  server: www.aetv.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
+  ws-opts:
+    headers:
+      Host: amd.al
+    path: /?ed=2048
+- client-fingerprint: chrome
+  name: 15|🇺🇸 美国2|@ripaojiedian
+  network: ws
+  password: TGCitizenScyu
+  port: 2087
+  server: www.visa.com.hk
+  skip-cert-verify: false
+  sni: maikeaxiang.me
+  type: trojan
+  ws-opts:
+    headers:
+      Host: maikeaxiang.me
+    path: /?ed=2560
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.194.212.235
+  server: 13.112.235.194
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -830,7 +881,7 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.231.232.249
+  server: 52.79.248.193
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -838,7 +889,7 @@ proxies:
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.178.191.236
+  server: 3.35.206.24
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -849,3 +900,30 @@ proxies:
   server: 146.70.61.18
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|法国|@ripaojiedian
+  network: ws
+  port: '443'
+  server: primer.ibilibi.li
+  servername: ameblo.jp
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: e5852393-ca52-4c90-a237-d63cbbb57f21
+  ws-opts:
+    headers:
+      Host: loki.oracle
+    path: /farcry?ed=2560
+- alterId: 0
+  cipher: auto
+  name: 16|日本2|@ripaojiedian
+  network: tcp
+  port: '38953'
+  server: jpp1.pfdsddla.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 84d83b7e-d390-3aee-901b-257a3a2fe79d
