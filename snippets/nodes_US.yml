@@ -318,16 +318,20 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- client-fingerprint: chrome
-  name: 15|🇺🇸 美国2|@ripaojiedian
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: '15,16|美国|@ripaojiedian #1'
   network: ws
-  password: TGCitizenScyu
-  port: 2087
-  server: www.visa.com.hk
+  port: '10004'
+  server: 45.154.207.99
+  servername: ''
   skip-cert-verify: false
-  sni: maikeaxiang.me
-  type: trojan
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 0084b5d0-8966-4398-87f8-d5d8b64aa356
   ws-opts:
     headers:
-      Host: maikeaxiang.me
-    path: /?ed=2560
+      Host: ''
+    path: github.com/Alvin9999
