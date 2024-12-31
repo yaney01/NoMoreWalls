@@ -29,16 +29,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11|14|香港7|@ripaojiedian
-  network: tcp
-  port: '46602'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 11,16|香港8|@ripaojiedian
@@ -49,6 +39,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港9|@ripaojiedian
+  network: tcp
+  port: '50023'
+  server: 50023.baidu-cdn.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: fa2c4c94-b477-4809-9db8-3db03ef06202
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -70,13 +70,3 @@ proxies:
   server: xm.miloli.cc
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港9|@ripaojiedian
-  network: tcp
-  port: '50023'
-  server: 50023.baidu-cdn.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: fa2c4c94-b477-4809-9db8-3db03ef06202
