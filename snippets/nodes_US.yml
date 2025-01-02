@@ -303,3 +303,21 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇺🇸 美国2|@ripaojiedian
+  password: 2UrSffeNABXGXXfNhoL6xBUnh1RzqMizrQ2s9QfC38P2YPuYPRTqW5zZg6jGisiNhkzM4SRjF6nzvFb18GPtESWoXWjhqyC8
+  port: 46902
+  server: 198.105.123.190
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: chacha20-poly1305
+  name: 16|美国|@ripaojiedian
+  network: tcp
+  port: '8080'
+  server: 185.168.195.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 02788b47-d952-55e0-98de-d743d01bd007
