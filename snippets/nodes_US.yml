@@ -236,6 +236,16 @@ proxies:
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
 - alterId: 0
+  cipher: chacha20-poly1305
+  name: 11,16|美国|@ripaojiedian
+  network: tcp
+  port: '8080'
+  server: 185.168.195.211
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 02788b47-d952-55e0-98de-d743d01bd007
+- alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
   network: ws
@@ -311,13 +321,3 @@ proxies:
   server: 198.105.123.190
   tfo: false
   type: ss
-- alterId: 0
-  cipher: chacha20-poly1305
-  name: 16|美国|@ripaojiedian
-  network: tcp
-  port: '8080'
-  server: 185.168.195.211
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 02788b47-d952-55e0-98de-d743d01bd007
