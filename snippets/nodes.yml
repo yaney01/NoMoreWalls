@@ -528,30 +528,18 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|0|--97
+  name: 11|0|--83
   network: ws
   port: 443
-  server: irvideo.cfd
+  server: sg25.jnstore.biz.id
+  servername: sg25.jnstore.biz.id
   tls: true
   type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
+  uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
   ws-opts:
     headers:
-      Host: irvideo.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  name: 11|0|--101
-  network: ws
-  port: 443
-  server: obdii.cfd
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
+      Host: sg25.jnstore.biz.id
+    path: /vmess
 - alterId: 64
   cipher: auto
   name: 11,16|香港3|@ripaojiedian
@@ -594,28 +582,20 @@ proxies:
   uuid: 3a907956-f668-4e6b-ea03-0949f0c9c0a5
 - alterId: 0
   cipher: auto
-  name: 11|13,14|新加坡|@ripaojiedian
+  name: 11,15,16|新加坡3|@ripaojiedian
   network: ws
-  port: '80'
-  server: www.aetv.com
+  port: '16618'
+  server: yes.mojcn.com
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: beb7d098-48ba-4be8-a47a-758bf3c470b8
+  uuid: 5586eb05-1e5c-4b27-a276-86311547b95e
   ws-opts:
     headers:
-      Host: amd.al
-    path: /?ed=2048
-- alterId: 0
-  cipher: chacha20-poly1305
-  name: 11|14|美国|@ripaojiedian
-  network: tcp
-  port: '8080'
-  server: 185.168.195.211
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 02788b47-d952-55e0-98de-d743d01bd007
+      Host: ffd09e29d76243d0d6b0b7e5cb077bb0.mobgslb.tbcache.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,15,16|法国|@ripaojiedian
@@ -839,22 +819,6 @@ proxies:
   server: 154.196.244.16
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 15,16|新加坡3|@ripaojiedian
-  network: ws
-  port: '16618'
-  server: yes.mojcn.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5586eb05-1e5c-4b27-a276-86311547b95e
-  ws-opts:
-    headers:
-      Host: ffd09e29d76243d0d6b0b7e5cb077bb0.mobgslb.tbcache.com
-    path: /
 - cipher: aes-128-gcm
   name: 15|🇺🇸 美国|@ripaojiedian
   password: 9d29e58723af34cad8da
