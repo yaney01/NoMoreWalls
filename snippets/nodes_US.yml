@@ -237,7 +237,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: chacha20-poly1305
-  name: 11,16|美国|@ripaojiedian
+  name: 11|14|美国|@ripaojiedian
   network: tcp
   port: '8080'
   server: 185.168.195.211
@@ -313,11 +313,14 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇺🇸 美国2|@ripaojiedian
-  password: 2UrSffeNABXGXXfNhoL6xBUnh1RzqMizrQ2s9QfC38P2YPuYPRTqW5zZg6jGisiNhkzM4SRjF6nzvFb18GPtESWoXWjhqyC8
-  port: 46902
-  server: 198.105.123.190
+- cipher: aes-128-gcm
+  name: 15|🇺🇸 美国|@ripaojiedian
+  password: 9d29e58723af34cad8da
+  plugin: obfs
+  plugin-opts:
+    host: 215996dd9f1c3db1e54b.microsoft.com
+    mode: http
+  port: 45909
+  server: console.02.aliyun.aq.kunlunaqs.com
   tfo: false
   type: ss
