@@ -581,14 +581,11 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|法国|@ripaojiedian
+  name: 11|13,14|法国|@ripaojiedian
   network: ws
   port: '443'
   server: primer.ibilibi.li
   servername: ameblo.jp
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: e5852393-ca52-4c90-a237-d63cbbb57f21
@@ -748,6 +745,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: qwerREWQ@@
+  port: 4231
+  server: 112.213.102.228
+  tfo: false
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港8|@ripaojiedian
@@ -762,14 +767,6 @@ proxies:
   password: Y4JZ69NZ4IMSVWMC
   port: 15011
   server: qh62onjn.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇹🇼 台湾2|@ripaojiedian
-  password: 3730d507-4825-4eca-ab8a-4c9ebd4bc3e6
-  port: 28995
-  server: gzyd3.piaomiaoxu.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -798,6 +795,14 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡4|@ripaojiedian
+  password: DNYXV60QG2Q7I15T
+  port: 16009
+  server: 8tv68qhq.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
   name: 15|🇺🇸 美国2|@ripaojiedian
   password: IY8P2O7XIQZVL9JE
   port: 17001
@@ -809,7 +814,7 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.151.212.176
+  server: 54.254.26.119
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -817,7 +822,7 @@ proxies:
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.179.78.99
+  server: 13.250.107.170
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -825,6 +830,16 @@ proxies:
   name: 15|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.195.214.124
+  server: 3.0.103.234
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|台湾2|@ripaojiedian
+  network: tcp
+  port: '47436'
+  server: 103.224.80.116
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 37069024-80fb-43ef-9ef2-b37a010a48e8
