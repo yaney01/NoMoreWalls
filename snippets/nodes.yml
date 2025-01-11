@@ -528,34 +528,30 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|0|--47
+  name: 11|0|--43
   network: ws
   port: 443
-  server: 57.129.24.124
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  server: 57.129.24.141
   tls: true
   type: vmess
   uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   ws-opts:
-    headers:
-      Host: aveiror.com
     path: /linkvws
+- alterId: 64
+  cipher: auto
+  name: 11|0|--50
+  network: tcp
+  port: 49020
+  server: 193.29.107.234
+  tls: false
+  type: vmess
+  uuid: 2e967dd5-8d24-4099-a901-412dcb4024fd
 - alterId: 64
   cipher: auto
   name: 11,16|香港3|@ripaojiedian
   network: tcp
   port: '52908'
   server: 120.234.102.229
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11|14|香港4|@ripaojiedian
-  network: tcp
-  port: '34493'
-  server: 120.198.71.214
   servername: ''
   tls: false
   type: vmess
@@ -570,70 +566,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|13|🇯🇵 日本3|@ripaojiedian
-  network: ws
-  port: 443
-  server: tky1.sdwan.day
-  tls: true
-  type: vmess
-  uuid: fade2b35-7872-442e-a54e-6ccf9b970476
-  ws-opts:
-    headers:
-      Host: tky1.sdwan.day
-    path: /name
-- alterId: 64
-  cipher: auto
-  name: 11|14|美国|@ripaojiedian
-  network: tcp
-  port: '52112'
-  server: 183.236.51.23
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|13|🇺🇸 美国3|@ripaojiedian
-  network: ws
-  port: 4431
-  server: jp4.sdwan.day
-  tls: true
-  type: vmess
-  uuid: fade2b35-7872-442e-a54e-6ccf9b970476
-  ws-opts:
-    headers:
-      Host: jp4.sdwan.day
-    path: /stream
-- alterId: 0
-  cipher: auto
-  name: 11|14|日本3|@ripaojiedian
-  network: ws
-  port: '443'
-  server: tky1.sdwan.day
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: fade2b35-7872-442e-a54e-6ccf9b970476
-  ws-opts:
-    headers:
-      Host: ''
-    path: /name
-- alterId: 0
-  cipher: auto
-  name: 11|14|美国3|@ripaojiedian
-  network: ws
-  port: '4431'
-  server: jp4.sdwan.day
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: fade2b35-7872-442e-a54e-6ccf9b970476
-  ws-opts:
-    headers:
-      Host: ''
-    path: /stream
 - alterId: 0
   cipher: auto
   name: 11|16|d*********g.com_2
