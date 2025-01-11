@@ -237,7 +237,7 @@ proxies:
   ws-opts: {}
 - alterId: 64
   cipher: auto
-  name: 11,16|美国|@ripaojiedian
+  name: 11|14|美国|@ripaojiedian
   network: tcp
   port: '52112'
   server: 183.236.51.23
@@ -247,13 +247,10 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15|🇺🇸 美国3|@ripaojiedian
+  name: 11|13|🇺🇸 美国3|@ripaojiedian
   network: ws
   port: 4431
   server: jp4.sdwan.day
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: fade2b35-7872-442e-a54e-6ccf9b970476
@@ -263,7 +260,7 @@ proxies:
     path: /stream
 - alterId: 0
   cipher: auto
-  name: 11,16|美国3|@ripaojiedian
+  name: 11|14|美国3|@ripaojiedian
   network: ws
   port: '4431'
   server: jp4.sdwan.day

@@ -1,13 +1,10 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15|🇯🇵 日本3|@ripaojiedian
+  name: 11|13|🇯🇵 日本3|@ripaojiedian
   network: ws
   port: 443
   server: tky1.sdwan.day
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: fade2b35-7872-442e-a54e-6ccf9b970476
@@ -17,7 +14,7 @@ proxies:
     path: /name
 - alterId: 0
   cipher: auto
-  name: 11,16|日本3|@ripaojiedian
+  name: 11|14|日本3|@ripaojiedian
   network: ws
   port: '443'
   server: tky1.sdwan.day
@@ -50,6 +47,6 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.169.58.78
+  server: 52.79.247.162
   tfo: false
   type: ss
