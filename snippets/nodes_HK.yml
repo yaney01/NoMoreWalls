@@ -21,6 +21,16 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: 11,16|香港8|@ripaojiedian
+  network: tcp
+  port: '23782'
+  server: 38.147.189.188
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6ba78aee-1390-4bbe-9fca-a07c736948cd
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 15|🇺🇸 美国|@ripaojiedian
   password: 243eab52-9ac1-405c-887c-eb112c0985b8
@@ -48,13 +58,3 @@ proxies:
   server: 183.232.229.164
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港8|@ripaojiedian
-  network: tcp
-  port: '23782'
-  server: 38.147.189.188
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6ba78aee-1390-4bbe-9fca-a07c736948cd
