@@ -1,18 +1,8 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|14|日本2|@ripaojiedian
-  network: tcp
-  port: '40866'
-  server: 45.159.50.143
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 68227ff4-28f8-4564-9eef-8d3d3dacaf57
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
-  name: 15,16|日本2|@ripaojiedian
+  name: 11,15,16|日本2|@ripaojiedian
   network: ws
   port: '443'
   server: jp.cowvpn.org

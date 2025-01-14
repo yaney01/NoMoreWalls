@@ -526,29 +526,6 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|0|--45
-  network: ws
-  port: 8880
-  server: yx1.changyouVPN.top
-  tls: false
-  type: vmess
-  uuid: 85c7eba1-dfba-4f3e-9f7a-833fa729dc19
-  ws-opts:
-    headers:
-      Host: yg.changyouVPN.top
-    path: /?ed=2048
-- alterId: 64
-  cipher: auto
-  name: 11|14|香港3|@ripaojiedian
-  network: tcp
-  port: '52908'
-  server: 120.234.102.229
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
   name: 11,16|香港4|@ripaojiedian
@@ -561,14 +538,38 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|14|日本2|@ripaojiedian
-  network: tcp
-  port: '40866'
-  server: 45.159.50.143
-  servername: ''
-  tls: false
+  client-fingerprint: chrome
+  name: 11,15,16|日本2|@ripaojiedian
+  network: ws
+  port: '443'
+  server: jp.cowvpn.org
+  servername: jpcf.cowvpn.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vmess
-  uuid: 68227ff4-28f8-4564-9eef-8d3d3dacaf57
+  uuid: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
+  ws-opts:
+    headers:
+      Host: jpcf.cowvpn.org
+    path: /cctv13/vmess_jpcf
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|美国3|@ripaojiedian
+  network: ws
+  port: '443'
+  server: us1.cowvpn.org
+  servername: us1cf.cowvpn.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
+  ws-opts:
+    headers:
+      Host: us1cf.cowvpn.org
+    path: /cctv13/vmess_us1cf
 - alterId: 0
   cipher: auto
   name: 11|16|d*********g.com_2
@@ -761,23 +762,6 @@ proxies:
   server: dns.a123.my
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|日本2|@ripaojiedian
-  network: ws
-  port: '443'
-  server: jp.cowvpn.org
-  servername: jpcf.cowvpn.org
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
-  ws-opts:
-    headers:
-      Host: jpcf.cowvpn.org
-    path: /cctv13/vmess_jpcf
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇯🇵 日本3|@ripaojiedian
@@ -826,23 +810,6 @@ proxies:
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|美国3|@ripaojiedian
-  network: ws
-  port: '443'
-  server: us1.cowvpn.org
-  servername: us1cf.cowvpn.org
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
-  ws-opts:
-    headers:
-      Host: us1cf.cowvpn.org
-    path: /cctv13/vmess_us1cf
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇺🇸 美国4|@ripaojiedian
