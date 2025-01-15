@@ -237,18 +237,21 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|13,14|美国3|@ripaojiedian
+  client-fingerprint: chrome
+  name: 11,15,16|美国3|@ripaojiedian
   network: ws
   port: '443'
-  server: us1.cowvpn.org
-  servername: us1cf.cowvpn.org
+  server: us.cowvpn.org
+  servername: us2cf.cowvpn.org
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
   uuid: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
   ws-opts:
     headers:
-      Host: us1cf.cowvpn.org
-    path: /cctv13/vmess_us1cf
+      Host: us2cf.cowvpn.org
+    path: /cctv13/vmess_us1
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
@@ -325,23 +328,6 @@ proxies:
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|美国3|@ripaojiedian
-  network: ws
-  port: '443'
-  server: us.cowvpn.org
-  servername: us2cf.cowvpn.org
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 11a805f2-41a7-4cd8-8406-0470c3cde0d3
-  ws-opts:
-    headers:
-      Host: us2cf.cowvpn.org
-    path: /cctv13/vmess_us1
 - cipher: chacha20-ietf
   client-fingerprint: chrome
   name: 15|🇺🇸 美国4|@ripaojiedian

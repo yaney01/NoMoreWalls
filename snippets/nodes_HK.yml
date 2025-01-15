@@ -11,6 +11,16 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: 11,16|香港7|@ripaojiedian
+  network: tcp
+  port: '45050'
+  server: haa.dashuai.cyou
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: ebb96eed-2827-43ac-b539-4e4d7b0ab99b
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 15|🇺🇸 美国|@ripaojiedian
   password: 243eab52-9ac1-405c-887c-eb112c0985b8
@@ -58,13 +68,3 @@ proxies:
   server: console.02.aliyun.aq.kunlunaqs.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港7|@ripaojiedian
-  network: tcp
-  port: '45050'
-  server: haa.dashuai.cyou
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ebb96eed-2827-43ac-b539-4e4d7b0ab99b
