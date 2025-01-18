@@ -548,14 +548,24 @@ proxies:
   uuid: 086ce045-924d-4538-82ef-debb4ae9ccb5
 - alterId: 0
   cipher: auto
-  name: 11|14|美国|@ripaojiedian
+  name: 11,16|台湾|@ripaojiedian
   network: tcp
-  port: '30895'
-  server: 156.251.189.225
+  port: '62506'
+  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 5f011b57-a456-45ae-aa2c-f976780e56c3
+  uuid: 5158e623-3763-41d0-96cf-08a9ab2b734c
+- alterId: 0
+  cipher: auto
+  name: 11,16|日本|@ripaojiedian
+  network: tcp
+  port: '63494'
+  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 5158e623-3763-41d0-96cf-08a9ab2b734c
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -572,30 +582,6 @@ proxies:
   ws-opts:
     headers:
       Host: zxjp-c.tkong.cc
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|14|澳大利亚|@ripaojiedian
-  network: tcp
-  port: '17718'
-  server: 20.213.20.185
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c206e022-34c6-4fe3-a232-b9c07ba3165d
-- alterId: 0
-  cipher: auto
-  name: 11|13,14|德国|@ripaojiedian
-  network: ws
-  port: '17926'
-  server: 5.39.252.204
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 960c95a9-8502-4cbc-a527-d40c2d68d2b1
-  ws-opts:
-    headers:
-      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -852,23 +838,3 @@ proxies:
   server: 78.129.140.11
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|台湾|@ripaojiedian
-  network: tcp
-  port: '62506'
-  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5158e623-3763-41d0-96cf-08a9ab2b734c
-- alterId: 0
-  cipher: auto
-  name: 16|日本|@ripaojiedian
-  network: tcp
-  port: '63494'
-  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5158e623-3763-41d0-96cf-08a9ab2b734c
