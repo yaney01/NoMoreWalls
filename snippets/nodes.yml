@@ -528,39 +528,14 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|0|--54
-  network: tcp
-  port: 54735
-  server: 38.147.160.151
-  tls: false
-  type: vmess
-  uuid: 0785c6af-4aac-49a0-9533-95d41d990384
-- alterId: 0
-  cipher: auto
   name: 11|0|--55
   network: ws
-  port: 443
-  server: irvideo.cfd
-  tls: true
+  port: 17926
+  server: 212.192.12.70
+  tls: false
   type: vmess
-  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
-  ws-opts:
-    headers:
-      Host: irvideo.cfd
-    path: /linkws
-- alterId: 64
-  cipher: auto
-  name: 11|0|--59
-  network: ws
-  port: 38007
-  server: 142.4.108.141
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.66827194.xyz
-    path: /path/1723457615032
+  uuid: dae301f8-eeda-473f-aa6c-306b5061c48d
+  ws-opts: {}
 - alterId: 64
   cipher: auto
   name: 11,16|香港4|@ripaojiedian
@@ -573,47 +548,30 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|14|香港5|@ripaojiedian
+  name: 11,16|台湾|@ripaojiedian
   network: tcp
-  port: '16785'
-  server: 103.30.76.250
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 086ce045-924d-4538-82ef-debb4ae9ccb5
-- alterId: 0
-  cipher: auto
-  name: 11|14|台湾|@ripaojiedian
-  network: tcp
-  port: '62506'
+  port: '19490'
   server: fiwejniavzoj.xn--fiqs8sjz2bull.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 5158e623-3763-41d0-96cf-08a9ab2b734c
+  uuid: 2c735365-79bf-4ecf-ba0d-86202fa24cca
 - alterId: 0
   cipher: auto
-  name: 11|14|日本|@ripaojiedian
-  network: tcp
-  port: '63494'
-  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
+  client-fingerprint: chrome
+  name: 11,15,16|英国|@ripaojiedian
+  network: ws
+  port: '23985'
+  server: 5.39.254.196
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 5158e623-3763-41d0-96cf-08a9ab2b734c
-- alterId: 2
-  cipher: auto
-  name: 11|13,14|美国3|@ripaojiedian
-  network: ws
-  port: '22643'
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
   ws-opts:
     headers:
-      Host: zxjp-c.tkong.cc
+      Host: ''
     path: /
 - alterId: 0
   cipher: auto
@@ -863,30 +821,3 @@ proxies:
   server: 3.112.254.144
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|英国|@ripaojiedian
-  network: ws
-  port: '23985'
-  server: 5.39.254.196
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 398ce84e-4849-4e5f-9b1a-a56fbe233b81
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 16|台湾|@ripaojiedian
-  network: tcp
-  port: '19490'
-  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2c735365-79bf-4ecf-ba0d-86202fa24cca
