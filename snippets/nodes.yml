@@ -526,6 +526,23 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|香港3|@ripaojiedian
+  network: ws
+  port: '8226'
+  server: 89.185.31.75
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 82667668-4bfd-4906-ab31-c2745d0de78e
+  ws-opts:
+    headers:
+      Host: v12.emovpn.buzz
+    path: /
 - alterId: 64
   cipher: auto
   name: 11,16|香港4|@ripaojiedian
@@ -538,14 +555,21 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|14|台湾|@ripaojiedian
-  network: tcp
-  port: '19490'
-  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  client-fingerprint: chrome
+  name: 11,15,16|韩国2|@ripaojiedian
+  network: ws
+  port: '40396'
+  server: sd3.forlive.live
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 2c735365-79bf-4ecf-ba0d-86202fa24cca
+  uuid: 81e16736-5ede-4050-bc4c-3062a63c926d
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -714,23 +738,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|香港3|@ripaojiedian
-  network: ws
-  port: '8226'
-  server: 89.185.31.75
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 82667668-4bfd-4906-ab31-c2745d0de78e
-  ws-opts:
-    headers:
-      Host: v12.emovpn.buzz
-    path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港5|@ripaojiedian
@@ -782,23 +789,6 @@ proxies:
   server: p221.panda001.net
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|韩国2|@ripaojiedian
-  network: ws
-  port: '40396'
-  server: sd3.forlive.live
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 81e16736-5ede-4050-bc4c-3062a63c926d
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
