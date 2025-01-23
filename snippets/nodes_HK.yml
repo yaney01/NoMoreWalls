@@ -9,16 +9,26 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11|14|香港6|@ripaojiedian
+  name: 11,16|香港6|@ripaojiedian
   network: tcp
-  port: '64667'
-  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
+  port: '44614'
+  server: 120.198.71.219
   servername: ''
   tls: false
   type: vmess
-  uuid: cdc67dd7-1a08-4ac4-b04b-6f04d5dbadff
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港7|@ripaojiedian
+  network: tcp
+  port: '49301'
+  server: yoyo.cmyiphone.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 061d42d5-4e6a-4661-be04-80dcfb15b08f
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -56,23 +66,3 @@ proxies:
   server: 219.135.227.210
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港6|@ripaojiedian
-  network: tcp
-  port: '44614'
-  server: 120.198.71.219
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 16|香港7|@ripaojiedian
-  network: tcp
-  port: '49301'
-  server: yoyo.cmyiphone.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 061d42d5-4e6a-4661-be04-80dcfb15b08f
