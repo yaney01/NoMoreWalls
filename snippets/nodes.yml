@@ -528,7 +528,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|0|--62
+  name: 11|0|--60
   network: ws
   port: 8880
   server: s2.db-link01.top
@@ -541,52 +541,33 @@ proxies:
     path: /dabai.in172.64.0.32
 - alterId: 0
   cipher: auto
-  name: 11|0|--67
-  network: ws
-  port: 443
-  server: 38.99.82.193
-  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
-  tls: true
+  name: 11|0|--62
+  network: http
+  port: 2082
+  server: 64.225.109.206
+  tls: false
   type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  ws-opts:
-    headers:
-      Host: tilebani.com
-    path: /linkvws
+  uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
 - alterId: 0
   cipher: auto
-  name: 11|13,14|香港2|@ripaojiedian
-  network: ws
-  port: '23532'
-  server: 212.192.12.70
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5549a8c5-5d90-4abb-b1df-3182009206a0
-  ws-opts:
-    headers:
-      Host: ''
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 11|14|香港3|@ripaojiedian
+  name: 11,16|香港3|@ripaojiedian
   network: tcp
-  port: '45017'
-  server: 142.0.134.242
+  port: '40975'
+  server: 38.147.188.17
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
+  uuid: ab2867d9-5abe-4b18-836b-b3ea69df3e4f
+- alterId: 0
   cipher: auto
-  name: 11|14|香港4|@ripaojiedian
+  name: 11,16|香港4|@ripaojiedian
   network: tcp
-  port: '40565'
-  server: 120.232.153.63
+  port: '43837'
+  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: c89e8998-9164-4a28-b664-8abdcbf3a3a6
 - alterId: 64
   cipher: auto
   name: 11,16|香港5|@ripaojiedian
@@ -609,24 +590,24 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|14|日本|@ripaojiedian
+  name: 11,16|台湾|@ripaojiedian
   network: tcp
-  port: '52380'
-  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
+  port: '19490'
+  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 38eda6f2-6e04-4484-8f82-e859e76612d6
+  uuid: c89e8998-9164-4a28-b664-8abdcbf3a3a6
 - alterId: 0
   cipher: auto
-  name: 11|14|新加坡2|@ripaojiedian
+  name: 11,16|日本|@ripaojiedian
   network: tcp
-  port: '53896'
-  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
+  port: '18034'
+  server: 45.159.51.161
   servername: ''
   tls: false
   type: vmess
-  uuid: 38eda6f2-6e04-4484-8f82-e859e76612d6
+  uuid: e0defc46-4516-4352-bf53-7c4296fc3596
 - alterId: 0
   cipher: auto
   name: 11,16|德国|@ripaojiedian
@@ -885,43 +866,3 @@ proxies:
   server: 3.112.203.145
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '40975'
-  server: 38.147.188.17
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ab2867d9-5abe-4b18-836b-b3ea69df3e4f
-- alterId: 0
-  cipher: auto
-  name: 16|香港4|@ripaojiedian
-  network: tcp
-  port: '43837'
-  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c89e8998-9164-4a28-b664-8abdcbf3a3a6
-- alterId: 0
-  cipher: auto
-  name: 16|台湾|@ripaojiedian
-  network: tcp
-  port: '19490'
-  server: fiwejniavzoj.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c89e8998-9164-4a28-b664-8abdcbf3a3a6
-- alterId: 0
-  cipher: auto
-  name: 16|日本|@ripaojiedian
-  network: tcp
-  port: '18034'
-  server: 45.159.51.161
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: e0defc46-4516-4352-bf53-7c4296fc3596
