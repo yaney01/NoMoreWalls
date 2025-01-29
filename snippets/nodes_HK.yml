@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,16|香港3|@ripaojiedian
+  name: 11|14|香港3|@ripaojiedian
   network: tcp
   port: '40975'
   server: 38.147.188.17
@@ -11,7 +11,7 @@ proxies:
   uuid: ab2867d9-5abe-4b18-836b-b3ea69df3e4f
 - alterId: 0
   cipher: auto
-  name: 11,16|香港4|@ripaojiedian
+  name: 11|14|香港4|@ripaojiedian
   network: tcp
   port: '43837'
   server: fiwejniavzoj.xn--fiqs8sjz2bull.com
@@ -31,7 +31,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,16|香港6|@ripaojiedian
+  name: 11|14|香港6|@ripaojiedian
   network: tcp
   port: '44614'
   server: 120.198.71.219
@@ -55,16 +55,32 @@ proxies:
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- alterId: 0
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港3|@ripaojiedian
+  password: 03f2af77-f215-4e86-86cd-72f2d6d69e0c
+  port: 41411
+  server: south.sf0jm.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港4|@ripaojiedian
+  password: 81898fd1-12c9-4197-8017-26ec0b242647
+  port: 30018
+  server: 114.132.40.118
+  tfo: false
+  type: ss
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇩🇪 德国|@ripaojiedian
+  name: 15|🇺🇸 美国|@ripaojiedian
   password: 2b39bbdd-a565-4f8e-b6b6-6b034b2076f4
-  port: 2082
-  server: 64.225.109.206
+  port: 13022
+  server: naiu-us.05vr9nyqg5.download
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   tfo: false
   tls: false
-  type: vmess
-  uuid: 48264b45-64b8-4e9f-8a88-cef41f20c736
+  type: trojan
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
