@@ -237,14 +237,11 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|美国4|@ripaojiedian
+  name: 11|13,14|美国4|@ripaojiedian
   network: ws
   port: '8080'
   server: vip2.pmy666.xyz
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: b8b24778-ab3c-4d1a-9ab1-59f301d61c9f
@@ -322,17 +319,27 @@ proxies:
     path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 15|🇺🇸 美国2|@ripaojiedian
-  password: K0AA69ZLLFIBXP1Q
-  port: 17004
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  name: 15|🇺🇸 美国|@ripaojiedian
+  password: R9J5Q42EJODB7JUG
+  port: 17001
+  server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 15|🇺🇸 美国3|@ripaojiedian
-  password: QX5ETP5KNLIN3Q4N
-  port: 17006
-  server: 219.135.227.210
+  name: 15|🇺🇸 美国2|@ripaojiedian
+  password: 8DQKQLOLHDD30TMN
+  port: 17007
+  server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|美国3|@ripaojiedian
+  network: tcp
+  port: '45557'
+  server: 38.147.161.47
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 84a0542c-122a-42ec-93d2-4a1e814cf1f5
