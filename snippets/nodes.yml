@@ -528,7 +528,43 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|0|--52
+  name: 11|0|--94
+  network: ws
+  port: 443
+  server: 57.129.24.124
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: aveiror.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  name: 11|0|--97
+  network: ws
+  port: 80
+  server: s4.db-link01.top
+  tls: false
+  type: vmess
+  uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+  ws-opts:
+    headers:
+      Host: 100-157-232-164.s4.db-link01.top
+    path: /dabai.in172.64.44.14
+- alterId: 1
+  cipher: auto
+  name: 11|0|--101
+  network: tcp
+  port: 28788
+  server: ccz1q-g06.jp06-7c5a-vm0.entry.fr0307a.art
+  tls: true
+  type: vmess
+  uuid: 076c0982-f879-324d-8683-35a0eb5615ee
+- alterId: 0
+  cipher: auto
+  name: 11|0|--102
   network: tcp
   port: 80
   server: 94.182.150.230
@@ -537,17 +573,14 @@ proxies:
   uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
 - alterId: 0
   cipher: auto
-  name: 11|0|--57
-  network: ws
-  port: 8880
-  server: yx1.changyouVPN.top
+  name: 11,16|香港2|@ripaojiedian
+  network: tcp
+  port: '11227'
+  server: 103.224.80.37
+  servername: ''
   tls: false
   type: vmess
-  uuid: 85c7eba1-dfba-4f3e-9f7a-833fa729dc19
-  ws-opts:
-    headers:
-      Host: yg.changyouVPN.top
-    path: /?ed=2048
+  uuid: 0549b941-23f0-4802-ab15-264402d3b6be
 - alterId: 64
   cipher: auto
   name: 11,16|香港5|@ripaojiedian
@@ -558,36 +591,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|14|日本|@ripaojiedian
-  network: tcp
-  port: '60717'
-  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dbb4c3e2-12de-4678-aafe-7e520b609098
-- alterId: 0
-  cipher: auto
-  name: 11|14|新加坡2|@ripaojiedian
-  network: tcp
-  port: '49549'
-  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dbb4c3e2-12de-4678-aafe-7e520b609098
-- alterId: 0
-  cipher: auto
-  name: 11|14|美国2|@ripaojiedian
-  network: tcp
-  port: '23763'
-  server: bzryjncvbwng.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dbb4c3e2-12de-4678-aafe-7e520b609098
 - alterId: 0
   cipher: auto
   name: 11|16|d*********g.com_2
@@ -844,13 +847,3 @@ proxies:
   server: 54.255.22.224
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '11227'
-  server: 103.224.80.37
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0549b941-23f0-4802-ab15-264402d3b6be
