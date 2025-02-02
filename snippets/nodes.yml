@@ -528,14 +528,14 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|14|香港2|@ripaojiedian
+  name: 11,16|香港|@ripaojiedian
   network: tcp
-  port: '11227'
-  server: 103.224.80.37
+  port: '50028'
+  server: 50028.baidu-cdn.top
   servername: ''
   tls: false
   type: vmess
-  uuid: 0549b941-23f0-4802-ab15-264402d3b6be
+  uuid: 63e90ac2-b431-421d-9262-b6c4ce488908
 - alterId: 64
   cipher: auto
   name: 11,16|香港5|@ripaojiedian
@@ -840,13 +840,3 @@ proxies:
   server: 54.151.148.166
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '50028'
-  server: 50028.baidu-cdn.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 63e90ac2-b431-421d-9262-b6c4ce488908
