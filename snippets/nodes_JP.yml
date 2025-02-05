@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|14|日本2|@ripaojiedian
+  name: 11,16|日本|@ripaojiedian
   network: tcp
-  port: '60717'
+  port: '11171'
   server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
   servername: ''
   tls: false
   type: vmess
-  uuid: a51ed25d-d878-472b-8a5c-4f2f53ddc2ac
+  uuid: 68512223-ea66-46fc-82f4-e22b597cdd5e
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
@@ -25,13 +25,3 @@ proxies:
   server: 52.78.197.177
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|日本|@ripaojiedian
-  network: tcp
-  port: '11171'
-  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 68512223-ea66-46fc-82f4-e22b597cdd5e
