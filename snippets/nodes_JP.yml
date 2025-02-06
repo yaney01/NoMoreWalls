@@ -1,14 +1,33 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|14|日本|@ripaojiedian
+  name: 11|0|🇯🇵2 |  5.7MB/s
   network: tcp
-  port: '11171'
+  port: 45056
+  server: haa.dashuai.cyou
+  tls: false
+  type: vmess
+  uuid: 7e1e1ad8-ad38-4ce5-97e0-a33f99500acd
+- alterId: 0
+  cipher: auto
+  name: 11,16|日本2|@ripaojiedian
+  network: tcp
+  port: '39131'
+  server: 45.159.51.161
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2abcabf6-d7bf-48eb-aed2-07f090b7008a
+- alterId: 0
+  cipher: auto
+  name: 11,16|日本3|@ripaojiedian
+  network: tcp
+  port: '60717'
   server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 68512223-ea66-46fc-82f4-e22b597cdd5e
+  uuid: a173d4cd-4056-41dd-87a3-91c884e472fa
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -25,23 +44,3 @@ proxies:
   server: 47.129.38.168
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|日本2|@ripaojiedian
-  network: tcp
-  port: '39131'
-  server: 45.159.51.161
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2abcabf6-d7bf-48eb-aed2-07f090b7008a
-- alterId: 0
-  cipher: auto
-  name: 16|日本3|@ripaojiedian
-  network: tcp
-  port: '60717'
-  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a173d4cd-4056-41dd-87a3-91c884e472fa
