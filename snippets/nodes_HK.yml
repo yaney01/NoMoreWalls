@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,16|香港|@ripaojiedian
+  name: 11|14|香港|@ripaojiedian
   network: tcp
   port: '57658'
   server: 38.147.188.17
@@ -11,7 +11,7 @@ proxies:
   uuid: 7f004471-a725-4efb-9a19-6bf17a61cf46
 - alterId: 0
   cipher: auto
-  name: 11,16|香港2|@ripaojiedian
+  name: 11|14|香港2|@ripaojiedian
   network: tcp
   port: '50028'
   server: 50028.baidu-cdn.top
@@ -29,19 +29,27 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: b2e5c36c-257c-4a11-ae20-4fb99d44606a
+  port: 12001
+  server: mdss-hk.04z3susick.download
+  tfo: false
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇺🇸 美国|@ripaojiedian
+  name: 15|🇺🇸 美国3|@ripaojiedian
   password: '!!str 65086520307764900'
-  port: 443
-  server: moral-rat.shiner427.skin
+  port: 44447
+  server: 38.147.161.47
   skip-cert-verify: false
-  sni: moral-rat.shiner427.skin
+  sni: grateful-lark.shiner427.skin
   tfo: false
   tls: false
-  type: trojan
-  uuid: 68512223-ea66-46fc-82f4-e22b597cdd5e
+  type: vmess
+  uuid: 6f5637c1-2a46-4d3b-8257-7dc3a70ff1dd
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇭🇰 香港3|@ripaojiedian
@@ -50,11 +58,23 @@ proxies:
   server: 120.232.81.50
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港4|@ripaojiedian
-  password: 40983d6d-48be-4c9a-aa48-3aaf3146833e
-  port: 12010
-  server: mdss-hk.04z3susick.download
-  tfo: false
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港2|@ripaojiedian
+  network: tcp
+  port: '49838'
+  server: 38.147.189.115
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: e413fd92-afde-423a-8ba2-b337bf5d7ca2
+- alterId: 0
+  cipher: auto
+  name: 16|香港4|@ripaojiedian
+  network: tcp
+  port: '40755'
+  server: 38.147.189.158
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 837d93be-fe14-4a50-bd11-ead5c00585d3
