@@ -528,59 +528,6 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|0|🇺🇸3 |  6.1MB/s
-  network: tcp
-  port: 50029
-  server: 50029.baidu-cdn.top
-  tls: false
-  type: vmess
-  uuid: d50eadc6-2eef-453f-98db-0a56685f7daa
-- alterId: 2
-  cipher: auto
-  name: 11|0|🇺🇸6 |  1.6MB/s
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|14|香港|@ripaojiedian
-  network: tcp
-  port: '18423'
-  server: 38.147.188.94
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d74f7655-eb59-4b48-9f8f-98a9c64a9e10
-- alterId: 0
-  cipher: auto
-  name: 11|14|香港2|@ripaojiedian
-  network: tcp
-  port: '32450'
-  server: 38.147.188.160
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1fa824bb-a682-4827-821f-9adc444a2a0f
-- alterId: 0
-  cipher: auto
-  name: 11|16|d*********g.com_2
-  network: tcp
-  port: '443'
-  server: 42.236.73.72
-  servername: www.zitian.cn
-  tls: true
-  type: vmess
-  uuid: 044f0177-0675-4dcf-89d4-804b6788e518
-- alterId: 0
-  cipher: auto
   name: 12|github.com/freefq - 印度  2
   network: ws
   port: 443
