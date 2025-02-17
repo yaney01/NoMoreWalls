@@ -21,26 +21,26 @@ proxies:
   uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: 84XAJL8SYU5DFEO1
-  port: 18004
-  server: 156.231.104.14
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
-  password: IE7SC3YR9X2T5I76
-  port: 18015
-  server: 156.231.104.25
+  password: QCK38XJJU4WIUYRK
+  port: 18003
+  server: 156.231.104.13
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇯🇵 日本3|@ripaojiedian
-  password: 7U4Y1WQBHKIMGFBR
-  port: 18006
-  server: 156.231.104.16
+  password: V4R0XM7GMEZF9QA5
+  port: 18012
+  server: 156.231.104.22
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本4|@ripaojiedian
+  password: 7VZKUX118GJ16V1R
+  port: 18007
+  server: 156.231.104.17
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -48,6 +48,16 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.231.248.146
+  server: 3.112.1.164
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|日本|@ripaojiedian
+  network: tcp
+  port: '20855'
+  server: 45.159.51.116
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bb59ce12-afda-4a2e-bb62-6f5b60acbe77
