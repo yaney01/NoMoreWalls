@@ -528,51 +528,29 @@ proxies:
   ws-opts: {}
 - alterId: 2
   cipher: auto
-  name: 11|2|🇺🇸13 |  2.0MB/s
+  name: 11|2|🌀2- |  5.2MB/s
   network: ws
-  port: 23617
-  server: 17.mamamajd.site
+  port: 23614
+  server: 14.mamamajd.site
   tls: false
   type: vmess
-  uuid: 41fcdfba-b5c4-3ad5-9f41-1aa49a3e959d
+  uuid: c8eecd08-d056-351f-9701-edec6e693f64
   ws-opts:
     headers:
-      Host: 17.mamamajd.site
+      Host: 14.mamamajd.site
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 11|2|🌀1- |  1.2MB/s
+  name: 11|2|🌀3- |  3.1MB/s
   network: ws
-  port: 20330
-  server: 45.144.174.12
+  port: 23612
+  server: 12.mamamajd.site
   tls: false
   type: vmess
-  uuid: beaad91b-40cb-4aa5-9bc8-b412a023f1ca
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|13|香港3|@ripaojiedian
-  network: tcp
-  port: '30704'
-  server: 43.247.135.63
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9bffecef-77db-4021-a02b-cc9915bcbb23
-- alterId: 0
-  cipher: auto
-  name: 11|12,13|韩国|@ripaojiedian
-  network: ws
-  port: '22223'
-  server: free-kr.faforex.eu.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 34b92487-a7b5-400a-b42f-40f53377aaab
+  uuid: c8eecd08-d056-351f-9701-edec6e693f64
   ws-opts:
     headers:
-      Host: tms.dingtalk.com
+      Host: 12.mamamajd.site
     path: /
 - alterId: 0
   cipher: auto
