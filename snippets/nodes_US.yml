@@ -235,6 +235,42 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇺🇸9 |  1.8MB/s
+  network: ws
+  port: 23615
+  server: 15.mamamajd.site
+  tls: false
+  type: vmess
+  uuid: 8de304ad-9fc5-3381-a162-8c8903424605
+  ws-opts:
+    headers:
+      Host: 15.mamamajd.site
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇺🇸10 |  6.1MB/s
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
+  tls: false
+  type: vmess
+  uuid: 8de304ad-9fc5-3381-a162-8c8903424605
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,16|美国|@ripaojiedian
+  network: tcp
+  port: '50004'
+  server: 50004.baidu-cdn.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4ce50179-f256-4509-bbd2-2a6ec957236e
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
@@ -315,13 +351,3 @@ proxies:
   server: pr3.jymzffbquawl.com
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|美国|@ripaojiedian
-  network: tcp
-  port: '50004'
-  server: 50004.baidu-cdn.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4ce50179-f256-4509-bbd2-2a6ec957236e

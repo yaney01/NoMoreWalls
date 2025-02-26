@@ -526,15 +526,42 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 11|2|🇷🇺5 |  2.1MB/s
-  network: tcp
-  port: 22946
-  server: 188.130.154.56
+  name: 11|2|🇺🇸9 |  1.8MB/s
+  network: ws
+  port: 23615
+  server: 15.mamamajd.site
   tls: false
   type: vmess
-  uuid: 7ed1d138-37f7-41f7-843d-d4f2bdbba913
+  uuid: 8de304ad-9fc5-3381-a162-8c8903424605
+  ws-opts:
+    headers:
+      Host: 15.mamamajd.site
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇺🇸10 |  6.1MB/s
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
+  tls: false
+  type: vmess
+  uuid: 8de304ad-9fc5-3381-a162-8c8903424605
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,16|美国|@ripaojiedian
+  network: tcp
+  port: '50004'
+  server: 50004.baidu-cdn.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4ce50179-f256-4509-bbd2-2a6ec957236e
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 印度  2
@@ -897,13 +924,3 @@ proxies:
   server: 47.129.8.153
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|美国|@ripaojiedian
-  network: tcp
-  port: '50004'
-  server: 50004.baidu-cdn.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4ce50179-f256-4509-bbd2-2a6ec957236e
