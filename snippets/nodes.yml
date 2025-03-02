@@ -526,6 +526,81 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇺🇸4 |  3.3MB/s
+  network: ws
+  port: 23616
+  server: 16.mamamajd.site
+  tls: false
+  type: vmess
+  uuid: d7e9867f-8e86-3ac8-8fef-4aead0756cda
+  ws-opts:
+    headers:
+      Host: 16.mamamajd.site
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🌀1- |  2.4MB/s
+  network: ws
+  port: 23611
+  server: 11.mamamajd.site
+  tls: false
+  type: vmess
+  uuid: d7e9867f-8e86-3ac8-8fef-4aead0756cda
+  ws-opts:
+    headers:
+      Host: 11.mamamajd.site
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇺🇸7 |  1.4MB/s
+  network: ws
+  port: 23615
+  server: 15.mamamajd.site
+  tls: false
+  type: vmess
+  uuid: d7e9867f-8e86-3ac8-8fef-4aead0756cda
+  ws-opts:
+    headers:
+      Host: 15.mamamajd.site
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇺🇸9 |  3.7MB/s
+  network: ws
+  port: 23613
+  server: 13.mamamajd.site
+  tls: false
+  type: vmess
+  uuid: d7e9867f-8e86-3ac8-8fef-4aead0756cda
+  ws-opts:
+    headers:
+      Host: 13.mamamajd.site
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🌀3- |  1.7MB/s
+  network: ws
+  port: 23614
+  server: 14.mamamajd.site
+  tls: false
+  type: vmess
+  uuid: d7e9867f-8e86-3ac8-8fef-4aead0756cda
+  ws-opts:
+    headers:
+      Host: 14.mamamajd.site
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|13|香港9|@ripaojiedian
+  network: tcp
+  port: '42120'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 印度  2
@@ -658,15 +733,15 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港10|@ripaojiedian
-  password: Vad3.123a%2529asd1234-asdasd.asdazzS.123
-  port: 443
-  server: 43.154.83.213
+  name: 15|🇺🇸 美国2|@ripaojiedian
+  password: 1e1f22c7-9cbf-4c02-a1eb-b47c7a8a915c
+  port: 44014
+  server: 120.198.71.219
   skip-cert-verify: false
-  sni: xx.tc.hk.go.107421.xyz
+  sni: mmbiz1.redapricotcloud.com
   tfo: false
   tls: false
-  type: trojan
+  type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
@@ -788,6 +863,14 @@ proxies:
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡4|@ripaojiedian
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 103.106.229.219
+  tfo: false
+  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇺🇸 美国|@ripaojiedian
@@ -804,7 +887,7 @@ proxies:
   name: 15|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 47.129.151.205
+  server: 54.255.230.67
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -812,7 +895,7 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.250.31.115
+  server: 13.229.213.8
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -820,19 +903,29 @@ proxies:
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 18.143.187.178
+  server: 54.151.184.124
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   name: 16|香港9|@ripaojiedian
   network: tcp
-  port: '42120'
-  server: 183.236.51.38
+  port: '21639'
+  server: 38.147.189.213
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 2d012bbb-0d12-45e5-ad35-92241360327f
+- alterId: 0
+  cipher: auto
+  name: 16|日本4|@ripaojiedian
+  network: tcp
+  port: '55128'
+  server: 45.159.51.189
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 84f9bc0e-400f-4839-98b5-637d5e9c6606
 - cipher: rc4-md5
   name: 16|576O5Zu9fEByaXBhb2ppZWRpYW4
   obfs: plain
@@ -843,3 +936,13 @@ proxies:
   protocol-param: OTI5MDI6cEZXR09R
   server: 2.hublink.pro
   type: ssr
+- alterId: 0
+  cipher: auto
+  name: 16|美国2|@ripaojiedian
+  network: tcp
+  port: '44014'
+  server: 120.198.71.219
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
