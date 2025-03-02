@@ -526,77 +526,32 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇺🇸4 |  3.3MB/s
-  network: ws
-  port: 23616
-  server: 16.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: d7e9867f-8e86-3ac8-8fef-4aead0756cda
-  ws-opts:
-    headers:
-      Host: 16.mamamajd.site
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|2|🌀1- |  2.4MB/s
-  network: ws
-  port: 23611
-  server: 11.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: d7e9867f-8e86-3ac8-8fef-4aead0756cda
-  ws-opts:
-    headers:
-      Host: 11.mamamajd.site
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇺🇸7 |  1.4MB/s
-  network: ws
-  port: 23615
-  server: 15.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: d7e9867f-8e86-3ac8-8fef-4aead0756cda
-  ws-opts:
-    headers:
-      Host: 15.mamamajd.site
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇺🇸9 |  3.7MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: d7e9867f-8e86-3ac8-8fef-4aead0756cda
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|2|🌀3- |  1.7MB/s
-  network: ws
-  port: 23614
-  server: 14.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: d7e9867f-8e86-3ac8-8fef-4aead0756cda
-  ws-opts:
-    headers:
-      Host: 14.mamamajd.site
-    path: /
 - alterId: 0
   cipher: auto
-  name: 11|13|香港9|@ripaojiedian
+  name: 11,16|香港9|@ripaojiedian
   network: tcp
-  port: '42120'
-  server: 183.236.51.38
+  port: '21639'
+  server: 38.147.189.213
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2d012bbb-0d12-45e5-ad35-92241360327f
+- alterId: 0
+  cipher: auto
+  name: 11,16|日本4|@ripaojiedian
+  network: tcp
+  port: '55128'
+  server: 45.159.51.189
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 84f9bc0e-400f-4839-98b5-637d5e9c6606
+- alterId: 0
+  cipher: auto
+  name: 11,16|美国2|@ripaojiedian
+  network: tcp
+  port: '44014'
+  server: 120.198.71.219
   servername: ''
   tls: false
   type: vmess
@@ -906,26 +861,6 @@ proxies:
   server: 54.151.184.124
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港9|@ripaojiedian
-  network: tcp
-  port: '21639'
-  server: 38.147.189.213
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2d012bbb-0d12-45e5-ad35-92241360327f
-- alterId: 0
-  cipher: auto
-  name: 16|日本4|@ripaojiedian
-  network: tcp
-  port: '55128'
-  server: 45.159.51.189
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 84f9bc0e-400f-4839-98b5-637d5e9c6606
 - cipher: rc4-md5
   name: 16|576O5Zu9fEByaXBhb2ppZWRpYW4
   obfs: plain
@@ -936,13 +871,3 @@ proxies:
   protocol-param: OTI5MDI6cEZXR09R
   server: 2.hublink.pro
   type: ssr
-- alterId: 0
-  cipher: auto
-  name: 16|美国2|@ripaojiedian
-  network: tcp
-  port: '44014'
-  server: 120.198.71.219
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
