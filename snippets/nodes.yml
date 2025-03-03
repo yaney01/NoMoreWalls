@@ -528,50 +528,50 @@ proxies:
   ws-opts: {}
 - alterId: 2
   cipher: auto
-  name: 11|2|🌀1- |  5.6MB/s
+  name: 11|0|🌀1- |  5.9MB/s
   network: ws
-  port: 23612
-  server: 12.mamamajd.site
+  port: 23611
+  server: 11.mamamajd.site
   tls: false
   type: vmess
-  uuid: 7634791a-727a-3ccd-ab08-71df858f756e
+  uuid: 975eba47-5d04-3761-aca6-4bfee48b8fe9
   ws-opts:
     headers:
-      Host: 12.mamamajd.site
+      Host: 11.mamamajd.site
     path: /
 - alterId: 2
   cipher: auto
-  name: 11|2|🇺🇸3 |  5.7MB/s
+  name: 11|0|🇺🇸3 |  5.3MB/s
   network: ws
-  port: 23613
-  server: 13.mamamajd.site
+  port: 23617
+  server: 17.mamamajd.site
   tls: false
   type: vmess
-  uuid: 7634791a-727a-3ccd-ab08-71df858f756e
+  uuid: 975eba47-5d04-3761-aca6-4bfee48b8fe9
   ws-opts:
     headers:
-      Host: 13.mamamajd.site
+      Host: 17.mamamajd.site
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|13|香港9|@ripaojiedian
+  name: 11,16|香港9|@ripaojiedian
   network: tcp
-  port: '21639'
-  server: 38.147.189.213
+  port: '37903'
+  server: 38.147.188.105
   servername: ''
   tls: false
   type: vmess
-  uuid: 2d012bbb-0d12-45e5-ad35-92241360327f
+  uuid: 21e549ac-f8a0-4dfe-a626-fe1630c7b804
 - alterId: 0
   cipher: auto
-  name: 11|13|日本4|@ripaojiedian
+  name: 11,16|日本4|@ripaojiedian
   network: tcp
-  port: '55128'
-  server: 45.159.51.189
+  port: '48019'
+  server: 45.159.51.116
   servername: ''
   tls: false
   type: vmess
-  uuid: 84f9bc0e-400f-4839-98b5-637d5e9c6606
+  uuid: c06797d5-fa41-4b48-b132-d268d2acb302
 - alterId: 0
   cipher: auto
   name: 11,16|美国2|@ripaojiedian
@@ -876,23 +876,3 @@ proxies:
   server: 54.248.148.112
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港9|@ripaojiedian
-  network: tcp
-  port: '37903'
-  server: 38.147.188.105
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 21e549ac-f8a0-4dfe-a626-fe1630c7b804
-- alterId: 0
-  cipher: auto
-  name: 16|日本4|@ripaojiedian
-  network: tcp
-  port: '48019'
-  server: 45.159.51.116
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: c06797d5-fa41-4b48-b132-d268d2acb302

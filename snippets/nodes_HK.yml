@@ -1,14 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|13|香港9|@ripaojiedian
+  name: 11,16|香港9|@ripaojiedian
   network: tcp
-  port: '21639'
-  server: 38.147.189.213
+  port: '37903'
+  server: 38.147.188.105
   servername: ''
   tls: false
   type: vmess
-  uuid: 2d012bbb-0d12-45e5-ad35-92241360327f
+  uuid: 21e549ac-f8a0-4dfe-a626-fe1630c7b804
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -70,13 +70,3 @@ proxies:
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港9|@ripaojiedian
-  network: tcp
-  port: '37903'
-  server: 38.147.188.105
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 21e549ac-f8a0-4dfe-a626-fe1630c7b804
