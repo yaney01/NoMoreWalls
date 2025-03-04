@@ -1,25 +1,29 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 1|_US__1
+  name: '1,6|🇺🇸_US_美国 #7'
   network: ws
   port: 2086
   server: 104.19.38.62
   sni: ip004.dtku47.xyz
+  tls: false
   type: vmess
   uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US__2
+  name: '1,6|🇺🇸_US_美国 #8'
   network: ws
   port: 2086
   server: 104.19.47.122
   sni: ip14.freegradely.xyz
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '1,3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
+  name: '1,3,6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #10'
   network: ws
   port: 2086
   server: 104.19.57.4
@@ -30,13 +34,15 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_CA__1
+  name: '1,6|🇺🇸_US_美国->🇨🇦_CA_加拿大 #4'
   network: ws
   port: 2086
   server: 104.19.47.79
   sni: ip14.freegradely.xyz
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - cipher: aes-256-cfb
   name: 1|_FR_->_RU_
   password: f8f7aCzcPKbsF8p3
@@ -45,40 +51,48 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 1|_US__4
+  name: '1,6|🇺🇸_US_美国 #10'
   network: ws
   port: 2086
   server: 104.19.46.36
   sni: ip14.freegradely.xyz
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_CA__2
+  name: '1,6|🇺🇸_US_美国->🇨🇦_CA_加拿大 #5'
   network: ws
   port: 2086
   server: 104.19.46.39
   sni: ''
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_CN__1
+  name: '1,6|🇺🇸_US_美国->🇨🇳_CN_中国 #1'
   network: ws
   port: 2052
   server: 104.19.21.240
   sni: cdn2.freegradely.xyz
+  tls: false
   type: vmess
   uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_CA__3
+  name: '1,6|🇺🇸_US_美国->🇨🇦_CA_加拿大 #6'
   network: ws
   port: 2086
   server: 104.19.47.32
   sni: ip14.freegradely.xyz
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - cipher: aes-256-cfb
   name: 1|_US__5
   password: amazonskr05
@@ -87,22 +101,26 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_SG_
+  name: '1,6|🇺🇸_US_美国->🇸🇬_SG_新加坡 #1'
   network: ws
   port: 2052
   server: cfcdn2.sanfencdn9.com
   sni: ''
+  tls: false
   type: vmess
   uuid: ab1ee1ac-884c-44dc-ab65-d533d32e2b1a
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US__6
+  name: '1,6|🇺🇸_US_美国 #11'
   network: ws
   port: 2086
   server: 104.20.25.146
   sni: ip14.freegradely.xyz
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - cipher: aes-256-gcm
   name: 1|_US__7
   password: RexnBgU7EV5ADxG
@@ -111,12 +129,14 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_NL_
+  name: 1,6|🇺🇸_US_美国->🇳🇱_NL_荷兰
   network: ws
   port: 2086
   server: 172.64.198.249
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - cipher: chacha20-ietf-poly1305
   name: 1|_US_->_ES_
   password: 2062a5ca-a34e-47bf-9810-db91185f07fc
@@ -125,25 +145,29 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 1|_US__8
+  name: '1,6|🇺🇸_US_美国 #12'
   network: ws
   port: 2086
   server: 104.19.21.230
   sni: ip14.freegradely.xyz
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_CA__4
+  name: '1,6|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7'
   network: ws
   port: 2086
   server: 104.19.45.47
   sni: ip14.freegradely.xyz
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '1,3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #5'
+  name: '1,3,6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #9'
   network: ws
   port: 2086
   server: 104.18.57.111
@@ -154,22 +178,26 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US_->_CN__2
+  name: '1,6|🇺🇸_US_美国->🇨🇳_CN_中国 #2'
   network: ws
   port: 8080
   server: 104.19.47.126
   sni: ''
+  tls: false
   type: vmess
   uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US__10
+  name: '1,6|🇺🇸_US_美国 #14'
   network: ws
   port: 2052
   server: 104.19.46.123
   sni: cdn2.freegradely.xyz
+  tls: false
   type: vmess
   uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  ws-opts: {}
 - cipher: aes-256-cfb
   name: 1|_SG_
   password: amazonskr05
@@ -184,13 +212,15 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 1|_US__12
+  name: '1,6|🇺🇸_US_美国 #15'
   network: ws
   port: 2086
   server: 104.19.51.232
   sni: ''
+  tls: false
   type: vmess
   uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts: {}
 - cipher: aes-256-cfb
   name: 1|_CN_
   password: hGkQ6915tD
@@ -199,39 +229,47 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 1|_US__13
+  name: '1,6|🇺🇸_US_美国 #16'
   network: ws
   port: 2086
   server: 104.19.46.233
   sni: ''
+  tls: false
   type: vmess
   uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US__14
+  name: '1,6|🇺🇸_US_美国 #17'
   network: ws
   port: 2086
   server: 104.19.46.59
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US__15
+  name: '1,6|🇺🇸_US_美国 #18'
   network: ws
   port: 2086
   server: 104.19.46.27
   sni: ip14.freegradely.xyz
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 1|_US__16
+  name: '1,6|🇺🇸_US_美国 #19'
   network: ws
   port: 2086
   server: 104.19.45.15
   sni: ''
+  tls: false
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts: {}
 - alterId: 0
   cipher: auto
   name: 2|🇩🇪_DE_德国
@@ -372,7 +410,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国 #7'
+  name: '3,17|🇺🇸_US_美国 #20'
   network: ws
   port: 2082
   server: cfcdn1.sanfencdn9.com
@@ -392,7 +430,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国->🇨🇳_CN_中国 #1'
+  name: '3,17|🇺🇸_US_美国->🇨🇳_CN_中国 #3'
   network: ws
   port: 8080
   server: 104.19.47.16
@@ -402,7 +440,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #4'
+  name: '3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #8'
   network: ws
   port: 2086
   server: 104.19.47.65
@@ -441,7 +479,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国 #8'
+  name: '3,17|🇺🇸_US_美国 #21'
   network: ws
   port: 2086
   server: 104.19.32.46
@@ -460,7 +498,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国 #9'
+  name: '3,17|🇺🇸_US_美国 #22'
   network: ws
   port: 8080
   server: russia.com
@@ -480,7 +518,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #7'
+  name: '3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11'
   network: ws
   port: 2086
   server: 172.64.175.213
@@ -500,7 +538,7 @@ proxies:
   uuid: 21e549ac-f8a0-4dfe-a626-fe1630c7b804
 - alterId: 0
   cipher: auto
-  name: 11,16|日本4|@ripaojiedian
+  name: 11|13|日本4|@ripaojiedian
   network: tcp
   port: '48019'
   server: 45.159.51.116
@@ -708,6 +746,17 @@ proxies:
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港10|@ripaojiedian
+  obfs: plain
+  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
+  password: ENZ52K
+  port: 40208
+  protocol: auth_aes128_md5
+  protocol-param: 92902:pFWGOQ
+  server: 2.hublink.pro
+  type: ssr
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇹🇼 台湾2|@ripaojiedian
@@ -793,7 +842,7 @@ proxies:
   name: 15|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 47.129.168.96
+  server: 13.250.31.115
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -801,7 +850,7 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 13.231.243.205
+  server: 54.151.184.124
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -809,6 +858,34 @@ proxies:
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.248.148.112
+  server: 18.143.186.182
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇨🇦 加拿大|@ripaojiedian
+  password: M2EzY
+  port: 8388
+  server: ca1.ssocks.wiki
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  name: 16|6aaZ5rivMTB8QHJpcGFvamllZGlhbg
+  obfs: plain
+  obfs-param: Y2QyYjY5MjkwMi42NjAyYjg0NjM0NjQxMDg1MDYubWljcm9zb2Z0LmNvbQ
+  password: ENZ52K
+  port: '40208'
+  protocol: auth_aes128_md5
+  protocol-param: OTI5MDI6cEZXR09R
+  server: 2.hublink.pro
+  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 16|日本4|@ripaojiedian
+  network: tcp
+  port: '35565'
+  server: 120.198.71.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
