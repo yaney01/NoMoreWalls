@@ -528,19 +528,35 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸3 |  7.5MB/s
+  name: 11|0|🇩🇪1 |  4.6MB/s
+  network: ws
+  port: 80
+  server: www.aetv.com
+  servername: amd.al
+  tls: false
+  type: vmess
+  uuid: 7dc78582-88a8-4b4c-9e3e-50831d672766
+  ws-opts:
+    headers:
+      Host: www.aetv.com
+    path: /XESALISTHEBEST?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇺🇸2 |  3.4MB/s
   network: ws
   port: 443
-  server: us16.998998.best
-  servername: server9-3.998877.best
+  server: us19.998998.best
+  servername: server2-2.998877.best
   tls: true
   type: vmess
   uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
   ws-opts:
-    path: /rksdnuhgteb?ed=2560
+    headers:
+      Host: server2-2.998877.best
+    path: /er5khymbnriysb?ed=2560
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸6 |  1.7MB/s
+  name: 11|0|🇺🇸3 |  2.7MB/s
   network: ws
   port: 443
   server: 104.18.24.41
@@ -554,10 +570,10 @@ proxies:
     path: /rksdnuhgteb?ed=2560
 - alterId: 0
   cipher: auto
-  name: 11|2|🇩🇪1 |  5.3MB/s
+  name: 11|0|🇩🇪2 |  1.1MB/s
   network: ws
   port: 80
-  server: 151.101.130.168
+  server: 151.101.194.168
   servername: amd.al
   tls: false
   type: vmess
@@ -566,38 +582,23 @@ proxies:
     path: /XESALISTHEBEST?ed=2048
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸10 |  8.9MB/s
-  network: ws
-  port: 443
-  server: 104.18.29.104
-  servername: serverus1-1.998877.best
-  tls: true
-  type: vmess
-  uuid: 9accf73f-7372-4403-b31e-0f83d86feb98
-  ws-opts:
-    headers:
-      Host: serverus1-1.998877.best
-    path: /e56yglr4i8j7nk?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 11|13|香港9|@ripaojiedian
+  name: 11|0|🇺🇸8 |  1.3MB/s
   network: tcp
-  port: '37903'
-  server: 38.147.188.105
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 21e549ac-f8a0-4dfe-a626-fe1630c7b804
-- alterId: 0
-  cipher: auto
-  name: 11|13|日本4|@ripaojiedian
-  network: tcp
-  port: '35565'
-  server: 120.198.71.214
-  servername: ''
+  port: 32077
+  server: 120.232.153.41
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港9|@ripaojiedian
+  network: tcp
+  port: '13264'
+  server: 38.147.189.130
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8145db0b-c4d7-4389-be41-99f991a4b43f
 - alterId: 0
   cipher: auto
   name: 11,16|美国2|@ripaojiedian
@@ -937,16 +938,6 @@ proxies:
   server: 54.255.179.37
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港9|@ripaojiedian
-  network: tcp
-  port: '13264'
-  server: 38.147.189.130
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8145db0b-c4d7-4389-be41-99f991a4b43f
 - cipher: rc4-md5
   name: 16|6aaZ5rivMTB8QHJpcGFvamllZGlhbg
   obfs: plain
