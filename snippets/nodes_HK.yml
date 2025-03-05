@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,16|香港9|@ripaojiedian
+  name: 11|13|香港9|@ripaojiedian
   network: tcp
   port: '37903'
   server: 38.147.188.105
@@ -81,3 +81,13 @@ proxies:
   protocol-param: 92902:pFWGOQ
   server: 2.hublink.pro
   type: ssr
+- alterId: 0
+  cipher: auto
+  name: 16|香港9|@ripaojiedian
+  network: tcp
+  port: '13264'
+  server: 38.147.189.130
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8145db0b-c4d7-4389-be41-99f991a4b43f
