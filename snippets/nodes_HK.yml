@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,16|香港9|@ripaojiedian
+  name: 11|13|香港9|@ripaojiedian
   network: tcp
   port: '13264'
   server: 38.147.189.130
@@ -70,14 +70,13 @@ proxies:
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港10|@ripaojiedian
-  obfs: plain
-  obfs-param: cd2b692902.6602b8463464108506.microsoft.com
-  password: ENZ52K
-  port: 40208
-  protocol: auth_aes128_md5
-  protocol-param: 92902:pFWGOQ
-  server: 2.hublink.pro
-  type: ssr
+- alterId: 0
+  cipher: auto
+  name: 16|香港9|@ripaojiedian
+  network: tcp
+  port: '30559'
+  server: 38.147.189.108
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 91a7be1d-e997-46be-9b4f-264dce62584a
