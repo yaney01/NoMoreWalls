@@ -528,54 +528,40 @@ proxies:
   ws-opts: {}
 - alterId: 2
   cipher: auto
-  name: 11|2|🌀1- |  4.4MB/s
+  name: 11|2|🇺🇸7 |  6.2MB/s
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
+  tls: false
+  type: vmess
+  uuid: dada7e94-1844-301d-890b-a3fd40595137
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🌀2- |  6.1MB/s
   network: ws
   port: 23611
   server: 11.mamamajd.site
   tls: false
   type: vmess
-  uuid: aa58d12d-dad1-3c2d-ab3d-135a061bbf66
+  uuid: dada7e94-1844-301d-890b-a3fd40595137
   ws-opts:
     headers:
       Host: 11.mamamajd.site
     path: /
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇺🇸3 |  2.5MB/s
-  network: ws
-  port: 23605
-  server: 5.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: aa58d12d-dad1-3c2d-ab3d-135a061bbf66
-  ws-opts:
-    headers:
-      Host: 5.mamamajd.site
-    path: /
 - alterId: 0
   cipher: auto
-  name: 11|13|香港9|@ripaojiedian
+  name: 11,16|日本3|@ripaojiedian
   network: tcp
-  port: '30559'
-  server: 38.147.189.108
+  port: '52896'
+  server: 45.159.50.128
   servername: ''
   tls: false
   type: vmess
-  uuid: 91a7be1d-e997-46be-9b4f-264dce62584a
-- alterId: 0
-  cipher: auto
-  name: 11|12,13|日本4|@ripaojiedian
-  network: ws
-  port: '80'
-  server: a41da1ab-5ae0-fa3e-eabe-70e680bdf1bf.castlepeakhospital.moe
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 21c90669-193d-49d3-8e37-f5c1462eb134
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
+  uuid: d754d8d8-1e09-4ddc-a379-936fb4602634
 - alterId: 0
   cipher: auto
   name: 11,16|美国2|@ripaojiedian
@@ -884,13 +870,3 @@ proxies:
   server: 18.236.83.127
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|日本3|@ripaojiedian
-  network: tcp
-  port: '52896'
-  server: 45.159.50.128
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d754d8d8-1e09-4ddc-a379-936fb4602634
