@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,16|日本3|@ripaojiedian
+  name: 11|13|日本3|@ripaojiedian
   network: tcp
   port: '52896'
   server: 45.159.50.128
@@ -30,6 +30,16 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.169.244.24
+  server: 52.195.226.198
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|日本3|@ripaojiedian
+  network: tcp
+  port: '35565'
+  server: 120.198.71.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
