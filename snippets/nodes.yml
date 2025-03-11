@@ -528,42 +528,24 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2,12,13|台湾2|@ripaojiedian
+  name: 11|2|🇷🇺1 |  5.7MB/s
   network: ws
-  port: '12883'
-  server: gtm1.ktmwan.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9207a3fc-18cc-4af7-ab1c-1c0000e57e37
-  ws-opts:
-    headers:
-      Host: gtm1.ktmwan.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|13|美国2|@ripaojiedian
-  network: tcp
-  port: '44014'
-  server: 120.198.71.219
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|12,13|俄罗斯|@ripaojiedian
-  network: ws
-  port: '23007'
+  port: 23008
   server: 185.22.152.236
-  servername: ''
   tls: false
   type: vmess
-  uuid: b806a6d9-b854-403a-94e7-5fc936a6da2a
+  uuid: 7c24e615-b3cf-4b8b-9102-b86999dcf130
   ws-opts:
-    headers:
-      Host: ''
     path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇦1 |  6.0MB/s
+  network: tcp
+  port: 33311
+  server: bg.guangsu888.cc
+  tls: false
+  type: vmess
+  uuid: fa59f800-269d-4e2d-b29c-b4b9a570bbe0
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 印度  2
