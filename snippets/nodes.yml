@@ -526,49 +526,37 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸1 |  6.1MB/s
+  name: 11|2|🇷🇺2 |  5.8MB/s
   network: ws
-  port: 23617
-  server: 17.mamamajd.site
+  port: 23012
+  server: 185.22.152.236
   tls: false
   type: vmess
-  uuid: 64bd0474-54da-3dae-adb4-419370db4fc4
+  uuid: cc4d27aa-39c2-4e77-b7a4-d2e954754ce5
   ws-opts:
-    headers:
-      Host: 17.mamamajd.site
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|13|香港5|@ripaojiedian
-  network: kcp
-  port: '32899'
-  server: 47.243.204.174
+  name: 11,16|香港8|@ripaojiedian
+  network: tcp
+  port: '49876'
+  server: xxxlsopyyds.com
   servername: ''
   tls: false
   type: vmess
-  uuid: b9d9143b-edba-470d-8d25-0d267880fe7e
+  uuid: 2f0a6a99-af56-4119-bd11-04bccd6b74b7
 - alterId: 0
   cipher: auto
-  name: 11|13|香港8|@ripaojiedian
-  network: kcp
-  port: '26706'
-  server: 47.239.242.136
-  servername: ''
-  tls: false
+  name: 11,16|美国3|@ripaojiedian
+  network: tcp
+  port: '48216'
+  server: relay-cn-00.anycoin.bid
+  servername: 3233342d3134382e3133352e3131352e3237.anycoin.bid
+  tls: true
   type: vmess
-  uuid: 3949be3c-f862-4081-afca-9979bd189648
-- alterId: 0
-  cipher: auto
-  name: 11|13|日本4|@ripaojiedian
-  network: kcp
-  port: '58490'
-  server: 8.209.203.88
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 551087e5-9a03-4634-9e7f-714133eb3ccb
+  uuid: 4fdea9bc-008d-11f0-ac34-00163c6ae8d5
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 印度  2
@@ -960,23 +948,3 @@ proxies:
   server: 54.180.137.54
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港8|@ripaojiedian
-  network: tcp
-  port: '49876'
-  server: xxxlsopyyds.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2f0a6a99-af56-4119-bd11-04bccd6b74b7
-- alterId: 0
-  cipher: auto
-  name: 16|美国3|@ripaojiedian
-  network: tcp
-  port: '48216'
-  server: relay-cn-00.anycoin.bid
-  servername: 3233342d3134382e3133352e3131352e3237.anycoin.bid
-  tls: true
-  type: vmess
-  uuid: 4fdea9bc-008d-11f0-ac34-00163c6ae8d5
