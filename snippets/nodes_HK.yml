@@ -10,7 +10,7 @@ proxies:
   uuid: 53d943b0-df6d-47d0-9839-7da7f5c942c4
 - alterId: 0
   cipher: auto
-  name: 11,16|香港8|@ripaojiedian
+  name: 11|13|香港8|@ripaojiedian
   network: tcp
   port: '49876'
   server: xxxlsopyyds.com
@@ -45,7 +45,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503140983506-gBQ0aA7o7i.download.microsoft.com
+    host: 202503140983506-1tyf6s8TzW.download.microsoft.com
     mode: http
   port: 8716
   server: cn01.efan8867801.xyz
@@ -57,39 +57,9 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503140983506-gBQ0aA7o7i.download.microsoft.com
+    host: 202503140983506-1tyf6s8TzW.download.microsoft.com
     mode: http
   port: 8752
   server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇺🇸 美国3|@ripaojiedian
-  password: ea2QsO
-  port: 48216
-  server: relay-cn-00.anycoin.bid
-  servername: 3233342d3134382e3133352e3131352e3237.anycoin.bid
-  skip-cert-verify: false
-  sni: ctldl.windowsupdate.com
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 4fdea9bc-008d-11f0-ac34-00163c6ae8d5
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: XJPAS0N4BEP15G19
-  port: 15010
-  server: 8tv68qhq.slashdevslashnetslashtun.net
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港7|@ripaojiedian
-  password: 2T5W8KZ3SXC3B0GJ
-  port: 15014
-  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
