@@ -1,31 +1,24 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|12|🇭🇰 香港5|@ripaojiedian
-  network: ws
-  port: 46003
-  server: cloudgd.coemn.com
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: cloudgd.coemn.com
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
-  name: 11|13|香港5|@ripaojiedian
-  network: ws
-  port: '46003'
-  server: cloudgd.coemn.com
+  name: 11,16|香港3|@ripaojiedian
+  network: tcp
+  port: '11111'
+  server: bgp1.bgp1.miaomiaowu114514.org
   servername: ''
   tls: false
   type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
+  uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港A|@ripaojiedian
+  network: kcp
+  port: '26706'
+  server: 47.239.242.136
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 3949be3c-f862-4081-afca-9979bd189648
 - client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
   network: ws
@@ -82,23 +75,3 @@ proxies:
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '11111'
-  server: bgp1.bgp1.miaomiaowu114514.org
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 035374e8-60ff-34b3-9e7a-cca4cce31013
-- alterId: 0
-  cipher: auto
-  name: 16|香港A|@ripaojiedian
-  network: kcp
-  port: '26706'
-  server: 47.239.242.136
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3949be3c-f862-4081-afca-9979bd189648
