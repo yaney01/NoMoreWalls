@@ -1,6 +1,16 @@
 proxies:
 - alterId: 64
   cipher: auto
+  name: 11,16|台湾|@ripaojiedian
+  network: tcp
+  port: '50002'
+  server: 112.132.215.12
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
   client-fingerprint: chrome
   name: 15|🇺🇸 美国5|@ripaojiedian
   password: SDYlNZ6z5DA8TZqz33YnN4lzpp88YBZOyXC5we8AZBqn6YXwI0gISyalXjIOyNwCaDpDORKSyDCSg9S
@@ -20,13 +30,3 @@ proxies:
   server: xm.miloli.cc
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|台湾|@ripaojiedian
-  network: tcp
-  port: '50002'
-  server: 112.132.215.12
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24

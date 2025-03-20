@@ -528,14 +528,40 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11,16|日本A|@ripaojiedian
-  network: kcp
-  port: '58490'
-  server: 8.209.203.88
+  name: 11|1|🇫🇷1 |  5.6MB/s
+  network: ws
+  port: 2082
+  server: 45.142.120.190
+  tls: false
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: yellow-paper-029c.yvonna.workers.dev
+    path: /az05.beyondy.cfd/link#
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇫🇷2 |  5.5MB/s
+  network: ws
+  port: 2095
+  server: 185.174.138.209
+  tls: false
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: yellow-paper-029c.yvonna.workers.dev
+    path: /az05.beyondy.cfd/link?/TM
+- alterId: 64
+  cipher: auto
+  name: 11,16|台湾|@ripaojiedian
+  network: tcp
+  port: '50002'
+  server: 112.132.215.12
   servername: ''
   tls: false
   type: vmess
-  uuid: 551087e5-9a03-4634-9e7f-714133eb3ccb
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 11,16|香港A|@ripaojiedian
@@ -546,6 +572,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 3949be3c-f862-4081-afca-9979bd189648
+- alterId: 0
+  cipher: auto
+  name: 11,16|日本A|@ripaojiedian
+  network: kcp
+  port: '58490'
+  server: 8.209.203.88
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 551087e5-9a03-4634-9e7f-714133eb3ccb
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 印度  2
@@ -864,13 +900,3 @@ proxies:
   server: 43.201.85.71
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|台湾|@ripaojiedian
-  network: tcp
-  port: '50002'
-  server: 112.132.215.12
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
