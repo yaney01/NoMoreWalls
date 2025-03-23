@@ -1,14 +1,14 @@
 proxies:
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 11|13|台湾|@ripaojiedian
+  name: 11,16|台湾2|@ripaojiedian
   network: tcp
-  port: '50002'
-  server: 112.132.215.12
+  port: '11110'
+  server: 156.224.77.98
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 111032f8-eabc-46c0-fe89-8acceaeb34e5
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇹🇼 台湾|@ripaojiedian
@@ -17,13 +17,3 @@ proxies:
   server: 150.116.11.9
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|台湾2|@ripaojiedian
-  network: tcp
-  port: '11110'
-  server: 156.224.77.98
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 111032f8-eabc-46c0-fe89-8acceaeb34e5
