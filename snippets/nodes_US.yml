@@ -334,7 +334,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-aLCpr7tZEF.download.microsoft.com
+    host: 202503170996717-B3WS06QTgX.download.microsoft.com
     mode: http
   port: 8771
   server: cn01.efan8867801.xyz
@@ -346,17 +346,30 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-aLCpr7tZEF.download.microsoft.com
+    host: 202503170996717-B3WS06QTgX.download.microsoft.com
     mode: http
   port: 8773
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- client-fingerprint: chrome
+  name: 15|🇺🇸 美国3|@ripaojiedian
+  network: ws
+  password: f2s539
+  port: 443
+  server: aws-us-dallas-1.f1cflined.com
+  skip-cert-verify: false
+  sni: aws-us-dallas-1.f1cflined.com
+  type: trojan
+  ws-opts:
+    headers:
+      Host: aws-us-dallas-1.f1cflined.com
+    path: /f1rocket
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 15|🇺🇸 美国3|@ripaojiedian
-  password: NRSRWKL1RPGLFZ8G
-  port: 17004
-  server: 23.185.248.14
+  name: 15|🇺🇸 美国4|@ripaojiedian
+  password: 0C8XQRGKD622MR0Y
+  port: 17001
+  server: 23.185.248.11
   tfo: false
   type: ss
