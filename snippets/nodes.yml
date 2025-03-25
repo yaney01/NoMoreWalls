@@ -528,20 +528,33 @@ proxies:
   ws-opts: {}
 - alterId: 2
   cipher: auto
-  name: 11|1|🇺🇸1 |  5.2MB/s
+  name: 11|1|🇺🇸1 |  5.9MB/s
   network: ws
-  port: 23615
-  server: 15.mamamajd.site
-  tls: false
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  tls: true
   type: vmess
-  uuid: 44ce6a3e-352f-333f-941d-1bae82e228b6
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
   ws-opts:
     headers:
-      Host: 15.mamamajd.site
+      Host: zxjp-c.tkong.cc
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|1|🇦🇪2 |  5.0MB/s
+  name: 11|1|🇺🇸8 |  2.8MB/s
+  network: ws
+  port: 80
+  server: 104.26.12.31
+  servername: 326249018619672025032010340654852.mglxc.chibaba.filegear-sg.me
+  tls: false
+  type: vmess
+  uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
+  ws-opts:
+    path: /lxc.html?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇦🇪1 |  2.3MB/s
   network: ws
   port: 80
   server: 104.16.0.178
@@ -550,6 +563,40 @@ proxies:
   uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
   ws-opts:
     path: /dubai.html?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇦🇪2 |  1.3MB/s
+  network: ws
+  port: 80
+  server: 172.67.152.71
+  tls: false
+  type: vmess
+  uuid: 27c85fdb-5e8f-43ea-bf43-4ed4d0a3b306
+  ws-opts:
+    path: /dubai.html?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇫🇷4 |  2.3MB/s
+  network: ws
+  port: 2082
+  server: 45.142.120.190
+  tls: false
+  type: vmess
+  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  ws-opts:
+    headers:
+      Host: yellow-paper-029c.yvonna.workers.dev
+    path: /az05.beyondy.cfd/link#
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港|@ripaojiedian
+  network: tcp
+  port: '53199'
+  server: 38.147.188.94
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1bd1a355-cc70-47a4-b8ca-fb4e0a38fac6
 - alterId: 0
   cipher: auto
   name: 11,16|香港3|@ripaojiedian
@@ -570,16 +617,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|13|新加坡2|@ripaojiedian
-  network: tcp
-  port: '10710'
-  server: 120.198.71.184
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: CE361194-7D70-614C-780B-D3BDB61D0257
 - alterId: 0
   cipher: auto
   name: 11,16|日本A|@ripaojiedian
@@ -897,13 +934,3 @@ proxies:
   server: 3.112.13.110
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '53199'
-  server: 38.147.188.94
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1bd1a355-cc70-47a4-b8ca-fb4e0a38fac6
