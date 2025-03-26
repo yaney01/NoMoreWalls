@@ -309,7 +309,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-V0ONnI0Viy.download.microsoft.com
+    host: 202503170996717-JTU8BAQVaE.download.microsoft.com
     mode: http
   port: 8771
   server: cn01.efan8867801.xyz
@@ -321,9 +321,17 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-V0ONnI0Viy.download.microsoft.com
+    host: 202503170996717-JTU8BAQVaE.download.microsoft.com
     mode: http
   port: 8773
   server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇺🇸 美国5|@ripaojiedian
+  password: d8285a86cdb003de
+  port: 16112
+  server: 46.17.40.113
   tfo: false
   type: ss
