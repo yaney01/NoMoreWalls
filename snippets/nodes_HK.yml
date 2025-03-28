@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11,16|香港4|@ripaojiedian
+  network: tcp
+  port: '14601'
+  server: stan.pythoncdn.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: B3A983CB-0A4A-438E-9A45-9438B0D362B0
+- alterId: 0
+  cipher: auto
   name: 11,16|香港|@ripaojiedian
   network: tcp
   port: '51182'
@@ -9,6 +19,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港7|@ripaojiedian
+  network: tcp
+  port: '47231'
+  server: 38.147.188.96
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 178eb98b-3999-4094-a739-1456bdd3ebe1
 - alterId: 0
   cipher: auto
   name: 11,16|香港A|@ripaojiedian
@@ -56,23 +76,3 @@ proxies:
   server: xg1.gywanglug.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港4|@ripaojiedian
-  network: tcp
-  port: '14601'
-  server: stan.pythoncdn.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: B3A983CB-0A4A-438E-9A45-9438B0D362B0
-- alterId: 0
-  cipher: auto
-  name: 16|香港7|@ripaojiedian
-  network: tcp
-  port: '47231'
-  server: 38.147.188.96
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 178eb98b-3999-4094-a739-1456bdd3ebe1
