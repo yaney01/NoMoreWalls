@@ -235,6 +235,20 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸15 |  2.8MB/s
+  network: ws
+  port: 2096
+  server: 104.18.119.222
+  servername: 1743256978.speed.adl.cccp.freefly.pp.ua
+  tls: true
+  type: vmess
+  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  ws-opts:
+    headers:
+      Host: 1743256978.speed.adl.cccp.freefly.pp.ua
+    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
