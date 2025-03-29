@@ -526,32 +526,20 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸13 |  5.5MB/s
+  name: 11|2|🇫🇷5 |  5.9MB/s
   network: ws
-  port: 420
-  server: 794c0cbe-stw740-styh7u-bxx2.fmt2-us.sghuawei.com
-  tls: false
+  port: 443
+  server: 152.67.251.232
+  servername: irvideo.cfd
+  tls: true
   type: vmess
-  uuid: 2cba013a-c284-11ef-92b5-f23c93136cb3
+  uuid: e537f2f5-2a0c-4f59-92c9-832ca6433bf3
   ws-opts:
     headers:
-      Host: 794c0cbe-stw740-styh7u-bxx2.fmt2-us.sghuawei.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|1|🇺🇸16 |  5.1MB/s
-  network: ws
-  port: 420
-  server: ac42c440-stw740-sxk0uf-4fy2.fmt2-us.sghuawei.com
-  tls: false
-  type: vmess
-  uuid: 753cc4e8-f9a3-11ed-bce0-f23c93665044
-  ws-opts:
-    headers:
-      Host: ac42c440-stw740-sxk0uf-4fy2.fmt2-us.sghuawei.com
-    path: /
+      Host: irvideo.cfd
+    path: /linkws
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -571,67 +559,21 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 11|1|🇺🇸20 |  3.9MB/s
+  client-fingerprint: chrome
+  name: 11,15,16|美国5|@ripaojiedian
   network: ws
-  port: 420
-  server: 674ddbc7-stw740-stx214-84ap.fmt2-us.sghuawei.com
+  port: '420'
+  server: 494a196c-stucg0-t16qfc-3ge3.fmt2-us.sghuawei.com
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: b2ae33f6-edd2-11ee-808f-f23c93141fad
+  uuid: 6e28d086-f1bd-11ed-9ebc-f23c93665044
   ws-opts:
     headers:
-      Host: 674ddbc7-stw740-stx214-84ap.fmt2-us.sghuawei.com
+      Host: 494a196c-stucg0-t16qfc-3ge3.fmt2-us.sghuawei.com
     path: /
-- alterId: 0
-  cipher: auto
-  name: 11|13|香港|@ripaojiedian
-  network: tcp
-  port: '51182'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|13|香港4|@ripaojiedian
-  network: tcp
-  port: '14601'
-  server: stan.pythoncdn.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: B3A983CB-0A4A-438E-9A45-9438B0D362B0
-- alterId: 0
-  cipher: auto
-  name: 11|13|香港7|@ripaojiedian
-  network: tcp
-  port: '47231'
-  server: 38.147.188.96
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 178eb98b-3999-4094-a739-1456bdd3ebe1
-- alterId: 0
-  cipher: auto
-  name: 11|13|台湾|@ripaojiedian
-  network: tcp
-  port: '31919'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|13|美国3|@ripaojiedian
-  network: tcp
-  port: '18733'
-  server: 23.236.68.110
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6b2e2719-a545-49c1-ab3f-6f4104ae9f56
 - alterId: 0
   cipher: auto
   name: 11,16|日本A|@ripaojiedian
@@ -891,23 +833,6 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|美国5|@ripaojiedian
-  network: ws
-  port: '420'
-  server: 494a196c-stucg0-t16qfc-3ge3.fmt2-us.sghuawei.com
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 6e28d086-f1bd-11ed-9ebc-f23c93665044
-  ws-opts:
-    headers:
-      Host: 494a196c-stucg0-t16qfc-3ge3.fmt2-us.sghuawei.com
-    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇰🇷 韩国特殊|@ripaojiedian
