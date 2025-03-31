@@ -528,60 +528,30 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|0|🇯🇵1 |  2.5MB/s
+  name: 11|1|🇭🇰6 |  5.2MB/s
   network: ws
-  port: '11184'
-  server: 175.215.154.208
-  tls: true
+  port: 2052
+  server: ms.rtxconfigz.xyz
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 0ee75dd1-5e59-4615-a6a8-6fe7aa0b6f17
+  uuid: 84ab761a-9f51-42bf-83ab-8a6b4885ca27
   ws-opts:
-    path: /
+    path: ''
 - alterId: 0
   cipher: auto
-  name: 11|0|🇺🇸5 |  2.6MB/s
+  name: 11|1|🇰🇷2 |  5.5MB/s
   network: ws
-  port: '8088'
-  server: ora.aihi.uk
-  tls: true
-  type: vmess
-  uuid: 979e39d7-fdf8-4e51-afb6-4d181c56170f
-  ws-opts:
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇯🇵2 |  3.6MB/s
-  network: ws
-  port: 12134
-  server: 221.165.128.234
-  servername: oracleipv4.till.nyc.mn
-  tls: true
-  type: vmess
-  uuid: a13f1b5a-7071-4bbc-8bae-f4f74fd77ace
-  ws-opts:
-    headers:
-      Host: oracleipv4.till.nyc.mn
-    path: /123
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇰🇷1 |  2.9MB/s
-  network: ws
-  port: '443'
+  port: 443
   server: kr3.ttcc.tech
+  servername: kr3.ttcc.tech
   tls: true
   type: vmess
   uuid: b2d10673-24cc-4f96-b1f3-da8b17589077
   ws-opts:
+    headers:
+      Host: kr3.ttcc.tech
     path: /
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇰🇷2 |  2.2MB/s
-  network: tcp
-  port: 34009
-  server: v3-hanguo-zx.netcar.live
-  tls: false
-  type: vmess
-  uuid: b4a59b54-4a1d-4afc-bd1b-2e3151047c9f
 - alterId: 0
   cipher: auto
   name: 11,16|日本|@ripaojiedian
