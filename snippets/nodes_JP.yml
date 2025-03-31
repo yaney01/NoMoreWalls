@@ -1,34 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇯🇵1 |  6.5MB/s
-  network: ws
-  port: 25279
-  server: cu.awslcn.info
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts:
-    headers:
-      Host: cu.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇯🇵2 |  3.9MB/s
-  network: ws
-  port: 11184
-  server: 175.215.154.208
-  servername: oracle2ipv4.till.nyc.mn
-  tls: true
-  type: vmess
-  uuid: 0ee75dd1-5e59-4615-a6a8-6fe7aa0b6f17
-  ws-opts:
-    headers:
-      Host: oracle2ipv4.till.nyc.mn
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇯🇵6 |  3.9MB/s
+  name: 11|0|🇯🇵1 |  2.5MB/s
   network: ws
   port: '11184'
   server: 175.215.154.208
@@ -39,30 +12,18 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|1|🇯🇵8 |  6.3MB/s
+  name: 11|0|🇯🇵2 |  3.6MB/s
   network: ws
-  port: 25278
-  server: cu.awslcn.info
-  tls: false
+  port: 12134
+  server: 221.165.128.234
+  servername: oracleipv4.till.nyc.mn
+  tls: true
   type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  uuid: a13f1b5a-7071-4bbc-8bae-f4f74fd77ace
   ws-opts:
     headers:
-      Host: cu.awslcn.info
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇯🇵9 |  6.0MB/s
-  network: ws
-  port: 25277
-  server: cu.awslcn.info
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts:
-    headers:
-      Host: cu.awslcn.info
-    path: /
+      Host: oracleipv4.till.nyc.mn
+    path: /123
 - alterId: 0
   cipher: auto
   name: 11,16|日本|@ripaojiedian
