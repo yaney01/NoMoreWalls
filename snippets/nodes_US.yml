@@ -237,14 +237,11 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|美国|@ripaojiedian
+  name: 11|12,13|美国|@ripaojiedian
   network: ws
   port: '8136'
   server: v49.emovpn.buzz
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 6db95bbc-c7a1-4b3f-9346-df71f4d95350
@@ -320,3 +317,27 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 15|🇺🇸 美国|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503170996717-G8dQXiDzfv.download.microsoft.com
+    mode: http
+  port: 8776
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 15|🇺🇸 美国2|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202503170996717-G8dQXiDzfv.download.microsoft.com
+    mode: http
+  port: 8771
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
