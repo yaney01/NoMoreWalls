@@ -1,17 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇯🇵4 |  2.9MB/s
-  network: ws
-  port: 25775
-  server: kkkghdragxc.fask511.cfd
+  name: 11,16|日本4|@ripaojiedian
+  network: tcp
+  port: '36001'
+  server: v2-hk2-zf2.netcar.live
+  servername: ''
   tls: false
   type: vmess
-  uuid: 50597737-862b-43c4-a4ba-5c808171d6d1
-  ws-opts:
-    headers:
-      Host: www.douyin.com
-    path: /www.khanacademy.org?ed=512
+  uuid: f41a7211-3a16-4aa0-a3cf-0dd959b9ef1d
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -29,16 +26,6 @@ proxies:
     headers:
       Host: lc.loc.cc
     path: 3a5ca001-9884-4d96-a002-2b04f306747e-vm
-- alterId: 0
-  cipher: auto
-  name: 11,16|日本4|@ripaojiedian
-  network: tcp
-  port: '36001'
-  server: v2-hk2-zf2.netcar.live
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f41a7211-3a16-4aa0-a3cf-0dd959b9ef1d
 - alterId: 0
   cipher: auto
   name: 11,16|日本A|@ripaojiedian
