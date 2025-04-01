@@ -526,37 +526,130 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇸🇬1 |  6.1MB/s
-  network: tcp
-  port: 3683
-  server: 4f4f231e-su7xc0-su1oku-2gok.b.fosant.com
-  tls: false
-  type: vmess
-  uuid: 17cdeb6c-f046-11ee-bdac-f23c93141fad
 - alterId: 2
   cipher: auto
-  name: 11|2|🇺🇸8 |  2.1MB/s
+  name: 11|1|🇺🇸9 |  5.8MB/s
   network: ws
-  port: 23615
-  server: 15.mamamajd.site
+  port: 7218
+  server: 2322b7f0-su5gg0-sx6tfn-1fwzw.sja.plebai.net
   tls: false
   type: vmess
-  uuid: da339ed4-5245-3d02-b0bc-1e0b2cf98aa1
+  uuid: 97e5f0fc-e173-11ed-8e13-f23c91cfbbc9
   ws-opts:
     headers:
-      Host: 15.mamamajd.site
+      Host: 2322b7f0-su5gg0-sx6tfn-1fwzw.sja.plebai.net
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|2|🇸🇬2 |  5.4MB/s
-  network: tcp
-  port: 3683
-  server: 1387ebdd-su7b40-su6828-eme.b.fosant.com
+  name: 11|1|🇮🇳1 |  6.1MB/s
+  network: ws
+  port: 25216
+  server: cm1.awslcn.info
   tls: false
   type: vmess
-  uuid: 16d93f14-af0e-11ee-8ebe-f23c93136cb3
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|1|🌀8-GR |  5.8MB/s
+  network: ws
+  port: 25242
+  server: hk2.awslcn.info
+  tls: false
+  type: vmess
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|1|🌀9-VN |  5.3MB/s
+  network: ws
+  port: 25285
+  server: cm1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵4 |  2.9MB/s
+  network: ws
+  port: 25775
+  server: kkkghdragxc.fask511.cfd
+  tls: false
+  type: vmess
+  uuid: 50597737-862b-43c4-a4ba-5c808171d6d1
+  ws-opts:
+    headers:
+      Host: www.douyin.com
+    path: /www.khanacademy.org?ed=512
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇬🇧2 |  4.9MB/s
+  network: ws
+  port: '25240'
+  server: cm.awslcn.info
+  tls: false
+  type: vmess
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|1|🌀11-GR |  6.3MB/s
+  network: ws
+  port: 25242
+  server: hk1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|1|🌀12-VN |  2.2MB/s
+  network: ws
+  port: 25285
+  server: cu.awslcn.info
+  tls: false
+  type: vmess
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇸🇬3 |  1.0MB/s
+  network: tcp
+  port: 3683
+  server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇬🇧3 |  4.7MB/s
+  network: ws
+  port: 25240
+  server: cm1.awslcn.info
+  tls: false
+  type: vmess
+  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇸🇬4 |  1.1MB/s
+  network: tcp
+  port: 36007
+  server: v2-sg2-zf.netcar.live
+  tls: false
+  type: vmess
+  uuid: b1f8ac28-98f4-4e75-93c1-37f0d959e78b
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇸🇬5 |  1.7MB/s
+  network: tcp
+  port: 3683
+  server: a5944a92-su7b40-tclkqs-deip.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: 7a2512b4-09ee-11f0-8d46-f23c9313b177
 - alterId: 0
   cipher: auto
   name: 11,16|香港3|@ripaojiedian
@@ -567,120 +660,6 @@ proxies:
   tls: false
   type: vmess
   uuid: bfd93c5c-abc7-416a-a205-372d3db979a4
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇸🇬3 |  6.2MB/s
-  network: tcp
-  port: 3683
-  server: a5944a92-su7b40-tclkqs-deip.b.fosant.com
-  tls: false
-  type: vmess
-  uuid: 7a2512b4-09ee-11f0-8d46-f23c9313b177
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇩🇪5 |  4.9MB/s
-  network: ws
-  port: 23618
-  server: 18.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: da339ed4-5245-3d02-b0bc-1e0b2cf98aa1
-  ws-opts:
-    headers:
-      Host: 18.mamamajd.site
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇬🇧2 |  3.3MB/s
-  network: ws
-  port: 23613
-  server: 13.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: da339ed4-5245-3d02-b0bc-1e0b2cf98aa1
-  ws-opts:
-    headers:
-      Host: 13.mamamajd.site
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇮🇳4 |  6.1MB/s
-  network: ws
-  port: 23611
-  server: 11.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: da339ed4-5245-3d02-b0bc-1e0b2cf98aa1
-  ws-opts:
-    headers:
-      Host: 11.mamamajd.site
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇩🇪7 |  3.0MB/s
-  network: ws
-  port: 25241
-  server: cm.awslcn.info
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸19 |  1.6MB/s
-  network: tcp
-  port: '35001'
-  server: 120.198.71.216
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇸🇬8 |  6.6MB/s
-  network: tcp
-  port: 3683
-  server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
-  tls: false
-  type: vmess
-  uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇸🇬10 |  6.0MB/s
-  network: tcp
-  port: 3683
-  server: 098e0774-su7xc0-tcm6ys-deip.b.fosant.com
-  tls: false
-  type: vmess
-  uuid: 7a2512b4-09ee-11f0-8d46-f23c9313b177
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇬🇧3 |  5.0MB/s
-  network: ws
-  port: 25240
-  server: cm1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇮🇳5 |  4.3MB/s
-  network: ws
-  port: 25216
-  server: cm1.awslcn.info
-  tls: false
-  type: vmess
-  uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇹🇼7 |  6.2MB/s
-  network: tcp
-  port: 3687
-  server: 681b338b-su9s00-t36qk2-cuof.a.fosant.com
-  tls: false
-  type: vmess
-  uuid: 4ac1098c-eff0-11ef-8543-f23c93136cb3
 - alterId: 0
   cipher: auto
   name: 11,16|香港5|@ripaojiedian

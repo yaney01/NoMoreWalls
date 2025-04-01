@@ -1,6 +1,19 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11|1|🇯🇵4 |  2.9MB/s
+  network: ws
+  port: 25775
+  server: kkkghdragxc.fask511.cfd
+  tls: false
+  type: vmess
+  uuid: 50597737-862b-43c4-a4ba-5c808171d6d1
+  ws-opts:
+    headers:
+      Host: www.douyin.com
+    path: /www.khanacademy.org?ed=512
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
   name: 11,15,16|日本3|@ripaojiedian
   network: ws
