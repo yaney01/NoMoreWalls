@@ -26,7 +26,7 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
-  password: GCXTUOMZIM3F6J96
+  password: 3IID3X30X5V41GUG
   port: 16001
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
@@ -34,9 +34,29 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡2|@ripaojiedian
-  password: 9BUY3HH5FVDMCCH7
+  password: 73X9GBT73GSRS89R
   port: 16011
   server: w72tapyb.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡3|@ripaojiedian
+  password: cfa82b34-bb9a-44e5-bb6c-e3df8284a070
+  port: 26712
+  server: rk2.nynode0.cc
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡4|@ripaojiedian
+  password: Sj10bnYDe7w6V29E
+  plugin: obfs
+  plugin-opts:
+    host: 55417938a8.m.ctrip.com
+    mode: http
+  port: 10003
+  server: south.inmysecretlife.xyz
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -44,6 +64,6 @@ proxies:
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 3.36.26.148
+  server: 43.207.203.164
   tfo: false
   type: ss

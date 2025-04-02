@@ -309,7 +309,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-G8dQXiDzfv.download.microsoft.com
+    host: 202503170996717-uvymC2YEG6.download.microsoft.com
     mode: http
   port: 8776
   server: cn01.efan8867801.xyz
@@ -321,9 +321,26 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-G8dQXiDzfv.download.microsoft.com
+    host: 202503170996717-uvymC2YEG6.download.microsoft.com
     mode: http
   port: 8771
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|美国3|@ripaojiedian
+  network: ws
+  port: '2053'
+  server: usa.visa.com
+  servername: hax.hy.cloudns.ch
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: d79261b1-b706-49f6-b39d-af2a0b8ebac5
+  ws-opts:
+    headers:
+      Host: hax.hy.cloudns.ch
+    path: d79261b1-b706-49f6-b39d-af2a0b8ebac5-vm

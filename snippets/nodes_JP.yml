@@ -1,9 +1,9 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,16|日本4|@ripaojiedian
+  name: 11|12|🇯🇵 日本4|@ripaojiedian
   network: tcp
-  port: '36001'
+  port: 36001
   server: v2-hk2-zf2.netcar.live
   servername: ''
   tls: false
@@ -11,14 +11,11 @@ proxies:
   uuid: f41a7211-3a16-4aa0-a3cf-0dd959b9ef1d
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|日本3|@ripaojiedian
+  name: 11|12,13|日本3|@ripaojiedian
   network: ws
   port: '19608'
   server: lc.loc.cc
   servername: lc.loc.cc
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: 3a5ca001-9884-4d96-a002-2b04f306747e
@@ -28,7 +25,7 @@ proxies:
     path: 3a5ca001-9884-4d96-a002-2b04f306747e-vm
 - alterId: 0
   cipher: auto
-  name: 11,16|日本A|@ripaojiedian
+  name: 11|13|日本A|@ripaojiedian
   network: kcp
   port: '58490'
   server: 8.209.203.88
@@ -42,7 +39,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-G8dQXiDzfv.download.microsoft.com
+    host: 202503170996717-uvymC2YEG6.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -51,9 +48,25 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
-  password: QSM88IU0D1Y77F3O
+  password: 9X6HM83GN02K8GDR
+  port: 18005
+  server: 156.231.104.15
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: DXLMD9TRFJID5RBE
   port: 18003
   server: 156.231.104.13
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本4|@ripaojiedian
+  password: c33861aa-18ce-4436-a3f5-81ff8f3c6e25
+  port: 48150
+  server: rk2.nynode0.cc
   tfo: false
   type: ss
 - cipher: rc4-md5
@@ -62,7 +75,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-G8dQXiDzfv.download.microsoft.com
+    host: 202503170996717-uvymC2YEG6.download.microsoft.com
     mode: http
   port: 8769
   server: cn01.efan8867801.xyz
@@ -73,6 +86,6 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 44.247.247.209
+  server: 43.207.150.238
   tfo: false
   type: ss
