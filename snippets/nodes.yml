@@ -526,77 +526,60 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 11|1|🇺🇸1 |  2.6MB/s
+  name: 11|2|🇩🇪1 |  4.5MB/s
   network: ws
-  port: 22440
-  server: 198.23.184.195
-  servername: ny.likelike.ddns-ip.net
-  tls: true
+  port: 23618
+  server: 18.mamamajd.site
+  tls: false
   type: vmess
-  uuid: 9ded86f7-5c00-4202-9769-0d5d4d22575c
+  uuid: 81385fe3-0cc7-39fc-a6ba-413719c0da9f
   ws-opts:
     headers:
-      Host: ny.likelike.ddns-ip.net
+      Host: 18.mamamajd.site
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|1|🇨🇭1 |  1.7MB/s
-  network: tcp
-  port: 22324
-  server: 186.190.215.193
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸27 |  2.8MB/s
+  name: 11|2|🇯🇵5 |  5.5MB/s
   network: ws
-  port: 22440
-  server: 198.23.184.195
+  port: 443
+  server: u2.huvicloud.com
+  servername: u2.huvicloud.com
   tls: true
   type: vmess
-  uuid: 9ded86f7-5c00-4202-9769-0d5d4d22575c
-  ws-opts: {}
+  uuid: f07b9711-a6a4-4128-807d-fdb40dcaa488
+  ws-opts:
+    headers:
+      Host: u2.huvicloud.com
+    path: /f07b9711-a6a4-4128-807d-fdb40dcaa488
 - alterId: 0
   cipher: auto
-  name: 11|1|🇹🇼42 |  1.7MB/s
+  name: 11|2|🇸🇬3 |  1.3MB/s
   network: tcp
-  port: 34006
-  server: v2-tw1-zx.netcar.live
+  port: 3683
+  server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
   tls: false
   type: vmess
-  uuid: a7a702a2-c56d-4379-972b-30690dddec0d
+  uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
 - alterId: 0
   cipher: auto
-  name: 11|1|🇸🇬3 |  1.1MB/s
+  name: 11|2|🇸🇬9 |  1.4MB/s
+  network: tcp
+  port: 3683
+  server: 1387ebdd-su7b40-su6828-eme.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: 16d93f14-af0e-11ee-8ebe-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇸🇬14 |  1.7MB/s
   network: tcp
   port: 3683
   server: 4f4f231e-su7xc0-su1oku-2gok.b.fosant.com
   tls: false
   type: vmess
   uuid: 17cdeb6c-f046-11ee-bdac-f23c93141fad
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸38 |  2.3MB/s
-  network: tcp
-  port: 32246
-  server: 38.209.65.51
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3ded5f28-0704-4369-c011-68309fd94cd0
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇸🇬5 |  3.1MB/s
-  network: tcp
-  port: 36007
-  server: v2-sg2-zf.netcar.live
-  tls: false
-  type: vmess
-  uuid: b1f8ac28-98f4-4e75-93c1-37f0d959e78b
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

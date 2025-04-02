@@ -237,40 +237,6 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸1 |  2.6MB/s
-  network: ws
-  port: 22440
-  server: 198.23.184.195
-  servername: ny.likelike.ddns-ip.net
-  tls: true
-  type: vmess
-  uuid: 9ded86f7-5c00-4202-9769-0d5d4d22575c
-  ws-opts:
-    headers:
-      Host: ny.likelike.ddns-ip.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸27 |  2.8MB/s
-  network: ws
-  port: 22440
-  server: 198.23.184.195
-  tls: true
-  type: vmess
-  uuid: 9ded86f7-5c00-4202-9769-0d5d4d22575c
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸38 |  2.3MB/s
-  network: tcp
-  port: 32246
-  server: 38.209.65.51
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3ded5f28-0704-4369-c011-68309fd94cd0
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
   name: 11,15,16|美国3|@ripaojiedian
   network: ws
