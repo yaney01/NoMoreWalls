@@ -23,7 +23,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '1,3,6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #10'
+  name: '1,3,6|🇺🇸_US_美国 #9'
   network: ws
   port: 2086
   server: 104.19.57.4
@@ -79,7 +79,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '1,3,6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #9'
+  name: '1,3,6|🇺🇸_US_美国 #13'
   network: ws
   port: 2086
   server: 104.18.57.111
@@ -207,7 +207,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国 #20'
+  name: '3|🇺🇸_US_美国 #4'
   network: ws
   port: 2082
   server: cfcdn1.sanfencdn9.com
@@ -217,7 +217,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国 #21'
+  name: '3|🇺🇸_US_美国 #5'
   network: ws
   port: 2086
   server: 104.19.32.46
@@ -227,7 +227,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国 #22'
+  name: '3|🇺🇸_US_美国 #6'
   network: ws
   port: 8080
   server: russia.com
@@ -237,13 +237,45 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸24 |  3.3MB/s
-  network: tcp
-  port: '34013'
-  server: v2-us2-zx.netcar.live
+  name: 11|1|🇺🇸16 |  1.2MB/s
+  network: ws
+  port: 443
+  server: us159.vp1000.net
+  tls: true
+  type: vmess
+  uuid: 7e718bd0-3ae2-489a-99d6-e18d311cd017
+  ws-opts:
+    headers:
+      Host: us148.vp1000.net
+    path: /cp100vp800kkkdsnx
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸21 |  3.6MB/s
+  network: ws
+  port: 8080
+  server: www.csgo.com
+  servername: ''
   tls: false
   type: vmess
-  uuid: 9a037058-73a1-4fc3-973f-c73b1f612d81
+  uuid: bcac1542-6bd2-44f0-dc02-d69690f5022a
+  ws-opts:
+    headers:
+      Host: us.likelike.ddns-ip.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸36 |  5.8MB/s
+  network: ws
+  port: 8080
+  server: 195.85.59.161
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bcac1542-6bd2-44f0-dc02-d69690f5022a
+  ws-opts:
+    headers:
+      Host: us.likelike.ddns-ip.net
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome

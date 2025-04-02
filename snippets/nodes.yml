@@ -23,7 +23,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '1,3,6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #10'
+  name: '1,3,6|🇺🇸_US_美国 #9'
   network: ws
   port: 2086
   server: 104.19.57.4
@@ -167,7 +167,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '1,3,6,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #9'
+  name: '1,3,6|🇺🇸_US_美国 #13'
   network: ws
   port: 2086
   server: 104.18.57.111
@@ -410,7 +410,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国 #20'
+  name: '3|🇺🇸_US_美国 #4'
   network: ws
   port: 2082
   server: cfcdn1.sanfencdn9.com
@@ -420,7 +420,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国->🇧🇷_BR_巴西 #2'
+  name: 3|🇺🇸_US_美国->🇧🇷_BR_巴西
   network: ws
   port: 2052
   server: 104.18.37.248
@@ -430,7 +430,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国->🇨🇳_CN_中国 #3'
+  name: 3|🇺🇸_US_美国->🇨🇳_CN_中国
   network: ws
   port: 8080
   server: 104.19.47.16
@@ -440,7 +440,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #8'
+  name: 3|🇺🇸_US_美国->🇨🇦_CA_加拿大
   network: ws
   port: 2086
   server: 104.19.47.65
@@ -450,7 +450,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇨🇳_CN_中国->🇺🇸_US_美国 #3'
+  name: '3|🇨🇳_CN_中国->🇺🇸_US_美国 #1'
   network: ws
   port: 16928
   server: 120.232.240.56
@@ -460,7 +460,7 @@ proxies:
   ws-opts: {}
 - alterId: 64
   cipher: auto
-  name: '3,17|🇨🇳_CN_中国->🇺🇸_US_美国 #4'
+  name: '3|🇨🇳_CN_中国->🇺🇸_US_美国 #2'
   network: tcp
   port: 54002
   server: 183.240.235.162
@@ -469,7 +469,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国->🇧🇷_BR_巴西 #3'
+  name: '3|🇺🇸_US_美国->🇧🇷_BR_巴西 #1'
   network: ws
   port: 2052
   server: p3.v2raybrasil.cloud
@@ -479,7 +479,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国 #21'
+  name: '3|🇺🇸_US_美国 #5'
   network: ws
   port: 2086
   server: 104.19.32.46
@@ -489,7 +489,7 @@ proxies:
   ws-opts: {}
 - alterId: 64
   cipher: auto
-  name: '3,17|🇨🇳_CN_中国 #1'
+  name: 3|🇨🇳_CN_中国
   network: tcp
   port: 54882
   server: 183.240.235.162
@@ -498,7 +498,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国 #22'
+  name: '3|🇺🇸_US_美国 #6'
   network: ws
   port: 8080
   server: russia.com
@@ -508,7 +508,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国->🇫🇷_FR_法国 #2'
+  name: '3|🇺🇸_US_美国->🇫🇷_FR_法国 #1'
   network: ws
   port: 2082
   server: 172.67.130.140
@@ -518,7 +518,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: '3,17|🇺🇸_US_美国->🇨🇦_CA_加拿大 #11'
+  name: '3|🇺🇸_US_美国->🇨🇦_CA_加拿大 #3'
   network: ws
   port: 2086
   server: 172.64.175.213
@@ -528,99 +528,86 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸24 |  3.3MB/s
-  network: tcp
-  port: '34013'
-  server: v2-us2-zx.netcar.live
-  tls: false
-  type: vmess
-  uuid: 9a037058-73a1-4fc3-973f-c73b1f612d81
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇮🇹1 |  1.6MB/s
-  network: tcp
-  port: 13080
-  server: v2-ydlzz.netcar.live
-  tls: false
-  type: vmess
-  uuid: 1e6b5701-5fc7-4fed-aed7-1324fcc5a712
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇭🇰3 |  6.2MB/s
-  network: tcp
-  port: 10032
-  server: v2-hk4-zf.netcar.live
-  tls: false
-  type: vmess
-  uuid: 21ddbca6-a333-4aa1-9431-33725df1e85e
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|美国3|@ripaojiedian
+  name: 11|1|🇯🇵1 |  1.2MB/s
   network: ws
-  port: '2053'
-  server: usa.visa.com
-  servername: hax.hy.cloudns.ch
-  skip-cert-verify: false
-  tfo: false
+  port: 443
+  server: ip4-jp1.vp1000.net
   tls: true
   type: vmess
-  uuid: d79261b1-b706-49f6-b39d-af2a0b8ebac5
+  uuid: 926028df-ece0-42b1-9aaf-d43093ba4a0c
   ws-opts:
     headers:
-      Host: hax.hy.cloudns.ch
-    path: d79261b1-b706-49f6-b39d-af2a0b8ebac5-vm
+      Host: ip4-jp1.vp1000.net
+    path: /pulicpaylfastpDisney
 - alterId: 0
   cipher: auto
-  name: 11|1|🇨🇭2 |  2.1MB/s
+  name: 11|1|🇺🇸16 |  1.2MB/s
+  network: ws
+  port: 443
+  server: us159.vp1000.net
+  tls: true
+  type: vmess
+  uuid: 7e718bd0-3ae2-489a-99d6-e18d311cd017
+  ws-opts:
+    headers:
+      Host: us148.vp1000.net
+    path: /cp100vp800kkkdsnx
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇸🇬5 |  1.2MB/s
+  network: tcp
+  port: 3683
+  server: 4f4f231e-su7xc0-su1oku-2gok.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: 17cdeb6c-f046-11ee-bdac-f23c93141fad
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸21 |  3.6MB/s
+  network: ws
+  port: 8080
+  server: www.csgo.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: bcac1542-6bd2-44f0-dc02-d69690f5022a
+  ws-opts:
+    headers:
+      Host: us.likelike.ddns-ip.net
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇨🇭3 |  1.9MB/s
   network: tcp
   port: 22324
   server: 186.190.215.193
+  servername: ''
   tls: false
   type: vmess
   uuid: 04621bae-ab36-11ec-b909-0242ac120002
 - alterId: 0
   cipher: auto
-  name: 11|1|🌀8- |  1.9MB/s
+  name: 11|1|🇺🇸36 |  5.8MB/s
   network: ws
-  port: 443
-  server: 104.17.137.127
-  tls: true
+  port: 8080
+  server: 195.85.59.161
+  servername: ''
+  tls: false
   type: vmess
-  uuid: 47eab0de-97f9-49be-f2f3-2e4eb17268e6
+  uuid: bcac1542-6bd2-44f0-dc02-d69690f5022a
   ws-opts:
     headers:
-      Host: hk.niskakowski.ggff.net
-    path: /aa
+      Host: us.likelike.ddns-ip.net
+    path: /
 - alterId: 0
   cipher: auto
-  name: 11|1|🇸🇬4 |  1.2MB/s
+  name: 11|1|🇸🇬7 |  1.0MB/s
   network: tcp
-  port: 3683
-  server: 0dc08664-su7b40-sv0q0f-9w5b.b.fosant.com
+  port: 36007
+  server: v2-sg2-zf.netcar.live
   tls: false
   type: vmess
-  uuid: 47adbddb-3307-11ef-8002-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇦🇪3 |  2.6MB/s
-  network: tcp
-  port: 16000
-  server: 85.133.197.170
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 37893181-f53e-4476-98df-8b05ad457057
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇯🇵10 |  1.1MB/s
-  network: tcp
-  port: 40125
-  server: 120.198.71.214
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: b1f8ac28-98f4-4e75-93c1-37f0d959e78b
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -658,6 +645,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|美国3|@ripaojiedian
+  network: ws
+  port: '2053'
+  server: usa.visa.com
+  servername: hax.hy.cloudns.ch
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: d79261b1-b706-49f6-b39d-af2a0b8ebac5
+  ws-opts:
+    headers:
+      Host: hax.hy.cloudns.ch
+    path: d79261b1-b706-49f6-b39d-af2a0b8ebac5-vm
 - alterId: 0
   cipher: auto
   name: 11,16|香港A|@ripaojiedian
