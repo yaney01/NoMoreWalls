@@ -526,12 +526,25 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇧🇷1 |  1.9MB/s
+  network: ws
+  port: 80
+  server: 104.18.23.68
+  tls: false
+  type: vmess
+  uuid: bd9c1aea-240a-463a-83ee-e7b3a6a4ac7a
+  ws-opts:
+    headers:
+      Host: 375175914186712025032911325872796.s15.chibaba.filegear-sg.me
+    path: /s15.html?ed=2048
 - alterId: 2
   cipher: auto
-  name: 11|1|🇮🇹1 |  4.2MB/s
+  name: 11|2|🇫🇷2 |  3.0MB/s
   network: ws
-  port: 30805
-  server: v5.heduian.link
+  port: 30837
+  server: v37.heduian.link
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -541,7 +554,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|1|🌀2-ID |  4.9MB/s
+  name: 11|2|🌀2-ID |  1.0MB/s
   network: ws
   port: 443
   server: quiz.int.vidio.com
@@ -553,19 +566,6 @@ proxies:
     headers:
       Host: serv1.idks1.web.id
     path: /vmess
-- alterId: 2
-  cipher: auto
-  name: 11|1|🇫🇷5 |  5.0MB/s
-  network: ws
-  port: 30837
-  server: v37.heduian.link
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
 - alterId: 0
   cipher: auto
   name: 11,16|香港2|@ripaojiedian
