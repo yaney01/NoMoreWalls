@@ -237,14 +237,11 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|美国5|@ripaojiedian
+  name: 11|12,13|美国5|@ripaojiedian
   network: ws
   port: '80'
   server: 104.21.21.226
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: a8fce442-ae9a-4cc1-a0cc-20308ff0a0db
@@ -326,7 +323,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-V7W8Ez6eLg.download.microsoft.com
+    host: 202504031266665-b2qPz9YET8.download.microsoft.com
     mode: http
   port: 8776
   server: cn01.efan8867801.xyz
@@ -338,35 +335,9 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503170996717-V7W8Ez6eLg.download.microsoft.com
+    host: 202504031266665-b2qPz9YET8.download.microsoft.com
     mode: http
   port: 8771
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: 15|🇺🇸 美国3|@ripaojiedian
-  network: ws
-  password: c97cf46e-1554-36cb-8b36-c3556b883dc4
-  port: 443
-  server: 2024-us2a.88888806.xyz
-  skip-cert-verify: false
-  sni: 2024-us2a.88888806.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 2024-us2a.88888806.xyz
-    path: /92024db4-eadf-4cd1-b7e5-87d047d353f0
-- client-fingerprint: chrome
-  name: 15|🇺🇸 美国4|@ripaojiedian
-  network: ws
-  password: c97cf46e-1554-36cb-8b36-c3556b883dc4
-  port: 443
-  server: 2025-us4a.88888806.xyz
-  skip-cert-verify: false
-  sni: 2025-us4a.88888806.xyz
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 2025-us4a.88888806.xyz
-    path: /92024db4-eadf-4cd1-b7e5-87d047d353f0
