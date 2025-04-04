@@ -1,4 +1,17 @@
 proxies:
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇯🇵2 |  2.4MB/s
+  network: ws
+  port: 422
+  server: 9c9ed1dd-submo0-sy5h80-37m3.tky02.east.189ti.com
+  tls: false
+  type: vmess
+  uuid: 3804b1c6-0600-11ee-94af-f23c93141fad
+  ws-opts:
+    headers:
+      Host: webrtcpunch.video.qq.com
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
