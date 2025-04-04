@@ -1,34 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|12,13|日本2|@ripaojiedian
-  network: ws
-  port: '443'
-  server: u2.huvicloud.com
-  servername: u2.huvicloud.com
-  tls: true
+  name: 11,16|日本4|@ripaojiedian
+  network: tcp
+  port: '28588'
+  server: pqcaqxvt.xn--fiqs8sjz2bull.com
+  servername: ''
+  tls: false
   type: vmess
-  uuid: f07b9711-a6a4-4128-807d-fdb40dcaa488
-  ws-opts:
-    headers:
-      Host: u2.huvicloud.com
-    path: /f07b9711-a6a4-4128-807d-fdb40dcaa488
-- cipher: rc4-md5
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202504031266665-b2qPz9YET8.download.microsoft.com
-    mode: http
-  port: 8766
-  server: cn01.efan8867801.xyz
-  tfo: false
-  type: ss
+  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|日本2|@ripaojiedian
+  name: 11,15,16|日本2|@ripaojiedian
   network: ws
   port: '10390'
   server: 222.104.240.250
@@ -42,6 +26,18 @@ proxies:
     headers:
       Host: oracleipv4.till.nyc.mn
     path: /123
+- cipher: rc4-md5
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本|@ripaojiedian
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202504031266665-b2qPz9YET8.download.microsoft.com
+    mode: http
+  port: 8766
+  server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇯🇵 日本3|@ripaojiedian
@@ -70,13 +66,3 @@ proxies:
   server: 13.229.210.217
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|日本4|@ripaojiedian
-  network: tcp
-  port: '28588'
-  server: pqcaqxvt.xn--fiqs8sjz2bull.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a9d360f5-6786-4ff0-9861-b4fecd4cfd11
