@@ -528,40 +528,6 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇸🇬1 |  2.2MB/s
-  network: tcp
-  port: 3683
-  server: b268cf3c-su7xc0-swx10p-cw9v.b.fosant.com
-  tls: false
-  type: vmess
-  uuid: f39baabc-ef78-11ef-b714-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇩🇪2 |  5.7MB/s
-  network: ws
-  port: 2096
-  server: 104.21.48.1
-  servername: frank1-sub.890699.xyz
-  tls: true
-  type: vmess
-  uuid: f94d4633-b815-4d22-d3ab-117c60bcbfad
-  ws-opts:
-    headers:
-      Host: frank1-sub.890699.xyz
-    path: /frank1-sub.890699.xyz
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇨🇦10 |  2.7MB/s
-  network: ws
-  port: 30825
-  server: v25.heduian.link
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /oooo
-- alterId: 0
-  cipher: auto
   name: 11,16|香港5|@ripaojiedian
   network: tcp
   port: '41002'
