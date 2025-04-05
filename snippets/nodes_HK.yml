@@ -1,6 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11,16|香港|@ripaojiedian
+  network: tcp
+  port: '4136'
+  server: 7ea30b67-submo0-t23v18-6wpo.d.volczijie.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: aada003a-bc20-11ee-8ebe-f23c93136cb3
+- alterId: 0
+  cipher: auto
   name: 11,16|香港2|@ripaojiedian
   network: tcp
   port: '41002'
@@ -21,14 +31,4 @@ proxies:
   tfo: false
   tls: false
   type: trojan
-  uuid: aada003a-bc20-11ee-8ebe-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '4136'
-  server: 7ea30b67-submo0-t23v18-6wpo.d.volczijie.com
-  servername: ''
-  tls: false
-  type: vmess
   uuid: aada003a-bc20-11ee-8ebe-f23c93136cb3
