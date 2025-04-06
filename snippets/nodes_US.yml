@@ -235,15 +235,23 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 11|1|🇺🇸6 |  4.4MB/s
-  network: tcp
-  port: '48737'
-  server: 185.189.32.179
+  client-fingerprint: chrome
+  name: 11,15,16|美国3|@ripaojiedian
+  network: ws
+  port: '30807'
+  server: v7.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 3680a006-d824-4574-90f3-21226dae6903
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
@@ -336,20 +344,3 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|美国3|@ripaojiedian
-  network: ws
-  port: '30807'
-  server: v7.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
