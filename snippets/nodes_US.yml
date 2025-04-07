@@ -247,7 +247,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15,16|美国3|@ripaojiedian
+  name: 11,15,16|美国5|@ripaojiedian
   network: ws
   port: '30807'
   server: v7.heduian.link
@@ -341,15 +341,29 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: rc4-md5
+- cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇺🇸 美国2|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202504031266665-2FO2jW0pPK.download.microsoft.com
-    mode: http
-  port: 8771
-  server: cn01.efan8867801.xyz
+  password: XKFKl2rULjIp74
+  port: 8008
+  server: 38.114.114.245
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇺🇸 美国3|@ripaojiedian
+  password: e5ac4841-ae2e-4b6b-b90a-a9074043d84a
+  port: 30003
+  server: 156.229.162.50
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|美国4|@ripaojiedian
+  network: tcp
+  port: '14100'
+  server: dxv4.pai50288.uk
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad

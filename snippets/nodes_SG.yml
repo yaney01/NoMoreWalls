@@ -7,7 +7,7 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11,16|新加坡|@ripaojiedian
+  name: 11|13|新加坡|@ripaojiedian
   network: tcp
   port: '4135'
   server: 81d99721-sudhc0-tbxnq7-3qpz.d.volczijie.com
@@ -15,11 +15,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 3cafb97e-8bf1-11ee-8ebe-f23c93136cb3
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: 921ee115-d40f-4151-9535-b4e37511f944
+  port: 30005
+  server: 156.224.79.232
+  tfo: false
+  type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.199.64.156
+  server: 13.212.241.11
   tfo: false
   type: ss
