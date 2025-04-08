@@ -1,35 +1,8 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇹🇼6 |  6.1MB/s
-  network: tcp
-  port: 3687
-  server: d8f6d89a-suh6o0-svx90b-1ith.a.fosant.com
-  tls: false
-  type: vmess
-  uuid: af6cd71c-9604-11ef-a97b-f23c93141fad
-- alterId: 0
-  cipher: auto
-  name: 11|13|台湾|@ripaojiedian
-  network: tcp
-  port: '3690'
-  server: 58acaca7-sumqo0-tbfl8f-xcf.b.fosant.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 3219f740-4024-11ef-bfd4-f23c93136cb3
-- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇹🇼 台湾|@ripaojiedian
-  password: a5633270-44fd-4071-90ef-c6d47d8e61a7
-  port: 45632
-  server: iepl.ytxfx.xyz
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|台湾2|@ripaojiedian
+  name: 11,15,16|台湾2|@ripaojiedian
   network: ws
   port: '16616'
   server: m.cnmjin.net
@@ -43,3 +16,11 @@ proxies:
     headers:
       Host: 66d0c215104536850c337da2227b21cb.mobgslb.tbcache.com
     path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇹🇼 台湾|@ripaojiedian
+  password: a5633270-44fd-4071-90ef-c6d47d8e61a7
+  port: 45632
+  server: iepl.ytxfx.xyz
+  tfo: false
+  type: ss
