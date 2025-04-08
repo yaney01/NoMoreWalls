@@ -237,43 +237,32 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸2 |  1.1MB/s
+  name: 11|1|🇺🇸16 |  4.7MB/s
   network: ws
-  port: 8443
-  server: 104.18.118.195
-  servername: 1743919978.speed.zjgza.cccp.freefly.pp.ua
+  port: 8088
+  server: ora2.aihi.uk
+  servername: ora2.aihi.uk
   tls: true
   type: vmess
-  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  uuid: 6b414f6a-9cfd-46c3-bcc8-af2c3447871d
   ws-opts:
     headers:
-      Host: 1743919978.speed.zjgza.cccp.freefly.pp.ua
-    path: /
+      Host: ora2.aihi.uk
+    path: /ray
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸4 |  5.3MB/s
+  name: 11|1|🇺🇸18 |  4.0MB/s
   network: ws
-  port: 2096
-  server: 104.18.119.222
-  servername: 1743256978.speed.adl.cccp.freefly.pp.ua
+  port: 8088
+  server: 64.181.241.241
+  servername: ora2.aihi.uk
   tls: true
   type: vmess
-  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
+  uuid: 6b414f6a-9cfd-46c3-bcc8-af2c3447871d
   ws-opts:
     headers:
-      Host: 1743256978.speed.adl.cccp.freefly.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸22 |  2.4MB/s
-  network: ws
-  port: '8443'
-  server: 104.18.118.195
-  tls: true
-  type: vmess
-  uuid: 3bb3c730-e107-49c5-a0b2-b576d1b26a5e
-  ws-opts:
-    path: /
+      Host: ora2.aihi.uk
+    path: /ray
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
