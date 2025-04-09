@@ -237,13 +237,76 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸8 |  4.7MB/s
+  name: 11|1|🇺🇸14 |  5.7MB/s
+  network: ws
+  port: 2083
+  server: 104.21.73.150
+  servername: rak1-sub.931.pp.ua
+  tls: true
+  type: vmess
+  uuid: 0eb8fc06-01ab-4ec2-8e77-f185e7d8f9f2
+  ws-opts:
+    headers:
+      Host: rak1-sub.931.pp.ua
+    path: /rak1-sub.931.pp.ua
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸18 |  4.7MB/s
+  network: ws
+  port: 2087
+  server: 104.21.73.150
+  servername: rak1-sub.931.pp.ua
+  tls: true
+  type: vmess
+  uuid: 0eb8fc06-01ab-4ec2-8e77-f185e7d8f9f2
+  ws-opts:
+    headers:
+      Host: rak1-sub.931.pp.ua
+    path: /rak1-sub.931.pp.ua
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸21 |  4.9MB/s
   network: tcp
   port: 22702
   server: 185.189.32.179
   tls: false
   type: vmess
   uuid: 483a1cce-af9b-4416-d7c6-10b9b63be66f
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸26 |  3.2MB/s
+  network: tcp
+  port: 3693
+  server: 93ae5321-sukw00-sw1e10-7yd9.a.fosant.com
+  tls: false
+  type: vmess
+  uuid: 7f84fa90-9f44-11ef-ae1e-f23c93141fad
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸36 |  5.6MB/s
+  network: ws
+  port: 1280
+  server: c7344c10-suk9s0-sxv16d-1k09w.se.plebai.net
+  tls: false
+  type: vmess
+  uuid: 8de795d2-a06f-11ed-8edf-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸44 |  3.5MB/s
+  network: ws
+  port: 80
+  server: 6fe34a9c-suk9s0-sve5if-z93q.lza.plebai.net
+  tls: false
+  type: vmess
+  uuid: 40639730-e027-11ea-87ad-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
