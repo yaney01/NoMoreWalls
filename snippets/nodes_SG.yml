@@ -7,14 +7,11 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|新加坡|@ripaojiedian
+  name: 11|12,13|新加坡|@ripaojiedian
   network: ws
   port: '16618'
   server: yes.mojcn.com
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 6400c720-13f6-45b0-81ea-419b89873cd2
@@ -24,7 +21,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,16|新加坡2|@ripaojiedian
+  name: 11|13|新加坡2|@ripaojiedian
   network: tcp
   port: '4137'
   server: 41158001-suh6o0-sv6d5y-ddgs.c.volczijie.com
@@ -32,3 +29,19 @@ proxies:
   tls: false
   type: vmess
   uuid: c870fe5a-0729-11f0-8cf9-f23c93136cb3
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇸🇬 新加坡|@ripaojiedian
+  password: 538acd1c-3e9a-4d42-91fb-41ee3bb8c286
+  port: 45636
+  server: iepl.ytxfx.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: 1203poiuy
+  port: 1203
+  server: 54.251.134.94
+  tfo: false
+  type: ss
