@@ -528,7 +528,138 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|0|🇺🇸1 |  5.7MB/s
+  name: 11|1|🇺🇸1 |  5.5MB/s
+  network: tcp
+  port: 5229
+  server: 405b7d32-suk9s0-tcmdts-1mmu6.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇩🇪2 |  5.6MB/s
+  network: tcp
+  port: 27201
+  server: 5.75.193.15
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a60b7559-aab6-4a63-8dea-715d7e017bd5
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸3 |  5.5MB/s
+  network: tcp
+  port: 5228
+  server: 8d3d7f83-suk9s0-sv6oiy-1p1b.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇸🇬4 |  5.2MB/s
+  network: ws
+  port: 80
+  server: fbf248.de15-5483-d16b.sbs
+  tls: false
+  type: vmess
+  uuid: 2119a8ea-9015-4a2a-bf12-f5eb0425daf7
+  ws-opts:
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇰🇷2 |  5.6MB/s
+  network: tcp
+  port: 17232
+  server: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 8d888b92-eec8-11ef-bca1-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸12 |  4.2MB/s
+  network: ws
+  port: 2087
+  server: 172.67.163.102
+  servername: ny1-sub.931.pp.ua
+  tls: true
+  type: vmess
+  uuid: 7c8317bd-290a-4a33-987e-613037c1b2dd
+  ws-opts:
+    headers:
+      Host: ny1-sub.931.pp.ua
+    path: /ny1-sub.931.pp.ua
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸14 |  5.5MB/s
+  network: tcp
+  port: 5229
+  server: edcc173e-sum4g0-sv7391-mv7m.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 94d40708-8273-11ea-8fc9-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸16 |  5.6MB/s
+  network: tcp
+  port: 5229
+  server: 4466f722-sum4g0-szbau2-2d9v.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 554d0110-ce64-11ef-973a-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵10 |  1.0MB/s
+  network: tcp
+  port: 17233
+  server: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 9eeeea88-f37b-11ed-bd3d-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵11 |  4.8MB/s
+  network: tcp
+  port: 17233
+  server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|1|🌀15- |  5.2MB/s
+  network: tcp
+  port: 22324
+  server: 186.190.215.193
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵12 |  4.9MB/s
+  network: tcp
+  port: 17233
+  server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇫🇷1 |  3.9MB/s
+  network: ws
+  port: 443
+  server: 104.17.213.57
+  servername: xmivideo.cfd
+  tls: true
+  type: vmess
+  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
+  ws-opts:
+    headers:
+      Host: xmivideo.cfd
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸20 |  5.7MB/s
   network: ws
   port: 443
   server: cloudgetservice.mcloudservice.site
@@ -542,58 +673,27 @@ proxies:
     path: /linkws?ed=2560
 - alterId: 0
   cipher: auto
-  name: 11|0|🇯🇵2 |  5.6MB/s
-  network: tcp
-  port: 17233
-  server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
-  tls: false
+  name: 11|1|🇺🇸21 |  2.8MB/s
+  network: ws
+  port: 443
+  server: 172.67.198.187
+  servername: ''
+  tls: true
   type: vmess
-  uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
+  uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
+  ws-opts:
+    headers:
+      Host: xmivideo.cfd
+    path: /linkws
 - alterId: 0
   cipher: auto
-  name: 11|0|🇯🇵3 |  5.4MB/s
+  name: 11|1|🇫🇮2 |  2.3MB/s
   network: tcp
-  port: 17233
-  server: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com
+  port: 45231
+  server: lt.fxlcn.com
   tls: false
   type: vmess
-  uuid: 9eeeea88-f37b-11ed-bd3d-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇺🇸6 |  5.6MB/s
-  network: tcp
-  port: 5229
-  server: 405b7d32-suk9s0-tcmdts-1mmu6.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇯🇵9 |  4.6MB/s
-  network: tcp
-  port: 17233
-  server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇺🇸11 |  4.2MB/s
-  network: tcp
-  port: 5228
-  server: 8d3d7f83-suk9s0-sv6oiy-1p1b.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇺🇸14 |  5.0MB/s
-  network: tcp
-  port: 22702
-  server: 185.189.32.179
-  tls: false
-  type: vmess
-  uuid: 483a1cce-af9b-4416-d7c6-10b9b63be66f
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
