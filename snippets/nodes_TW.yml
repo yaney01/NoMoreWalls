@@ -1,22 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇹🇼17 |  6.2MB/s
+  name: 11,16|台湾2|@ripaojiedian
   network: tcp
-  port: 3687
-  server: dfe32687-suqg00-syk38r-80ea.a.fosant.com
+  port: '50040'
+  server: hk.zijieyunti.xyz
+  servername: ''
   tls: false
   type: vmess
-  uuid: 6b4408fc-dd23-11ee-8fac-f23c93141fad
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇹🇼27 |  4.9MB/s
-  network: tcp
-  port: 3687
-  server: 93ae5321-sukw00-sw1e10-7yd9.a.fosant.com
-  tls: false
-  type: vmess
-  uuid: 7f84fa90-9f44-11ef-ae1e-f23c93141fad
+  uuid: feb7005d-af1e-45ae-93a7-d782000210c8
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇹🇼 台湾|@ripaojiedian
@@ -33,13 +25,3 @@ proxies:
   server: 154.223.20.79
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|台湾2|@ripaojiedian
-  network: tcp
-  port: '50040'
-  server: hk.zijieyunti.xyz
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: feb7005d-af1e-45ae-93a7-d782000210c8
