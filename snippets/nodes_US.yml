@@ -237,21 +237,30 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸8 |  4.6MB/s
+  name: 11|0|🇺🇸1 |  5.7MB/s
   network: ws
-  port: 2083
-  server: 104.21.23.210
-  servername: rak2-sub.932.pp.ua
+  port: 443
+  server: cloudgetservice.mcloudservice.site
+  servername: ''
   tls: true
   type: vmess
-  uuid: afb837ad-79e7-4438-96d1-b8f7077999aa
+  uuid: 1e537ee8-dc44-4c5b-8810-c41b4ae2e460
   ws-opts:
     headers:
-      Host: rak2-sub.932.pp.ua
-    path: /rak2-sub.932.pp.ua
+      Host: MaxNEtvip-usa1.MAXnEtcLOUDsERvICe.COM
+    path: /linkws?ed=2560
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸15 |  4.0MB/s
+  name: 11|0|🇺🇸6 |  5.6MB/s
+  network: tcp
+  port: 5229
+  server: 405b7d32-suk9s0-tcmdts-1mmu6.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇺🇸11 |  4.2MB/s
   network: tcp
   port: 5228
   server: 8d3d7f83-suk9s0-sv6oiy-1p1b.cu.plebai.net
@@ -260,13 +269,13 @@ proxies:
   uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸21 |  5.5MB/s
+  name: 11|0|🇺🇸14 |  5.0MB/s
   network: tcp
-  port: 5229
-  server: 405b7d32-suk9s0-tcmdts-1mmu6.cu.plebai.net
+  port: 22702
+  server: 185.189.32.179
   tls: false
   type: vmess
-  uuid: 2ee8f830-09e2-11f0-90e2-f23c913c8d2b
+  uuid: 483a1cce-af9b-4416-d7c6-10b9b63be66f
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
