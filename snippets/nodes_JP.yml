@@ -1,7 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵1 |  2.5MB/s
+  name: 11|2|🇯🇵2 |  2.0MB/s
+  network: tcp
+  port: 17233
+  server: aa715e82-sunz40-t1tfcf-1o3sh.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 96b3f2ee-5f66-11ee-804b-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵5 |  5.4MB/s
   network: tcp
   port: 17233
   server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
@@ -10,22 +19,13 @@ proxies:
   uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵2 |  5.6MB/s
+  name: 11|2|🇯🇵6 |  5.0MB/s
   network: tcp
   port: 17233
-  server: fa7c2955-suif40-swjyj4-1mish.cm5.p5pv.com
+  server: f547c7cf-sunz40-t49lki-1ejce.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: 9eeeea88-f37b-11ed-bd3d-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵3 |  4.9MB/s
-  network: tcp
-  port: 17233
-  server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
+  uuid: e534d120-d32f-11ef-bdb9-f23c91cfbbc9
 - alterId: 0
   cipher: auto
   name: 11,16|日本3|@ripaojiedian
