@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇭🇰8 |  1.2MB/s
+  network: tcp
+  port: 46345
+  server: 120.198.71.214
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -16,26 +25,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 11|12|香港6|@ripaojiedian
-  network: tcp
-  port: '4136'
-  server: 156494db-sukw00-sw1b1x-4550.d.volczijie.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
-- alterId: 0
-  cipher: auto
-  name: 11|12|香港8|@ripaojiedian
-  network: tcp
-  port: '31998'
-  server: 120.234.102.229
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian

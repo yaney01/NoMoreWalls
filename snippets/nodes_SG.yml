@@ -7,25 +7,18 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|1|🇸🇬4 |  5.2MB/s
+  name: 11|0|🇸🇬4 |  5.0MB/s
   network: ws
   port: 80
   server: fbf248.de15-5483-d16b.sbs
+  servername: ''
   tls: false
   type: vmess
   uuid: 2119a8ea-9015-4a2a-bf12-f5eb0425daf7
   ws-opts:
+    headers:
+      Host: sg02s.de15-5483-d16b.sbs
     path: /
-- alterId: 0
-  cipher: auto
-  name: 11|12|新加坡|@ripaojiedian
-  network: tcp
-  port: '3681'
-  server: d131cc2e-sukw00-sw1b1x-4550.c.volczijie.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6286105c-fb6d-11ef-be96-f23c93136cb3
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡|@ripaojiedian
