@@ -32,7 +32,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504031266665-c4zHT87iGG.download.microsoft.com
+    host: 202504031266665-eDq1Iqw40p.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -40,17 +40,38 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本3|@ripaojiedian
-  password: 2cb27b35-25da-458c-9545-dff29bf7b12d
-  port: 38726
-  server: gy.tangu.win
+  name: 15|🇯🇵 日本2|@ripaojiedian
+  password: '!!str 1234'
+  port: 1234
+  server: 54.199.242.76
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇺🇸 美国3|@ripaojiedian
+  port: 45269
+  server: 120.232.17.9
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.13.121.24
+  server: 54.92.121.89
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|日本3|@ripaojiedian
+  network: tcp
+  port: '45402'
+  server: 112.65.92.20
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
