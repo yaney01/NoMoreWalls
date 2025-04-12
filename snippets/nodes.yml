@@ -526,102 +526,9 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵4 |  1.5MB/s
-  network: tcp
-  port: '17233'
-  server: d7481a66-sunz40-taklwz-12bd.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵2 |  1.8MB/s
-  network: tcp
-  port: 17233
-  server: 69c584f2-suif40-tee612-2r82.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇸🇬1 |  1.2MB/s
-  network: ws
-  port: 2053
-  server: cloudflare.182682.xyz
-  servername: sg1.pavo.eu.org
-  tls: true
-  type: vmess
-  uuid: cbd1d425-5379-4c44-82fc-5765d1d34dc9
-  ws-opts:
-    headers:
-      Host: sg1.pavo.eu.org
-    path: /sg1vmess
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸8 |  4.0MB/s
-  network: tcp
-  port: 5229
-  server: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 5cfde7fa-ed1b-11ef-b5d9-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵3 |  2.0MB/s
-  network: tcp
-  port: '27750'
-  server: 5.253.41.147
-  tls: false
-  type: vmess
-  uuid: 4b1992cc-8e7c-4003-a45f-a28c3e6f6fa8
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇨🇭1 |  1.7MB/s
-  network: tcp
-  port: 22324
-  server: 186.190.215.93
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸10 |  3.0MB/s
-  network: ws
-  port: 8083
-  server: 69bd7056-sunz40-tazb7x-1t848.se.plebai.net
-  tls: false
-  type: vmess
-  uuid: 6b795e40-e75d-11ef-b717-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 69bd7056-sunz40-tazb7x-1t848.se.plebai.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸11 |  3.8MB/s
-  network: tcp
-  port: '5229'
-  server: 4f387ddd-sunz40-taklwz-12bd.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11,16|美国2|@ripaojiedian
-  network: tcp
-  port: '5229'
-  server: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
 - alterId: 64
   cipher: auto
-  name: 11|2|🌀6-IE |  3.6MB/s
+  name: 11|1|🌀2-IE |  4.9MB/s
   network: ws
   port: 30000
   server: 185.108.128.137
@@ -635,43 +542,16 @@ proxies:
     path: /path/300022113329
 - alterId: 0
   cipher: auto
-  name: 11|2|🇸🇬2 |  3.8MB/s
+  name: 11|1|🌀4-ID |  1.7MB/s
   network: tcp
-  port: 50266
-  server: 103.106.229.54
+  port: 17234
+  server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: 5edf584e-1351-436b-99b2-1033ba593d02
+  uuid: c76abed4-f2d2-e4de-50ce-a545ff74ecd0
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵5 |  2.5MB/s
-  network: tcp
-  port: 17233
-  server: aa715e82-sunz40-t1tfcf-1o3sh.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 96b3f2ee-5f66-11ee-804b-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇰🇷5 |  2.0MB/s
-  network: tcp
-  port: 17232
-  server: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 8d888b92-eec8-11ef-bca1-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇸🇬3 |  5.0MB/s
-  network: tcp
-  port: '53802'
-  server: 103.106.229.207
-  tls: false
-  type: vmess
-  uuid: 803c04ae-2da6-434b-a692-8fd75e5964d7
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸21 |  5.7MB/s
+  name: 11|1|🇺🇸4 |  5.7MB/s
   network: ws
   port: 443
   server: cloudgetservice.mcloudservice.site
@@ -685,16 +565,48 @@ proxies:
     path: /linkws?ed=2560
 - alterId: 0
   cipher: auto
-  name: 11|2|🇸🇬4 |  1.2MB/s
+  name: 11|1|🇸🇬6 |  2.8MB/s
   network: tcp
-  port: 17231
-  server: 6f316071-suk9s0-swtza9-1q91p.cm5.p5pv.com
+  port: 50266
+  server: 103.106.229.54
   tls: false
   type: vmess
-  uuid: c11ff50c-f582-11ee-94df-f23c9164ca5d
+  uuid: 5edf584e-1351-436b-99b2-1033ba593d02
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸24 |  3.5MB/s
+  name: 11|1|🇺🇸7 |  5.1MB/s
+  network: tcp
+  port: '5229'
+  server: 4f387ddd-sunz40-taklwz-12bd.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸11 |  1.5MB/s
+  network: ws
+  port: 443
+  server: 104.18.149.75
+  servername: us.insbot.filegear-sg.me
+  tls: true
+  type: vmess
+  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
+  ws-opts:
+    headers:
+      Host: us.insbot.filegear-sg.me
+    path: /aa
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸14 |  4.4MB/s
+  network: tcp
+  port: 5229
+  server: 20697491-supts0-t1rksu-1ssud.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: e6aa39b6-f0b5-11ef-bca1-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸33 |  1.8MB/s
   network: tcp
   port: '5228'
   server: fac9e438-sunz40-svabg7-1td06.cu.plebai.net
@@ -703,55 +615,105 @@ proxies:
   uuid: de5486da-f19c-11ef-8eaf-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵6 |  1.4MB/s
-  network: tcp
-  port: 17233
-  server: 9cb8b51d-sunz40-svabg7-1td06.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: de5486da-f19c-11ef-8eaf-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸27 |  4.8MB/s
-  network: ws
-  port: '443'
-  server: cloudgetservice.mcloudservice.site
-  tls: true
-  type: vmess
-  uuid: 3cf58606-5f2a-4609-9abd-404f633bd7e0
-  ws-opts:
-    path: /linkws?ed=2560
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇭🇰6 |  2.8MB/s
-  network: tcp
-  port: 34652
-  server: 183.236.51.38
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇫🇷9 |  5.8MB/s
-  network: ws
-  port: 443
-  server: cloudgetservice.mcloudservice.site
-  tls: true
-  type: vmess
-  uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b
-  ws-opts:
-    headers:
-      Host: Fra-Vp-123.BLaZECLOUD.Site
-    path: /linvkws
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇯🇵7 |  1.6MB/s
+  name: 11|1|🇯🇵7 |  5.5MB/s
   network: tcp
   port: 17233
   server: a0a40de3-suk9s0-t7mt0p-1sllg.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: d6e1207c-f41a-11ef-9495-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇰🇷2 |  1.0MB/s
+  network: tcp
+  port: 17232
+  server: 693debd4-sum4g0-svlqnl-2c08.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: c76abed4-f2d2-e4de-50ce-a545ff74ecd0
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇸🇬8 |  5.5MB/s
+  network: tcp
+  port: '53802'
+  server: 103.106.229.207
+  tls: false
+  type: vmess
+  uuid: 803c04ae-2da6-434b-a692-8fd75e5964d7
+- alterId: 64
+  cipher: auto
+  name: 11|1|🌀7-IE |  5.2MB/s
+  network: ws
+  port: '30000'
+  server: 185.108.128.137
+  tls: true
+  type: vmess
+  uuid: 5aab3936-16d7-4377-8c33-0d77f2d295ee
+  ws-opts:
+    path: /path/300022113329
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸28 |  5.0MB/s
+  network: tcp
+  port: 5229
+  server: 5d38531f-sum4g0-svq8ok-ebxr.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 5cfde7fa-ed1b-11ef-b5d9-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸22 |  3.1MB/s
+  network: tcp
+  port: 5229
+  server: 42317099-supts0-sxw44d-1re2s.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: a6a3c7fc-0de8-11ef-ba67-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇰🇷3 |  3.9MB/s
+  network: tcp
+  port: 17232
+  server: c92a67a3-sum4g0-t46yf9-e13q.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 8d888b92-eec8-11ef-bca1-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵8 |  4.2MB/s
+  network: tcp
+  port: '17233'
+  server: d7481a66-sunz40-taklwz-12bd.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ea76ae7e-ea95-11ef-8b73-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|1|🌀11- |  5.8MB/s
+  network: ws
+  port: 80
+  server: 445522e0-a147-66c0-6b59-becb865f30a5.castlepeakhospital.moe
+  tls: false
+  type: vmess
+  uuid: 21c90669-193d-49d3-8e37-f5c1462eb134
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|1|🇭🇰8 |  2.2MB/s
+  network: ws
+  port: 80
+  server: 3e236b99-sucv40-sudq0l-1rz5s.hk.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -823,6 +785,16 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 11,16|美国2|@ripaojiedian
+  network: tcp
+  port: '5229'
+  server: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
