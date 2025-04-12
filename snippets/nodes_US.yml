@@ -647,7 +647,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15,16|美国2|@ripaojiedian
+  name: 11,15,16|美国3|@ripaojiedian
   network: ws
   port: '30807'
   server: v7.heduian.link
@@ -663,7 +663,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11,16|美国3|@ripaojiedian
+  name: 11|13|美国3|@ripaojiedian
   network: tcp
   port: '45269'
   server: 120.232.17.9
@@ -739,15 +739,30 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
-- cipher: rc4-md5
+- alterId: 2
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇺🇸 美国|@ripaojiedian
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202504031266665-eDq1Iqw40p.download.microsoft.com
-    mode: http
-  port: 8776
-  server: cn01.efan8867801.xyz
+  name: 15,16|美国|@ripaojiedian
+  network: ws
+  port: '30808'
+  server: v8.heduian.link
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 16|美国2|@ripaojiedian
+  network: tcp
+  port: '5229'
+  server: 9f1822ee-sum4g0-t4nd8s-wujn.cu.plebai.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
