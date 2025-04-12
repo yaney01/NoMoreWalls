@@ -1,4 +1,13 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇭🇰6 |  2.8MB/s
+  network: tcp
+  port: 34652
+  server: 183.236.51.38
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -77,3 +86,11 @@ proxies:
   tls: false
   type: vmess
   uuid: 51362ab6-b5e6-11ea-ad28-f23c913c8d2b
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港1|@ripaojiedian
+  password: d192a833-b118-4b46-8e54-12cf5025d4cd
+  port: 57314
+  server: gdyd.aicheetah.lol
+  tfo: false
+  type: ss
