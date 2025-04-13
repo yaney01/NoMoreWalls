@@ -1,20 +1,6 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 11|1|🇭🇰8 |  2.2MB/s
-  network: ws
-  port: 80
-  server: 3e236b99-sucv40-sudq0l-1rz5s.hk.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 40e084d6-0316-11f0-90e2-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
   client-fingerprint: chrome
   name: 11,15,16|香港4|@ripaojiedian
   network: ws
@@ -30,6 +16,22 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15|🇭🇰 香港5|@ripaojiedian
+  network: ws
+  port: 46003
+  server: cloudgd.coemn.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: cloudgd.coemn.com
+    path: /zh-cn
 - alterId: 64
   cipher: auto
   name: 11,16|香港7|@ripaojiedian
@@ -40,6 +42,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港5|@ripaojiedian
+  network: ws
+  port: '46003'
+  server: cloudgd.coemn.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
@@ -64,22 +80,6 @@ proxies:
   server: 111.29.57.125
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港5|@ripaojiedian
-  network: ws
-  port: 46003
-  server: cloudgd.coemn.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: cloudgd.coemn.com
-    path: /zh-cn
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港6|@ripaojiedian
@@ -107,17 +107,3 @@ proxies:
   server: gdyd.aicheetah.lol
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港5|@ripaojiedian
-  network: ws
-  port: '46003'
-  server: cloudgd.coemn.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
