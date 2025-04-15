@@ -528,35 +528,25 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|0|🇺🇸19 |  2.5MB/s
-  network: tcp
-  port: '5228'
-  server: 157.148.96.92
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6ada1622-e018-11ec-bb74-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|0|🇫🇷2 |  1.5MB/s
+  name: 11|1|🇫🇷1 |  2.1MB/s
   network: tcp
   port: 17235
-  server: 00fd0574-sux8g0-sv07nd-jtx1.cm5.p5pv.com
+  server: a842afb9-sutj40-suyhjm-1hhyy.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: 947dde8e-bcf5-11ef-af4a-f23c91cfbbc9
+  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11|0|🇺🇸20 |  1.9MB/s
+  name: 11|1|🇫🇷2 |  2.2MB/s
   network: tcp
-  port: 5229
-  server: 2e93912d-sutj40-sutgau-1r62f.cu.plebai.net
+  port: '17235'
+  server: 87ab6ec1-sux8g0-susn3i-1lkt0.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: 154b0bf8-f9a7-11ee-a218-f23c91cfbbc9
+  uuid: cd1b0ae0-4010-11ee-953a-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11|0|🇺🇸28 |  1.3MB/s
+  name: 11|1|🇺🇸10 |  3.4MB/s
   network: tcp
   port: 5229
   server: 74f77c00-sutj40-t5qufl-8n27.cu.plebai.net
@@ -565,16 +555,53 @@ proxies:
   uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
 - alterId: 0
   cipher: auto
-  name: 11|0|🇺🇸29 |  2.6MB/s
+  name: 11|1|🇺🇸28 |  4.3MB/s
   network: tcp
   port: '5229'
-  server: 2c2227e1-sutj40-t907cr-1c1mr.cu.plebai.net
+  server: f5f98477-sutj40-tdcdb7-1k27l.cu.plebai.net
   tls: false
   type: vmess
-  uuid: a12640d0-e2ad-11ef-8f5b-f23c913c8d2b
+  uuid: ba4b1f2e-c985-11ed-9c0c-f23c913c8d2b
 - alterId: 0
   cipher: auto
-  name: 11|0|🇺🇸25 |  2.7MB/s
+  name: 11|1|🇯🇵1 |  3.0MB/s
+  network: tcp
+  port: 17233
+  server: 929e4f8a-sutj40-sutgau-1r62f.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 154b0bf8-f9a7-11ee-a218-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11,16|日本4|@ripaojiedian
+  network: tcp
+  port: '17233'
+  server: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸12 |  4.9MB/s
+  network: tcp
+  port: 5229
+  server: 2e93912d-sutj40-sutgau-1r62f.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 154b0bf8-f9a7-11ee-a218-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇫🇷4 |  2.4MB/s
+  network: tcp
+  port: 17235
+  server: 00fd0574-sux8g0-sv07nd-jtx1.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 947dde8e-bcf5-11ef-af4a-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸27 |  3.3MB/s
   network: tcp
   port: '5228'
   server: ba91e0a1-sutj40-t1k53r-1jm8i.cu.plebai.net
@@ -583,9 +610,37 @@ proxies:
   uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 11|0|🇺🇸32 |  2.9MB/s
+  name: 11|1|🇺🇸30 |  4.1MB/s
+  network: tcp
+  port: '5229'
+  server: 2c2227e1-sutj40-t907cr-1c1mr.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: a12640d0-e2ad-11ef-8f5b-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵5 |  1.5MB/s
+  network: tcp
+  port: 17233
+  server: 5ed696c1-sutj40-t907cr-1c1mr.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: a12640d0-e2ad-11ef-8f5b-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸39 |  2.8MB/s
   network: tcp
   port: 5228
+  server: 157.148.96.92
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 6ada1622-e018-11ec-bb74-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸26 |  3.1MB/s
+  network: tcp
+  port: '5228'
   server: 716545eb-sux8g0-t5oe1a-1ejod.cu.plebai.net
   tls: false
   type: vmess
@@ -659,16 +714,6 @@ proxies:
   tls: false
   type: vmess
   uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
-- alterId: 0
-  cipher: auto
-  name: 11,16|日本4|@ripaojiedian
-  network: tcp
-  port: '17233'
-  server: 81f6bf37-sutj40-svgpxu-y2gs.cm5.p5pv.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
 - alterId: 0
   cipher: auto
   name: 11,16|韩国|@ripaojiedian
