@@ -5,6 +5,16 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 11,16|新加坡|@ripaojiedian
+  network: tcp
+  port: '23910'
+  server: hzz9.fgmcx.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡2|@ripaojiedian
@@ -21,13 +31,3 @@ proxies:
   server: 57.180.253.62
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|新加坡|@ripaojiedian
-  network: tcp
-  port: '23910'
-  server: hzz9.fgmcx.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
