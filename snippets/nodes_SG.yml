@@ -5,6 +5,19 @@ proxies:
   port: 443
   server: 54.179.87.28
   type: ss
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇸🇬2 |  6.2MB/s
+  network: ws
+  port: 23617
+  server: 17.mamamajd.site
+  tls: false
+  type: vmess
+  uuid: 84d268d1-c578-3bc4-9f07-b1b6be7b5e22
+  ws-opts:
+    headers:
+      Host: 17.mamamajd.site
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,16|新加坡|@ripaojiedian
