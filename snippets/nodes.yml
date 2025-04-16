@@ -716,7 +716,7 @@ proxies:
   uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
 - alterId: 0
   cipher: auto
-  name: 11,16|韩国|@ripaojiedian
+  name: 11|12|韩国|@ripaojiedian
   network: tcp
   port: '17232'
   server: b79d3418-sux8g0-swe4j1-1rfon.cm5.p5pv.com
@@ -935,7 +935,7 @@ proxies:
   name: 15|tg频道:@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.207.233.28
+  server: 18.246.215.6
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -989,7 +989,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503181464410-2u2bwvJ6Hf.download.microsoft.com
+    host: 202503181464410-9tCwc1fdZ3.download.microsoft.com
     mode: http
   port: 8765
   server: cn01.efan8867801.xyz
@@ -1030,7 +1030,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202503181464410-2u2bwvJ6Hf.download.microsoft.com
+    host: 202503181464410-9tCwc1fdZ3.download.microsoft.com
     mode: http
   port: 8775
   server: cn01.efan8867801.xyz
@@ -1041,7 +1041,7 @@ proxies:
   name: 15|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.249.151.205
+  server: 3.34.192.249
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1049,7 +1049,7 @@ proxies:
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 57.180.253.62
+  server: 3.36.96.166
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -1057,7 +1057,7 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.78.214.206
+  server: 18.179.174.138
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -1068,3 +1068,13 @@ proxies:
   server: zz5.fgmcx.top
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港6|@ripaojiedian
+  network: tcp
+  port: '15229'
+  server: 614ea2b0-sux8g0-td95qh-1isea.cm.plebai.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d6abdbda-fe9d-11ec-bb74-f23c9164ca5d
