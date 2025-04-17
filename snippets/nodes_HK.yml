@@ -10,7 +10,7 @@ proxies:
   uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11,16|香港6|@ripaojiedian
+  name: 11|2,13|香港6|@ripaojiedian
   network: tcp
   port: '15229'
   server: 614ea2b0-sux8g0-td95qh-1isea.cm.plebai.net
@@ -37,13 +37,10 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15|🇭🇰 香港5|@ripaojiedian
+  name: 11|12|🇭🇰 香港5|@ripaojiedian
   network: ws
   port: 46003
   server: cloudgd.coemn.com
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
@@ -63,7 +60,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,16|香港5|@ripaojiedian
+  name: 11|13|香港5|@ripaojiedian
   network: ws
   port: '46003'
   server: cloudgd.coemn.com
@@ -99,24 +96,43 @@ proxies:
   server: 111.29.57.125
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: cdc48a7a-b618-45af-a831-5afbd686b02f
-  port: 12202
-  server: gg21.hangfengjiasu.com
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
   name: 15|🇺🇸 美国2|@ripaojiedian
-  password: 1d28a2a2-2fb3-4456-b119-749e75ad9c93
+  password: dQUWbcwECl
   port: 23903
   server: usz1.fgmcx.top
   skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
+  sni: automq-0413-0-proxy.automq-sg.com
   tfo: false
   tls: false
   type: vmess
   uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|香港6|@ripaojiedian
+  network: ws
+  port: '16892'
+  server: xb-vm-hk.718181.xyz
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2426b3d5-f377-44ca-a1d2-c527ef52c67f
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 16|香港5|@ripaojiedian
+  network: tcp
+  port: '41291'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
