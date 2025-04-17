@@ -1,13 +1,14 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇯🇵1 |  2.4MB/s
+  name: 11,16|日本2|@ripaojiedian
   network: tcp
-  port: 17233
-  server: db99765c-suvds0-svgpxu-y2gs.cm5.p5pv.com
+  port: '23919'
+  server: hzz9.fgmcx.top
+  servername: ''
   tls: false
   type: vmess
-  uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
+  uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
 - alterId: 0
   cipher: auto
   name: 11,16|日本4|@ripaojiedian
@@ -18,25 +19,6 @@ proxies:
   tls: false
   type: vmess
   uuid: b806b388-5f97-11ee-8014-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇯🇵7 |  1.6MB/s
-  network: tcp
-  port: 17233
-  server: 76c85625-sutj40-t1k53r-1jm8i.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: a6ddfc37-05eb-11ed-af40-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11,16|日本2|@ripaojiedian
-  network: tcp
-  port: '23919'
-  server: hzz9.fgmcx.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
