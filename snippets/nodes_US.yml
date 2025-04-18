@@ -318,14 +318,11 @@ proxies:
   uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|美国|@ripaojiedian
+  name: 11|11,12|美国|@ripaojiedian
   network: ws
   port: '30808'
   server: v8.heduian.link
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -335,7 +332,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11,16|美国2|@ripaojiedian
+  name: 11|12|美国2|@ripaojiedian
   network: tcp
   port: '23903'
   server: usz1.fgmcx.top
@@ -345,14 +342,11 @@ proxies:
   uuid: be443689-bc64-49ff-85a5-8eecaa2235d3
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|美国3|@ripaojiedian
+  name: 11|11,12|美国3|@ripaojiedian
   network: ws
   port: '30807'
   server: v7.heduian.link
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -428,13 +422,30 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|美国|@ripaojiedian
+  network: ws
+  port: '7615'
+  server: d2076047-suz340-tau0mq-1i41w.lza.plebai.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: d13637bd-0e24-11ed-9d0b-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 15|🇺🇸 美国4|@ripaojiedian
+  name: 15|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504161119105-iVU0NhGmal.download.microsoft.com
+    host: 202504161119105-JCHFHmA6XV.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
