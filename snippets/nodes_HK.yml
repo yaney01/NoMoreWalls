@@ -1,13 +1,16 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 11|1|🇭🇰9 |  1.4MB/s
-  network: tcp
-  port: 15229
-  server: 81137562-sutj40-suyhjm-1hhyy.cm.plebai.net
+  name: 11|0|🇭🇰4 |  1.2MB/s
+  network: ws
+  port: 80
+  server: c92d9037-sunz40-suqjqq-1pr35.hk3.p5pv.com
+  servername: ''
   tls: false
   type: vmess
-  uuid: c594c7ec-8b10-11ef-a2b8-f23c9164ca5d
+  uuid: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+  ws-opts:
+    path: ''
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
