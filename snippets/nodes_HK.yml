@@ -1,18 +1,45 @@
 proxies:
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 11|12,13|香港4|@ripaojiedian
+  name: 11|2|🇭🇰4 |  3.5MB/s
   network: ws
-  port: '80'
-  server: f1bbc8a1-sux8g0-swvpe2-1tetp.hgc1.tcpbbr.net
+  port: 23017
+  server: 212.192.12.154
   servername: ''
   tls: false
   type: vmess
-  uuid: 56d4be76-f24d-11ef-9b69-f23c9164ca5d
+  uuid: 7d24c37d-f5de-4267-8b0e-dec5b8983549
   ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇭🇰6 |  5.4MB/s
+  network: tcp
+  port: 15229
+  server: 2130c4e3-surog0-szxfsm-v3c2.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港2|@ripaojiedian
+  network: tcp
+  port: '15228'
+  server: 2a646fc6-sv0xs0-tevzxo-3e5b.cm.plebai.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: b70f5316-cc87-11ed-ab19-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港4|@ripaojiedian
+  network: tcp
+  port: '15228'
+  server: 92d4ab34-sv0xs0-tcmtfl-1qudp.cm.plebai.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 99129cef-f705-11ee-ada6-f23c91cfbbc9
 - alterId: 0
   cipher: auto
   name: 11,16|香港5|@ripaojiedian
@@ -72,23 +99,3 @@ proxies:
   server: 111.29.57.125
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港2|@ripaojiedian
-  network: tcp
-  port: '15228'
-  server: 2a646fc6-sv0xs0-tevzxo-3e5b.cm.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b70f5316-cc87-11ed-ab19-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 16|香港4|@ripaojiedian
-  network: tcp
-  port: '15228'
-  server: 92d4ab34-sv0xs0-tcmtfl-1qudp.cm.plebai.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 99129cef-f705-11ee-ada6-f23c91cfbbc9
