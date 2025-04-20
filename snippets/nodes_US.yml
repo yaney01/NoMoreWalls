@@ -363,7 +363,7 @@ proxies:
   uuid: a12640d0-e2ad-11ef-8f5b-f23c913c8d2b
 - alterId: 0
   cipher: auto
-  name: 11,16|美国2|@ripaojiedian
+  name: 11,16|美国|@ripaojiedian
   network: tcp
   port: '44015'
   server: 120.198.71.219
@@ -373,7 +373,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,16|美国4|@ripaojiedian
+  name: 11|13|美国4|@ripaojiedian
   network: tcp
   port: '14100'
   server: 144.255.36.254
@@ -451,11 +451,11 @@ proxies:
     path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
-  name: 15|🇺🇸 美国2|@ripaojiedian 2
+  name: 15|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504182189466-KXW6ZXTh3H.download.microsoft.com
+    host: 202504182189466-8od2bG05Pm.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -469,3 +469,13 @@ proxies:
   server: 38.107.226.14
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|美国4|@ripaojiedian
+  network: tcp
+  port: '5229'
+  server: 8705693f-sv8cg0-t35mzx-1pp0x.cu.plebai.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 7734370a-8480-11ee-ab76-f23c91cfbbc9

@@ -1,14 +1,11 @@
 proxies:
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|日本2|@ripaojiedian
+  name: 11|12,13|日本2|@ripaojiedian
   network: ws
   port: '8004'
   server: 59.42.247.189
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: ef19de03-2788-44ef-a0bd-d698657e0bb9
@@ -32,17 +29,34 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504182189466-KXW6ZXTh3H.download.microsoft.com
+    host: 202504182189466-8od2bG05Pm.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|日本2|@ripaojiedian
+  network: ws
+  port: '30806'
+  server: v6.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 43.201.51.236
+  server: 13.124.153.152
   tfo: false
   type: ss

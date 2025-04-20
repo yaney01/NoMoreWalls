@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11,16|香港2|@ripaojiedian
+  name: 11|13|香港2|@ripaojiedian
   network: tcp
   port: '15228'
   server: 2a646fc6-sv0xs0-tevzxo-3e5b.cm.plebai.net
@@ -11,7 +11,7 @@ proxies:
   uuid: b70f5316-cc87-11ed-ab19-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 11,16|香港4|@ripaojiedian
+  name: 11|13|香港4|@ripaojiedian
   network: tcp
   port: '15228'
   server: 92d4ab34-sv0xs0-tcmtfl-1qudp.cm.plebai.net
@@ -60,16 +60,16 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇮🇳 印度|@ripaojiedian
-  password: d5826953-96a0-4e2e-ad04-638668222256
-  port: 45073
-  server: xdd.dashuai.cyou
+  name: 15|🇺🇸 美国4|@ripaojiedian
+  password: VMhGp5wEIyCDf90T
+  port: 5229
+  server: 8705693f-sv8cg0-t35mzx-1pp0x.cu.plebai.net
   skip-cert-verify: false
-  sni: q08m.vgraxiw73s.hasyaf.cn
+  sni: hk06.run.place
   tfo: false
   tls: false
   type: vmess
-  uuid: 0e80c044-ccf7-42fd-8590-bc007f4cfb5f
+  uuid: 7734370a-8480-11ee-ab76-f23c91cfbbc9
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港3|@ripaojiedian
@@ -78,3 +78,23 @@ proxies:
   server: 111.29.57.125
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港4|@ripaojiedian
+  network: tcp
+  port: '15228'
+  server: eeb0da71-sv8cg0-t2l8w3-d32g.cm.plebai.net
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 72bda932-979f-a008-de58-0dcb3b424cfe
+- alterId: 64
+  cipher: auto
+  name: 16|香港8|@ripaojiedian
+  network: tcp
+  port: '42375'
+  server: 120.198.71.214
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
