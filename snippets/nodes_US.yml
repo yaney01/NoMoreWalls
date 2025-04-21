@@ -383,7 +383,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,16|美国4|@ripaojiedian
+  name: 11|13|美国4|@ripaojiedian
   network: tcp
   port: '5229'
   server: 8705693f-sv8cg0-t35mzx-1pp0x.cu.plebai.net
@@ -471,11 +471,21 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇺🇸 美国3|@ripaojiedian
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 38.107.226.14
+  password: '!!str 1234'
+  port: 1234
+  server: 97.107.140.236
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|美国4|@ripaojiedian
+  network: tcp
+  port: '45251'
+  server: 112.65.92.20
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 469e0b31-30c3-4dab-800d-711232634ce1
