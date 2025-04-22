@@ -7,15 +7,6 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|2|🇸🇬1 |  1.2MB/s
-  network: tcp
-  port: 54652
-  server: 183.236.51.38
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
   name: 11,16|新加坡|@ripaojiedian
   network: tcp
   port: '17231'
@@ -26,16 +17,18 @@ proxies:
   uuid: 1c618e62-fc90-11ee-944b-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 11|2|🇸🇬8 |  3.8MB/s
+  name: 11|0|🇸🇬7 |  5.2MB/s
   network: ws
-  port: 40000
-  server: ml02.333210.xyz
-  servername: ''
-  tls: false
+  port: 443
+  server: www.racknerd.com
+  servername: grants-andrews-lp-helpful.trycloudflare.com
+  tls: true
   type: vmess
-  uuid: f8d8531b-a2b2-4515-911b-10c2f8ab7f26
+  uuid: 78956f2a-5650-4ac1-b5e5-c86491768443
   ws-opts:
-    path: /bby
+    headers:
+      Host: grants-andrews-lp-helpful.trycloudflare.com
+    path: /vmess-argo?ed=2048
 - alterId: 0
   cipher: auto
   name: 11,16|新加坡2|@ripaojiedian
