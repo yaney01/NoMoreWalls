@@ -1,4 +1,18 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵2 |  5.7MB/s
+  network: ws
+  port: 443
+  server: 104.18.149.75
+  servername: ''
+  tls: true
+  type: vmess
+  uuid: cae97b1c-35e8-4cf2-dc1b-52032c3d3fa7
+  ws-opts:
+    headers:
+      Host: jp.insbot.filegear-sg.me
+    path: /aa
 - alterId: 64
   cipher: auto
   name: 11,16|日本3|@ripaojiedian

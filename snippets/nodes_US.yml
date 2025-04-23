@@ -237,7 +237,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸10 |  4.8MB/s
+  name: 11|2|🇺🇸37 |  2.4MB/s
   network: ws
   port: 2083
   server: 205.233.181.174
@@ -248,19 +248,6 @@ proxies:
   ws-opts:
     headers:
       Host: mass3.890602.xyz
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇺🇸11 |  5.4MB/s
-  network: ws
-  port: 23615
-  server: 15.mamamajd.site
-  tls: false
-  type: vmess
-  uuid: 4fcd5cfc-fad0-3db2-8c56-fe121890bb39
-  ws-opts:
-    headers:
-      Host: 15.mamamajd.site
     path: /
 - alterId: 0
   cipher: auto
