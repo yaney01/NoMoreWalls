@@ -237,10 +237,11 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸1 |  5.7MB/s
+  name: 11|2|🇺🇸10 |  4.8MB/s
   network: ws
   port: 2083
   server: 205.233.181.174
+  servername: mass3.890602.xyz
   tls: true
   type: vmess
   uuid: 2db2bf5b-18ec-4479-dbd7-50e0e08a4f07
@@ -248,47 +249,19 @@ proxies:
     headers:
       Host: mass3.890602.xyz
     path: /
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 11|2|🇺🇸43 |  1.5MB/s
+  name: 11|2|🇺🇸11 |  5.4MB/s
   network: ws
-  port: 443
-  server: 7fa54343-7c0a-45c9.2031.pp.ua
-  servername: 7fa54343-7c0a-45c9.2031.pp.ua
-  tls: true
+  port: 23615
+  server: 15.mamamajd.site
+  tls: false
   type: vmess
-  uuid: 15b24b56-d667-4fa8-b548-f3dc942fb461
+  uuid: 4fcd5cfc-fad0-3db2-8c56-fe121890bb39
   ws-opts:
     headers:
-      Host: 7fa54343-7c0a-45c9.2031.pp.ua
-    path: /usYhm60UxQ8YJFJxz
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸18 |  5.6MB/s
-  network: ws
-  port: 443
-  server: 9uyiopsdfh.iran.pp.ua
-  servername: 9uyiopsdfh.iran.pp.ua
-  tls: true
-  type: vmess
-  uuid: 906ba92f-ef96-4133-8eee-f33202a5a721
-  ws-opts:
-    headers:
-      Host: 9uyiopsdfh.iran.pp.ua
-    path: /DAxJddOdTd5pVam9w
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸28 |  1.9MB/s
-  network: ws
-  port: 443
-  server: 1wWEeRTTt.131.pP.ua
-  tls: true
-  type: vmess
-  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
-  ws-opts:
-    headers:
-      Host: 1wweerttt.131.pp.ua
-    path: /h7Rcu0y30lhjdVjJ3gc4aj
+      Host: 15.mamamajd.site
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,16|美国|@ripaojiedian
