@@ -7,24 +7,25 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|11|🇸🇬 新加坡|@ripaojiedian
+  name: 11|2|🇸🇬4 |  4.9MB/s
   network: tcp
   port: 17231
-  server: fb6241fd-svc1s0-svjq5n-1r78y.cm5.p5pv.com
-  servername: ''
+  server: 5c460570-sux8g0-tbfsbm-nde6.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: 1c618e62-fc90-11ee-944b-f23c91cfbbc9
+  uuid: b19e8df4-fba9-11ea-9777-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11|12|新加坡2|@ripaojiedian
-  network: tcp
-  port: '41902'
-  server: 183.236.51.38
-  servername: ''
+  name: 11|2|🇸🇬5 |  5.6MB/s
+  network: ws
+  port: 2086
+  server: cdn1.bpcdn.cc
+  servername: sgtxv82wilpfh6a8vm.lovebaipiao.com
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 19e3cd78-16ca-4158-98b1-0e3d3669fea4
+  ws-opts:
+    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
