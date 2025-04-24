@@ -235,22 +235,13 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇺🇸15 |  5.9MB/s
-  network: ws
-  port: 22642
-  server: tk.hzlt.tkddns.xyz
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸19 |  1.4MB/s
+  name: 11|2|🇺🇸4 |  1.2MB/s
   network: ws
   port: 443
   server: 199.34.228.183
+  servername: 3sdfgvcxxx.938.pp.ua
   tls: true
   type: vmess
   uuid: 0212fab5-e93c-4904-b7a8-187fd535f354
@@ -260,7 +251,61 @@ proxies:
     path: /P879mtCoHQqaWO67qEaMINZ1
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸20 |  1.2MB/s
+  name: 11|2|🇺🇸8 |  4.4MB/s
+  network: ws
+  port: 8088
+  server: ora2.aihi.uk
+  servername: ora2.aihi.uk
+  tls: true
+  type: vmess
+  uuid: 6b414f6a-9cfd-46c3-bcc8-af2c3447871d
+  ws-opts:
+    headers:
+      Host: ora2.aihi.uk
+    path: /ray
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸16 |  2.0MB/s
+  network: ws
+  port: 443
+  server: 45.194.53.81
+  tls: true
+  type: vmess
+  uuid: 0212fab5-e93c-4904-b7a8-187fd535f354
+  ws-opts:
+    headers:
+      Host: 3sdfgvcxxx.938.pp.ua
+    path: /P879mtCoHQqaWO67qEaMINZ1
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇺🇸18 |  2.3MB/s
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  servername: tk.hzlt.tkddns.xyz
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇺🇸20 |  3.6MB/s
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸24 |  3.8MB/s
   network: ws
   port: 443
   server: 199.34.228.191
@@ -272,19 +317,6 @@ proxies:
     headers:
       Host: 3sdfgvcxxx.938.pp.ua
     path: /P879mtCoHQqaWO67qEaMINZ1
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇺🇸22 |  3.9MB/s
-  network: ws
-  port: 30829
-  server: v29.heduian.link
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
 - alterId: 0
   cipher: auto
   name: 11,16|美国|@ripaojiedian
