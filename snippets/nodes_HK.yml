@@ -1,71 +1,22 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇭🇰1 |  1.5MB/s
-  network: ws
-  port: 80
-  server: a731a8b3-sv2sg0-sy1a0y-1iyov.hk3.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 33629870-e57e-11ec-bb74-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: a731a8b3-sv2sg0-sy1a0y-1iyov.hk3.p5pv.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇭🇰3 |  1.5MB/s
-  network: ws
-  port: 80
-  server: 44120c69-sv2sg0-t2e9t0-ssb3.hk3.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 5b14630c-05d6-11ee-a790-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 44120c69-sv2sg0-t2e9t0-ssb3.hk3.p5pv.com
-    path: /
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰5 |  5.4MB/s
-  network: ws
-  port: 10805
-  server: kahk.kia-ai.com
-  servername: kahk.kia-ai.com
-  tls: true
-  type: vmess
-  uuid: f077ed2d-db1e-42e0-851f-e24aba75e002
-  ws-opts:
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇭🇰6 |  1.3MB/s
-  network: ws
-  port: 80
-  server: 2e617951-sv2sg0-taj9mo-1tco3.hk3.p5pv.com
+  name: 11|2|🇭🇰1 |  1.9MB/s
+  network: tcp
+  port: 15229
+  server: 2130c4e3-surog0-szxfsm-v3c2.cm.plebai.net
   tls: false
   type: vmess
-  uuid: e29de954-ea01-11ef-a271-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
+  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+- alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰8 |  2.5MB/s
-  network: ws
-  port: 80
-  server: d12dcb0e-sv2sg0-t917sa-12ach.hk3.p5pv.com
-  servername: broadcastlv.chat.bilibili.com
+  name: 11|2|🇭🇰12 |  2.1MB/s
+  network: tcp
+  port: 15229
+  server: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
   tls: false
   type: vmess
-  uuid: fc5ba91a-acd7-11ef-97e0-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: d12dcb0e-sv2sg0-t917sa-12ach.hk3.p5pv.com
-    path: /
+  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
 - alterId: 0
   cipher: auto
   name: 11,16|香港5|@ripaojiedian

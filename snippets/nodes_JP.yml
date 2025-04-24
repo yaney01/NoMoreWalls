@@ -1,18 +1,13 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇯🇵2 |  5.7MB/s
-  network: ws
-  port: 443
-  server: 104.18.149.75
-  servername: ''
-  tls: true
+  name: 11|2|🇯🇵1 |  6.2MB/s
+  network: tcp
+  port: 17233
+  server: 8582ab4a-svc1s0-szegoe-12hj8.cm5.p5pv.com
+  tls: false
   type: vmess
-  uuid: cae97b1c-35e8-4cf2-dc1b-52032c3d3fa7
-  ws-opts:
-    headers:
-      Host: jp.insbot.filegear-sg.me
-    path: /aa
+  uuid: 5acc7a7c-d7ea-11eb-8673-f23c9164ca5d
 - alterId: 64
   cipher: auto
   name: 11,16|日本3|@ripaojiedian
