@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11,16|日本3|@ripaojiedian
+  name: 11|13|日本3|@ripaojiedian
   network: tcp
   port: '32980'
   server: 120.198.71.214
@@ -28,7 +28,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11,16|日本6|@ripaojiedian
+  name: 11,16|日本5|@ripaojiedian
   network: kcp
   port: '53893'
   server: 47.74.41.147
@@ -42,7 +42,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504231516596-2ovXmdP1DN.download.microsoft.com
+    host: 202504241555326-E76HVtFSaq.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -60,7 +60,7 @@ proxies:
     path: /plxbuqyt
     skip-cert-verify: false
     tls: true
-  port: 32747
+  port: 28051
   server: jp06v1.xmsj.red
   tfo: false
   type: ss
@@ -69,6 +69,16 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 52.194.185.159
+  server: 13.229.212.103
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|日本3|@ripaojiedian
+  network: tcp
+  port: '28976'
+  server: 116.206.92.184
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d1f1022b-cd43-49e4-b736-7744d1e11a79
