@@ -1,7 +1,16 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰2 |  4.4MB/s
+  name: 11|0|🇭🇰5 |  2.0MB/s
+  network: tcp
+  port: '15229'
+  server: f00627fb-sva740-sv995i-xz4l.cm.plebai.net
+  tls: false
+  type: vmess
+  uuid: 8c3ef4c2-980d-11ef-add7-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇭🇰14 |  1.2MB/s
   network: tcp
   port: 15229
   server: fc4de86a-sv8cg0-sv995i-xz4l.cm.plebai.net
@@ -10,13 +19,14 @@ proxies:
   uuid: 8c3ef4c2-980d-11ef-add7-f23c913c8d2b
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰3 |  2.0MB/s
+  name: 11,16|香港3|@ripaojiedian
   network: tcp
-  port: 15229
-  server: 10fd33f4-sv4n40-tcq5zn-19qpt.cm.plebai.net
+  port: '57888'
+  server: 47.83.137.220
+  servername: ''
   tls: false
   type: vmess
-  uuid: 4b9ca118-7fab-11eb-bd3a-f23c9164ca5d
+  uuid: b68f8c35-935e-444f-8944-291bf15a56a5
 - alterId: 0
   cipher: auto
   name: 11,16|香港5|@ripaojiedian
@@ -33,16 +43,6 @@ proxies:
   network: tcp
   port: '43674'
   server: 120.234.102.229
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11|13|香港7|@ripaojiedian
-  network: tcp
-  port: '36609'
-  server: 120.232.153.40
   servername: ''
   tls: false
   type: vmess
@@ -109,13 +109,3 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '57888'
-  server: 47.83.137.220
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b68f8c35-935e-444f-8944-291bf15a56a5
