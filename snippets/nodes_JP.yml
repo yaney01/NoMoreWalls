@@ -1,37 +1,31 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇯🇵16 |  2.4MB/s
+  name: 11|2|🇯🇵4 |  5.9MB/s
+  network: tcp
+  port: 3684
+  server: 02c32b60-sudhc0-sva30v-au6.d.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 1b609740-eec2-11ef-8543-f23c93136cb3
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵8 |  2.4MB/s
+  network: tcp
+  port: 17233
+  server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵12 |  2.1MB/s
   network: tcp
   port: 17233
   server: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|13|日本3|@ripaojiedian
-  network: tcp
-  port: '28976'
-  server: 116.206.92.184
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d1f1022b-cd43-49e4-b736-7744d1e11a79
-- alterId: 2
-  cipher: auto
-  name: 11|12,13|日本4|@ripaojiedian
-  network: ws
-  port: '30806'
-  server: v6.heduian.link
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
 - alterId: 0
   cipher: auto
   name: 11,16|日本5|@ripaojiedian
