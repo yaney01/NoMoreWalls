@@ -1,7 +1,7 @@
 proxies:
 - alterId: 2
   cipher: auto
-  name: 11|2|🇭🇰6 |  2.4MB/s
+  name: 11|2|🇭🇰1 |  1.7MB/s
   network: ws
   port: 80
   server: db663bf2-sv2sg0-sv7gs8-1lkbs.hk.p5pv.com
@@ -15,17 +15,84 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  name: 11|2|🇭🇰9 |  1.0MB/s
+  name: 11|2|🇭🇰2 |  2.3MB/s
   network: ws
   port: 80
-  server: dbacca25-sv2sg0-sv0wpw-17xo8.hk.p5pv.com
+  server: 7bdf061e-sv0xs0-sv8lir-1su7j.hk.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0e4ec84a-a324-11ef-81b0-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰3 |  2.2MB/s
+  network: ws
+  port: 80
+  server: db663bf2-sv2sg0-sv7gs8-1lkbs.hk.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰5 |  1.6MB/s
+  network: ws
+  port: 80
+  server: 7bdf061e-sv0xs0-sv8lir-1su7j.hk.p5pv.com
   servername: broadcastlv.chat.bilibili.com
   tls: false
   type: vmess
-  uuid: b4e40aa2-74a1-11ed-b0b5-f23c9164ca5d
+  uuid: 0e4ec84a-a324-11ef-81b0-f23c9164ca5d
   ws-opts:
     headers:
-      Host: dbacca25-sv2sg0-sv0wpw-17xo8.hk.p5pv.com
+      Host: 7bdf061e-sv0xs0-sv8lir-1su7j.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰7 |  1.1MB/s
+  network: ws
+  port: 80
+  server: 2eed1a9a-sv0xs0-sv7gs8-1lkbs.hk.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰12 |  1.2MB/s
+  network: ws
+  port: 80
+  server: 2df30408-sv2sg0-sv3jcr-1itli.hk.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 4088a148-dbec-11ec-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰13 |  1.3MB/s
+  network: ws
+  port: 80
+  server: 2eed1a9a-sv0xs0-sv7gs8-1lkbs.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 5a4c13ae-6673-11ee-a149-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 2eed1a9a-sv0xs0-sv7gs8-1lkbs.hk.p5pv.com
     path: /
 - alterId: 0
   cipher: auto
