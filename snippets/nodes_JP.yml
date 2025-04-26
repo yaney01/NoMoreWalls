@@ -1,6 +1,55 @@
 proxies:
 - alterId: 0
   cipher: auto
+  name: 11|1|🇯🇵2 |  6.1MB/s
+  network: ws
+  port: '35244'
+  server: jp4.vip2.g2.moonbase.life
+  tls: true
+  type: vmess
+  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
+  ws-opts:
+    path: /home
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵5 |  4.4MB/s
+  network: tcp
+  port: 17233
+  server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵8 |  2.7MB/s
+  network: tcp
+  port: '17233'
+  server: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵11 |  6.3MB/s
+  network: tcp
+  port: 17233
+  server: 666c5d9b-svfr40-t1bnjq-1krtb.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵14 |  6.2MB/s
+  network: ws
+  port: '35243'
+  server: jp3.vip2.g2.moonbase.life
+  tls: true
+  type: vmess
+  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
+  ws-opts:
+    path: /home
+- alterId: 0
+  cipher: auto
   name: 11,16|日本5|@ripaojiedian
   network: kcp
   port: '53893'
