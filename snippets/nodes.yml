@@ -528,43 +528,18 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸35 |  4.2MB/s
+  name: 11|0|🇯🇵1 |  6.2MB/s
   network: ws
-  port: 443
-  server: xcmg32.dtkj0328.com
-  servername: xcmg32.dtkj0328.com
+  port: '35244'
+  server: jp4.vip2.g2.moonbase.life
   tls: true
   type: vmess
-  uuid: 2a79ae3c-5857-48c0-a779-8f1029f0fb77
+  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
   ws-opts:
-    headers:
-      Host: xcmg32.dtkj0328.com
-    path: /xcmg1234
-- alterId: 2
-  cipher: auto
-  name: 11|1|🇭🇰2 |  1.1MB/s
-  network: ws
-  port: 80
-  server: e9ba756a-svdwg0-swd5ff-f1v1.hk.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 9cccea7a-b6ab-11eb-a0fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
+    path: /home
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸24 |  4.8MB/s
-  network: tcp
-  port: '5228'
-  server: 89936472-svdwg0-t28b6o-ef48.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸36 |  5.8MB/s
+  name: 11|0|🇺🇸1 |  5.2MB/s
   network: ws
   port: 443
   server: ray.skymirror.cc
@@ -578,35 +553,156 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|1|🇭🇰6 |  3.5MB/s
-  network: tcp
-  port: 40066
-  server: kefu.neter2.top
-  tls: false
-  type: vmess
-  uuid: 2b5597ec-d990-4aaf-b4f9-c19308873901
-- alterId: 2
-  cipher: auto
-  name: 11|1|🇺🇸8 |  1.7MB/s
-  network: tcp
-  port: 443
-  server: aeeae723-svlb40-szcku7-153sp.losa.tcpbbr.net
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 31ede2d8-3f22-11ef-b023-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸11 |  3.9MB/s
+  name: 11|0|🇺🇸3 |  5.9MB/s
   network: tcp
   port: 5229
-  server: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
+  server: 6faf81e8-svdwg0-t1bnjq-1krtb.cu.plebai.net
   tls: false
   type: vmess
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 2
+  cipher: auto
+  name: 11|0|🇺🇸4 |  1.1MB/s
+  network: ws
+  port: 22642
+  server: tk.hzlt.tkddns.xyz
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸51 |  5.3MB/s
+  name: 11|0|🇺🇸37 |  3.5MB/s
+  network: ws
+  port: '443'
+  server: xcf037.facai2024.com
+  servername: xcf037.facai2024.com
+  tls: true
+  type: vmess
+  uuid: d9863037-0463-4615-e972-36ba9662d1e9
+  ws-opts:
+    path: /d9863037
+- alterId: 0
+  cipher: auto
+  name: 11|0|🌀3-ID |  1.9MB/s
+  network: tcp
+  port: 17234
+  server: 304d471c-sv2sg0-t9z17g-17p38.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: b6269564-5974-11eb-8684-f23c913c8d2b
+- alterId: 2
+  cipher: auto
+  name: 11|0|🌀5-ES |  5.5MB/s
+  network: ws
+  port: '30805'
+  server: v5.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇯🇵10 |  3.9MB/s
+  network: tcp
+  port: 17233
+  server: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
+- alterId: 2
+  cipher: auto
+  name: 11|0|🇨🇦1 |  1.0MB/s
+  network: ws
+  port: '30825'
+  server: v25.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇯🇵3 |  6.2MB/s
+  network: tcp
+  port: 17233
+  server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 2
+  cipher: auto
+  name: 11|0|🇺🇸9 |  2.0MB/s
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇰🇷5 |  2.0MB/s
+  network: tcp
+  port: 17232
+  server: 0356c0b3-svdwg0-t28b6o-ef48.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇸🇬4 |  2.6MB/s
+  network: ws
+  port: 43050
+  server: 152.69.220.94
+  servername: a.ziqiu1060.ggff.net
+  tls: true
+  type: vmess
+  uuid: 28ca0567-754e-46fc-e774-b19c787975f7
+  ws-opts:
+    headers:
+      Host: a.ziqiu1060.ggff.net
+    path: /dsfsdf
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇯🇵4 |  1.7MB/s
+  network: ws
+  port: '35243'
+  server: jp3.vip2.g2.moonbase.life
+  tls: true
+  type: vmess
+  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
+  ws-opts:
+    path: /home
+- alterId: 2
+  cipher: auto
+  name: 11|0|🇨🇦2 |  2.3MB/s
+  network: ws
+  port: 30825
+  server: v25.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
+- alterId: 0
+  cipher: auto
+  name: 11|0|🌀10-ID |  2.2MB/s
+  network: tcp
+  port: 17234
+  server: 9c9e3181-svc1s0-t28b6o-ef48.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇺🇸21 |  2.3MB/s
   network: ws
   port: 443
   server: xc011-2.meiziba5566.com
@@ -618,18 +714,125 @@ proxies:
     headers:
       Host: xc011-2.meiziba5566.com
     path: /xc1234
+- alterId: 2
+  cipher: auto
+  name: 11|0|🇺🇸23 |  1.6MB/s
+  network: ws
+  port: '30808'
+  server: v8.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    path: /oooo
+- alterId: 2
+  cipher: auto
+  name: 11|0|🇺🇸25 |  3.4MB/s
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
 - alterId: 0
   cipher: auto
-  name: 11|1|🌀3-ID |  1.2MB/s
+  name: 11|0|🇺🇸40 |  3.9MB/s
+  network: ws
+  port: '443'
+  server: xcf036.facai2024.com
+  servername: xcf036.facai2024.com
+  tls: true
+  type: vmess
+  uuid: 96c585de-c7e4-41cb-a232-9aba535ea9ac
+  ws-opts:
+    path: /96c585de
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇺🇸31 |  4.6MB/s
   network: tcp
-  port: 17234
-  server: 9c9e3181-svc1s0-t28b6o-ef48.cm5.p5pv.com
+  port: 5229
+  server: e890417c-svc1s0-t1bnjq-1krtb.cu.plebai.net
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇺🇸45 |  2.8MB/s
+  network: tcp
+  port: '5228'
+  server: 89936472-svdwg0-t28b6o-ef48.cu.plebai.net
   tls: false
   type: vmess
   uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸16 |  2.2MB/s
+  name: 11|0|🇺🇸33 |  1.2MB/s
+  network: ws
+  port: 52513
+  server: aflzzul.meiquankongjian.com
+  servername: aflzzul.meiquankongjian.com
+  tls: false
+  type: vmess
+  uuid: 342bacfd-2b8f-3f49-a16e-439db5b0b9d5
+  ws-opts:
+    headers:
+      Host: aflzzul.meiquankongjian.com
+    path: /564dfa20/
+- alterId: 0
+  cipher: auto
+  name: 11|0|🌀20-ID |  1.5MB/s
+  network: tcp
+  port: 17234
+  server: 0356c0b3-svdwg0-t28b6o-ef48.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇯🇵11 |  4.7MB/s
+  network: tcp
+  port: 17233
+  server: 666c5d9b-svfr40-t1bnjq-1krtb.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇫🇷2 |  5.3MB/s
+  network: tcp
+  port: 17235
+  server: 304d471c-sv2sg0-t9z17g-17p38.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: b6269564-5974-11eb-8684-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇺🇸36 |  2.5MB/s
+  network: ws
+  port: 443
+  server: hk2.rtmp.online
+  tls: true
+  type: vmess
+  uuid: d0fd87cb-5839-4662-b7dc-1ec9f75fca43
+  ws-opts: {}
+- alterId: 2
+  cipher: auto
+  name: 11|0|🇺🇸42 |  5.9MB/s
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts: {}
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇺🇸43 |  4.9MB/s
   network: ws
   port: 443
   server: yymg02.haibo168.com
@@ -643,213 +846,25 @@ proxies:
     path: /yymg1234
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸18 |  1.8MB/s
-  network: ws
-  port: 443
-  server: xcf037.facai2024.com
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: d9863037-0463-4615-e972-36ba9662d1e9
-  ws-opts:
-    headers:
-      Host: xcf037.facai2024.com
-    path: /d9863037
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇯🇵2 |  6.1MB/s
-  network: ws
-  port: '35244'
-  server: jp4.vip2.g2.moonbase.life
-  tls: true
-  type: vmess
-  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
-  ws-opts:
-    path: /home
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇰🇷4 |  2.1MB/s
-  network: tcp
-  port: 17232
-  server: 0356c0b3-svdwg0-t28b6o-ef48.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|1|🌀9-ID |  2.0MB/s
+  name: 11|0|🌀23-ID |  3.5MB/s
   network: tcp
   port: 17234
-  server: 0356c0b3-svdwg0-t28b6o-ef48.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|1|🌀13-RO |  1.8MB/s
-  network: tcp
-  port: '49664'
-  server: 5.182.37.231
-  tls: false
-  type: vmess
-  uuid: 9395474c-e2a1-4565-ba56-c16e7373c4c4
-- alterId: 0
-  cipher: auto
-  name: 11|1|🌀12-ID |  1.8MB/s
-  network: tcp
-  port: 17234
-  server: 13806907-svc1s0-swy6li-tni2.cm5.p5pv.com
+  server: 7ab33995-svdwg0-swy6li-tni2.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
-- alterId: 2
-  cipher: auto
-  name: 11|1|🇺🇸27 |  5.7MB/s
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  servername: ''
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 11|1|🇺🇸28 |  2.6MB/s
-  network: tcp
-  port: 50009
-  server: 142.4.116.177
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|1|🇫🇷2 |  3.1MB/s
-  network: tcp
-  port: 17235
-  server: 304d471c-sv2sg0-t9z17g-17p38.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: b6269564-5974-11eb-8684-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇯🇵5 |  4.4MB/s
+  name: 11|0|🇯🇵19 |  4.4MB/s
   network: tcp
   port: 17233
-  server: 3c984d30-svdwg0-t1bnjq-1krtb.cm5.p5pv.com
+  server: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸31 |  5.7MB/s
-  network: ws
-  port: '443'
-  server: ray.skymirror.cc
-  tls: true
-  type: vmess
-  uuid: c99929e1-9c82-4a33-d11e-f177247b8f63
-  ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇯🇵8 |  2.7MB/s
-  network: tcp
-  port: '17233'
-  server: bf20b8b1-svhls0-svtxnz-1rgxu.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: ea93064c-176c-11f0-885d-f23c91cfbbc9
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇦🇺2 |  5.2MB/s
-  network: tcp
-  port: '43183'
-  server: 172.105.174.237
-  tls: false
-  type: vmess
-  uuid: aa8b85cf-6153-457f-9eab-7ffe19caee47
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇯🇵11 |  6.3MB/s
-  network: tcp
-  port: 17233
-  server: 666c5d9b-svfr40-t1bnjq-1krtb.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇯🇵14 |  6.2MB/s
-  network: ws
-  port: '35243'
-  server: jp3.vip2.g2.moonbase.life
-  tls: true
-  type: vmess
-  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
-  ws-opts:
-    path: /home
-- alterId: 0
-  cipher: auto
-  name: 11|1|🌀16-ID |  1.4MB/s
-  network: tcp
-  port: 17234
-  server: 304d471c-sv2sg0-t9z17g-17p38.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: b6269564-5974-11eb-8684-f23c913c8d2b
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸38 |  2.6MB/s
-  network: tcp
-  port: '17099'
-  server: 129.80.199.239
-  tls: false
-  type: vmess
-  uuid: e062b217-5b1d-4bfe-b1fe-c1bd8fd44861
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸39 |  4.6MB/s
-  network: tcp
-  port: 5229
-  server: 6faf81e8-svdwg0-t1bnjq-1krtb.cu.plebai.net
-  tls: false
-  type: vmess
-  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alterId: 2
-  cipher: auto
-  name: 11|1|🇺🇸41 |  5.2MB/s
-  network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸43 |  5.3MB/s
-  network: tcp
-  port: 25646
-  server: 157.254.227.168
-  tls: false
-  type: vmess
-  uuid: b53dea0b-748f-4247-9f50-c755ac728787
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇫🇷3 |  5.4MB/s
-  network: tcp
-  port: 17235
-  server: 04c77dd5-sux8g0-sv9of9-lys7.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 18c0664c-74f1-11ee-b51e-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇺🇸44 |  5.0MB/s
+  name: 11|0|🇺🇸47 |  5.8MB/s
   network: tcp
   port: '5228'
   server: 87b134e3-svc1s0-t28b6o-ef48.cu.plebai.net
@@ -858,43 +873,18 @@ proxies:
   uuid: cb15123a-084c-11f0-8eab-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  name: 11|1|🇺🇸47 |  1.6MB/s
+  name: 11|0|🇸🇬6 |  1.5MB/s
   network: ws
-  port: 443
-  server: codepen.io
-  servername: fastclubcloud.alpha-panel.ir
-  tls: true
-  type: vmess
-  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
-  ws-opts:
-    path: /1WWeeRtTt.131.PP.ua/h7Rcu0y30lhjdVjJ3gc4aj
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇸🇬3 |  5.4MB/s
-  network: ws
-  port: 21369
+  port: '21369'
   server: a.886968.xyz
-  servername: a.886968.xyz
   tls: true
   type: vmess
   uuid: 151187b1-c8f3-4c32-ac72-3679e264a7a3
   ws-opts:
-    headers:
-      Host: a.886968.xyz
     path: /wfdef
 - alterId: 2
   cipher: auto
-  name: 11|1|🇭🇰8 |  1.6MB/s
-  network: ws
-  port: 80
-  server: 2df30408-sv2sg0-sv3jcr-1itli.hk.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 4088a148-dbec-11ec-bd7c-f23c913c8d2b
-  ws-opts: {}
-- alterId: 2
-  cipher: auto
-  name: 11|1|🇺🇸55 |  2.7MB/s
+  name: 11|0|🇺🇸49 |  1.5MB/s
   network: ws
   port: 22641
   server: tk.hzlt.tkddns.xyz
@@ -906,6 +896,25 @@ proxies:
     headers:
       Host: zxjp-a.tkong.cc
     path: /
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇫🇷6 |  1.7MB/s
+  network: tcp
+  port: 17235
+  server: 04c77dd5-sux8g0-sv9of9-lys7.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 18c0664c-74f1-11ee-b51e-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇸🇬8 |  3.5MB/s
+  network: tcp
+  port: 17231
+  server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
 - alterId: 0
   cipher: auto
   name: 11,16|香港5|@ripaojiedian
@@ -926,6 +935,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|日本5|@ripaojiedian
+  network: ws
+  port: '35213'
+  server: jp3.g2.moonbase.life
+  servername: web.xcjs.info
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
+  ws-opts:
+    headers:
+      Host: web.xcjs.info
+    path: /home
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -945,14 +971,21 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|13|新加坡2|@ripaojiedian
-  network: tcp
-  port: '3030'
-  server: 47.237.84.79
-  servername: ''
-  tls: false
+  client-fingerprint: chrome
+  name: 11,15,16|新加坡2|@ripaojiedian
+  network: ws
+  port: '43050'
+  server: a.ziqiu1060.ggff.net
+  servername: a.ziqiu1060.ggff.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vmess
-  uuid: de49138c-df11-4b6c-ed94-09e36b8fb890
+  uuid: 28ca0567-754e-46fc-e774-b19c787975f7
+  ws-opts:
+    headers:
+      Host: a.ziqiu1060.ggff.net
+    path: /dsfsdf
 - alterId: 0
   cipher: auto
   name: 11,16|美国|@ripaojiedian
@@ -1218,23 +1251,6 @@ proxies:
   server: one.taki.wtf
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|日本5|@ripaojiedian
-  network: ws
-  port: '35213'
-  server: jp3.g2.moonbase.life
-  servername: web.xcjs.info
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
-  ws-opts:
-    headers:
-      Host: web.xcjs.info
-    path: /home
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇰🇷 韩国|@ripaojiedian
@@ -1243,23 +1259,6 @@ proxies:
   server: 183.240.116.150
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|新加坡2|@ripaojiedian
-  network: ws
-  port: '43050'
-  server: a.ziqiu1060.ggff.net
-  servername: a.ziqiu1060.ggff.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 28ca0567-754e-46fc-e774-b19c787975f7
-  ws-opts:
-    headers:
-      Host: a.ziqiu1060.ggff.net
-    path: /dsfsdf
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇺🇸 美国2|@ripaojiedian

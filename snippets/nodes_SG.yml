@@ -7,18 +7,39 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: 11|1|🇸🇬3 |  5.4MB/s
+  name: 11|0|🇸🇬4 |  2.6MB/s
   network: ws
-  port: 21369
+  port: 43050
+  server: 152.69.220.94
+  servername: a.ziqiu1060.ggff.net
+  tls: true
+  type: vmess
+  uuid: 28ca0567-754e-46fc-e774-b19c787975f7
+  ws-opts:
+    headers:
+      Host: a.ziqiu1060.ggff.net
+    path: /dsfsdf
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇸🇬6 |  1.5MB/s
+  network: ws
+  port: '21369'
   server: a.886968.xyz
-  servername: a.886968.xyz
   tls: true
   type: vmess
   uuid: 151187b1-c8f3-4c32-ac72-3679e264a7a3
   ws-opts:
-    headers:
-      Host: a.886968.xyz
     path: /wfdef
+- alterId: 0
+  cipher: auto
+  name: 11|0|🇸🇬8 |  3.5MB/s
+  network: tcp
+  port: 17231
+  server: c9061f82-svc1s0-sy94f1-1nc6m.cm5.p5pv.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 85d450b2-1c2b-11f0-8a7b-f23c913c8d2b
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -38,18 +59,8 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|13|新加坡2|@ripaojiedian
-  network: tcp
-  port: '3030'
-  server: 47.237.84.79
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: de49138c-df11-4b6c-ed94-09e36b8fb890
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
-  name: 15,16|新加坡2|@ripaojiedian
+  name: 11,15,16|新加坡2|@ripaojiedian
   network: ws
   port: '43050'
   server: a.ziqiu1060.ggff.net
