@@ -63,14 +63,11 @@ proxies:
     path: /nmkj
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|日本5|@ripaojiedian
+  name: 11|12,13|日本5|@ripaojiedian
   network: ws
   port: '1053'
   server: 198.13.44.24
   servername: vu-tokyo-01.vnode.info
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: 5147a5d1-ae9b-407e-8e27-8a4e333df4b0
@@ -80,7 +77,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,16|日本6|@ripaojiedian
+  name: 11,16|日本5|@ripaojiedian
   network: kcp
   port: '53893'
   server: 47.74.41.147
@@ -94,7 +91,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504271541968-w4fkyyqQBp.download.microsoft.com
+    host: 202504281461390-eUluP1Ncv7.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -103,24 +100,24 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
-  password: f6e49310f2ad
+  password: 59224ed0f0e4
   plugin: v2ray-plugin
   plugin-opts:
-    host: ydyhcmiv1.kvote.cn
+    host: jp06v1.3ci.xyz
     mode: websocket
     mux: true
-    path: /ypazzviwr
+    path: /zwqdkxwkk
     skip-cert-verify: false
     tls: true
-  port: 33747
-  server: 103.103.245.90
+  port: 443
+  server: 103.140.136.242
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  name: 15|🇰🇷 韩国特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.180.247.149
+  server: 54.95.213.25
   tfo: false
   type: ss
