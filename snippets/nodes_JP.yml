@@ -1,16 +1,25 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|1|🇯🇵1 |  5.6MB/s
+  name: 11|2|🇯🇵5 |  2.1MB/s
   network: tcp
   port: 17233
-  server: 2c7f0fc0-svlb40-t1bnjq-1krtb.cm5.p5pv.com
+  server: a37e50db-svc1s0-t1bnjq-1krtb.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11|1|🇯🇵3 |  5.4MB/s
+  name: 11|2|🇯🇵6 |  5.9MB/s
+  network: tcp
+  port: 17233
+  server: 0e8845d1-suk9s0-sve5if-z93q.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 40639730-e027-11ea-87ad-f23c913c8d2b
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵11 |  6.2MB/s
   network: tcp
   port: 17233
   server: 666c5d9b-svfr40-t1bnjq-1krtb.cm5.p5pv.com
@@ -19,7 +28,7 @@ proxies:
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11|1|🇯🇵4 |  3.3MB/s
+  name: 11|2|🇯🇵14 |  5.9MB/s
   network: tcp
   port: 17233
   server: 1ff869eb-svjgg0-t1bnjq-1krtb.cm5.p5pv.com
@@ -28,18 +37,22 @@ proxies:
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11|11,12|日本3|@ripaojiedian
-  network: ws
-  port: '8004'
-  server: 59.42.247.189
-  servername: ''
+  name: 11|2|🇯🇵15 |  1.2MB/s
+  network: tcp
+  port: 17233
+  server: f585489b-svhls0-t1bnjq-1krtb.cm5.p5pv.com
   tls: false
   type: vmess
-  uuid: 676f113d-f2ab-4fa5-9b2b-43428a489e56
-  ws-opts:
-    headers:
-      Host: www.bing.com
-    path: /nmkj
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇯🇵17 |  1.2MB/s
+  network: tcp
+  port: 17233
+  server: 2c7f0fc0-svlb40-t1bnjq-1krtb.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 0
   cipher: auto
   name: 11,16|日本5|@ripaojiedian

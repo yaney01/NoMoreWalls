@@ -1,28 +1,18 @@
 proxies:
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 11|1|🇭🇰1 |  4.6MB/s
+  name: 11|2|🇭🇰7 |  1.3MB/s
   network: ws
-  port: 443
-  server: 104.21.6.201
-  servername: hknbyivfffj.site
-  tls: true
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-  ws-opts:
-    headers:
-      Host: hknbyivfffj.site
-    path: /rbqqvws
-- alterId: 0
-  cipher: auto
-  name: 11|1|🇭🇰5 |  5.9MB/s
-  network: tcp
-  port: 30251
-  server: 35.220.230.251
+  port: 80
+  server: 0ea1c2b6-sv6hs0-sv5jys-1t926.hk.p5pv.com
   servername: ''
   tls: false
   type: vmess
-  uuid: 86c9c119-c46d-45a9-82a6-75a886e5e795
+  uuid: 921bd912-ef8a-11ef-8eaf-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,16|香港5|@ripaojiedian
