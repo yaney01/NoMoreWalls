@@ -28,14 +28,11 @@ proxies:
   uuid: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|日本3|@ripaojiedian
+  name: 11|11,12|日本3|@ripaojiedian
   network: ws
   port: '8004'
   server: 59.42.247.189
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 676f113d-f2ab-4fa5-9b2b-43428a489e56
@@ -59,7 +56,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202504281461390-eUluP1Ncv7.download.microsoft.com
+    host: 202504291524969-6n5EJXeCf0.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -68,24 +65,32 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
-  password: 59224ed0f0e4
+  password: b1878a5bf148
   plugin: v2ray-plugin
   plugin-opts:
     host: jp06v1.3ci.xyz
     mode: websocket
     mux: true
-    path: /zwqdkxwkk
+    path: /udjsamdxq
     skip-cert-verify: false
     tls: true
-  port: 443
+  port: 15991
   server: 103.140.136.242
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: 887306f3-af8c-472e-b6e0-e7dcf970a4f0
+  port: 44721
+  server: jsyd.piaomiaoxu.net
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇰🇷 韩国特殊|@ripaojiedian
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: amazonskr05
   port: 443
-  server: 54.95.213.25
+  server: 43.201.51.140
   tfo: false
   type: ss
