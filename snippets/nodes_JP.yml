@@ -1,13 +1,18 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|3|🇯🇵6 |  1.7MB/s
-  network: tcp
-  port: 11555
-  server: 167.88.182.219
-  tls: false
+  name: 11|2|🇯🇵7 |  1.9MB/s
+  network: ws
+  port: 35213
+  server: jp3.g2.moonbase.life
+  servername: web.xcjs.info
+  tls: true
   type: vmess
-  uuid: c4968b1c-d71b-44be-f31e-ac231a2e828d
+  uuid: 46a539d2-d3ba-4a6e-aedb-b727d2fc60f8
+  ws-opts:
+    headers:
+      Host: web.xcjs.info
+    path: /home
 - alterId: 0
   cipher: auto
   name: 11,16|日本5|@ripaojiedian
