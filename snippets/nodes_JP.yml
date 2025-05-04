@@ -126,6 +126,23 @@ proxies:
     path: /home
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|日本7|@ripaojiedian
+  network: ws
+  port: '443'
+  server: cg1c10.waimaoglobaldirect.cc
+  servername: cg1c10.waimaoglobaldirect.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 3493e94c-1769-43d8-8308-f87b460adc65
+  ws-opts:
+    headers:
+      Host: cg1c10.waimaoglobaldirect.cc
+    path: /api/v1/graphql
+- alterId: 0
+  cipher: auto
   name: 11,16|日本5|@ripaojiedian
   network: kcp
   port: '53893'
@@ -175,23 +192,6 @@ proxies:
     headers:
       Host: tr.koxok.us.kg
     path: /?ed=2560
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|日本7|@ripaojiedian
-  network: ws
-  port: '443'
-  server: cg1c10.waimaoglobaldirect.cc
-  servername: cg1c10.waimaoglobaldirect.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 3493e94c-1769-43d8-8308-f87b460adc65
-  ws-opts:
-    headers:
-      Host: cg1c10.waimaoglobaldirect.cc
-    path: /api/v1/graphql
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
