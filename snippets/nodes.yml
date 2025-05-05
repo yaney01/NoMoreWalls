@@ -1181,11 +1181,14 @@ proxies:
   uuid: f6866b0b-f946-4a03-8df0-c7e0016b55ad
 - alterId: 0
   cipher: auto
-  name: 11|13,14|日本3|@ripaojiedian
+  client-fingerprint: chrome
+  name: 11,15,16|日本3|@ripaojiedian
   network: ws
-  port: '35246'
-  server: jp6.vip2.g2.moonbase.life
+  port: '35215'
+  server: jp5.g2.moonbase.life
   servername: web.xcjs.info
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
   uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
@@ -1210,30 +1213,6 @@ proxies:
     headers:
       Host: web.xcjs.info
     path: /home
-- alterId: 0
-  cipher: auto
-  name: 11|13,14|日本7|@ripaojiedian
-  network: ws
-  port: '443'
-  server: cg1c10.waimaoglobaldirect.cc
-  servername: cg1c10.waimaoglobaldirect.cc
-  tls: true
-  type: vmess
-  uuid: 3493e94c-1769-43d8-8308-f87b460adc65
-  ws-opts:
-    headers:
-      Host: cg1c10.waimaoglobaldirect.cc
-    path: /api/v1/graphql
-- alterId: 2
-  cipher: auto
-  name: 11|14|韩国|@ripaojiedian
-  network: tcp
-  port: '11212'
-  server: 12.wogg1.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 7234ac18-c61d-3d60-a866-057af106620c
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -1285,6 +1264,23 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|美国4|@ripaojiedian
+  network: ws
+  port: '22642'
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-b.tkong.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
 - alterId: 0
   cipher: auto
   name: 11,16|日本5|@ripaojiedian
@@ -1489,23 +1485,6 @@ proxies:
   server: 104.233.168.10
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|日本3|@ripaojiedian
-  network: ws
-  port: '35215'
-  server: jp5.g2.moonbase.life
-  servername: web.xcjs.info
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
-  ws-opts:
-    headers:
-      Host: web.xcjs.info
-    path: /home
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇺🇸 美国2|@ripaojiedian
@@ -1518,23 +1497,6 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|美国4|@ripaojiedian
-  network: ws
-  port: '22642'
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-b.tkong.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇸🇬 狮城特殊|@ripaojiedian
