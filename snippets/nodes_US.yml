@@ -578,7 +578,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15,16|美国|@ripaojiedian
+  name: 11,15,16|日本3|@ripaojiedian
   network: ws
   port: '8004'
   server: 59.42.247.189
@@ -587,7 +587,7 @@ proxies:
   tfo: false
   tls: false
   type: vmess
-  uuid: 64841534-0e32-452e-a038-c443fe1fdef0
+  uuid: f07dad0e-9d42-4440-aac5-ff1f9ebc04af
   ws-opts:
     headers:
       Host: www.bing.com
@@ -694,13 +694,30 @@ proxies:
     headers:
       Host: server32.beheshtbaneh.com
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|美国|@ripaojiedian
+  network: ws
+  port: '10501'
+  server: ssm.pimax.com
+  servername: ssm.pimax.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 68876abb-0e56-4beb-b959-34a4bc57a6a2
+  ws-opts:
+    headers:
+      Host: ssm.pimax.com
+    path: /fkgevws
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505041454917-UsWiINM30i.download.microsoft.com
+    host: 202505051364196-DdoXJ0PjId.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
