@@ -577,14 +577,11 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|美国|@ripaojiedian
+  name: 11|13,14|美国|@ripaojiedian
   network: ws
   port: '10501'
   server: ssm.pimax.com
   servername: ssm.pimax.com
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: 68876abb-0e56-4beb-b959-34a4bc57a6a2
@@ -594,14 +591,11 @@ proxies:
     path: /fkgevws
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|美国3|@ripaojiedian
+  name: 11|13,14|美国3|@ripaojiedian
   network: ws
   port: '30807'
   server: v7.heduian.link
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -700,7 +694,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505051364196-DdoXJ0PjId.download.microsoft.com
+    host: 202505061413967-7UVJRqcDLy.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz

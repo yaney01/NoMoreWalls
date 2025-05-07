@@ -92,14 +92,11 @@ proxies:
   uuid: 03573f46-e944-11eb-a8bf-f23c91cfbbc9
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|日本3|@ripaojiedian
+  name: 11|13,14|日本3|@ripaojiedian
   network: ws
   port: '8004'
   server: 59.42.247.189
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: f07dad0e-9d42-4440-aac5-ff1f9ebc04af
@@ -109,14 +106,11 @@ proxies:
     path: /nmkj
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|日本4|@ripaojiedian
+  name: 11|13,14|日本4|@ripaojiedian
   network: ws
   port: '35216'
   server: jp6.g2.moonbase.life
   servername: web.xcjs.info
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: c3136814-a07e-41f6-ad94-8e20458c0d21
@@ -140,7 +134,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505051364196-DdoXJ0PjId.download.microsoft.com
+    host: 202505061413967-7UVJRqcDLy.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -149,24 +143,34 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
-  password: c3e9c4af3090
+  password: ada8f5609e21
   plugin: v2ray-plugin
   plugin-opts:
-    host: jp5v1.8vote.cn
+    host: jp06v1.3ci.xyz
     mode: websocket
     mux: true
-    path: /pnkedddxby
+    path: /nloyfvlu
     skip-cert-verify: false
     tls: true
   port: 443
-  server: 137.220.142.145
+  server: 103.140.136.242
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: amazonskr05
+  password: awsps0501
   port: 443
-  server: 52.199.191.145
+  server: 13.114.102.184
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  name: 16|日本3|@ripaojiedian
+  network: tcp
+  port: '55002'
+  server: 183.237.84.53
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
