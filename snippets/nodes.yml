@@ -526,67 +526,111 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
+- alterId: 0
+  cipher: none
+  name: 11|2|🇺🇸39 |  2.4MB/s|62%|Openai
+  network: ws
+  port: 3306
+  server: ora2.aihi.uk
+  servername: ora2.aihi.uk
+  tls: true
+  type: vmess
+  uuid: 6b414f6a-9cfd-46c3-bcc8-af2c3447871d
+  ws-opts:
+    headers:
+      Host: ora2.aihi.uk
+    path: /ray
 - alterId: 2
   cipher: auto
-  name: 11|3|🇺🇸36 |  3.7MB/s|31%|Openai|G...
+  name: 11|2|🇨🇦3 |  5.6MB/s|Youtube|Opena...
   network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
-  tls: true
+  port: 30825
+  server: v25.heduian.link
+  tls: false
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: zxjp-a.tkong.cc
-    path: /
+      Host: baidu.com
+    path: /oooo
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇮🇹1 |  2.8MB/s|46%|Openai
+  network: ws
+  port: 30805
+  server: v5.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|3|🇺🇸37 |  2.0MB/s|Openai
+  name: 11|2|🇧🇷1 |  4.9MB/s|62%|Youtube|O...
   network: ws
   port: 443
-  server: 5.10.244.72
-  servername: digitaloceanus.lzj520hxw.dpdns.org
+  server: 45.202.113.20
+  servername: br.lzj520hxw.dpdns.org
   tls: true
   type: vmess
-  uuid: 9e43aec6-ba4d-4597-9344-4f6fcbd5c8a6
+  uuid: 399ad8b0-5b80-4137-9a04-7ea413e377d5
   ws-opts:
     headers:
-      Host: digitaloceanus.lzj520hxw.dpdns.org
+      Host: br.lzj520hxw.dpdns.org
     path: /vmess-argo?ed=2048
 - alterId: 0
   cipher: auto
-  name: 11|3|🇺🇸76 |  5.8MB/s|Openai
+  name: 11|2|🇰🇷5 |  2.6MB/s|62%|Youtube|G...
   network: ws
   port: 2096
-  server: 104.21.64.1
-  servername: rak2.852224.xyz
+  server: dv4.789900.xyz
+  servername: dv4.789900.xyz
   tls: true
   type: vmess
-  uuid: 0245c2d4-0ad1-4f0f-eb9c-fbd5f1c47be7
+  uuid: 0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05
   ws-opts:
-    path: /
+    headers:
+      Host: dv4.789900.xyz
+    path: /0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05-vm
 - alterId: 0
   cipher: auto
-  name: 11|3|🌀9-ID |  1.6MB/s|41%|Youtube...
-  network: tcp
-  port: 17234
-  server: 1e69d086-sux8g0-t9eu8q-tlhh.cm5.p5pv.com
-  servername: 1e69d086-sux8g0-t9eu8q-tlhh.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇺🇸79 |  5.6MB/s|31%|Openai
+  name: 11|2|🇺🇸75 |  5.0MB/s|31%|Openai
   network: ws
-  port: 23083
-  server: 45.147.201.231
-  tls: false
+  port: 443
+  server: new3.huvicloud.com
+  servername: new3.huvicloud.com
+  tls: true
   type: vmess
-  uuid: 961f2763-bb5a-40ce-99b2-36779b0f7300
+  uuid: a10476b9-1c07-4de3-9d84-c51d24be599f
   ws-opts:
-    path: /
+    path: /a10476b9-1c07-4de3-9d84-c51d24be599f
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸87 |  3.8MB/s|0%|Openai|Ge...
+  network: ws
+  port: 443
+  server: xc132.meiziba5566.com
+  servername: xc132.meiziba5566.com
+  tls: true
+  type: vmess
+  uuid: 28b33c85-3e14-4323-ed50-d6e4d4d773a8
+  ws-opts:
+    headers:
+      Host: xc132.meiziba5566.com
+    path: /28b33c85
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸92 |  5.3MB/s|Netflix|Open...
+  network: ws
+  port: '443'
+  server: 5.10.244.41
+  tls: true
+  type: vmess
+  uuid: 569dda85-bc76-4f8b-ae03-609d97f9e76c
+  ws-opts:
+    path: /vmess-argo?ed=2048
 - alterId: 64
   cipher: auto
   name: 11,16|香港3|@ripaojiedian
@@ -712,7 +756,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 11|13|🇺🇸 美国5|@ripaojiedian
+  name: 11|12|🇺🇸 美国5|@ripaojiedian
   network: tcp
   port: 46759
   server: 120.198.71.216

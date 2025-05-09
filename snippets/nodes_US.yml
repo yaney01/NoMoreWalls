@@ -235,57 +235,57 @@ proxies:
   type: vmess
   uuid: b7c56170-edb4-4c4a-bb64-ed5ef40b8739
   ws-opts: {}
-- alterId: 2
-  cipher: auto
-  name: 11|3|🇺🇸36 |  3.7MB/s|31%|Openai|G...
+- alterId: 0
+  cipher: none
+  name: 11|2|🇺🇸39 |  2.4MB/s|62%|Openai
   network: ws
-  port: 22641
-  server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
+  port: 3306
+  server: ora2.aihi.uk
+  servername: ora2.aihi.uk
   tls: true
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: 6b414f6a-9cfd-46c3-bcc8-af2c3447871d
   ws-opts:
     headers:
-      Host: zxjp-a.tkong.cc
-    path: /
+      Host: ora2.aihi.uk
+    path: /ray
 - alterId: 0
   cipher: auto
-  name: 11|3|🇺🇸37 |  2.0MB/s|Openai
+  name: 11|2|🇺🇸75 |  5.0MB/s|31%|Openai
   network: ws
   port: 443
-  server: 5.10.244.72
-  servername: digitaloceanus.lzj520hxw.dpdns.org
+  server: new3.huvicloud.com
+  servername: new3.huvicloud.com
   tls: true
   type: vmess
-  uuid: 9e43aec6-ba4d-4597-9344-4f6fcbd5c8a6
+  uuid: a10476b9-1c07-4de3-9d84-c51d24be599f
+  ws-opts:
+    path: /a10476b9-1c07-4de3-9d84-c51d24be599f
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸87 |  3.8MB/s|0%|Openai|Ge...
+  network: ws
+  port: 443
+  server: xc132.meiziba5566.com
+  servername: xc132.meiziba5566.com
+  tls: true
+  type: vmess
+  uuid: 28b33c85-3e14-4323-ed50-d6e4d4d773a8
   ws-opts:
     headers:
-      Host: digitaloceanus.lzj520hxw.dpdns.org
-    path: /vmess-argo?ed=2048
+      Host: xc132.meiziba5566.com
+    path: /28b33c85
 - alterId: 0
   cipher: auto
-  name: 11|3|🇺🇸76 |  5.8MB/s|Openai
+  name: 11|2|🇺🇸92 |  5.3MB/s|Netflix|Open...
   network: ws
-  port: 2096
-  server: 104.21.64.1
-  servername: rak2.852224.xyz
+  port: '443'
+  server: 5.10.244.41
   tls: true
   type: vmess
-  uuid: 0245c2d4-0ad1-4f0f-eb9c-fbd5f1c47be7
+  uuid: 569dda85-bc76-4f8b-ae03-609d97f9e76c
   ws-opts:
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇺🇸79 |  5.6MB/s|31%|Openai
-  network: ws
-  port: 23083
-  server: 45.147.201.231
-  tls: false
-  type: vmess
-  uuid: 961f2763-bb5a-40ce-99b2-36779b0f7300
-  ws-opts:
-    path: /
+    path: /vmess-argo?ed=2048
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -322,7 +322,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 11|13|🇺🇸 美国5|@ripaojiedian
+  name: 11|12|🇺🇸 美国5|@ripaojiedian
   network: tcp
   port: 46759
   server: 120.198.71.216
