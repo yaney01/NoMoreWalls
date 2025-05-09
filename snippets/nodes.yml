@@ -528,7 +528,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: none
-  name: 11|2|🇺🇸39 |  2.4MB/s|62%|Openai
+  name: 11|2|🇺🇸11 |  5.6MB/s|62%|Openai|G...
   network: ws
   port: 3306
   server: ora2.aihi.uk
@@ -540,75 +540,9 @@ proxies:
     headers:
       Host: ora2.aihi.uk
     path: /ray
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇨🇦3 |  5.6MB/s|Youtube|Opena...
-  network: ws
-  port: 30825
-  server: v25.heduian.link
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 11|2|🇮🇹1 |  2.8MB/s|46%|Openai
-  network: ws
-  port: 30805
-  server: v5.heduian.link
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|2|🇧🇷1 |  4.9MB/s|62%|Youtube|O...
-  network: ws
-  port: 443
-  server: 45.202.113.20
-  servername: br.lzj520hxw.dpdns.org
-  tls: true
-  type: vmess
-  uuid: 399ad8b0-5b80-4137-9a04-7ea413e377d5
-  ws-opts:
-    headers:
-      Host: br.lzj520hxw.dpdns.org
-    path: /vmess-argo?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇰🇷5 |  2.6MB/s|62%|Youtube|G...
-  network: ws
-  port: 2096
-  server: dv4.789900.xyz
-  servername: dv4.789900.xyz
-  tls: true
-  type: vmess
-  uuid: 0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05
-  ws-opts:
-    headers:
-      Host: dv4.789900.xyz
-    path: /0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05-vm
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸75 |  5.0MB/s|31%|Openai
-  network: ws
-  port: 443
-  server: new3.huvicloud.com
-  servername: new3.huvicloud.com
-  tls: true
-  type: vmess
-  uuid: a10476b9-1c07-4de3-9d84-c51d24be599f
-  ws-opts:
-    path: /a10476b9-1c07-4de3-9d84-c51d24be599f
-- alterId: 0
-  cipher: auto
-  name: 11|2|🇺🇸87 |  3.8MB/s|0%|Openai|Ge...
+  name: 11|2|🇺🇸24 |  4.1MB/s|0%|Openai|Ge...
   network: ws
   port: 443
   server: xc132.meiziba5566.com
@@ -622,25 +556,45 @@ proxies:
     path: /28b33c85
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸92 |  5.3MB/s|Netflix|Open...
+  name: 11|2|🇺🇸27 |  3.0MB/s|Openai
   network: ws
-  port: '443'
-  server: 5.10.244.41
+  port: 443
+  server: 5.10.244.72
+  servername: digitaloceanus.lzj520hxw.dpdns.org
   tls: true
   type: vmess
-  uuid: 569dda85-bc76-4f8b-ae03-609d97f9e76c
+  uuid: 9e43aec6-ba4d-4597-9344-4f6fcbd5c8a6
   ws-opts:
-    path: /vmess-argo?ed=2048
-- alterId: 64
+    headers:
+      Host: digitaloceanus.lzj520hxw.dpdns.org
+    path: /vmess-argo
+- alterId: 0
   cipher: auto
-  name: 11,16|香港3|@ripaojiedian
-  network: tcp
-  port: '35921'
-  server: 120.198.71.216
-  servername: ''
-  tls: false
+  name: 11|2|🇫🇷5 |  5.4MB/s|38%|Openai
+  network: ws
+  port: 443
+  server: cloudgetservice.mcloudservice.site
+  tls: true
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: cbe129db-24fa-4bb5-99de-03a6e7b1604c
+  ws-opts:
+    headers:
+      Host: MaxNEtVipAp-fr1.maXnEtServICES.onliNe
+    path: /linkws
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇺🇸33 |  1.9MB/s|31%|Openai
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -657,6 +611,30 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇺🇸81 |  6.0MB/s|40%|Disney|O...
+  network: ws
+  port: 443
+  server: 104.16.0.0
+  servername: attendance-determine-hunt-studying.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 01f75b6a-935f-466c-ba3d-9f561d9bf191
+  ws-opts:
+    headers:
+      Host: attendance-determine-hunt-studying.trycloudflare.com
+    path: /01f75b6a-935f-466c-ba3d-9f561d9bf191-vm
+- alterId: 64
+  cipher: auto
+  name: 11,16|香港3|@ripaojiedian
+  network: tcp
+  port: '35921'
+  server: 120.198.71.216
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: 11,16|香港5|@ripaojiedian
@@ -756,7 +734,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 11|12|🇺🇸 美国5|@ripaojiedian
+  name: 11|13|🇺🇸 美国5|@ripaojiedian
   network: tcp
   port: 46759
   server: 120.198.71.216
