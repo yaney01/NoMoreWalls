@@ -35,7 +35,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505061413967-ARiTaH7btE.download.microsoft.com
+    host: 202505081193439-fXcPpumg6a.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -53,15 +53,31 @@ proxies:
     path: /ywkyahjulb
     skip-cert-verify: false
     tls: true
-  port: 41827
+  port: 48512
   server: 103.140.136.242
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本4|@ripaojiedian
+  network: ws
+  port: 8004
+  server: 59.42.247.189
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7365fecd-64ef-485d-bf16-838abc3dddc3
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /nmkj
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: awsps0501
   port: 443
-  server: 3.112.233.244
+  server: 43.206.214.213
   tfo: false
   type: ss
