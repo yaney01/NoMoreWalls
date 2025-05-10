@@ -341,10 +341,11 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 11|13|🇺🇸 美国5|@ripaojiedian
+  name: 11,16|美国5|@ripaojiedian
   network: tcp
-  port: 46759
+  port: '46759'
   server: 120.198.71.216
+  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
@@ -422,7 +423,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505081193439-fXcPpumg6a.download.microsoft.com
+    host: 202505081193439-ADTUVtshPJ.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz

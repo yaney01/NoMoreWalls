@@ -12,10 +12,11 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15|🇯🇵 日本4|@ripaojiedian
+  name: 11,15,16|日本4|@ripaojiedian
   network: ws
-  port: 8004
+  port: '8004'
   server: 59.42.247.189
+  servername: ''
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -37,7 +38,7 @@ proxies:
   uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
 - alterId: 0
   cipher: auto
-  name: 11,16|日本4|@ripaojiedian
+  name: 11|14|日本4|@ripaojiedian
   network: tcp
   port: '53710'
   server: 47.79.88.113
@@ -51,7 +52,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505081193439-fXcPpumg6a.download.microsoft.com
+    host: 202505081193439-ADTUVtshPJ.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -60,16 +61,16 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
-  password: ee003c5fb8d8
+  password: e03b35b40a25
   plugin: v2ray-plugin
   plugin-opts:
     host: jp06v1.3ci.xyz
     mode: websocket
     mux: true
-    path: /ywkyahjulb
+    path: /ymfvpytvkdp
     skip-cert-verify: false
     tls: true
-  port: 48512
+  port: 16622
   server: 103.140.136.242
   tfo: false
   type: ss
@@ -78,6 +79,6 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: awsps0501
   port: 443
-  server: 43.206.214.213
+  server: 52.199.191.145
   tfo: false
   type: ss
