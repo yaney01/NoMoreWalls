@@ -526,31 +526,41 @@ proxies:
   type: vmess
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇫🇷3 |  2.5MB/s|100%|Openai
-  network: ws
-  port: 443
-  server: 8.219.206.22
-  tls: true
-  type: vmess
-  uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
-  ws-opts:
-    headers:
-      Host: beyonddsz.cfd
-    path: /linkws
 - alterId: 64
   cipher: auto
-  name: 11|3|🇸🇬2 |  1.1MB/s|0%|Netflix|Op...
+  name: 11|1|🇺🇸17 |  4.2MB/s|20%|Openai
+  network: tcp
+  port: 40392
+  server: 120.232.153.123
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11|1|🇸🇬4 |  1.5MB/s|0%|Netflix|Op...
   network: tcp
   port: 43302
   server: 183.236.51.38
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 2
+  cipher: auto
+  name: 11|1|🇺🇸132 |  1.7MB/s|31%|Openai
+  network: ws
+  port: 22641
+  server: 52.80.27.229
+  servername: zxjp-a.tkong.cc
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
 - alterId: 0
   cipher: auto
-  name: 11|3|🇨🇦2 |  1.0MB/s|29%|Youtube|O...
+  name: 11|1|🇨🇦1 |  1.5MB/s|29%|Youtube|O...
   network: ws
   port: 2083
   server: cloudgetservice.mcloudservice.site
@@ -563,7 +573,20 @@ proxies:
     path: /linkvkws
 - alterId: 0
   cipher: auto
-  name: 11|3|🌀6-ID |  1.1MB/s|Youtube|Ope...
+  name: 11|1|🇫🇷3 |  1.7MB/s|0%|Openai
+  network: ws
+  port: 443
+  server: cloudgetservice.mcloudservice.site
+  tls: true
+  type: vmess
+  uuid: 37f464cb-b826-4278-9bf8-11bdf1ec892b
+  ws-opts:
+    headers:
+      Host: Fra-Vp-123.BLaZECLOUD.Site
+    path: /linvkws
+- alterId: 0
+  cipher: auto
+  name: 11|1|🌀2-ID |  1.0MB/s|41%|Youtube...
   network: tcp
   port: 17234
   server: 1e69d086-sux8g0-t9eu8q-tlhh.cm5.p5pv.com
@@ -572,26 +595,211 @@ proxies:
   uuid: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
 - alterId: 0
   cipher: auto
-  name: 11|3|🌀10-ID |  1.6MB/s|41%|Youtub...
+  name: 11|1|🇯🇵2 |  5.6MB/s|10%|Netflix|D...
   network: tcp
-  port: '17234'
-  server: 2a668e37-surog0-sxm4ot-zn8y.cm5.p5pv.com
+  port: 4151
+  server: 87b6c700-sukw00-sw1e10-7yd9.c.volczijie.com
   tls: false
   type: vmess
-  uuid: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
+  uuid: 7f84fa90-9f44-11ef-ae1e-f23c93141fad
 - alterId: 0
   cipher: auto
-  name: 11|3|🇨🇦3 |  5.8MB/s|29%|Youtube|O...
+  name: 11|1|🇺🇸63 |  1.1MB/s|15%|Openai
+  network: tcp
+  port: 3105
+  server: 87b6c700-sukw00-sw1e10-7yd9.c.volczijie.com
+  tls: false
+  type: vmess
+  uuid: 7f84fa90-9f44-11ef-ae1e-f23c93141fad
+- alterId: 64
+  cipher: auto
+  name: 11|1|🇯🇵3 |  1.8MB/s|51%|Youtube|O...
   network: ws
-  port: 443
-  server: cloudgetservice.mcloudservice.site
+  port: 1443
+  server: sslvpn.51job.com
   tls: true
   type: vmess
-  uuid: b87cea1d-d14c-45c3-af40-7af5d3be88da
+  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
   ws-opts:
     headers:
-      Host: CANADa-199.BLaZecANADA.sIte
-    path: /linkvkvws
+      Host: centos7
+    path: /634c5c4f9782
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇷🇺5 |  5.4MB/s|0%|Youtube
+  network: ws
+  port: 20022
+  server: 2fea6447-81c4-2d7d-d592-a4f729209777.7head.icu
+  tls: false
+  type: vmess
+  uuid: 21c90669-193d-49d3-8e37-f5c1462eb134
+  ws-opts:
+    headers:
+      Host: tms.dingtalk.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇹🇼2 |  2.9MB/s|0%|Disney|You...
+  network: tcp
+  port: 3690
+  server: 3ffa084b-sukw00-sw1e10-7yd9.b.fosant.com
+  tls: false
+  type: vmess
+  uuid: 7f84fa90-9f44-11ef-ae1e-f23c93141fad
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇭🇰3 |  2.5MB/s|16%|Youtube|O...
+  network: ws
+  port: 8080
+  server: c6e48a12-sw1z40-swtwwj-1su7j.hgc1.tcpbbr.net
+  tls: false
+  type: vmess
+  uuid: 0e4ec84a-a324-11ef-81b0-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇭🇰4 |  1.9MB/s|16%|Youtube|O...
+  network: ws
+  port: 8080
+  server: e9a671ea-sw1z40-t4vk19-1nlwy.hgc1.tcpbbr.net
+  tls: false
+  type: vmess
+  uuid: 9247343a-5db0-11ee-9367-f23c91369f2d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇭🇰5 |  2.6MB/s|16%|Youtube|O...
+  network: ws
+  port: 8080
+  server: 64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net
+  tls: false
+  type: vmess
+  uuid: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇭🇰6 |  3.2MB/s|16%|Youtube|O...
+  network: ws
+  port: 8080
+  server: 2d7952be-sw7j40-t6yqh9-1bhda.hgc1.tcpbbr.net
+  tls: false
+  type: vmess
+  uuid: f61628aa-3d18-11ec-bb74-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇭🇰7 |  1.2MB/s|16%|Youtube|O...
+  network: ws
+  port: 8080
+  server: 7b5d670c-sw1z40-swjbhe-8bem.hgc1.tcpbbr.net
+  tls: false
+  type: vmess
+  uuid: ca506e08-ce3d-5e5a-c128-6358caca15e5
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇭🇰8 |  3.4MB/s|16%|Netflix|O...
+  network: ws
+  port: 8080
+  server: 338b2185-sw1z40-sw51rj-hkb8.hgc1.tcpbbr.net
+  tls: false
+  type: vmess
+  uuid: 21a70fd2-c69c-11eb-8673-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇭🇰9 |  2.4MB/s|16%|Netflix|Y...
+  network: ws
+  port: 8080
+  server: 3bbaf7e8-sw1z40-t525pa-ach1.hgc1.tcpbbr.net
+  tls: false
+  type: vmess
+  uuid: b9c9905c-1627-11ec-a0fc-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇯🇵4 |  6.0MB/s|10%|Disney|Yo...
+  network: tcp
+  port: 17233
+  server: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
+  servername: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸120 |  4.6MB/s|Openai|Gemi...
+  network: ws
+  port: '80'
+  server: FfFgTYY.7282728.XyZ
+  tls: false
+  type: vmess
+  uuid: 3d4ad187-b554-4300-bf71-d26c71962504
+  ws-opts:
+    headers:
+      Host: fffgtyy.7282728.xyz
+    path: /NiNQyrcaIIJ3WqRcOEICAwmfH7
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸123 |  5.8MB/s
+  network: ws
+  port: '2096'
+  server: 141.101.120.253
+  tls: true
+  type: vmess
+  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
+  ws-opts:
+    headers:
+      Host: 1746882891.speed.adl.cccp.freefly.pp.ua
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸130 |  6.0MB/s|32%|Youtube...
+  network: ws
+  port: '80'
+  server: 172.67.170.51
+  tls: false
+  type: vmess
+  uuid: ced307a2-af2c-4113-bebc-fb888c702b7d
+  ws-opts:
+    headers:
+      Host: m4frt.999182.xyz
+    path: /PEQ7CoA1VrBwsbnEcmJLxC
+- alterId: 2
+  cipher: auto
+  name: 11|1|🇺🇸131 |  1.4MB/s|31%|Openai
+  network: ws
+  port: 22641
+  server: 52.80.232.93
+  servername: zxjp-a.tkong.cc
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
 - alterId: 64
   cipher: auto
   name: 11,16|香港3|@ripaojiedian
