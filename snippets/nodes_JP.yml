@@ -43,14 +43,11 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|日本4|@ripaojiedian
+  name: 11|11,12|日本4|@ripaojiedian
   network: ws
   port: '8004'
   server: 59.42.247.189
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 68261662-982a-41b5-94ff-dad406a41c03
@@ -74,7 +71,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505081193439-Q6Je6CIwva.download.microsoft.com
+    host: 202505081193439-w4OKhrzhsF.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -88,7 +85,7 @@ proxies:
   plugin-opts:
     host: jp06v1.3ci.xyz
     mode: websocket
-    mux: true
+    mux: false
     path: /ymfvpytvkdp
     skip-cert-verify: false
     tls: true
@@ -101,6 +98,6 @@ proxies:
   name: 15|🇯🇵 日本特殊|@ripaojiedian
   password: awsps0501
   port: 443
-  server: 47.129.171.73
+  server: 43.203.199.63
   tfo: false
   type: ss
