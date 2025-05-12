@@ -528,137 +528,64 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|3|🇯🇵5 |  2.9MB/s|10%|Disney|Yo...
-  network: tcp
-  port: '17233'
-  server: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
-  servername: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇯🇵4 |  3.2MB/s|10%|Disney|Yo...
-  network: tcp
-  port: 17233
-  server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
-- alterId: 2
-  cipher: auto
-  name: 11|3|🇺🇸39 |  1.0MB/s|31%|Openai
+  name: 11|2|🌀1-CY |  4.1MB/s|46%|Openai
   network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  servername: tk.hzlt.tkddns.xyz
-  tls: true
+  port: 80
+  server: cdn2.bpcdn.cc
+  tls: false
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: cb4a68ab-cd36-4f8e-9ae4-dc318c8f31bd
   ws-opts:
     headers:
-      Host: tk.hzlt.tkddns.xyz
+      Host: tk1.bk5jh4t6w.jiesk4pdqcqjo16j.xyz
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|3|🌀7-ID |  1.3MB/s|41%|Youtube...
-  network: tcp
-  port: '17234'
-  server: 1e69d086-sux8g0-t9eu8q-tlhh.cm5.p5pv.com
+  name: 11|2|🌀4-CY |  5.6MB/s|46%|Openai
+  network: ws
+  port: 80
+  server: cdn2.bpcdn.cc
+  servername: tk1.bk5jh4t6w.jiesk4pdqcqjo16j.xyz
   tls: false
   type: vmess
-  uuid: bdf3e15e-c64c-11ea-82ef-f23c9164ca5d
+  uuid: cb4a68ab-cd36-4f8e-9ae4-dc318c8f31bd
+  ws-opts:
+    path: /
 - alterId: 0
   cipher: auto
-  name: 11|3|🇫🇷4 |  5.6MB/s|Openai
+  name: 11|2|🇺🇸85 |  3.7MB/s|23%|Openai|G...
+  network: ws
+  port: 2086
+  server: 170.114.45.52
+  tls: false
+  type: vmess
+  uuid: cb4a68ab-cd36-4f8e-9ae4-dc318c8f31bd
+  ws-opts:
+    headers:
+      Host: ustoucjjnid18sj6us.lovebaipiao.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🌀6-TR |  5.7MB/s|0%|Openai
   network: ws
   port: 443
-  server: 172.67.136.233
+  server: www.visa.com.tw
   tls: true
   type: vmess
-  uuid: 3f638f34-8dba-4186-bc43-2716a7ddd4be
+  uuid: a826d313-f7e2-443b-8c06-1ebb383cc862
   ws-opts:
     headers:
-      Host: az05.beyondy.cfd
-    path: /link
+      Host: rob-deutschland-leaders-newman.trycloudflare.com
+    path: /vmess-argo
 - alterId: 0
   cipher: auto
-  name: 11|3|🌀9-ID |  1.6MB/s|41%|Youtube...
+  name: 11|2|🌀8-TH |  4.5MB/s|0%|Netflix|...
   network: tcp
-  port: '17234'
-  server: 2a668e37-surog0-sxm4ot-zn8y.cm5.p5pv.com
+  port: '46016'
+  server: 117.18.124.112
   tls: false
   type: vmess
-  uuid: 44e76f8c-7362-11ec-bb74-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇭🇰3 |  1.5MB/s|16%|Netflix|Y...
-  network: ws
-  port: 8080
-  server: 338b2185-sw1z40-sw51rj-hkb8.hgc1.tcpbbr.net
-  tls: false
-  type: vmess
-  uuid: 21a70fd2-c69c-11eb-8673-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇭🇰4 |  3.7MB/s|16%|Youtube|O...
-  network: ws
-  port: 8080
-  server: c6e48a12-sw1z40-swtwwj-1su7j.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 0e4ec84a-a324-11ef-81b0-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: c6e48a12-sw1z40-swtwwj-1su7j.hgc1.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇭🇰5 |  1.6MB/s|16%|Youtube|O...
-  network: ws
-  port: 8080
-  server: 64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: 8f7cb770-1305-11ee-b107-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: 64f6e0b2-sw1z40-t51bp0-1nyy5.hgc1.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇭🇰6 |  1.4MB/s|16%|Youtube|O...
-  network: ws
-  port: 8080
-  server: 2d7952be-sw7j40-t6yqh9-1bhda.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: f61628aa-3d18-11ec-bb74-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: 2d7952be-sw7j40-t6yqh9-1bhda.hgc1.tcpbbr.net
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇭🇰7 |  1.7MB/s|16%|Youtube|O...
-  network: ws
-  port: 8080
-  server: 3bbaf7e8-sw1z40-t525pa-ach1.hgc1.tcpbbr.net
-  servername: broadcastlv.chat.bilibili.com
-  tls: false
-  type: vmess
-  uuid: b9c9905c-1627-11ec-a0fc-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: 3bbaf7e8-sw1z40-t525pa-ach1.hgc1.tcpbbr.net
-    path: /
+  uuid: 5d303602-d4f8-4cc2-bb5e-ef32ed170d66
 - alterId: 64
   cipher: auto
   name: 11,16|香港3|@ripaojiedian
