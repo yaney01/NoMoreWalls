@@ -237,21 +237,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|3|🇺🇸51 |  2.2MB/s|0%|Openai|Ge...
-  network: ws
-  port: 443
-  server: xc132.meiziba5566.com
-  servername: xc132.meiziba5566.com
-  tls: true
-  type: vmess
-  uuid: 28b33c85-3e14-4323-ed50-d6e4d4d773a8
-  ws-opts:
-    headers:
-      Host: xc132.meiziba5566.com
-    path: /28b33c85
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇺🇸128 |  3.8MB/s|0%|Openai
+  name: 11|1|🇺🇸17 |  1.3MB/s|0%|Openai|Ge...
   network: ws
   port: 443
   server: xc133.meiziba5566.com
@@ -265,7 +251,7 @@ proxies:
     path: /268f7e36
 - alterId: 0
   cipher: auto
-  name: 11|3|🇺🇸59 |  2.1MB/s|32%|Openai
+  name: 11|1|🇺🇸22 |  5.3MB/s|Netflix|Open...
   network: ws
   port: 2096
   server: 141.101.120.253
@@ -277,6 +263,24 @@ proxies:
     headers:
       Host: 1746882891.speed.adl.cccp.freefly.pp.ua
     path: /
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸40 |  3.1MB/s|0%|Openai|Ge...
+  network: http
+  port: 47006
+  server: 141.11.122.27
+  tls: false
+  type: vmess
+  uuid: 364a033d-99bf-4610-d552-8516e63aaac5
+- alterId: 0
+  cipher: auto
+  name: 11|1|🇺🇸45 |  2.0MB/s|17%|Openai
+  network: tcp
+  port: 40392
+  server: 120.232.153.123
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
