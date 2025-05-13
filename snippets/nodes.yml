@@ -861,7 +861,7 @@ proxies:
   name: 15|tg频道:@ripaojiedian
   password: awsps0501
   port: 443
-  server: 35.92.38.7
+  server: 34.218.249.8
   tfo: false
   type: ss
 - client-fingerprint: chrome
@@ -889,32 +889,47 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 52013
+  port: 45508
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
-- alpn:
-  - h3
-  alterId: 64
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
   name: 15|🇺🇸 美国5|@ripaojiedian
-  password: a5DnyYNIexIzS2Xg3YYlg9Ol0SgEpyCj5ZCSBanD88eOpwOC4aEzDyTjY0nxBDjzSaACSTqSE223C83
+  password: 2f653ecd-c290-451e-a848-f8f525bc5a21
   port: 46759
   server: 120.198.71.216
   skip-cert-verify: false
-  sni: phooey.starspace.link
+  sni: data.sub-zrj.com
   tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|香港4|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: 1566b24a-sw7j40-sxt412-1qrx5.hgc1.tcpbbr.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: f524c600-db8f-11ee-819e-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505081193439-w4OKhrzhsF.download.microsoft.com
+    host: 202505121278853-EprnOgosvY.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -923,42 +938,43 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
-  password: e03b35b40a25
+  password: 2724722447ea
   plugin: v2ray-plugin
   plugin-opts:
     host: jp06v1.3ci.xyz
     mode: websocket
-    mux: false
-    path: /ymfvpytvkdp
+    mux: true
+    path: /nreuudyxqo
     skip-cert-verify: false
     tls: true
-  port: 20621
+  port: 57626
   server: 103.140.136.242
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇰🇷 韩国|@ripaojiedian
-  password: feafc2ef-d5fd-4f6d-803b-fad4a5cc1f0e
-  port: 19852
-  server: h.cm2.xiaomi-api.xyz
+  name: 15,16|日本4|@ripaojiedian
+  network: ws
+  port: '8004'
+  server: 59.42.247.189
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇰🇷 韩国2|@ripaojiedian
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 6666
-  server: 3.35.231.68
-  tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 248802b7-69c9-4a81-bfbc-181fcb62ef97
+  ws-opts:
+    headers:
+      Host: www.bing.com
+    path: /nmkj
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505081193439-w4OKhrzhsF.download.microsoft.com
+    host: 202505121278853-EprnOgosvY.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -966,26 +982,18 @@ proxies:
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇸🇬 狮城特殊|@ripaojiedian
-  password: awsps0501
-  port: 443
-  server: 43.203.235.15
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本特殊|@ripaojiedian
-  password: awsps0501
+  name: 15|🇰🇷 韩国特殊|@ripaojiedian
+  password: yijian0503
   port: 443
   server: 43.203.199.63
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: 15|🇰🇷 韩国特殊|@ripaojiedian
-  password: awsps0501
+  name: 15|🇯🇵 日本特殊|@ripaojiedian
+  password: yijian0503
   port: 443
-  server: 18.182.62.232
+  server: 43.202.68.234
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -994,5 +1002,13 @@ proxies:
   password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
   port: 38388
   server: 103.186.154.20
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇸🇬 狮城特殊|@ripaojiedian
+  password: yijian0503
+  port: 443
+  server: 3.36.122.17
   tfo: false
   type: ss
