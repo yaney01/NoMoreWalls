@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11|3|🇯🇵2 |  5.7MB/s|54%|Openai
+  name: 11|2|🇯🇵4 |  2.3MB/s|54%|Youtube|O...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -15,20 +15,10 @@ proxies:
     path: /634c5c4f9782
 - alterId: 0
   cipher: auto
-  name: 11|3|🇯🇵3 |  3.6MB/s|11%|Disney|Yo...
+  name: 11|2|🇯🇵2 |  5.5MB/s|11%|Disney|Yo...
   network: tcp
   port: 17233
   server: 2bbb71ac-svdwg0-sw0nbj-1anhm.cm5.p5pv.com
-  tls: false
-  type: vmess
-  uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇯🇵4 |  4.6MB/s|11%|Disney|Yo...
-  network: tcp
-  port: 17233
-  server: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
-  servername: 8faa5046-svc1s0-sw0nbj-1anhm.cm5.p5pv.com
   tls: false
   type: vmess
   uuid: 3f58d3fe-f4ea-11eb-8673-f23c9164ca5d

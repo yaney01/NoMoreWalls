@@ -1,15 +1,137 @@
 proxies:
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: 11|3|🇭🇰3 |  2.0MB/s|15%|Disney|Yo...
+  name: 11|2|🇭🇰2 |  1.4MB/s|15%|Disney|Yo...
   network: ws
-  port: 80
-  server: c0577990-sv2sg0-syydd8-k02s.hk.p5pv.com
-  servername: c0577990-sv2sg0-syydd8-k02s.hk.p5pv.com
+  port: 8080
+  server: 1ec053e0-swd340-t4m86v-1s9pj.hgc1.tcpbbr.net
   tls: false
   type: vmess
-  uuid: c915da48-3bc5-11ec-bd7c-f23c913c8d2b
+  uuid: 57f70d4e-6428-11ef-8f5f-f23c913c8d2b
   ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇭🇰3 |  1.3MB/s|15%|Youtube|O...
+  network: ws
+  port: 8080
+  server: a9c5b237-swd340-t7a4xd-1ln9e.hgc1.tcpbbr.net
+  tls: false
+  type: vmess
+  uuid: e35ea0a0-0634-11f0-8eb0-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇭🇰4 |  1.9MB/s|Disney|Youtub...
+  network: ws
+  port: 8080
+  server: 2daf01b5-swd340-tcum62-se45.hgc1.tcpbbr.net
+  tls: false
+  type: vmess
+  uuid: d076280a-0d5f-11f0-8a7b-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰5 |  1.7MB/s|15%|Netflix
+  network: ws
+  port: 80
+  server: aa1d3b0f-sv0xs0-svr00o-1oxz4.hk.p5pv.com
+  servername: 🇭🇰HK-42.2.112.17-6842 | 3.394MB
+  tls: false
+  type: vmess
+  uuid: ac3a8a98-51dc-11ee-a6e8-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: aa1d3b0f-sv0xs0-svr00o-1oxz4.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰6 |  1.4MB/s|15%|Youtube
+  network: ws
+  port: 80
+  server: d6e3d96a-sv6hs0-sw5wi7-ufc0.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: 22308988-8548-11ea-a22e-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: d6e3d96a-sv6hs0-sw5wi7-ufc0.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰7 |  2.9MB/s|15%|Youtube|O...
+  network: ws
+  port: 80
+  server: 296d0ed6-sv6hs0-tegcd3-1ne75.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: c24da08e-e384-11ed-b0dd-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: 296d0ed6-sv6hs0-tegcd3-1ne75.hk.p5pv.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰9 |  3.5MB/s|15%
+  network: ws
+  port: '80'
+  server: 75a5d1ab-sv2sg0-svr00o-1oxz4.hk.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ac3a8a98-51dc-11ee-a6e8-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰10 |  2.3MB/s|15%|Openai
+  network: ws
+  port: '80'
+  server: aa1d3b0f-sv0xs0-svr00o-1oxz4.hk.p5pv.com
+  tls: false
+  type: vmess
+  uuid: ac3a8a98-51dc-11ee-a6e8-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰11 |  3.6MB/s|15%|Youtube|...
+  network: ws
+  port: 80
+  server: d6e3d96a-sv6hs0-sw5wi7-ufc0.hk.p5pv.com
+  tls: false
+  type: vmess
+  uuid: 22308988-8548-11ea-a22e-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇭🇰12 |  1.3MB/s|15%|Youtube
+  network: ws
+  port: 80
+  server: 137feb1b-sva740-svrs3m-1qct1.hk.p5pv.com
+  servername: broadcastlv.chat.bilibili.com
+  tls: false
+  type: vmess
+  uuid: ae2c23e8-9204-11ef-b635-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: 137feb1b-sva740-svrs3m-1qct1.hk.p5pv.com
     path: /
 - alterId: 0
   cipher: auto
