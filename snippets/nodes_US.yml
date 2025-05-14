@@ -284,7 +284,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 11,16|美国5|@ripaojiedian
+  name: 11|12|美国5|@ripaojiedian
   network: tcp
   port: '46759'
   server: 120.198.71.216
@@ -366,9 +366,26 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505121278853-EprnOgosvY.download.microsoft.com
+    host: 202505121278853-KpcJWnTsUP.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|美国5|@ripaojiedian
+  network: ws
+  port: '30828'
+  server: 111.26.109.79
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
