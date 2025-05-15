@@ -1,4 +1,17 @@
 proxies:
+- alterId: 0
+  cipher: auto
+  name: 11|2|🇭🇰1 |  4.6MB/s|Youtube|Opena...
+  network: ws
+  port: 8080
+  server: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
+  tls: false
+  type: vmess
+  uuid: 94614d84-9986-11ee-be7f-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: a1aa5069-swd340-t7fl9b-1q16i.hgc1.tcpbbr.net
+    path: /
 - alterId: 64
   cipher: auto
   name: 11,16|香港3|@ripaojiedian
