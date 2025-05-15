@@ -135,7 +135,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,16|香港|@ripaojiedian
+  name: 11|14|香港|@ripaojiedian
   network: tcp
   port: '56152'
   server: 120.232.153.40
@@ -182,7 +182,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 11,16|香港6|@ripaojiedian
+  name: 11|14|香港6|@ripaojiedian
   network: tcp
   port: '36609'
   server: 120.232.153.40
@@ -190,19 +190,19 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本6|@ripaojiedian
-  password: 65c14581-e479-41b1-b343-44699f115b1d
-  port: 13883
-  server: 45.159.50.57
+  name: 15|🇸🇬 新加坡3|@ripaojiedian
+  password: 4GA1yNVbxOmx5deR3oj6CgKcHxL1aOSN
+  port: 8123
+  server: mortify.koreanbbq.link
   skip-cert-verify: false
-  sni: mmbiz1.redapricotcloud.com
+  sni: mortify.koreanbbq.link
   tfo: false
   tls: false
-  type: vmess
-  uuid: e6d8237f-4bbf-4a62-af4f-b0844120e0b4
+  type: trojan
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
@@ -215,7 +215,15 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 37441
+  port: 31785
   server: hkkh11v1.xpmc.cc
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港6|@ripaojiedian
+  password: asd123456
+  port: 8388
+  server: 103.149.183.61
   tfo: false
   type: ss
