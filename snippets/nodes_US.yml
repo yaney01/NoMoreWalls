@@ -237,17 +237,13 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|3|🇺🇸65 |  5.7MB/s|56%|Netflix|...
-  network: ws
-  port: 443
-  server: cloudgetservice.mcloudservice.site
-  tls: true
+  name: 11|3|🇺🇸83 |  2.2MB/s|25%|Openai|G...
+  network: tcp
+  port: 49930
+  server: 65.75.194.28
+  tls: false
   type: vmess
-  uuid: ad2bca4d-be9e-4ac2-b2ed-4c81abb4242f
-  ws-opts:
-    headers:
-      Host: mAxNEtVip-uSA-Vp4.nETKh3.sItE
-    path: /linkws
+  uuid: 75191b1e-74a5-4f54-ad94-3bc09ff61322
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
