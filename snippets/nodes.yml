@@ -528,82 +528,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|香港8|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: 140d8a8d-swexs0-t5urb7-1i1.hgc1.tcpbbr.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 6bcf5a10-bfe8-11ec-bd7c-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 2
-  cipher: auto
-  name: 11|3|🇨🇦1 |  3.7MB/s|Youtube|Opena...
-  network: ws
-  port: 30825
-  server: v25.heduian.link
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 11|3|🇺🇸87 |  1.1MB/s|29%|Openai
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts: {}
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇺🇸88 |  5.8MB/s|61%|Openai|G...
-  network: http
-  port: 55839
-  server: 38.54.25.204
-  tls: false
-  type: vmess
-  uuid: b7675d66-cddb-4a69-edd6-c0c83290f72e
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇺🇸95 |  6.4MB/s|32%|Disney|O...
-  network: ws
-  port: 2096
-  server: 141.101.120.253
-  servername: 1746882891.speed.adl.cccp.freefly.pp.ua
-  tls: true
-  type: vmess
-  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
-  ws-opts:
-    headers:
-      Host: 1746882891.speed.adl.cccp.freefly.pp.ua
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇺🇸97 |  1.1MB/s|32%|Openai
-  network: ws
-  port: '443'
-  server: 9x.938.pp.ua
-  servername: 9x.938.pp.ua
-  tls: true
-  type: vmess
-  uuid: 906ba92f-ef96-4133-8eee-f33202a5a721
-  ws-opts:
-    headers:
-      Host: 9x.938.pp.ua
-    path: /DAxJddOdTd5pVam9w
-- alterId: 0
-  cipher: auto
-  name: 11|3|🇭🇰4 |  3.0MB/s|16%|Disney|Yo...
+  name: 11|3|🇭🇰1 |  1.7MB/s|16%|Youtube
   network: ws
   port: 8080
   server: e6eb5fca-swexs0-sycpj3-18jxd.hgc1.tcpbbr.net
@@ -613,32 +538,32 @@ proxies:
   ws-opts:
     path: /
 - alterId: 0
-  cipher: none
-  name: 11|3|🇫🇷4 |  5.2MB/s|26%|Netflix|O...
-  network: ws
-  port: '2096'
-  server: fr.vmess.comnpmjs.com
-  servername: fr.vmess.comnpmjs.com
-  tls: true
-  type: vmess
-  uuid: 708358a5-8c9a-55b8-a521-73b8d7b63d3b
-  ws-opts:
-    headers:
-      Host: fr.vmess.comnpmjs.com
-    path: /vmess
-- alterId: 0
   cipher: auto
-  name: 11|3|🇺🇸118 |  4.0MB/s|50%|Openai
+  name: 11|3|🇺🇸65 |  5.7MB/s|56%|Netflix|...
   network: ws
   port: 443
-  server: api.jquery.com
+  server: cloudgetservice.mcloudservice.site
   tls: true
   type: vmess
-  uuid: 5453ae26-250d-4e79-b4ec-016baf806865
+  uuid: ad2bca4d-be9e-4ac2-b2ed-4c81abb4242f
   ws-opts:
     headers:
-      Host: admin.kasrax.ir
-    path: /2e21cedc-fa8b-4020-8ce0-390e7287d276.890603.pp.ua/h7Rcu0y30lhjdVjJ3gc4aj
+      Host: mAxNEtVip-uSA-Vp4.nETKh3.sItE
+    path: /linkws
+- alterId: 0
+  cipher: auto
+  name: 11|3|🇩🇪6 |  6.0MB/s|22%|Youtube
+  network: ws
+  port: 443
+  server: www.visa.com.sg
+  servername: radiation-browse-dallas-slight.trycloudflare.com
+  tls: true
+  type: vmess
+  uuid: 38d1a891-f3f9-ef39-6a95-c106e2a386eb
+  ws-opts:
+    headers:
+      Host: radiation-browse-dallas-slight.trycloudflare.com
+    path: /vmess-argo?ed=2048
 - alterId: 0
   cipher: auto
   name: 11,16|香港|@ripaojiedian
@@ -679,6 +604,23 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|香港8|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: 140d8a8d-swexs0-t5urb7-1i1.hgc1.tcpbbr.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 6bcf5a10-bfe8-11ec-bd7c-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 64
   cipher: auto
   name: 11,16|日本3|@ripaojiedian
