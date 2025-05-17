@@ -528,31 +528,59 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|3|🌀3-TH |  3.2MB/s|55%|Openai
+  name: 11|2|🇺🇸52 |  5.0MB/s|32%|Netflix|...
   network: ws
-  port: 443
-  server: 5.10.247.159
-  servername: th.lzj520hxw.dpdns.org
+  port: 2096
+  server: 141.101.120.253
+  servername: 1746882891.speed.adl.cccp.freefly.pp.ua
   tls: true
   type: vmess
-  uuid: 164a6ad0-476a-4bae-b78f-a3d37cf0f414
+  uuid: 381cb6d1-6ad4-4909-8494-b8d786cf78ce
   ws-opts:
     headers:
-      Host: th.lzj520hxw.dpdns.org
-    path: /lzjjj
+      Host: 1746882891.speed.adl.cccp.freefly.pp.ua
+    path: /
+- alterId: 0
+  cipher: none
+  name: 11|2|🇩🇪6 |  4.3MB/s|0%|Openai
+  network: ws
+  port: '443'
+  server: de.vmess.comnpmjs.com
+  servername: de.vmess.comnpmjs.com
+  tls: true
+  type: vmess
+  uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
+  ws-opts:
+    headers:
+      Host: de.vmess.comnpmjs.com
+    path: /vmess
 - alterId: 0
   cipher: auto
-  name: 11|3|🇺🇸136 |  4.0MB/s|51%|Openai|...
+  name: 11|2|🇰🇷4 |  1.9MB/s|62%|Youtube|O...
   network: ws
-  port: 2082
-  server: 172.67.214.33
-  tls: false
+  port: 2087
+  server: lv4.789900.xyz
+  servername: lv4.789900.xyz
+  tls: true
   type: vmess
-  uuid: 2f821152-c3e9-4074-9185-2790e7425f42
+  uuid: 7dd16ab1-2a36-4b32-86fd-eb49fb039752
   ws-opts:
     headers:
-      Host: cs.flha.ru
-    path: /
+      Host: lv4.789900.xyz
+    path: /7dd16ab1-2a36-4b32-86fd-eb49fb039752-vm
+- alterId: 2
+  cipher: auto
+  name: 11|2|🇮🇹1 |  1.7MB/s|44%|Openai
+  network: ws
+  port: 30805
+  server: v5.heduian.link
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
 - alterId: 64
   cipher: auto
   name: 11,16|香港3|@ripaojiedian
