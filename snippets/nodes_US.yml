@@ -237,7 +237,7 @@ proxies:
   ws-opts: {}
 - alterId: 0
   cipher: auto
-  name: 11|2|🇺🇸52 |  5.0MB/s|32%|Netflix|...
+  name: 11|3|🇺🇸18 |  4.9MB/s|32%|Netflix|...
   network: ws
   port: 2096
   server: 141.101.120.253
@@ -249,6 +249,58 @@ proxies:
     headers:
       Host: 1746882891.speed.adl.cccp.freefly.pp.ua
     path: /
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|美国5|@ripaojiedian
+  network: ws
+  port: '22641'
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-a.tkong.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-a.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|3|🇺🇸43 |  1.2MB/s|29%|Openai
+  network: ws
+  port: 22641
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-a.tkong.cc
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts: {}
+- alterId: 2
+  cipher: auto
+  name: 11|3|🇺🇸46 |  1.7MB/s|29%|Openai
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-c.tkong.cc
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-c.tkong.cc
+    path: /
+- alterId: 2
+  cipher: auto
+  name: 11|3|🇺🇸48 |  2.5MB/s|Openai
+  network: ws
+  port: 22643
+  server: tk.hzlt.tkddns.xyz
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts: {}
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -282,23 +334,6 @@ proxies:
   ws-opts:
     headers:
       Host: zxjp-b.tkong.cc
-    path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|美国5|@ripaojiedian
-  network: ws
-  port: '22641'
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-a.tkong.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-a.tkong.cc
     path: /
 - alterId: 0
   cipher: auto
