@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|3|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
+  name: 11|1|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 11|14|香港3|@ripaojiedian
+  name: 11,16|香港3|@ripaojiedian
   network: tcp
   port: '35921'
   server: 120.198.71.216
@@ -24,7 +24,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|14|香港4|@ripaojiedian
+  name: 11,16|香港4|@ripaojiedian
   network: tcp
   port: '57922'
   server: 103.224.80.111
@@ -35,9 +35,9 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15|🇭🇰 香港7|@ripaojiedian
+  name: 11,15,16|香港7|@ripaojiedian
   network: ws
-  port: 30809
+  port: '30809'
   server: v9.heduian.link
   servername: ''
   skip-cert-verify: false

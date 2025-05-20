@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11|3|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
+  name: 11|1|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -14,7 +14,7 @@ proxies:
     path: /634c5c4f9782
 - alterId: 64
   cipher: auto
-  name: 11|14|日本4|@ripaojiedian
+  name: 11,16|日本4|@ripaojiedian
   network: tcp
   port: '55002'
   server: 183.237.84.53
@@ -25,9 +25,9 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15|🇯🇵 日本7|@ripaojiedian
+  name: 11,15,16|日本7|@ripaojiedian
   network: ws
-  port: 1443
+  port: '1443'
   server: 58.246.138.244
   servername: centos7
   skip-cert-verify: false
@@ -41,7 +41,7 @@ proxies:
     path: /634c5c4f9782
 - alterId: 0
   cipher: auto
-  name: 11|14|日本5|@ripaojiedian
+  name: 11,16|日本5|@ripaojiedian
   network: kcp
   port: '53893'
   server: 47.74.41.147
