@@ -601,7 +601,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 11|13|香港3|@ripaojiedian
+  name: 11,16|香港3|@ripaojiedian
   network: tcp
   port: '35921'
   server: 120.198.71.216
@@ -611,30 +611,20 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|13|香港4|@ripaojiedian
+  name: 11,16|香港4|@ripaojiedian
   network: tcp
-  port: '13651'
-  server: 103.30.76.66
+  port: '57922'
+  server: 103.224.80.111
   servername: ''
   tls: false
   type: vmess
-  uuid: 6831c9ce-4ca8-42c0-8181-fb1055710ccc
-- alterId: 0
-  cipher: auto
-  name: 11|13|香港6|@ripaojiedian
-  network: tcp
-  port: '45939'
-  server: 103.30.76.218
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 268fe594-cd35-4038-8bc1-1086ada27fe8
+  uuid: 92d204d0-5808-4f68-963d-4aa3b425f8aa
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15|🇭🇰 香港7|@ripaojiedian
+  name: 11,15,16|香港7|@ripaojiedian
   network: ws
-  port: 30809
+  port: '30809'
   server: v9.heduian.link
   servername: ''
   skip-cert-verify: false
@@ -646,19 +636,9 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 11|13|香港8|@ripaojiedian
-  network: tcp
-  port: '29714'
-  server: 45.196.234.135
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 26312aa7-13a8-40c9-9c37-da0cdfc2d225
 - alterId: 64
   cipher: auto
-  name: 11|13|日本4|@ripaojiedian
+  name: 11,16|日本4|@ripaojiedian
   network: tcp
   port: '55002'
   server: 183.237.84.53
@@ -666,12 +646,29 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|日本7|@ripaojiedian
+  network: ws
+  port: '1443'
+  server: 58.246.138.244
+  servername: centos7
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
+  ws-opts:
+    headers:
+      Host: centos7
+    path: /634c5c4f9782
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15|🇸🇬 新加坡|@ripaojiedian
+  name: 11,15,16|新加坡|@ripaojiedian
   network: ws
-  port: 30812
+  port: '30812'
   server: v12.heduian.link
   servername: ''
   skip-cert-verify: false
@@ -686,9 +683,9 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15|🇺🇸 美国|@ripaojiedian
+  name: 11,15,16|美国|@ripaojiedian
   network: ws
-  port: 30832
+  port: '30832'
   server: v32.heduian.link
   servername: ''
   skip-cert-verify: false
@@ -703,9 +700,9 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15|🇺🇸 美国4|@ripaojiedian
+  name: 11,15,16|美国4|@ripaojiedian
   network: ws
-  port: 22642
+  port: '22642'
   server: tk.hzlt.tkddns.xyz
   servername: zxjp-b.tkong.cc
   skip-cert-verify: false
@@ -720,9 +717,9 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15|🇺🇸 美国5|@ripaojiedian
+  name: 11,15,16|美国5|@ripaojiedian
   network: ws
-  port: 22641
+  port: '22641'
   server: tk.hzlt.tkddns.xyz
   servername: zxjp-a.tkong.cc
   skip-cert-verify: false
@@ -736,7 +733,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|13|日本5|@ripaojiedian
+  name: 11,16|日本5|@ripaojiedian
   network: kcp
   port: '53893'
   server: 47.74.41.147
@@ -941,23 +938,6 @@ proxies:
   server: 103.140.136.76
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇯🇵 日本7|@ripaojiedian
-  network: ws
-  port: 1443
-  server: 58.246.138.244
-  servername: centos7
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
-  ws-opts:
-    headers:
-      Host: centos7
-    path: /634c5c4f9782
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇯🇵 日本6|@ripaojiedian
