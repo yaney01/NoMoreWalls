@@ -601,7 +601,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 11,16|香港3|@ripaojiedian
+  name: 11|14|香港3|@ripaojiedian
   network: tcp
   port: '35921'
   server: 120.198.71.216
@@ -611,7 +611,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11,16|香港4|@ripaojiedian
+  name: 11|14|香港4|@ripaojiedian
   network: tcp
   port: '57922'
   server: 103.224.80.111
@@ -622,9 +622,9 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15,16|香港7|@ripaojiedian
+  name: 11,15|🇭🇰 香港7|@ripaojiedian
   network: ws
-  port: '30809'
+  port: 30809
   server: v9.heduian.link
   servername: ''
   skip-cert-verify: false
@@ -638,7 +638,7 @@ proxies:
     path: /oooo
 - alterId: 64
   cipher: auto
-  name: 11,16|日本4|@ripaojiedian
+  name: 11|14|日本4|@ripaojiedian
   network: tcp
   port: '55002'
   server: 183.237.84.53
@@ -649,9 +649,9 @@ proxies:
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15,16|日本7|@ripaojiedian
+  name: 11,15|🇯🇵 日本7|@ripaojiedian
   network: ws
-  port: '1443'
+  port: 1443
   server: 58.246.138.244
   servername: centos7
   skip-cert-verify: false
@@ -666,9 +666,9 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15,16|新加坡|@ripaojiedian
+  name: 11,15|🇸🇬 新加坡|@ripaojiedian
   network: ws
-  port: '30812'
+  port: 30812
   server: v12.heduian.link
   servername: ''
   skip-cert-verify: false
@@ -683,9 +683,9 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15,16|美国|@ripaojiedian
+  name: 11,15|🇺🇸 美国|@ripaojiedian
   network: ws
-  port: '30832'
+  port: 30832
   server: v32.heduian.link
   servername: ''
   skip-cert-verify: false
@@ -700,9 +700,9 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15,16|美国4|@ripaojiedian
+  name: 11,15|🇺🇸 美国4|@ripaojiedian
   network: ws
-  port: '22642'
+  port: 22642
   server: tk.hzlt.tkddns.xyz
   servername: zxjp-b.tkong.cc
   skip-cert-verify: false
@@ -717,9 +717,9 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15,16|美国5|@ripaojiedian
+  name: 11,15|🇺🇸 美国5|@ripaojiedian
   network: ws
-  port: '22641'
+  port: 22641
   server: tk.hzlt.tkddns.xyz
   servername: zxjp-a.tkong.cc
   skip-cert-verify: false
@@ -733,7 +733,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,16|日本5|@ripaojiedian
+  name: 11|14|日本5|@ripaojiedian
   network: kcp
   port: '53893'
   server: 47.74.41.147
