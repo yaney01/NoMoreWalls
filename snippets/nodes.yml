@@ -528,7 +528,7 @@ proxies:
   ws-opts: {}
 - alterId: 64
   cipher: auto
-  name: 11|2|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
+  name: 11|3|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -541,7 +541,7 @@ proxies:
     path: /634c5c4f9782
 - alterId: 64
   cipher: auto
-  name: 11|2|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
+  name: 11|3|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
   network: tcp
   port: 49291
   server: 183.236.51.38
@@ -550,7 +550,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|2|🌀4-TH |  2.6MB/s|55%|Netflix...
+  name: 11|3|🌀4-TH |  2.6MB/s|55%|Netflix...
   network: ws
   port: 443
   server: 38.47.96.30
@@ -563,7 +563,7 @@ proxies:
     path: /lzjjj
 - alterId: 2
   cipher: auto
-  name: 11|2|🇺🇸62 |  3.3MB/s|Openai|Gemin...
+  name: 11|3|🇺🇸62 |  3.3MB/s|Openai|Gemin...
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -578,7 +578,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 11|2|🇩🇪5 |  1.4MB/s|0%|Youtube|Op...
+  name: 11|3|🇩🇪5 |  1.4MB/s|0%|Youtube|Op...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -588,7 +588,7 @@ proxies:
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
+  name: 11|3|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -611,14 +611,14 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|14|香港4|@ripaojiedian
+  name: 11,16|香港4|@ripaojiedian
   network: tcp
-  port: '57922'
-  server: 103.224.80.111
+  port: '19504'
+  server: 43.247.135.192
   servername: ''
   tls: false
   type: vmess
-  uuid: 92d204d0-5808-4f68-963d-4aa3b425f8aa
+  uuid: 1322968d-536f-4dd4-8cea-fee6c04e2d97
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -646,20 +646,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11|13,14|日本7|@ripaojiedian
-  network: ws
-  port: '1443'
-  server: 58.246.138.244
-  servername: centos7
-  tls: true
-  type: vmess
-  uuid: a6a0d901-67e9-460a-90b5-634c5c4f9782
-  ws-opts:
-    headers:
-      Host: centos7
-    path: /634c5c4f9782
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -677,6 +663,16 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- alterId: 64
+  cipher: auto
+  name: 11,16|新加坡2|@ripaojiedian
+  network: tcp
+  port: '49121'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -979,23 +975,3 @@ proxies:
   server: 103.186.154.33
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港4|@ripaojiedian
-  network: tcp
-  port: '19504'
-  server: 43.247.135.192
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 1322968d-536f-4dd4-8cea-fee6c04e2d97
-- alterId: 64
-  cipher: auto
-  name: 16|新加坡2|@ripaojiedian
-  network: tcp
-  port: '49121'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
