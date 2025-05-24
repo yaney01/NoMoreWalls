@@ -61,14 +61,11 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|香港9|@ripaojiedian
+  name: 11|12,13|香港9|@ripaojiedian
   network: ws
   port: '8080'
   server: 0986fcca-swq1s0-swsmkh-1s0a7.hgc1.tcpbbr.net
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 1b9c460e-f026-11ef-b737-f23c91cfbbc9
@@ -96,7 +93,7 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 57530
+  port: 50197
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
@@ -111,11 +108,20 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港8|@ripaojiedian
-  password: asd123456
-  port: 8388
-  server: 154.197.26.237
+  name: 15,16|香港8|@ripaojiedian
+  network: ws
+  port: '443'
+  server: n1735525473.afjian.cn
+  servername: n1735525473.afjian.cn
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: true
+  type: vmess
+  uuid: e99a79a4-88d3-4e31-bc1f-ec7caba3531b
+  ws-opts:
+    headers:
+      Host: n1735525473.afjian.cn
+    path: /
