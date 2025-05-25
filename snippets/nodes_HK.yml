@@ -61,14 +61,11 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|香港8|@ripaojiedian
+  name: 11|13,14|香港8|@ripaojiedian
   network: ws
   port: '443'
   server: n1735525473.afjian.cn
   servername: n1735525473.afjian.cn
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: e99a79a4-88d3-4e31-bc1f-ec7caba3531b
@@ -96,7 +93,7 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 50197
+  port: 22934
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
@@ -104,10 +101,54 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: 15|🇸🇬 新加坡2|@ripaojiedian
+  password: RlzoEILU
   port: 49121
   server: 183.236.51.38
   skip-cert-verify: false
+  sni: cdn.egvra.cn
   tfo: false
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-128-gcm
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港8|@ripaojiedian
+  password: 43972f42-db63-4694-bb72-c480b5c905b7
+  port: 49868
+  server: xz.fanhua.art
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|香港9|@ripaojiedian
+  network: ws
+  port: '443'
+  server: n1735606087.ryjml.cn
+  servername: n1735606087.ryjml.cn
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: f047f92c-cb20-4ccb-872f-bc484d848448
+  ws-opts:
+    headers:
+      Host: n1735606087.ryjml.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|香港10|@ripaojiedian
+  network: ws
+  port: '443'
+  server: n1735783644.ryjml.cn
+  servername: n1735783644.ryjml.cn
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 015e56c9-36d7-4f9a-9162-d8b1b7fa6f7a
+  ws-opts:
+    headers:
+      Host: n1735783644.ryjml.cn
+    path: /
