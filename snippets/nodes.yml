@@ -528,7 +528,7 @@ proxies:
   ws-opts: {}
 - alterId: 64
   cipher: auto
-  name: 11|3|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
+  name: 11|2|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -541,7 +541,7 @@ proxies:
     path: /634c5c4f9782
 - alterId: 64
   cipher: auto
-  name: 11|3|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
+  name: 11|2|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
   network: tcp
   port: 49291
   server: 183.236.51.38
@@ -550,7 +550,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|3|🌀4-TH |  2.6MB/s|55%|Netflix...
+  name: 11|2|🌀4-TH |  2.6MB/s|55%|Netflix...
   network: ws
   port: 443
   server: 38.47.96.30
@@ -563,7 +563,7 @@ proxies:
     path: /lzjjj
 - alterId: 2
   cipher: auto
-  name: 11|3|🇺🇸62 |  3.3MB/s|Openai|Gemin...
+  name: 11|2|🇺🇸62 |  3.3MB/s|Openai|Gemin...
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -578,7 +578,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 11|3|🇩🇪5 |  1.4MB/s|0%|Youtube|Op...
+  name: 11|2|🇩🇪5 |  1.4MB/s|0%|Youtube|Op...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -588,7 +588,7 @@ proxies:
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
 - alterId: 0
   cipher: auto
-  name: 11|3|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
+  name: 11|2|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -648,17 +648,37 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|13,14|香港8|@ripaojiedian
+  client-fingerprint: chrome
+  name: 11,15,16|香港9|@ripaojiedian
   network: ws
   port: '443'
-  server: n1735525473.afjian.cn
-  servername: n1735525473.afjian.cn
+  server: n1735606087.ryjml.cn
+  servername: n1735606087.ryjml.cn
+  skip-cert-verify: false
+  tfo: false
   tls: true
   type: vmess
-  uuid: e99a79a4-88d3-4e31-bc1f-ec7caba3531b
+  uuid: f047f92c-cb20-4ccb-872f-bc484d848448
   ws-opts:
     headers:
-      Host: n1735525473.afjian.cn
+      Host: n1735606087.ryjml.cn
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|香港10|@ripaojiedian
+  network: ws
+  port: '443'
+  server: n1735783644.ryjml.cn
+  servername: n1735783644.ryjml.cn
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 015e56c9-36d7-4f9a-9162-d8b1b7fa6f7a
+  ws-opts:
+    headers:
+      Host: n1735783644.ryjml.cn
     path: /
 - alterId: 64
   cipher: auto
@@ -935,40 +955,6 @@ proxies:
   server: xz.fanhua.art
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|香港9|@ripaojiedian
-  network: ws
-  port: '443'
-  server: n1735606087.ryjml.cn
-  servername: n1735606087.ryjml.cn
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: f047f92c-cb20-4ccb-872f-bc484d848448
-  ws-opts:
-    headers:
-      Host: n1735606087.ryjml.cn
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|香港10|@ripaojiedian
-  network: ws
-  port: '443'
-  server: n1735783644.ryjml.cn
-  servername: n1735783644.ryjml.cn
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 015e56c9-36d7-4f9a-9162-d8b1b7fa6f7a
-  ws-opts:
-    headers:
-      Host: n1735783644.ryjml.cn
-    path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
