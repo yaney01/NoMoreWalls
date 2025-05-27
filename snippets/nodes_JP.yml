@@ -14,7 +14,7 @@ proxies:
     path: /634c5c4f9782
 - alterId: 64
   cipher: auto
-  name: 11,16|日本3|@ripaojiedian
+  name: 11|14|日本3|@ripaojiedian
   network: tcp
   port: '55002'
   server: 183.237.84.53
@@ -38,7 +38,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505251086349-HhwPvtLlML.download.microsoft.com
+    host: 202505251086349-pXOu6bcj2Z.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -47,16 +47,32 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇯🇵 日本2|@ripaojiedian
-  password: 04e28ee6e6b0
+  password: b87e23b41338
   plugin: v2ray-plugin
   plugin-opts:
     host: jp1v9.8vote.cn
     mode: websocket
     mux: true
-    path: /qfrjtumkddnc
+    path: /cbexboxzv
     skip-cert-verify: false
     tls: true
   port: 443
   server: 103.140.136.76
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: 0fbed6c9-0fb4-4ec3-8582-f569f8d773d5
+  port: 23335
+  server: 120.233.147.197
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本4|@ripaojiedian
+  password: HO86LQ8KH31JNMBQ
+  port: 18010
+  server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
