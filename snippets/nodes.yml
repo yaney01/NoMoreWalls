@@ -528,7 +528,7 @@ proxies:
   ws-opts: {}
 - alterId: 64
   cipher: auto
-  name: 11|2|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
+  name: 11|3|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -541,7 +541,7 @@ proxies:
     path: /634c5c4f9782
 - alterId: 64
   cipher: auto
-  name: 11|2|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
+  name: 11|3|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
   network: tcp
   port: 49291
   server: 183.236.51.38
@@ -550,7 +550,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|2|🌀4-TH |  2.6MB/s|55%|Netflix...
+  name: 11|3|🌀4-TH |  2.6MB/s|55%|Netflix...
   network: ws
   port: 443
   server: 38.47.96.30
@@ -563,7 +563,7 @@ proxies:
     path: /lzjjj
 - alterId: 2
   cipher: auto
-  name: 11|2|🇺🇸62 |  3.3MB/s|Openai|Gemin...
+  name: 11|3|🇺🇸62 |  3.3MB/s|Openai|Gemin...
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -578,7 +578,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 11|2|🇩🇪5 |  1.4MB/s|0%|Youtube|Op...
+  name: 11|3|🇩🇪5 |  1.4MB/s|0%|Youtube|Op...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -588,37 +588,13 @@ proxies:
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
+  name: 11|3|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
   tls: false
   type: vmess
   uuid: 62b7824e-47dc-11ef-9f2d-f23c9164ca5d
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
-- alterId: 64
-  cipher: auto
-  name: 11|13|香港3|@ripaojiedian
-  network: tcp
-  port: '35921'
-  server: 120.198.71.216
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|12,13|香港4|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: 03566c42-swzb40-sznzxg-1jfvb.hgc1.tcpbbr.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 06b2ac52-fcc6-11ec-bb74-f23c9164ca5d
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
@@ -714,16 +690,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 11,16|美国4|@ripaojiedian
-  network: tcp
-  port: '41597'
-  server: 120.232.153.41
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -743,14 +709,34 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|13|日本5|@ripaojiedian
-  network: kcp
-  port: '53893'
-  server: 47.74.41.147
+  name: 11,16|美国4|@ripaojiedian
+  network: tcp
+  port: '41597'
+  server: 120.232.153.41
   servername: ''
   tls: false
   type: vmess
-  uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港V2|@ripaojiedian
+  network: kcp
+  port: '39253'
+  server: 47.76.92.36
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 16e7adc5-8a1e-44b1-8327-14f7367caaf8
+- alterId: 0
+  cipher: auto
+  name: 11,16|日本V2|@ripaojiedian
+  network: kcp
+  port: '50951'
+  server: 8.211.154.107
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 印度  2
@@ -1008,23 +994,3 @@ proxies:
   server: 103.186.155.20
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港V2|@ripaojiedian
-  network: kcp
-  port: '39253'
-  server: 47.76.92.36
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 16e7adc5-8a1e-44b1-8327-14f7367caaf8
-- alterId: 0
-  cipher: auto
-  name: 16|日本V2|@ripaojiedian
-  network: kcp
-  port: '50951'
-  server: 8.211.154.107
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d

@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11|2|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
+  name: 11|3|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -14,14 +14,14 @@ proxies:
     path: /634c5c4f9782
 - alterId: 0
   cipher: auto
-  name: 11|13|日本5|@ripaojiedian
+  name: 11,16|日本V2|@ripaojiedian
   network: kcp
-  port: '53893'
-  server: 47.74.41.147
+  port: '50951'
+  server: 8.211.154.107
   servername: ''
   tls: false
   type: vmess
-  uuid: 07287360-e12f-4f94-9c7a-54386c100d8a
+  uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -66,13 +66,3 @@ proxies:
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|日本V2|@ripaojiedian
-  network: kcp
-  port: '50951'
-  server: 8.211.154.107
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
