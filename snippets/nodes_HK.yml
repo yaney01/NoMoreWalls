@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
+  name: 11|3|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -49,26 +49,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbffb825-93d5-4a19-aed0-0936a48c84d3
-- alterId: 0
-  cipher: auto
-  name: 11|13|香港9|@ripaojiedian
-  network: tcp
-  port: '39919'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|13|香港V2|@ripaojiedian
-  network: kcp
-  port: '39253'
-  server: 47.76.92.36
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 16e7adc5-8a1e-44b1-8327-14f7367caaf8
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港|@ripaojiedian
