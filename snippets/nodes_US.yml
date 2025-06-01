@@ -48,14 +48,11 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|美国4|@ripaojiedian
+  name: 11|12,13|美国4|@ripaojiedian
   network: ws
   port: '22642'
   server: tk.hzlt.tkddns.xyz
   servername: zxjp-b.tkong.cc
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
@@ -65,14 +62,11 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|美国6|@ripaojiedian
+  name: 11|12,13|美国6|@ripaojiedian
   network: ws
   port: '22641'
   server: 120.236.198.165
   servername: zxjp-a.tkong.cc
-  skip-cert-verify: false
-  tfo: false
   tls: true
   type: vmess
   uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
@@ -154,9 +148,17 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505250813455-t8Jl5DjrgW.download.microsoft.com
+    host: 202505160159024-hAiTvMCGlv.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇺🇸 美国4|@ripaojiedian
+  password: 26270a5c-cc66-4bb5-b058-c75d09d615e5
+  port: 54322
+  server: cm55-zz.moonwang.xyz
   tfo: false
   type: ss

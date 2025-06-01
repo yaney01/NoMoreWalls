@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 64
   cipher: auto
-  name: 11,16|香港3|@ripaojiedian
+  name: 11,16|新加坡2|@ripaojiedian
   network: tcp
   port: '49302'
   server: 183.236.51.38
@@ -51,7 +51,7 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11,16|香港9|@ripaojiedian
+  name: 11|13|香港9|@ripaojiedian
   network: tcp
   port: '15229'
   server: e871a090-sva740-tcq5zn-19qpt.cm.plebai.net
@@ -79,20 +79,30 @@ proxies:
     path: /utvbnrzejpmt
     skip-cert-verify: false
     tls: true
-  port: 36368
+  port: 34566
   server: hkkh11v1.xpmc.cc
   tfo: false
   type: ss
-- alterId: 0
+- alterId: 64
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇰🇷 韩国3|@ripaojiedian
+  name: 15|🇸🇬 新加坡2|@ripaojiedian
   password: e4af2638-bb12-4e4a-84f1-a032e23ca63f
-  port: 17232
-  server: 34ac196c-svlb40-tdnzz0-1qtp7.cm5.p5pv.com
+  port: 49302
+  server: 183.236.51.38
   skip-cert-verify: false
   sni: usla.mjt000.com
   tfo: false
   tls: false
   type: vmess
-  uuid: 3653c708-df72-11ee-aec1-f23c9164ca5d
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 16|香港9|@ripaojiedian
+  network: tcp
+  port: '31209'
+  server: 120.232.153.40
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
