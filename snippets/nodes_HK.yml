@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|3|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
+  name: 11|2|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -12,11 +12,38 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 11|14|香港5|@ripaojiedian
+  client-fingerprint: chrome
+  name: 11,15,16|香港|@ripaojiedian
+  network: ws
+  port: '8080'
+  server: b959ad51-sxaf40-t323lh-1t0nn.hgc1.tcpbbr.net
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ba78226c-b772-11ef-ab53-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港6|@ripaojiedian
   network: tcp
-  port: '52182'
+  port: '50412'
+  server: 103.30.78.122
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 086124a3-0084-405b-aea4-39b69d3836f3
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港5|@ripaojiedian
+  network: tcp
+  port: '43292'
   server: 120.232.153.40
   servername: ''
   tls: false
@@ -49,23 +76,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|香港|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: b959ad51-sxaf40-t323lh-1t0nn.hgc1.tcpbbr.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: ba78226c-b772-11ef-ab53-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
@@ -92,26 +102,6 @@ proxies:
   skip-cert-verify: false
   sni: ddd0977f-sxaf40-t3b4w3-ywms.cm5.cnkuaishou.com
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 16|香港6|@ripaojiedian
-  network: tcp
-  port: '50412'
-  server: 103.30.78.122
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 086124a3-0084-405b-aea4-39b69d3836f3
-- alterId: 0
-  cipher: auto
-  name: 16|香港5|@ripaojiedian
-  network: tcp
-  port: '43292'
-  server: 120.232.153.40
-  servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
