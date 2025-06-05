@@ -336,65 +336,53 @@ proxies:
   name: 15|tg频道:@ripaojiedian
   password: qawszxc123
   port: 443
-  server: 52.221.229.127
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡5|@ripaojiedian
-  password: 905fcd78-866c-81e1-3cb8-1beb59d661ab
-  port: 27231
-  server: 3050cfd7-sx6ps0-sydxa9-fa3p.cm5.cnkuaishou.com
-  skip-cert-verify: false
-  sni: 3050cfd7-sx6ps0-sydxa9-fa3p.cm5.cnkuaishou.com
-  tfo: false
-  tls: false
-  type: trojan
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港2|@ripaojiedian
-  password: 91a41f4e02dc
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: hkkh11v1.xpmc.cc
-    mode: websocket
-    mux: true
-    path: /utvbnrzejpmt
-    skip-cert-verify: false
-    tls: true
-  port: 56804
-  server: hkkh11v1.xpmc.cc
+  server: 18.143.171.45
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 15|🇭🇰 香港6|@ripaojiedian
-  password: GUSA917ZCX1WAKMT
-  port: 15016
-  server: ti3hyra4.slashdevslashnetslashtun.net
+  name: 15|🇭🇰 香港|@ripaojiedian
+  password: 4KGHWKCKQAJOVPHO
+  port: 15003
+  server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 15|🇹🇼 台湾|@ripaojiedian
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
+  name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 1450cecfb93f
+  plugin: v2ray-plugin
   plugin-opts:
-    host: 09499c8:182394
-    mode: tls
-  port: 2377
-  server: 60.249.35.38
+    host: kh36v1.pmxiaonan.xyz
+    mode: websocket
+    mux: true
+    path: /simieepvt
+    skip-cert-verify: false
+    tls: true
+  port: 17161
+  server: 121.127.231.217
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇨🇭 瑞士|@ripaojiedian
+  password: 1469e09e-027c-11ec-a0fc-f23c913c8d2b
+  port: 15002
+  server: 15002.kuaiyin02.top
+  skip-cert-verify: false
+  sni: 204bdce4-sxaf40-t5bgb3-l4nv.cm5.cnkuaishou.com
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505282364048-WX78G4MFft.download.microsoft.com
+    host: 202505282364048-k4BSs9rOoW.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -412,16 +400,28 @@ proxies:
     path: /matwnpkhug
     skip-cert-verify: false
     tls: true
-  port: 37989
+  port: 43361
   server: 43.226.17.11
   tfo: false
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本4|@ripaojiedian
-  password: 6EZ5QKFX60AVSUYT
-  port: 18008
+  name: 15|🇯🇵 日本3|@ripaojiedian
+  password: 4VWFR9NJLC1NGM7Q
+  port: 18006
   server: ti3hyra4.slashdevslashnetslashtun.net
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇯🇵 日本4|@ripaojiedian
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: (TG @WangCai2)aa1c23d:49858
+    mode: tls
+  port: 2377
+  server: 221.215.48.116
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -440,23 +440,43 @@ proxies:
   server: p080.panda001.net
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 15|🇰🇷 韩国3|@ripaojiedian
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 9898
-  server: 3.36.123.246
-  tfo: false
-  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505282364048-WX78G4MFft.download.microsoft.com
+    host: 202505282364048-k4BSs9rOoW.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 15|🇺🇦 乌克兰|@ripaojiedian
+  password: 6a828f44-0434-3bd4-aca5-a90b696a910c
+  port: 20072
+  server: f8cwp-g04.ua01-ae5.entry.v50307shvkaa.art
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港6|@ripaojiedian
+  network: tcp
+  port: '49131'
+  server: 38.147.188.236
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: beca03de-218f-4c6c-8e63-b4ccac456fa4
+- alterId: 0
+  cipher: auto
+  name: 16|瑞士|@ripaojiedian
+  network: tcp
+  port: '15002'
+  server: 15002.kuaiyin02.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
