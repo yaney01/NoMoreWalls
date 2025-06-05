@@ -119,6 +119,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港6|@ripaojiedian
+  network: tcp
+  port: '49131'
+  server: 38.147.188.236
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: beca03de-218f-4c6c-8e63-b4ccac456fa4
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -197,6 +207,16 @@ proxies:
     headers:
       Host: zxjp-c.tkong.cc
     path: /
+- alterId: 0
+  cipher: auto
+  name: 11,16|瑞士|@ripaojiedian
+  network: tcp
+  port: '15002'
+  server: 15002.kuaiyin02.top
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
 - alterId: 0
   cipher: auto
   name: 11,16|日本V2|@ripaojiedian
@@ -460,23 +480,3 @@ proxies:
   server: f8cwp-g04.ua01-ae5.entry.v50307shvkaa.art
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港6|@ripaojiedian
-  network: tcp
-  port: '49131'
-  server: 38.147.188.236
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: beca03de-218f-4c6c-8e63-b4ccac456fa4
-- alterId: 0
-  cipher: auto
-  name: 16|瑞士|@ripaojiedian
-  network: tcp
-  port: '15002'
-  server: 15002.kuaiyin02.top
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 9f513161-576b-3abc-9c98-06e52c3a24c6
