@@ -1,7 +1,7 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: 11|3|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
+  name: 11|2|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -12,12 +12,32 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- alterId: 0
+- alterId: 64
   cipher: auto
-  name: 11|14|香港5|@ripaojiedian
+  name: 11,16|香港|@ripaojiedian
   network: tcp
-  port: '33919'
+  port: '49554'
   server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,16|香港3|@ripaojiedian
+  network: tcp
+  port: '49302'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: 11,16|香港5|@ripaojiedian
+  network: tcp
+  port: '31209'
+  server: 120.232.153.40
   servername: ''
   tls: false
   type: vmess
@@ -39,26 +59,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 64
-  cipher: auto
-  name: 11,16|香港5|@ripaojiedian
-  network: tcp
-  port: '31209'
-  server: 120.232.153.40
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|14|香港6|@ripaojiedian
-  network: tcp
-  port: '49131'
-  server: 38.147.188.236
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: beca03de-218f-4c6c-8e63-b4ccac456fa4
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -88,13 +88,3 @@ proxies:
   server: 121.127.231.217
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '49554'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
