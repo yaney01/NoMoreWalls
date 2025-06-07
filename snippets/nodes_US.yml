@@ -31,14 +31,11 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|美国5|@ripaojiedian
+  name: 11|13,14|美国5|@ripaojiedian
   network: ws
   port: '30828'
   server: 111.26.109.79
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -137,17 +134,26 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202505282364048-Tbm8fXQu06.download.microsoft.com
+    host: 202505310989964-u6lMbYHt99.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 2
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇺🇸 美国6|@ripaojiedian
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 9898
-  server: 35.89.114.253
+  name: 15,16|美国3|@ripaojiedian
+  network: ws
+  port: '30824'
+  server: v24.heduian.link
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: v24.heduian.link
+    path: /oooo
