@@ -94,7 +94,17 @@ proxies:
     path: /simieepvt
     skip-cert-verify: false
     tls: true
-  port: 54778
+  port: 29755
   server: 121.127.231.217
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港4|@ripaojiedian
+  network: tcp
+  port: '27680'
+  server: 38.147.189.7
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 1e17ef3c-b4a9-4430-ba37-3c986dba8f2f
