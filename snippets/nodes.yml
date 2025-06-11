@@ -101,28 +101,41 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|14|香港7@ripaojiedian
+  name: 11,16|香港7|@ripaojiedian
   network: tcp
-  port: '29992'
-  server: 103.224.80.111
+  port: '38993'
+  server: 103.224.80.89
   servername: ''
   tls: false
   type: vmess
-  uuid: c3659582-a6e0-45c2-92ec-3b4d8b240e07
+  uuid: 6f8c6f30-c726-4916-8f72-04f020c5c12d
+- alterId: 64
+  cipher: auto
+  name: 11,16|香港8|@ripaojiedian
+  network: tcp
+  port: '33519'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
-  name: 11|13,14|香港8|@ripaojiedian
+  client-fingerprint: chrome
+  name: 11,15,16|日本3|@ripaojiedian
   network: ws
-  port: '460'
-  server: 9b53711d-sxlj40-szcxa1-dmd8.hkt.east.wctype.com
+  port: '30806'
+  server: v6.heduian.link
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 2058bdd6-1505-11f0-a035-f23c95b6f51d
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: a605477178.m.ctrip.com
-    path: /
+      Host: ocbc.com
+    path: /oooo
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -184,20 +197,6 @@ proxies:
     headers:
       Host: v24.heduian.link
     path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 11|13,14|美国4|@ripaojiedian
-  network: ws
-  port: '22643'
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
 - alterId: 0
   cipher: auto
   name: 11,16|日本V2|@ripaojiedian
@@ -397,23 +396,6 @@ proxies:
   server: 43.226.17.11
   tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|日本3|@ripaojiedian
-  network: ws
-  port: '30806'
-  server: v6.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇺🇸 美国2|@ripaojiedian
@@ -426,23 +408,3 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港7|@ripaojiedian
-  network: tcp
-  port: '38993'
-  server: 103.224.80.89
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 6f8c6f30-c726-4916-8f72-04f020c5c12d
-- alterId: 64
-  cipher: auto
-  name: 16|香港8|@ripaojiedian
-  network: tcp
-  port: '33519'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
