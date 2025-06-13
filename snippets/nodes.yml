@@ -111,7 +111,7 @@ proxies:
   uuid: 8037ce00-c860-4213-b888-be5c7ed6ea48
 - alterId: 64
   cipher: auto
-  name: 11,16|香港8|@ripaojiedian
+  name: 11|14|香港8|@ripaojiedian
   network: tcp
   port: '33519'
   server: 183.236.51.38
@@ -334,27 +334,43 @@ proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|tg频道:@ripaojiedian
-  password: yijian0503
+  password: awsps0501
   port: 443
-  server: 52.79.86.24
+  server: 35.77.92.51
   tfo: false
   type: ss
-- alterId: 64
+- alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 15|🇲🇾 马来西亚|@ripaojiedian
-  password: 2b1ed981-6547-4094-998b-06a3323d6f6c
-  port: 21031
-  server: 120.233.44.201
+  name: 15|🇰🇷 韩国2|@ripaojiedian
+  password: 85f133142f04dbf6547da33895cfabb3
+  port: 18740
+  server: 45.94.68.130
   skip-cert-verify: false
-  sni: k54.tudou211.com
+  sni: www.yrtok.com
   tfo: false
   tls: false
-  type: trojan
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  type: vmess
+  uuid: 0d90d331-6c70-4cb9-855b-c11bcfd227c4
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
+  password: 1450cecfb93f
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: kh36v1.pmxiaonan.xyz
+    mode: websocket
+    mux: true
+    path: /simieepvt
+    skip-cert-verify: false
+    tls: true
+  port: 42519
+  server: 121.127.231.229
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 15|🇭🇰 香港2|@ripaojiedian 2
   password: 08293b204707
   plugin: v2ray-plugin
   plugin-opts:
@@ -368,21 +384,13 @@ proxies:
   server: 156.251.179.79
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 15|🇭🇰 香港9|@ripaojiedian
-  password: rGDbiF7gtx5TWt4r4VjneQ==
-  port: 552
-  server: 156.225.22.213
-  tfo: false
-  type: ss
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506070920094-qDwEcSPT9B.download.microsoft.com
+    host: 202506070920094-n6Kql0nGua.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -400,27 +408,81 @@ proxies:
     path: /matwnpkhug
     skip-cert-verify: false
     tls: true
-  port: 33604
+  port: 59294
   server: 43.226.17.11
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 15|🇯🇵 日本5|@ripaojiedian
-  password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 9898
-  server: 43.207.233.41
+  name: 15,16|日本4|@ripaojiedian
+  network: ws
+  port: '46015'
+  server: 112.29.213.228
+  servername: ''
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇺🇸 美国2|@ripaojiedian
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506070920094-qDwEcSPT9B.download.microsoft.com
+    host: 202506070920094-n6Kql0nGua.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|澳大利亚|@ripaojiedian
+  network: ws
+  port: '46022'
+  server: 112.29.213.228
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
+- cipher: aes-256-cfb
+  client-fingerprint: chrome
+  name: 15|🇻🇳 越南|@ripaojiedian
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.18
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|新加坡4|@ripaojiedian
+  network: tcp
+  port: '56051'
+  server: 38.47.176.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2bca3569-0662-47f7-fdf8-421f30e71f44
+- alterId: 0
+  cipher: auto
+  name: 16|韩国2|@ripaojiedian
+  network: tcp
+  port: '18740'
+  server: 45.94.68.130
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0d90d331-6c70-4cb9-855b-c11bcfd227c4
