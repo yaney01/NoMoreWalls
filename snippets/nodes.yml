@@ -72,6 +72,16 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
+- alterId: 0
+  cipher: auto
+  name: 11,16|香港7|@ripaojiedian
+  network: tcp
+  port: '20332'
+  server: 43.247.135.2
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8037ce00-c860-4213-b888-be5c7ed6ea48
 - alterId: 64
   cipher: auto
   name: 11,16|新加坡3|@ripaojiedian
@@ -99,26 +109,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 11,16|香港7|@ripaojiedian
-  network: tcp
-  port: '20332'
-  server: 43.247.135.2
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8037ce00-c860-4213-b888-be5c7ed6ea48
-- alterId: 64
-  cipher: auto
-  name: 11|14|香港8|@ripaojiedian
-  network: tcp
-  port: '33519'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -136,6 +126,23 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|日本4|@ripaojiedian
+  network: ws
+  port: '46015'
+  server: 112.29.213.228
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -163,6 +170,26 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 11,16|新加坡4|@ripaojiedian
+  network: tcp
+  port: '56051'
+  server: 38.47.176.251
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 2bca3569-0662-47f7-fdf8-421f30e71f44
+- alterId: 0
+  cipher: auto
+  name: 11,16|韩国2|@ripaojiedian
+  network: tcp
+  port: '18740'
+  server: 45.94.68.130
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 0d90d331-6c70-4cb9-855b-c11bcfd227c4
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -197,6 +224,23 @@ proxies:
     headers:
       Host: v24.heduian.link
     path: /oooo
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|澳大利亚|@ripaojiedian
+  network: ws
+  port: '46022'
+  server: 112.29.213.228
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
+  ws-opts:
+    headers:
+      Host: ''
+    path: /zh-cn
 - alterId: 0
   cipher: auto
   name: 11,16|日本V2|@ripaojiedian
@@ -412,23 +456,6 @@ proxies:
   server: 43.226.17.11
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|日本4|@ripaojiedian
-  network: ws
-  port: '46015'
-  server: 112.29.213.228
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇺🇸 美国2|@ripaojiedian
@@ -441,23 +468,6 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|澳大利亚|@ripaojiedian
-  network: ws
-  port: '46022'
-  server: 112.29.213.228
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇻🇳 越南|@ripaojiedian
@@ -466,23 +476,3 @@ proxies:
   server: 103.186.154.18
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|新加坡4|@ripaojiedian
-  network: tcp
-  port: '56051'
-  server: 38.47.176.251
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 2bca3569-0662-47f7-fdf8-421f30e71f44
-- alterId: 0
-  cipher: auto
-  name: 16|韩国2|@ripaojiedian
-  network: tcp
-  port: '18740'
-  server: 45.94.68.130
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 0d90d331-6c70-4cb9-855b-c11bcfd227c4
