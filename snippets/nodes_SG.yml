@@ -37,14 +37,11 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|新加坡2|@ripaojiedian
+  name: 11|13,14|新加坡2|@ripaojiedian
   network: ws
   port: '46019'
   server: 112.29.213.228
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
@@ -52,3 +49,37 @@ proxies:
     headers:
       Host: ''
     path: /zh-cn
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|新加坡2|@ripaojiedian
+  network: ws
+  port: '443'
+  server: 5.10.245.69
+  servername: dcs.atlen.dpdns.org
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 5096073d-535a-4885-960d-e78d5cb0a83b
+  ws-opts:
+    headers:
+      Host: dcs.atlen.dpdns.org
+    path: /wyk
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15,16|新加坡4|@ripaojiedian
+  network: ws
+  port: '30839'
+  server: v39.heduian.link
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
