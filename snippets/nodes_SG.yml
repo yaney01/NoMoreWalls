@@ -37,22 +37,8 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|13,14|新加坡2|@ripaojiedian
-  network: ws
-  port: '46019'
-  server: 112.29.213.228
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 4c5a8a75-7d65-40a9-8c3b-a67abae08534
-  ws-opts:
-    headers:
-      Host: ''
-    path: /zh-cn
-- alterId: 0
-  cipher: auto
   client-fingerprint: chrome
-  name: 15,16|新加坡2|@ripaojiedian
+  name: 11,15,16|新加坡2|@ripaojiedian
   network: ws
   port: '443'
   server: 5.10.245.69
@@ -69,7 +55,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 15,16|新加坡4|@ripaojiedian
+  name: 11,15,16|新加坡4|@ripaojiedian
   network: ws
   port: '30839'
   server: v39.heduian.link
