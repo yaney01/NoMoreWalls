@@ -14,16 +14,6 @@ proxies:
     path: /634c5c4f9782
 - alterId: 0
   cipher: auto
-  name: 11|14|日本3|@ripaojiedian
-  network: tcp
-  port: '20452'
-  server: 140.227.28.92
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 52aba3eb-0a6f-4c2f-29c6-d4b18a1d7c3e
-- alterId: 0
-  cipher: auto
   name: 11,16|日本4|@ripaojiedian
   network: tcp
   port: '41302'
@@ -34,14 +24,14 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|14|日本V2|@ripaojiedian
+  name: 11,16|日本v2|@ripaojiedian
   network: kcp
-  port: '50951'
-  server: 8.211.154.107
+  port: '36668'
+  server: 8.211.175.53
   servername: ''
   tls: false
   type: vmess
-  uuid: a3d04548-625c-4658-9ff0-f9a7835d1f6d
+  uuid: b798372a-54c8-4597-969e-8b00d2f76c09
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -70,13 +60,3 @@ proxies:
   server: 121.0.97.29
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|日本v2|@ripaojiedian
-  network: kcp
-  port: '36668'
-  server: 8.211.175.53
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: b798372a-54c8-4597-969e-8b00d2f76c09

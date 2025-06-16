@@ -29,34 +29,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 2
-  cipher: auto
-  name: 11|13,14|美国3|@ripaojiedian
-  network: ws
-  port: '30824'
-  server: v24.heduian.link
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v24.heduian.link
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 11|13,14|美国4|@ripaojiedian
-  network: ws
-  port: '8443'
-  server: 104.18.43.21
-  servername: mailman-backing-facilitate-cents.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: b3b28da5-a27d-4d33-ee13-dcdf5c7fc45b
-  ws-opts:
-    headers:
-      Host: mailman-backing-facilitate-cents.trycloudflare.com
-    path: /
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
