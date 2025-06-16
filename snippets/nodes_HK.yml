@@ -14,14 +14,11 @@ proxies:
     path: /
 - alterId: 2
   cipher: auto
-  client-fingerprint: chrome
-  name: 11,15,16|香港6|@ripaojiedian
+  name: 11|13,14|香港6|@ripaojiedian
   network: ws
   port: '30809'
   server: v9.heduian.link
   servername: ''
-  skip-cert-verify: false
-  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
@@ -48,19 +45,6 @@ proxies:
   tls: true
   type: http
   username: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15|🇸🇬 新加坡3|@ripaojiedian
-  password: 85f133142f04dbf6547da33895cfabb3
-  port: 31209
-  server: 120.232.153.40
-  skip-cert-verify: false
-  sni: www.yrtok.com
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
@@ -73,7 +57,40 @@ proxies:
     path: /sclbvcgkp
     skip-cert-verify: false
     tls: true
-  port: 42084
+  port: 20507
   server: 156.251.179.238
   tfo: false
   type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: 15|🇺🇸 美国3|@ripaojiedian
+  password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+  port: 15229
+  server: 35eb0e91-sy0cg0-t7fz1r-8rja.cu.plebai.net
+  skip-cert-verify: false
+  sni: 35eb0e91-sy0cg0-t7fz1r-8rja.cu.plebai.net
+  tfo: false
+  tls: false
+  type: trojan
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: 16|香港6|@ripaojiedian
+  network: tcp
+  port: '20452'
+  server: 20.2.80.240
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 52aba3eb-0a6f-4c2f-29c6-d4b18a1d7c3e
+- alterId: 0
+  cipher: auto
+  name: 16|香港v2|@ripaojiedian
+  network: kcp
+  port: '10655'
+  server: 43.99.247.11
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cd9d6687-d1c0-49d9-89fa-2ac90940b17a
