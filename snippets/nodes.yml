@@ -1,7 +1,7 @@
 proxies:
 - alterId: 64
   cipher: auto
-  name: 11|2|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
+  name: 11|3|🇯🇵1 |  1.8MB/s|54%|Youtube|O...
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -14,7 +14,7 @@ proxies:
     path: /634c5c4f9782
 - alterId: 64
   cipher: auto
-  name: 11|2|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
+  name: 11|3|🇸🇬1 |  1.0MB/s|0%|Netflix|Di...
   network: tcp
   port: 49291
   server: 183.236.51.38
@@ -23,7 +23,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|2|🌀4-TH |  2.6MB/s|55%|Netflix...
+  name: 11|3|🌀4-TH |  2.6MB/s|55%|Netflix...
   network: ws
   port: 443
   server: 38.47.96.30
@@ -36,7 +36,7 @@ proxies:
     path: /lzjjj
 - alterId: 2
   cipher: auto
-  name: 11|2|🇺🇸62 |  3.3MB/s|Openai|Gemin...
+  name: 11|3|🇺🇸62 |  3.3MB/s|Openai|Gemin...
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -51,7 +51,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 11|2|🇩🇪5 |  1.4MB/s|0%|Youtube|Op...
+  name: 11|3|🇩🇪5 |  1.4MB/s|0%|Youtube|Op...
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -61,7 +61,7 @@ proxies:
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
 - alterId: 0
   cipher: auto
-  name: 11|2|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
+  name: 11|3|🇭🇰1 |  1.8MB/s|15%|Disney|Yo...
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -72,36 +72,50 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 11|13|新加坡3|@ripaojiedian
+  name: 11,16|香港6|@ripaojiedian
   network: tcp
-  port: '31209'
-  server: 120.232.153.40
+  port: '36519'
+  server: 183.236.51.38
   servername: ''
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|13|香港6|@ripaojiedian
-  network: tcp
-  port: '20452'
-  server: 20.2.80.240
-  servername: ''
-  tls: false
+  client-fingerprint: chrome
+  name: 11,15,16|香港5|@ripaojiedian
+  network: ws
+  port: '8443'
+  server: 104.18.42.62
+  servername: hk2.huaweiwuu5.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vmess
-  uuid: 52aba3eb-0a6f-4c2f-29c6-d4b18a1d7c3e
-- alterId: 0
+  uuid: 48469ac3-9fe7-4fb3-9320-6c8b0494c4f7
+  ws-opts:
+    headers:
+      Host: hk2.huaweiwuu5.xyz
+    path: /
+- alterId: 2
   cipher: auto
-  name: 11|13|香港7|@ripaojiedian
-  network: tcp
-  port: '46159'
-  server: 120.198.71.216
+  client-fingerprint: chrome
+  name: 11,15,16|香港7|@ripaojiedian
+  network: ws
+  port: '30809'
+  server: v9.heduian.link
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: baidu.com
+    path: /oooo
 - alterId: 0
   cipher: auto
   name: 11,16|日本4|@ripaojiedian
@@ -114,27 +128,37 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: 11|13|韩国|@ripaojiedian
-  network: tcp
-  port: '31945'
-  server: 203.227.44.74
-  servername: ''
-  tls: false
+  client-fingerprint: chrome
+  name: 11,15,16|新加坡2|@ripaojiedian
+  network: ws
+  port: '8443'
+  server: 172.64.157.100
+  servername: transcripts-guys-singapore-fotos.trycloudflare.com
+  skip-cert-verify: false
+  tfo: false
+  tls: true
   type: vmess
-  uuid: 7ccbb147-38b8-4d7c-9201-2ad4ae8b8761
+  uuid: 3da5d27f-08d0-4078-f890-cf950ecb1708
+  ws-opts:
+    headers:
+      Host: transcripts-guys-singapore-fotos.trycloudflare.com
+    path: /
 - alterId: 2
   cipher: auto
-  name: 11|12,13|美国|@ripaojiedian
+  client-fingerprint: chrome
+  name: 11,15,16|美国|@ripaojiedian
   network: ws
-  port: '30832'
-  server: v32.heduian.link
+  port: '30828'
+  server: v28.heduian.link
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: baidu.com
+      Host: ocbc.com
     path: /oooo
 - alterId: 0
   cipher: auto
@@ -337,40 +361,6 @@ proxies:
   server: kh36v1.pmxiaonan.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|香港5|@ripaojiedian
-  network: ws
-  port: '8443'
-  server: 104.18.42.62
-  servername: hk2.huaweiwuu5.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 48469ac3-9fe7-4fb3-9320-6c8b0494c4f7
-  ws-opts:
-    headers:
-      Host: hk2.huaweiwuu5.xyz
-    path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|香港7|@ripaojiedian
-  network: ws
-  port: '30809'
-  server: v9.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
@@ -407,40 +397,6 @@ proxies:
   server: 3.36.114.140
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|新加坡2|@ripaojiedian
-  network: ws
-  port: '8443'
-  server: 172.64.157.100
-  servername: transcripts-guys-singapore-fotos.trycloudflare.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 3da5d27f-08d0-4078-f890-cf950ecb1708
-  ws-opts:
-    headers:
-      Host: transcripts-guys-singapore-fotos.trycloudflare.com
-    path: /
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|美国|@ripaojiedian
-  network: ws
-  port: '30828'
-  server: v28.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇺🇸 美国2|@ripaojiedian
@@ -453,13 +409,3 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港6|@ripaojiedian
-  network: tcp
-  port: '36519'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
