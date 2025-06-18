@@ -74,6 +74,16 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
+  name: 11,16|香港|@ripaojiedian
+  network: tcp
+  port: '22359'
+  server: 38.147.188.74
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 36797754-bb59-4741-b085-86feb2ec547c
+- alterId: 0
+  cipher: auto
   name: 11,16|香港6|@ripaojiedian
   network: tcp
   port: '36519'
@@ -82,20 +92,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|12,13|香港5|@ripaojiedian
-  network: ws
-  port: '8443'
-  server: 104.18.42.62
-  servername: hk2.huaweiwuu5.xyz
-  tls: true
-  type: vmess
-  uuid: 48469ac3-9fe7-4fb3-9320-6c8b0494c4f7
-  ws-opts:
-    headers:
-      Host: hk2.huaweiwuu5.xyz
-    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -123,20 +119,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 11|12,13|新加坡2|@ripaojiedian
-  network: ws
-  port: '8443'
-  server: 172.64.157.100
-  servername: transcripts-guys-singapore-fotos.trycloudflare.com
-  tls: true
-  type: vmess
-  uuid: 3da5d27f-08d0-4078-f890-cf950ecb1708
-  ws-opts:
-    headers:
-      Host: transcripts-guys-singapore-fotos.trycloudflare.com
-    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -154,6 +136,57 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
+- alterId: 2
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|美国4|@ripaojiedian
+  network: ws
+  port: '22642'
+  server: tk.hzlt.tkddns.xyz
+  servername: zxjp-b.tkong.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  ws-opts:
+    headers:
+      Host: zxjp-b.tkong.cc
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|美国5|@ripaojiedian
+  network: ws
+  port: '80'
+  server: OOoOOOooOp.222769.XYZ
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ce921385-2b31-45fe-84c5-1843e8ae845b
+  ws-opts:
+    headers:
+      Host: ooooooooop.222769.xyz
+    path: /VaaSEfNLHdW3I98dxLkez
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 11,15,16|美国6|@ripaojiedian
+  network: ws
+  port: '80'
+  server: LllLLLllllLKJh.222560.xyZ
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ce921385-2b31-45fe-84c5-1843e8ae845b
+  ws-opts:
+    headers:
+      Host: lllllllllllkjh.222560.xyz
+    path: /VaaSEfNLHdW3I98dxLkez
 - alterId: 0
   cipher: auto
   name: 11,16|香港v2|@ripaojiedian
@@ -419,57 +452,6 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|美国4|@ripaojiedian
-  network: ws
-  port: '22642'
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-b.tkong.cc
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|美国5|@ripaojiedian
-  network: ws
-  port: '80'
-  server: OOoOOOooOp.222769.XYZ
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: ce921385-2b31-45fe-84c5-1843e8ae845b
-  ws-opts:
-    headers:
-      Host: ooooooooop.222769.xyz
-    path: /VaaSEfNLHdW3I98dxLkez
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|美国6|@ripaojiedian
-  network: ws
-  port: '80'
-  server: LllLLLllllLKJh.222560.xyZ
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: ce921385-2b31-45fe-84c5-1843e8ae845b
-  ws-opts:
-    headers:
-      Host: lllllllllllkjh.222560.xyz
-    path: /VaaSEfNLHdW3I98dxLkez
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇻🇳 越南|@ripaojiedian
@@ -478,13 +460,3 @@ proxies:
   server: 103.186.155.25
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '22359'
-  server: 38.147.188.74
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 36797754-bb59-4741-b085-86feb2ec547c
