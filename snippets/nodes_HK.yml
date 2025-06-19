@@ -14,7 +14,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11,16|香港|@ripaojiedian
+  name: 11|14|香港|@ripaojiedian
   network: tcp
   port: '22359'
   server: 38.147.188.74
@@ -84,7 +84,7 @@ proxies:
     path: /simieepvt
     skip-cert-verify: false
     tls: true
-  port: 14556
+  port: 26902
   server: kh36v1.pmxiaonan.xyz
   tfo: false
   type: ss
@@ -96,3 +96,13 @@ proxies:
   server: 120.232.220.156
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: 16|香港|@ripaojiedian
+  network: tcp
+  port: '22052'
+  server: 103.224.80.32
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 8fb24cb8-7d4e-4108-87cc-579b31d5ffa6
