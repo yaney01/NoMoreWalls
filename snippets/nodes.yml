@@ -74,14 +74,14 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: 11|14|香港|@ripaojiedian
+  name: 11,16|香港|@ripaojiedian
   network: tcp
-  port: '22359'
-  server: 38.147.188.74
+  port: '22052'
+  server: 103.224.80.32
   servername: ''
   tls: false
   type: vmess
-  uuid: 36797754-bb59-4741-b085-86feb2ec547c
+  uuid: 8fb24cb8-7d4e-4108-87cc-579b31d5ffa6
 - alterId: 0
   cipher: auto
   name: 11,16|香港6|@ripaojiedian
@@ -138,46 +138,21 @@ proxies:
     path: /oooo
 - alterId: 2
   cipher: auto
-  name: 11|13,14|美国4|@ripaojiedian
+  client-fingerprint: chrome
+  name: 11,15,16|美国4|@ripaojiedian
   network: ws
-  port: '22642'
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-b.tkong.cc
-  tls: true
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-b.tkong.cc
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11|13,14|美国5|@ripaojiedian
-  network: ws
-  port: '80'
-  server: OOoOOOooOp.222769.XYZ
+  port: '30828'
+  server: 111.26.109.79
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: ce921385-2b31-45fe-84c5-1843e8ae845b
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: ooooooooop.222769.xyz
-    path: /VaaSEfNLHdW3I98dxLkez
-- alterId: 0
-  cipher: auto
-  name: 11|13,14|美国6|@ripaojiedian
-  network: ws
-  port: '80'
-  server: LllLLLllllLKJh.222560.xyZ
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: ce921385-2b31-45fe-84c5-1843e8ae845b
-  ws-opts:
-    headers:
-      Host: lllllllllllkjh.222560.xyz
-    path: /VaaSEfNLHdW3I98dxLkez
+      Host: ocbc.com
+    path: /oooo
 - alterId: 0
   cipher: auto
   name: 11,16|香港v2|@ripaojiedian
@@ -443,23 +418,6 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|美国4|@ripaojiedian
-  network: ws
-  port: '30828'
-  server: 111.26.109.79
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 15|🇻🇳 越南|@ripaojiedian
@@ -468,13 +426,3 @@ proxies:
   server: 103.186.155.25
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港|@ripaojiedian
-  network: tcp
-  port: '22052'
-  server: 103.224.80.32
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 8fb24cb8-7d4e-4108-87cc-579b31d5ffa6
