@@ -91,18 +91,14 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|新加坡2|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: 172.64.229.5
+  name: '11,16|香港3|@ripaojiedian #1'
+  network: tcp
+  port: '46210'
+  server: 43.247.135.170
   servername: ''
   tls: false
   type: vmess
-  uuid: 697343bc-9c91-47bb-a277-181ea7586313
-  ws-opts:
-    headers:
-      Host: xjp.yilex.icu
-    path: /
+  uuid: d1eca706-1aae-42d3-bab0-69995d7b023d
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -120,20 +116,6 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 11|美国3|@ripaojiedian
-  network: ws
-  port: '80'
-  server: dddddDDDDD4.222560.xyZ
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 393b1061-d615-459a-8616-3f9447bdff5a
-  ws-opts:
-    headers:
-      Host: dddddddddd4.222560.xyz
-    path: /iXfi0mMmPYp9UA6Y34zWUk6JUQ
 - alterId: 0
   cipher: auto
   name: '11,16|台湾v2|@ripaojiedian #1'
@@ -154,16 +136,6 @@ proxies:
   tls: false
   type: vmess
   uuid: b798372a-54c8-4597-969e-8b00d2f76c09
-- alterId: 0
-  cipher: auto
-  name: 11|新加坡|@ripaojiedian
-  network: kcp
-  port: '51713'
-  server: 8.219.72.131
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 5ddb4459-ce08-462b-b920-efc464f7e94e
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 印度  2
@@ -438,13 +410,3 @@ proxies:
     headers:
       Host: ZZzzzZZ.890601.XYZ
     path: /l96MZ8se5Kl2p8BiMhP42l
-- alterId: 0
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '46210'
-  server: 43.247.135.170
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d1eca706-1aae-42d3-bab0-69995d7b023d

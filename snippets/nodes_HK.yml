@@ -29,6 +29,16 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
+- alterId: 0
+  cipher: auto
+  name: '11,16|香港3|@ripaojiedian #1'
+  network: tcp
+  port: '46210'
+  server: 43.247.135.170
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: d1eca706-1aae-42d3-bab0-69995d7b023d
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
@@ -74,13 +84,3 @@ proxies:
   server: 111.45.33.5
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|香港3|@ripaojiedian
-  network: tcp
-  port: '46210'
-  server: 43.247.135.170
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: d1eca706-1aae-42d3-bab0-69995d7b023d
