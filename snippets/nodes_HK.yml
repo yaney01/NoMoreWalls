@@ -39,6 +39,26 @@ proxies:
   tls: false
   type: vmess
   uuid: d1eca706-1aae-42d3-bab0-69995d7b023d
+- alterId: 64
+  cipher: auto
+  name: '11,16|香港5|@ripaojiedian #1'
+  network: tcp
+  port: '41174'
+  server: 120.234.102.229
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 64
+  cipher: auto
+  name: '11,16|香港8|@ripaojiedian #1'
+  network: tcp
+  port: '49154'
+  server: 183.236.51.38
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
@@ -76,23 +96,3 @@ proxies:
   server: 111.45.33.5
   tfo: false
   type: ss
-- alterId: 64
-  cipher: auto
-  name: 16|香港5|@ripaojiedian
-  network: tcp
-  port: '41174'
-  server: 120.234.102.229
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 16|香港8|@ripaojiedian
-  network: tcp
-  port: '49154'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
