@@ -119,6 +119,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '11,16|韩国|@ripaojiedian #1'
+  network: tcp
+  port: '49815'
+  server: 45.141.136.234
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 105af49c-e4ee-4294-b7cc-abfe6a651cf5
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -417,13 +427,3 @@ proxies:
   server: 103.163.218.2
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|韩国|@ripaojiedian
-  network: tcp
-  port: '49815'
-  server: 45.141.136.234
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 105af49c-e4ee-4294-b7cc-abfe6a651cf5
