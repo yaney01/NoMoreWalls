@@ -111,7 +111,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 64
   cipher: auto
-  name: 11,16|香港6|@ripaojiedian
+  name: '11,16|香港6|@ripaojiedian #1'
   network: tcp
   port: '49154'
   server: 183.236.51.38
@@ -119,6 +119,16 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: '11,16|日本4|@ripaojiedian #1'
+  network: tcp
+  port: '3684'
+  server: a29b45ed-submo0-syap8d-dbk8.d.volczijie.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: 45845d5e-0605-11f0-8cf9-f23c93136cb3
 - alterId: 0
   cipher: auto
   name: '11,16|韩国|@ripaojiedian #1'
@@ -391,13 +401,3 @@ proxies:
   server: 103.163.218.2
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 16|日本4|@ripaojiedian
-  network: tcp
-  port: '3684'
-  server: a29b45ed-submo0-syap8d-dbk8.d.volczijie.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 45845d5e-0605-11f0-8cf9-f23c93136cb3
