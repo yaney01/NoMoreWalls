@@ -15,7 +15,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15,16|香港|@ripaojiedian
+  name: '11,15,16|香港|@ripaojiedian #1'
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -39,26 +39,16 @@ proxies:
   tls: false
   type: vmess
   uuid: d1eca706-1aae-42d3-bab0-69995d7b023d
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: 11|香港5|@ripaojiedian
-  network: tcp
-  port: '41174'
-  server: 120.234.102.229
+  name: '11,16|香港v2|@ripaojiedian #1'
+  network: kcp
+  port: '34833'
+  server: 47.76.28.43
   servername: ''
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11|香港6|@ripaojiedian
-  network: tcp
-  port: '49154'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: dd0d30ae-a4d1-4d1e-8553-42bfff66fd27
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 15|🇭🇰 香港2|@ripaojiedian
@@ -88,13 +78,3 @@ proxies:
   tls: false
   type: trojan
   uuid: d1eca706-1aae-42d3-bab0-69995d7b023d
-- alterId: 0
-  cipher: auto
-  name: 16|香港v2|@ripaojiedian
-  network: kcp
-  port: '34833'
-  server: 47.76.28.43
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dd0d30ae-a4d1-4d1e-8553-42bfff66fd27

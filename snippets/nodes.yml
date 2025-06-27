@@ -75,7 +75,7 @@ proxies:
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
-  name: 11,15,16|香港|@ripaojiedian
+  name: '11,15,16|香港|@ripaojiedian #1'
   network: ws
   port: '30809'
   server: v9.heduian.link
@@ -99,40 +99,6 @@ proxies:
   tls: false
   type: vmess
   uuid: d1eca706-1aae-42d3-bab0-69995d7b023d
-- alterId: 64
-  cipher: auto
-  name: 11|香港5|@ripaojiedian
-  network: tcp
-  port: '41174'
-  server: 120.234.102.229
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 64
-  cipher: auto
-  name: 11|香港6|@ripaojiedian
-  network: tcp
-  port: '49154'
-  server: 183.236.51.38
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
-  cipher: auto
-  name: 11|日本3|@ripaojiedian
-  network: ws
-  port: '30806'
-  server: v6.heduian.link
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -152,6 +118,33 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
+  client-fingerprint: chrome
+  name: '11,15,16|美国3|@ripaojiedian #1'
+  network: ws
+  port: '38003'
+  server: 38.11.18.221
+  servername: www.47720602.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: www.47720602.xyz
+    path: /path/262029062315
+- alterId: 0
+  cipher: auto
+  name: '11,16|香港v2|@ripaojiedian #1'
+  network: kcp
+  port: '34833'
+  server: 47.76.28.43
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: dd0d30ae-a4d1-4d1e-8553-42bfff66fd27
+- alterId: 0
+  cipher: auto
   name: '11,16|台湾v2|@ripaojiedian #1'
   network: kcp
   port: '5663'
@@ -162,14 +155,14 @@ proxies:
   uuid: 986b3bc8-d0fb-4b60-b01f-28164e44cd48
 - alterId: 0
   cipher: auto
-  name: 11|日本v2|@ripaojiedian
+  name: '11,16|日本v2|@ripaojiedian #1'
   network: kcp
-  port: '36668'
-  server: 8.211.175.53
+  port: '47628'
+  server: 47.74.43.182
   servername: ''
   tls: false
   type: vmess
-  uuid: b798372a-54c8-4597-969e-8b00d2f76c09
+  uuid: f8d05bf8-bc4d-4599-9a3a-8dce9c223815
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 印度  2
@@ -345,7 +338,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506261935105-cz34e1QbA1.download.microsoft.com
+    host: 202506212021989-5pgsEe2BPt.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -389,7 +382,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506261935105-cz34e1QbA1.download.microsoft.com
+    host: 202506212021989-5pgsEe2BPt.download.microsoft.com
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
@@ -403,40 +396,3 @@ proxies:
   server: 103.163.218.2
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|美国3|@ripaojiedian
-  network: ws
-  port: '38003'
-  server: 38.11.18.221
-  servername: www.47720602.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.47720602.xyz
-    path: /path/262029062315
-- alterId: 0
-  cipher: auto
-  name: 16|香港v2|@ripaojiedian
-  network: kcp
-  port: '34833'
-  server: 47.76.28.43
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: dd0d30ae-a4d1-4d1e-8553-42bfff66fd27
-- alterId: 0
-  cipher: auto
-  name: '16|日本v2|@ripaojiedian #1'
-  network: kcp
-  port: '47628'
-  server: 47.74.43.182
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: f8d05bf8-bc4d-4599-9a3a-8dce9c223815
