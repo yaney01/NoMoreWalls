@@ -31,18 +31,21 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: 11|美国3|@ripaojiedian
+  client-fingerprint: chrome
+  name: '11,15,16|美国3|@ripaojiedian #1'
   network: ws
-  port: '38003'
-  server: 38.11.18.221
-  servername: www.47720602.xyz
-  tls: true
+  port: '80'
+  server: 104.21.57.206
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: 3d9741da-c0e4-47cc-a5e0-f1af3d337dae
   ws-opts:
     headers:
-      Host: www.47720602.xyz
-    path: /path/262029062315
+      Host: sssssssssssdddfgt.4444926.xyz
+    path: /U2Z0FoBkgtZqfwAwY2SNm
 - alterId: 0
   cipher: auto
   name: 12|github.com/freefq - 美国CloudFla...
@@ -123,20 +126,3 @@ proxies:
   server: cn01.efan8867801.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: '15,16|美国3|@ripaojiedian #1'
-  network: ws
-  port: '80'
-  server: 104.21.57.206
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 3d9741da-c0e4-47cc-a5e0-f1af3d337dae
-  ws-opts:
-    headers:
-      Host: sssssssssssdddfgt.4444926.xyz
-    path: /U2Z0FoBkgtZqfwAwY2SNm
