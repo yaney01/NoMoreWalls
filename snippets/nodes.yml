@@ -89,20 +89,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 11|香港4|@ripaojiedian
-  network: ws
-  port: '8080'
-  server: 977fb705-symkg0-t02swp-fa3p.hgc1.tcpbbr.net
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: 905fcd78-866c-81e1-3cb8-1beb59d661ab
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -120,20 +106,23 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: 11|美国3|@ripaojiedian
+  client-fingerprint: chrome
+  name: '11,15,16|美国3|@ripaojiedian #1'
   network: ws
-  port: '80'
-  server: 104.21.57.206
+  port: '30824'
+  server: v24.heduian.link
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 3d9741da-c0e4-47cc-a5e0-f1af3d337dae
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   ws-opts:
     headers:
-      Host: sssssssssssdddfgt.4444926.xyz
-    path: /U2Z0FoBkgtZqfwAwY2SNm
+      Host: v24.heduian.link
+    path: /oooo
 - alterId: 0
   cipher: auto
   name: '11,16|香港v2|@ripaojiedian #1'
@@ -408,20 +397,3 @@ proxies:
   server: 103.163.218.2
   tfo: false
   type: ss
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: '15,16|美国3|@ripaojiedian #1'
-  network: ws
-  port: '30824'
-  server: v24.heduian.link
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v24.heduian.link
-    path: /oooo
