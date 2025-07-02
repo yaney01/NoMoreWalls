@@ -99,16 +99,23 @@ proxies:
   tls: false
   type: vmess
   uuid: efbdabeb-68df-4cd0-959d-7d4f4b508609
-- alterId: 64
+- alterId: 2
   cipher: auto
-  name: 11|香港4|@ripaojiedian
-  network: tcp
-  port: '41911'
-  server: 183.236.51.37
+  client-fingerprint: chrome
+  name: '11,15,16|香港6|@ripaojiedian #1'
+  network: ws
+  port: '80'
+  server: hkt.gotochinatown.net
   servername: ''
+  skip-cert-verify: false
+  tfo: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: b68f4b4c-2d02-11ec-9ee8-f23c913c8d2b
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - alterId: 2
   cipher: auto
   client-fingerprint: chrome
@@ -126,20 +133,6 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: 11|美国5|@ripaojiedian
-  network: ws
-  port: '443'
-  server: api.jquery.com
-  servername: admin.kasrax.ir
-  tls: true
-  type: vmess
-  uuid: de94cc0a-0592-4969-b1fc-97ea8f0ea0b3
-  ws-opts:
-    headers:
-      Host: admin.kasrax.ir
-    path: /us.kkp.me.eu.org/aa
 - alterId: 0
   cipher: auto
   name: '11,16|香港v2|@ripaojiedian #1'
@@ -321,23 +314,6 @@ proxies:
   tls: false
   type: trojan
   uuid: efbdabeb-68df-4cd0-959d-7d4f4b508609
-- alterId: 2
-  cipher: auto
-  client-fingerprint: chrome
-  name: 15,16|香港6|@ripaojiedian
-  network: ws
-  port: '80'
-  server: hkt.gotochinatown.net
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: b68f4b4c-2d02-11ec-9ee8-f23c913c8d2b
-  ws-opts:
-    headers:
-      Host: broadcastlv.chat.bilibili.com
-    path: /
 - cipher: rc4-md5
   client-fingerprint: chrome
   name: 15|🇯🇵 日本|@ripaojiedian
